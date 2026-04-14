@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+
+{# ============================================
+   PAGE TITLE
+   ============================================
+   Τίτλος που εμφανίζεται στο browser tab
+#}
+{% block title %}{{ enotita }} - Κουίζ{% endblock %}
+
+{% block content %}
+<div class="container">
+    {# ============================================
+       UNIT TITLE
+       ============================================
+       Τίτλος ενότητας
+    #}
+    <h1>{{ enotita }}</h1>
+
+    <div class="quiz-box">
+        {# τίτλος quiz box #}
+        <div class="quiz-title">Κουίζ</div>
+
+        {# ============================================
+           DIFFICULTY FILTER
+           ============================================
+           GET form για επιλογή difficulty
+           Όταν αλλάζει το select, γίνεται submit αυτόματα
+        #}
+        <form method="get" style="margin-bottom: 20px;">
+            <label for="difficulty"><strong>Επίπεδο:</strong></label>
+            <select name="difficulty" id="difficulty" onchange="this.form.submit()">
+                <option value="all" {% if difficulty == "all" %}selected{% endif %}>Όλα</option>
+                <option value="easy" {% if difficulty == "easy" %}selected{% endif %}>Easy</option>
+                <option value="medium" {% if difficulty == "medium" %}selected{% endif %}>Medium</option>
+                <option value="hard" {% if difficulty == "hard" %}selected{% endif %}>Hard</option>
+            </select>
+        </form>
+
+        {# ============================================
+           SCORE BOX
+           ============================================
+           Εμφανίζεται μόνο μετά την υποβολή
+        #}
+        {% if score is not none %}
+            <div class="quiz-score-box">
+                <strong>Βαθμολογία:</strong> {{ score }} / {{ total }}
+            </div>
+        {% endif %}
+
+        {# ============================================
+           QUESTIONS BLOCK
+           ============================================
+           Αν υπάρχουν ερωτήσεις, εμφανίζεται η φόρμα
+           αλλιώς εμφανίζεται μήνυμα
+        #}
+        {% if questions %}
+            <form method="post">
+                {# κρατάμε το difficulty και στο POST #}
+                <input type="hidden" name="difficulty" value="{{ difficulty }}">
+
+                {# ============================================
+                   LOOP QUESTIONS
+                   ============================================
+                   Κάνουμε loop σε όλες τις ερωτήσεις
+                #}
+                {% for question in questions %}
+                    {% set q_index = loop.index0 %}
+
+                    {# ============================================
+                       QUIZ QUESTION CONTAINER
+                       ============================================
+                       Κουτί κάθε ερώτησης
+                    #}
+                    <div class="quiz-question">
+
+                        {# ============================================
+                           QUESTION TITLE
+                           ============================================
+                           Η εκφώνηση της ερώτησης
+                           Χρησιμοποιούμε question.question γιατί
+                           το κάθε quiz item είναι dictionary
+                        #}
+                        <div class="quiz-question-title quiz-highlight">
+                            {{ loop.index }}. {{ question.question | safe }}
+                        </div>
+
+                        {# ============================================
+                           QUIZ CHOICES
+                           ============================================
+                           Όλες οι πιθανές απαντήσεις
+                        #}
+                        {% for choice in question.choices %}
+                            <label class="quiz-choice">
+                                <input
+                                    type="radio"
+                                    name="question_{{ q_index }}"
+                                    value="{{ choice }}"
+                                    {% if user_answers.get(q_index|string) == choice %}checked{% endif %}
+                                >
+                                <span>{{ choice | safe }}</span>
+                            </label>
+                        {% endfor %}
+
+                        {# ============================================
+                           QUIZ RESULT
+                           ============================================
+                           Μετά το submit δείχνει τη σωστή απάντηση
+                        #}
+                        {% if score is not none %}
+                            <div class="quiz-result">
+                                <strong>Σωστή απάντηση:</strong> {{ question.answer | safe }}
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+
+                {# κουμπί υποβολής απαντήσεων #}
+                <button type="submit" class="quiz-btn">Υποβολή</button>
+            </form>
+        {% else %}
+            {# μήνυμα αν δεν υπάρχουν ερωτήσεις #}
+            <p>Δεν υπάρχουν ακόμα ερωτήσεις για αυτό το επίπεδο.</p>
+        {% endif %}
+    </div>
+
+    {# ============================================
+       BACK BUTTON
+       ============================================
+       Επιστροφή στις ενότητες του μαθήματος
+    #}
+    <button class="back-btn"
+        onclick="window.location.href='/school/{{ school_key }}/{{ class_key }}/{{ subject_key }}'">
+        ⬅ Πίσω στις ενότητες
+    </button>
+</div>
+{% endblock %}
+/* ============================================
+   QUIZ ONLY HIGHLIGHT (μόνο για quiz)
+   ============================================ */
+
+.quiz-highlight {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+body.dark .quiz-highlight {
+    background: #3b82f6;
+    color: white;
+}
+
+body.light .quiz-highlight {
+    background: #2563eb;
+    color: white;
+}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+
+    {# ============================================
+       ΤΙΤΛΟΣ ΤΑΞΗΣ
+       ============================================ #}
+    <!-- π.χ. "Α' Λυκείου" -->
+    <h1>{{ class_name }}</h1>
+
+    {# υπότιτλος #}
+    <h2>Επέλεξε μάθημα</h2>
+
+
+    {# ============================================
+       ΛΙΣΤΑ ΜΑΘΗΜΑΤΩΝ
+       ============================================ #}
+    <!-- subjects είναι dictionary από το backend -->
+    <ul>
+        {% for key, subject in subjects.items() %}
+        <li>
+
+            {# όνομα μαθήματος #}
+            <div class="lesson-title">{{ subject.name }}</div>
+
+
+            {# ============================================
+               BUTTON ΕΙΣΟΔΟΥ ΣΤΟ ΜΑΘΗΜΑ
+               ============================================ #}
+            <div class="buttons">
+
+                <!-- route προς subject page -->
+                <a href="/school/{{ school_key }}/{{ class_key }}/{{ key }}">
+                    <button class="study-btn">Είσοδος</button>
+                </a>
+
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
+
+    {# ============================================
+       BACK BUTTON
+       ============================================ #}
+    <!-- επιστροφή στη σελίδα τάξεων -->
+    <button class="back-btn"
+        onclick="window.location.href='/school/{{ school_key }}'">
+        ⬅ Πίσω στις τάξεις
+    </button>
+
+</div>
+{% endblock %}

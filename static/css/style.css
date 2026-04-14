@@ -1,0 +1,419 @@
+/* =====================================================
+   GLOBAL RESET
+   ===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =====================================================
+   THEMES
+   ===================================================== */
+
+body.dark {
+    background: #0b1733;
+    color: white;
+}
+
+body.light {
+    background: #e9edf3;
+    color: #111827;
+}
+
+
+/* =====================================================
+   FONT SIZE
+   ===================================================== */
+
+body.font-small {
+    font-size: 14px;
+}
+
+body.font-normal {
+    font-size: 16px;
+}
+
+body.font-large {
+    font-size: 20px;
+}
+
+
+/* =====================================================
+   TOP BAR / LOGO
+   ===================================================== */
+
+.topbar {
+    padding: 18px 20px 8px 20px;
+}
+
+.logo {
+    color: #3b82f6;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body.dark .logo {
+    text-shadow: 0 0 8px rgba(96,165,250,0.6);
+}
+
+
+/* =====================================================
+   SETTINGS
+   ===================================================== */
+
+.settings {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.gear {
+    font-size: 26px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.2s;
+}
+
+body.dark .gear {
+    background: rgba(255,255,255,0.08);
+    color: #dbeafe;
+}
+
+body.light .gear {
+    background: rgba(0,0,0,0.06);
+    color: #1e3a8a;
+}
+
+
+/* =====================================================
+   SETTINGS MENU
+   ===================================================== */
+
+.settings-menu {
+    position: fixed;
+    top: 60px;
+    right: 15px;
+    width: 240px;
+    padding: 12px;
+    border-radius: 14px;
+
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.settings-menu.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+body.dark .settings-menu {
+    background: #22304a;
+    border: 1px solid #334155;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+
+body.light .settings-menu {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+
+/* =====================================================
+   SETTINGS BUTTONS
+   ===================================================== */
+
+.settings-section {
+    margin-bottom: 14px;
+}
+
+.settings-label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.segmented {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.segmented button {
+    flex: 1;
+    border: none;
+    cursor: pointer;
+    padding: 10px 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+body.dark .segmented button {
+    background: #334155;
+    color: #e5e7eb;
+}
+
+body.light .segmented button {
+    background: #eef2f7;
+    color: #1f2937;
+}
+
+body.dark .segmented button.active,
+body.light .segmented button.active {
+    background: #2563eb;
+    color: white;
+}
+
+
+/* =====================================================
+   BREADCRUMBS
+   ===================================================== */
+
+.breadcrumbs {
+    max-width: 950px;
+    margin: auto;
+    padding: 0 20px;
+    font-size: 0.875em;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #3b82f6;
+}
+
+.breadcrumbs span {
+    margin: 0 5px;
+}
+
+
+/* =====================================================
+   CONTAINER
+   ===================================================== */
+
+.container {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+body.dark .container {
+    background: #12203d;
+}
+
+/* 🔥 άλλαξε για να φύγει το άσπρο */
+body.light .container {
+    background: #eef2f7;
+}
+
+
+/* =====================================================
+   HEADINGS
+   ===================================================== */
+
+h1 {
+    color: #3b82f6;
+    font-size: 2.6em;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================
+   LIST ITEMS
+   ===================================================== */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+
+body.dark li {
+    background: #1f2f4d;
+}
+
+body.light li {
+    background: #eef2f7;
+}
+
+
+/* =====================================================
+   BUTTONS
+   ===================================================== */
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.study-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.quiz-btn {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.back-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+/* =====================================================
+   QUIZ QUESTION (🔥 ΤΟ ΣΗΜΑΝΤΙΚΟ)
+   ===================================================== */
+
+.quiz-question {
+    margin-bottom: 22px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* 🔥 ίδιο μπλε με site */
+body.dark .quiz-question {
+    background: #1f2f4d;
+}
+
+body.light .quiz-question {
+    background: #dbeafe;
+}
+
+
+/* =====================================================
+   QUIZ TEXT
+   ===================================================== */
+
+.quiz-question-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.8;
+
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+/* DARK MODE */
+body.dark .quiz-question-title {
+    background: #3b82f6;  /* μπλε highlight */
+    color: white;
+}
+
+/* LIGHT MODE */
+body.light .quiz-question-title {
+    background: #2563eb;
+    color: white;
+}
+
+.quiz-choice {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    line-height: 1.8;
+}
+
+.quiz-result {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.quiz-score-box {
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(37,99,235,0.15);
+}
+
+
+/* =====================================================
+   FORM (dropdown)
+   ===================================================== */
+
+select {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+body.dark select {
+    background: #1f2f4d;
+    color: white;
+}
+
+body.light select {
+    background: #dbeafe;
+}
+
+
+/* =====================================================
+   MATHJAX
+   ===================================================== */
+
+mjx-container {
+    font-size: 1.05em !important;
+}
+/* ============================================
+   THEORY BOX (study page)
+   ============================================ */
+
+.theory-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* ίδιο στυλ με τα άλλα */
+body.dark .theory-box {
+    background: #1f2f4d;
+}
+
+body.light .theory-box {
+    background: #eef2f7;
+}
+
+.theory-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.theory-text {
+    line-height: 1.8;
+}

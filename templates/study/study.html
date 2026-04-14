@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}{{ enotita }} - Θεωρία{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <h1>{{ enotita }}</h1>
+
+    {% if theoria %}
+        {% for item in theoria %}
+
+            <div class="theory-box">
+
+                <!-- TITLE -->
+                {% if item.title %}
+                    <div class="theory-title">
+                        {{ item.title }}
+                    </div>
+                {% endif %}
+
+                <!-- CONTENT -->
+                {% if item.content %}
+                    <div class="theory-text">
+                        {{ item.content | safe }}
+                    </div>
+                {% endif %}
+
+            </div>
+
+        {% endfor %}
+    {% else %}
+        <p>Δεν υπάρχει ακόμα θεωρία για αυτή την ενότητα.</p>
+    {% endif %}
+
+    <button class="back-btn"
+        onclick="window.location.href='/school/{{ school_key }}/{{ class_key }}/{{ subject_key }}'">
+        ⬅ Πίσω στις ενότητες
+    </button>
+
+</div>
+{% endblock %}

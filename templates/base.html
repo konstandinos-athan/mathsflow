@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <!-- ============================================
+         BASIC PAGE SETTINGS
+         ============================================ -->
+    <!-- σύνδεση με το κεντρικό css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- βασικά meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- τίτλος σελίδας που αλλάζει από κάθε template -->
+    <title>{% block title %}MathsFlow{% endblock %}</title>
+
+
+    <!-- ============================================
+         MATHJAX CONFIGURATION
+         ============================================ -->
+    <!-- ορίζει πώς θα γράφονται τα μαθηματικά -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)'], ['$', '$']],
+                displayMath: [['\\[', '\\]']]
+            }
+        };
+    </script>
+
+    <!-- φορτώνει το MathJax -->
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+
+<!-- ============================================
+     BODY DEFAULT CLASSES
+     ============================================ -->
+<!-- ξεκινά με dark mode και normal font αν δεν έχει φορτωθεί ακόμα localStorage -->
+<body class="dark font-normal">
+
+
+<!-- ============================================
+     SETTINGS PANEL
+     ============================================ -->
+<!-- το γραναζάκι και το dropdown για theme / text size -->
+<div class="settings">
+    <div class="gear" onclick="toggleMenu()">⚙</div>
+
+    <div class="settings-menu" id="menu">
+
+        <!-- επιλογές theme -->
+        <div class="settings-section">
+            <div class="settings-label">Theme</div>
+            <div class="segmented">
+                <button id="theme-dark-btn" onclick="setMode('dark')">Dark</button>
+                <button id="theme-light-btn" onclick="setMode('light')">Light</button>
+                <button id="theme-auto-btn" onclick="setMode('auto')">Auto</button>
+            </div>
+        </div>
+
+        <!-- επιλογές μεγέθους γραμμάτων -->
+        <div class="settings-section">
+            <div class="settings-label">Text size</div>
+            <div class="segmented">
+                <button id="font-small-btn" onclick="setFont('small')">Small</button>
+                <button id="font-normal-btn" onclick="setFont('normal')">Medium</button>
+                <button id="font-large-btn" onclick="setFont('large')">Large</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ============================================
+     TOP BAR / LOGO
+     ============================================ -->
+<div class="topbar">
+    <a href="/" class="logo">MathsFlow</a>
+</div>
+
+
+<!-- ============================================
+     BREADCRUMBS NAVIGATION
+     ============================================ -->
+<!-- δείχνει το path: Αρχική > Σχολείο > Τάξη > Μάθημα > Ενότητα -->
+<div class="breadcrumbs">
+    <a href="/">Αρχική</a>
+
+    {% if school_name %}
+        <span>></span>
+        <a href="/school/{{ school_key }}">{{ school_name }}</a>
+    {% endif %}
+
+    {% if class_name %}
+        <span>></span>
+        <a href="/school/{{ school_key }}/{{ class_key }}">{{ class_name }}</a>
+    {% endif %}
+
+    {% if subject_name %}
+        <span>></span>
+        <a href="/school/{{ school_key }}/{{ class_key }}/{{ subject_key }}">{{ subject_name }}</a>
+    {% endif %}
+
+    {% if enotita %}
+        <span>></span>
+        <span>{{ enotita }}</span>
+    {% endif %}
+</div>
+
+
+<!-- ============================================
+     PAGE CONTENT BLOCK
+     ============================================ -->
+<!-- εδώ μπαίνει το περιεχόμενο κάθε σελίδας που κάνει extend το base.html -->
+{% block content %}{% endblock %}
+
+
+<!-- ============================================
+     JAVASCRIPT SETTINGS LOGIC
+     ============================================ -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

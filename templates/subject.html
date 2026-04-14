@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{# ============================================
+   TITLE (τίτλος στο tab)
+   ============================================ #}
+{% block title %}{{ subject_name }}{% endblock %}
+
+
+{% block content %}
+<div class="container">
+
+    {# ============================================
+       ΤΙΤΛΟΣ ΜΑΘΗΜΑΤΟΣ
+       ============================================ #}
+    <!-- π.χ. "Άλγεβρα" -->
+    <h1>{{ subject_name }}</h1>
+
+    {# υπότιτλος #}
+    <h2>Επέλεξε ενότητα</h2>
+
+
+    {# ============================================
+       ΛΙΣΤΑ ΕΝΟΤΗΤΩΝ
+       ============================================ #}
+    <!-- lessons = λίστα από το backend -->
+    <ul>
+        {% for lesson in lessons %}
+        <li>
+
+            {# τίτλος ενότητας #}
+            <div class="lesson-title">{{ lesson }}</div>
+
+
+            {# ============================================
+               BUTTONS (study + quiz)
+               ============================================ #}
+            <div class="buttons">
+
+                {# STUDY ROUTE #}
+                <!-- πάει στη θεωρία της ενότητας -->
+                <a href="/study/{{ school_key }}/{{ class_key }}/{{ subject_key }}/{{ loop.index }}">
+                    <button type="button" class="study-btn">Διάβασμα</button>
+                </a>
+
+                {# QUIZ ROUTE #}
+                <!-- πάει στο quiz της ενότητας -->
+                <a href="/quiz/{{ school_key }}/{{ class_key }}/{{ subject_key }}/{{ loop.index }}">
+                    <button type="button" class="quiz-btn">Κουίζ</button>
+                </a>
+
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
+
+    {# ============================================
+       BACK BUTTON
+       ============================================ #}
+    <!-- επιστροφή στα μαθήματα -->
+    <button class="back-btn"
+        onclick="window.location.href='/school/{{ school_key }}/{{ class_key }}'">
+        ⬅ Πίσω στα μαθήματα
+    </button>
+
+</div>
+{% endblock %}
