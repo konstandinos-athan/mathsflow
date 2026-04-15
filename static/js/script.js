@@ -4,7 +4,10 @@
 
 // ανοίγει / κλείνει το menu του settings
 function toggleMenu() {
-    document.getElementById("menu").classList.toggle("open");
+    const menu = document.getElementById("menu");
+    if (!menu) return;
+
+    menu.classList.toggle("open");
 }
 
 
@@ -59,28 +62,40 @@ function updateActiveButtons() {
     const savedMode = localStorage.getItem("mode") || "auto";
     const savedFont = localStorage.getItem("font") || "normal";
 
-    document.getElementById("theme-dark-btn").classList.remove("active");
-    document.getElementById("theme-light-btn").classList.remove("active");
-    document.getElementById("theme-auto-btn").classList.remove("active");
+    const themeDarkBtn = document.getElementById("theme-dark-btn");
+    const themeLightBtn = document.getElementById("theme-light-btn");
+    const themeAutoBtn = document.getElementById("theme-auto-btn");
 
-    document.getElementById("font-small-btn").classList.remove("active");
-    document.getElementById("font-normal-btn").classList.remove("active");
-    document.getElementById("font-large-btn").classList.remove("active");
+    const fontSmallBtn = document.getElementById("font-small-btn");
+    const fontNormalBtn = document.getElementById("font-normal-btn");
+    const fontLargeBtn = document.getElementById("font-large-btn");
+
+    if (!themeDarkBtn || !themeLightBtn || !themeAutoBtn || !fontSmallBtn || !fontNormalBtn || !fontLargeBtn) {
+        return;
+    }
+
+    themeDarkBtn.classList.remove("active");
+    themeLightBtn.classList.remove("active");
+    themeAutoBtn.classList.remove("active");
+
+    fontSmallBtn.classList.remove("active");
+    fontNormalBtn.classList.remove("active");
+    fontLargeBtn.classList.remove("active");
 
     if (savedMode === "dark") {
-        document.getElementById("theme-dark-btn").classList.add("active");
+        themeDarkBtn.classList.add("active");
     } else if (savedMode === "light") {
-        document.getElementById("theme-light-btn").classList.add("active");
+        themeLightBtn.classList.add("active");
     } else {
-        document.getElementById("theme-auto-btn").classList.add("active");
+        themeAutoBtn.classList.add("active");
     }
 
     if (savedFont === "small") {
-        document.getElementById("font-small-btn").classList.add("active");
+        fontSmallBtn.classList.add("active");
     } else if (savedFont === "large") {
-        document.getElementById("font-large-btn").classList.add("active");
+        fontLargeBtn.classList.add("active");
     } else {
-        document.getElementById("font-normal-btn").classList.add("active");
+        fontNormalBtn.classList.add("active");
     }
 }
 
@@ -90,6 +105,7 @@ function updateActiveButtons() {
 // ============================================
 
 // τρέχει όταν φορτώνει η σελίδα
+// διαβάζει mode / font από localStorage και τα εφαρμόζει
 window.onload = () => {
     const savedMode = localStorage.getItem("mode") || "auto";
     const savedFont = localStorage.getItem("font") || "normal";
@@ -123,9 +139,12 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () 
 // ============================================
 
 // κλείνει το menu αν γίνει click έξω από αυτό
-document.addEventListener("click", function(e) {
+// αλλά ΜΟΝΟ αν το click δεν είναι ούτε πάνω στο menu ούτε πάνω στο γρανάζι
+document.addEventListener("click", function (e) {
     const menu = document.getElementById("menu");
     const gear = document.querySelector(".gear");
+
+    if (!menu || !gear) return;
 
     if (!menu.contains(e.target) && !gear.contains(e.target)) {
         menu.classList.remove("open");
