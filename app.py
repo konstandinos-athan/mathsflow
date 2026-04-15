@@ -85,7 +85,11 @@ def get_subject_data(school_key, class_key, subject_key):
 def home():
     return render_template("index.html", schools=school_data)
 
+from flask import send_from_directory
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static', 'favicon.ico')
 # ============================================
 # SCHOOL PAGE
 # ============================================
