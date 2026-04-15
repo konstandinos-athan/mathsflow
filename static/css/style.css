@@ -417,3 +417,22 @@ body.light .theory-box {
 .theory-text {
     line-height: 1.8;
 }
+/* ============================================
+   QUIZ ONLY HIGHLIGHT
+   ============================================ */
+
+.quiz-highlight {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+body.dark .quiz-highlight {
+    background: #3b82f6;
+    color: white;
+}
+
+body.light .quiz-highlight {
+    background: #2563eb;
+    color: white;
+}
