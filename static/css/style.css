@@ -436,3 +436,46 @@ body.light .quiz-highlight {
     background: #2563eb;
     color: white;
 }
+/* Study reading and source links */
+.study-page .theory-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+.study-page .theory-text a {
+    text-decoration: underline;
+    text-underline-offset: .18em;
+}
+body.dark .study-page .theory-text a { color: #93c5fd; }
+body.light .study-page .theory-text a { color: #1d4ed8; }
+.study-page .theory-text a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+.study-page mjx-container {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-block: .2em;
+}
+@media (max-width: 600px) {
+    .study-page { padding: 20px 16px; }
+    .study-page h1 {
+        font-size: 1.8em;
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+}
+
+.study-page .theory-diagram-link {
+    display: block;
+    width: fit-content;
+    padding-block: 10px;
+    font-size: .9em;
+}
+
+/* Inline MathJax containers need a box for max-width and local scrolling. */
+.study-page mjx-container:not([display="true"]) {
+    display: inline-block;
+    vertical-align: middle;
+}

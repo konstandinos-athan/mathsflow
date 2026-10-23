@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Θεώρημα Θαλή σε τρίγωνο</title><desc id="desc">ΔΕ παράλληλη στη ΒΓ, με Δ στο ΑΒ και Ε στο ΑΓ. ΑΔ=4, ΔΒ=6, ΑΕ=5, ΕΓ=7,5. Ενδεικτικό σχήμα.</desc>
+<rect width="600" height="220" fill="#fff"/>
+<path d="M175 25L75 185H300Z" fill="#eef4ff" stroke="#24558b" stroke-width="2"/>
+<path d="M135 89H225" stroke="#bd4828" stroke-width="3"/>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="17"><text x="168" y="19">Α</text><text x="57" y="204">Β</text><text x="302" y="204">Γ</text><text x="112" y="92">Δ</text><text x="230" y="90">Ε</text><text x="126" y="51">4</text><text x="86" y="139">6</text><text x="211" y="51">5</text><text x="264" y="135">7,5</text><text x="365" y="70">ΔΕ ∥ ΒΓ</text><text x="365" y="110">ΑΔ / ΔΒ = ΑΕ / ΕΓ</text><text x="365" y="150">4 / 6 = 5 / 7,5</text><text x="365" y="193" font-size="13">Ενδεικτικό σχήμα</text></g>
+</svg>

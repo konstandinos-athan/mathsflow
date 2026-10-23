@@ -28,7 +28,11 @@
         <li>
 
             {# τίτλος ενότητας #}
-            <div class="lesson-title">{{ lesson }}</div>
+            <div class="lesson-title">{{ lesson.reference }} {{ lesson.title }}</div>
+            {% if lesson.teaching_scope == 'optional' %}<p>Προαιρετική ενότητα</p>{% endif %}
+            {% if not lesson.has_theory and not lesson.has_quiz %}
+                <p>Το περιεχόμενο αυτής της ενότητας ετοιμάζεται.</p>
+            {% endif %}
 
 
             {# ============================================
@@ -38,13 +42,13 @@
 
                 {# STUDY ROUTE #}
                 <!-- πάει στη θεωρία της ενότητας -->
-                <a href="/study/{{ school_key }}/{{ class_key }}/{{ subject_key }}/{{ loop.index }}">
+                <a href="{{ url_for('study_unit', unit_id=lesson.id) }}">
                     <button type="button" class="study-btn">Διάβασμα</button>
                 </a>
 
                 {# QUIZ ROUTE #}
                 <!-- πάει στο quiz της ενότητας -->
-                <a href="/quiz/{{ school_key }}/{{ class_key }}/{{ subject_key }}/{{ loop.index }}">
+                <a href="{{ url_for('quiz_unit', unit_id=lesson.id) }}">
                     <button type="button" class="quiz-btn">Κουίζ</button>
                 </a>
 

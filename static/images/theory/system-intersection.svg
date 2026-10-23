@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Γραφική λύση συστήματος</title><desc id="desc">Η τομή στο (3,2) επαληθεύει και τις δύο εξισώσεις: 3+2=5 και 3−2=1.</desc>
+<rect width="600" height="220" fill="#fff"/>
+<g stroke="#dce4ed" stroke-width="1"><path d="M50 145H350M50 115H350M50 85H350M50 55H350M110 20V180M170 20V180M230 20V180M290 20V180"/></g>
+<path d="M40 175H365M50 190V15" fill="none" stroke="#142f52" stroke-width="2"/>
+<path d="M50 25L350 175" stroke="#3274b8" stroke-width="3"/><path d="M110 175L350 55" stroke="#bd4828" stroke-width="3"/>
+<path d="M230 175V115H50" stroke="#667b91" stroke-dasharray="5 4" fill="none"/><circle cx="230" cy="115" r="6" fill="#142f52"/>
+<g font-family="Arial,sans-serif" font-size="16" fill="#142f52"><text x="35" y="195">0</text><text x="105" y="195">1</text><text x="165" y="195">2</text><text x="225" y="195">3</text><text x="285" y="195">4</text><text x="25" y="150">1</text><text x="25" y="120">2</text><text x="25" y="90">3</text><text x="25" y="60">4</text><text x="25" y="30">5</text><text x="244" y="111">(3,2)</text><text x="370" y="179">x</text><text x="60" y="20">y</text><text x="395" y="70" fill="#3274b8">x + y = 5</text><text x="395" y="105" fill="#bd4828">x − y = 1</text><text x="395" y="155">Κοινή λύση: (3,2)</text></g>
+</svg>

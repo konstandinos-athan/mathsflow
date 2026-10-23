@@ -3,7 +3,7 @@
 {% block title %}{{ enotita }} - Θεωρία{% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container study-page">
 
     <h1>{{ enotita }}</h1>
 
@@ -22,7 +22,11 @@
                 <!-- CONTENT -->
                 {% if item.content %}
                     <div class="theory-text">
-                        {{ item.content | safe }}
+                        {% if item.title == 'Πηγές και επιμέλεια' and '.zip' in item.content %}
+                            {{ item.content | replace('Ψηφιακό σχολικό βιβλίο', 'Επίσημες οδηγίες ύλης (ΙΕΠ, ZIP)') | safe }}
+                        {% else %}
+                            {{ item.content | safe }}
+                        {% endif %}
                     </div>
                 {% endif %}
 

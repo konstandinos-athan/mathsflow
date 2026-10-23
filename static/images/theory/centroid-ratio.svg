@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Βαρύκεντρο τριγώνου</title><desc id="desc">Το G είναι η τομή διαμέσων. Στη διάμεσο ΑΜ ισχύει ΑG προς GΜ ίσο με 2 προς 1, με Μ μέσο ΒΓ.</desc>
+<rect width="600" height="220" fill="white"/>
+<path d="M130 25L60 185H320Z" fill="#edf4ff" stroke="#24558b" stroke-width="2"/>
+<path d="M130 25L190 185M60 185L225 105M320 185L95 105" fill="none" stroke="#bd4828" stroke-width="2"/>
+<circle cx="170" cy="131.667" r="5" fill="#142f52"/>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="18"><text x="120" y="18">Α</text><text x="42" y="207">Β</text><text x="320" y="207">Γ</text><text x="183" y="207">Μ</text><text x="176" y="130">G</text><text x="375" y="75">ΑG = 2GΜ</text><text x="375" y="115">ΑG = 2ΑΜ / 3</text><text x="375" y="155">GΜ = ΑΜ / 3</text></g>
+</svg>

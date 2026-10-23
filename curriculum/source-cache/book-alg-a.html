@@ -1,0 +1,985 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Εισαγωγή-Περιεχόμενα</title>
+<meta name="description" content="Εισαγωγή">
+<meta name="keywords" content="Εισαγωγή">
+<script type="text/javascript" src="mathjax/MathJax.js"></script><script type="text/javascript" src="mathjax/config/local/local.js"></script>
+<meta http-equiv="content-language" content="el">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="ebooks_player_files/ebook_fullscreen.css" rel="stylesheet" type="text/css">
+<script src="ebooks_player_files/jquery-1.6.4.min.js" type="text/javascript"></script>
+<link rel="icon" type="image/ico"  href="ebooks_player_files/favicon.ico">
+<script src="ebooks_player_files/menu.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="eclass_ebook_header">
+  <div class="tools" id="tools">
+    <div class='ebook_left'> <span title=''>Άλγεβρα (Α΄ Λυκείου) - Βιβλίο Μαθητή (Εμπλουτισμένο)</span> </div>
+    <div class='ebook_right'> <img src='ebooks_player_files/back_grey.png' alt='back'> <a href='index1.html' id="next_active"><img src='ebooks_player_files/next.png' alt='next'></a> </div>
+    <div class="eclass_ebook_clear"> </div>
+    <div class="logo"> <a href="https://dschool.edu.gr" title="Ψηφιακό Σχολείο" target="_blank"><img class="ebook-logo-dsch" src="ebooks_player_files/digital-school-logo-small.png" alt="logo" ></a> <a href="https://ebooks.edu.gr" title="Διαδραστικά Σχολικά Βιβλία"><img src='ebooks_player_files/logo-small.png' alt='logo'></a>
+      <div id="bookup" style="margin-top:5px;" >
+        <select name="section" onchange="change_section();">
+          <option value="index.html" class="speech_menu_0">Άλγεβρα και Στοιχεία Πιθανοτήτων Α΄ Λυκείου</option>
+          <option value="index.html" class="speech_menu_0" selected >&nbsp;&nbsp;&nbsp;Εισαγωγικό Κεφάλαιο</option>
+          <option value="index1.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 1: Πιθανότητες</option>
+          <option value="index2.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 2: Οι Πραγματικοί Αριθμοί</option>
+          <option value="index3.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 3: Εξισώσεις</option>
+          <option value="index4.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 4: Ανισώσεις</option>
+          <option value="index5.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 5: Πρόοδοι</option>
+          <option value="index6.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 6: Βασικές Έννοιες των Συναρτήσεων</option>
+          <option value="index7.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Κεφάλαιο 7: Μελέτη Βασικών Συναρτήσεων</option>
+          <option value="index8.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Επαναληπτικές Ασκήσεις</option>
+          <option value="index9.html" class="speech_menu_0">&nbsp;&nbsp;&nbsp;Υποδείξεις - Απαντήσεις Ασκήσεων</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div id="hideDisplay" class="toggleDisplay" title="Απόκρυψη banner" style="display: block;" onclick="hideHeader();"></div>
+  <div id="showDisplay" class="toggleDisplay" title="Εμφάνιση banner" style="display: none;" onclick="showHeader();"></div>
+</div>
+<div class='eclass_ebook_clear'> </div>
+<div id="eclass_ebook_body">
+  <table class="container frontpage" summary="table that defines page">
+    <tr>
+      <td align="center"><img src="images/0-22-0284-01-exofyllo.jpg" alt="εξώφυλλο" ></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td><p class="center">ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ, ΕΡΕΥΝΑΣ ΚΑΙ ΘΡΗΣΚΕΥΜΑΤΩΝ <br>
+          ΙΝΣΤΙΤΟΥΤΟ ΕΚΠΑΙΔΕΥΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h1><em>ΑΛΓΕΒΡΑ</em></h1>
+        <h2 style="padding-top:40px;"><strong>ΚΑΙ ΣΤΟΙΧΕΊΑ ΠΙΘΑΝΟΤΉΤΩΝ<br>
+          Α´ τάξης Γενικού Λυκείου</strong></h2>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p class="center">Η συγγραφή κι η επιστημονική επιμέλεια του βιβλίου πραγματοποιήθηκε <br>
+          υπό την αιγίδα του Παιδαγωγικού Ινστιτούτου</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p class="center">ΙΝΣΤΙΤΟΥΤΟ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΕΚΔΟΣΕΩΝ «ΔΙΟΦΑΝΤΟΣ»</p></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td class="cell_index"><div class="pub_info"><span>ΣΤΟΙΧΕΙΑ ΑΡΧΙΚΗΣ ΕΚΔΟΣΗΣ</span>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <th>ΣΥΓΓΡΑΦΕΙΣ</th>
+            </tr>
+            <tr>
+              <td width="300">Ανδρεαδάκης Στυλιανός</td>
+              <td width="0">&nbsp;</td>
+              <td width="305">&nbsp;</td>
+              <td width="250" rowspan="5"><img src="images/ekso_1.jpg" alt="picekso" longdesc="images/ekso_1.jpg"></td>
+            </tr>
+            <tr>
+              <td>Κατσαργύρης Βασίλειος</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Παπασταυρίδης Σταύρος</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Πολύζος Γεώργιος</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Σβέρκος Ανδρέας</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <th>ΟΜΑΔΑ ΑΝΑΜΟΡΦΩΣΗΣ</th>
+            </tr>
+            <tr>
+              <td>Ανδρεαδάκης Στυλιανός</td>
+              <td><em> Ομοτ. Καθηγητής Πανεπιστημίου Αθηνών</em></td>
+            </tr>
+            <tr>
+              <td>Κατσαργύρης Βασίλειος</td>
+              <td><em> Καθηγητής Βαρβακείου Πειραματικού Λυκείου</em></td>
+            </tr>
+            <tr>
+              <td>Παπασταυρίδης Σταύρος</td>
+              <td><em> Καθηγητής Πανεπιστημίου Αθηνών</em></td>
+            </tr>
+            <tr>
+              <td>Πολύζος Γεώργιος</td>
+              <td><em> Μόνιμος Πάρεδρος του Π.Ι.</em></td>
+            </tr>
+            <tr>
+              <td>Σβέρκος Ανδρέας</td>
+              <td><em> Καθηγητής 2ου Πειραματικού Λυκείου Αθηνών</em></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <th colspan="2">ΕΠΟΠΤΕΙΑ ΤΗΣ ΑΝΑΜΟΡΦΩΣΗΣ ΣΤΟ ΠΛΑΙΣΙΟ ΤΟΥ Π.Ι.</th>
+            </tr>
+            <tr>
+              <td>Σκούρας Αθανάσιος</td>
+              <td><em> Σύμβουλος του Π.Ι.</em></td>
+            </tr>
+            <tr>
+              <td>Πολύζος Γεώργιος</td>
+              <td><em>Μόνιμος Πάρεδρος του Π.Ι.</em></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <th colspan="2">ΕΠΙΜΕΛΕΙΑ ΤΗΣ ΑΝΑΜΟΡΦΩΜΕΝΗΣ ΕΚΔΟΣΗΣ</th>
+            </tr>
+            <tr>
+              <td>Ελευθερόπουλος Ιωάννης</td>
+              <td><em>Καθηγητής Μαθηματικών, Αποσπασμένος στο Π.Ι.</em></td>
+            </tr>
+            <tr>
+              <td>Ζώτος Ιωάννης</td>
+              <td><em> Καθηγητής Μαθηματικών, Αποσπασμένος στο Π.Ι.</em></td>
+            </tr>
+            <tr>
+              <td>Καλλιπολίτου Ευρυδίκη</td>
+              <td><em> Καθηγήτρια Μαθηματικών, Αποσπασμένη στο Π.Ι.</em></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+        </div></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td class="cell_index"><div class="pub_info"><span>ΣΤΟΙΧΕΙΑ ΑΡΧΙΚΗΣ ΕΚΔΟΣΗΣ</span>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <th>ΣΥΓΓΡΑΦΕΙΣ</th>
+            </tr>
+            <tr>
+              <td width="300">Ανδρεαδάκης Στυλιανός</td>
+              <td width="28">&nbsp;</td>
+              <td width="380"><em>Ομοτ. Καθηγητής Πανεπιστημίου Αθηνών</em></td>
+              <td width="180" rowspan="5"><img src="images/ekso_2.jpg" alt="picekso2" longdesc="images/ekso_2.jpg"></td>
+            </tr>
+            <tr>
+              <td>Κατσαργύρης Βασίλειος</td>
+              <td>&nbsp;</td>
+              <td><em>Καθηγητής Βαρβακείου Πειραματικού Λυκείου</em></td>
+            </tr>
+            <tr>
+              <td>Παπασταυρίδης Σταύρος</td>
+              <td>&nbsp;</td>
+              <td><em>Καθηγητής Πανεπιστημίου Πάτρας</em></td>
+            </tr>
+            <tr>
+              <td>Πολύζος Γεώργιος</td>
+              <td>&nbsp;</td>
+              <td><em>Μόνιμος Πάρεδρος του Π.Ι.</em></td>
+            </tr>
+            <tr>
+              <td>Σβέρκος Ανδρέας</td>
+              <td>&nbsp;</td>
+              <td><em>Καθηγητής 2ου Πειραματικού Λυκείου Αθηνών</em></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <td>Α΄ ΕΚΔΟΣΗ: 1991<br>
+                ΕΠΑΝΕΚΔΟΣΕΙΣ ΜΕ ΒΕΛΤΙΩΣΕΙΣ: 1992, 1993, 1994, 1995, 1996, 1997, 1998<br>
+                Η προσαρμογή του βιβλίου στο νέο αναλυτικό πρόγραμμα έγινε από το Παιδαγωγικό Ινστιτούτο.</td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+        </div></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td class="cell_index"><div class="pub_info"><span>ΣΤΟΙΧΕΙΑ ΑΡΧΙΚΗΣ ΕΚΔΟΣΗΣ</span>
+          <table class="credit-table" summary="data table">
+            <tr>
+              <td width="192" rowspan="6"><img src="images/ekso_3.jpg" alt="picekso3" longdesc="images/ekso_3.jpg"></td>
+              <td width="229"><strong>ΣΥΓΓΡΑΦΕΙΣ</strong></td>
+              <td width="377"><em>&nbsp;</em></td>
+            </tr>
+            <tr>
+              <td>Αδαμόπουλος Λεωνίδας</td>
+              <td><em>Επ. Σύμβουλος Παιδαγωγικού Ινστιτούτου</em></td>
+            </tr>
+            <tr>
+              <td>Δαμιανού Χαράλαμπος</td>
+              <td><em>Αναπλ. Καθηγητής Παν/μίου Αθηνών</em></td>
+            </tr>
+            <tr>
+              <td>Σβέρκος Ανδρέας</td>
+              <td><em>Σχολικός Σύμβουλος.</em></td>
+            </tr>
+            <tr>
+              <td height="29">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td height="29"><strong>ΚΡΙΤΕΣ</strong>:</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29">Κουνιάς Στρατής</td>
+              <td><em>Καθηγητής Πανεπιστημίου Αθηνών</em></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29">Μακρής Κωνσταντίνος</td>
+              <td><em>Σχολικός Σύμβουλος</em></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29">Τσικαλουδάκης Γεώργιος</td>
+              <td><em>Καθηγητής Β/θμιας Εκπαίδευσης</em></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29"><strong>ΓΛΩΣΣΙΚΗ ΕΠΙΜΕΛΕΙΑ</strong>:</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Μπουσούνη Λία</td>
+              <td><em>Καθηγήτρια Β/θμιας Εκπαίδευσης</em></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29"><strong>ΔΑΚΤΥΛΟΓΡΑΦΗΣΗ</strong>:</td>
+              <td>Μπολιώτη Πόπη</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29">&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td height="29"><strong>ΣΧΗΜΑΤΑ</strong>:</td>
+              <td>Μπούτσικας Μιχάλης</td>
+            </tr>
+          </table>
+        </div>
+        <div class="pub_info"><span>ΣΤΟΙΧΕΙΑ ΕΠΑΝΕΚΔΟΣΗΣ</span>
+          <p class="repub_info"><img src="images/Logo-ESPA.jpg" alt="Λογότυπο ΕΣΠΑ" align="right" width="350">Η επανέκδοση του παρόντος βιβλίου πραγματοποιήθηκε          από το Ινστιτούτο Τεχνολογίας Υπολογιστών &amp; Εκδόσεων        «Διόφαντος» μέσω ψηφιακής μακέτας, η οποία δημιουργήθηκε με χρηματοδότηση από το ΕΣΠΑ / ΕΠ «Εκπαίδευση &amp; Διά Βίου Μάθηση» / Πράξη «ΣΤΗΡΙΖΩ».</p>
+          <p class="repub_appr">Οι διορθώσεις πραγματοποιήθηκαν κατόπιν έγκρισης του Δ.Σ. του Ινστιτούτου Εκπαιδευτικής Πολιτικής</p>
+        </div></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td><p class="prologue">ΠΡΟΛΟΓΟΣ</p>
+        <p>Το βιβλίο που κρατάτε στα χέρια σας περιλαμβάνει την ύλη της Άλγεβρας και των Πιθανοτήτων που προβλέπεται από το πρόγραμμα σπουδών της Α’ τάξης του Γενικού Λυκείου.</p>
+        <p>Το βιβλίο αυτό προήλθε από αναμόρφωση της Α’ έκδοσης (2010) του βιβλίου ΑΛΓΕΒΡΑ Α’ ΓΕΝΙΚΟΥ ΛΥΚΕΙΟΥ, του οποίου τη συγγραφική ομάδα αποτελούν οι Σ. Ανδρεαδάκης, Β. Κατσαργύρης, Σ. Παπασταυρίδης, Γ. Πολύζος και Α. Σβέρκος. Προ­στέθηκαν επίσης δυο ακόμα κεφάλαια: το κεφάλαιο «Πιθανότητες» και το κεφάλαιο «Πρόοδοι».</p>
+        <p>Το κεφάλαιο «Πιθανότητες» είναι μέρος του αντίστοιχου κεφαλαίου από το βιβλίο ΜΑΘΗΜΑΤΙΚΑ ΚΑΙ ΣΤΟΙΧΕΙΑ ΣΤΑΤΙΣΤΙΚΗΣ Γ’ ΓΕΝΙΚΟΥ ΛΥΚΕΙΟΥ (2010) του οποίου τη συγγραφική ομάδα αποτελούν οι Λ. Αδαμόπουλος, Χ. Δαμιανού και Α. Σβέρκος. Το κεφάλαιο «Πρόοδοι» είναι μέρος του αντίστοιχου κεφαλαίου από το βιβλίο ΑΛΓΕΒΡΑ Β’ ΓΕΝΙΚΟΥ ΛΥΚΕΙΟΥ (2010), του οποίου τη συγγραφική ομάδα αποτελούν οι Σ. Ανδρεαδάκης, Β. Κατσαργύρης, Σ. Παπασταυρίδης, Γ. Πολύζος και Α. Σβέρκος.</p>
+        <p>Το περιεχόμενο του βιβλίου περιλαμβάνει σε γενικές γραμμές τα εξής:</p>
+        <p>Στο <strong>1° Κεφάλαιο</strong> γίνεται μια εισαγωγή στη Θεωρία των Πιθανοτήτων. Η απόδειξη των ιδιοτήτων της πιθανότητας ενός ενδεχομένου γίνεται μόνο στην περίπτωση που τα απλά ενδεχόμενα είναι ισοπίθανα. Η Θεωρία των Πιθανοτήτων ασχολείται με καταστάσεις όπου υπάρχει αβεβαιότητα, και αυτό την κάνει ιδιαίτερα σημαντική στις εφαρμογές της καθημερινής ζωής.</p>
+        <p>Στο <strong>2° Κεφάλαιο </strong>επαναλαμβάνονται, συμπληρώνονται και επεκτείνονται οι βασικές ιδιότητες των πραγματικών αριθμών.</p>
+        <p>Στο <strong>3° Κεφάλαιο</strong> επαναλαμβάνονται, επεκτείνονται και εξετάζονται συστηματικά όσα είναι γνωστά από το Γυμνάσιο για τις εξισώσεις 1<sup>ου</sup> και 2<sup>ου</sup> βαθμού. Επίσης εξετάζονται εξισώσεις που, για να επιλυθούν, ανάγονται σε 1<sup>ου</sup> και 2<sup>ου</sup> βαθμού.</p>
+        <p>Στο <strong>4° Κεφάλαιο</strong> παρουσιάζονται ανισώσεις 1<sup>ου</sup> και 2<sup>ου</sup> βαθμού καθώς και ανισώσεις που, για να επιλυθούν, ανάγονται σε 1<sup>ου</sup> και 2<sup>ου</sup> βαθμού.</p>
+        <p>Στο <strong>5° Κεφάλαιο</strong> γίνεται εισαγωγή στην έννοια της ακολουθίας πραγματικών αριθμών, και εξετάζονται η αριθμητική και η γεωμετρική πρόοδος ως ειδικές περιπτώσεις κανονικότητας (pattern) σε ακολουθίες.</p>
+        <p>Στο <strong>6° Κεφάλαιο</strong> εισάγεται η έννοια της συνάρτησης. Η συνάρτηση είναι μια θεμελιώδης έννοια που διαπερνά όλους τους κλάδους των Μαθηματικών και έχει κεντρική σημασία για την περαιτέρω ανάπτυξη και εφαρμογή τους.</p>
+        <p>Στο <strong>7° Κεφάλαιο</strong> γίνεται μελέτη των συναρτήσεων <img src="images/eisa_1.jpg" alt="piceisa" longdesc="images/eisa_1.jpg">, και &fnof;(x)=αx<sup>2</sup>+βx+γ. Η μελέτη της &fnof;(x)=αx<sup>2</sup>+βx+γ είναι ο κεντρικός στόχος του κεφαλαίου αυτού.</p></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td><p class="chapter">ΠΕΡΙΕΧΟΜΕΝΑ</p>
+        <p class="toc-header">ΕΙΣΑΓΩΓΙΚΟ ΚΕΦΑΛΑΙΟ</p>
+        <p class="toc-text">Ε1 Το Λεξιλόγιο της Λογικής</p>
+        <p class="toc-text">Ε2 Σύνολα</p>
+        <p class="toc-header">ΚΕΦΑΛΑΙΟ 1ο: ΠΙΘΑΝΟΤΗΤΕΣ</p>
+        <p class="toc-text">1.1	ΔΕΙΓΜΑΤΙΚΟΣ  ΧΩΡΟΣ - ΕΝΔΕΧΟΜΕΝΑ</p>
+        <p class="toc-text">1.2	ΕΝΝΟΙΑ  ΤΗΣ  ΠΙΘΑΝΟΤΗΤΑΣ</p>
+        <p class="toc-header">ΚΕΦΑΛΑΙΟ 2ο: Οι Πραγματικοί Αριθμοί</p>
+        <p class="toc-text">2.1 Οι Πράξεις και οι Ιδιότητές τους</p>
+        <p class="toc-text">2.2 Διάταξη Πραγματικών Αριθμών</p>
+        <p class="toc-text">2.3 Απόλυτη Τιμή Πραγματικού Αριθμού</p>
+        <p class="toc-text">2.4 Ρίζες Πραγματικών Αριθμών</p>
+        <p class="toc-header">ΚΕΦΑΛΑΙΟ 3ο: Εξισώσεις</p>
+        <p class="toc-text">3.1 ΕΞΙΣΩΣΕΙΣ 1ου ΒΑΘΜΟΥ</p>
+        <p class="toc-text">3.2 Η ΕΞΙΣΩΣΗ x<sup>ν</sup> = α</p>
+        <p class="toc-text">3.3 ΕΞΙΣΩΣΕΙΣ 2ου ΒΑΘΜΟΥ</p>
+        <p class="toc-header">ΚΕΦΑΛΑΙΟ 4ο: ΑΝΙΣΩΣΕΙΣ</p>
+        <p class="toc-text">4.1 ΑΝΙΣΩΣΕΙΣ 1ου ΒΑΘΜΟΥ</p>
+        <p class="toc-text">4.2 ΑΝΙΣΩΣΕΙΣ 2<sup>ου</sup> ΒΑΘΜΟΥ</p>
+        <p class="toc-text">4.3 ΑΝΙΣΩΣΕΙΣ ΓΙΝΟΜΕΝΟ &amp; ΑΝΙΣΩΣΕΙΣ ΠΗΛΙΚΟ</p>
+        <p class="toc-header"><br>
+          ΚΕΦΑΛΑΙΟ 5ο: Πρόοδοι</p>
+        <p class="toc-text">5.1 Ακολουθίες</p>
+        <p class="toc-text">5.2 Αριθμητική πρόοδος</p>
+        <p class="toc-text">5.3 Γεωμετρική πρόοδος</p>
+        <p class="toc-text">5.4 Ανατοκισμός - Ίσες καταθέσεις</p>
+        <p class="toc-header">ΚΕΦΑΛΑΙΟ 6ο: Βασικές Έννοιες των Συναρτήσεων</p>
+        <p class="toc-text">6.1 Η ΕΝΝΟΙΑ ΤΗΣ ΣΥΝΑΡΤΗΣΗΣ</p>
+        <p class="toc-text">6.2 ΓΡΑΦΙΚΗ ΠΑΡΑΣΤΑΣΗ ΣΥΝΑΡΤΗΣΗΣ</p>
+        <p class="toc-text">6.3 Η ΣΥΝΑΡΤΗΣΗ &fnof;(x) = αx +  β</p>
+        <p class="toc-text">6.4 ΚΑΤΑΚΟΡΥΦΗ - ΟΡΙΖΟΝΤΙΑ  ΜΕΤΑΤΟΠΙΣΗ ΚΑΜΠΥΛΗΣ</p>
+        <p class="toc-text">6.5 ΜΟΝΟΤΟΝΙΑ - ΑΚΡΟΤΑΤΑ - ΣΥΜΜΕΤΡΙΕΣ ΣΥΝΑΡΤΗΣΗΣ</p>
+        <p class="toc-header">ΚΕΦΑΛΑΙΟ 7ο: ΜΕΛΕΤΗ ΒΑΣΙΚΩΝ ΣΥΝΑΡΤΗΣΕΩΝ</p>
+        <p class="toc-text">7.1 ΜΕΛΕΤΗ ΣΥΝΑΡΤΗΣΗΣ &fnof;(x) = αx<sup>2</sup></p>
+        <p class="toc-text">7.2 ΜΕΛΕΤΗ ΤΗΣ ΣΥΝΑΡΤΗΣΗΣ: <img src="images/img7_22.jpg" alt="pic722" longdesc="images/img7_22.jpg"></p>
+        <p class="toc-text">7.3 ΜΕΛΕΤΗ ΤΗΣ ΣΥΝΑΡΤΗΣΗΣ &fnof;(x) = αx<sup>2</sup> + βx + γ</p>
+        <p class="toc-header">ΑΣΚΗΣΕΙΣ ΓΙΑ ΕΠΑΝΑΛΗΨΗ</p>
+        <p class="toc-header">ΥΠΟΔΕΙΞΕΙΣ-ΑΠΑΝΤΗΣΕΙΣ ΑΣΚΗΣΕΩΝ</p></td>
+    </tr>
+  </table>
+  <table class="container" summary="table that defines page">
+    <tr>
+      <td><p class="chapter"><a name="eisagogh"><span>ΕΙΣΑΓΩΓΙΚΟ ΚΕΦΑΛΑΙΟ</span></a></p>
+        <p class="chapter_sub"><a name="eis1">Ε.1  ΤΟ ΛΕΞΙΛΟΓΙΟ ΤΗΣ ΛΟΓΙΚΗΣ</a></p>
+        <p>Στη παράγραφο αυτή θα γνωρίσουμε μερικές βασικές έννοιες της Λογικής, τις οποίες θα χρησιμοποιήσουμε στη συνέχεια, όπου αυτό κρίνεται αναγκαίο, για τη σαφέστερη διατύπωση μαθηματικών εννοιών, προτάσεων κτλ. Τα παραδείγματα που θα χρησιμοποιήσουμε αναφέρονται σε έννοιες και ιδιότητες που είναι γνωστές από το Γυμνάσιο.</p>
+        <p class="subtitle blue">Η συνεπαγωγή</p>
+        <p>Ας θεωρήσουμε δύο πραγματικούς αριθμούς <em>α</em> και <em>β</em>. Είναι γνωστό ότι:</p>
+        <em>Αν οι αριθμοί α και β είναι ίσοι, τότε και τα τετράγωνα τους θα είναι ίσα.<br>
+        <br>
+        </em>
+        <p>Αυτό σημαίνει ότι:</p>
+        <p><em>Αν ο ισχυρισμός « α = β » είναι αληθής, τότε και ο ισχυρισμός « α<sup>2</sup> = β<sup>2</sup> » θα είναι αληθής.</em><br>
+        </p>
+        <p>Γι’  αυτό λέμε ότι ο  ισχυρισμός « <em>α</em> = <em>β</em> » <u>συνεπάγεται</u> τον ισχυρισμό  «<em>α</em><sup>2</sup> = <em>β</em><sup>2</sup>» και γράφουμε: <em>α </em>= <em>β</em> &rArr; <em>α</em><sup>2</sup> = <em>β</em><sup>2</sup> . </p>
+        <p> <br>
+          Γενικά: <br>
+        </p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td>Αν <em>P</em> και <em>Q</em> είναι δύο ισχυρισμοί, τέτοιοι ώστε, όταν αληθεύει ο <em>P</em> να αληθεύει και ο <em>Q</em> , τότε λέμε ότι <strong>ο P συνεπάγεται τον Q</strong> και γράφουμε <strong>P &rArr;  Q</strong>.</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p>Ο ισχυρισμός «<strong>P &rArr; Q</strong> » λέγεται <strong><em>συνεπαγωγή </em></strong>και πολλές φορές διαβάζεται «<strong><em>αν P, τότε Q</em></strong>». Ο P λέγεται <strong><em>υπόθεση</em></strong> της συνεπαγωγής, ενώ ο Q λέγεται <strong><em>συμπέρασμα</em></strong> αυτής<sup>(1)</sup>.<br>
+        </p>
+        <p><sup>(1)</sup> Στην καθημερινή πράξη, συνήθως, δεν χρησιμοποιούμε συνεπαγωγές με ψευδή υπόθεση. Αλλά και η μαθηματική επιστήμη δεν έχει ανάγκη τέτοιου είδους συνεπαγωγών. Όμως, για τεχνικούς λόγους που συνδέονται με την ευκολία της έκφρασης μαθηματικών ζητημάτων, θα υιοθετήσουμε τη <span class="underline">σύμβαση</span> ότι η συνεπαγωγή « <strong>P &rArr;    Q</strong> » να είναι αληθής και στην περίπτωση που η υπόθεση P είναι ψευδής. Έτσι, η συνεπαγωγή « <strong>P     &rArr; Q</strong> » είναι ψευδής, μόνο όταν η υπόθεση P είναι αληθής και το συμπέρασμα Q είναι ψευδές και αληθής σε κάθε άλλη περίπτωση. Εκ πρώτης όψεως η σύμβαση αυτή φαίνεται περίεργη, αλλά στο πλαίσιο του παρόντος βιβλίου δεν μπορούν να εξηγηθούν οι λόγοι που οδήγησαν σε αυτή.</p>
+        <p class="subtitle blue">Η ισοδυναμία ή διπλή συνεπαγωγή</p>
+        <p>Ας θεωρήσουμε τις γνωστές μας από το Γυμνάσιο συνεπαγωγές:</p>
+        <p class="center"> <em>α</em> = <em>β</em> &rArr;    α<sup>2</sup> = β<sup>2</sup> &nbsp; &nbsp; &nbsp; (1)</p>
+        <br>
+        <span class="left"> και</span> <br>
+        <p class="center"> α = β   &rArr;   α + γ = β + γ &nbsp; &nbsp; &nbsp; (2), <br>
+        </p>
+        που ισχύουν για όλους τους πραγματικούς <em>α</em>, <em>β</em> και <em>γ</em>. <br>
+        <br>
+        Παρατηρούμε ότι:<br>
+        <ul class="list-check">
+          <li>Για την πρώτη συνεπαγωγή, δεν ισχύει το αντίστροφο. Δηλαδή <span class="underline">δεν ισχύει</span> η συνεπαγωγή</li>
+        </ul>
+        α<sup>2</sup> = β<sup>2</sup> &rArr; α = β για όλους τους πραγματικούς αριθμούς α και β, αφού για παράδειγμα είναι (-3)<sup>2</sup> = 3<sup>2</sup>, ενώ -3&nbsp;&ne;&nbsp;3&nbsp;.
+        <ul class="list-check">
+          <li>Για τη δεύτερη, όμως, συνεπαγωγή ισχύει και το αντίστροφο. Δηλαδή για όλους τους πραγματικούς αριθμούς α, β, γ ισχύει και η συνεπαγωγή: <br>
+          </li>
+        </ul>
+        <p class="center"><em>α</em> + <em>γ</em> = <em>β</em> + <em>γ</em> &rArr; <em>α</em> = <em>β</em><br>
+        </p>
+        <p>Γι’ αυτό λέμε ότι οι δύο ισχυρισμοί είναι <u>ισοδύναμοι</u> και γράφουμε:</p>
+        <p class="center"> <em>α</em> = <em>β</em> &hArr; <em>α</em> + <em>γ</em> =<em> β</em> + <em>γ</em> .<br>
+        </p>
+        <p>Γενικά:</p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td>Αν <em>P</em> και <em>Q </em>είναι δύο ισχυρισμοί, τέτοιοι ώστε, όταν αληθεύει ο P, να αληθεύει και ο Q και όταν αληθεύει ο Q, να αληθεύει και ο P, τότε λέμε ότι <strong>ο P συνεπάγεται τον Q και αντιστρόφως</strong> <strong>ή</strong>, αλλιώς, ότι<strong> ο P είναι ισοδύναμος με τον Q </strong>και γράφουμε<strong> P &hArr; Q</strong> .</td>
+          </tr>
+        </table>
+        <p>Ο ισχυρισμός «<strong> P &hArr;   Q</strong> » λέγεται <strong>ισοδυναμία</strong> και αρκετές φορές διαβάζεται «<strong>P αν και μόνο αν Q</strong>».</p>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Ο σύνδεσμος «ή» </p>
+        Γνωρίζουμε ότι:<br>
+        <p style="padding:20px"> <em>Το γινόμενο δύο πραγματικών αριθμών α και β είναι ίσο με το μηδέν, αν και μόνο αν ένας τουλάχιστον από τους αριθμούς α και β είναι ίσος με το μηδέν.</em></p>
+        Για να δηλώσουμε ότι ένας τουλάχιστον από τους α και β είναι ίσος με το μηδέν, γράφουμε <em>α</em> = 0 ή <em>β</em> = 0 . Έτσι, έχουμε την ισοδυναμία<br>
+        <p class="center"><em>α</em> &middot; <em>β</em> = 0 &hArr; <em>α</em> = 0 ή <em>β</em> = 0 <br>
+        <p> Γενικά: <br>
+        </p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td>Αν <em>P</em> και <em>Q</em> είναι δύο ισχυρισμοί, τότε ο ισχυρισμός<strong> <em>P</em> ή <em>Q</em> </strong>αληθεύει μόνο στην περίπτωση που <u>ένας τουλάχιστον</u> από τους δύο ισχυρισμούς αληθεύει.</td>
+          </tr>
+        </table>
+        <p>Ο ισχυρισμός «<strong><em>P</em> ή <em>Q</em></strong>» λέγεται <strong>διάζευξη</strong> των <em>P</em> και <em>Q</em> .<br>
+          Για παράδειγμα η εξίσωση<br>
+        </p>
+        <p class="center">(x<sup>2</sup> - x)(x<sup>2</sup> -1) = 0<br>
+        </p>
+        <p>αληθεύει, αν και μόνο αν ένας τουλάχιστον από τους παράγοντες x<sup>2</sup> - x και x<sup>2</sup> - 1 είναι ίσος με το μηδέν, δηλαδή, αν και μόνο αν ισχύει η διάζευξη:<br>
+        </p>
+        <p class="center">x<sup>2</sup> - x = 0  ή  x<sup>2</sup> - 1 = 0.</p>
+        <p>Παρατηρούμε εδώ ότι:</p>
+        <ul class="list-check">
+          <li>Για x = 1 αληθεύουν και οι δύο εξισώσεις, ενώ</li>
+        </ul>
+        <ul class="list-check">
+          <li>Για x = 0 αληθεύει μόνο η πρώτη και για x = -1 αληθεύει μόνο η δεύτερη.</li>
+        </ul>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Ο σύνδεσμος «και» </p>
+        Γνωρίζουμε ότι:<br>
+        <p style="padding:20px"><em>«Το γινόμενο δύο πραγματικών αριθμών α και β είναι διάφορο του μηδενός, αν και μόνον αν και οι δύο αριθμοί α και β είναι διάφοροι του μηδενός».</em><br>
+        </p>
+        Για να δηλώσουμε ότι και οι δύο αριθμοί α και β είναι διάφοροι του μηδενός γράφουμε<br>
+        <br>
+        <p class="center">α  &ne; 0 και β &ne; 0<br>
+        </p>
+        <p>Έτσι, έχουμε την ισοδυναμία<br>
+        </p>
+        <p class="center">α &middot; β &ne; 0 &hArr;  α &ne; 0 και β &ne; 0<br>
+        </p>
+        <p>Γενικά: <br>
+        </p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td>Αν P και Q είναι δύο ισχυρισμοί, τότε ο ισχυρισμός <strong>P και Q</strong> αληθεύει μόνο στην περίπτωση που <u>και οι δύο</u> ισχυρισμοί αληθεύουν.</td>
+          </tr>
+        </table>
+        <p>Ο ισχυρισμός «<strong>P και Q</strong>» λέγεται <strong>σύζευξη</strong> των P και Q .<br>
+          Για παράδειγμα, ο ισχυρισμός<br>
+        </p>
+        <p class="center">x(x -1) = 0 και (x -1)( x +1) = 0<br>
+        </p>
+        <p>αληθεύει για εκείνα τα x για τα οποία αληθεύουν και οι δύο εξισώσεις, δηλαδή για x = 1 .<br>
+        </p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><table class="question-table" summary="red-dark-yellow table for questions">
+          <tr>
+            <td colspan="2" class="exercise-header">ΕΡΩΤΗΣΕΙΣ ΚΑΤΑΝΟΗΣΗΣ</td>
+          </tr>
+          <tr>
+            <td width="137" class="exercise-no"><p><strong>I.</strong></p></td>
+            <td width="667" class="question-instruction"><p><strong>Σε  καθεμιά από τις παρακάτω περιπτώσεις να κυκλώσετε το γράμμα Α, αν ο ισχυρισμός  είναι αληθής για όλους τους πραγματικούς αριθμούς α και β. Διαφορετικά να  κυκλώσετε το γράμμα Ψ.</strong></p></td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+            <td><table class="question-list" summary="table for question-list">
+                <tr>
+                  <td class="exercise-no"><strong>1.</strong></td>
+                  <td><strong>α<sup>2</sup> = 9 <em>=&gt;</em> α = 3</strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no"><strong>2.</strong></td>
+                  <td><strong>α<sup>2</sup> = α &hArr; α = 1</strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no"><strong>3.</strong></td>
+                  <td><strong>α<sup>2</sup> &ne; α <em>=&gt;</em> α &ne; 1</strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">4.</td>
+                  <td><strong>α &ne; 2 &lt;<em>=&gt;</em> α<sup>2</sup> &ne; 4 </strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">5.</td>
+                  <td><strong>α &gt; 2 <em>=&gt;</em> α<sup>2</sup> &gt; 4 </strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">6.</td>
+                  <td><strong>α &lt; 2 <em>=&gt;</em> α<sup>2</sup> &lt; 4 </strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">7.</td>
+                  <td><strong>α<sup>2</sup> &lt; 4 <em>=&gt;</em> α &lt;  2  </strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">8.</td>
+                  <td><strong>α<sup>2</sup> &gt;  4 <em>=&gt;</em> α &gt; 2 </strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">9.</td>
+                  <td><strong>α &lt; 2  και β &lt; 3 <em>=&gt;</em>  α &middot; β &lt; 6</strong></td>
+                  <td class="center">Α</td>
+                  <td class="center">Ψ</td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td class="exercise-no"><strong>II.</strong></td>
+            <td><p>Να  αντιστοιχίσετε καθένα από τους ισχυρισμούς της ομάδας Α' με τον ισοδύναμό του ισχυρισμό από τη ομάδα Β'. </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="exercise-no"><table width="756" border="0" cellspacing="0" cellpadding="0" summary="table that defines a page">
+                <tr>
+                  <td colspan="2" align="center" style="border: 1px solid #000000;background-color: #FEE5CA;color:#AE1A1E;"><p>Α΄ ΟΜΑΔΑ</p></td>
+                  <td width="195">&nbsp;</td>
+                  <td colspan="2" align="center" style="border: 1px solid #000000;background-color: #FEE5CA;color:#AE1A1E;"><strong>Β΄ ΟΜΑΔΑ</strong></td>
+                </tr>
+                <tr>
+                  <td width="77" align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">1</td>
+                  <td width="300" style="border: 1px solid #000000;background-color: #FFFCE0;"><strong>x(x - 2) =  0</strong></td>
+                  <td>&nbsp;</td>
+                  <td width="79" align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">Α</td>
+                  <td width="300" style="border: 1px solid #000000;background-color: #FFFCE0;"><strong>x &ne; 0 και  </strong><strong>x &ne; 2</strong></td>
+                </tr>
+                <tr>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">2</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;"><strong>x(x - 2) &ne;  0</strong></td>
+                  <td>&nbsp;</td>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">Β</td>
+                  <td  style="border: 1px solid #000000;background-color: #FFFCE0;"><strong>x = 2</strong></td>
+                </tr>
+                <tr>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">3</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;"><strong>x<sup>2</sup> = 4</strong></td>
+                  <td>&nbsp;</td>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">Γ</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x = -2 ή x = 2</td>
+                </tr>
+                <tr>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">4</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x<sup>2</sup> = 4 και x &lt; 0</td>
+                  <td>&nbsp;</td>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">Δ</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x = 0</td>
+                </tr>
+                <tr>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">5</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x(x-2) = 0 και x(x-1) = 0</td>
+                  <td>&nbsp;</td>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">Ε</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x = 0 ή x = 2</td>
+                </tr>
+                <tr>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">6</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x<sup>2</sup> = 4 και x &gt; 0</td>
+                  <td>&nbsp;</td>
+                  <td align="center" style="border: 1px solid #000000;background-color: #FEE5CA;">Ζ</td>
+                  <td style="border: 1px solid #000000;background-color: #FFFCE0;">x = -2</td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="chapter_sub"><a name="eis2">Ε.2 ΣΥΝΟΛΑ</a></p>
+        <p class="subtitle blue">Η έννοια του συνόλου</p>
+        <p>Πολλοί άνθρωποι συνηθίζουν να συλλέγουν διάφορα πράγματα, όπως π.χ. γραμματόσημα, νομίσματα, πίνακες ζωγραφικής, εφημερίδες, βιβλία κτλ. Οι περισσότεροι συλλέκτες ταξινομούν τις συλλογές τους σε κατηγορίες, π.χ. «γραμματόσημα που προέρχονται από την ίδια χώρα», «νομίσματα του περασμένου αιώνα», «πίνακες της αναγέννησης» κτλ.<br>
+          Επίσης από αρχαιοτάτων χρόνων οι άνθρωποι ενδιαφέρθηκαν για τους αριθμούς και τους ταξινόμησαν σε κατηγορίες, όπως είναι π. χ. «οι άρτιοι αριθμοί», «οι πρώτοι αριθμοί» κτλ. <br>
+          Συλλογές ή κατηγορίες όπως οι παραπάνω ή ακόμη ομάδες αντικειμένων, ομοειδών ή όχι, που μπορούμε με κάποιο τρόπο να τα ξεχωρίσουμε, ονομάζονται στα Μαθηματικά <strong>σύνολα</strong>. <br>
+          Σύμφωνα με τον μεγάλο μαθηματικό Cantor: <br>
+        </p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td><strong>Σύνολο </strong>είναι κάθε συλλογή αντικειμένων, που προέρχονται από την εμπειρία μας ή τη διανόησή μας, είναι καλά ορισμένα και διακρίνονται το ένα από το άλλο.</td>
+          </tr>
+        </table>
+        <p>Τα αντικείμενα αυτά, που αποτελούν το σύνολο, ονομάζονται στοιχεία ή μέλη του συνόλου.<br>
+        </p>
+        <div class="table_orange">
+          <p class="application-solution"><strong>ΣΧΟΛΙΟ</strong></p>
+          <br>
+          Ένα σύνολο πρέπει να είναι, όπως συνηθίζουμε να λέμε, «καλώς ορισμένο». Αυτό σημαίνει ότι τα στοιχεία του μπορούν να αναγνωρίζονται με σιγουριά. Για παράδειγμα δεν μπορούμε να μιλάμε για το σύνολο των μεγάλων πραγματικών αριθμών. Αυτό δεν είναι σύνολο, με τη μαθηματική έννοια του όρου, διότι δεν υπάρχει κανόνας που να καθορίζει αν ένας πραγματικός αριθμός είναι ή δεν είναι μεγάλος. Αν όμως θεωρήσουμε τους πραγματικούς αριθμούς που είναι μεγαλύτεροι του 1000000, τότε αυτοί αποτελούν σύνολο.<br>
+        </div>
+        <br>
+        Για να συμβολίσουμε ένα σύνολο στα Μαθηματικά, χρησιμοποιούμε ένα από τα κεφαλαία γράμματα του Ελληνικού ή του Λατινικού αλφαβήτου, ενώ για τα στοιχεία του χρησιμοποιούμε τα μικρά γράμματα αυτών. Για παράδειγμα:<br>
+        <ul class="list-check">
+          <li>με ℕ συμβολίζουμε το σύνολο των φυσικών αριθμών,</li>
+        </ul>
+        <ul class="list-check">
+          <li>με ℤ το σύνολο των ακεραίων αριθμών, </li>
+        </ul>
+        <ul class="list-check">
+          <li>με ℚ το σύνολο των ρητών αριθμών και </li>
+        </ul>
+        <ul class="list-check">
+          <li>με ℝ το σύνολο των πραγματικών αριθμών. </li>
+        </ul></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Τα σύμβολα &isin; και &notin;</p>
+        <p>Για να δηλώσουμε ότι το x είναι στοιχείο του συνόλου Α, γράφουμε x    &isin; Α και διαβάζουμε «το x ανήκει στο Α», ενώ για να δηλώσουμε ότι το x δεν είναι στοιχείο του συνόλου Α γράφουμε x   &notin; Α και διαβάζουμε «το x δεν ανήκει στο Α». Για παράδειγμα<br>
+        </p>
+        <p class="center"><img src="images/img0_168.jpg" alt="pic0168" longdesc="images/img0_168.jpg"></p>
+        <p class="subtitle blue">Παράσταση συνόλου</p>
+        <p>Για να παραστήσουμε ένα σύνολο χρησιμοποιούμε συνήθως έναν από τους παρακάτω τρόπους:</p>
+        <p><strong>α)</strong> Όταν δίνονται όλα τα στοιχεία του και είναι λίγα σε πλήθος, τότε γράφουμε τα στοιχεία αυτά μεταξύ δύο αγκίστρων, χωρίζοντας τα με το κόμμα. Έτσι π.χ., αν το σύνολο Α έχει ως στοιχεία τους αριθμούς 2, 4 και 6, γράφουμε:</p>
+        <p class="center">Α = {2, 4, 6}<br>
+        </p>
+        <p>Πολλές φορές χρησιμοποιούμε έναν παρόμοιο συμβολισμό και για σύνολα που έχουν πολλά ή άπειρα στοιχεία, γράφοντας μερικά μόνο από αυτά και αποσιωπώντας τα υπόλοιπα, αρκεί να είναι σαφές ποια είναι αυτά που παραλείπονται. Έτσι για παράδειγμα το σύνολο Β των ακεραίων από το 1 μέχρι το 100 συμβολίζεται ως εξής</p>
+        <p class="center">Β = {1, 2, 3, ... , 100},<br>
+        </p>
+        <p>ενώ το σύνολο των κλασμάτων της μορφής <img src="images/img0_169.jpg" alt="pic0169" width="21" height="35" longdesc="images/img0_169.jpg">, όπου ν θετικός ακέραιος, συμβολίζεται ως εξής:</p>
+        <p class="center"><img src="images/img0_170.jpg" alt="pic0170" longdesc="images/img0_170.jpg"> </p>
+        <p>Ο παραπάνω τρόπος παράστασης ενός συνόλου λέγεται «παράσταση του συνόλου με <strong>αναγραφή</strong> των στοιχείων του».<br>
+        
+        <p><strong>β)</strong> Αν από το σύνολο των πραγματικών αριθμών επιλέξουμε εκείνους που έχουν την ιδιότητα να είναι θετικοί, τότε φτιάχνουμε το σύνολο των θετικών πραγματικών αριθμών, το οποίο συμβολίζεται με:</p>
+        <p class="center">{x   &isin; ℝ | x&gt;0}</p>
+        <p> και διαβάζεται «Το σύνολο των       x&isin; ℝ , όπου x&gt;0 ».<br>
+          Ομοίως το σύνολο των άρτιων ακεραίων συμβολίζεται<br>
+        </p>
+        <p class="center">{x &isin;ℤ | x άρτιος}<br>
+        </p>
+        <p> Γενικά, αν από ένα σύνολο Ω επιλέγουμε εκείνα τα στοιχεία του, που έχουν μια ορισμένη ιδιότητα Ι, τότε φτιάχνουμε ένα νέο σύνολο που συμβολίζεται με:<br>
+        </p>
+        <p class="center">{x &isin; Ω | x έχει την ιδιότητα Ι}<br>
+        </p>
+        <p>και διαβάζεται «Το σύνολο των        x &isin; <span class="center">Ω</span>, όπου x έχει την ιδιότητα Ι». Ο παραπάνω τρόπος παράστασης ενός συνόλου λέγεται «παράσταση του συνόλου με <strong>περιγραφή</strong> των στοιχείων του».<br>
+        </p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Ίσα σύνολα</p>
+        <p>Ας θεωρήσουμε τώρα τα σύνολα:</p>
+        <p class="center">Α = {1, 2}    και Β= {x&isin; ℝ | (x - 1)(x - 2) = 0 }</p>
+        Επειδή οι λύσεις της εξίσωσης       (x - 1)(x - 2) = 0 είναι οι αριθμοί 1 και 2, το σύνολο Β έχει τα ίδια ακριβώς στοιχεία με το Α. Σε αυτήν την περίπτωση λέμε ότι τα σύνολα Α και Β είναι ίσα.<br>
+        <br>
+        Γενικά: <br>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td>Δύο σύνολα Α και Β λέγονται <strong>ίσα</strong>, όταν έχουν τα ίδια ακριβώς στοιχεία.</td>
+          </tr>
+        </table>
+        <p><br>
+          Με άλλα λόγια:<br>
+          <strong>«Δύο σύνολα Α και Β λέγονται ίσα, όταν κάθε στοιχείο του Α είναι και στοιχείο του Β και αντιστρόφως κάθε στοιχείο του Β είναι και στοιχείο του Α».</strong><br>
+          Στην περίπτωση αυτή γράφουμε <strong>Α = Β.</strong><br>
+        </p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Υποσύνολα συνόλου</p>
+        <p>Ας θεωρήσουμε τα σύνολα</p>
+        <p class="center">Α={1, 2, 3, ... , 15}   &nbsp; &nbsp;   και &nbsp; &nbsp; Β={1, 2, 3, ... , 100}</p>
+        Παρατηρούμε ότι κάθε στοιχείο του συνόλου Α είναι και στοιχείο του συνόλου Β. Στην περίπτωση αυτή λέμε ότι το Α είναι υποσύνολο του Β.
+        <p><br>
+          Γενικά: <br>
+        </p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td>Ένα σύνολο Α λέγεται <strong>υποσύνολο</strong> ενός συνόλου Β, όταν κάθε στοιχείο του Α είναι και στοιχείο του Β.</td>
+          </tr>
+        </table>
+        <p>Στην περίπτωση αυτή γράφουμε Α &sube; Β . Άμεσες συνέπειες του ορισμού είναι οι:<br>
+          <strong>i)</strong> Α &sube; Α, για κάθε σύνολο Α.<br>
+          <strong>ii)</strong> Αν Α &sube; Β και Β &sube; Γ, τότε Α &sube; Γ .<br>
+          <strong>iii)</strong> Αν Α &sube; Β και Β &sube; Α, τότε Α = Β .<br>
+        </p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Το κενό σύνολο</p>
+        <p>Ας αναζητήσουμε τα στοιχεία του συνόλου Α = {x &isin; ℝ | x<sup>2</sup> = -1}. Είναι φανερό ότι τέτοια στοιχεία δεν υπάρχουν, αφού η εξίσωση x<sup>2</sup> = -1 είναι αδύνατη στο ℝ. Το σύνολο αυτό, που δεν έχει κανένα στοιχείο, λέγεται <strong>κενό σύνολο</strong> και συμβολίζεται με &empty;΄ ή { }. <br>
+          <br>
+          Δηλαδή: <br>
+        </p>
+        <table class="table_blue tbcenter" summary="blue table for definition">
+          <tr>
+            <td><strong>Κενό σύνολο</strong> είναι το σύνολο που δεν έχει στοιχεία.</td>
+          </tr>
+        </table>
+        <p>Δεχόμαστε ότι το κενό σύνολο είναι υποσύνολο κάθε συνόλου.<br>
+          <br>
+        </p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td height="551"><p class="subtitle blue">Διαγράμματα Venn</p>
+        <p>Μια εποπτική παρουσίαση των συνόλων και των μεταξύ τους σχέσεων γίνεται με τα διαγράμματα Venn.</p>
+        <table width="774" border="0" cellspacing="0" cellpadding="0" summary="data table">
+          <tr>
+            <td width="774"><ul>
+                <li>Κάθε φορά που εργαζόμαστε με σύνολα, τα σύνολα αυτά θεωρούνται υποσύνολα ενός συνόλου που λέγεται <strong>βασικό σύνολο</strong> και συμβολίζεται με <strong>Ω</strong>. Για παράδειγμα, τα σύνολα $\mathbb {N}$, ℤ και ℚ, είναι υποσύνολα του βασικού συνόλου Ω = ℝ.</li>
+              </ul></td>
+          </tr>
+        </table>
+        <table width="773" border="0" cellspacing="0" cellpadding="0" summary="data table">
+          <tr>
+            <td width="521"><div style="padding:30px">Το βασικό σύνολο συμβολίζεται με το εσωτερικό ενός ορθογωνίου, ενώ κάθε υποσύνολο ενός βασικού συνόλου παριστάνεται με το εσωτερικό μιας κλειστής καμπύλης που περιέχεται στο εσωτερικό του ορθογωνίου.</div></td>
+            <td width="252" rowspan="2"><span class="center"><img src="images/img0_171.jpg" alt="pic0171" longdesc="images/img0_171.jpg"></span></td>
+          </tr>
+          <tr>
+            <td><ul>
+                <li>Αν Α &sube; Β, τότε το Α παριστάνεται με το εσωτερικό μιας κλειστής καμπύλης που περιέχεται στο εσωτερικό της κλειστής καμπύλης που παριστάνει το Β.</li>
+              </ul></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><p class="subtitle blue">Πράξεις με σύνολα</p>
+        <p>Έστω Ω = {1, 2, 3, ...,10} ένα βασικό σύνολο και δύο υποσύνολά του:</p>
+        <p class="center">Α = {1, 2, 3, 4}   και   Β = {3, 4, 5, 6} .</p>
+        <ul>
+          <li>Το σύνολο {1, 2, 3, 4, 5, 6}, που έχει ως στοιχεία τα κοινά και τα μη κοινά στοιχεία των Α και Β, δηλαδή το σύνολο των στοιχείων του Ω που ανήκουν τουλάχιστον σε ένα από τα Α και Β λέγεται <u>ένωση</u> των συνόλων Α και Β.</li>
+        </ul>
+        <p><br>
+          Γενικά: </p>
+        <table width="761" border="0" cellspacing="0" cellpadding="0"summary="data table">
+          <tr>
+            <td width="424"><table class="table_blue tbcenter" summary="blue table for definition">
+                <tr>
+                  <td width="342"><strong>Ένωση </strong>δύο υποσυνόλων Α, Β ενός βασικού συνόλου Ω λέγεται το σύνολο των στοιχείων του Ω που ανήκουν τουλάχιστον σε ένα από τα σύνολα Α και Β και συμβολίζεται με <strong>Α&cup;Β </strong>.</td>
+                </tr>
+              </table></td>
+            <td width="337"><span class="center"><img src="images/img0_173.jpg" alt="pic0173" longdesc="images/img0_173.jpg"></span></td>
+          </tr>
+        </table>
+        <p><br>
+        </p>
+        <p class="center">&nbsp;</p>
+        <p>Δηλαδή είναι:</p>
+        <p class="center"><strong>Α&cup;Β = {x &isin; Ω| x &isin; Α ή  x &isin; Β}</strong></p>
+        <ul>
+          <li>Το σύνολο {3, 4} που έχει ως στοιχεία τα κοινά μόνο στοιχεία των Α και Β λέγεται <u>τομή</u> των Α και Β.</li>
+        </ul>
+        <p>Γενικά: </p>
+        <table width="777" border="0" cellspacing="0" cellpadding="0" summary="data table">
+          <tr>
+            <td width="423"><table class="table_blue tbcenter" summary="blue table for definition">
+                <tr>
+                  <td><strong>Τομή</strong> δύο υποσυνόλων Α, Β ενός βασικού συνόλου Ω λέγεται το σύνολο των στοιχείων του Ω που ανήκουν και στα δύο σύνολα Α, Β και συμβολίζεται με <strong>Α &cap; Β</strong></td>
+                </tr>
+              </table></td>
+            <td width="354"><span class="center"><img src="images/img0_174.jpg" alt="pic0174" longdesc="images/img0_174.jpg"></span></td>
+          </tr>
+        </table>
+        <p class="center">&nbsp;</p>
+        <p>Δηλαδή είναι:</p>
+        <p class="center"><strong>Α &cap; Β = {x &isin; Ω| x &isin; Α και x &isin; Β}</strong></p>
+        Στην περίπτωση που δύο σύνολα Α και Β δεν έχουν κοινά στοιχεία, δηλαδή όταν Α &cap; Β = &empty;΄ , τα δύο σύνολα λέγονται <strong>ξένα </strong>μεταξύ τους.<br>
+        <br>
+        <ul>
+          <li>Το σύνολο {5, 6, 7, 8, 9, 10} που έχει ως στοιχεία τα στοιχεία του Ω που δεν ανήκουν στο Α, λέγεται <u>συμπλήρωμα</u> του συνόλου Α.</li>
+        </ul>
+        <p><br>
+          Γενικά: </p>
+        <table width="761" border="0" cellspacing="0" cellpadding="0"summary="data table">
+          <tr>
+            <td width="424"><table class="table_blue tbcenter" summary="blue table for definition">
+                <tr>
+                  <td><strong>Συμπλήρωμα</strong> ενός υποσυνόλου Α ενός βασικού συνόλου Ω λέγεται το σύνολο των στοιχείων του Ω που δεν ανήκουν στο Α και συμβολίζεται με <strong>Α΄</strong>.</td>
+                </tr>
+              </table></td>
+            <td width="337"><span class="center"><img src="images/img0_175.jpg" alt="pic0175" longdesc="images/img0_175.jpg"></span></td>
+          </tr>
+        </table>
+        <p>Δηλαδή είναι:<br>
+        </p>
+        <p class="center"><strong>Α΄ = {x &isin; Ω | x&notin;Α}</strong><br>
+        </p></td>
+    </tr>
+  </table>
+  <table border="0" class="container" summary="table that defines a page">
+    <tr>
+      <td><table class="question-table" summary="red-dark-yellow table for questions">
+          <tr>
+            <td colspan="2" class="exercise-header">ΕΡΩΤΗΣΕΙΣ ΚΑΤΑΝΟΗΣΗΣ</td>
+          </tr>
+          <tr>
+            <td class="exercise-no"><p><strong>I.</strong></p></td>
+            <td rowspan="3"><strong>1.</strong> Στους παρακάτω πίνακες να συμπληρώσετε με το σύμβολο "<img src="images/check.png" alt="piccheck" longdesc="images/check.png">"     εκείνα τα τετραγωνάκια των οποίων ο αντίστοιχος αριθμός ανήκει στο αντίστοιχο σύνολο. <br>
+              <strong>2.</strong> Πώς ονομάζονται οι αριθμοί για τους οποίους έχουν συμπληρωθεί τα τετραγωνάκια μόνο της τελευταίας γραμμής;<br>
+              <strong>3.</strong> Να χρησιμοποιήσετε τα διαγράμματα του Venn για να παραστήσετε τις διαδοχικές σχέσεις εγκλεισμού των συνόλων  $\mathbb {N}$, $\mathbb {Z}$, $\mathbb {Q}$ και $\mathbb {R}$ να τοποθετήσετε μέσα σε αυτά τους αριθμούς αυτούς. <br></td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="304" class="exercise-no">&nbsp;</td>
+            <td><table width="700" summary="table for data">
+                <tr align="center">
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="127">&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="49"><strong>-3,5</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="34"><strong>0</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="45">$\sqrt{10}$</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="445">$-\dfrac{13}{5}$</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="445"><strong>π</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="445">$2,\overline{3}$</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="445">$\dfrac{20}{5}$</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="445">$\sqrt{100}$</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" width="445"><strong>-5</strong></td>
+                </tr>
+                <tr>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" ><strong>&isin;ℕ</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;"><strong>&isin;ℤ</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;"><strong>&isin;ℚ</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;"><strong>&isin;ℝ</strong></td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                  <td style="border: 1px solid #253F8E;background-color: #FFFCE0;" >&nbsp;</td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td height="56" class="exercise-no"><p><strong>II.</strong></p></td>
+            <td><p><strong>Σε καθεμιά από τις παρακάτω ερωτήσεις να συμπληρώσετε τις ισότητες.</strong></p></td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+            <td><table class="question-list" summary="table for question-list">
+                <tr>
+                  <td width="100%"><strong>1. </strong> Αν Α= {x &isin; ℕ | x διαιρέτης του 16} και Β= {x &isin; ℕ |x διαιρέτης του 24} , τότε:<br>
+                    <strong>α) </strong>Α&cup;Β =……………………… &nbsp; &nbsp; &nbsp;<strong>β)</strong> Α &cap; Β =………………………</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" width="100%"><strong>2.</strong> Ας θεωρήσουμε ως βασικό σύνολο το σύνολο Ω των γραμμάτων του ελληνικού αλφαβήτου και τα υποσύνολά του
+                    <p class="center">Α= {x &isin;Ω| x φωνήεν}και    Β= {x &isin; Ω| x σύμφωνο}.</p>
+                    Τότε:<br>
+                    <strong>α)</strong> Α&cup;Β = ....... <strong>β)</strong> Α &cap; Β = ......<strong>γ)</strong> Α΄ = ...... <strong>δ)</strong> B΄ = ......</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">&nbsp;</td>
+                </tr>
+              </table>
+              <br></td>
+          </tr>
+          <tr>
+            <td class="exercise-no"><strong>III. </strong></td>
+            <td><p><br>
+                <strong>Σε καθεμιά από τις παρακάτω ερωτήσεις να βάλετε σε κύκλο τις σωστές απαντήσεις.</strong></p></td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+            <td><table class="question-list" summary="table for question-list">
+                <tr>
+                  <td><strong>1. </strong>Έστω δύο σύνολα Α και Β. Τότε:<br>
+                    <strong>α)</strong> Α &sube; Α &cap; Β &nbsp;&nbsp; <strong>β)</strong> Β &sube; Α &cap; Β   &nbsp;&nbsp; <strong>γ)</strong> Α &cap; Β &sube; Α &nbsp;&nbsp; <strong>δ)</strong> Α &cap; Β &sube;Β</td>
+                </tr>
+                <tr>
+                  <td><strong>2. </strong>Έστω δύο σύνολα Α και Β . Τότε:<br>
+                    <strong>α)</strong> Α &sube; Α&cup;Β  &nbsp;&nbsp; <strong>β)</strong> Α&cup;Β &sube; Β &nbsp;&nbsp; <strong>γ)</strong> Α&cup;Β &sube; Α &nbsp;&nbsp; <strong>δ)</strong> Α&cup;Β &sube; Β</td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td class="exercise-no"><strong>IV.</strong></td>
+            <td><strong>Σε καθεμιά από τις παρακάτω ερωτήσεις να συμπληρώσετε τις ισότητες.</strong></td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+            <td><table class="question-list" summary="table for question-list">
+                <tr>
+                  <td class="exercise-no"><strong>1.</strong></td>
+                  <td rowspan="2"><p>Έστω Ω ένα βασικό σύνολο, &empty;΄ το κενό σύνολο και Α &sube;Ω .Τότε:</p>
+                    <p><strong>α)</strong> &empty;΄ = ......  &nbsp;&nbsp; <strong>β)</strong> Ω΄ = ......  &nbsp;&nbsp;<strong> γ)</strong> (Α΄)΄ =.....</p></td>
+                </tr>
+                <tr>
+                  <td class="exercise-no">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="exercise-no"><strong>2.</strong></td>
+                  <td> Έστω Α &sube; Β .Τότε<strong>α)</strong> Α &cap; Β = ...... 	&nbsp;&nbsp; <strong>β)</strong> Α&cup;Β = .......</td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td class="exercise-no">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div>
+<!-- APACHE SUBS - Matomo --><script type='text/javascript'>  var _paq = window._paq || [];  /* tracker methods like 'setCustomDimension' should be called before 'trackPageView' */  _paq.push(['trackPageView']);  _paq.push(['enableLinkTracking']);  (function() {    var u='//analytics.dschool.edu.gr/';   _paq.push(['setTrackerUrl', u+'matomo.php']);    _paq.push(['setSiteId', '2']);    var d=document, g=d.createElement('script'),s=d.getElementsByTagName('script')[0];    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js';s.parentNode.insertBefore(g,s);  })();</script><noscript><p><img src='//analytics.dschool.edu.gr/matomo.php?idsite=2&amp;rec=1' style='border:0;' alt='' /></p></noscript><!-- End Matomo Code -->     </body>
+</html>

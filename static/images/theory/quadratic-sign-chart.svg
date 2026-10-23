@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Πίνακας προσήμου x²−5x+6</title><desc id="desc">Για x μικρότερο από 2 το πρόσημο είναι θετικό, στο 2 μηδέν, μεταξύ 2 και 3 αρνητικό, στο 3 μηδέν, μετά το 3 θετικό. Η ανίσωση μικρότερο ή ίσο του μηδενός έχει λύση [2,3].</desc>
+<rect width="600" height="220" fill="white"/>
+<rect x="310" y="65" width="140" height="80" fill="#dcecff"/>
+<path d="M25 65H575M25 110H575M170 30V145" fill="none" stroke="#142f52" stroke-width="2"/>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="19" text-anchor="middle"><text x="95" y="52">x</text><text x="195" y="52">−∞</text><text x="310" y="52">2</text><text x="450" y="52">3</text><text x="555" y="52">+∞</text><text x="95" y="95">x²−5x+6</text><text x="245" y="95">+</text><text x="310" y="95">0</text><text x="380" y="95">−</text><text x="450" y="95">0</text><text x="510" y="95">+</text><text x="300" y="185">x²−5x+6 ≤ 0  ⇔  x ∈ [2,3]</text></g>
+</svg>

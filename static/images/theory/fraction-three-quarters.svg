@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Τρία τέταρτα</title><desc id="desc">Ορθογώνιο χωρισμένο σε τέσσερα ίσα μέρη, από τα οποία τα τρία είναι μπλε.</desc>
+<rect width="600" height="220" fill="white"/>
+<g stroke="#142f52" stroke-width="2"><path d="M60 55H420V135H60Z" fill="#3274b8"/><path d="M420 55H540V135H420Z" fill="#edf2f7"/><path d="M180 55V135M300 55V135"/></g>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="20" text-anchor="middle"><text x="300" y="185">3 από 4 ίσα μέρη: 3/4</text></g>
+</svg>

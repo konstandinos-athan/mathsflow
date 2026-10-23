@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Ίσα εφαπτόμενα τμήματα</title><desc id="desc">Από το ίδιο εξωτερικό σημείο Ρ φέρονται εφαπτόμενες ΡΑ και ΡΒ στον κύκλο κέντρου Ο. Οι ακτίνες ΟΑ και ΟΒ είναι κάθετες στις εφαπτόμενες.</desc>
+<rect width="600" height="220" fill="white"/>
+<circle cx="150" cy="110" r="60" fill="#edf4ff" stroke="#24558b" stroke-width="2"/>
+<path d="M174 55L300 110L174 165" fill="none" stroke="#bd4828" stroke-width="3"/>
+<path d="M174 55L150 110L174 165M150 110H300" fill="none" stroke="#24558b" stroke-width="2" stroke-dasharray="5 4"/>
+<g fill="#142f52"><circle cx="150" cy="110" r="3"/><circle cx="300" cy="110" r="4"/><circle cx="174" cy="55" r="3"/><circle cx="174" cy="165" r="3"/></g>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="19"><text x="130" y="115">Ο</text><text x="170" y="43">Α</text><text x="170" y="190">Β</text><text x="308" y="115">Ρ</text><text x="380" y="85">ΡΑ = ΡΒ</text><text x="380" y="120">ΟΑ ⟂ ΡΑ</text><text x="380" y="155">ΟΒ ⟂ ΡΒ</text></g>
+</svg>

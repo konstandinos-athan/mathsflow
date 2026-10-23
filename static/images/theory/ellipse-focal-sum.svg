@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Σταθερό άθροισμα στην έλλειψη</title><desc id="desc">Έλλειψη ημιαξόνων 5 και 4, με εστίες στο −3 και 3. Για το σημείο Μ(0,4), οι δύο εστιακές αποστάσεις είναι 5 και το άθροισμα 10.</desc>
+<rect width="600" height="220" fill="white"/>
+<ellipse cx="170" cy="110" rx="90" ry="72" fill="#edf4ff" stroke="#3274b8" stroke-width="2"/>
+<path d="M65 110H280M170 20V200" stroke="#9ba9b9" fill="none"/>
+<path d="M116 110L170 38L224 110" fill="none" stroke="#bd4828" stroke-width="2"/>
+<g fill="#142f52"><circle cx="116" cy="110" r="4"/><circle cx="224" cy="110" r="4"/><circle cx="170" cy="38" r="4"/></g>
+<g font-family="Arial,sans-serif" font-size="17" fill="#142f52"><text x="103" y="133">Ε΄</text><text x="220" y="133">Ε</text><text x="180" y="31">Μ(0,4)</text><text x="119" y="69">5</text><text x="204" y="69">5</text><text x="330" y="65">x²/25 + y²/16 = 1</text><text x="330" y="105">ΜΕ΄ + ΜΕ = 10</text><text x="330" y="145">a = 5, b = 4, c = 3</text><text x="330" y="180">c² = a² − b²</text></g>
+</svg>

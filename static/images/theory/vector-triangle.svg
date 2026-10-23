@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Πρόσθεση διανυσμάτων</title><desc id="desc">ΑΒ οριζόντιο μήκους 3 και ΒΓ κατακόρυφο μήκους 4. Η συνισταμένη ΑΓ έχει μέτρο 5.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="600" height="220" fill="white"/>
+<path d="M80 180H200" stroke="#3274b8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M200 180V20" stroke="#bd4828" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M80 180L200 20" stroke="#142f52" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M185 180V165H200" fill="none" stroke="#142f52"/>
+<g font-family="Arial,sans-serif" font-size="19" fill="#142f52"><text x="60" y="200">Α</text><text x="205" y="200">Β</text><text x="208" y="25">Γ</text><text x="135" y="205">3</text><text x="215" y="110">4</text><text x="113" y="100">5</text><text x="320" y="85">ΑΒ + ΒΓ = ΑΓ</text><text x="320" y="125">3² + 4² = 5²</text><text x="320" y="165">Διαδρομή 7, μετατόπιση 5</text></g>
+</svg>

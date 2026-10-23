@@ -42,6 +42,7 @@
            ============================================ #}
         {% if questions %}
             <form method="post">
+                <input type="hidden" name="attempt_token" value="{{ attempt_token }}">
                 <input type="hidden" name="difficulty" value="{{ difficulty }}">
 
                 {% for question in questions %}
@@ -72,7 +73,11 @@
                     </div>
                 {% endfor %}
 
-                <button type="submit" class="quiz-btn">Υποβολή</button>
+                {% if score is none %}
+                    <button type="submit" class="quiz-btn">Υποβολή</button>
+                {% else %}
+                    <a href="{{ request.path }}?difficulty={{ difficulty }}">Νέα προσπάθεια</a>
+                {% endif %}
             </form>
         {% else %}
             <p>Δεν υπάρχουν ακόμα ερωτήσεις για αυτό το επίπεδο.</p>

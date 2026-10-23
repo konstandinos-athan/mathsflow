@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Διάμεσος τραπεζίου</title><desc id="desc">Ενδεικτικό τραπέζιο με βάσεις 8 και 14. Η διάμεσος ενώνει τα μέσα των μη παράλληλων πλευρών και έχει μήκος 11.</desc>
+<rect width="600" height="220" fill="white"/>
+<path d="M110 40H270L340 180H60Z" fill="#edf4ff" stroke="#24558b" stroke-width="2"/>
+<path d="M85 110H305" stroke="#bd4828" stroke-width="3"/>
+<circle cx="85" cy="110" r="4" fill="#142f52"/><circle cx="305" cy="110" r="4" fill="#142f52"/>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="18" text-anchor="middle"><text x="190" y="31">8</text><text x="200" y="205">14</text><text x="195" y="100">11</text><text x="66" y="115">Μ</text><text x="324" y="115">Ν</text><text x="460" y="85">ΜΝ ∥ βάσεις</text><text x="460" y="125">ΜΝ = (14+8)/2</text><text x="460" y="165">ΜΝ = 11</text></g>
+</svg>

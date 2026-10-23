@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Συμμετρία ως προς άξονα</title><desc id="desc">Τα Α και Α΄ βρίσκονται στην ίδια κάθετη προς τον άξονα ε και απέχουν 3 cm από αυτόν.</desc>
+<rect width="600" height="220" fill="white"/>
+<g stroke="#142f52" stroke-width="2"><path d="M300 25V195" stroke-dasharray="7 5"/><path d="M120 110H480"/><path d="M300 96H314V110" fill="none"/></g>
+<g fill="#3274b8"><circle cx="120" cy="110" r="6"/><circle cx="480" cy="110" r="6"/><circle cx="300" cy="110" r="4"/></g>
+<g fill="#142f52" font-family="Arial,sans-serif" font-size="20" text-anchor="middle"><text x="120" y="92">Α</text><text x="480" y="92">Α΄</text><text x="300" y="140">Η</text><text x="322" y="40">ε</text><text x="210" y="155">3 cm</text><text x="390" y="155">3 cm</text><text x="300" y="202">ΑΗ = ΗΑ΄,  ΑΑ΄ κάθετο στον ε</text></g>
+</svg>

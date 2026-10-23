@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">Εστία και διευθετούσα παραβολής</title><desc id="desc">Στην y²=4x το Μ(1,2) απέχει 2 από την εστία Ε(1,0) και 2 από τη διευθετούσα x=−1. Η τομή της κάθετης στη διευθετούσα είναι Η(−1,2).</desc>
+<rect width="600" height="220" fill="white"/>
+<path d="M70 110H300M150 205V15" stroke="#8a9aab" fill="none"/>
+<path d="M120 10V210" stroke="#bd4828" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M217.5 20Q82.5 110 217.5 200" fill="none" stroke="#3274b8" stroke-width="3"/>
+<path d="M120 50H180V110" fill="none" stroke="#142f52" stroke-width="2"/>
+<path d="M120 61H131V50" fill="none" stroke="#142f52"/>
+<g fill="#142f52"><circle cx="180" cy="50" r="4"/><circle cx="180" cy="110" r="4"/><circle cx="120" cy="50" r="4"/></g>
+<g font-family="Arial,sans-serif" font-size="17" fill="#142f52"><text x="186" y="48">Μ(1,2)</text><text x="184" y="131">Ε(1,0)</text><text x="94" y="43">Η</text><text x="131" y="130">Ο</text><text x="83" y="207">x = −1</text><text x="350" y="65">y² = 4x</text><text x="350" y="105">ΜΕ = ΜΗ = 2</text><text x="350" y="145">Ίσες αποστάσεις</text><text x="350" y="175">από σημείο και ευθεία</text></g>
+</svg>

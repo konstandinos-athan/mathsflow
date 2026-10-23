@@ -1,0 +1,357 @@
+{
+  "inventory": [
+    {
+      "school": "gymnasio",
+      "grade": "a-gymnasiou",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gymnasio",
+      "grade": "a-gymnasiou",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gymnasio",
+      "grade": "b-gymnasiou",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gymnasio",
+      "grade": "b-gymnasiou",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gymnasio",
+      "grade": "g-gymnasiou",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gymnasio",
+      "grade": "g-gymnasiou",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gel",
+      "grade": "a-gel",
+      "subject": "algebra",
+      "lessons": 16,
+      "theory": 16,
+      "quizzes": 16,
+      "questions": 480
+    },
+    {
+      "school": "gel",
+      "grade": "a-gel",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gel",
+      "grade": "b-gel",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gel",
+      "grade": "b-gel",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gel",
+      "grade": "b-gel",
+      "subject": "math-katefthinsis",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "gel",
+      "grade": "g-gel",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "epal",
+      "grade": "a-epal",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "epal",
+      "grade": "a-epal",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "epal",
+      "grade": "b-epal",
+      "subject": "algebra",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "epal",
+      "grade": "b-epal",
+      "subject": "geometry",
+      "lessons": 0,
+      "theory": 0,
+      "quizzes": 0,
+      "questions": 0
+    },
+    {
+      "school": "epal",
+      "grade": "g-epal",
+      "subject": "algebra",
+      "lessons": 7,
+      "theory": 7,
+      "quizzes": 0,
+      "questions": 0
+    }
+  ],
+  "findings": [
+    [
+      "a-gel",
+      "2.2 Διάταξη Πραγματικών Αριθμών",
+      17,
+      "duplicate question"
+    ],
+    [
+      "a-gel",
+      "2.3 Απόλυτη Τιμή Πραγματικού Αριθμού",
+      19,
+      "duplicate question"
+    ],
+    [
+      "a-gel",
+      "5.2 Αριθμητική πρόοδος",
+      30,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      1,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      2,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      3,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      4,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      5,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      6,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      7,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      8,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      9,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      10,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      11,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      12,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      13,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      14,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      15,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      16,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      17,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      18,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      19,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      20,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      21,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      22,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      23,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      24,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      25,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      26,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      27,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      28,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      29,
+      "double backslash before math delimiter"
+    ],
+    [
+      "a-gel",
+      "5.3 Γεωμετρική πρόοδος",
+      30,
+      "double backslash before math delimiter"
+    ]
+  ]
+}

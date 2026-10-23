@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title id="title">y = 2x + 3</title><desc id="desc">Η ευθεία περνά από τα σημεία (0,3), (1,5) και (3,9). Οι κλίμακες των αξόνων είναι διαφορετικές και δηλώνονται με ενδείξεις.</desc>
+<rect width="600" height="220" fill="#fff"/>
+<g stroke="#d9e1ea" stroke-width="1"><path d="M90 150H450M90 120H450M90 90H450M90 60H450M90 30H450M170 20V180M250 20V180M330 20V180M410 20V180"/></g>
+<g stroke="#142f52" stroke-width="2"><path d="M70 180H460M90 195V15"/></g>
+<path d="M90 135L410 15" stroke="#3274b8" stroke-width="3"/>
+<g fill="#bd4828"><circle cx="90" cy="135" r="5"/><circle cx="170" cy="105" r="5"/><circle cx="330" cy="45" r="5"/></g>
+<g font-family="Arial,sans-serif" font-size="15" fill="#142f52"><text x="73" y="199">0</text><text x="164" y="199">1</text><text x="244" y="199">2</text><text x="324" y="199">3</text><text x="404" y="199">4</text><text x="66" y="154">2</text><text x="66" y="124">4</text><text x="66" y="94">6</text><text x="66" y="64">8</text><text x="56" y="34">10</text><text x="465" y="185">x</text><text x="100" y="18">y</text><text x="105" y="143">(0,3)</text><text x="180" y="108">(1,5)</text><text x="340" y="51">(3,9)</text><text x="453" y="90">y = 2x + 3</text></g>
+</svg>

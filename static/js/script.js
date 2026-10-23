@@ -150,3 +150,23 @@ document.addEventListener("click", function (e) {
         menu.classList.remove("open");
     }
 });
+// Small previews remain readable by opening their original local SVG.
+function addTheoryDiagramLinks() {
+    document.querySelectorAll('.study-page .theory-text img').forEach((image) => {
+        const source = new URL(image.src, window.location.href);
+        if (source.origin !== window.location.origin ||
+            !source.pathname.startsWith('/static/images/theory/')) return;
+        const link = document.createElement('a');
+        link.href = source.href;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.className = 'theory-diagram-link';
+        link.textContent = 'Άνοιγμα σχήματος σε πλήρες μέγεθος';
+        image.insertAdjacentElement('afterend', link);
+    });
+}
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addTheoryDiagramLinks, { once: true });
+} else {
+    addTheoryDiagramLinks();
+}
