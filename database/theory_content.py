@@ -8,6 +8,7 @@ from pathlib import Path
 
 from . import DEFAULT_PATH, ROOT, connect, copy_database, digest
 from .importer import add_theory_version, stable
+from .geometry_checks import validate_geometry_cases
 
 
 def arithmetic(expression):
@@ -117,6 +118,7 @@ def validate_release(release):
             a, b = arithmetic(left), arithmetic(right)
             if relation not in ('=', '<', '>') or not {'=': a == b, '<': a < b, '>': a > b}[relation]:
                 raise ValueError('Failed example check: ' + str(assertion))
+        validate_geometry_cases(entry.get('geometry_cases', []))
         result.append((unit, entry, blocks_for(unit, entry)))
     return result
 
