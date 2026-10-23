@@ -1,5 +1,6 @@
 """MathsFlow web application. Runtime educational data is read from SQLite."""
 import os
+import json
 import secrets
 from flask import Flask, abort, g, render_template, request, send_from_directory
 from itsdangerous import BadSignature, URLSafeTimedSerializer
@@ -113,6 +114,7 @@ def create_app(config=None):
             except ValueError:
                 abort(400, description='Η προσπάθεια δεν είναι έγκυρη ή έχει λήξει. Ανοίξτε το κουίζ ξανά.')
         return render_template('quiz/quiz.html', **context(unit), difficulty=difficulty,
+                               teaching_scope=json.loads(unit['payload']).get('teaching_scope'),
                                questions=attempt['questions'] if attempt else [], score=attempt['score'] if attempt else None,
                                total=attempt['total'] if attempt else 0, user_answers=attempt['user_answers'] if attempt else {},
                                attempt_token=token)

@@ -558,3 +558,17 @@ button:focus-visible, a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
     button, .study-btn, .quiz-btn, .back-btn, .home-start, .school-card, .settings-menu { transition: none; }
 }
+
+
+/* Quiz learning support: native disclosure stays keyboard accessible. */
+.quiz-hint { margin: 12px 0 18px; padding: 12px 16px; border: 1px solid currentColor; border-radius: 10px; }
+.quiz-hint summary { cursor: pointer; font-weight: 600; }
+.quiz-hint p, .quiz-result p { line-height: 1.7; overflow-wrap: anywhere; }
+.quiz-scope-note { margin-bottom: 18px; line-height: 1.6; }
+
+.quiz-page h1, .quiz-question-title, .quiz-choice { overflow-wrap: anywhere; }
+.quiz-page mjx-container { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
+@media (max-width: 600px) {
+    .quiz-page { padding: 20px 16px; }
+    .quiz-page h1 { font-size: 1.8em; line-height: 1.2; }
+}

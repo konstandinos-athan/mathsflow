@@ -1,0 +1,5051 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gym-a-algebra-v1",
+  "course": "gym-a-algebra",
+  "authored_on": "2026-10-23",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "1.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η αξία του ψηφίου 7 στον φυσικό αριθμό 47 306;",
+        "choices": [
+          "7000",
+          "700",
+          "70",
+          "7"
+        ],
+        "answer": "7000",
+        "difficulty": "easy",
+        "hint": "Βρες τη θέση του 7 μετρώντας από τις μονάδες.",
+        "solution": "Το 7 βρίσκεται στη θέση των χιλιάδων. Η αξία του είναι 7×1000=7000.",
+        "skill": "Αξία θέσης ψηφίου",
+        "objective_ids": [
+          "67fc775f-ca3e-593f-89a4-b30db7078970"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7*1000"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο μεγαλύτερος από τους αριθμούς 698, 689, 708 και 780;",
+        "choices": [
+          "780",
+          "708",
+          "698",
+          "689"
+        ],
+        "answer": "780",
+        "difficulty": "easy",
+        "hint": "Σύγκρινε πρώτα εκατοντάδες και μετά δεκάδες.",
+        "solution": "Οι 708 και 780 έχουν 7 εκατοντάδες. Το 8 στις δεκάδες κάνει τον 780 μεγαλύτερο από τον 708 και από τους άλλους δύο.",
+        "skill": "Σύγκριση φυσικών αριθμών",
+        "objective_ids": [
+          "67fc775f-ca3e-593f-89a4-b30db7078970"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "780"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Στρογγυλοποίησε τον 8649 στις εκατοντάδες.",
+        "choices": [
+          "8600",
+          "8700",
+          "8650",
+          "8000"
+        ],
+        "answer": "8600",
+        "difficulty": "medium",
+        "hint": "Κοίτα το ψηφίο των δεκάδων του αρχικού αριθμού.",
+        "solution": "Το ψηφίο των δεκάδων είναι 4. Κρατάμε τις 6 εκατοντάδες και μηδενίζουμε τις δύο τελευταίες θέσεις: 8600.",
+        "skill": "Στρογγυλοποίηση στις εκατοντάδες",
+        "objective_ids": [
+          "67fc775f-ca3e-593f-89a4-b30db7078970"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "86*100"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα μουσείο δέχτηκε 12 584 επισκέπτες. Πόσοι είναι περίπου, με στρογγυλοποίηση στις χιλιάδες;",
+        "choices": [
+          "13000",
+          "12000",
+          "12600",
+          "12580"
+        ],
+        "answer": "13000",
+        "difficulty": "medium",
+        "hint": "Για τις χιλιάδες εξετάζεις τις εκατοντάδες.",
+        "solution": "Οι εκατοντάδες είναι 5, οπότε οι 12 χιλιάδες αυξάνονται κατά μία. Η προσέγγιση είναι 13 000 επισκέπτες.",
+        "skill": "Προσέγγιση πραγματικού πλήθους",
+        "objective_ids": [
+          "b36ae8ee-853e-58dc-b019-dc4330c2e76e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "13*1000"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο μικρότερος φυσικός αριθμός που στρογγυλοποιείται σε 4600 στις εκατοντάδες;",
+        "choices": [
+          "4550",
+          "4500",
+          "4599",
+          "4600"
+        ],
+        "answer": "4550",
+        "difficulty": "hard",
+        "hint": "Βρες από ποιον αριθμό αρχίζουμε να ανεβαίνουμε από τις 4500 στις 4600.",
+        "solution": "Ο 4549 στρογγυλοποιείται σε 4500, ενώ ο 4550 σε 4600. Άρα ο μικρότερος είναι 4600−50=4550.",
+        "skill": "Όριο διαστήματος στρογγυλοποίησης",
+        "objective_ids": [
+          "b36ae8ee-853e-58dc-b019-dc4330c2e76e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4600-50"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσοι φυσικοί αριθμοί στρογγυλοποιούνται σε 320 στις δεκάδες;",
+        "choices": [
+          "10",
+          "9",
+          "11",
+          "20"
+        ],
+        "answer": "10",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα τον μικρότερο και τον μεγαλύτερο και μέτρησε και τα άκρα.",
+        "solution": "Οι αριθμοί είναι από 315 έως 324. Το πλήθος τους είναι 324−315+1=10.",
+        "skill": "Πλήθος αριθμών ίδιας προσέγγισης",
+        "objective_ids": [
+          "b36ae8ee-853e-58dc-b019-dc4330c2e76e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "324-315+1"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 48+27.",
+        "choices": [
+          "75",
+          "65",
+          "85",
+          "74"
+        ],
+        "answer": "75",
+        "difficulty": "easy",
+        "hint": "Πρόσθεσε πρώτα 20 και μετά 7.",
+        "solution": "48+20=68 και 68+7=75. Άρα το άθροισμα είναι 75.",
+        "skill": "Πρόσθεση φυσικών αριθμών",
+        "objective_ids": [
+          "839e474f-e254-5c4f-a724-cc84c5f66b98"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "48+27"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 93−58.",
+        "choices": [
+          "35",
+          "45",
+          "41",
+          "151"
+        ],
+        "answer": "35",
+        "difficulty": "easy",
+        "hint": "Έλεγξε το αποτέλεσμα προσθέτοντάς το στο 58.",
+        "solution": "93−58=35. Επαλήθευση: 58+35=93.",
+        "skill": "Αφαίρεση και επαλήθευση",
+        "objective_ids": [
+          "839e474f-e254-5c4f-a724-cc84c5f66b98"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "93-58"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 25×16 με επιμεριστική ιδιότητα.",
+        "choices": [
+          "400",
+          "300",
+          "350",
+          "425"
+        ],
+        "answer": "400",
+        "difficulty": "medium",
+        "hint": "Γράψε το 16 ως 10+6.",
+        "solution": "25×16=25×10+25×6=250+150=400.",
+        "skill": "Επιμεριστική ιδιότητα",
+        "objective_ids": [
+          "839e474f-e254-5c4f-a724-cc84c5f66b98"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "25*(10+6)"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Αγόρασες 7 τετράδια των 3 ευρώ και πλήρωσες με 30 ευρώ. Πόσα ευρώ ρέστα παίρνεις;",
+        "choices": [
+          "9",
+          "6",
+          "21",
+          "27"
+        ],
+        "answer": "9",
+        "difficulty": "medium",
+        "hint": "Υπολόγισε πρώτα το συνολικό κόστος.",
+        "solution": "Τα τετράδια κοστίζουν 7×3=21 ευρώ. Τα ρέστα είναι 30−21=9 ευρώ.",
+        "skill": "Κόστος και ρέστα",
+        "objective_ids": [
+          "b57dbd7f-ef70-573d-b43e-f151b7b2d40d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "30-7*3"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 18×99+18.",
+        "choices": [
+          "1800",
+          "1782",
+          "1818",
+          "1980"
+        ],
+        "answer": "1800",
+        "difficulty": "hard",
+        "hint": "Βγάλε κοινό το 18 πριν πολλαπλασιάσεις.",
+        "solution": "18×99+18=18×(99+1)=18×100=1800.",
+        "skill": "Αντίστροφη χρήση επιμεριστικής",
+        "objective_ids": [
+          "b57dbd7f-ef70-573d-b43e-f151b7b2d40d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18*99+18"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε 4 κιβώτια υπάρχουν από 24 χυμοί. Πουλήθηκαν 37 και προστέθηκαν άλλοι 15. Πόσοι χυμοί υπάρχουν τώρα;",
+        "choices": [
+          "74",
+          "44",
+          "59",
+          "148"
+        ],
+        "answer": "74",
+        "difficulty": "hard",
+        "hint": "Βρες το αρχικό πλήθος και μετά εφάρμοσε τις δύο μεταβολές.",
+        "solution": "Αρχικά υπάρχουν 4×24=96 χυμοί. Μετά την πώληση μένουν 59 και με την προσθήκη γίνονται 59+15=74.",
+        "skill": "Σύνθετο πρόβλημα φυσικών",
+        "objective_ids": [
+          "b57dbd7f-ef70-573d-b43e-f151b7b2d40d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "optional",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*24-37+15"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το 3⁴;",
+        "choices": [
+          "81",
+          "12",
+          "64",
+          "27"
+        ],
+        "answer": "81",
+        "difficulty": "easy",
+        "hint": "Το 4 δείχνει πόσες φορές πολλαπλασιάζεται ο παράγοντας 3.",
+        "solution": "3⁴=3×3×3×3=81. Δεν είναι το γινόμενο 3×4.",
+        "skill": "Έννοια φυσικής δύναμης",
+        "objective_ids": [
+          "ae47a4cf-d8c6-5fd4-abea-4005485ee724"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**4"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 2³+5.",
+        "choices": [
+          "13",
+          "11",
+          "32",
+          "15"
+        ],
+        "answer": "13",
+        "difficulty": "easy",
+        "hint": "Υπολόγισε τη δύναμη πριν από την πρόσθεση.",
+        "solution": "2³=8, άρα 2³+5=8+5=13.",
+        "skill": "Προτεραιότητα δύναμης",
+        "objective_ids": [
+          "ae47a4cf-d8c6-5fd4-abea-4005485ee724"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**3+5"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 5²−3×4.",
+        "choices": [
+          "13",
+          "88",
+          "8",
+          "22"
+        ],
+        "answer": "13",
+        "difficulty": "medium",
+        "hint": "Κάνε πρώτα δύναμη, μετά πολλαπλασιασμό και τέλος αφαίρεση.",
+        "solution": "5²=25 και 3×4=12. Άρα 25−12=13.",
+        "skill": "Σειρά πράξεων",
+        "objective_ids": [
+          "ae47a4cf-d8c6-5fd4-abea-4005485ee724"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5**2-3*4"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα κυβικό κουτί έχει 4 στρώσεις, καθεμία με 4 σειρές των 4 κύβων. Πόσοι μικροί κύβοι υπάρχουν;",
+        "choices": [
+          "64",
+          "12",
+          "16",
+          "48"
+        ],
+        "answer": "64",
+        "difficulty": "medium",
+        "hint": "Το πλήθος προκύπτει από τρεις ίσους παράγοντες.",
+        "solution": "Κάθε στρώση έχει 4×4=16 κύβους. Οι 4 στρώσεις έχουν 4×16=4³=64 κύβους.",
+        "skill": "Δύναμη σε πρόβλημα πλήθους",
+        "objective_ids": [
+          "0c7cff0a-3c3c-5a9d-862e-0db0eeb20bbd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**3"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (2+3)²−2³.",
+        "choices": [
+          "17",
+          "5",
+          "21",
+          "1"
+        ],
+        "answer": "17",
+        "difficulty": "hard",
+        "hint": "Η παρένθεση υπολογίζεται πριν από την ύψωση στο τετράγωνο.",
+        "solution": "(2+3)²=5²=25 και 2³=8. Η διαφορά είναι 25−8=17.",
+        "skill": "Παρενθέσεις και δυνάμεις",
+        "objective_ids": [
+          "0c7cff0a-3c3c-5a9d-862e-0db0eeb20bbd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+3)**2-2**3"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διαφορά 6²−2×3²;",
+        "choices": [
+          "18",
+          "0",
+          "27",
+          "30"
+        ],
+        "answer": "18",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε χωριστά τα 6² και 3².",
+        "solution": "6²=36 και 2×3²=2×9=18. Άρα 36−18=18.",
+        "skill": "Διάκριση δύναμης από γινόμενο",
+        "objective_ids": [
+          "0c7cff0a-3c3c-5a9d-862e-0db0eeb20bbd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6**2-2*3**2"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το υπόλοιπο της διαίρεσης 29 με 6;",
+        "choices": [
+          "5",
+          "4",
+          "6",
+          "1"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Γράψε 29=6×q+r με 0≤r<6.",
+        "solution": "29=6×4+5 και 5<6. Το υπόλοιπο είναι 5.",
+        "skill": "Υπόλοιπο ευκλείδειας διαίρεσης",
+        "objective_ids": [
+          "1c66c93e-4a0e-551b-b69f-03545dcf56d2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "29-6*4"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το πηλίκο της ευκλείδειας διαίρεσης 43 με 7;",
+        "choices": [
+          "6",
+          "5",
+          "7",
+          "1"
+        ],
+        "answer": "6",
+        "difficulty": "easy",
+        "hint": "Βρες το μεγαλύτερο πολλαπλάσιο του 7 που δεν ξεπερνά το 43.",
+        "solution": "7×6=42 και 43=7×6+1. Άρα το πηλίκο είναι 6.",
+        "skill": "Πηλίκο ευκλείδειας διαίρεσης",
+        "objective_ids": [
+          "1c66c93e-4a0e-551b-b69f-03545dcf56d2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(43-1)/7"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένας αριθμός διαιρείται με 8 και δίνει πηλίκο 7 και υπόλοιπο 3. Ποιος είναι;",
+        "choices": [
+          "59",
+          "56",
+          "53",
+          "63"
+        ],
+        "answer": "59",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε διαιρετέος=διαιρέτης×πηλίκο+υπόλοιπο.",
+        "solution": "Ο αριθμός είναι 8×7+3=59. Το υπόλοιπο 3 είναι μικρότερο από το 8, όπως απαιτείται.",
+        "skill": "Ανασύνθεση διαιρετέου",
+        "objective_ids": [
+          "1c66c93e-4a0e-551b-b69f-03545dcf56d2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*7+3"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Μοιράζουμε 68 μολύβια σε κουτιά των 9. Πόσα μολύβια περισσεύουν αφού γεμίσουν όσα κουτιά γίνεται;",
+        "choices": [
+          "5",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "5",
+        "difficulty": "medium",
+        "hint": "Υπολόγισε πόσα μολύβια χωρούν σε 7 γεμάτα κουτιά.",
+        "solution": "68=9×7+5. Γεμίζουν 7 κουτιά και περισσεύουν 5 μολύβια.",
+        "skill": "Υπόλοιπο σε συσκευασίες",
+        "objective_ids": [
+          "1112bca9-f89d-5ed7-b639-1ba8e77fc8f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "68-9*7"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο μικρότερος φυσικός αριθμός μεγαλύτερος από 40 που αφήνει υπόλοιπο 2 όταν διαιρείται με 7;",
+        "choices": [
+          "44",
+          "42",
+          "43",
+          "46"
+        ],
+        "answer": "44",
+        "difficulty": "hard",
+        "hint": "Οι ζητούμενοι αριθμοί έχουν μορφή 7×q+2.",
+        "solution": "Για q=5 παίρνουμε 37, που δεν ξεπερνά το 40. Για q=6 παίρνουμε 44, τον αμέσως επόμενο κατάλληλο αριθμό.",
+        "skill": "Αναζήτηση αριθμού με υπόλοιπο",
+        "objective_ids": [
+          "1112bca9-f89d-5ed7-b639-1ba8e77fc8f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7*6+2"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Χρειάζονται λεωφορεία 12 θέσεων για 89 μαθητές. Πόσα λεωφορεία απαιτούνται το λιγότερο;",
+        "choices": [
+          "8",
+          "7",
+          "9",
+          "5"
+        ],
+        "answer": "8",
+        "difficulty": "hard",
+        "hint": "Έλεγξε αν οι θέσεις του ακέραιου πηλίκου επαρκούν.",
+        "solution": "89=12×7+5. Τα 7 λεωφορεία αφήνουν 5 μαθητές χωρίς θέση, άρα χρειάζεται και όγδοο.",
+        "skill": "Ερμηνεία πηλίκου με περίσσευμα",
+        "objective_ids": [
+          "1112bca9-f89d-5ed7-b639-1ba8e77fc8f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7+1"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος από τους 246, 245, 247 και 251 διαιρείται με το 3;",
+        "choices": [
+          "246",
+          "245",
+          "247",
+          "251"
+        ],
+        "answer": "246",
+        "difficulty": "easy",
+        "hint": "Έλεγξε το άθροισμα των ψηφίων κάθε αριθμού.",
+        "solution": "Στον 246 το άθροισμα είναι 2+4+6=12, πολλαπλάσιο του 3. Τα άλλα αθροίσματα είναι 11, 13 και 8.",
+        "skill": "Κριτήριο διαιρετότητας με 3",
+        "objective_ids": [
+          "cffce7b9-2c1a-593c-a746-93307f789ee9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*82"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος από τους 29, 21, 27 και 39 είναι πρώτος αριθμός;",
+        "choices": [
+          "29",
+          "21",
+          "27",
+          "39"
+        ],
+        "answer": "29",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε μη τετριμμένους διαιρέτες· για το 29 αρκεί να ελέγξεις 2, 3 και 5.",
+        "solution": "Οι 21, 27 και 39 διαιρούνται με το 3. Ο 29 δεν διαιρείται με 2, 3 ή 5 και είναι πρώτος.",
+        "skill": "Αναγνώριση πρώτων αριθμών",
+        "objective_ids": [
+          "cffce7b9-2c1a-593c-a746-93307f789ee9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "29"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο ΜΚΔ των 24 και 36;",
+        "choices": [
+          "12",
+          "6",
+          "72",
+          "24"
+        ],
+        "answer": "12",
+        "difficulty": "medium",
+        "hint": "Ανάλυσε τους αριθμούς σε πρώτους και κράτησε τους κοινούς παράγοντες με τον μικρότερο εκθέτη.",
+        "solution": "24=2³×3 και 36=2²×3². Ο ΜΚΔ είναι 2²×3=12.",
+        "skill": "Μέγιστος κοινός διαιρέτης",
+        "objective_ids": [
+          "cffce7b9-2c1a-593c-a746-93307f789ee9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2*3"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο φώτα ανάβουν κάθε 6 και κάθε 8 δευτερόλεπτα. Άναψαν μαζί τώρα. Σε πόσα δευτερόλεπτα θα ανάψουν ξανά μαζί πρώτη φορά;",
+        "choices": [
+          "24",
+          "48",
+          "14",
+          "2"
+        ],
+        "answer": "24",
+        "difficulty": "medium",
+        "hint": "Ζητείται το μικρότερο κοινό πολλαπλάσιο των δύο περιόδων.",
+        "solution": "6=2×3 και 8=2³. Το ΕΚΠ είναι 2³×3=24 δευτερόλεπτα.",
+        "skill": "ΕΚΠ σε περιοδικό φαινόμενο",
+        "objective_ids": [
+          "340b9a9b-1e93-5c19-b627-be61a86ed7d2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**3*3"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Με 48 κόκκινες και 60 μπλε χάντρες φτιάχνουμε όσο το δυνατόν περισσότερα ίδια σακουλάκια, χωρίς περίσσευμα. Πόσα σακουλάκια φτιάχνουμε;",
+        "choices": [
+          "12",
+          "6",
+          "24",
+          "240"
+        ],
+        "answer": "12",
+        "difficulty": "hard",
+        "hint": "Το πλήθος των πανομοιότυπων σακουλιών πρέπει να διαιρεί και τα δύο πλήθη.",
+        "solution": "48=2⁴×3 και 60=2²×3×5. Ο ΜΚΔ είναι 2²×3=12, άρα φτιάχνουμε 12 σακουλάκια με 4 κόκκινες και 5 μπλε χάντρες.",
+        "skill": "ΜΚΔ σε ίση κατανομή",
+        "objective_ids": [
+          "340b9a9b-1e93-5c19-b627-be61a86ed7d2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2*3"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το μικρότερο τριψήφιο φυσικό πολλαπλάσιο και του 12 και του 18;",
+        "choices": [
+          "108",
+          "102",
+          "120",
+          "144"
+        ],
+        "answer": "108",
+        "difficulty": "hard",
+        "hint": "Βρες το ΕΚΠ και μετά το πρώτο πολλαπλάσιό του που φτάνει το 100.",
+        "solution": "12=2²×3 και 18=2×3², άρα ΕΚΠ=36. Τα πρώτα πολλαπλάσια είναι 36, 72, 108· το πρώτο τριψήφιο είναι 108.",
+        "skill": "ΕΚΠ με επιπλέον περιορισμό",
+        "objective_ids": [
+          "340b9a9b-1e93-5c19-b627-be61a86ed7d2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*(2**2*3**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια πίτα χωρίζεται σε 8 ίσα κομμάτια και παίρνεις 3. Ποιο κλάσμα της πίτας πήρες;",
+        "choices": [
+          "3/8",
+          "8/3",
+          "3/5",
+          "5/8"
+        ],
+        "answer": "3/8",
+        "difficulty": "easy",
+        "hint": "Ο παρονομαστής μετρά όλα τα ίσα μέρη και ο αριθμητής όσα επιλέχθηκαν.",
+        "solution": "Υπάρχουν 8 ίσα μέρη και επιλέχθηκαν 3. Το κλάσμα είναι 3/8.",
+        "skill": "Κλάσμα ως μέρος του όλου",
+        "objective_ids": [
+          "fcab9722-d33c-59b6-be2e-f182c8772763"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/8"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος αριθμός βρίσκεται στη θέση τρία τέταρτα της απόστασης από το 0 έως το 1;",
+        "choices": [
+          "3/4",
+          "4/3",
+          "1/4",
+          "3/5"
+        ],
+        "answer": "3/4",
+        "difficulty": "easy",
+        "hint": "Χώρισε το μοναδιαίο τμήμα σε τέσσερα ίσα μέρη.",
+        "solution": "Κάθε βήμα είναι 1/4. Με τρία βήματα από το 0 φτάνουμε στο 3/4.",
+        "skill": "Κλάσμα στην αριθμογραμμή",
+        "objective_ids": [
+          "fcab9722-d33c-59b6-be2e-f182c8772763"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/4"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πέντε ίδιες πίτσες μοιράζονται εξίσου σε 4 παιδιά. Τι μέρος μίας πίτσας παίρνει κάθε παιδί;",
+        "choices": [
+          "5/4",
+          "4/5",
+          "1/4",
+          "9/4"
+        ],
+        "answer": "5/4",
+        "difficulty": "medium",
+        "hint": "Η ίση μοιρασιά παριστάνεται ως διαίρεση.",
+        "solution": "Κάθε παιδί παίρνει 5:4=5/4 της πίτσας, δηλαδή μία ολόκληρη και ένα τέταρτο.",
+        "skill": "Κλάσμα ως πηλίκο",
+        "objective_ids": [
+          "fcab9722-d33c-59b6-be2e-f182c8772763"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/4"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε τάξη 28 μαθητών, οι 7 έρχονται με ποδήλατο. Ποιο κλάσμα του συνόλου έρχεται με ποδήλατο, σε ανάγωγη μορφή;",
+        "choices": [
+          "1/4",
+          "3/4",
+          "1/7",
+          "4"
+        ],
+        "answer": "1/4",
+        "difficulty": "medium",
+        "hint": "Το μέρος είναι 7 και το όλο 28.",
+        "solution": "Το κλάσμα είναι 7/28. Διαιρώντας αριθμητή και παρονομαστή με 7 προκύπτει 1/4.",
+        "skill": "Κλάσμα υποσυνόλου",
+        "objective_ids": [
+          "632df5d9-d421-52c9-9761-4e322df1717a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/28"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Από 24 ίσα κομμάτια σοκολάτας καταναλώθηκαν τα 9. Ποιο κλάσμα της αρχικής σοκολάτας έμεινε, σε ανάγωγη μορφή;",
+        "choices": [
+          "5/8",
+          "3/8",
+          "9/8",
+          "5/9"
+        ],
+        "answer": "5/8",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα τα κομμάτια που έμειναν, όχι όσα καταναλώθηκαν.",
+        "solution": "Έμειναν 24−9=15 κομμάτια, άρα 15/24=5/8 της αρχικής σοκολάτας.",
+        "skill": "Μέρος που απομένει",
+        "objective_ids": [
+          "632df5d9-d421-52c9-9761-4e322df1717a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(24-9)/24"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η απόσταση ανάμεσα στο 0 και στο 1 χωρίζεται σε 6 ίσα βήματα. Ποια είναι η τετμημένη του σημείου στο έβδομο βήμα δεξιά του 0;",
+        "choices": [
+          "7/6",
+          "6/7",
+          "1/7",
+          "5/6"
+        ],
+        "answer": "7/6",
+        "difficulty": "hard",
+        "hint": "Το έβδομο βήμα βρίσκεται ένα έκτο μετά το 1.",
+        "solution": "Κάθε βήμα είναι 1/6. Με 7 βήματα η τετμημένη είναι 7×1/6=7/6, μεγαλύτερη από το 1.",
+        "skill": "Καταχρηστικό κλάσμα στην ευθεία",
+        "objective_ids": [
+          "632df5d9-d421-52c9-9761-4e322df1717a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/6"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Συμπλήρωσε τον αριθμητή: 2/3 = x/12.",
+        "choices": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "answer": "8",
+        "difficulty": "easy",
+        "hint": "Με ποιον αριθμό πολλαπλασιάστηκε ο παρονομαστής;",
+        "solution": "Ο παρονομαστής πολλαπλασιάστηκε με 4. Άρα x=2×4=8 και 8/12=2/3.",
+        "skill": "Κατασκευή ισοδύναμου κλάσματος",
+        "objective_ids": [
+          "6d62d41c-4233-5586-b89e-8401ae4f351c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*4"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η ανάγωγη μορφή του 18/24;",
+        "choices": [
+          "3/4",
+          "9/8",
+          "2/3",
+          "4/3"
+        ],
+        "answer": "3/4",
+        "difficulty": "easy",
+        "hint": "Βρες τον κοινό διαιρέτη 6.",
+        "solution": "Διαιρούμε και τους δύο όρους με 6: 18/24=3/4. Οι 3 και 4 δεν έχουν κοινό διαιρέτη μεγαλύτερο από το 1.",
+        "skill": "Απλοποίηση κλάσματος",
+        "objective_ids": [
+          "6d62d41c-4233-5586-b89e-8401ae4f351c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18/24"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Συμπλήρωσε τον παρονομαστή: 5/8 = 20/x.",
+        "choices": [
+          "32",
+          "28",
+          "16",
+          "40"
+        ],
+        "answer": "32",
+        "difficulty": "medium",
+        "hint": "Ο αριθμητής τετραπλασιάστηκε, άρα κάνε το ίδιο στον παρονομαστή.",
+        "solution": "20=5×4. Επομένως x=8×4=32 και 20/32=5/8.",
+        "skill": "Εύρεση άγνωστου όρου",
+        "objective_ids": [
+          "6d62d41c-4233-5586-b89e-8401ae4f351c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*4"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια συνταγή γράφει 6/10 λίτρου. Ποια ισοδύναμη ανάγωγη ποσότητα, σε λίτρα, θα σημειώσεις;",
+        "choices": [
+          "3/5",
+          "2/5",
+          "6/5",
+          "5/3"
+        ],
+        "answer": "3/5",
+        "difficulty": "medium",
+        "hint": "Απλοποίησε και τους δύο όρους με τον ίδιο αριθμό.",
+        "solution": "6/10=(6:2)/(10:2)=3/5 λίτρου. Η ποσότητα δεν αλλάζει.",
+        "skill": "Ισοδυναμία σε ποσότητα",
+        "objective_ids": [
+          "546f8e54-62d5-5876-831e-b13f24ddfba4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6/10"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος αριθμητής κάνει το κλάσμα x/45 ίσο με 14/21;",
+        "choices": [
+          "30",
+          "21",
+          "28",
+          "35"
+        ],
+        "answer": "30",
+        "difficulty": "hard",
+        "hint": "Απλοποίησε πρώτα το 14/21 και μετά φέρε παρονομαστή 45.",
+        "solution": "14/21=2/3. Για παρονομαστή 45 πολλαπλασιάζουμε με 15, οπότε x=2×15=30.",
+        "skill": "Ισοδυναμία σε δύο βήματα",
+        "objective_ids": [
+          "546f8e54-62d5-5876-831e-b13f24ddfba4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "45*14/21"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Κλάσμα ίσο με 3/5 έχει άθροισμα αριθμητή και παρονομαστή 64. Ποιος είναι ο αριθμητής;",
+        "choices": [
+          "24",
+          "40",
+          "32",
+          "15"
+        ],
+        "answer": "24",
+        "difficulty": "hard",
+        "hint": "Οι όροι είναι 3k και 5k, άρα το άθροισμα είναι 8k.",
+        "solution": "Από 8k=64 παίρνουμε k=8. Ο αριθμητής είναι 3×8=24 και ο παρονομαστής 40.",
+        "skill": "Κοινός πολλαπλασιαστής όρων",
+        "objective_ids": [
+          "546f8e54-62d5-5876-831e-b13f24ddfba4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 1,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*(64/(3+5))"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το μεγαλύτερο από τα κλάσματα 2/9, 5/9, 4/9 και 7/9;",
+        "choices": [
+          "7/9",
+          "5/9",
+          "4/9",
+          "2/9"
+        ],
+        "answer": "7/9",
+        "difficulty": "easy",
+        "hint": "Με ίδιους παρονομαστές σύγκρινε τους αριθμητές.",
+        "solution": "Όλα έχουν παρονομαστή 9. Ο μεγαλύτερος αριθμητής είναι ο 7, άρα το μεγαλύτερο κλάσμα είναι 7/9.",
+        "skill": "Σύγκριση ομώνυμων κλασμάτων",
+        "objective_ids": [
+          "9eb4660c-1f4e-56b8-b923-9795e4d856b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/9"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το μικρότερο από τα 3/4, 3/5, 3/8 και 3/7;",
+        "choices": [
+          "3/8",
+          "3/7",
+          "3/5",
+          "3/4"
+        ],
+        "answer": "3/8",
+        "difficulty": "easy",
+        "hint": "Με ίδιο θετικό αριθμητή, περισσότερα ίσα μέρη σημαίνουν μικρότερα κομμάτια.",
+        "solution": "Ο μεγαλύτερος παρονομαστής είναι 8. Με κοινό αριθμητή 3, το 3/8 είναι το μικρότερο.",
+        "skill": "Σύγκριση ίδιων αριθμητών",
+        "objective_ids": [
+          "9eb4660c-1f4e-56b8-b923-9795e4d856b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/8"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το μεγαλύτερο από τα 5/6, 7/9, 3/4 και 2/3;",
+        "choices": [
+          "5/6",
+          "7/9",
+          "3/4",
+          "2/3"
+        ],
+        "answer": "5/6",
+        "difficulty": "medium",
+        "hint": "Φέρε όλα τα κλάσματα σε παρονομαστή 36.",
+        "solution": "Τα κλάσματα γίνονται 30/36, 28/36, 27/36 και 24/36. Το μεγαλύτερο είναι 30/36=5/6.",
+        "skill": "Σύγκριση ετερώνυμων κλασμάτων",
+        "objective_ids": [
+          "9eb4660c-1f4e-56b8-b923-9795e4d856b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/6"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο ποτήρια ίδιας χωρητικότητας είναι γεμάτα κατά 4/5 και 7/10. Ποιο κλάσμα της χωρητικότητας περιέχει το πιο γεμάτο;",
+        "choices": [
+          "4/5",
+          "7/10",
+          "1/2",
+          "3/5"
+        ],
+        "answer": "4/5",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε κοινό παρονομαστή 10.",
+        "solution": "4/5=8/10 και 8/10>7/10. Το πιο γεμάτο ποτήρι περιέχει τα 4/5 της χωρητικότητάς του.",
+        "skill": "Σύγκριση ίδιων ολόκληρων",
+        "objective_ids": [
+          "51d2e96e-0ad1-5d51-9227-cfab6d214b5e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/5"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο από τα 5/12, 3/8, 7/16 και 1/3 βρίσκεται πιο κοντά στο 1/2;",
+        "choices": [
+          "7/16",
+          "5/12",
+          "3/8",
+          "1/3"
+        ],
+        "answer": "7/16",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε πόσο υπολείπεται κάθε κλάσμα από το 1/2.",
+        "solution": "Οι διαφορές είναι 1/12, 1/8, 1/16 και 1/6. Η μικρότερη είναι 1/16, άρα το πιο κοντινό κλάσμα είναι 7/16.",
+        "skill": "Σύγκριση αποστάσεων κλασμάτων",
+        "objective_ids": [
+          "51d2e96e-0ad1-5d51-9227-cfab6d214b5e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/16"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσοι ακέραιοι αριθμητές n δίνουν κλάσμα n/12 αυστηρά ανάμεσα στα 1/3 και 3/4;",
+        "choices": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Γράψε τα δύο άκρα με παρονομαστή 12 και μην τα συμπεριλάβεις.",
+        "solution": "1/3=4/12 και 3/4=9/12. Επιτρέπονται οι αριθμητές 5, 6, 7, 8, δηλαδή 4 τιμές.",
+        "skill": "Κλάσματα ανάμεσα σε δύο όρια",
+        "objective_ids": [
+          "51d2e96e-0ad1-5d51-9227-cfab6d214b5e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8-5+1"
+        }
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 3/11+5/11.",
+        "choices": [
+          "8/11",
+          "8/22",
+          "2/11",
+          "15/11"
+        ],
+        "answer": "8/11",
+        "difficulty": "easy",
+        "hint": "Στην πρόσθεση ομώνυμων ο παρονομαστής παραμένει ίδιος.",
+        "solution": "Προσθέτουμε τους αριθμητές: (3+5)/11=8/11.",
+        "skill": "Πρόσθεση ομώνυμων",
+        "objective_ids": [
+          "db4499d6-c6de-5f22-9f4a-9a9e702b1eaf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/11+5/11"
+        }
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 7/9−2/9.",
+        "choices": [
+          "5/9",
+          "5/18",
+          "1/9",
+          "1"
+        ],
+        "answer": "5/9",
+        "difficulty": "easy",
+        "hint": "Αφαίρεσε τους αριθμητές και κράτησε τον παρονομαστή.",
+        "solution": "(7−2)/9=5/9. Δεν αφαιρούμε τους παρονομαστές.",
+        "skill": "Αφαίρεση ομώνυμων",
+        "objective_ids": [
+          "db4499d6-c6de-5f22-9f4a-9a9e702b1eaf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/9-2/9"
+        }
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 2/3+1/4.",
+        "choices": [
+          "11/12",
+          "3/7",
+          "3/12",
+          "5/6"
+        ],
+        "answer": "11/12",
+        "difficulty": "medium",
+        "hint": "Κοινός παρονομαστής είναι το 12.",
+        "solution": "2/3=8/12 και 1/4=3/12. Άρα το άθροισμα είναι 11/12.",
+        "skill": "Πρόσθεση ετερώνυμων",
+        "objective_ids": [
+          "db4499d6-c6de-5f22-9f4a-9a9e702b1eaf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/3+1/4"
+        }
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα δοχείο είχε 5/6 λίτρου και χύθηκαν 1/4 λίτρου. Πόσα λίτρα έμειναν;",
+        "choices": [
+          "7/12",
+          "2/3",
+          "1/2",
+          "13/12"
+        ],
+        "answer": "7/12",
+        "difficulty": "medium",
+        "hint": "Μετέτρεψε τα κλάσματα σε δωδέκατα.",
+        "solution": "5/6−1/4=10/12−3/12=7/12 λίτρου.",
+        "skill": "Διαφορά ποσοτήτων",
+        "objective_ids": [
+          "e5467c13-f043-5a72-aa8f-09fd34a463d7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/6-1/4"
+        }
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 1−(2/5+1/6).",
+        "choices": [
+          "13/30",
+          "17/30",
+          "2/30",
+          "3/11"
+        ],
+        "answer": "13/30",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε την παρένθεση και γράψε το 1 ως 30/30.",
+        "solution": "2/5+1/6=12/30+5/30=17/30. Άρα 1−17/30=13/30.",
+        "skill": "Παρενθέσεις με κλάσματα",
+        "objective_ids": [
+          "e5467c13-f043-5a72-aa8f-09fd34a463d7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1-(2/5+1/6)"
+        }
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Την πρώτη μέρα διαβάστηκε το 1/3 ενός βιβλίου και τη δεύτερη τα 2/7 του ίδιου βιβλίου. Ποιο κλάσμα του βιβλίου μένει αδιάβαστο;",
+        "choices": [
+          "8/21",
+          "13/21",
+          "3/10",
+          "4/21"
+        ],
+        "answer": "8/21",
+        "difficulty": "hard",
+        "hint": "Και τα δύο κλάσματα αναφέρονται στο αρχικό βιβλίο.",
+        "solution": "Διαβάστηκαν 1/3+2/7=7/21+6/21=13/21. Απομένουν 1−13/21=8/21.",
+        "skill": "Υπόλοιπο μετά από δύο μέρη",
+        "objective_ids": [
+          "e5467c13-f043-5a72-aa8f-09fd34a463d7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1-1/3-2/7"
+        }
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 2/3×3/5.",
+        "choices": [
+          "2/5",
+          "5/8",
+          "6/8",
+          "1/5"
+        ],
+        "answer": "2/5",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε αριθμητές και παρονομαστές και απλοποίησε.",
+        "solution": "(2×3)/(3×5)=6/15=2/5.",
+        "skill": "Γινόμενο κλασμάτων",
+        "objective_ids": [
+          "b87f948e-f6b1-54f0-880d-19de1a19972b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/3*3/5"
+        }
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το 1/4 του 20;",
+        "choices": [
+          "5",
+          "4",
+          "80",
+          "16"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Το ένα τέταρτο σημαίνει διαίρεση σε τέσσερα ίσα μέρη.",
+        "solution": "20×1/4=20/4=5.",
+        "skill": "Κλάσμα ποσότητας",
+        "objective_ids": [
+          "b87f948e-f6b1-54f0-880d-19de1a19972b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "20/4"
+        }
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 7/12×18/21 στην ανάγωγη μορφή.",
+        "choices": [
+          "1/2",
+          "3/4",
+          "2/3",
+          "1/3"
+        ],
+        "answer": "1/2",
+        "difficulty": "medium",
+        "hint": "Απλοποίησε το 7 με το 21 και το 18 με το 12.",
+        "solution": "7/21=1/3 και 18/12=3/2. Το γινόμενο είναι (1×3)/(2×3)=1/2.",
+        "skill": "Απλοποίηση πριν από γινόμενο",
+        "objective_ids": [
+          "b87f948e-f6b1-54f0-880d-19de1a19972b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/12*18/21"
+        }
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα χωράφι έχει εμβαδόν 3/4 στρέμματος. Καλλιεργούνται τα 2/5 του. Πόσα στρέμματα καλλιεργούνται;",
+        "choices": [
+          "3/10",
+          "2/5",
+          "3/5",
+          "5/9"
+        ],
+        "answer": "3/10",
+        "difficulty": "medium",
+        "hint": "Το μέρος ενός μέρους υπολογίζεται με πολλαπλασιασμό.",
+        "solution": "Τα 2/5 των 3/4 είναι (2/5)×(3/4)=6/20=3/10 στρέμματος.",
+        "skill": "Μέρος ενός μέρους",
+        "objective_ids": [
+          "970443dd-47e2-5f76-bfc9-a91c5bc2d28f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/5*3/4"
+        }
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Μία κορδέλα έχει μήκος 5/6 μέτρου. Κρατάμε τα 3/5 της και χρησιμοποιούμε τα 2/3 του κομματιού που κρατήσαμε. Πόσα μέτρα χρησιμοποιήσαμε;",
+        "choices": [
+          "1/3",
+          "1/2",
+          "2/3",
+          "5/9"
+        ],
+        "answer": "1/3",
+        "difficulty": "hard",
+        "hint": "Εφάρμοσε διαδοχικά τα δύο κλάσματα στο αρχικό μήκος.",
+        "solution": "Κρατάμε (5/6)×(3/5)=1/2 μέτρου. Χρησιμοποιούμε (1/2)×(2/3)=1/3 μέτρου.",
+        "skill": "Διαδοχικά μέρη ποσότητας",
+        "objective_ids": [
+          "970443dd-47e2-5f76-bfc9-a91c5bc2d28f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/6*3/5*2/3"
+        }
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε μια τάξη 30 μαθητών, τα 2/3 παίζουν άθλημα. Από αυτούς, τα 3/5 παίζουν μπάσκετ. Πόσοι μαθητές παίζουν μπάσκετ;",
+        "choices": [
+          "12",
+          "18",
+          "20",
+          "10"
+        ],
+        "answer": "12",
+        "difficulty": "hard",
+        "hint": "Το δεύτερο κλάσμα αναφέρεται μόνο στους μαθητές που παίζουν άθλημα.",
+        "solution": "Παίζουν άθλημα 30×2/3=20 μαθητές. Μπάσκετ παίζουν 20×3/5=12.",
+        "skill": "Σωστή βάση διαδοχικού κλάσματος",
+        "objective_ids": [
+          "970443dd-47e2-5f76-bfc9-a91c5bc2d28f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "30*2/3*3/5"
+        }
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 3/4 : 1/2.",
+        "choices": [
+          "3/2",
+          "3/8",
+          "2/3",
+          "1/4"
+        ],
+        "answer": "3/2",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε με τον αντίστροφο του δεύτερου κλάσματος.",
+        "solution": "(3/4):(1/2)=(3/4)×2=3/2.",
+        "skill": "Διαίρεση με αντίστροφο",
+        "objective_ids": [
+          "02f7cc14-f95b-5121-b8af-a42e63dc4c39"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3/4)/(1/2)"
+        }
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο αντίστροφος του 5/7;",
+        "choices": [
+          "7/5",
+          "5/7",
+          "1/5",
+          "2/7"
+        ],
+        "answer": "7/5",
+        "difficulty": "easy",
+        "hint": "Ο αντίστροφος έχει γινόμενο 1 με τον αρχικό μη μηδενικό αριθμό.",
+        "solution": "Αντιστρέφουμε αριθμητή και παρονομαστή: 7/5. Πράγματι (5/7)×(7/5)=1.",
+        "skill": "Αντίστροφος κλάσματος",
+        "objective_ids": [
+          "02f7cc14-f95b-5121-b8af-a42e63dc4c39"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/5"
+        }
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 5/6 : 10/9 σε ανάγωγη μορφή.",
+        "choices": [
+          "3/4",
+          "4/3",
+          "25/27",
+          "1/3"
+        ],
+        "answer": "3/4",
+        "difficulty": "medium",
+        "hint": "Αντέστρεψε μόνο τον διαιρέτη.",
+        "solution": "(5/6)×(9/10)=45/60=3/4.",
+        "skill": "Διαίρεση και απλοποίηση",
+        "objective_ids": [
+          "02f7cc14-f95b-5121-b8af-a42e63dc4c39"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(5/6)/(10/9)"
+        }
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Έχουμε 3/2 λίτρου χυμό και γεμίζουμε ποτήρια χωρητικότητας 1/4 λίτρου. Πόσα γεμάτα ποτήρια προκύπτουν;",
+        "choices": [
+          "6",
+          "3",
+          "8",
+          "4"
+        ],
+        "answer": "6",
+        "difficulty": "medium",
+        "hint": "Διαίρεσε τη συνολική ποσότητα με τη χωρητικότητα ενός ποτηριού.",
+        "solution": "(3/2):(1/4)=(3/2)×4=6. Προκύπτουν 6 γεμάτα ποτήρια.",
+        "skill": "Πλήθος ίσων μερίδων",
+        "objective_ids": [
+          "79f80576-7e4e-5e9f-95d4-f5582060e9ac"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3/2)/(1/4)"
+        }
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (2/3 : 4/9)−1/2.",
+        "choices": [
+          "1",
+          "3/2",
+          "1/2",
+          "2"
+        ],
+        "answer": "1",
+        "difficulty": "hard",
+        "hint": "Κάνε πρώτα τη διαίρεση μέσα στην παρένθεση.",
+        "solution": "(2/3):(4/9)=(2/3)×(9/4)=3/2. Αφαιρούμε 1/2 και παίρνουμε 1.",
+        "skill": "Διαίρεση μέσα σε παράσταση",
+        "objective_ids": [
+          "79f80576-7e4e-5e9f-95d4-f5582060e9ac"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2/3)/(4/9)-1/2"
+        }
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα ρολό 5/2 μέτρων κόβεται σε κομμάτια 3/8 μέτρου. Πόσα ολόκληρα τέτοια κομμάτια μπορούν να κοπούν;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": "6",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε το πηλίκο και έλεγξε αν περισσεύει μήκος.",
+        "solution": "(5/2):(3/8)=20/3=6 και 2/3. Κόβονται 6 ολόκληρα κομμάτια, που χρησιμοποιούν 18/8 μέτρα, και περισσεύει 1/4 μέτρου.",
+        "skill": "Ακέραιες μερίδες από κλασματικό πηλίκο",
+        "objective_ids": [
+          "79f80576-7e4e-5e9f-95d4-f5582060e9ac"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "2.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Γράψε το δεκαδικό κλάσμα 37/100 ως δεκαδικό αριθμό.",
+        "choices": [
+          "0,37",
+          "3,7",
+          "0,037",
+          "37"
+        ],
+        "answer": "0,37",
+        "difficulty": "easy",
+        "hint": "Ο παρονομαστής 100 αντιστοιχεί σε δύο δεκαδικά ψηφία.",
+        "solution": "37 εκατοστά γράφονται 0,37. Η υποδιαστολή τοποθετείται δύο θέσεις πριν από το τέλος.",
+        "skill": "Δεκαδικό κλάσμα σε δεκαδικό",
+        "objective_ids": [
+          "3692de4e-dae8-53d2-b802-27c4535094d4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "37/100"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο μεγαλύτερος από τους 0,7, 0,65, 0,705 και 0,69;",
+        "choices": [
+          "0,705",
+          "0,7",
+          "0,69",
+          "0,65"
+        ],
+        "answer": "0,705",
+        "difficulty": "easy",
+        "hint": "Γράψε όλους τους αριθμούς με τρία δεκαδικά ψηφία.",
+        "solution": "Συγκρίνουμε 0,700, 0,650, 0,705 και 0,690. Ο μεγαλύτερος είναι ο 0,705.",
+        "skill": "Διάταξη δεκαδικών",
+        "objective_ids": [
+          "3692de4e-dae8-53d2-b802-27c4535094d4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "705/1000"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Στρογγυλοποίησε τον 8,476 στα εκατοστά.",
+        "choices": [
+          "8,48",
+          "8,47",
+          "8,5",
+          "8,476"
+        ],
+        "answer": "8,48",
+        "difficulty": "medium",
+        "hint": "Κοίτα το ψηφίο των χιλιοστών.",
+        "solution": "Τα χιλιοστά είναι 6, οπότε αυξάνουμε τα εκατοστά από 7 σε 8. Η προσέγγιση είναι 8,48.",
+        "skill": "Στρογγυλοποίηση δεκαδικού",
+        "objective_ids": [
+          "3692de4e-dae8-53d2-b802-27c4535094d4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "848/100"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια ζυγαριά δείχνει 2,958 κιλά. Ποια είναι η ένδειξη με στρογγυλοποίηση στα δέκατα, σε κιλά;",
+        "choices": [
+          "3",
+          "2,9",
+          "2,95",
+          "2,96"
+        ],
+        "answer": "3",
+        "difficulty": "medium",
+        "hint": "Κοίτα τα εκατοστά και πρόσεξε την αλλαγή ακέραιου μέρους.",
+        "solution": "Τα εκατοστά είναι 5, άρα το 9 των δεκάτων αυξάνεται και δημιουργεί κρατούμενο. Παίρνουμε 3,0 κιλά, δηλαδή 3 κιλά.",
+        "skill": "Κρατούμενο στη στρογγυλοποίηση",
+        "objective_ids": [
+          "0381bd68-0a1b-55c5-aa79-f482d994aaa0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "30/10"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η απόσταση των δεκαδικών 1,205 και 1,25 στην αριθμογραμμή;",
+        "choices": [
+          "0,045",
+          "0,005",
+          "0,45",
+          "0,055"
+        ],
+        "answer": "0,045",
+        "difficulty": "hard",
+        "hint": "Γράψε το 1,25 ως 1,250 πριν αφαιρέσεις.",
+        "solution": "1,250−1,205=0,045. Τα τελικά μηδενικά δεν αλλάζουν την τιμή.",
+        "skill": "Σύγκριση με στοίχιση δεκαδικών",
+        "objective_ids": [
+          "0381bd68-0a1b-55c5-aa79-f482d994aaa0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "125/100-1205/1000"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσοι αριθμοί με ακριβώς τρία δεκαδικά ψηφία, δηλαδή της μορφής n/1000 με ακέραιο n, βρίσκονται αυστηρά ανάμεσα στα 0,72 και 0,73;",
+        "choices": [
+          "9",
+          "8",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "difficulty": "hard",
+        "hint": "Μέτρησε τα χιλιοστά από 721 έως 729.",
+        "solution": "Οι αριθμοί είναι 0,721 έως 0,729. Είναι 729−721+1=9 αριθμοί, χωρίς τα δύο άκρα.",
+        "skill": "Δεκαδικοί ανάμεσα σε όρια",
+        "objective_ids": [
+          "0381bd68-0a1b-55c5-aa79-f482d994aaa0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "729-721+1"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα εκατοστά είναι τα 2,4 μέτρα;",
+        "choices": [
+          "240",
+          "24",
+          "2400",
+          "0,24"
+        ],
+        "answer": "240",
+        "difficulty": "easy",
+        "hint": "Ένα μέτρο έχει 100 εκατοστά.",
+        "solution": "2,4×100=240 εκατοστά.",
+        "skill": "Μετατροπή μονάδων μήκους",
+        "objective_ids": [
+          "a2093a04-db0f-51fc-8533-1738811c966e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "24/10*100"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα γραμμάρια είναι τα 3/4 του κιλού;",
+        "choices": [
+          "750",
+          "75",
+          "250",
+          "1333"
+        ],
+        "answer": "750",
+        "difficulty": "easy",
+        "hint": "Ένα κιλό έχει 1000 γραμμάρια.",
+        "solution": "(3/4)×1000=750 γραμμάρια.",
+        "skill": "Μετατροπή μονάδων μάζας",
+        "objective_ids": [
+          "a2093a04-db0f-51fc-8533-1738811c966e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/4*1000"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα τετραγωνικά εκατοστά είναι τα 0,08 τετραγωνικά μέτρα;",
+        "choices": [
+          "800",
+          "8",
+          "80",
+          "8000"
+        ],
+        "answer": "800",
+        "difficulty": "medium",
+        "hint": "Για επιφάνεια ο συντελεστής μήκους 100 υψώνεται στο τετράγωνο.",
+        "solution": "1 m²=10 000 cm². Άρα 0,08×10 000=800 cm².",
+        "skill": "Μετατροπή μονάδων επιφάνειας",
+        "objective_ids": [
+          "a2093a04-db0f-51fc-8533-1738811c966e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8/100*100**2"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια διαδρομή διαρκεί 1 ώρα και 35 λεπτά. Πόσα λεπτά διαρκεί συνολικά;",
+        "choices": [
+          "95",
+          "135",
+          "85",
+          "65"
+        ],
+        "answer": "95",
+        "difficulty": "medium",
+        "hint": "Η ώρα έχει 60 λεπτά, όχι 100.",
+        "solution": "1 ώρα και 35 λεπτά είναι 60+35=95 λεπτά.",
+        "skill": "Μονάδες χρόνου",
+        "objective_ids": [
+          "9bec005d-600c-52ab-9a65-bfb1f4159da6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "60+35"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα δοχείο περιέχει 0,003 κυβικά μέτρα νερού. Πόσα λίτρα είναι;",
+        "choices": [
+          "3",
+          "0,3",
+          "30",
+          "300"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Ένα κυβικό μέτρο ισούται με 1000 λίτρα.",
+        "solution": "0,003×1000=3 λίτρα. Η μετατροπή όγκου διαφέρει από τη μετατροπή μήκους.",
+        "skill": "Σύνδεση όγκου και λίτρων",
+        "objective_ids": [
+          "9bec005d-600c-52ab-9a65-bfb1f4159da6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/1000*1000"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα κουτί χωρά 250 κυβικά εκατοστά. Πόσα τέτοια γεμάτα κουτιά χρειάζονται για να μεταφέρουμε 2 λίτρα νερό;",
+        "choices": [
+          "8",
+          "4",
+          "80",
+          "2"
+        ],
+        "answer": "8",
+        "difficulty": "hard",
+        "hint": "Μετέτρεψε πρώτα και τις δύο ποσότητες στην ίδια μονάδα όγκου.",
+        "solution": "2 λίτρα=2000 cm³. Το πλήθος είναι 2000:250=8 κουτιά.",
+        "skill": "Σύνθετη μετατροπή χωρητικότητας",
+        "objective_ids": [
+          "9bec005d-600c-52ab-9a65-bfb1f4159da6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*1000/250"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση x+17=42.",
+        "choices": [
+          "25",
+          "59",
+          "35",
+          "15"
+        ],
+        "answer": "25",
+        "difficulty": "easy",
+        "hint": "Αφαίρεσε 17 και από τα δύο μέλη.",
+        "solution": "x=42−17=25. Έλεγχος: 25+17=42.",
+        "skill": "Εξίσωση με άγνωστο προσθετέο",
+        "objective_ids": [
+          "2d0b798a-c953-5c79-a8f4-23093542c66e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "42-17"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση 6x=54.",
+        "choices": [
+          "9",
+          "8",
+          "48",
+          "324"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Διαίρεσε και τα δύο μέλη με 6.",
+        "solution": "x=54:6=9. Έλεγχος: 6×9=54.",
+        "skill": "Εξίσωση με άγνωστο παράγοντα",
+        "objective_ids": [
+          "2d0b798a-c953-5c79-a8f4-23093542c66e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "54/6"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση 45−x=18.",
+        "choices": [
+          "27",
+          "63",
+          "−27",
+          "18"
+        ],
+        "answer": "27",
+        "difficulty": "medium",
+        "hint": "Ο άγνωστος είναι ο αφαιρετέος· σκέψου ποιος αριθμός αφαιρείται από το 45.",
+        "solution": "x=45−18=27. Πράγματι 45−27=18.",
+        "skill": "Άγνωστος αφαιρετέος",
+        "objective_ids": [
+          "2d0b798a-c953-5c79-a8f4-23093542c66e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "45-18"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα μήκος x χωρίστηκε σε 7 ίσα μέρη των 3 μέτρων. Πόσα μέτρα είναι το x, αν x:7=3;",
+        "choices": [
+          "21",
+          "10",
+          "4",
+          "7/3"
+        ],
+        "answer": "21",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε το πηλίκο επί τον διαιρέτη.",
+        "solution": "x=3×7=21 μέτρα. Έλεγχος: 21:7=3.",
+        "skill": "Άγνωστος διαιρετέος",
+        "objective_ids": [
+          "0bbfa040-a85d-5216-8da7-4cfb43759442"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*7"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση 36:x=9 με x≠0.",
+        "choices": [
+          "4",
+          "324",
+          "27",
+          "1/4"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Ποιος αριθμός πολλαπλασιασμένος με 9 δίνει 36;",
+        "solution": "36=9x, οπότε x=36:9=4. Είναι μη μηδενικός και 36:4=9.",
+        "skill": "Άγνωστος διαιρέτης",
+        "objective_ids": [
+          "0bbfa040-a85d-5216-8da7-4cfb43759442"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "36/9"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένας αριθμός x ικανοποιεί x−7/12=5/6. Ποιος είναι;",
+        "choices": [
+          "17/12",
+          "1/4",
+          "1/12",
+          "7/10"
+        ],
+        "answer": "17/12",
+        "difficulty": "hard",
+        "hint": "Πρόσθεσε 7/12 και στα δύο μέλη.",
+        "solution": "x=5/6+7/12=10/12+7/12=17/12. Η αφαίρεση του 7/12 δίνει ξανά 5/6.",
+        "skill": "Εξίσωση με κλασματικούς όρους",
+        "objective_ids": [
+          "0bbfa040-a85d-5216-8da7-4cfb43759442"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/6+7/12"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα εισιτήριο κόστισε 8 ευρώ και μετά την αγορά έμειναν 17 ευρώ. Πόσα ευρώ είχες αρχικά;",
+        "choices": [
+          "25",
+          "9",
+          "136",
+          "24"
+        ],
+        "answer": "25",
+        "difficulty": "easy",
+        "hint": "Αν x είναι τα αρχικά χρήματα, γράψε x−8=17.",
+        "solution": "Από x−8=17 παίρνουμε x=17+8=25 ευρώ. Η αγορά αφήνει 25−8=17 ευρώ.",
+        "skill": "Μετάφραση αφαίρεσης σε εξίσωση",
+        "objective_ids": [
+          "44ac2a08-2dbd-5201-ad55-87757944b7af"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "17+8"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρία ίδια βιβλία κοστίζουν συνολικά 27 ευρώ. Πόσα ευρώ κοστίζει ένα;",
+        "choices": [
+          "9",
+          "24",
+          "30",
+          "81"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Αν x είναι η τιμή ενός βιβλίου, γράψε 3x=27.",
+        "solution": "x=27:3=9 ευρώ. Τρία βιβλία κοστίζουν 3×9=27 ευρώ.",
+        "skill": "Πρόβλημα ίσων τιμών",
+        "objective_ids": [
+          "44ac2a08-2dbd-5201-ad55-87757944b7af"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "27/3"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα κουτί είχε μολύβια. Προστέθηκαν 14 και τώρα έχει 39. Πόσα είχε πριν;",
+        "choices": [
+          "25",
+          "53",
+          "15",
+          "29"
+        ],
+        "answer": "25",
+        "difficulty": "medium",
+        "hint": "Γράψε x+14=39 για το αρχικό πλήθος.",
+        "solution": "x=39−14=25 μολύβια. Επαλήθευση: 25+14=39.",
+        "skill": "Αρχική ποσότητα μετά από προσθήκη",
+        "objective_ids": [
+          "44ac2a08-2dbd-5201-ad55-87757944b7af"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "39-14"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Τα 5 ίσα τετράδια ζυγίζουν 600 γραμμάρια. Πόσα γραμμάρια ζυγίζει κάθε τετράδιο;",
+        "choices": [
+          "120",
+          "125",
+          "3000",
+          "595"
+        ],
+        "answer": "120",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε την εξίσωση 5x=600.",
+        "solution": "Διαιρούμε με 5 και βρίσκουμε x=120 γραμμάρια. Ο έλεγχος 5×120=600 επιβεβαιώνει τη λύση.",
+        "skill": "Εξίσωση και μονάδες μάζας",
+        "objective_ids": [
+          "deb8be29-14fa-5c16-9c52-37029865b5cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "600/5"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια κορδέλα χωρίστηκε σε 8 ίσα κομμάτια και κάθε κομμάτι έχει μήκος 3/4 μέτρου. Πόσα μέτρα είχε αρχικά;",
+        "choices": [
+          "6",
+          "32/3",
+          "11/4",
+          "3/32"
+        ],
+        "answer": "6",
+        "difficulty": "hard",
+        "hint": "Αν x είναι το αρχικό μήκος, τότε x:8=3/4.",
+        "solution": "x=8×3/4=6 μέτρα. Διαιρώντας τα 6 μέτρα στα 8, κάθε κομμάτι είναι 3/4 μέτρου.",
+        "skill": "Άγνωστο όλο με κλασματική μερίδα",
+        "objective_ids": [
+          "deb8be29-14fa-5c16-9c52-37029865b5cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*3/4"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα κουτί έχει 54 μπισκότα. Αφού δοθούν 18, όσα μένουν μοιράζονται εξίσου σε 6 παιδιά. Πόσα μπισκότα παίρνει κάθε παιδί;",
+        "choices": [
+          "6",
+          "9",
+          "12",
+          "4"
+        ],
+        "answer": "6",
+        "difficulty": "hard",
+        "hint": "Αφαίρεσε πρώτα όσα δόθηκαν και μετά μοίρασε το υπόλοιπο.",
+        "solution": "Μένουν 54−18=36 μπισκότα. Αν x παίρνει κάθε παιδί, 6x=36, άρα x=6.",
+        "skill": "Δύο βήματα πριν από απλή εξίσωση",
+        "objective_ids": [
+          "deb8be29-14fa-5c16-9c52-37029865b5cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 2,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(54-18)/6"
+        }
+      }
+    },
+    {
+      "reference": "4.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Τέσσερις φίλοι μοιράστηκαν εξίσου λογαριασμό 52 ευρώ. Πόσα ευρώ πλήρωσε καθένας;",
+        "choices": [
+          "13",
+          "12",
+          "48",
+          "208"
+        ],
+        "answer": "13",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε x ώστε 4x=52.",
+        "solution": "x=52:4=13 ευρώ. Το συνολικό ποσό είναι 4×13=52 ευρώ.",
+        "skill": "Ίση κατανομή κόστους",
+        "objective_ids": [
+          "e8edfafd-348e-51f3-bc5c-7cefdfcce43f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "4.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "52/4"
+        }
+      }
+    },
+    {
+      "reference": "4.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα κατάστημα είχε 80 μπουκάλια και πούλησε κάποια. Έμειναν 47. Πόσα πούλησε;",
+        "choices": [
+          "33",
+          "127",
+          "43",
+          "37"
+        ],
+        "answer": "33",
+        "difficulty": "easy",
+        "hint": "Το άγνωστο είναι η ποσότητα που αφαιρέθηκε.",
+        "solution": "Από 80−x=47 προκύπτει x=80−47=33 μπουκάλια.",
+        "skill": "Διαφορά αρχικού και τελικού πλήθους",
+        "objective_ids": [
+          "e8edfafd-348e-51f3-bc5c-7cefdfcce43f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "4.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "80-47"
+        }
+      }
+    },
+    {
+      "reference": "4.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν σε έναν αριθμό προσθέσουμε 1/4, παίρνουμε 7/8. Ποιος είναι ο αριθμός;",
+        "choices": [
+          "5/8",
+          "9/8",
+          "3/8",
+          "7/32"
+        ],
+        "answer": "5/8",
+        "difficulty": "medium",
+        "hint": "Ο όρος «κατά το 1/4» εδώ σημαίνει προσθήκη του αριθμού 1/4.",
+        "solution": "Από x+1/4=7/8 παίρνουμε x=7/8−2/8=5/8. Επαληθεύεται με πρόσθεση 1/4.",
+        "skill": "Μετάφραση λεκτικής εξίσωσης",
+        "objective_ids": [
+          "e8edfafd-348e-51f3-bc5c-7cefdfcce43f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "4.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7/8-1/4"
+        }
+      }
+    },
+    {
+      "reference": "4.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα ορθογώνιο έχει περίμετρο 30 εκατοστά και μήκος 9 εκατοστά. Πόσα εκατοστά είναι το πλάτος του;",
+        "choices": [
+          "6",
+          "12",
+          "21",
+          "3"
+        ],
+        "answer": "6",
+        "difficulty": "medium",
+        "hint": "Το άθροισμα μήκους και πλάτους είναι η μισή περίμετρος.",
+        "solution": "Η μισή περίμετρος είναι 15. Άρα 9+x=15 και x=6 εκατοστά. Έλεγχος: 2×(9+6)=30.",
+        "skill": "Οργάνωση δεδομένων περιμέτρου",
+        "objective_ids": [
+          "a382cc95-02df-5f12-ad67-bebfee1604b3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "4.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "30/2-9"
+        }
+      }
+    },
+    {
+      "reference": "4.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Πέντε ίδια δοχεία ζυγίζουν συνολικά 650 γραμμάρια όταν είναι άδεια. Το καθένα γεμάτο ζυγίζει 930 γραμμάρια. Πόσα γραμμάρια περιεχομένου έχει κάθε γεμάτο δοχείο;",
+        "choices": [
+          "800",
+          "280",
+          "130",
+          "1060"
+        ],
+        "answer": "800",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα το βάρος ενός άδειου δοχείου.",
+        "solution": "Το άδειο δοχείο ζυγίζει 650:5=130 γραμμάρια. Το περιεχόμενο ζυγίζει 930−130=800 γραμμάρια.",
+        "skill": "Επιλογή αναγκαίων δεδομένων",
+        "objective_ids": [
+          "a382cc95-02df-5f12-ad67-bebfee1604b3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "4.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "930-650/5"
+        },
+        "optional_extension": true
+      }
+    },
+    {
+      "reference": "4.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια ομάδα συγκέντρωσε 156 ευρώ. Πλήρωσε 36 ευρώ μεταφορικά και αγόρασε 8 ίδιες μπάλες με όλα τα υπόλοιπα. Πόσα ευρώ κόστισε κάθε μπάλα;",
+        "choices": [
+          "15",
+          "24",
+          "12",
+          "19,5"
+        ],
+        "answer": "15",
+        "difficulty": "hard",
+        "hint": "Αφαίρεσε το σταθερό κόστος πριν σχηματίσεις την εξίσωση για τις μπάλες.",
+        "solution": "Για τις μπάλες μένουν 156−36=120 ευρώ. Από 8x=120 παίρνουμε x=15 ευρώ.",
+        "skill": "Σταθερό κόστος και ίσες τιμές",
+        "objective_ids": [
+          "a382cc95-02df-5f12-ad67-bebfee1604b3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "4.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(156-36)/8"
+        },
+        "optional_extension": true
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Γράψε το 35% ως δεκαδικό αριθμό.",
+        "choices": [
+          "0,35",
+          "3,5",
+          "0,035",
+          "35"
+        ],
+        "answer": "0,35",
+        "difficulty": "easy",
+        "hint": "Το σύμβολο % σημαίνει «στα εκατό».",
+        "solution": "35%=35/100=0,35.",
+        "skill": "Ποσοστό σε δεκαδικό",
+        "objective_ids": [
+          "3cf7400d-254e-5b6a-aa01-05caabc022a0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "35/100"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το 20% του 150;",
+        "choices": [
+          "30",
+          "20",
+          "120",
+          "3000"
+        ],
+        "answer": "30",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε το 150 με 20/100.",
+        "solution": "150×20/100=30. Αυτή είναι η ζητούμενη ποσότητα.",
+        "skill": "Ποσοστό δοσμένης ποσότητας",
+        "objective_ids": [
+          "3cf7400d-254e-5b6a-aa01-05caabc022a0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "150*20/100"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε σύνολο 40 μαθητών οι 18 φοράνε γυαλιά. Ποιο είναι το ποσοστό τους, ως αριθμός επί τοις εκατό;",
+        "choices": [
+          "45",
+          "18",
+          "40",
+          "22,5"
+        ],
+        "answer": "45",
+        "difficulty": "medium",
+        "hint": "Διαίρεσε το μέρος με το σύνολο και πολλαπλασίασε επί 100.",
+        "solution": "18/40=0,45. Άρα οι μαθητές αποτελούν το 45% του συνόλου.",
+        "skill": "Εύρεση ποσοστού από μέρος",
+        "objective_ids": [
+          "3cf7400d-254e-5b6a-aa01-05caabc022a0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18/40*100"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Τα 3/8 μιας τάξης συμμετέχουν σε χορωδία. Ποιο είναι το ποσοστό συμμετοχής, ως αριθμός επί τοις εκατό;",
+        "choices": [
+          "37,5",
+          "3,8",
+          "38",
+          "62,5"
+        ],
+        "answer": "37,5",
+        "difficulty": "medium",
+        "hint": "Μετέτρεψε το κλάσμα σε εκατοστά.",
+        "solution": "(3/8)×100=37,5. Επομένως το ποσοστό είναι 37,5%.",
+        "skill": "Κλάσμα σε ποσοστό",
+        "objective_ids": [
+          "03c8add1-c961-581f-a8d9-694088b9c30c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/8*100"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Το 15% ενός ποσού είναι 27 ευρώ. Πόσα ευρώ είναι ολόκληρο το ποσό;",
+        "choices": [
+          "180",
+          "405",
+          "40,5",
+          "162"
+        ],
+        "answer": "180",
+        "difficulty": "hard",
+        "hint": "Αν x είναι το σύνολο, τότε (15/100)x=27.",
+        "solution": "x=27:(15/100)=180 ευρώ. Το 15% των 180 είναι πράγματι 27.",
+        "skill": "Εύρεση αρχικής βάσης",
+        "objective_ids": [
+          "03c8add1-c961-581f-a8d9-694088b9c30c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "27/(15/100)"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε 80 ψήφους το 35% ήταν υπέρ και το 25% κατά. Οι υπόλοιπες ήταν λευκές. Πόσες ήταν οι λευκές;",
+        "choices": [
+          "32",
+          "40",
+          "48",
+          "28"
+        ],
+        "answer": "32",
+        "difficulty": "hard",
+        "hint": "Τα τρία ποσοστά αθροίζονται σε 100%.",
+        "solution": "Το ποσοστό των λευκών είναι 100−35−25=40%. Το 40% των 80 είναι 32 ψήφοι.",
+        "skill": "Συμπληρωματικό ποσοστό",
+        "objective_ids": [
+          "03c8add1-c961-581f-a8d9-694088b9c30c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "80*(100-35-25)/100"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Μπλούζα αξίας 50 ευρώ έχει έκπτωση 10%. Πόσα ευρώ είναι η έκπτωση;",
+        "choices": [
+          "5",
+          "45",
+          "10",
+          "55"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Η έκπτωση υπολογίζεται στην αρχική τιμή.",
+        "solution": "Η έκπτωση είναι 50×10/100=5 ευρώ. Η ερώτηση ζητά την έκπτωση, όχι την τελική τιμή.",
+        "skill": "Ποσό έκπτωσης",
+        "objective_ids": [
+          "c75ac642-0511-5709-bcf3-81c12caf201b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "50*10/100"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Προϊόν 80 ευρώ αυξάνεται κατά 25%. Πόσα ευρώ είναι η νέα τιμή;",
+        "choices": [
+          "100",
+          "20",
+          "105",
+          "60"
+        ],
+        "answer": "100",
+        "difficulty": "easy",
+        "hint": "Πρόσθεσε στην αρχική τιμή το 25% της.",
+        "solution": "Η αύξηση είναι 80×25/100=20 ευρώ. Νέα τιμή: 80+20=100 ευρώ.",
+        "skill": "Τελική τιμή αύξησης",
+        "objective_ids": [
+          "c75ac642-0511-5709-bcf3-81c12caf201b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "80*(1+25/100)"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Παπούτσια 120 ευρώ έχουν έκπτωση 30%. Πόσα ευρώ πληρώνεις;",
+        "choices": [
+          "84",
+          "36",
+          "90",
+          "156"
+        ],
+        "answer": "84",
+        "difficulty": "medium",
+        "hint": "Μετά την έκπτωση πληρώνεις το 70% της αρχικής τιμής.",
+        "solution": "120×(1−30/100)=120×70/100=84 ευρώ.",
+        "skill": "Τελική τιμή έκπτωσης",
+        "objective_ids": [
+          "c75ac642-0511-5709-bcf3-81c12caf201b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "120*(1-30/100)"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η τιμή αυξήθηκε από 60 σε 75 ευρώ. Ποιο είναι το ποσοστό αύξησης, ως αριθμός επί τοις εκατό;",
+        "choices": [
+          "25",
+          "20",
+          "15",
+          "125"
+        ],
+        "answer": "25",
+        "difficulty": "medium",
+        "hint": "Διαίρεσε τη διαφορά με την αρχική τιμή 60.",
+        "solution": "Η αύξηση είναι 15 ευρώ. Το ποσοστό είναι (15/60)×100=25%.",
+        "skill": "Ποσοστιαία μεταβολή",
+        "objective_ids": [
+          "f1b3f711-8184-5175-b8b2-fea9e23272e2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((75-60)/60)*100"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Μετά από έκπτωση 20%, ένα ποδήλατο κοστίζει 144 ευρώ. Πόσα ευρώ κόστιζε πριν από την έκπτωση;",
+        "choices": [
+          "180",
+          "172,8",
+          "115,2",
+          "164"
+        ],
+        "answer": "180",
+        "difficulty": "hard",
+        "hint": "Τα 144 ευρώ είναι το 80% της αρχικής τιμής.",
+        "solution": "Αν x είναι η αρχική τιμή, 0,8x=144. Άρα x=144:0,8=180 ευρώ.",
+        "skill": "Αρχική τιμή πριν από έκπτωση",
+        "objective_ids": [
+          "f1b3f711-8184-5175-b8b2-fea9e23272e2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "144/(1-20/100)"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Τιμή 200 ευρώ αυξάνεται κατά 10% και στη συνέχεια η νέα τιμή μειώνεται κατά 10%. Πόσα ευρώ είναι η τελική τιμή;",
+        "choices": [
+          "198",
+          "200",
+          "180",
+          "220"
+        ],
+        "answer": "198",
+        "difficulty": "hard",
+        "hint": "Το δεύτερο ποσοστό εφαρμόζεται στην ήδη αυξημένη τιμή.",
+        "solution": "Μετά την αύξηση έχουμε 220 ευρώ. Η μείωση είναι το 10% των 220, δηλαδή 22 ευρώ. Τελική τιμή: 220−22=198 ευρώ.",
+        "skill": "Διαδοχικές μεταβολές με νέα βάση",
+        "objective_ids": [
+          "f1b3f711-8184-5175-b8b2-fea9e23272e2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "200*(1+10/100)*(1-10/100)"
+        }
+      }
+    },
+    {
+      "reference": "7.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η θερμοκρασία είναι 4 βαθμούς κάτω από το μηδέν. Ποιος ρητός την παριστάνει;",
+        "choices": [
+          "−4",
+          "4",
+          "0",
+          "−1/4"
+        ],
+        "answer": "−4",
+        "difficulty": "easy",
+        "hint": "Η φράση «κάτω από το μηδέν» αντιστοιχεί σε αρνητικό πρόσημο.",
+        "solution": "Τέσσερις μονάδες κάτω από το 0 παριστάνονται από τον αριθμό −4.",
+        "skill": "Αρνητικός αριθμός σε πλαίσιο",
+        "objective_ids": [
+          "36bf64f3-346e-5918-8765-824c88804726"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-4"
+        }
+      }
+    },
+    {
+      "reference": "7.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τετμημένη σημείου 3 μονάδες δεξιά από το 0;",
+        "choices": [
+          "3",
+          "−3",
+          "0",
+          "1/3"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Η δεξιά κατεύθυνση στην αριθμογραμμή είναι η θετική.",
+        "solution": "Τρία μοναδιαία βήματα προς τα δεξιά του 0 οδηγούν στο +3.",
+        "skill": "Θετική τετμημένη",
+        "objective_ids": [
+          "36bf64f3-346e-5918-8765-824c88804726"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        }
+      }
+    },
+    {
+      "reference": "7.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Η μονάδα χωρίζεται σε 4 ίσα βήματα. Ποια είναι η τετμημένη στο τρίτο βήμα αριστερά του 0;",
+        "choices": [
+          "−3/4",
+          "3/4",
+          "−4/3",
+          "−1/4"
+        ],
+        "answer": "−3/4",
+        "difficulty": "medium",
+        "hint": "Κάθε βήμα είναι ένα τέταρτο και η κίνηση είναι αριστερά.",
+        "solution": "Τρία βήματα του 1/4 αριστερά δίνουν τετμημένη −3×1/4=−3/4.",
+        "skill": "Αρνητική κλασματική τετμημένη",
+        "objective_ids": [
+          "36bf64f3-346e-5918-8765-824c88804726"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3/4"
+        }
+      }
+    },
+    {
+      "reference": "7.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένας δύτης είναι 7 μέτρα κάτω από την επιφάνεια της θάλασσας. Με σημείο αναφοράς την επιφάνεια και θετική φορά προς τα πάνω, ποια είναι η θέση του σε μέτρα;",
+        "choices": [
+          "−7",
+          "7",
+          "0",
+          "−1/7"
+        ],
+        "answer": "−7",
+        "difficulty": "medium",
+        "hint": "Πρώτα χρησιμοποίησε τη δοσμένη θετική φορά.",
+        "solution": "Το 0 είναι η επιφάνεια και προς τα πάνω είναι θετικά. Άρα 7 μέτρα κάτω παριστάνονται από −7 μέτρα.",
+        "skill": "Σημείο αναφοράς και φορά",
+        "objective_ids": [
+          "b423cf1e-f3cd-5aa3-a6a0-b24e576b31c7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-7"
+        }
+      }
+    },
+    {
+      "reference": "7.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η απόσταση μεταξύ δύο διαδοχικών σημαδιών είναι 1/2 μονάδας. Ποια είναι η τετμημένη στο πέμπτο σημάδι αριστερά από το 0;",
+        "choices": [
+          "−5/2",
+          "5/2",
+          "−2/5",
+          "−3/2"
+        ],
+        "answer": "−5/2",
+        "difficulty": "hard",
+        "hint": "Μέτρησε πέντε μισές μονάδες προς την αρνητική φορά.",
+        "solution": "Πέντε βήματα των 1/2 αριστερά του 0 δίνουν −5×1/2=−5/2.",
+        "skill": "Κλίμακα αριθμογραμμής",
+        "objective_ids": [
+          "b423cf1e-f3cd-5aa3-a6a0-b24e576b31c7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-5/2"
+        }
+      }
+    },
+    {
+      "reference": "7.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε ισαπέχοντα σημάδια Α, Β, Γ, Δ διαδοχικά από αριστερά προς τα δεξιά, το Α έχει τετμημένη −2 και το Δ έχει τετμημένη 1. Ποια είναι η τετμημένη του Γ;",
+        "choices": [
+          "0",
+          "−1",
+          "1",
+          "−2"
+        ],
+        "answer": "0",
+        "difficulty": "hard",
+        "hint": "Ανάμεσα στο Α και στο Δ υπάρχουν τρία ίσα διαστήματα.",
+        "solution": "Η συνολική απόσταση είναι 3 μονάδες, άρα κάθε βήμα είναι 1. Οι τετμημένες είναι −2, −1, 0, 1, οπότε το Γ είναι στο 0.",
+        "skill": "Ανάγνωση ισαπέχουσας κλίμακας",
+        "objective_ids": [
+          "b423cf1e-f3cd-5aa3-a6a0-b24e576b31c7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2+2"
+        }
+      }
+    },
+    {
+      "reference": "7.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η απόλυτη τιμή του −8;",
+        "choices": [
+          "8",
+          "−8",
+          "0",
+          "1/8"
+        ],
+        "answer": "8",
+        "difficulty": "easy",
+        "hint": "Η απόλυτη τιμή είναι απόσταση από το 0.",
+        "solution": "Ο −8 απέχει 8 μονάδες από το 0. Άρα η απόλυτη τιμή του είναι 8.",
+        "skill": "Απόλυτη τιμή ως απόσταση",
+        "objective_ids": [
+          "f98a146e-cbf5-510e-a512-afecf7c5a27e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8"
+        }
+      }
+    },
+    {
+      "reference": "7.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο αντίθετος του −5/3;",
+        "choices": [
+          "5/3",
+          "−3/5",
+          "3/5",
+          "−5/3"
+        ],
+        "answer": "5/3",
+        "difficulty": "easy",
+        "hint": "Ο αντίθετος έχει ίδιο μέτρο και αντίθετο πρόσημο.",
+        "solution": "Ο αντίθετος του −5/3 είναι +5/3. Το άθροισμά τους είναι 0.",
+        "skill": "Αντίθετος ρητού",
+        "objective_ids": [
+          "f98a146e-cbf5-510e-a512-afecf7c5a27e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/3"
+        }
+      }
+    },
+    {
+      "reference": "7.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο μεγαλύτερος από τους −2, −5, −1/2 και −3/2;",
+        "choices": [
+          "−1/2",
+          "−3/2",
+          "−2",
+          "−5"
+        ],
+        "answer": "−1/2",
+        "difficulty": "medium",
+        "hint": "Μεταξύ αρνητικών μεγαλύτερος είναι όποιος είναι πιο κοντά στο 0.",
+        "solution": "Οι απόλυτες τιμές είναι 2, 5, 1/2 και 3/2. Η μικρότερη είναι 1/2, επομένως μεγαλύτερος είναι ο −1/2.",
+        "skill": "Σύγκριση αρνητικών ρητών",
+        "objective_ids": [
+          "f98a146e-cbf5-510e-a512-afecf7c5a27e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1/2"
+        }
+      }
+    },
+    {
+      "reference": "7.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος αρνητικός αριθμός έχει απόλυτη τιμή 7/4;",
+        "choices": [
+          "−7/4",
+          "7/4",
+          "−4/7",
+          "0"
+        ],
+        "answer": "−7/4",
+        "difficulty": "medium",
+        "hint": "Η απόλυτη τιμή δίνει την απόσταση· η λέξη αρνητικός επιλέγει την αριστερή πλευρά.",
+        "solution": "Οι αριθμοί με απόλυτη τιμή 7/4 είναι ±7/4. Ο αρνητικός είναι −7/4.",
+        "skill": "Συνδυασμός απόλυτης τιμής και προσήμου",
+        "objective_ids": [
+          "b6a48e03-7ec7-5760-9a97-8bf1d70e1495"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-7/4"
+        }
+      }
+    },
+    {
+      "reference": "7.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσοι ακέραιοι αριθμοί έχουν απόλυτη τιμή αυστηρά μικρότερη από 3;",
+        "choices": [
+          "5",
+          "6",
+          "7",
+          "4"
+        ],
+        "answer": "5",
+        "difficulty": "hard",
+        "hint": "Μην συμπεριλάβεις τα −3 και 3, αλλά συμπεριέλαβε το 0.",
+        "solution": "Οι ακέραιοι είναι −2, −1, 0, 1, 2. Το πλήθος τους είναι 5.",
+        "skill": "Ακέραιοι μέσα σε όριο απόστασης",
+        "objective_ids": [
+          "b6a48e03-7ec7-5760-9a97-8bf1d70e1495"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2+1"
+        }
+      }
+    },
+    {
+      "reference": "7.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος από τους −7/6, −5/4, −11/12 και −1 είναι ο μικρότερος;",
+        "choices": [
+          "−5/4",
+          "−7/6",
+          "−11/12",
+          "−1"
+        ],
+        "answer": "−5/4",
+        "difficulty": "hard",
+        "hint": "Γράψε όλους τους αριθμούς σε δωδέκατα και σύγκρινε τα πρόσημα.",
+        "solution": "Οι αριθμοί γίνονται −14/12, −15/12, −11/12 και −12/12. Ο μικρότερος είναι −15/12=−5/4.",
+        "skill": "Σύγκριση ετερώνυμων αρνητικών",
+        "objective_ids": [
+          "b6a48e03-7ec7-5760-9a97-8bf1d70e1495"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-5/4"
+        }
+      }
+    },
+    {
+      "reference": "7.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−4)+(−7).",
+        "choices": [
+          "−11",
+          "11",
+          "3",
+          "−3"
+        ],
+        "answer": "−11",
+        "difficulty": "easy",
+        "hint": "Για δύο αρνητικούς προσθέτεις τις απόλυτες τιμές και κρατάς αρνητικό πρόσημο.",
+        "solution": "Οι απόλυτες τιμές αθροίζονται σε 11. Άρα το άθροισμα είναι −11.",
+        "skill": "Πρόσθεση ομόσημων",
+        "objective_ids": [
+          "e91e3d86-9713-5fb1-a594-f17275db3141"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-4+(-7)"
+        }
+      }
+    },
+    {
+      "reference": "7.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−9)+14.",
+        "choices": [
+          "5",
+          "−5",
+          "23",
+          "−23"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Βρες τη διαφορά των απόλυτων τιμών και το πρόσημο της μεγαλύτερης.",
+        "solution": "14−9=5 και υπερισχύει ο θετικός αριθμός. Άρα το αποτέλεσμα είναι 5.",
+        "skill": "Πρόσθεση ετερόσημων",
+        "objective_ids": [
+          "e91e3d86-9713-5fb1-a594-f17275db3141"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-9+14"
+        }
+      }
+    },
+    {
+      "reference": "7.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε −3/4+1/2.",
+        "choices": [
+          "−1/4",
+          "1/4",
+          "−5/4",
+          "−1/2"
+        ],
+        "answer": "−1/4",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε κοινό παρονομαστή 4.",
+        "solution": "−3/4+2/4=−1/4.",
+        "skill": "Πρόσθεση ρητών με κλάσματα",
+        "objective_ids": [
+          "e91e3d86-9713-5fb1-a594-f17275db3141"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3/4+1/2"
+        }
+      }
+    },
+    {
+      "reference": "7.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η θερμοκρασία ήταν −6 °C και αυξήθηκε κατά 9 °C. Πόσους βαθμούς Κελσίου έδειξε;",
+        "choices": [
+          "3",
+          "−3",
+          "15",
+          "−15"
+        ],
+        "answer": "3",
+        "difficulty": "medium",
+        "hint": "Η αύξηση παριστάνεται με πρόσθεση θετικού αριθμού.",
+        "solution": "Η τελική θερμοκρασία είναι −6+9=3 °C.",
+        "skill": "Πρόσθεση ως μεταβολή",
+        "objective_ids": [
+          "4ae42d01-220a-58f9-99ce-72d3f9d7fea9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-6+9"
+        }
+      }
+    },
+    {
+      "reference": "7.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−17)+8+17+(−3).",
+        "choices": [
+          "5",
+          "−5",
+          "11",
+          "−11"
+        ],
+        "answer": "5",
+        "difficulty": "hard",
+        "hint": "Συνδύασε πρώτα τους αντίθετους −17 και 17.",
+        "solution": "−17+17=0. Απομένει 8−3=5.",
+        "skill": "Ομαδοποίηση αντιθέτων",
+        "objective_ids": [
+          "4ae42d01-220a-58f9-99ce-72d3f9d7fea9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-17+8+17-3"
+        }
+      }
+    },
+    {
+      "reference": "7.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένας λογαριασμός ξεκινά με υπόλοιπο −25 ευρώ. Κατατίθενται 40 ευρώ και μετά χρεώνονται 18 ευρώ. Πόσα ευρώ είναι το νέο υπόλοιπο;",
+        "choices": [
+          "−3",
+          "3",
+          "33",
+          "−83"
+        ],
+        "answer": "−3",
+        "difficulty": "hard",
+        "hint": "Παράστησε την κατάθεση με θετικό και τη χρέωση με αρνητικό αριθμό.",
+        "solution": "Το υπόλοιπο γίνεται −25+40−18=15−18=−3 ευρώ.",
+        "skill": "Διαδοχικές μεταβολές υπολοίπου",
+        "objective_ids": [
+          "4ae42d01-220a-58f9-99ce-72d3f9d7fea9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-25+40-18"
+        }
+      }
+    },
+    {
+      "reference": "7.4",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 5−(−3).",
+        "choices": [
+          "8",
+          "2",
+          "−8",
+          "−2"
+        ],
+        "answer": "8",
+        "difficulty": "easy",
+        "hint": "Η αφαίρεση αρνητικού γίνεται πρόσθεση του αντιθέτου του.",
+        "solution": "5−(−3)=5+3=8.",
+        "skill": "Αφαίρεση αρνητικού",
+        "objective_ids": [
+          "0219b66e-8b95-5f57-8acd-71da5527f727"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-(-3)"
+        }
+      }
+    },
+    {
+      "reference": "7.4",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−4)−6.",
+        "choices": [
+          "−10",
+          "10",
+          "2",
+          "−2"
+        ],
+        "answer": "−10",
+        "difficulty": "easy",
+        "hint": "Πρόσθεσε στον −4 τον αντίθετο του 6.",
+        "solution": "−4−6=−4+(−6)=−10.",
+        "skill": "Αφαίρεση θετικού από αρνητικό",
+        "objective_ids": [
+          "0219b66e-8b95-5f57-8acd-71da5527f727"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-4-6"
+        }
+      }
+    },
+    {
+      "reference": "7.4",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε −2/3−(−1/6).",
+        "choices": [
+          "−1/2",
+          "−5/6",
+          "1/2",
+          "−1/6"
+        ],
+        "answer": "−1/2",
+        "difficulty": "medium",
+        "hint": "Άλλαξε την αφαίρεση σε πρόσθεση και χρησιμοποίησε έκτα.",
+        "solution": "−2/3+1/6=−4/6+1/6=−3/6=−1/2.",
+        "skill": "Αφαίρεση κλασματικών ρητών",
+        "objective_ids": [
+          "0219b66e-8b95-5f57-8acd-71da5527f727"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2/3-(-1/6)"
+        }
+      }
+    },
+    {
+      "reference": "7.4",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η θερμοκρασία έπεσε από 4 °C σε −5 °C. Πόσους βαθμούς ήταν το μέγεθος της πτώσης;",
+        "choices": [
+          "9",
+          "−9",
+          "1",
+          "−1"
+        ],
+        "answer": "9",
+        "difficulty": "medium",
+        "hint": "Το μέγεθος της πτώσης είναι αρχική μείον τελική θερμοκρασία.",
+        "solution": "Το μέγεθος της πτώσης είναι 4−(−5)=9 βαθμοί. Η μεταβολή είναι −9 °C, αλλά ζητείται το θετικό μέγεθος.",
+        "skill": "Μεταβολή και μέγεθος διαφοράς",
+        "objective_ids": [
+          "7078254f-259f-57b1-8605-dc36a68bd3a9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4-(-5)"
+        }
+      }
+    },
+    {
+      "reference": "7.4",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 7−[3−(−2)].",
+        "choices": [
+          "2",
+          "6",
+          "12",
+          "−2"
+        ],
+        "answer": "2",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε πρώτα την εσωτερική αφαίρεση.",
+        "solution": "3−(−2)=5. Άρα 7−5=2.",
+        "skill": "Εμφωλευμένες παρενθέσεις",
+        "objective_ids": [
+          "7078254f-259f-57b1-8605-dc36a68bd3a9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7-(3-(-2))"
+        }
+      }
+    },
+    {
+      "reference": "7.4",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα ασανσέρ βρίσκεται στο επίπεδο −3 και ανεβαίνει στο +5. Πόσα επίπεδα ανέβηκε;",
+        "choices": [
+          "8",
+          "2",
+          "−8",
+          "−2"
+        ],
+        "answer": "8",
+        "difficulty": "hard",
+        "hint": "Η μετατόπιση είναι τελική μείον αρχική θέση.",
+        "solution": "Η άνοδος είναι 5−(−3)=8 επίπεδα. Το 0 βρίσκεται ανάμεσα στις δύο θέσεις.",
+        "skill": "Διαφορά θέσεων",
+        "objective_ids": [
+          "7078254f-259f-57b1-8605-dc36a68bd3a9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-(-3)"
+        }
+      }
+    },
+    {
+      "reference": "7.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−6)×4.",
+        "choices": [
+          "−24",
+          "24",
+          "−10",
+          "10"
+        ],
+        "answer": "−24",
+        "difficulty": "easy",
+        "hint": "Το γινόμενο ετερόσημων είναι αρνητικό.",
+        "solution": "6×4=24 και τα πρόσημα διαφέρουν. Άρα το γινόμενο είναι −24.",
+        "skill": "Γινόμενο ετερόσημων",
+        "objective_ids": [
+          "77e7ba27-7c89-5051-ba7d-747fb2b838f8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-6*4"
+        }
+      }
+    },
+    {
+      "reference": "7.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−7)×(−3).",
+        "choices": [
+          "21",
+          "−21",
+          "10",
+          "−10"
+        ],
+        "answer": "21",
+        "difficulty": "easy",
+        "hint": "Το γινόμενο δύο αρνητικών είναι θετικό.",
+        "solution": "7×3=21. Δύο αρνητικά πρόσημα δίνουν θετικό αποτέλεσμα.",
+        "skill": "Γινόμενο δύο αρνητικών",
+        "objective_ids": [
+          "77e7ba27-7c89-5051-ba7d-747fb2b838f8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-7)*(-3)"
+        }
+      }
+    },
+    {
+      "reference": "7.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−3/5)×(10/9).",
+        "choices": [
+          "−2/3",
+          "2/3",
+          "−3/2",
+          "−1/3"
+        ],
+        "answer": "−2/3",
+        "difficulty": "medium",
+        "hint": "Πρώτα βρες το πρόσημο και μετά απλοποίησε τους παράγοντες.",
+        "solution": "Το πρόσημο είναι αρνητικό. (3×10)/(5×9)=30/45=2/3, άρα το αποτέλεσμα είναι −2/3.",
+        "skill": "Γινόμενο κλασματικών ρητών",
+        "objective_ids": [
+          "77e7ba27-7c89-5051-ba7d-747fb2b838f8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-3/5)*(10/9)"
+        }
+      }
+    },
+    {
+      "reference": "7.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Κάθε λεπτό η θερμοκρασία μεταβάλλεται κατά −2 βαθμούς. Ποια είναι η συνολική μεταβολή σε 7 λεπτά;",
+        "choices": [
+          "−14",
+          "14",
+          "−9",
+          "9"
+        ],
+        "answer": "−14",
+        "difficulty": "medium",
+        "hint": "Η ίδια αρνητική μεταβολή επαναλαμβάνεται 7 φορές.",
+        "solution": "Η συνολική μεταβολή είναι 7×(−2)=−14 βαθμοί, δηλαδή πτώση 14 βαθμών.",
+        "skill": "Γινόμενο ως επαναλαμβανόμενη μεταβολή",
+        "objective_ids": [
+          "a0552c2c-9e5e-5b7d-903b-cf9855d04842"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7*(-2)"
+        }
+      }
+    },
+    {
+      "reference": "7.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−4)×[3+(−8)].",
+        "choices": [
+          "20",
+          "−20",
+          "−44",
+          "44"
+        ],
+        "answer": "20",
+        "difficulty": "hard",
+        "hint": "Μπορείς να υπολογίσεις την παρένθεση ή να εφαρμόσεις επιμεριστική.",
+        "solution": "3+(−8)=−5. Άρα (−4)×(−5)=20. Ισοδύναμα, −12+32=20.",
+        "skill": "Επιμεριστική με αρνητικούς",
+        "objective_ids": [
+          "a0552c2c-9e5e-5b7d-903b-cf9855d04842"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-4)*(3+(-8))"
+        }
+      }
+    },
+    {
+      "reference": "7.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−2)×(−3)×(−5)×2.",
+        "choices": [
+          "−60",
+          "60",
+          "−30",
+          "30"
+        ],
+        "answer": "−60",
+        "difficulty": "hard",
+        "hint": "Μέτρησε τους αρνητικούς παράγοντες και υπολόγισε τα μέτρα.",
+        "solution": "Τρεις αρνητικοί παράγοντες δίνουν αρνητικό γινόμενο. Το μέτρο είναι 2×3×5×2=60, άρα το αποτέλεσμα είναι −60.",
+        "skill": "Πρόσημο πολλών παραγόντων",
+        "objective_ids": [
+          "a0552c2c-9e5e-5b7d-903b-cf9855d04842"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 3,
+            "paragraph": "7.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-2)*(-3)*(-5)*2"
+        }
+      }
+    },
+    {
+      "reference": "7.6",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−24):6.",
+        "choices": [
+          "−4",
+          "4",
+          "−18",
+          "−144"
+        ],
+        "answer": "−4",
+        "difficulty": "easy",
+        "hint": "Το πηλίκο ετερόσημων είναι αρνητικό.",
+        "solution": "24:6=4 και τα πρόσημα διαφέρουν. Άρα το πηλίκο είναι −4.",
+        "skill": "Διαίρεση ετερόσημων",
+        "objective_ids": [
+          "489e1543-43c0-588c-bad8-2f5d59075e7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 4,
+            "paragraph": "7.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-24)/6"
+        }
+      }
+    },
+    {
+      "reference": "7.6",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−35):(−7).",
+        "choices": [
+          "5",
+          "−5",
+          "7",
+          "−7"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Το πηλίκο ομόσημων μη μηδενικών είναι θετικό.",
+        "solution": "35:7=5 και τα δύο πρόσημα είναι αρνητικά. Το αποτέλεσμα είναι +5.",
+        "skill": "Διαίρεση ομόσημων",
+        "objective_ids": [
+          "489e1543-43c0-588c-bad8-2f5d59075e7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 4,
+            "paragraph": "7.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-35)/(-7)"
+        }
+      }
+    },
+    {
+      "reference": "7.6",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−3/4):(1/2).",
+        "choices": [
+          "−3/2",
+          "3/2",
+          "−3/8",
+          "−2/3"
+        ],
+        "answer": "−3/2",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε με τον αντίστροφο του θετικού διαιρέτη.",
+        "solution": "(−3/4)×2=−6/4=−3/2.",
+        "skill": "Διαίρεση κλασματικών ρητών",
+        "objective_ids": [
+          "489e1543-43c0-588c-bad8-2f5d59075e7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 4,
+            "paragraph": "7.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-3/4)/(1/2)"
+        }
+      }
+    },
+    {
+      "reference": "7.6",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα υπόλοιπο −48 ευρώ μοιράζεται ισόποσα σε 6 ίσα λογιστικά μερίδια. Πόσα ευρώ αντιστοιχούν σε κάθε μερίδιο;",
+        "choices": [
+          "−8",
+          "8",
+          "−42",
+          "−288"
+        ],
+        "answer": "−8",
+        "difficulty": "medium",
+        "hint": "Διαίρεσε το αρνητικό συνολικό ποσό με το θετικό πλήθος μεριδίων.",
+        "solution": "Κάθε μερίδιο αντιστοιχεί σε −48:6=−8 ευρώ. Το άθροισμα των έξι μεριδίων είναι −48 ευρώ.",
+        "skill": "Αρνητικό πηλίκο σε πλαίσιο",
+        "objective_ids": [
+          "9676a348-0c72-58f7-8572-e44ebd44f73d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 4,
+            "paragraph": "7.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-48)/6"
+        }
+      }
+    },
+    {
+      "reference": "7.6",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 18:(−3)×(−2).",
+        "choices": [
+          "12",
+          "3",
+          "−12",
+          "−3"
+        ],
+        "answer": "12",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασιασμός και διαίρεση έχουν ίδια προτεραιότητα· προχώρα από αριστερά.",
+        "solution": "Πρώτα 18:(−3)=−6 και μετά (−6)×(−2)=12. Δεν ομαδοποιούμε αυθαίρετα τον διαιρέτη.",
+        "skill": "Ίδια προτεραιότητα πράξεων",
+        "objective_ids": [
+          "9676a348-0c72-58f7-8572-e44ebd44f73d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 4,
+            "paragraph": "7.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18/(-3)*(-2)"
+        }
+      }
+    },
+    {
+      "reference": "7.6",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε [−5−(−17)]:(−4)+2.",
+        "choices": [
+          "−1",
+          "1",
+          "−5",
+          "5"
+        ],
+        "answer": "−1",
+        "difficulty": "hard",
+        "hint": "Ολοκλήρωσε την παρένθεση, μετά τη διαίρεση και τέλος την πρόσθεση.",
+        "solution": "−5−(−17)=12. Έπειτα 12:(−4)=−3 και −3+2=−1.",
+        "skill": "Σύνθετη παράσταση ρητών",
+        "objective_ids": [
+          "9676a348-0c72-58f7-8572-e44ebd44f73d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-00",
+            "pdf_page": 4,
+            "paragraph": "7.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-5-(-17))/(-4)+2"
+        }
+      }
+    }
+  ]
+}

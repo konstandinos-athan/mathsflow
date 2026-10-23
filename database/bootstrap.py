@@ -6,6 +6,7 @@ from pathlib import Path
 from . import ROOT, check, connect, copy_database, digest, migrate
 from .importer import import_data, stable
 from .theory_content import apply_release, validate_release
+from .question_content import deploy_releases
 
 
 def bootstrap(path):
@@ -37,6 +38,7 @@ def bootstrap(path):
         current = dict(db.execute('SELECT unit_id,version_id FROM current_theory'))
         if current != latest:
             raise ValueError('Active theory differs from deployment releases; manual review required')
+        deploy_releases(db)
         return check(db)
     finally:
         db.close()

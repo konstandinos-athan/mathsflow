@@ -6,7 +6,7 @@
 {% block title %}{{ enotita }} - Κουίζ{% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container quiz-page">
     {# ============================================
        UNIT TITLE
        ============================================ #}
@@ -14,6 +14,11 @@
 
     <div class="quiz-box">
         <div class="quiz-title">Κουίζ</div>
+        {% if teaching_scope == 'optional' %}
+            <p class="quiz-scope-note">Προαιρετική ενότητα · εξάσκηση και επανάληψη</p>
+        {% elif teaching_scope == 'bridge' %}
+            <p class="quiz-scope-note">Μεταβατική ενότητα · εξάσκηση στα προαπαιτούμενα</p>
+        {% endif %}
 
         {# ============================================
            DIFFICULTY FILTER
@@ -22,9 +27,9 @@
             <label for="difficulty"><strong>Επίπεδο:</strong></label>
             <select name="difficulty" id="difficulty" onchange="this.form.submit()">
                 <option value="all" {% if difficulty == "all" %}selected{% endif %}>Όλα</option>
-                <option value="easy" {% if difficulty == "easy" %}selected{% endif %}>Easy</option>
-                <option value="medium" {% if difficulty == "medium" %}selected{% endif %}>Medium</option>
-                <option value="hard" {% if difficulty == "hard" %}selected{% endif %}>Hard</option>
+                <option value="easy" {% if difficulty == "easy" %}selected{% endif %}>Βασικό</option>
+                <option value="medium" {% if difficulty == "medium" %}selected{% endif %}>Μέτριο</option>
+                <option value="hard" {% if difficulty == "hard" %}selected{% endif %}>Απαιτητικό</option>
             </select>
         </form>
 
@@ -53,6 +58,17 @@
                             {{ loop.index }}. {{ question.question }}
                         </div>
 
+                        {% if question.optional_extension %}
+                            <p class="quiz-scope-note">Προαιρετική σύνθετη εξάσκηση</p>
+                        {% endif %}
+
+                        {% if score is none and question.hint %}
+                            <details class="quiz-hint">
+                                <summary>Χρειάζεσαι μια υπόδειξη;</summary>
+                                <p class="mathjax-content">{{ question.hint }}</p>
+                            </details>
+                        {% endif %}
+
                         {% for choice in question.choices %}
                             <label class="quiz-choice">
                                 <input
@@ -68,6 +84,9 @@
                         {% if score is not none %}
                             <div class="quiz-result mathjax-content">
                                 <strong>Σωστή απάντηση:</strong> {{ question.answer }}
+                                {% if question.solution %}
+                                    <p><strong>Πώς προκύπτει:</strong> {{ question.solution }}</p>
+                                {% endif %}
                             </div>
                         {% endif %}
                     </div>
@@ -103,17 +122,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 {% endblock %}
-
-<script>
-function renderMath() {
-    if (window.MathJax && window.MathJax.typesetPromise) {
-        MathJax.typesetPromise();
-    }
-}
-
-// initial load
-document.addEventListener("DOMContentLoaded", renderMath);
-
-// και μετά από form submit (IMPORTANT)
-window.addEventListener("load", renderMath);
-</script>
