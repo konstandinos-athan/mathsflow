@@ -87,6 +87,13 @@
                                 {% if question.solution %}
                                     <p><strong>Πώς προκύπτει:</strong> {{ question.solution }}</p>
                                 {% endif %}
+                                {% if question.verification and question.verification.kind == 'conceptual' %}
+                                    {% for review in question.verification.choice_reviews %}
+                                        {% if not review.correct and review.choice == user_answers.get(q_index|string) %}
+                                            <p><strong>Για τη δική σου επιλογή:</strong> {{ review.reason }}</p>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endif %}
                             </div>
                         {% endif %}
                     </div>

@@ -8,6 +8,7 @@ from pathlib import Path
 from . import ROOT, DEFAULT_PATH, connect, copy_database, digest
 from .importer import stable, validate_question, add_question_version
 from .theory_content import arithmetic
+from .geometry_checks import validate_geometry_cases
 
 
 def normalized(text):
@@ -56,7 +57,7 @@ def validate_release(release):
                 raise ValueError('Missing ' + key)
             texts.append(value)
         for text in texts:
-            if '\ufffd' in text or re.search(r'<[^>]*>', text) or re.search(r'\\\\[()\[\]]', text):
+            if '\ufffd' in text or re.search(r'</?[A-Za-z][^>]*>|<!--', text) or re.search(r'\\\\[()\[\]]', text):
                 raise ValueError('Invalid text or doubled mathematics delimiter')
             if text.count('\\(') != text.count('\\)') or text.count('\\[') != text.count('\\]'):
                 raise ValueError('Unbalanced mathematics delimiters')
@@ -67,14 +68,36 @@ def validate_release(release):
         if payload.get('source_refs') != unit['source_refs'] or payload.get('teaching_scope') != unit['teaching_scope'] or payload.get('educator_review') != 'pending':
             raise ValueError('Missing curriculum provenance')
         verification = payload.get('verification', {})
-        if verification.get('kind') != 'numeric':
+        if not isinstance(verification, dict):
+            raise ValueError('Invalid verification record')
+        if verification.get('kind') == 'numeric':
+            values = [number(c) for c in payload['choices']]
+            if len(set(values)) != 4:
+                raise ValueError('Numerically equivalent choices')
+            result = arithmetic(verification['expression'])
+            if values.count(result) != 1 or number(payload['answer']) != result:
+                raise ValueError('Answer does not match exact calculation')
+        elif verification.get('kind') == 'conceptual':
+            # This checks the explicit review record, not the truth of Greek prose.
+            reviews = verification.get('choice_reviews')
+            if not isinstance(reviews, list) or len(reviews) != 4 or any(not isinstance(r, dict) for r in reviews):
+                raise ValueError('Every conceptual choice needs a review')
+            if {r.get('choice') for r in reviews} != set(payload['choices']):
+                raise ValueError('Conceptual review does not match choices')
+            for review in reviews:
+                if type(review.get('correct')) is not bool or not isinstance(review.get('reason'), str) or len(review['reason'].strip()) < 15:
+                    raise ValueError('Missing conceptual choice reasoning')
+                reason = review['reason']
+                if '\ufffd' in reason or re.search(r'</?[A-Za-z][^>]*>|<!--', reason) or re.search(r'\\\\[()\[\]]', reason):
+                    raise ValueError('Invalid conceptual feedback text')
+                if reason.count('\\(') != reason.count('\\)') or reason.count('\\[') != reason.count('\\]'):
+                    raise ValueError('Unbalanced conceptual feedback mathematics')
+            correct = [r['choice'] for r in reviews if r['correct']]
+            if correct != [payload['answer']]:
+                raise ValueError('Conceptual review must identify one matching answer')
+        else:
             raise ValueError('Unsupported verification kind')
-        values = [number(c) for c in payload['choices']]
-        if len(set(values)) != 4:
-            raise ValueError('Numerically equivalent choices')
-        result = arithmetic(verification['expression'])
-        if values.count(result) != 1 or number(payload['answer']) != result:
-            raise ValueError('Answer does not match exact calculation')
+        validate_geometry_cases(payload.get('geometry_cases', []))
         prepared.append((unit, entry, qid, payload))
     return prepared
 

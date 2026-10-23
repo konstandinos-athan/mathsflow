@@ -1,10 +1,10 @@
 {
   "catalog_units": 325,
-  "units_with_quiz": 40,
-  "active_questions": 624,
-  "with_learning_support": 144,
-  "first_pass_complete_units": 24,
-  "remaining_units": 301,
+  "units_with_quiz": 63,
+  "active_questions": 762,
+  "with_learning_support": 282,
+  "first_pass_complete_units": 47,
+  "remaining_units": 278,
   "educator_approved_units": 0,
   "units": [
     {
@@ -468,11 +468,18 @@
       "reference": "1.1",
       "title": "Σημείο - Ευθύγραμμο τμήμα - Ευθεία - Ημιευθεία - Επίπεδο - Ημιεπίπεδο",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "ba2f0506-ec58-5022-9d02-dffbeb43c5d5",
+        "e21f1a02-8c43-5c04-b997-8562d4ac39f2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -480,11 +487,18 @@
       "reference": "1.2",
       "title": "Γωνία - Γραμμή - Επίπεδα σχήματα - Ευθύγραμμα σχήματα - Ίσα σχήματα",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2138506d-20d0-5a57-8fd6-136bb02a56d0",
+        "a4ca0d8a-2b23-578d-8c88-5d33f75eec0a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -492,11 +506,18 @@
       "reference": "1.3",
       "title": "Μέτρηση, σύγκριση και ισότητα ευθυγράμμων τμημάτων - Απόσταση σημείων - Μέσο ευθύγραμμου τμήματος",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "32fe06b3-6584-559f-b961-c0a4414fd726",
+        "3d610035-0570-5db6-8545-aa21453a4ac2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -504,11 +525,18 @@
       "reference": "1.4",
       "title": "Πρόσθεση και αφαίρεση ευθυγράμμων τμημάτων",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "d342499c-9b6b-5cc0-99ad-2a2d73f836aa",
+        "e730604c-3090-5349-83a0-e7042e87119f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -516,11 +544,18 @@
       "reference": "1.5",
       "title": "Μέτρηση, σύγκριση και ισότητα γωνιών - Διχοτόμος γωνίας",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a0ed4fd0-9ae3-53f0-91e0-261aea90de74",
+        "f3cc0a48-dc71-5c31-a691-83407062f5bf"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -528,11 +563,18 @@
       "reference": "1.6",
       "title": "Είδη γωνιών - Κάθετες ευθείες",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0833322b-6f20-5ca4-be1f-ecdc73ccbd63",
+        "768a9535-6589-5c74-937a-b1e8f800af65"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -540,11 +582,18 @@
       "reference": "1.7",
       "title": "Εφεξής και διαδοχικές γωνίες - Άθροισμα γωνιών",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5a84b065-752e-57fe-b343-520ed63153c0",
+        "6f0f601c-6bd7-5dd4-a361-181b5fa9595e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -552,11 +601,18 @@
       "reference": "1.8",
       "title": "Παραπληρωματικές και συμπληρωματικές γωνίες - Κατακορυφήν γωνίες",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "e6b38f74-3319-59ea-bb6f-73f63aae74e2",
+        "ece3df4a-cf67-53ec-b2a2-d564e7255d98"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -564,11 +620,18 @@
       "reference": "1.9",
       "title": "Θέσεις ευθειών στο επίπεδο",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "f69b5c52-a122-5785-b408-bdf05d88d663",
+        "fcac7aec-603c-58aa-92a7-0b805783bbbf"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -576,11 +639,18 @@
       "reference": "1.10",
       "title": "Απόσταση σημείου από ευθεία – Απόσταση παραλλήλων",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "38f014df-a3d9-5499-b1d1-2da18d049aba",
+        "fee626f3-5237-5fc8-9295-e4d4884c66d5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -588,11 +658,18 @@
       "reference": "1.11",
       "title": "Κύκλος και στοιχεία του κύκλου",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "01e783e7-e3d6-5c5a-a4ab-486d52d2676f",
+        "c41dd331-982f-55e5-b380-4c921a496e74"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -600,11 +677,18 @@
       "reference": "1.12",
       "title": "Επίκεντρη γωνία - Σχέση επίκεντρης γωνίας και του αντίστοιχου τόξου - Μέτρηση τόξου",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4cbc05ab-e729-50eb-8028-5d303b3b4dff",
+        "8e6a5f4c-878c-52ba-a02e-8188ee4b530c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -612,11 +696,18 @@
       "reference": "1.13",
       "title": "Θέσεις ευθείας και κύκλου",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "47456816-ad8a-581b-8c50-b3791c589866",
+        "4d72a559-2028-58ee-9896-85c2461ee968"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -624,11 +715,18 @@
       "reference": "2.1",
       "title": "Συμμετρία ως προς άξονα",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2e610c36-c7e7-5a27-9f76-a49a7f1c49cc",
+        "542d047d-3527-5e13-9290-971611d5f722"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -636,11 +734,18 @@
       "reference": "2.2",
       "title": "Άξονας συμμετρίας",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "085e3820-ecd1-5341-be42-aeff31586582",
+        "81ce4fd2-668a-566a-8d15-a6fa6dced1f9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -648,11 +753,18 @@
       "reference": "2.3",
       "title": "Μεσοκάθετος ευθύγραμμου τμήματος",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c564cd76-1ff5-5d50-a868-62fbb6a49da0",
+        "d7199432-46ad-5c0f-8f1f-b22fd2b9fa93"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -660,11 +772,18 @@
       "reference": "2.4",
       "title": "Συμμετρία ως προς σημείο",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0a5ca77a-89f1-5b71-b327-e24edef7f2cf",
+        "dcb5d92f-50f2-59e2-8245-04c5cfa6c384"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -672,11 +791,18 @@
       "reference": "2.5",
       "title": "Κέντρο συμμετρίας",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "93fceb9c-0ff0-5a87-9eef-26945e23c9ac",
+        "dd03b518-d8bf-5274-9efe-5d004a348e5f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -684,11 +810,18 @@
       "reference": "2.6",
       "title": "Παράλληλες ευθείες που τέμνονται από μία άλλη ευθεία",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "ccf95228-8bac-5f55-8776-f5ff401d5c28",
+        "f8aed82a-5dbd-52e1-a0d6-7e3a7b9a810a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -696,11 +829,18 @@
       "reference": "3.1",
       "title": "Στοιχεία τριγώνου - Είδη τριγώνων",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3cb9b706-748e-5c84-937f-68e15126c5e7",
+        "6a0a69ca-b140-56ce-b02a-995f1fe94c75"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -708,11 +848,18 @@
       "reference": "3.2",
       "title": "Άθροισμα γωνιών τριγώνου - Ιδιότητες ισοσκελούς τριγώνου",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "cc8ae460-1e05-55c9-b853-0b24e70198da",
+        "ea5e4570-c751-5ef9-85c3-4f5154310d93"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -720,11 +867,18 @@
       "reference": "3.3",
       "title": "Παραλληλόγραμμο - Ορθογώνιο - Ρόμβος - Τετράγωνο - Τραπέζιο - Ισοσκελές τραπέζιο",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4f290cd7-4674-5431-91f0-e5e39d65a973",
+        "b4681807-45a7-595c-8306-1218fedccca4"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -732,11 +886,18 @@
       "reference": "3.4",
       "title": "Ιδιότητες Παραλληλογράμμου - Ορθογωνίου - Ρόμβου - Τετραγώνου - Τραπεζίου - Ισοσκελούς τραπεζίου",
       "course_key": "gym-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "15c672d8-c624-5af0-b4f9-13188193d3b2",
+        "fa7d4d63-9726-5b4f-b81f-b1fc0ea78b8a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
