@@ -108,15 +108,13 @@ body.light .gear {
     border-radius: 14px;
 
     opacity: 0;
-    transform: translateY(-8px);
     pointer-events: none;
 
-    transition: opacity 0.2s, transform 0.2s;
+    transition: opacity 0.15s;
 }
 
 .settings-menu.open {
     opacity: 1;
-    transform: translateY(0);
     pointer-events: auto;
 }
 
@@ -478,4 +476,85 @@ body.light .study-page .theory-text a { color: #1d4ed8; }
 .study-page mjx-container:not([display="true"]) {
     display: inline-block;
     vertical-align: middle;
+}
+
+/* A pressed state changes contrast, never position or scale. */
+button, .study-btn, .quiz-btn, .back-btn, .home-start, .school-card {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease, filter .1s ease;
+}
+button:active:not(:disabled), .study-btn:active, .quiz-btn:active, .back-btn:active, .home-start:active, .school-card:active {
+    filter: brightness(.82);
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,.24);
+}
+button:focus-visible, a:focus-visible {
+    outline: 3px solid #60a5fa;
+    outline-offset: 4px;
+}
+
+/* Homepage: clear choices, with the existing MathsFlow blue palette. */
+.home-page { --home-muted: #aab9d2; --home-line: #2b3e60; --home-panel: #142340; --home-accent: #8bbaff; }
+.home-page.light { --home-muted: #52627b; --home-line: #cbd5e1; --home-panel: #fff; --home-accent: #245ac5; }
+.home-page .topbar { max-width: 1160px; margin: auto; padding: 28px 28px 0; }
+.home-page.dark .logo, .home-page.light .logo { font-size: 1.5em; letter-spacing: -.04em; text-shadow: none; color: var(--home-accent); }
+.home-page .settings { top: 22px; right: 24px; }
+.home-shell { max-width: 1160px; margin: auto; padding: 0 28px; }
+.home-hero { display: grid; grid-template-columns: 1.25fr 1fr; gap: 64px; align-items: center; padding: 76px 0 64px; }
+.home-eyebrow { display: flex; align-items: center; gap: 9px; color: var(--home-accent); font-size: .8em; font-weight: 700; letter-spacing: .04em; margin: 0 0 18px; }
+.home-eyebrow > span { width: 7px; height: 7px; background: currentColor; border-radius: 50%; }
+.home-intro h1 { color: inherit; font-size: clamp(2.5em, 4.3vw, 3.75em); letter-spacing: -.055em; line-height: 1.12; margin: 0 0 24px; }
+.home-intro h1 span { color: var(--home-accent); }
+.home-lead { color: var(--home-muted); font-size: 1.05em; line-height: 1.8; max-width: 465px; margin: 0 0 28px; }
+.home-start { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 48px; padding: 13px 20px; border-radius: 9px; background: #2563eb; color: #fff; text-decoration: none; font-weight: 700; font-size: .95em; }
+.home-route { background: var(--home-panel); border: 1px solid var(--home-line); border-radius: 20px; padding: 28px; }
+.home-route-label { color: var(--home-muted); font-size: .8em; font-weight: 700; margin: 0 0 24px; }
+.home-route ol { list-style: none; padding: 0; margin: 0; }
+.home-page .home-route li { display: flex; gap: 17px; padding: 0 0 22px; margin: 0; background: none; border-radius: 0; }
+.home-route li:last-child { padding-bottom: 0; }
+.route-number { flex: 0 0 36px; height: 36px; display: grid; place-items: center; border: 1px solid var(--home-line); border-radius: 10px; color: var(--home-accent); font-size: .75em; font-weight: 700; }
+.home-route strong { display: block; font-size: .95em; line-height: 1.5; }
+.home-route li div > span { display: block; color: var(--home-muted); font-size: .8em; line-height: 1.6; margin-top: 3px; }
+.home-route-formula { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-top: 1px solid var(--home-line); padding-top: 19px; margin-top: 24px; color: var(--home-accent); font-size: .85em; }
+.home-schools { scroll-margin-top: 28px; }
+.home-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
+.home-section-heading .home-eyebrow { margin-bottom: 8px; }
+.home-section-heading h2 { font-size: 1.65em; letter-spacing: -.035em; margin: 0; }
+.home-section-heading > p { color: var(--home-muted); font-size: .85em; line-height: 1.6; margin: 0; }
+.school-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
+.school-card { display: flex; flex-direction: column; background: var(--home-panel); border: 1px solid var(--home-line); border-radius: 15px; padding: 24px; color: inherit; text-decoration: none; min-width: 0; }
+.school-card-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+.school-index { font-size: .75em; color: var(--home-muted); font-weight: 700; }
+.school-symbol { color: var(--home-accent); font-family: Georgia, serif; font-size: 1.5em; line-height: 1; }
+.school-card h3 { font-size: 1.2em; letter-spacing: -.025em; line-height: 1.35; margin: 0 0 10px; }
+.school-card > p { color: var(--home-muted); font-size: .82em; line-height: 1.65; margin: 0 0 24px; }
+.school-card-action { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 17px; border-top: 1px solid var(--home-line); color: var(--home-accent); font-size: .85em; font-weight: 700; }
+.home-footer { display: flex; justify-content: space-between; gap: 24px; border-top: 1px solid var(--home-line); margin: 42px 0 0; padding: 24px 0; color: var(--home-muted); font-size: .75em; line-height: 1.6; }
+.home-footer > span { font-weight: 700; }
+.home-footer p { margin: 0; }
+@media (hover: hover) {
+    .school-card:hover { border-color: var(--home-accent); box-shadow: 0 0 0 1px var(--home-accent); }
+    .home-start:hover { background: #1d4ed8; }
+}
+@media (max-width: 850px) {
+    .home-hero { gap: 28px; padding: 52px 0; }
+    .home-route { padding: 22px; }
+    .school-card { padding: 20px; }
+}
+@media (max-width: 650px) {
+    .home-page .topbar { padding: 23px 20px 0; }
+    .home-page .settings { top: 15px; right: 12px; }
+    .home-shell { padding: 0 20px; }
+    .home-hero { grid-template-columns: 1fr; padding: 44px 0 38px; gap: 30px; }
+    .home-intro h1 { font-size: clamp(1.9em, 9.5vw, 2.65em); }
+    .home-lead { font-size: 1em; }
+    .home-section-heading { display: block; }
+    .home-section-heading > p { margin-top: 12px; }
+    .school-grid { grid-template-columns: 1fr; gap: 14px; }
+    .school-card { padding: 22px; }
+    .school-card-top { margin-bottom: 20px; }
+    .home-footer { flex-direction: column; gap: 6px; margin-top: 30px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    button, .study-btn, .quiz-btn, .back-btn, .home-start, .school-card, .settings-menu { transition: none; }
 }

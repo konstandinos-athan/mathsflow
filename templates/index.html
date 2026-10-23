@@ -1,45 +1,39 @@
 {% extends "base.html" %}
-
+{% block body_class %}home-page{% endblock %}
+{% block breadcrumbs %}{% endblock %}
 {% block content %}
-<div class="container">
+<main class="home-shell">
+    <section class="home-hero" aria-labelledby="home-title">
+        <div class="home-intro">
+            <p class="home-eyebrow"><span aria-hidden="true"></span> Θεωρία και εξάσκηση</p>
+            <h1 id="home-title">Τα μαθηματικά,<br><span>βήμα βήμα.</span></h1>
+            <p class="home-lead">Από την πρώτη απορία μέχρι τη λύση. Βρες την τάξη σου και ξεκίνα με την ενότητα που χρειάζεσαι.</p>
+            <a class="home-start" href="#schools">Βρες την τάξη σου <span aria-hidden="true">↓</span></a>
+        </div>
+        <aside class="home-route" aria-label="Πώς ξεκινάς">
+            <p class="home-route-label">Η διαδρομή σου</p>
+            <ol>
+                <li><span class="route-number" aria-hidden="true">01</span><div><strong>Επίλεξε τάξη</strong><span>Το σημείο εκκίνησής σου.</span></div></li>
+                <li><span class="route-number" aria-hidden="true">02</span><div><strong>Βρες την ενότητά σου</strong><span>Εστίασε σε αυτό που χρειάζεσαι.</span></div></li>
+                <li><span class="route-number" aria-hidden="true">03</span><div><strong>Κατανόησε την ιδέα</strong><span>Θεωρία, παραδείγματα και εξάσκηση.</span></div></li>
+            </ol>
+            <div class="home-route-formula" aria-hidden="true"><span>απορία</span><span>→</span><span>κατανόηση</span></div>
+        </aside>
+    </section>
 
-    {# ============================================
-       TITLE (όνομα πλατφόρμας)
-       ============================================ #}
-    <h1>MathsFlow</h1>
-
-    {# υπότιτλος #}
-    <h2>Επέλεξε κατηγορία</h2>
-
-
-    {# ============================================
-       ΛΙΣΤΑ ΣΧΟΛΕΙΩΝ
-       ============================================ #}
-    <!-- schools = dictionary από Flask -->
-    <!-- π.χ. Γυμνάσιο, ΓΕΛ, ΕΠΑΛ -->
-    <ul>
-        {% for key, school in schools.items() %}
-        <li>
-
-            {# όνομα κατηγορίας (π.χ. ΓΕΛ) #}
-            <div class="lesson-title">{{ school.name }}</div>
-
-
-            {# ============================================
-               BUTTON ΕΙΣΟΔΟΥ
-               ============================================ #}
-            <div class="buttons">
-
-                <!-- route προς σελίδα σχολείου -->
-                <a href="/school/{{ key }}">
-                    <button class="study-btn">Είσοδος</button>
-                </a>
-
-            </div>
-
-        </li>
-        {% endfor %}
-    </ul>
-
-</div>
+    <section class="home-schools" id="schools" aria-labelledby="schools-title">
+        <div class="home-section-heading"><div><p class="home-eyebrow">Εδώ ξεκινάμε</p><h2 id="schools-title">Το σχολείο σου</h2></div><p>Διάλεξε κατηγορία για να δεις τις τάξεις.</p></div>
+        <div class="school-grid">
+            {% for key, school in schools.items() %}
+            <a class="school-card" href="{{ url_for('school_page', school_key=key) }}">
+                <div class="school-card-top"><span class="school-index">0{{ loop.index }}</span><span class="school-symbol" aria-hidden="true">{% if key == 'gymnasio' %}x²{% elif key == 'gel' %}ƒ(x){% else %}∠{% endif %}</span></div>
+                <h3>{{ school.name }}</h3>
+                <p>{% if key == 'gymnasio' %}Α΄, Β΄ και Γ΄ Γυμνασίου{% elif key == 'gel' %}Α΄, Β΄ και Γ΄ Γενικού Λυκείου{% else %}Α΄, Β΄ και Γ΄ Επαγγελματικού Λυκείου{% endif %}</p>
+                <span class="school-card-action">Επίλεξε τάξη <span aria-hidden="true">→</span></span>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+    <footer class="home-footer"><span>MathsFlow</span><p>Μία ενότητα τη φορά. Στον δικό σου ρυθμό.</p></footer>
+</main>
 {% endblock %}

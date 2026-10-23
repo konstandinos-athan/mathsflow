@@ -40,7 +40,7 @@ window.MathJax = {
      BODY DEFAULT CLASSES
      ============================================ -->
 <!-- ξεκινά με dark mode και normal font αν δεν έχει φορτωθεί ακόμα localStorage -->
-<body class="dark font-normal">
+<body class="dark font-normal {% block body_class %}{% endblock %}">
 
 
 <!-- ============================================
@@ -87,6 +87,7 @@ window.MathJax = {
      BREADCRUMBS NAVIGATION
      ============================================ -->
 <!-- δείχνει το path: Αρχική > Σχολείο > Τάξη > Μάθημα > Ενότητα -->
+{% block breadcrumbs %}
 <div class="breadcrumbs">
     <a href="/">Αρχική</a>
 
@@ -111,6 +112,8 @@ window.MathJax = {
     {% endif %}
 </div>
 
+
+{% endblock %}
 
 <!-- ============================================
      PAGE CONTENT BLOCK
