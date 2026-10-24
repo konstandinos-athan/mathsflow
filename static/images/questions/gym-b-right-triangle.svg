@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+<title id="title">Ορθογώνιο τρίγωνο ΑΒΓ</title><desc id="desc">Ορθή γωνία στο Β. ΑΒ 8 cm, ΒΓ 6 cm και ΑΓ 10 cm. Η γωνία Α βρίσκεται αριστερά.</desc>
+<rect width="600" height="300" rx="14" fill="#fff"/>
+<g font-family="Arial, sans-serif" fill="#16324f"><text x="300" y="30" text-anchor="middle" font-size="20">Ορθογώνιο τρίγωνο ΑΒΓ</text>
+<path d="M100 235 L340 235 L340 55 Z" fill="#eff6ff" stroke="#1d4ed8" stroke-width="3"/>
+<path d="M320 235 L320 215 L340 215" fill="none" stroke="#16324f" stroke-width="2"/>
+<path d="M145 235 A45 45 0 0 0 136 208" fill="none" stroke="#b45309" stroke-width="2"/>
+<g font-size="20"><text x="76" y="257">Α</text><text x="346" y="257">Β</text><text x="346" y="51">Γ</text>
+<text x="220" y="266" text-anchor="middle">8 cm</text><text x="363" y="159">6 cm</text><text x="200" y="128">10 cm</text></g>
+<text x="300" y="291" font-size="13" text-anchor="middle">Τα δεδομένα μήκη καθορίζουν τους υπολογισμούς.</text></g></svg>

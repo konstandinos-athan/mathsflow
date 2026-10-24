@@ -1,10 +1,10 @@
 {
   "catalog_units": 325,
-  "units_with_quiz": 80,
-  "active_questions": 864,
-  "with_learning_support": 384,
-  "first_pass_complete_units": 64,
-  "remaining_units": 261,
+  "units_with_quiz": 94,
+  "active_questions": 948,
+  "with_learning_support": 468,
+  "first_pass_complete_units": 78,
+  "remaining_units": 247,
   "educator_approved_units": 0,
   "units": [
     {
@@ -1228,11 +1228,18 @@
       "reference": "1.1",
       "title": "Εμβαδόν επίπεδης επιφάνειας",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0cd289a8-32d4-5f55-8643-c0a4cfd0a324",
+        "f12c1c2d-fcf3-5589-b9ef-3dafeff71d27"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1240,11 +1247,18 @@
       "reference": "1.2",
       "title": "Μονάδες μέτρησης επιφανειών",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4cee216c-90c0-51ac-82d7-e81407d79bb1",
+        "fb31b6af-bb55-5b4c-9621-97b2d8dedfb6"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1252,11 +1266,18 @@
       "reference": "1.3",
       "title": "Εμβαδά επίπεδων σχημάτων",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "012526b7-1672-5b66-aa33-d7d0ba22c20b",
+        "c7f35c58-fd60-5232-8572-e589d51a646d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1264,11 +1285,18 @@
       "reference": "1.4",
       "title": "Πυθαγόρειο θεώρημα",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0046aa89-80da-5948-bc3e-f0bb849e234f",
+        "bf4d4c2d-5a60-5f0a-a670-6f6da9bce920"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1276,11 +1304,18 @@
       "reference": "2.1",
       "title": "Εφαπτομένη οξείας γωνίας",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "39b6907a-3795-5b4f-98fc-f743aa4f304c",
+        "40da9b19-0642-5501-94dd-34663fe8c153"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1288,11 +1323,18 @@
       "reference": "2.2",
       "title": "Ημίτονο και συνημίτονο οξείας γωνίας",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "65f9951a-6176-588a-9c53-c2438653a97e",
+        "8e907872-a593-5962-b6d2-6e2df1a1c04b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1300,11 +1342,18 @@
       "reference": "3.1",
       "title": "Εγγεγραμμένες γωνίες",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8d1aa978-c615-587e-b4c9-c20d6616f2ef",
+        "ee4a076f-2c35-5ae2-840a-177538da34c3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1312,11 +1361,18 @@
       "reference": "3.2",
       "title": "Κανονικά πολύγωνα",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2c7a6023-065d-58e5-911b-a8a029b22a85",
+        "79d11750-8e3e-5d54-ab05-2e44d1391b35"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1324,11 +1380,18 @@
       "reference": "3.3",
       "title": "Μήκος κύκλου",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8a642056-e7e8-52b7-99b1-7fafc497fdc0",
+        "b6b1129f-cb7e-517b-a63a-efd98a6db5f5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1336,11 +1399,18 @@
       "reference": "3.5",
       "title": "Εμβαδόν κυκλικού δίσκου",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "07cc0fd6-7ebc-5cb2-84e7-36d657cda280",
+        "d0345a76-7f27-5b40-b91d-a1838584f068"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1348,11 +1418,18 @@
       "reference": "4.2",
       "title": "Στοιχεία και εμβαδόν πρίσματος και κυλίνδρου",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8de38157-9e76-5eae-baf8-2d1be493dd1e",
+        "a20c68fb-4441-54c6-891f-69e1838820d6"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1360,11 +1437,18 @@
       "reference": "4.3",
       "title": "Όγκος πρίσματος και κυλίνδρου",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0e0579ae-1432-5689-ad12-25e8f3d2283b",
+        "77c4e899-95d0-54a4-a1fc-37f434207f7b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1372,11 +1456,18 @@
       "reference": "4.4",
       "title": "Η πυραμίδα και τα στοιχεία της",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "92bdd56a-7fed-5119-a941-8cd982f305fc",
+        "dd76146f-4452-5cbd-ad67-7b715dd7ad9a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1384,11 +1475,18 @@
       "reference": "4.6",
       "title": "Η σφαίρα και τα στοιχεία της",
       "course_key": "gym-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0fefb5e8-dff9-5a8d-a143-2c6118f4c651",
+        "d6fe2413-3435-5ec1-b48a-d25c24844982"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
