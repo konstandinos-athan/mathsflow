@@ -1,0 +1,4489 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gym-b-algebra-v1",
+  "course": "gym-b-algebra",
+  "authored_on": "2026-10-24",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "7.7",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Γράψε το κλάσμα 3/8 σε δεκαδική μορφή.",
+        "choices": [
+          "0,375",
+          "0,38",
+          "0,35",
+          "0,0375"
+        ],
+        "answer": "0,375",
+        "difficulty": "easy",
+        "hint": "Διαίρεσε τον αριθμητή με τον παρονομαστή.",
+        "solution": "3:8=0,375. Η διαίρεση τερματίζεται και η τιμή είναι ακριβής.",
+        "skill": "Κλάσμα σε πεπερασμένο δεκαδικό",
+        "objective_ids": [
+          "333ac0b8-a1cd-555c-857e-abe0d9da1ab6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.7"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/8"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.7",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η δεκαδική μορφή του −7/20;",
+        "choices": [
+          "−0,35",
+          "0,35",
+          "−3,5",
+          "−0,07"
+        ],
+        "answer": "−0,35",
+        "difficulty": "easy",
+        "hint": "Γράψε πρώτα το κλάσμα με παρονομαστή 100 και κράτησε το πρόσημο.",
+        "solution": "−7/20=−35/100=−0,35. Το αρνητικό πρόσημο δεν χάνεται στη μετατροπή.",
+        "skill": "Αρνητικός δεκαδικός ρητού",
+        "objective_ids": [
+          "333ac0b8-a1cd-555c-857e-abe0d9da1ab6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.7"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-7/20"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.7",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Η γραφή 0,333 περιέχει ακριβώς τρία δεκαδικά ψηφία. Ποια δήλωση είναι σωστή;",
+        "choices": [
+          "Είναι προσέγγιση του 1/3, μικρότερη από αυτό",
+          "Είναι ακριβώς το 1/3",
+          "Είναι άρρητος αριθμός",
+          "Είναι μεγαλύτερη από το 1/3"
+        ],
+        "answer": "Είναι προσέγγιση του 1/3, μικρότερη από αυτό",
+        "difficulty": "medium",
+        "hint": "Ξεχώρισε την πεπερασμένη γραφή από την άπειρη περιοδική.",
+        "solution": "Το 1/3 έχει άπειρα επαναλαμβανόμενα τριάρια. Το 0,333=333/1000 είναι λίγο μικρότερο και δεν ισούται ακριβώς με το 1/3.",
+        "skill": "Προσέγγιση έναντι ακριβούς περιόδου",
+        "objective_ids": [
+          "333ac0b8-a1cd-555c-857e-abe0d9da1ab6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.7"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι προσέγγιση του 1/3, μικρότερη από αυτό",
+              "correct": true,
+              "reason": "Το 1/3 έχει άπειρα επαναλαμβανόμενα τριάρια. Το 0,333=333/1000 είναι λίγο μικρότερο και δεν ισούται ακριβώς με το 1/3."
+            },
+            {
+              "choice": "Είναι ακριβώς το 1/3",
+              "correct": false,
+              "reason": "Τα επαναλαμβανόμενα τριάρια του 1/3 δεν σταματούν στο τρίτο ψηφίο."
+            },
+            {
+              "choice": "Είναι άρρητος αριθμός",
+              "correct": false,
+              "reason": "Κάθε πεπερασμένος δεκαδικός είναι ρητός."
+            },
+            {
+              "choice": "Είναι μεγαλύτερη από το 1/3",
+              "correct": false,
+              "reason": "Τα επιπλέον θετικά δεκαδικά ψηφία κάνουν το 1/3 μεγαλύτερο."
+            }
+          ]
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.7",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η ακριβής δεκαδική μορφή του 17/40;",
+        "choices": [
+          "0,425",
+          "0,42",
+          "0,45",
+          "0,0425"
+        ],
+        "answer": "0,425",
+        "difficulty": "medium",
+        "hint": "Μετέτρεψε τον παρονομαστή σε 1000.",
+        "solution": "17/40=425/1000=0,425. Το 0,42 θα ήταν προσέγγιση και όχι ακριβής μετατροπή.",
+        "skill": "Ακριβής μετατροπή χωρίς στρογγυλοποίηση",
+        "objective_ids": [
+          "de307560-71de-56f1-845f-537953d3e962"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.7"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "17/40"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.7",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένας δεκαδικός επαναλαμβάνει από κάποια θέση και μετά την ίδια πεπερασμένη ομάδα ψηφίων για πάντα. Ποιο συμπέρασμα ισχύει;",
+        "choices": [
+          "Είναι περιοδικός και ρητός",
+          "Είναι υποχρεωτικά άρρητος",
+          "Είναι υποχρεωτικά ακέραιος",
+          "Δεν μπορεί να προκύψει από διαίρεση ακεραίων"
+        ],
+        "answer": "Είναι περιοδικός και ρητός",
+        "difficulty": "hard",
+        "hint": "Η επανάληψη περιοδικού μέρους είναι συμβατή με ρητό αριθμό.",
+        "solution": "Ένας άπειρος περιοδικός δεκαδικός είναι ρητός. Η άπειρη γραφή από μόνη της δεν σημαίνει αρρητότητα.",
+        "skill": "Περιοδικότητα και ρητοί",
+        "objective_ids": [
+          "de307560-71de-56f1-845f-537953d3e962"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.7"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι περιοδικός και ρητός",
+              "correct": true,
+              "reason": "Ένας άπειρος περιοδικός δεκαδικός είναι ρητός. Η άπειρη γραφή από μόνη της δεν σημαίνει αρρητότητα."
+            },
+            {
+              "choice": "Είναι υποχρεωτικά άρρητος",
+              "correct": false,
+              "reason": "Οι άρρητοι έχουν μη περιοδικό δεκαδικό ανάπτυγμα."
+            },
+            {
+              "choice": "Είναι υποχρεωτικά ακέραιος",
+              "correct": false,
+              "reason": "Περιοδικοί όπως 1/3 δεν είναι ακέραιοι."
+            },
+            {
+              "choice": "Δεν μπορεί να προκύψει από διαίρεση ακεραίων",
+              "correct": false,
+              "reason": "Η διαίρεση ακεραίων μπορεί να δώσει άπειρο περιοδικό δεκαδικό."
+            }
+          ]
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.7",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόση είναι η διαφορά του 2/3 από την πεπερασμένη προσέγγισή του 0,666;",
+        "choices": [
+          "1/1500",
+          "0",
+          "1/1000",
+          "1/3000"
+        ],
+        "answer": "1/1500",
+        "difficulty": "hard",
+        "hint": "Γράψε το 0,666 ως 666/1000 και αφαίρεσε ακριβώς.",
+        "solution": "2/3−666/1000=2000/3000−1998/3000=2/3000=1/1500. Η διαφορά είναι θετική και μη μηδενική.",
+        "skill": "Ακριβές σφάλμα δεκαδικής προσέγγισης",
+        "objective_ids": [
+          "de307560-71de-56f1-845f-537953d3e962"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.7"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/3-666/1000"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.8",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−3)².",
+        "choices": [
+          "9",
+          "−9",
+          "6",
+          "−6"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Η βάση είναι ολόκληρος ο αρνητικός αριθμός μέσα στην παρένθεση.",
+        "solution": "(−3)²=(−3)×(−3)=9. Ο άρτιος εκθέτης δίνει θετικό αποτέλεσμα.",
+        "skill": "Άρτιος φυσικός εκθέτης",
+        "objective_ids": [
+          "39f86969-cf04-5d9b-a41a-6d0c49da8330"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.8"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-3)**2"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.8",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε −3², χωρίς παρένθεση γύρω από το −3.",
+        "choices": [
+          "−9",
+          "9",
+          "−6",
+          "6"
+        ],
+        "answer": "−9",
+        "difficulty": "easy",
+        "hint": "Η δύναμη υπολογίζεται πριν από το εξωτερικό αρνητικό πρόσημο.",
+        "solution": "−3²=−(3²)=−9. Διαφέρει από το (−3)²=9.",
+        "skill": "Πρόσημο έξω από τη δύναμη",
+        "objective_ids": [
+          "39f86969-cf04-5d9b-a41a-6d0c49da8330"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.8"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-(3**2)"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.8",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 2³×2⁴.",
+        "choices": [
+          "128",
+          "64",
+          "24",
+          "32"
+        ],
+        "answer": "128",
+        "difficulty": "medium",
+        "hint": "Στο γινόμενο δυνάμεων ίδιας βάσης προσθέτεις εκθέτες.",
+        "solution": "2³×2⁴=2⁷=128. Δεν πολλαπλασιάζουμε τους εκθέτες ούτε προσθέτουμε τις δυνάμεις.",
+        "skill": "Γινόμενο ίδιας βάσης",
+        "objective_ids": [
+          "39f86969-cf04-5d9b-a41a-6d0c49da8330"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.8"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**3*2**4"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.8",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−2/3)³.",
+        "choices": [
+          "−8/27",
+          "8/27",
+          "−6/9",
+          "−2/9"
+        ],
+        "answer": "−8/27",
+        "difficulty": "medium",
+        "hint": "Ο περιττός εκθέτης διατηρεί το αρνητικό πρόσημο.",
+        "solution": "(−2/3)³=(−2)³/3³=−8/27.",
+        "skill": "Δύναμη κλασματικής βάσης",
+        "objective_ids": [
+          "8c152223-fcb7-5ca9-91c8-05e71b0fc056"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.8"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-2/3)**3"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.8",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια ισότητα ισχύει για κάθε πραγματικό α≠0;",
+        "choices": [
+          "α⁰=1",
+          "α⁰=0",
+          "α⁰=α",
+          "α⁰=−1"
+        ],
+        "answer": "α⁰=1",
+        "difficulty": "hard",
+        "hint": "Η μηδενική δύναμη μη μηδενικής βάσης έχει σταθερή τιμή.",
+        "solution": "Για κάθε μη μηδενικό α ορίζεται α⁰=1. Η συνθήκη α≠0 είναι ουσιώδης.",
+        "skill": "Μηδενικός εκθέτης με προϋπόθεση",
+        "objective_ids": [
+          "8c152223-fcb7-5ca9-91c8-05e71b0fc056"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.8"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α⁰=1",
+              "correct": true,
+              "reason": "Για κάθε μη μηδενικό α ορίζεται α⁰=1. Η συνθήκη α≠0 είναι ουσιώδης."
+            },
+            {
+              "choice": "α⁰=0",
+              "correct": false,
+              "reason": "Ο μηδενικός εκθέτης δεν μηδενίζει τη δύναμη."
+            },
+            {
+              "choice": "α⁰=α",
+              "correct": false,
+              "reason": "Η τιμή δεν διατηρεί γενικά τη βάση."
+            },
+            {
+              "choice": "α⁰=−1",
+              "correct": false,
+              "reason": "Η τιμή είναι θετική μονάδα και όχι αρνητική."
+            }
+          ]
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.8",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε [(−2)³]²−(−2)⁴.",
+        "choices": [
+          "48",
+          "−48",
+          "80",
+          "16"
+        ],
+        "answer": "48",
+        "difficulty": "hard",
+        "hint": "Στη δύναμη δύναμης πολλαπλασίασε εκθέτες και μετά αφαίρεσε.",
+        "solution": "[(−2)³]²=(−2)⁶=64 και (−2)⁴=16. Άρα 64−16=48.",
+        "skill": "Σύνθεση κανόνων δυνάμεων",
+        "objective_ids": [
+          "8c152223-fcb7-5ca9-91c8-05e71b0fc056"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.8"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((-2)**3)**2-(-2)**4"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.9",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του 5⁻²;",
+        "choices": [
+          "1/25",
+          "−25",
+          "25",
+          "−1/25"
+        ],
+        "answer": "1/25",
+        "difficulty": "easy",
+        "hint": "Ο αρνητικός εκθέτης δηλώνει αντίστροφη δύναμη.",
+        "solution": "5⁻²=1/5²=1/25. Το αρνητικό πρόσημο στον εκθέτη δεν κάνει την τιμή αρνητική.",
+        "skill": "Αρνητικός ακέραιος εκθέτης",
+        "objective_ids": [
+          "408800b3-7f06-509c-9a37-2f014d523935"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(5**2)"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.9",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Γράψε το 10⁻³ ως δεκαδικό αριθμό.",
+        "choices": [
+          "0,001",
+          "−1000",
+          "0,0001",
+          "0,01"
+        ],
+        "answer": "0,001",
+        "difficulty": "easy",
+        "hint": "Η αντίστροφη τρίτη δύναμη του 10 είναι ένα χιλιοστό.",
+        "solution": "10⁻³=1/1000=0,001.",
+        "skill": "Αρνητική δύναμη του δέκα",
+        "objective_ids": [
+          "408800b3-7f06-509c-9a37-2f014d523935"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(10**3)"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.9",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (−2)⁻³.",
+        "choices": [
+          "−1/8",
+          "1/8",
+          "−8",
+          "8"
+        ],
+        "answer": "−1/8",
+        "difficulty": "medium",
+        "hint": "Πάρε τον αντίστροφο του (−2)³ και κράτησε το πρόσημό του.",
+        "solution": "(−2)³=−8, άρα (−2)⁻³=1/(−8)=−1/8.",
+        "skill": "Αρνητική βάση και αρνητικός εκθέτης",
+        "objective_ids": [
+          "408800b3-7f06-509c-9a37-2f014d523935"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/((-2)**3)"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.9",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (2/3)⁻².",
+        "choices": [
+          "9/4",
+          "4/9",
+          "−4/9",
+          "−9/4"
+        ],
+        "answer": "9/4",
+        "difficulty": "medium",
+        "hint": "Αντέστρεψε τη μη μηδενική βάση και ύψωσέ τη στο τετράγωνο.",
+        "solution": "(2/3)⁻²=(3/2)²=9/4. Η τιμή είναι θετική.",
+        "skill": "Αντιστροφή κλασματικής βάσης",
+        "objective_ids": [
+          "700db7fc-af2d-5a53-a159-fb6765570212"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3/2)**2"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.9",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια προϋπόθεση χρειάζεται για να οριστεί α⁻⁴ στους πραγματικούς;",
+        "choices": [
+          "α≠0",
+          "α=0",
+          "α>1 μόνο",
+          "α ακέραιος μόνο"
+        ],
+        "answer": "α≠0",
+        "difficulty": "hard",
+        "hint": "Η γραφή ισούται με 1/α⁴.",
+        "solution": "Ο παρονομαστής α⁴ πρέπει να είναι μη μηδενικός, άρα α≠0. Επιτρέπονται και αρνητικές ή κλασματικές μη μηδενικές βάσεις.",
+        "skill": "Περιορισμός βάσης αρνητικού εκθέτη",
+        "objective_ids": [
+          "700db7fc-af2d-5a53-a159-fb6765570212"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α≠0",
+              "correct": true,
+              "reason": "Ο παρονομαστής α⁴ πρέπει να είναι μη μηδενικός, άρα α≠0. Επιτρέπονται και αρνητικές ή κλασματικές μη μηδενικές βάσεις."
+            },
+            {
+              "choice": "α=0",
+              "correct": false,
+              "reason": "Με α=0 θα προέκυπτε διαίρεση με το μηδέν."
+            },
+            {
+              "choice": "α>1 μόνο",
+              "correct": false,
+              "reason": "Επιτρέπονται και βάσεις ανάμεσα στο 0 και στο 1 ή αρνητικές."
+            },
+            {
+              "choice": "α ακέραιος μόνο",
+              "correct": false,
+              "reason": "Η βάση μπορεί να είναι οποιοσδήποτε μη μηδενικός πραγματικός."
+            }
+          ]
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "7.9",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 3²:3⁴ + (−2)⁻².",
+        "choices": [
+          "13/36",
+          "−5/36",
+          "1/13",
+          "5/36"
+        ],
+        "answer": "13/36",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε κάθε αντίστροφη δύναμη χωριστά και χρησιμοποίησε κοινό παρονομαστή.",
+        "solution": "3²:3⁴=1/9 και (−2)⁻²=1/4. Το άθροισμα είναι 4/36+9/36=13/36.",
+        "skill": "Παράσταση με αντίστροφες δυνάμεις",
+        "objective_ids": [
+          "700db7fc-af2d-5a53-a159-fb6765570212"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "7.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "excluded_bridge",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2/(3**4)+1/((-2)**2)"
+        },
+        "practice_note": "Προαπαιτούμενη εξάσκηση από το βιβλίο της Α΄ · δεν αποτελεί εξεταστέα ύλη Β΄ Γυμνασίου."
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα τετράδιο κοστίζει 3 ευρώ. Ποια παράσταση δίνει το κόστος x ίδιων τετραδίων;",
+        "choices": [
+          "3x",
+          "x+3",
+          "x/3",
+          "3−x"
+        ],
+        "answer": "3x",
+        "difficulty": "easy",
+        "hint": "Το πλήθος πολλαπλασιάζεται με την τιμή ενός τετραδίου.",
+        "solution": "Το συνολικό κόστος είναι πλήθος επί τιμή ανά τεμάχιο, δηλαδή 3x ευρώ. Το x παριστάνει εδώ μη αρνητικό ακέραιο πλήθος.",
+        "skill": "Γράμμα σε πρακτική παράσταση",
+        "objective_ids": [
+          "310e63e8-cd86-58aa-9a1c-93590ee4b91f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3x",
+              "correct": true,
+              "reason": "Το συνολικό κόστος είναι πλήθος επί τιμή ανά τεμάχιο, δηλαδή 3x ευρώ. Το x παριστάνει εδώ μη αρνητικό ακέραιο πλήθος."
+            },
+            {
+              "choice": "x+3",
+              "correct": false,
+              "reason": "Η πρόσθεση 3 ευρώ μία φορά δεν υπολογίζει το κόστος x τεμαχίων."
+            },
+            {
+              "choice": "x/3",
+              "correct": false,
+              "reason": "Η διαίρεση αντιστρέφει τη σχέση πλήθους και τιμής."
+            },
+            {
+              "choice": "3−x",
+              "correct": false,
+              "reason": "Η αφαίρεση δεν εκφράζει συνολικό κόστος αγοράς."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε την τιμή της 4x+7 για x=2.",
+        "choices": [
+          "15",
+          "13",
+          "22",
+          "9"
+        ],
+        "answer": "15",
+        "difficulty": "easy",
+        "hint": "Αντικατάστησε το γράμμα και κάνε πρώτα τον πολλαπλασιασμό.",
+        "solution": "4×2+7=8+7=15.",
+        "skill": "Αντικατάσταση σε παράσταση",
+        "objective_ids": [
+          "310e63e8-cd86-58aa-9a1c-93590ee4b91f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*2+7"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια παράσταση είναι ίση με 3x+5x για κάθε x;",
+        "choices": [
+          "8x",
+          "8x²",
+          "15x",
+          "2x"
+        ],
+        "answer": "8x",
+        "difficulty": "medium",
+        "hint": "Οι όροι είναι όμοιοι και προστίθενται οι συντελεστές.",
+        "solution": "3x+5x=(3+5)x=8x. Η πρόσθεση δεν αυξάνει τον εκθέτη του x.",
+        "skill": "Απλοποίηση όμοιων όρων",
+        "objective_ids": [
+          "310e63e8-cd86-58aa-9a1c-93590ee4b91f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "8x",
+              "correct": true,
+              "reason": "3x+5x=(3+5)x=8x. Η πρόσθεση δεν αυξάνει τον εκθέτη του x."
+            },
+            {
+              "choice": "8x²",
+              "correct": false,
+              "reason": "Η πρόσθεση όμοιων όρων δεν εισάγει τετράγωνο."
+            },
+            {
+              "choice": "15x",
+              "correct": false,
+              "reason": "Ο πολλαπλασιασμός των συντελεστών αφορά γινόμενο και όχι άθροισμα."
+            },
+            {
+              "choice": "2x",
+              "correct": false,
+              "reason": "Η αφαίρεση των συντελεστών δεν αντιστοιχεί στην παράσταση."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 2(x+3)−x για x=1/4.",
+        "choices": [
+          "25/4",
+          "7/4",
+          "13/2",
+          "6"
+        ],
+        "answer": "25/4",
+        "difficulty": "medium",
+        "hint": "Απλοποίησε πρώτα με την επιμεριστική ιδιότητα.",
+        "solution": "2(x+3)−x=2x+6−x=x+6. Για x=1/4 η τιμή είναι 1/4+6=25/4.",
+        "skill": "Απλοποίηση πριν από κλασματική αντικατάσταση",
+        "objective_ids": [
+          "36c0187e-cdd4-5764-b2cc-1b5566851961"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*(1/4+3)-1/4"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στην παράσταση 5/(x−2), ποια τιμή του x δεν επιτρέπεται;",
+        "choices": [
+          "2",
+          "0",
+          "5",
+          "−2"
+        ],
+        "answer": "2",
+        "difficulty": "hard",
+        "hint": "Ο παρονομαστής δεν μπορεί να μηδενίζεται.",
+        "solution": "Για x=2 έχουμε x−2=0, άρα μη επιτρεπτή διαίρεση. Οι άλλες τρεις επιλογές δίνουν μη μηδενικό παρονομαστή.",
+        "skill": "Περιορισμός αλγεβρικής παράστασης",
+        "objective_ids": [
+          "36c0187e-cdd4-5764-b2cc-1b5566851961"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 3(x+2)−2(x−1) για x=−1/2.",
+        "choices": [
+          "15/2",
+          "9/2",
+          "17/2",
+          "−15/2"
+        ],
+        "answer": "15/2",
+        "difficulty": "hard",
+        "hint": "Πρόσεξε το αρνητικό πρόσημο μπροστά στη δεύτερη παρένθεση.",
+        "solution": "3x+6−2x+2=x+8. Για x=−1/2 η τιμή είναι −1/2+8=15/2.",
+        "skill": "Δύο παρενθέσεις και αρνητική τιμή",
+        "objective_ids": [
+          "36c0187e-cdd4-5764-b2cc-1b5566851961"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*(-1/2+2)-2*(-1/2-1)"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση 3x+5=20.",
+        "choices": [
+          "5",
+          "15",
+          "25/3",
+          "−5"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Αφαίρεσε 5 και μετά διαίρεσε με το 3.",
+        "solution": "3x=15, άρα x=5. Έλεγχος: 3×5+5=20.",
+        "skill": "Εξίσωση πρώτου βαθμού",
+        "objective_ids": [
+          "c9551373-ffb7-530b-841c-f89c6125bb0f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(20-5)/3"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια πράξη διατηρεί τις λύσεις μιας εξίσωσης;",
+        "choices": [
+          "Διαίρεση και των δύο μελών με τον ίδιο μη μηδενικό αριθμό",
+          "Διαίρεση μόνο του ενός μέλους με 2",
+          "Διαίρεση και των δύο μελών με 0",
+          "Προσθήκη διαφορετικών αριθμών στα δύο μέλη"
+        ],
+        "answer": "Διαίρεση και των δύο μελών με τον ίδιο μη μηδενικό αριθμό",
+        "difficulty": "easy",
+        "hint": "Χρειάζεται η ίδια επιτρεπτή πράξη και στα δύο μέλη.",
+        "solution": "Η διαίρεση με τον ίδιο μη μηδενικό αριθμό είναι αντιστρέψιμη και διατηρεί την ισότητα. Η διαίρεση με το 0 δεν ορίζεται.",
+        "skill": "Ισοδύναμα βήματα εξίσωσης",
+        "objective_ids": [
+          "c9551373-ffb7-530b-841c-f89c6125bb0f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Διαίρεση και των δύο μελών με τον ίδιο μη μηδενικό αριθμό",
+              "correct": true,
+              "reason": "Η διαίρεση με τον ίδιο μη μηδενικό αριθμό είναι αντιστρέψιμη και διατηρεί την ισότητα. Η διαίρεση με το 0 δεν ορίζεται."
+            },
+            {
+              "choice": "Διαίρεση μόνο του ενός μέλους με 2",
+              "correct": false,
+              "reason": "Αλλάζοντας μόνο ένα μέλος δεν διατηρούμε γενικά την ισότητα."
+            },
+            {
+              "choice": "Διαίρεση και των δύο μελών με 0",
+              "correct": false,
+              "reason": "Η διαίρεση με το μηδέν δεν ορίζεται."
+            },
+            {
+              "choice": "Προσθήκη διαφορετικών αριθμών στα δύο μέλη",
+              "correct": false,
+              "reason": "Διαφορετικές προσθήκες αλλάζουν γενικά τη σχέση των μελών."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση 4(x−2)=2x+6.",
+        "choices": [
+          "7",
+          "1",
+          "−7",
+          "5"
+        ],
+        "answer": "7",
+        "difficulty": "medium",
+        "hint": "Αφαίρεσε την παρένθεση και συγκέντρωσε τους όρους με x.",
+        "solution": "4x−8=2x+6, άρα 2x=14 και x=7. Έλεγχος: 4×5=20 και 14+6=20.",
+        "skill": "Εξίσωση με παρενθέσεις",
+        "objective_ids": [
+          "c9551373-ffb7-530b-841c-f89c6125bb0f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(6+8)/(4-2)"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το σύνολο λύσεων της 2(x+1)=2x+5;",
+        "choices": [
+          "Δεν έχει λύση",
+          "Έχει μόνο x=0",
+          "Έχει μόνο x=3",
+          "Επαληθεύεται για κάθε πραγματικό x"
+        ],
+        "answer": "Δεν έχει λύση",
+        "difficulty": "medium",
+        "hint": "Σύγκρινε τα σταθερά μέλη μετά την απαλοιφή του 2x.",
+        "solution": "Αναπτύσσοντας παίρνουμε 2x+2=2x+5, δηλαδή 2=5. Η αντίφαση δείχνει ότι δεν υπάρχει λύση.",
+        "skill": "Αδύνατη εξίσωση μετά από απλοποίηση",
+        "objective_ids": [
+          "a746b0fa-bad3-5963-842b-5b674cc88ba0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν έχει λύση",
+              "correct": true,
+              "reason": "Αναπτύσσοντας παίρνουμε 2x+2=2x+5, δηλαδή 2=5. Η αντίφαση δείχνει ότι δεν υπάρχει λύση."
+            },
+            {
+              "choice": "Έχει μόνο x=0",
+              "correct": false,
+              "reason": "Με x=0 προκύπτει 2=5 και όχι ισότητα."
+            },
+            {
+              "choice": "Έχει μόνο x=3",
+              "correct": false,
+              "reason": "Με x=3 προκύπτει 8=11 και όχι ισότητα."
+            },
+            {
+              "choice": "Επαληθεύεται για κάθε πραγματικό x",
+              "correct": false,
+              "reason": "Η ισότητα 2=5 δεν ισχύει για κανένα x."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια δήλωση περιγράφει την εξίσωση 3(x−2)=3x−6;",
+        "choices": [
+          "Επαληθεύεται για κάθε πραγματικό x",
+          "Έχει μόνο x=2",
+          "Έχει μόνο x=0",
+          "Δεν έχει λύση"
+        ],
+        "answer": "Επαληθεύεται για κάθε πραγματικό x",
+        "difficulty": "hard",
+        "hint": "Η ανάπτυξη της παρένθεσης δίνει ακριβώς το δεύτερο μέλος.",
+        "solution": "Και τα δύο μέλη είναι η ίδια παράσταση 3x−6. Προκύπτει 0=0 και κάθε πραγματικός x επαληθεύει την εξίσωση.",
+        "skill": "Ταυτότητα ως αποτέλεσμα εξίσωσης",
+        "objective_ids": [
+          "a746b0fa-bad3-5963-842b-5b674cc88ba0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Επαληθεύεται για κάθε πραγματικό x",
+              "correct": true,
+              "reason": "Και τα δύο μέλη είναι η ίδια παράσταση 3x−6. Προκύπτει 0=0 και κάθε πραγματικός x επαληθεύει την εξίσωση."
+            },
+            {
+              "choice": "Έχει μόνο x=2",
+              "correct": false,
+              "reason": "Το x=2 είναι μία λύση αλλά όχι η μοναδική."
+            },
+            {
+              "choice": "Έχει μόνο x=0",
+              "correct": false,
+              "reason": "Το x=0 είναι μία λύση αλλά όχι η μοναδική."
+            },
+            {
+              "choice": "Δεν έχει λύση",
+              "correct": false,
+              "reason": "Τα δύο μέλη είναι ίσα για οποιαδήποτε τιμή του x."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση (x−1)/3−(x+2)/6=2.",
+        "choices": [
+          "16",
+          "8",
+          "10",
+          "−16"
+        ],
+        "answer": "16",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασίασε όλα τα μέλη με 6.",
+        "solution": "2(x−1)−(x+2)=12, άρα 2x−2−x−2=12. Έτσι x−4=12 και x=16. Έλεγχος: 15/3−18/6=5−3=2.",
+        "skill": "Κλασματικοί συντελεστές εξίσωσης",
+        "objective_ids": [
+          "a746b0fa-bad3-5963-842b-5b674cc88ba0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12+4"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρεις ίδιοι χυμοί και ένα τοστ 4 ευρώ κοστίζουν 13 ευρώ. Πόσα ευρώ κοστίζει ένας χυμός;",
+        "choices": [
+          "3",
+          "9",
+          "17/3",
+          "4"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Αν x είναι η τιμή χυμού, γράψε 3x+4=13.",
+        "solution": "Από 3x+4=13 προκύπτει 3x=9 και x=3 ευρώ. Έλεγχος: 3×3+4=13.",
+        "skill": "Τιμή από συνολικό κόστος",
+        "objective_ids": [
+          "05c778cd-ed72-5a93-97bd-588d2f231e89"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(13-4)/3"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ο Νίκος έχει 5 χρόνια περισσότερα από τη Μαρία. Αν x είναι η ηλικία της Μαρίας, ποια παράσταση δίνει την ηλικία του Νίκου;",
+        "choices": [
+          "x+5",
+          "5x",
+          "x−5",
+          "5−x"
+        ],
+        "answer": "x+5",
+        "difficulty": "easy",
+        "hint": "Η διαφορά προστίθεται στην ηλικία του μικρότερου προσώπου.",
+        "solution": "Η ηλικία του Νίκου είναι x+5. Το 5 εκφράζει διαφορά ετών και όχι πολλαπλάσιο ηλικίας.",
+        "skill": "Ορισμός αγνώστου σε πρόβλημα",
+        "objective_ids": [
+          "05c778cd-ed72-5a93-97bd-588d2f231e89"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x+5",
+              "correct": true,
+              "reason": "Η ηλικία του Νίκου είναι x+5. Το 5 εκφράζει διαφορά ετών και όχι πολλαπλάσιο ηλικίας."
+            },
+            {
+              "choice": "5x",
+              "correct": false,
+              "reason": "Το πενταπλάσιο δεν εκφράζει διαφορά 5 ετών."
+            },
+            {
+              "choice": "x−5",
+              "correct": false,
+              "reason": "Η αφαίρεση θα έκανε τον Νίκο μικρότερο."
+            },
+            {
+              "choice": "5−x",
+              "correct": false,
+              "reason": "Η παράσταση 5−x δεν περιγράφει μεγαλύτερη ηλικία."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνιο έχει μήκος x+3 cm, πλάτος x cm και περίμετρο 30 cm. Πόσα cm είναι το πλάτος;",
+        "choices": [
+          "6",
+          "9",
+          "12",
+          "27"
+        ],
+        "answer": "6",
+        "difficulty": "medium",
+        "hint": "Γράψε 2x+2(x+3)=30.",
+        "solution": "4x+6=30, άρα 4x=24 και x=6 cm. Το μήκος είναι 9 cm και η περίμετρος 2×(6+9)=30 cm.",
+        "skill": "Εξίσωση περιμέτρου",
+        "objective_ids": [
+          "05c778cd-ed72-5a93-97bd-588d2f231e89"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(30-6)/4"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε εκδρομή είναι 30 άτομα. Οι ενήλικοι πληρώνουν 8 ευρώ και τα παιδιά 5 ευρώ, με συνολική είσπραξη 180 ευρώ. Πόσοι είναι οι ενήλικοι;",
+        "choices": [
+          "10",
+          "20",
+          "15",
+          "6"
+        ],
+        "answer": "10",
+        "difficulty": "medium",
+        "hint": "Αν οι ενήλικοι είναι x, τα παιδιά είναι 30−x.",
+        "solution": "8x+5(30−x)=180, άρα 3x+150=180 και x=10. Έλεγχος: 10×8+20×5=180 ευρώ.",
+        "skill": "Δύο κατηγορίες με ένα άγνωστο",
+        "objective_ids": [
+          "b7d909e5-e920-5835-91b9-9e8f2b18203d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(180-5*30)/(8-5)"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Από εξίσωση για πλήθος εισιτηρίων προέκυψε x=4,5. Τι πρέπει να κάνεις πριν δώσεις απάντηση;",
+        "choices": [
+          "Να ελέγξεις το μοντέλο και τα δεδομένα, επειδή το πλήθος πρέπει να είναι ακέραιο",
+          "Να απαντήσεις 4,5 εισιτήρια",
+          "Να στρογγυλοποιήσεις αυτόματα σε 5",
+          "Να κρατήσεις μόνο το δεκαδικό μέρος"
+        ],
+        "answer": "Να ελέγξεις το μοντέλο και τα δεδομένα, επειδή το πλήθος πρέπει να είναι ακέραιο",
+        "difficulty": "hard",
+        "hint": "Η λύση μιας εξίσωσης πρέπει να έχει νόημα στο πλαίσιο του προβλήματος.",
+        "solution": "Το πλήθος εισιτηρίων είναι ακέραιο. Η τιμή 4,5 δεν δίνει αποδεκτή λύση στο συγκεκριμένο μοντέλο και χρειάζεται έλεγχος των δεδομένων ή της εξίσωσης.",
+        "skill": "Έλεγχος φυσικής ερμηνείας λύσης",
+        "objective_ids": [
+          "b7d909e5-e920-5835-91b9-9e8f2b18203d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Να ελέγξεις το μοντέλο και τα δεδομένα, επειδή το πλήθος πρέπει να είναι ακέραιο",
+              "correct": true,
+              "reason": "Το πλήθος εισιτηρίων είναι ακέραιο. Η τιμή 4,5 δεν δίνει αποδεκτή λύση στο συγκεκριμένο μοντέλο και χρειάζεται έλεγχος των δεδομένων ή της εξίσωσης."
+            },
+            {
+              "choice": "Να απαντήσεις 4,5 εισιτήρια",
+              "correct": false,
+              "reason": "Δεν αγοράζουμε μισό εισιτήριο όταν ζητείται ακέραιο πλήθος τεμαχίων."
+            },
+            {
+              "choice": "Να στρογγυλοποιήσεις αυτόματα σε 5",
+              "correct": false,
+              "reason": "Η στρογγυλοποίηση μπορεί να παραβιάσει την αρχική ισότητα."
+            },
+            {
+              "choice": "Να κρατήσεις μόνο το δεκαδικό μέρος",
+              "correct": false,
+              "reason": "Το δεκαδικό μέρος μόνο του δεν ικανοποιεί το πρόβλημα."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια υπηρεσία χρεώνει 6 ευρώ αρχικά και 2,5 ευρώ ανά ώρα. Πόσες ώρες χρήσης αντιστοιχούν σε χρέωση 23,5 ευρώ;",
+        "choices": [
+          "7",
+          "9,4",
+          "11,8",
+          "5"
+        ],
+        "answer": "7",
+        "difficulty": "hard",
+        "hint": "Αφαίρεσε πρώτα την αρχική χρέωση και μετά διαίρεσε με την ωριαία.",
+        "solution": "6+2,5x=23,5, άρα 2,5x=17,5 και x=7 ώρες. Έλεγχος: 6+2,5×7=23,5 ευρώ.",
+        "skill": "Σταθερή και μεταβλητή χρέωση",
+        "objective_ids": [
+          "b7d909e5-e920-5835-91b9-9e8f2b18203d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(235/10-6)/(25/10)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το √49;",
+        "choices": [
+          "7",
+          "−7",
+          "14",
+          "−14"
+        ],
+        "answer": "7",
+        "difficulty": "easy",
+        "hint": "Το σύμβολο της τετραγωνικής ρίζας δηλώνει μη αρνητική τιμή.",
+        "solution": "7²=49 και 7≥0, άρα √49=7. Το −7 έχει επίσης τετράγωνο 49 αλλά δεν είναι η τιμή του συμβόλου √49.",
+        "skill": "Μη αρνητική τετραγωνική ρίζα",
+        "objective_ids": [
+          "0e63f288-c0d1-55e8-ad1d-6b2c446b7b16"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "49"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το √0;",
+        "choices": [
+          "0",
+          "1",
+          "−1",
+          "2"
+        ],
+        "answer": "0",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε μη αρνητικό αριθμό με τετράγωνο μηδέν.",
+        "solution": "0²=0, άρα √0=0.",
+        "skill": "Τετραγωνική ρίζα του μηδενός",
+        "objective_ids": [
+          "0e63f288-c0d1-55e8-ad1d-6b2c446b7b16"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "0"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιες είναι οι πραγματικές λύσεις της εξίσωσης x²=25;",
+        "choices": [
+          "Οι 5 και −5",
+          "Μόνο ο 5",
+          "Μόνο ο −5",
+          "Δεν υπάρχει πραγματική λύση"
+        ],
+        "answer": "Οι 5 και −5",
+        "difficulty": "medium",
+        "hint": "Η εξίσωση ζητά όλους τους αριθμούς που επαληθεύουν την ισότητα.",
+        "solution": "5²=25 και (−5)²=25. Η εξίσωση έχει δύο λύσεις, ενώ το σύμβολο √25 έχει μία μη αρνητική τιμή, το 5.",
+        "skill": "Ρίζα έναντι λύσεων εξίσωσης",
+        "objective_ids": [
+          "0e63f288-c0d1-55e8-ad1d-6b2c446b7b16"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Οι 5 και −5",
+              "correct": true,
+              "reason": "5²=25 και (−5)²=25. Η εξίσωση έχει δύο λύσεις, ενώ το σύμβολο √25 έχει μία μη αρνητική τιμή, το 5."
+            },
+            {
+              "choice": "Μόνο ο 5",
+              "correct": false,
+              "reason": "Και το −5 επαληθεύει την εξίσωση."
+            },
+            {
+              "choice": "Μόνο ο −5",
+              "correct": false,
+              "reason": "Και το 5 επαληθεύει την εξίσωση."
+            },
+            {
+              "choice": "Δεν υπάρχει πραγματική λύση",
+              "correct": false,
+              "reason": "Υπάρχουν οι δύο πραγματικές λύσεις 5 και −5."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το √(9/16);",
+        "choices": [
+          "3/4",
+          "−3/4",
+          "9/4",
+          "3/16"
+        ],
+        "answer": "3/4",
+        "difficulty": "medium",
+        "hint": "Έλεγξε ποιο θετικό κλάσμα έχει τετράγωνο 9/16.",
+        "solution": "(3/4)²=9/16 και 3/4>0. Άρα η ρίζα είναι 3/4.",
+        "skill": "Ρίζα θετικού κλάσματος",
+        "objective_ids": [
+          "704bc5fc-e455-5d0c-9db6-7b3d5c7f3551"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "9/16"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στους πραγματικούς αριθμούς ποια δήλωση για το √(−9) είναι σωστή;",
+        "choices": [
+          "Δεν ορίζεται πραγματική τετραγωνική ρίζα",
+          "Ισούται με −3",
+          "Ισούται με 3",
+          "Ισούται με −81"
+        ],
+        "answer": "Δεν ορίζεται πραγματική τετραγωνική ρίζα",
+        "difficulty": "hard",
+        "hint": "Το τετράγωνο πραγματικού αριθμού δεν είναι αρνητικό.",
+        "solution": "Κανένας πραγματικός δεν έχει τετράγωνο −9. Επομένως το √(−9) δεν ορίζεται στους πραγματικούς.",
+        "skill": "Πεδίο ορισμού πραγματικής ρίζας",
+        "objective_ids": [
+          "704bc5fc-e455-5d0c-9db6-7b3d5c7f3551"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν ορίζεται πραγματική τετραγωνική ρίζα",
+              "correct": true,
+              "reason": "Κανένας πραγματικός δεν έχει τετράγωνο −9. Επομένως το √(−9) δεν ορίζεται στους πραγματικούς."
+            },
+            {
+              "choice": "Ισούται με −3",
+              "correct": false,
+              "reason": "Το (−3)² είναι +9 και όχι −9."
+            },
+            {
+              "choice": "Ισούται με 3",
+              "correct": false,
+              "reason": "Το 3² είναι +9 και όχι −9."
+            },
+            {
+              "choice": "Ισούται με −81",
+              "correct": false,
+              "reason": "Το (−81)² είναι θετικό και όχι −9."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το √((−5)²);",
+        "choices": [
+          "5",
+          "−5",
+          "25",
+          "−25"
+        ],
+        "answer": "5",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε πρώτα το τετράγωνο μέσα στη ρίζα.",
+        "solution": "(−5)²=25 και √25=5. Η ρίζα δεν διατηρεί αυθαίρετα το αρνητικό πρόσημο της αρχικής βάσης.",
+        "skill": "Ρίζα τετραγώνου αρνητικού",
+        "objective_ids": [
+          "704bc5fc-e455-5d0c-9db6-7b3d5c7f3551"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "(-5)**2"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος από τους √2, √9, −1/3 και 0,125 είναι άρρητος;",
+        "choices": [
+          "√2",
+          "√9",
+          "−1/3",
+          "0,125"
+        ],
+        "answer": "√2",
+        "difficulty": "easy",
+        "hint": "Μια τετραγωνική ρίζα δεν είναι πάντα άρρητη· έλεγξε κάθε τιμή.",
+        "solution": "Ο √2 είναι άρρητος. Αντίθετα √9=3, ο −1/3 είναι κλάσμα ακεραίων και το 0,125=1/8 είναι ρητό.",
+        "skill": "Αναγνώριση άρρητου αριθμού",
+        "objective_ids": [
+          "04fc233b-9ff9-5a57-8e9d-7b7c50dec5a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "√2",
+              "correct": true,
+              "reason": "Ο √2 είναι άρρητος. Αντίθετα √9=3, ο −1/3 είναι κλάσμα ακεραίων και το 0,125=1/8 είναι ρητό."
+            },
+            {
+              "choice": "√9",
+              "correct": false,
+              "reason": "Το √9 ισούται με τον ακέραιο 3."
+            },
+            {
+              "choice": "−1/3",
+              "correct": false,
+              "reason": "Το −1/3 είναι ήδη πηλίκο δύο ακεραίων."
+            },
+            {
+              "choice": "0,125",
+              "correct": false,
+              "reason": "Ο πεπερασμένος δεκαδικός 0,125 ισούται με 1/8."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ο √30 βρίσκεται ανάμεσα σε δύο διαδοχικούς ακεραίους. Ποιος είναι ο μικρότερος από αυτούς;",
+        "choices": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Σύγκρινε το 30 με τα διαδοχικά τετράγωνα 25 και 36.",
+        "solution": "5²=25<30<36=6². Άρα 5<√30<6 και ο μικρότερος ακέραιος είναι ο 5.",
+        "skill": "Εντοπισμός ρίζας στην αριθμογραμμή",
+        "objective_ids": [
+          "04fc233b-9ff9-5a57-8e9d-7b7c50dec5a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "checks": [
+          [
+            "5**2",
+            "<",
+            "30"
+          ],
+          [
+            "30",
+            "<",
+            "6**2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια μορφή δεκαδικής ανάπτυξης χαρακτηρίζει έναν άρρητο αριθμό;",
+        "choices": [
+          "Άπειρη και μη περιοδική",
+          "Πεπερασμένη",
+          "Άπειρη και περιοδική",
+          "Πάντοτε ακέραια"
+        ],
+        "answer": "Άπειρη και μη περιοδική",
+        "difficulty": "medium",
+        "hint": "Η άπειρη γραφή από μόνη της δεν αρκεί· έλεγξε την περιοδικότητα.",
+        "solution": "Ο άρρητος έχει άπειρη μη περιοδική δεκαδική ανάπτυξη. Οι πεπερασμένοι και περιοδικοί δεκαδικοί είναι ρητοί.",
+        "skill": "Διάκριση ρητών και αρρήτων",
+        "objective_ids": [
+          "04fc233b-9ff9-5a57-8e9d-7b7c50dec5a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Άπειρη και μη περιοδική",
+              "correct": true,
+              "reason": "Ο άρρητος έχει άπειρη μη περιοδική δεκαδική ανάπτυξη. Οι πεπερασμένοι και περιοδικοί δεκαδικοί είναι ρητοί."
+            },
+            {
+              "choice": "Πεπερασμένη",
+              "correct": false,
+              "reason": "Κάθε πεπερασμένος δεκαδικός γράφεται ως κλάσμα ακεραίων."
+            },
+            {
+              "choice": "Άπειρη και περιοδική",
+              "correct": false,
+              "reason": "Κάθε άπειρος περιοδικός δεκαδικός είναι ρητός."
+            },
+            {
+              "choice": "Πάντοτε ακέραια",
+              "correct": false,
+              "reason": "Οι ακέραιοι είναι ειδική περίπτωση ρητών."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Το τετράγωνο του 1,41 είναι μικρότερο από 2 και του 1,42 μεγαλύτερο από 2. Ποιο είναι το κάτω άκρο αυτού του διαστήματος προσέγγισης του √2;",
+        "choices": [
+          "1,41",
+          "1,42",
+          "1,4",
+          "2"
+        ],
+        "answer": "1,41",
+        "difficulty": "medium",
+        "hint": "Η τετραγωνική ρίζα είναι θετική και βρίσκεται ανάμεσα στις δύο θετικές τιμές.",
+        "solution": "1,41²=1,9881<2 και 1,42²=2,0164>2. Άρα 1,41<√2<1,42 και το κάτω άκρο είναι 1,41.",
+        "skill": "Ρητά όρια προσέγγισης αρρήτου",
+        "objective_ids": [
+          "07db6e11-5536-5015-96bd-50ec28c7b1cf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "141/100"
+        },
+        "checks": [
+          [
+            "(141/100)**2",
+            "<",
+            "2"
+          ],
+          [
+            "2",
+            "<",
+            "(142/100)**2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Κάποιος γράφει √2=1,4142 ακριβώς, χωρίς σύμβολο προσέγγισης. Ποια κρίση είναι σωστή;",
+        "choices": [
+          "Η ισότητα είναι λανθασμένη, γιατί ο πεπερασμένος δεκαδικός είναι ρητός",
+          "Είναι ακριβής ισότητα επειδή υπάρχουν τέσσερα δεκαδικά ψηφία",
+          "Το 1,4142 είναι άρρητος επειδή έχει πολλά ψηφία",
+          "Κάθε προσέγγιση άρρητου ισούται με αυτόν"
+        ],
+        "answer": "Η ισότητα είναι λανθασμένη, γιατί ο πεπερασμένος δεκαδικός είναι ρητός",
+        "difficulty": "hard",
+        "hint": "Η προσέγγιση δεν μετατρέπει έναν άρρητο σε πεπερασμένο δεκαδικό.",
+        "solution": "Το 1,4142 είναι το κλάσμα 14142/10000, άρα ρητό. Μπορεί να προσεγγίζει τον √2 αλλά δεν είναι ίσο με αυτόν.",
+        "skill": "Ακριβής τιμή έναντι πεπερασμένης προσέγγισης",
+        "objective_ids": [
+          "07db6e11-5536-5015-96bd-50ec28c7b1cf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η ισότητα είναι λανθασμένη, γιατί ο πεπερασμένος δεκαδικός είναι ρητός",
+              "correct": true,
+              "reason": "Το 1,4142 είναι το κλάσμα 14142/10000, άρα ρητό. Μπορεί να προσεγγίζει τον √2 αλλά δεν είναι ίσο με αυτόν."
+            },
+            {
+              "choice": "Είναι ακριβής ισότητα επειδή υπάρχουν τέσσερα δεκαδικά ψηφία",
+              "correct": false,
+              "reason": "Το πλήθος γραμμένων δεκαδικών δεν εξασφαλίζει ακριβή ισότητα."
+            },
+            {
+              "choice": "Το 1,4142 είναι άρρητος επειδή έχει πολλά ψηφία",
+              "correct": false,
+              "reason": "Κάθε πεπερασμένος δεκαδικός είναι ρητός, ανεξάρτητα από το πλήθος ψηφίων."
+            },
+            {
+              "choice": "Κάθε προσέγγιση άρρητου ισούται με αυτόν",
+              "correct": false,
+              "reason": "Οι προσεγγίσεις μπορούν να έχουν μικρό σφάλμα χωρίς να είναι ακριβείς."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόση είναι η διαφορά 1,42²−2, που δείχνει ότι το 1,42 βρίσκεται πάνω από τον √2;",
+        "choices": [
+          "0,0164",
+          "0,164",
+          "0,00164",
+          "−0,0164"
+        ],
+        "answer": "0,0164",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε ακριβώς το τετράγωνο ως κλάσμα με παρονομαστή 10000.",
+        "solution": "1,42²=20164/10000=2,0164. Η διαφορά από το 2 είναι 0,0164>0.",
+        "skill": "Έλεγχος ορίου με ακριβές τετράγωνο",
+        "objective_ids": [
+          "07db6e11-5536-5015-96bd-50ec28c7b1cf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(142/100)**2-2"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Τετράγωνο έχει εμβαδόν 81 cm². Πόσα cm είναι η πλευρά του;",
+        "choices": [
+          "9",
+          "−9",
+          "40,5",
+          "18"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Το μήκος της πλευράς είναι η θετική τετραγωνική ρίζα του εμβαδού.",
+        "solution": "Αν η πλευρά είναι x>0, τότε x²=81. Άρα x=9 cm. Το −9 δεν είναι μήκος.",
+        "skill": "Πλευρά τετραγώνου από εμβαδόν",
+        "objective_ids": [
+          "9ecf2a11-0b06-58e0-a2e6-e091286baf45"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "81"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια τετράγωνη πλατεία έχει εμβαδόν 144 m². Πόσα μέτρα είναι η πλευρά της;",
+        "choices": [
+          "12",
+          "−12",
+          "72",
+          "24"
+        ],
+        "answer": "12",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε θετικό μήκος που όταν τετραγωνιστεί δίνει 144.",
+        "solution": "12²=144, επομένως η πλευρά είναι 12 m.",
+        "skill": "Ρίζα και μονάδες μήκους",
+        "objective_ids": [
+          "9ecf2a11-0b06-58e0-a2e6-e091286baf45"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "144"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πρόβλημα μήκους προέκυψε x²=64. Ποια τιμή είναι αποδεκτή για το μήκος x;",
+        "choices": [
+          "8 cm μόνο",
+          "−8 cm μόνο",
+          "Και 8 cm και −8 cm ως μήκη",
+          "64 cm"
+        ],
+        "answer": "8 cm μόνο",
+        "difficulty": "medium",
+        "hint": "Η αλγεβρική λύση πρέπει να ταιριάζει με το θετικό μήκος.",
+        "solution": "Η εξίσωση έχει λύσεις ±8, αλλά το μήκος είναι θετικό. Επομένως κρατάμε μόνο x=8 cm.",
+        "skill": "Επιλογή φυσικά αποδεκτής ρίζας",
+        "objective_ids": [
+          "9ecf2a11-0b06-58e0-a2e6-e091286baf45"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "8 cm μόνο",
+              "correct": true,
+              "reason": "Η εξίσωση έχει λύσεις ±8, αλλά το μήκος είναι θετικό. Επομένως κρατάμε μόνο x=8 cm."
+            },
+            {
+              "choice": "−8 cm μόνο",
+              "correct": false,
+              "reason": "Το μήκος δεν παίρνει αρνητική τιμή."
+            },
+            {
+              "choice": "Και 8 cm και −8 cm ως μήκη",
+              "correct": false,
+              "reason": "Η αρνητική αλγεβρική λύση απορρίπτεται στο πλαίσιο του μήκους."
+            },
+            {
+              "choice": "64 cm",
+              "correct": false,
+              "reason": "Η πλευρά είναι ρίζα του 64 και όχι το ίδιο το εμβαδόν."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Τετράγωνος κήπος έχει εμβαδόν 225 m². Πόσα μέτρα περίφραξης χρειάζονται για όλη την περίμετρό του;",
+        "choices": [
+          "60",
+          "15",
+          "900",
+          "30"
+        ],
+        "answer": "60",
+        "difficulty": "medium",
+        "hint": "Βρες πρώτα την πλευρά και μετά τις τέσσερις ίσες πλευρές.",
+        "solution": "Η πλευρά είναι √225=15 m. Η περίμετρος είναι 4×15=60 m.",
+        "skill": "Περίμετρος μετά την εύρεση πλευράς",
+        "objective_ids": [
+          "6ac9ecaf-56bd-5a38-ba95-6e7ae2d8ff52"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*15"
+        },
+        "checks": [
+          [
+            "15**2",
+            "=",
+            "225"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Αφού έχει διδαχθεί το Πυθαγόρειο, ορθογώνιο τρίγωνο έχει κάθετες πλευρές 5 cm και 12 cm. Πόσα cm είναι η υποτείνουσα;",
+        "choices": [
+          "13",
+          "17",
+          "7",
+          "169"
+        ],
+        "answer": "13",
+        "difficulty": "hard",
+        "hint": "Το τετράγωνο της υποτείνουσας ισούται με 5²+12².",
+        "solution": "Η υποτείνουσα είναι √(25+144)=√169=13 cm. Δεν προσθέτουμε απευθείας τα μήκη των κάθετων πλευρών.",
+        "skill": "Προαιρετική εφαρμογή ρίζας και Πυθαγορείου",
+        "objective_ids": [
+          "6ac9ecaf-56bd-5a38-ba95-6e7ae2d8ff52"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "5**2+12**2"
+        },
+        "geometry_cases": [
+          {
+            "sides": [
+              5,
+              12,
+              13
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              90
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια σκάλα ακουμπά σε κατακόρυφο τοίχο. Το πόδι της απέχει 6 m από τον τοίχο και η κορυφή της φτάνει σε ύψος 8 m, με ορθή γωνία τοίχου και εδάφους. Πόσα μέτρα έχει η σκάλα;",
+        "choices": [
+          "10",
+          "14",
+          "2",
+          "100"
+        ],
+        "answer": "10",
+        "difficulty": "hard",
+        "hint": "Η σκάλα είναι η υποτείνουσα του ορθογωνίου τριγώνου.",
+        "solution": "Αν L>0 είναι το μήκος της, L²=6²+8²=36+64=100. Άρα L=10 m.",
+        "skill": "Μοντελοποίηση ορθογωνίου τριγώνου",
+        "objective_ids": [
+          "6ac9ecaf-56bd-5a38-ba95-6e7ae2d8ff52"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "6**2+8**2"
+        },
+        "geometry_cases": [
+          {
+            "sides": [
+              6,
+              8,
+              10
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              90
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η συνάρτηση κόστους είναι y=2x για x τετράδια. Πόσα ευρώ αντιστοιχούν σε x=4;",
+        "choices": [
+          "8",
+          "6",
+          "2",
+          "4"
+        ],
+        "answer": "8",
+        "difficulty": "easy",
+        "hint": "Αντικατάστησε την είσοδο x με το 4.",
+        "solution": "y=2×4=8 ευρώ. Σε κάθε επιτρεπτό πλήθος αντιστοιχεί μία τιμή κόστους.",
+        "skill": "Τιμή συνάρτησης από είσοδο",
+        "objective_ids": [
+          "b13069e6-501f-5eea-b05e-ac2db1fc9c7f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*4"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια αντιστοίχιση περιγράφει συνάρτηση;",
+        "choices": [
+          "Σε κάθε μαθητή αντιστοιχίζουμε τη μία καταγεγραμμένη ημερομηνία γέννησής του",
+          "Σε έναν μαθητή αντιστοιχίζουμε ταυτόχρονα δύο διαφορετικές ηλικίες",
+          "Σε κάποια επιτρεπτή είσοδο δεν δίνουμε καμία έξοδο",
+          "Σε κάθε είσοδο δίνουμε υποχρεωτικά δύο διαφορετικές εξόδους"
+        ],
+        "answer": "Σε κάθε μαθητή αντιστοιχίζουμε τη μία καταγεγραμμένη ημερομηνία γέννησής του",
+        "difficulty": "easy",
+        "hint": "Κάθε επιτρεπτή είσοδος πρέπει να έχει ακριβώς μία έξοδο.",
+        "solution": "Η μία καταγεγραμμένη ημερομηνία ανά μαθητή δίνει μοναδική έξοδο. Διαφορετικοί μαθητές μπορούν να έχουν την ίδια ημερομηνία.",
+        "skill": "Μοναδική έξοδος συνάρτησης",
+        "objective_ids": [
+          "b13069e6-501f-5eea-b05e-ac2db1fc9c7f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Σε κάθε μαθητή αντιστοιχίζουμε τη μία καταγεγραμμένη ημερομηνία γέννησής του",
+              "correct": true,
+              "reason": "Η μία καταγεγραμμένη ημερομηνία ανά μαθητή δίνει μοναδική έξοδο. Διαφορετικοί μαθητές μπορούν να έχουν την ίδια ημερομηνία."
+            },
+            {
+              "choice": "Σε έναν μαθητή αντιστοιχίζουμε ταυτόχρονα δύο διαφορετικές ηλικίες",
+              "correct": false,
+              "reason": "Δύο διαφορετικές έξοδοι στην ίδια είσοδο παραβιάζουν τη μοναδικότητα."
+            },
+            {
+              "choice": "Σε κάποια επιτρεπτή είσοδο δεν δίνουμε καμία έξοδο",
+              "correct": false,
+              "reason": "Κάθε επιτρεπτή είσοδος πρέπει να έχει έξοδο."
+            },
+            {
+              "choice": "Σε κάθε είσοδο δίνουμε υποχρεωτικά δύο διαφορετικές εξόδους",
+              "correct": false,
+              "reason": "Η συνάρτηση απαιτεί μία και όχι δύο διαφορετικές εξόδους."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη συνάρτηση y=3x−2, ποια είναι η τιμή του y για x=−1;",
+        "choices": [
+          "−5",
+          "1",
+          "−1",
+          "5"
+        ],
+        "answer": "−5",
+        "difficulty": "medium",
+        "hint": "Αντικατάστησε με παρένθεση την αρνητική είσοδο.",
+        "solution": "y=3×(−1)−2=−3−2=−5.",
+        "skill": "Αρνητική είσοδος σε συνάρτηση",
+        "objective_ids": [
+          "b13069e6-501f-5eea-b05e-ac2db1fc9c7f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*(-1)-2"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο διαφορετικές είσοδοι μιας συνάρτησης δίνουν την ίδια έξοδο. Ποιο συμπέρασμα ισχύει;",
+        "choices": [
+          "Αυτό επιτρέπεται και δεν αναιρεί τη συνάρτηση",
+          "Η σχέση δεν μπορεί να είναι συνάρτηση",
+          "Οι δύο είσοδοι πρέπει να ταυτίζονται",
+          "Κάθε συνάρτηση πρέπει να δίνει διαφορετικές εξόδους"
+        ],
+        "answer": "Αυτό επιτρέπεται και δεν αναιρεί τη συνάρτηση",
+        "difficulty": "medium",
+        "hint": "Η μοναδικότητα ελέγχεται για καθεμία είσοδο ξεχωριστά.",
+        "solution": "Διαφορετικές είσοδοι επιτρέπεται να έχουν ίδια έξοδο. Αυτό που απαγορεύεται είναι μία είσοδος να έχει δύο διαφορετικές εξόδους.",
+        "skill": "Διαφορετικές είσοδοι με κοινή έξοδο",
+        "objective_ids": [
+          "c0336e16-5972-5dc5-85ae-4127c7a7273f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Αυτό επιτρέπεται και δεν αναιρεί τη συνάρτηση",
+              "correct": true,
+              "reason": "Διαφορετικές είσοδοι επιτρέπεται να έχουν ίδια έξοδο. Αυτό που απαγορεύεται είναι μία είσοδος να έχει δύο διαφορετικές εξόδους."
+            },
+            {
+              "choice": "Η σχέση δεν μπορεί να είναι συνάρτηση",
+              "correct": false,
+              "reason": "Η συνάρτηση δεν απαιτεί διαφορετική έξοδο για κάθε διαφορετική είσοδο."
+            },
+            {
+              "choice": "Οι δύο είσοδοι πρέπει να ταυτίζονται",
+              "correct": false,
+              "reason": "Οι είσοδοι μπορεί να είναι πραγματικά διαφορετικές."
+            },
+            {
+              "choice": "Κάθε συνάρτηση πρέπει να δίνει διαφορετικές εξόδους",
+              "correct": false,
+              "reason": "Υπάρχουν συναρτήσεις που επαναλαμβάνουν την ίδια τιμή εξόδου."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Το x μετρά αριθμό ολόκληρων τετραδίων που αγοράζουμε. Ποια τιμή είναι επιτρεπτή σε αυτό το πρόβλημα;",
+        "choices": [
+          "3",
+          "−1",
+          "1/2",
+          "−3/2"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Το πλήθος ολόκληρων τεμαχίων είναι μη αρνητικός ακέραιος.",
+        "solution": "Η τιμή 3 σημαίνει τρία τετράδια. Οι άλλες επιλογές είναι αρνητικές ή κλασματικές και δεν εκφράζουν επιτρεπτό πλήθος ολόκληρων τετραδίων.",
+        "skill": "Επιτρεπτές είσοδοι από το πλαίσιο",
+        "objective_ids": [
+          "c0336e16-5972-5dc5-85ae-4127c7a7273f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η συνάρτηση y=4x−3 δίνει έξοδο 17. Ποια ήταν η είσοδος x;",
+        "choices": [
+          "5",
+          "14/4",
+          "20",
+          "4"
+        ],
+        "answer": "5",
+        "difficulty": "hard",
+        "hint": "Λύσε την εξίσωση 4x−3=17.",
+        "solution": "4x=20, άρα x=5. Έλεγχος: 4×5−3=17.",
+        "skill": "Εύρεση εισόδου από έξοδο",
+        "objective_ids": [
+          "c0336e16-5972-5dc5-85ae-4127c7a7273f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(17+3)/4"
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σημείο Α(−2,5), ποια είναι η τετμημένη;",
+        "choices": [
+          "−2",
+          "5",
+          "2",
+          "−5"
+        ],
+        "answer": "−2",
+        "difficulty": "easy",
+        "hint": "Η τετμημένη είναι η πρώτη συντεταγμένη.",
+        "solution": "Το διατεταγμένο ζεύγος γράφεται (x,y). Άρα x=−2 και η τετμημένη είναι −2.",
+        "skill": "Σειρά καρτεσιανών συντεταγμένων",
+        "objective_ids": [
+          "8ebdfabe-c307-53c3-a877-bdfe55ba158d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2"
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σημείο Β(3,−4), ποια είναι η τεταγμένη;",
+        "choices": [
+          "−4",
+          "3",
+          "4",
+          "−3"
+        ],
+        "answer": "−4",
+        "difficulty": "easy",
+        "hint": "Η τεταγμένη είναι η δεύτερη συντεταγμένη.",
+        "solution": "Στο ζεύγος (3,−4) η τιμή του y είναι −4, άρα η τεταγμένη είναι −4.",
+        "skill": "Δεύτερη συντεταγμένη σημείου",
+        "objective_ids": [
+          "8ebdfabe-c307-53c3-a877-bdfe55ba158d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-4"
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο σημείο ανήκει στη γραφική παράσταση y=2x+1;",
+        "choices": [
+          "Το (2,5)",
+          "Το (2,4)",
+          "Το (0,0)",
+          "Το (1,2)"
+        ],
+        "answer": "Το (2,5)",
+        "difficulty": "medium",
+        "hint": "Ένα σημείο ανήκει αν οι συντεταγμένες του επαληθεύουν τον τύπο.",
+        "solution": "Για x=2 ο τύπος δίνει y=5, άρα το (2,5) ανήκει. Οι άλλες τρεις επιλογές δεν επαληθεύουν y=2x+1.",
+        "skill": "Έλεγχος σημείου σε γραφική παράσταση",
+        "objective_ids": [
+          "8ebdfabe-c307-53c3-a877-bdfe55ba158d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το (2,5)",
+              "correct": true,
+              "reason": "Για x=2 ο τύπος δίνει y=5, άρα το (2,5) ανήκει. Οι άλλες τρεις επιλογές δεν επαληθεύουν y=2x+1."
+            },
+            {
+              "choice": "Το (2,4)",
+              "correct": false,
+              "reason": "Με x=2 ο τύπος δίνει 5 και όχι 4."
+            },
+            {
+              "choice": "Το (0,0)",
+              "correct": false,
+              "reason": "Με x=0 ο τύπος δίνει 1 και όχι 0."
+            },
+            {
+              "choice": "Το (1,2)",
+              "correct": false,
+              "reason": "Με x=1 ο τύπος δίνει 3 και όχι 2."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για να σχεδιάσουμε τη y=−2x+7, ποια τιμή y γράφουμε στη γραμμή του πίνακα με x=3;",
+        "choices": [
+          "1",
+          "13",
+          "−1",
+          "5"
+        ],
+        "answer": "1",
+        "difficulty": "medium",
+        "hint": "Αντικατάστησε το x στον δοσμένο τύπο.",
+        "solution": "y=−2×3+7=−6+7=1. Το σημείο του πίνακα είναι (3,1).",
+        "skill": "Πίνακας τιμών και σημείο γραφήματος",
+        "objective_ids": [
+          "bfc872f3-6ac6-5c26-87b3-96ae36c06796"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2*3+7"
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια συνάρτηση κόστους έχει ως είσοδο μόνο ακέραιο πλήθος εισιτηρίων. Ποια δήλωση είναι σωστή για τη γραφική της παράσταση;",
+        "choices": [
+          "Κρατάμε μόνο τα σημεία με επιτρεπτές ακέραιες εισόδους",
+          "Πρέπει να ενώσουμε όλα τα σημεία και να επιτρέψουμε μισά εισιτήρια",
+          "Το πλήθος μπορεί να πάρει κάθε αρνητική τιμή",
+          "Μπορούμε να αγνοήσουμε τον τύπο και να ενώσουμε αυθαίρετα σημεία"
+        ],
+        "answer": "Κρατάμε μόνο τα σημεία με επιτρεπτές ακέραιες εισόδους",
+        "difficulty": "hard",
+        "hint": "Το νόημα της εισόδου καθορίζει ποια σημεία ανήκουν στη συνάρτηση.",
+        "solution": "Για πλήθος ολόκληρων εισιτηρίων επιτρέπονται μόνο οι αντίστοιχες μη αρνητικές ακέραιες είσοδοι. Η σύνδεση δεν πρέπει να εισάγει μη επιτρεπτά πλήθη.",
+        "skill": "Διακριτές είσοδοι σε γραφική παράσταση",
+        "objective_ids": [
+          "bfc872f3-6ac6-5c26-87b3-96ae36c06796"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Κρατάμε μόνο τα σημεία με επιτρεπτές ακέραιες εισόδους",
+              "correct": true,
+              "reason": "Για πλήθος ολόκληρων εισιτηρίων επιτρέπονται μόνο οι αντίστοιχες μη αρνητικές ακέραιες είσοδοι. Η σύνδεση δεν πρέπει να εισάγει μη επιτρεπτά πλήθη."
+            },
+            {
+              "choice": "Πρέπει να ενώσουμε όλα τα σημεία και να επιτρέψουμε μισά εισιτήρια",
+              "correct": false,
+              "reason": "Η σύνδεση δεν αλλάζει τον περιορισμό του πραγματικού προβλήματος."
+            },
+            {
+              "choice": "Το πλήθος μπορεί να πάρει κάθε αρνητική τιμή",
+              "correct": false,
+              "reason": "Αρνητικό πλήθος αγορασμένων εισιτηρίων δεν είναι επιτρεπτή είσοδος."
+            },
+            {
+              "choice": "Μπορούμε να αγνοήσουμε τον τύπο και να ενώσουμε αυθαίρετα σημεία",
+              "correct": false,
+              "reason": "Τα σημεία οφείλουν να επαληθεύουν τον τύπο και τους περιορισμούς."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η y=3x+2 έχει σημεία με x=1 και x=4. Πόση είναι η διαφορά των τεταγμένων τους, y(4)−y(1);",
+        "choices": [
+          "9",
+          "3",
+          "11",
+          "5"
+        ],
+        "answer": "9",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε τις δύο τιμές y και αφαίρεσέ τες· δεν ζητείται απόσταση σημείων.",
+        "solution": "Για x=4 έχουμε y=14 και για x=1 έχουμε y=5. Η διαφορά τεταγμένων είναι 14−5=9.",
+        "skill": "Σύγκριση τεταγμένων χωρίς τύπο απόστασης",
+        "objective_ids": [
+          "bfc872f3-6ac6-5c26-87b3-96ae36c06796"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 2,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3*4+2)-(3*1+2)"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη y=4x, ποια τιμή y αντιστοιχεί σε x=2,5;",
+        "choices": [
+          "10",
+          "6,5",
+          "1,6",
+          "0,625"
+        ],
+        "answer": "10",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε την είσοδο με τον σταθερό συντελεστή.",
+        "solution": "y=4×2,5=10.",
+        "skill": "Υπολογισμός ανάλογης ποσότητας",
+        "objective_ids": [
+          "b6317253-ea98-5af8-838e-2a22d75eca6a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*25/10"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για ανάλογα ποσά με x=2 και y=6, ποιος είναι ο σταθερός λόγος y/x;",
+        "choices": [
+          "3",
+          "12",
+          "1/3",
+          "4"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Διαίρεσε τη δεύτερη ποσότητα με την πρώτη.",
+        "solution": "y/x=6:2=3. Επομένως η σχέση είναι y=3x.",
+        "skill": "Σταθερός λόγος αναλογίας",
+        "objective_ids": [
+          "b6317253-ea98-5af8-838e-2a22d75eca6a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6/2"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια σχέση περιγράφει ανάλογα ποσά;",
+        "choices": [
+          "y=5x",
+          "y=5x+2",
+          "y=x+5",
+          "y=5/x"
+        ],
+        "answer": "y=5x",
+        "difficulty": "medium",
+        "hint": "Στα ανάλογα ποσά ο λόγος y/x μένει σταθερός για x≠0.",
+        "solution": "Στη y=5x ο λόγος y/x είναι πάντα 5. Η πρόσθετη σταθερή χρέωση και η αντίστροφη αναλογία δεν δίνουν αυτή τη μορφή.",
+        "skill": "Αναγνώριση άμεσης αναλογίας",
+        "objective_ids": [
+          "b6317253-ea98-5af8-838e-2a22d75eca6a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "y=5x",
+              "correct": true,
+              "reason": "Στη y=5x ο λόγος y/x είναι πάντα 5. Η πρόσθετη σταθερή χρέωση και η αντίστροφη αναλογία δεν δίνουν αυτή τη μορφή."
+            },
+            {
+              "choice": "y=5x+2",
+              "correct": false,
+              "reason": "Το σταθερό +2 κάνει τον λόγο να εξαρτάται από το x."
+            },
+            {
+              "choice": "y=x+5",
+              "correct": false,
+              "reason": "Το σταθερό +5 δεν δίνει σταθερό λόγο y/x."
+            },
+            {
+              "choice": "y=5/x",
+              "correct": false,
+              "reason": "Στη y=5/x μένει σταθερό το γινόμενο xy και όχι ο λόγος."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη συνάρτηση y=αx, για x=3 δίνεται y=7,5. Ποια είναι η τιμή του α;",
+        "choices": [
+          "2,5",
+          "22,5",
+          "0,4",
+          "4,5"
+        ],
+        "answer": "2,5",
+        "difficulty": "medium",
+        "hint": "Υπολόγισε α=y/x από τις δοσμένες τιμές.",
+        "solution": "α=7,5:3=2,5. Η διαίρεση της εξόδου με τη μη μηδενική είσοδο δίνει τον σταθερό συντελεστή.",
+        "skill": "Εύρεση συντελεστή αναλογίας",
+        "objective_ids": [
+          "a78c2564-3ef3-5a81-80e1-6f81814c3b7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(75/10)/3"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Όταν το x παίρνει όλες τις πραγματικές τιμές, ποια πρόταση ισχύει για τη γραφική παράσταση της y=−3x;",
+        "choices": [
+          "Είναι ευθεία που περνά από την αρχή και κατεβαίνει προς τα δεξιά",
+          "Είναι οριζόντια ευθεία",
+          "Περνά μόνο από σημεία με θετικό y",
+          "Είναι υπερβολή"
+        ],
+        "answer": "Είναι ευθεία που περνά από την αρχή και κατεβαίνει προς τα δεξιά",
+        "difficulty": "hard",
+        "hint": "Η μορφή είναι y=αx με αρνητικό α.",
+        "solution": "Η γραφική παράσταση είναι ευθεία από την αρχή. Επειδή α=−3<0, όσο αυξάνει το x το y μειώνεται.",
+        "skill": "Γραφική αναπαράσταση αρνητικής αναλογίας",
+        "objective_ids": [
+          "a78c2564-3ef3-5a81-80e1-6f81814c3b7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι ευθεία που περνά από την αρχή και κατεβαίνει προς τα δεξιά",
+              "correct": true,
+              "reason": "Η γραφική παράσταση είναι ευθεία από την αρχή. Επειδή α=−3<0, όσο αυξάνει το x το y μειώνεται."
+            },
+            {
+              "choice": "Είναι οριζόντια ευθεία",
+              "correct": false,
+              "reason": "Οριζόντια θα ήταν η y=0 όταν α=0."
+            },
+            {
+              "choice": "Περνά μόνο από σημεία με θετικό y",
+              "correct": false,
+              "reason": "Για θετικό x προκύπτει αρνητικό y."
+            },
+            {
+              "choice": "Είναι υπερβολή",
+              "correct": false,
+              "reason": "Η υπερβολή αντιστοιχεί σε y=α/x με α≠0."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη y=αx γνωρίζουμε ότι για x=−2 παίρνουμε y=6. Ποιο είναι το y για x=4;",
+        "choices": [
+          "−12",
+          "12",
+          "−3",
+          "3"
+        ],
+        "answer": "−12",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα α=6/(−2) και μετά τη νέα τιμή.",
+        "solution": "Ο συντελεστής είναι α=−3. Για x=4 έχουμε y=−3×4=−12.",
+        "skill": "Αναλογία με αρνητικό συντελεστή",
+        "objective_ids": [
+          "a78c2564-3ef3-5a81-80e1-6f81814c3b7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(6/(-2))*4"
+        }
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη συνάρτηση y=3x+4, ποια τιμή έχει το y για x=0;",
+        "choices": [
+          "4",
+          "3",
+          "0",
+          "7"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Το σταθερό μέρος παραμένει όταν μηδενιστεί ο όρος με x.",
+        "solution": "y=3×0+4=4. Αυτή είναι η αρχική τιμή της συνάρτησης.",
+        "skill": "Αρχική τιμή γραμμικής συνάρτησης",
+        "objective_ids": [
+          "91b27941-52f0-5f54-a777-3424c76f846a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*0+4"
+        }
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Μια υπηρεσία χρεώνει 5 ευρώ αρχικά και 2 ευρώ για κάθε ώρα x. Ποιος τύπος δίνει τη συνολική χρέωση y;",
+        "choices": [
+          "y=2x+5",
+          "y=5x+2",
+          "y=7x",
+          "y=5/x"
+        ],
+        "answer": "y=2x+5",
+        "difficulty": "easy",
+        "hint": "Ξεχώρισε το σταθερό αρχικό τέλος από την τιμή ανά ώρα.",
+        "solution": "Κάθε ώρα προσθέτει 2 ευρώ και υπάρχει σταθερό τέλος 5 ευρώ. Επομένως y=2x+5.",
+        "skill": "Σταθερή χρέωση και ρυθμός μεταβολής",
+        "objective_ids": [
+          "91b27941-52f0-5f54-a777-3424c76f846a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "y=2x+5",
+              "correct": true,
+              "reason": "Κάθε ώρα προσθέτει 2 ευρώ και υπάρχει σταθερό τέλος 5 ευρώ. Επομένως y=2x+5."
+            },
+            {
+              "choice": "y=5x+2",
+              "correct": false,
+              "reason": "Ανταλλάσσει το αρχικό τέλος με τη χρέωση ανά ώρα."
+            },
+            {
+              "choice": "y=7x",
+              "correct": false,
+              "reason": "Το 7x δεν κρατά χωριστά την αρχική χρέωση."
+            },
+            {
+              "choice": "y=5/x",
+              "correct": false,
+              "reason": "Η αντίστροφη αναλογία δεν περιγράφει αυτή τη χρέωση."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη y=2,5x+7, πόσο αυξάνει το y όταν το x αυξηθεί από 1 σε 4;",
+        "choices": [
+          "7,5",
+          "2,5",
+          "14,5",
+          "17"
+        ],
+        "answer": "7,5",
+        "difficulty": "medium",
+        "hint": "Το x αυξάνει κατά 3 και ο ρυθμός είναι 2,5 ανά μονάδα.",
+        "solution": "Η διαφορά είναι [2,5×4+7]−[2,5×1+7]=3×2,5=7,5.",
+        "skill": "Μεταβολή εξόδου από μεταβολή εισόδου",
+        "objective_ids": [
+          "91b27941-52f0-5f54-a777-3424c76f846a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(25/10*4+7)-(25/10*1+7)"
+        }
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Τι σχέση έχουν οι ευθείες y=−2x+1 και y=−2x+5;",
+        "choices": [
+          "Είναι παράλληλες και διαφορετικές",
+          "Είναι η ίδια ευθεία",
+          "Είναι υποχρεωτικά κάθετες",
+          "Η μία είναι υπερβολή"
+        ],
+        "answer": "Είναι παράλληλες και διαφορετικές",
+        "difficulty": "medium",
+        "hint": "Σύγκρινε τον συντελεστή του x και τις σταθερές.",
+        "solution": "Έχουν ίδιο συντελεστή −2 αλλά διαφορετικά σταθερά μέλη. Επομένως είναι διαφορετικές παράλληλες ευθείες.",
+        "skill": "Παράλληλες γραμμικές συναρτήσεις",
+        "objective_ids": [
+          "8eb315ba-91a7-51d1-a36d-4ccee071c0bd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι παράλληλες και διαφορετικές",
+              "correct": true,
+              "reason": "Έχουν ίδιο συντελεστή −2 αλλά διαφορετικά σταθερά μέλη. Επομένως είναι διαφορετικές παράλληλες ευθείες."
+            },
+            {
+              "choice": "Είναι η ίδια ευθεία",
+              "correct": false,
+              "reason": "Οι διαφορετικές σταθερές δίνουν διαφορετικές τιμές για το ίδιο x."
+            },
+            {
+              "choice": "Είναι υποχρεωτικά κάθετες",
+              "correct": false,
+              "reason": "Ο ίδιος συντελεστής δίνει παραλληλία και όχι καθετότητα."
+            },
+            {
+              "choice": "Η μία είναι υπερβολή",
+              "correct": false,
+              "reason": "Και οι δύο είναι της μορφής y=αx+β, δηλαδή ευθείες."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η y=αx+β δίνει y=9 για x=2 και y=18 για x=5. Ποια τιμή δίνει για x=8;",
+        "choices": [
+          "27",
+          "24",
+          "30",
+          "36"
+        ],
+        "answer": "27",
+        "difficulty": "hard",
+        "hint": "Από x=2 σε x=5 έχουμε αύξηση 3 και από x=5 σε x=8 την ίδια αύξηση.",
+        "solution": "Ο ρυθμός είναι (18−9)/(5−2)=3. Από το x=5 στο x=8 το y αυξάνει πάλι κατά 3×3=9, άρα γίνεται 27.",
+        "skill": "Σταθερός ρυθμός από πίνακα τιμών",
+        "objective_ids": [
+          "8eb315ba-91a7-51d1-a36d-4ccee071c0bd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18+(18-9)/(5-2)*(8-5)"
+        }
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η χρέωση δίνεται από y=4x+6. Ποια δήλωση για τις ποσότητες x και y είναι σωστή;",
+        "choices": [
+          "Δεν είναι ανάλογες, επειδή υπάρχει μη μηδενική αρχική χρέωση",
+          "Είναι ανάλογες για κάθε x επειδή το γράφημα είναι ευθεία",
+          "Έχουν σταθερό λόγο y/x=4 για κάθε x≠0",
+          "Η αρχική χρέωση πολλαπλασιάζεται με x"
+        ],
+        "answer": "Δεν είναι ανάλογες, επειδή υπάρχει μη μηδενική αρχική χρέωση",
+        "difficulty": "hard",
+        "hint": "Για αναλογία χρειάζεται μορφή y=αx χωρίς πρόσθετο σταθερό όρο.",
+        "solution": "Ο λόγος y/x=4+6/x μεταβάλλεται με το x. Η σταθερή πρόσθεση 6 αποκλείει την άμεση αναλογία.",
+        "skill": "Ευθεία έναντι άμεσης αναλογίας",
+        "objective_ids": [
+          "8eb315ba-91a7-51d1-a36d-4ccee071c0bd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν είναι ανάλογες, επειδή υπάρχει μη μηδενική αρχική χρέωση",
+              "correct": true,
+              "reason": "Ο λόγος y/x=4+6/x μεταβάλλεται με το x. Η σταθερή πρόσθεση 6 αποκλείει την άμεση αναλογία."
+            },
+            {
+              "choice": "Είναι ανάλογες για κάθε x επειδή το γράφημα είναι ευθεία",
+              "correct": false,
+              "reason": "Δεν αντιστοιχεί κάθε ευθεία σε ανάλογα ποσά."
+            },
+            {
+              "choice": "Έχουν σταθερό λόγο y/x=4 για κάθε x≠0",
+              "correct": false,
+              "reason": "Ο όρος 6/x εμποδίζει τη σταθερότητα του λόγου."
+            },
+            {
+              "choice": "Η αρχική χρέωση πολλαπλασιάζεται με x",
+              "correct": false,
+              "reason": "Η χρέωση 6 ευρώ προστίθεται μία φορά και δεν γίνεται 6x."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για τη y=12/x, ποια είναι η τιμή του y όταν x=3;",
+        "choices": [
+          "4",
+          "36",
+          "9",
+          "1/4"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Διαίρεσε τη σταθερά με την είσοδο.",
+        "solution": "y=12:3=4. Το γινόμενο xy είναι 3×4=12.",
+        "skill": "Τιμή αντιστρόφως ανάλογης συνάρτησης",
+        "objective_ids": [
+          "715032d3-042b-5d76-86a5-2cc6206a9965"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12/3"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη y=α/x με α≠0, ποια τιμή του x αποκλείεται;",
+        "choices": [
+          "0",
+          "1",
+          "−1",
+          "2"
+        ],
+        "answer": "0",
+        "difficulty": "easy",
+        "hint": "Το x βρίσκεται στον παρονομαστή.",
+        "solution": "Το x=0 θα έδινε διαίρεση με το μηδέν, οπότε δεν επιτρέπεται.",
+        "skill": "Περιορισμός παρονομαστή υπερβολής",
+        "objective_ids": [
+          "715032d3-042b-5d76-86a5-2cc6206a9965"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Διαδρομή 120 km διανύεται με σταθερή ταχύτητα 80 km/h. Πόσες ώρες διαρκεί;",
+        "choices": [
+          "1,5",
+          "1",
+          "2",
+          "9600"
+        ],
+        "answer": "1,5",
+        "difficulty": "medium",
+        "hint": "Χρόνος ίσον απόσταση διά ταχύτητα.",
+        "solution": "t=120:80=1,5 ώρες. Η ταχύτητα είναι θετική στο συγκεκριμένο μοντέλο.",
+        "skill": "Αντίστροφη αναλογία χρόνου και ταχύτητας",
+        "objective_ids": [
+          "715032d3-042b-5d76-86a5-2cc6206a9965"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "120/80"
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη y=18/x, τι συμβαίνει στο y αν μια θετική είσοδος x διπλασιαστεί;",
+        "choices": [
+          "Γίνεται το μισό",
+          "Διπλασιάζεται",
+          "Παραμένει σταθερό",
+          "Γίνεται οπωσδήποτε αρνητικό"
+        ],
+        "answer": "Γίνεται το μισό",
+        "difficulty": "medium",
+        "hint": "Το γινόμενο xy μένει ίσο με 18.",
+        "solution": "Αν ο παρονομαστής διπλασιαστεί, η τιμή 18/x υποδιπλασιάζεται. Αυτό είναι χαρακτηριστικό αντίστροφης αναλογίας.",
+        "skill": "Μεταβολή αντιστρόφως ανάλογων ποσοτήτων",
+        "objective_ids": [
+          "211003d3-4b63-583e-a142-c180e5a106c0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Γίνεται το μισό",
+              "correct": true,
+              "reason": "Αν ο παρονομαστής διπλασιαστεί, η τιμή 18/x υποδιπλασιάζεται. Αυτό είναι χαρακτηριστικό αντίστροφης αναλογίας."
+            },
+            {
+              "choice": "Διπλασιάζεται",
+              "correct": false,
+              "reason": "Ο διπλασιασμός και των δύο θα άλλαζε το σταθερό γινόμενο."
+            },
+            {
+              "choice": "Παραμένει σταθερό",
+              "correct": false,
+              "reason": "Με μεταβολή του θετικού παρονομαστή αλλάζει η τιμή του κλάσματος."
+            },
+            {
+              "choice": "Γίνεται οπωσδήποτε αρνητικό",
+              "correct": false,
+              "reason": "Με θετικό 18 και θετικό x η έξοδος παραμένει θετική."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια πρόταση ισχύει για τη γραφική παράσταση y=α/x όταν α≠0;",
+        "choices": [
+          "Δεν έχει κοινό σημείο με κανέναν από τους δύο άξονες",
+          "Περνά από την αρχή των αξόνων",
+          "Είναι πάντα ευθεία",
+          "Περιέχει το σημείο με x=0 και y=α"
+        ],
+        "answer": "Δεν έχει κοινό σημείο με κανέναν από τους δύο άξονες",
+        "difficulty": "hard",
+        "hint": "Το x δεν μπορεί να είναι 0 και το y δεν μηδενίζεται για μη μηδενικό α.",
+        "solution": "Δεν υπάρχει επιτρεπτή είσοδος x=0, ούτε λύση α/x=0 με α≠0. Επομένως η υπερβολή δεν τέμνει τους άξονες.",
+        "skill": "Άξονες και υπερβολή",
+        "objective_ids": [
+          "211003d3-4b63-583e-a142-c180e5a106c0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν έχει κοινό σημείο με κανέναν από τους δύο άξονες",
+              "correct": true,
+              "reason": "Δεν υπάρχει επιτρεπτή είσοδος x=0, ούτε λύση α/x=0 με α≠0. Επομένως η υπερβολή δεν τέμνει τους άξονες."
+            },
+            {
+              "choice": "Περνά από την αρχή των αξόνων",
+              "correct": false,
+              "reason": "Η αρχή θα απαιτούσε x=0, που δεν επιτρέπεται."
+            },
+            {
+              "choice": "Είναι πάντα ευθεία",
+              "correct": false,
+              "reason": "Η γραφική παράσταση αυτής της μορφής είναι υπερβολή."
+            },
+            {
+              "choice": "Περιέχει το σημείο με x=0 και y=α",
+              "correct": false,
+              "reason": "Η είσοδος x=0 δεν ορίζει τιμή της συνάρτησης."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε αντίστροφη αναλογία έχουμε x=−3 και y=8. Ποιο y αντιστοιχεί σε x=−6;",
+        "choices": [
+          "4",
+          "16",
+          "−4",
+          "−16"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα τη σταθερά α=xy.",
+        "solution": "Η σταθερά είναι α=(−3)×8=−24. Για x=−6 βρίσκουμε y=(−24):(−6)=4.",
+        "skill": "Εύρεση σταθεράς και νέας εξόδου",
+        "objective_ids": [
+          "211003d3-4b63-583e-a142-c180e5a106c0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "3.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((-3)*8)/(-6)"
+        }
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Έρευνα θέλει να μελετήσει τη μετακίνηση όλων των 400 μαθητών ενός σχολείου και ρωτά 40 από αυτούς. Σε πόσους μαθητές αναφέρεται ο τελικός στόχος της έρευνας;",
+        "choices": [
+          "400",
+          "40",
+          "360",
+          "440"
+        ],
+        "answer": "400",
+        "difficulty": "easy",
+        "hint": "Ξεχώρισε ποιο σύνολο θέλουμε να κατανοήσουμε από όσους ρωτήθηκαν.",
+        "solution": "Ο στόχος αφορά και τους 400 μαθητές. Οι 40 είναι μόνο τα πρόσωπα από τα οποία συλλέχθηκαν απαντήσεις.",
+        "skill": "Κατανόηση συνόλου μελέτης",
+        "objective_ids": [
+          "2773a1a6-3b77-5103-8d0d-1b42650f674b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "400"
+        },
+        "practice_note": "Εξάσκηση κατανόησης · οι σχετικές στατιστικές έννοιες δεν εξετάζονται ως θεωρία."
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για να μελετήσουμε τη μετακίνηση όλων των μαθητών, ρωτάμε μόνο όσους βρίσκονται στη στάθμευση ποδηλάτων. Ποια είναι η βασική επιφύλαξη;",
+        "choices": [
+          "Μπορεί να υπερεκπροσωπούνται όσοι έρχονται με ποδήλατο",
+          "Το δείγμα είναι υποχρεωτικά αντιπροσωπευτικό",
+          "Όλοι οι μαθητές του σχολείου χρησιμοποιούν ποδήλατο",
+          "Η τοποθεσία επιλογής δεν έχει σημασία"
+        ],
+        "answer": "Μπορεί να υπερεκπροσωπούνται όσοι έρχονται με ποδήλατο",
+        "difficulty": "easy",
+        "hint": "Σκέψου ποιοι είναι πιθανότερο να βρεθούν στο συγκεκριμένο σημείο.",
+        "solution": "Η επιλογή μόνο στη στάθμευση ποδηλάτων ευνοεί συγκεκριμένο τρόπο μετακίνησης. Δεν δικαιολογείται γενίκευση σε όλους χωρίς έλεγχο επιλογής.",
+        "skill": "Μεροληψία επιλογής σε έρευνα",
+        "objective_ids": [
+          "2773a1a6-3b77-5103-8d0d-1b42650f674b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Μπορεί να υπερεκπροσωπούνται όσοι έρχονται με ποδήλατο",
+              "correct": true,
+              "reason": "Η επιλογή μόνο στη στάθμευση ποδηλάτων ευνοεί συγκεκριμένο τρόπο μετακίνησης. Δεν δικαιολογείται γενίκευση σε όλους χωρίς έλεγχο επιλογής."
+            },
+            {
+              "choice": "Το δείγμα είναι υποχρεωτικά αντιπροσωπευτικό",
+              "correct": false,
+              "reason": "Η συγκεκριμένη διαδικασία επιλογής δεν εγγυάται αντιπροσωπευτικότητα."
+            },
+            {
+              "choice": "Όλοι οι μαθητές του σχολείου χρησιμοποιούν ποδήλατο",
+              "correct": false,
+              "reason": "Οι απαντήσεις από ένα μόνο σημείο δεν αποδεικνύουν ότι όλοι ποδηλατούν."
+            },
+            {
+              "choice": "Η τοποθεσία επιλογής δεν έχει σημασία",
+              "correct": false,
+              "reason": "Η διαδικασία και ο τόπος επιλογής επηρεάζουν ποιοι συμμετέχουν."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση κατανόησης · οι σχετικές στατιστικές έννοιες δεν εξετάζονται ως θεωρία."
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Από 200 μαθητές ρωτήθηκαν 25 διαφορετικοί. Ποιο ποσοστό του συνόλου ρωτήθηκε, ως αριθμός επί τοις εκατό;",
+        "choices": [
+          "12,5",
+          "25",
+          "8",
+          "125"
+        ],
+        "answer": "12,5",
+        "difficulty": "medium",
+        "hint": "Διαίρεσε όσους ρωτήθηκαν με το συνολικό πλήθος και πολλαπλασίασε με 100.",
+        "solution": "25/200=0,125, άρα ρωτήθηκε το 12,5% του συνόλου.",
+        "skill": "Μέγεθος μέρους σε ερευνητικό πλαίσιο",
+        "objective_ids": [
+          "2773a1a6-3b77-5103-8d0d-1b42650f674b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "25/200*100"
+        },
+        "practice_note": "Εξάσκηση κατανόησης · οι σχετικές στατιστικές έννοιες δεν εξετάζονται ως θεωρία."
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε έρευνα για τη μετακίνηση καταγράφονται οι απαντήσεις «λεωφορείο», «πεζή», «ποδήλατο». Ποιο χαρακτηριστικό παρατηρείται;",
+        "choices": [
+          "Ο τρόπος μετακίνησης",
+          "Το ύψος των μαθητών",
+          "Η ηλικία των γονέων",
+          "Το πλήθος αιθουσών"
+        ],
+        "answer": "Ο τρόπος μετακίνησης",
+        "difficulty": "medium",
+        "hint": "Σύνδεσε τις καταγεγραμμένες κατηγορίες με το ερώτημα.",
+        "solution": "Οι τρεις απαντήσεις είναι κατηγορίες τρόπου μετακίνησης. Δεν αποτελούν μετρήσεις ύψους, ηλικίας ή αιθουσών.",
+        "skill": "Αναγνώριση χαρακτηριστικού από δεδομένα",
+        "objective_ids": [
+          "764837db-52e0-5037-ba88-091159ef77fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ο τρόπος μετακίνησης",
+              "correct": true,
+              "reason": "Οι τρεις απαντήσεις είναι κατηγορίες τρόπου μετακίνησης. Δεν αποτελούν μετρήσεις ύψους, ηλικίας ή αιθουσών."
+            },
+            {
+              "choice": "Το ύψος των μαθητών",
+              "correct": false,
+              "reason": "Οι απαντήσεις δεν είναι μονάδες ή τιμές ύψους."
+            },
+            {
+              "choice": "Η ηλικία των γονέων",
+              "correct": false,
+              "reason": "Δεν καταγράφονται ηλικίες γονέων."
+            },
+            {
+              "choice": "Το πλήθος αιθουσών",
+              "correct": false,
+              "reason": "Οι κατηγορίες δεν περιγράφουν σχολικές αίθουσες."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση κατανόησης · οι σχετικές στατιστικές έννοιες δεν εξετάζονται ως θεωρία."
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα μεροληπτικό δείγμα μεγαλώνει, αλλά εξακολουθεί να επιλέγεται μόνο από την ίδια ειδική ομάδα. Ποια δήλωση είναι σωστή;",
+        "choices": [
+          "Η αύξηση πλήθους δεν διορθώνει αυτόματα τη μεροληψία",
+          "Το μεγάλο μέγεθος εγγυάται από μόνο του σωστά συμπεράσματα",
+          "Η διαδικασία επιλογής παύει να έχει σημασία",
+          "Όλα τα μέλη του πληθυσμού ρωτήθηκαν αναγκαστικά"
+        ],
+        "answer": "Η αύξηση πλήθους δεν διορθώνει αυτόματα τη μεροληψία",
+        "difficulty": "hard",
+        "hint": "Το μέγεθος και η διαδικασία επιλογής είναι διαφορετικά ζητήματα.",
+        "solution": "Η επιλογή από μία ειδική ομάδα μπορεί να παραμένει μεροληπτική όσο και αν αυξηθεί το πλήθος της. Χρειάζεται κατάλληλη διαδικασία κάλυψης του συνόλου.",
+        "skill": "Μέγεθος έναντι αντιπροσωπευτικότητας",
+        "objective_ids": [
+          "764837db-52e0-5037-ba88-091159ef77fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η αύξηση πλήθους δεν διορθώνει αυτόματα τη μεροληψία",
+              "correct": true,
+              "reason": "Η επιλογή από μία ειδική ομάδα μπορεί να παραμένει μεροληπτική όσο και αν αυξηθεί το πλήθος της. Χρειάζεται κατάλληλη διαδικασία κάλυψης του συνόλου."
+            },
+            {
+              "choice": "Το μεγάλο μέγεθος εγγυάται από μόνο του σωστά συμπεράσματα",
+              "correct": false,
+              "reason": "Ένα μεγάλο αλλά μεροληπτικό δείγμα μπορεί να δίνει συστηματικά λανθασμένη εικόνα."
+            },
+            {
+              "choice": "Η διαδικασία επιλογής παύει να έχει σημασία",
+              "correct": false,
+              "reason": "Η διαδικασία επιλογής εξακολουθεί να καθορίζει ποιοι εκπροσωπούνται."
+            },
+            {
+              "choice": "Όλα τα μέλη του πληθυσμού ρωτήθηκαν αναγκαστικά",
+              "correct": false,
+              "reason": "Μεγαλύτερο δείγμα δεν σημαίνει ότι μελετήθηκαν όλα τα μέλη."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση κατανόησης · οι σχετικές στατιστικές έννοιες δεν εξετάζονται ως θεωρία."
+      }
+    },
+    {
+      "reference": "4.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε σχολείο 480 μαθητών επιλέγονται 24 διαφορετικοί μαθητές από καθεμία από 6 διαφορετικές τάξεις, χωρίς επαναλήψεις. Πόσοι μαθητές συμμετέχουν συνολικά στην έρευνα;",
+        "choices": [
+          "144",
+          "80",
+          "120",
+          "456"
+        ],
+        "answer": "144",
+        "difficulty": "hard",
+        "hint": "Πρόσθεσε έξι ίσες ομάδες των 24 ατόμων.",
+        "solution": "Το συνολικό πλήθος συμμετεχόντων είναι 6×24=144. Αυτό το πλήθος από μόνο του δεν πιστοποιεί αντιπροσωπευτικότητα.",
+        "skill": "Πλήθος συμμετεχόντων από διαφορετικές ομάδες",
+        "objective_ids": [
+          "764837db-52e0-5037-ba88-091159ef77fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 3,
+            "paragraph": "4.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*24"
+        },
+        "practice_note": "Εξάσκηση κατανόησης · οι σχετικές στατιστικές έννοιες δεν εξετάζονται ως θεωρία."
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο ραβδόγραμμα της ερώτησης, πόσοι μαθητές μετακινούνται με λεωφορείο;",
+        "choices": [
+          "8",
+          "6",
+          "14",
+          "20"
+        ],
+        "answer": "8",
+        "difficulty": "easy",
+        "hint": "Διάβασε τη ράβδο με ετικέτα «Λεωφορείο» και την κατακόρυφη κλίμακα.",
+        "solution": "Η ράβδος «Λεωφορείο» φτάνει στην ένδειξη 8 μαθητές. Οι 20 είναι το σύνολο και όχι το πλήθος της συγκεκριμένης κατηγορίας.",
+        "skill": "Ανάγνωση ραβδογράμματος",
+        "objective_ids": [
+          "7a87f17c-a605-53f0-a765-f547190942fd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8"
+        },
+        "image": {
+          "filename": "images/questions/gym-b-travel-bars.svg",
+          "alt": "Ραβδόγραμμα μετακίνησης: λεωφορείο 8 μαθητές, πεζή 6 μαθητές, άλλο μέσο 6 μαθητές."
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κυκλικό διάγραμμα μια κατηγορία είναι το 25% του συνόλου. Πόσες μοίρες έχει ο τομέας της;",
+        "choices": [
+          "90",
+          "25",
+          "180",
+          "75"
+        ],
+        "answer": "90",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε το ποσοστό με τις 360° ολόκληρου του κύκλου.",
+        "solution": "Ο τομέας έχει γωνία 25/100×360°=90°.",
+        "skill": "Ποσοστό σε γωνία τομέα",
+        "objective_ids": [
+          "7a87f17c-a605-53f0-a765-f547190942fd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "25/100*360"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο διάγραμμα είναι καταλληλότερο για την εξέλιξη της θερμοκρασίας ανά ώρα μιας ημέρας;",
+        "choices": [
+          "Χρονόγραμμα με ώρες στον οριζόντιο άξονα",
+          "Κυκλικό διάγραμμα που αγνοεί τη σειρά των ωρών",
+          "Μία ράβδος χωρίς ετικέτες",
+          "Οποιοδήποτε σχήμα χωρίς μονάδες"
+        ],
+        "answer": "Χρονόγραμμα με ώρες στον οριζόντιο άξονα",
+        "difficulty": "medium",
+        "hint": "Χρειάζεται να διατηρείται η χρονική σειρά των μετρήσεων.",
+        "solution": "Το χρονόγραμμα συνδέει κάθε ώρα με τη μετρούμενη θερμοκρασία και δείχνει την εξέλιξη στον χρόνο. Απαιτούνται σαφείς μονάδες και ετικέτες.",
+        "skill": "Επιλογή κατάλληλης γραφικής παράστασης",
+        "objective_ids": [
+          "7a87f17c-a605-53f0-a765-f547190942fd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Χρονόγραμμα με ώρες στον οριζόντιο άξονα",
+              "correct": true,
+              "reason": "Το χρονόγραμμα συνδέει κάθε ώρα με τη μετρούμενη θερμοκρασία και δείχνει την εξέλιξη στον χρόνο. Απαιτούνται σαφείς μονάδες και ετικέτες."
+            },
+            {
+              "choice": "Κυκλικό διάγραμμα που αγνοεί τη σειρά των ωρών",
+              "correct": false,
+              "reason": "Το κυκλικό διάγραμμα δείχνει μέρη συνόλου και όχι χρονική εξέλιξη."
+            },
+            {
+              "choice": "Μία ράβδος χωρίς ετικέτες",
+              "correct": false,
+              "reason": "Χωρίς ετικέτες και χωριστές τιμές δεν διαβάζεται η μεταβολή."
+            },
+            {
+              "choice": "Οποιοδήποτε σχήμα χωρίς μονάδες",
+              "correct": false,
+              "reason": "Οι μονάδες είναι απαραίτητες για σωστή ερμηνεία."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε σύνολο 50 μαθητών οι 15 προτιμούν κολύμβηση. Πόσες μοίρες αντιστοιχούν στην κολύμβηση σε κυκλικό διάγραμμα;",
+        "choices": [
+          "108",
+          "30",
+          "90",
+          "150"
+        ],
+        "answer": "108",
+        "difficulty": "medium",
+        "hint": "Βρες πρώτα το κλάσμα 15/50 του συνόλου.",
+        "solution": "Η γωνία είναι (15/50)×360°=108°. Το 30 είναι το ποσοστό επί τοις εκατό, όχι μοίρες.",
+        "skill": "Συχνότητα σε κυκλικό διάγραμμα",
+        "objective_ids": [
+          "6be83b71-acb9-535b-942b-84326c7d5c40"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "15/50*360"
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο τιμές είναι 100 και 105, αλλά σε διάγραμμα ο κατακόρυφος άξονας ξεκινά από 99. Ποια προσοχή χρειάζεται;",
+        "choices": [
+          "Η περικομμένη κλίμακα μπορεί να υπερτονίσει οπτικά τη διαφορά",
+          "Η δεύτερη τιμή είναι πενταπλάσια της πρώτης",
+          "Η πραγματική διαφορά γίνεται 99",
+          "Οι ετικέτες δεν χρειάζονται όταν οι ράβδοι φαίνονται"
+        ],
+        "answer": "Η περικομμένη κλίμακα μπορεί να υπερτονίσει οπτικά τη διαφορά",
+        "difficulty": "hard",
+        "hint": "Ξεχώρισε το πραγματικό αριθμητικό μέγεθος από την οπτική έμφαση.",
+        "solution": "Η πραγματική διαφορά είναι 5, δηλαδή 5% της τιμής 100. Η έναρξη του άξονα στο 99 μπορεί να κάνει τις ράβδους να φαίνονται πολύ διαφορετικές.",
+        "skill": "Κριτική ανάγνωση κλίμακας διαγράμματος",
+        "objective_ids": [
+          "6be83b71-acb9-535b-942b-84326c7d5c40"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η περικομμένη κλίμακα μπορεί να υπερτονίσει οπτικά τη διαφορά",
+              "correct": true,
+              "reason": "Η πραγματική διαφορά είναι 5, δηλαδή 5% της τιμής 100. Η έναρξη του άξονα στο 99 μπορεί να κάνει τις ράβδους να φαίνονται πολύ διαφορετικές."
+            },
+            {
+              "choice": "Η δεύτερη τιμή είναι πενταπλάσια της πρώτης",
+              "correct": false,
+              "reason": "Το 105 είναι 1,05 φορές το 100, όχι πέντε φορές."
+            },
+            {
+              "choice": "Η πραγματική διαφορά γίνεται 99",
+              "correct": false,
+              "reason": "Η διαφορά παραμένει 105−100=5 ανεξάρτητα από τον άξονα."
+            },
+            {
+              "choice": "Οι ετικέτες δεν χρειάζονται όταν οι ράβδοι φαίνονται",
+              "correct": false,
+              "reason": "Χωρίς ετικέτες και κλίμακα η οπτική εντύπωση μπορεί να παραπλανήσει."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "4.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κυκλικό διάγραμμα τρεις κατηγορίες καλύπτουν όλο το σύνολο. Οι δύο τομείς έχουν γωνίες 144° και 126°. Ποιο ποσοστό, ως αριθμός επί τοις εκατό, ανήκει στην τρίτη κατηγορία;",
+        "choices": [
+          "25",
+          "90",
+          "75",
+          "10"
+        ],
+        "answer": "25",
+        "difficulty": "hard",
+        "hint": "Βρες την τρίτη γωνία και μετά το κλάσμα της στις 360°.",
+        "solution": "Η τρίτη γωνία είναι 360°−144°−126°=90°. Το ποσοστό είναι (90/360)×100=25%.",
+        "skill": "Συνδυασμός γωνιών και ποσοστού",
+        "objective_ids": [
+          "6be83b71-acb9-535b-942b-84326c7d5c40"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(360-144-126)/360*100"
+        }
+      }
+    },
+    {
+      "reference": "4.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Βρες τη μέση τιμή των 4, 6 και 8.",
+        "choices": [
+          "6",
+          "18",
+          "8",
+          "4"
+        ],
+        "answer": "6",
+        "difficulty": "easy",
+        "hint": "Πρόσθεσε όλες τις παρατηρήσεις και διαίρεσε με το πλήθος τους.",
+        "solution": "Η μέση τιμή είναι (4+6+8):3=18:3=6.",
+        "skill": "Μέση τιμή μη ομαδοποιημένων δεδομένων",
+        "objective_ids": [
+          "68223bf7-3313-54a3-8ddf-6de98b4cfcfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(4+6+8)/3"
+        }
+      }
+    },
+    {
+      "reference": "4.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Βρες τη διάμεσο των 9, 2 και 5.",
+        "choices": [
+          "5",
+          "9",
+          "2",
+          "16/3"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Διάταξε πρώτα τα δεδομένα από το μικρότερο στο μεγαλύτερο.",
+        "solution": "Η διάταξη είναι 2,5,9. Η μεσαία από τις τρεις τιμές είναι 5.",
+        "skill": "Διάμεσος με περιττό πλήθος",
+        "objective_ids": [
+          "68223bf7-3313-54a3-8ddf-6de98b4cfcfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        }
+      }
+    },
+    {
+      "reference": "4.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Βρες τη διάμεσο των 3, 10, 4 και 7.",
+        "choices": [
+          "5,5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": "5,5",
+        "difficulty": "medium",
+        "hint": "Με άρτιο πλήθος βρίσκεις τη μέση τιμή των δύο μεσαίων μετά τη διάταξη.",
+        "solution": "Η διάταξη είναι 3,4,7,10. Οι δύο μεσαίες τιμές είναι 4 και 7, άρα η διάμεσος είναι (4+7):2=5,5.",
+        "skill": "Διάμεσος με άρτιο πλήθος",
+        "objective_ids": [
+          "68223bf7-3313-54a3-8ddf-6de98b4cfcfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(4+7)/2"
+        }
+      }
+    },
+    {
+      "reference": "4.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι χρόνοι είναι 10, 12, 12, 14 και 42 λεπτά. Ποια δήλωση είναι σωστή;",
+        "choices": [
+          "Η μέση τιμή είναι 18 και η διάμεσος 12",
+          "Και οι δύο είναι 12",
+          "Και οι δύο είναι 18",
+          "Η μέση τιμή είναι 12 και η διάμεσος 18"
+        ],
+        "answer": "Η μέση τιμή είναι 18 και η διάμεσος 12",
+        "difficulty": "medium",
+        "hint": "Η μεγάλη τελευταία τιμή επηρεάζει περισσότερο το άθροισμα από τη μεσαία θέση.",
+        "solution": "Το άθροισμα είναι 90 και η μέση τιμή 90:5=18. Η τρίτη τιμή της ήδη διατεταγμένης λίστας είναι 12, άρα αυτή είναι η διάμεσος.",
+        "skill": "Μέση τιμή και διάμεσος με ακραία παρατήρηση",
+        "objective_ids": [
+          "57716cea-8ffc-52e4-bb0c-df3e97e09853"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η μέση τιμή είναι 18 και η διάμεσος 12",
+              "correct": true,
+              "reason": "Το άθροισμα είναι 90 και η μέση τιμή 90:5=18. Η τρίτη τιμή της ήδη διατεταγμένης λίστας είναι 12, άρα αυτή είναι η διάμεσος."
+            },
+            {
+              "choice": "Και οι δύο είναι 12",
+              "correct": false,
+              "reason": "Η μεγάλη τιμή 42 αυξάνει το άθροισμα και τη μέση τιμή."
+            },
+            {
+              "choice": "Και οι δύο είναι 18",
+              "correct": false,
+              "reason": "Η μεσαία θέση παραμένει η τρίτη τιμή 12."
+            },
+            {
+              "choice": "Η μέση τιμή είναι 12 και η διάμεσος 18",
+              "correct": false,
+              "reason": "Ανταλλάσσει τις δύο διαφορετικές έννοιες και τα αποτελέσματά τους."
+            }
+          ]
+        },
+        "checks": [
+          [
+            "(10+12+12+14+42)/5",
+            "=",
+            "18"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "4.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Τέσσερις αριθμοί έχουν μέση τιμή 7. Οι τρεις είναι 4, 6 και 8. Ποιος είναι ο τέταρτος;",
+        "choices": [
+          "10",
+          "7",
+          "3",
+          "28"
+        ],
+        "answer": "10",
+        "difficulty": "hard",
+        "hint": "Η συνολική τιμή του αθροίσματος είναι πλήθος επί μέση τιμή.",
+        "solution": "Το άθροισμα των τεσσάρων είναι 4×7=28. Οι τρεις γνωστοί αθροίζονται σε 18, άρα ο άγνωστος είναι 28−18=10.",
+        "skill": "Άγνωστη παρατήρηση από μέση τιμή",
+        "objective_ids": [
+          "57716cea-8ffc-52e4-bb0c-df3e97e09853"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*7-(4+6+8)"
+        }
+      }
+    },
+    {
+      "reference": "4.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Στη λίστα 2, 4, 4, 6, 9, 20 η τιμή 20 αντικαθίσταται από 50. Πόσο αυξάνεται η μέση τιμή;",
+        "choices": [
+          "5",
+          "30",
+          "6",
+          "0"
+        ],
+        "answer": "5",
+        "difficulty": "hard",
+        "hint": "Το πλήθος μένει 6 και το άθροισμα αυξάνεται μόνο κατά 30.",
+        "solution": "Η μεταβολή της μέσης τιμής είναι (50−20):6=30:6=5. Η διάμεσος παραμένει (4+6):2=5.",
+        "skill": "Μεταβολή μέσης τιμής από ακραία τιμή",
+        "objective_ids": [
+          "57716cea-8ffc-52e4-bb0c-df3e97e09853"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 4,
+            "paragraph": "4.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(50-20)/6"
+        }
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "catalog_units": 325,
-  "units_with_quiz": 63,
-  "active_questions": 762,
-  "with_learning_support": 282,
-  "first_pass_complete_units": 47,
-  "remaining_units": 278,
+  "units_with_quiz": 80,
+  "active_questions": 864,
+  "with_learning_support": 384,
+  "first_pass_complete_units": 64,
+  "remaining_units": 261,
   "educator_approved_units": 0,
   "units": [
     {
@@ -905,11 +905,18 @@
       "reference": "7.7",
       "title": "Δεκαδική μορφή ρητών αριθμών",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "333ac0b8-a1cd-555c-857e-abe0d9da1ab6",
+        "de307560-71de-56f1-845f-537953d3e962"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -917,11 +924,18 @@
       "reference": "7.8",
       "title": "Δυνάμεις ρητών αριθμών με εκθέτη φυσικό",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "39f86969-cf04-5d9b-a41a-6d0c49da8330",
+        "8c152223-fcb7-5ca9-91c8-05e71b0fc056"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -929,11 +943,18 @@
       "reference": "7.9",
       "title": "Δυνάμεις ρητών αριθμών με εκθέτη ακέραιο",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "408800b3-7f06-509c-9a37-2f014d523935",
+        "700db7fc-af2d-5a53-a159-fb6765570212"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -941,11 +962,18 @@
       "reference": "1.1",
       "title": "Η έννοια της μεταβλητής - Αλγεβρικές παραστάσεις",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "310e63e8-cd86-58aa-9a1c-93590ee4b91f",
+        "36c0187e-cdd4-5764-b2cc-1b5566851961"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -953,11 +981,18 @@
       "reference": "1.2",
       "title": "Εξισώσεις α' βαθμού",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a746b0fa-bad3-5963-842b-5b674cc88ba0",
+        "c9551373-ffb7-530b-841c-f89c6125bb0f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -965,11 +1000,18 @@
       "reference": "1.4",
       "title": "Επίλυση προβλημάτων με τη χρήση εξισώσεων",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "05c778cd-ed72-5a93-97bd-588d2f231e89",
+        "b7d909e5-e920-5835-91b9-9e8f2b18203d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -977,11 +1019,18 @@
       "reference": "2.1",
       "title": "Τετραγωνική ρίζα θετικού αριθμού",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0e63f288-c0d1-55e8-ad1d-6b2c446b7b16",
+        "704bc5fc-e455-5d0c-9db6-7b3d5c7f3551"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -989,11 +1038,18 @@
       "reference": "2.2",
       "title": "Άρρητοι αριθμοί - Πραγματικοί αριθμοί",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "04fc233b-9ff9-5a57-8e9d-7b7c50dec5a3",
+        "07db6e11-5536-5015-96bd-50ec28c7b1cf"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1001,11 +1057,18 @@
       "reference": "2.3",
       "title": "Προβλήματα",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6ac9ecaf-56bd-5a38-ba95-6e7ae2d8ff52",
+        "9ecf2a11-0b06-58e0-a2e6-e091286baf45"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1013,11 +1076,18 @@
       "reference": "3.1",
       "title": "Η έννοια της συνάρτησης",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "b13069e6-501f-5eea-b05e-ac2db1fc9c7f",
+        "c0336e16-5972-5dc5-85ae-4127c7a7273f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1025,11 +1095,18 @@
       "reference": "3.2",
       "title": "Καρτεσιανές συντεταγμένες - Γραφική παράσταση συνάρτησης",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8ebdfabe-c307-53c3-a877-bdfe55ba158d",
+        "bfc872f3-6ac6-5c26-87b3-96ae36c06796"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1037,11 +1114,18 @@
       "reference": "3.3",
       "title": "Η συνάρτηση y = α·x",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a78c2564-3ef3-5a81-80e1-6f81814c3b7c",
+        "b6317253-ea98-5af8-838e-2a22d75eca6a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1049,11 +1133,18 @@
       "reference": "3.4",
       "title": "Η συνάρτηση y = α·x + β",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8eb315ba-91a7-51d1-a36d-4ccee071c0bd",
+        "91b27941-52f0-5f54-a777-3424c76f846a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1061,11 +1152,18 @@
       "reference": "3.5",
       "title": "Η συνάρτηση y = α/x - Η υπερβολή",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "211003d3-4b63-583e-a142-c180e5a106c0",
+        "715032d3-042b-5d76-86a5-2cc6206a9965"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1073,11 +1171,18 @@
       "reference": "4.1",
       "title": "Βασικές έννοιες της Στατιστικής: Πληθυσμός - Δείγμα",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2773a1a6-3b77-5103-8d0d-1b42650f674b",
+        "764837db-52e0-5037-ba88-091159ef77fc"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1085,11 +1190,18 @@
       "reference": "4.2",
       "title": "Γραφικές Παραστάσεις",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6be83b71-acb9-535b-942b-84326c7d5c40",
+        "7a87f17c-a605-53f0-a765-f547190942fd"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1097,11 +1209,18 @@
       "reference": "4.5",
       "title": "Μέση τιμή - Διάμεσος",
       "course_key": "gym-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "57716cea-8ffc-52e4-bb0c-df3e97e09853",
+        "68223bf7-3313-54a3-8ddf-6de98b4cfcfb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {

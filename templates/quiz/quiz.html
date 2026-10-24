@@ -20,6 +20,10 @@
             <p class="quiz-scope-note">Μεταβατική ενότητα · εξάσκηση στα προαπαιτούμενα</p>
         {% endif %}
 
+        {% if questions and questions[0].practice_note %}
+            <p class="quiz-scope-note">{{ questions[0].practice_note }}</p>
+        {% endif %}
+
         {# ============================================
            DIFFICULTY FILTER
            ============================================ #}
@@ -57,6 +61,13 @@
                         <div class="quiz-question-title quiz-highlight mathjax-content">
                             {{ loop.index }}. {{ question.question }}
                         </div>
+
+                        {% if question.image %}
+                            <figure class="quiz-figure">
+                                <img src="{{ url_for('static', filename=question.image.filename) }}" alt="{{ question.image.alt }}" width="600" height="300">
+                                <a href="{{ url_for('static', filename=question.image.filename) }}" target="_blank" rel="noopener">Άνοιγμα διαγράμματος σε πλήρες μέγεθος</a>
+                            </figure>
+                        {% endif %}
 
                         {% if question.optional_extension %}
                             <p class="quiz-scope-note">Προαιρετική σύνθετη εξάσκηση</p>

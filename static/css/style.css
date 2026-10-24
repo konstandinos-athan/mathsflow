@@ -572,3 +572,6 @@ button:focus-visible, a:focus-visible {
     .quiz-page { padding: 20px 16px; }
     .quiz-page h1 { font-size: 1.8em; line-height: 1.2; }
 }
+
+.quiz-figure { margin: 16px 0; }
+.quiz-figure img { display: block; width: 100%; max-width: 600px; height: auto; border-radius: 12px; }

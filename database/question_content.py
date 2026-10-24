@@ -67,6 +67,18 @@ def validate_release(release):
             raise ValueError('Question objectives do not belong to its unit')
         if payload.get('source_refs') != unit['source_refs'] or payload.get('teaching_scope') != unit['teaching_scope'] or payload.get('educator_review') != 'pending':
             raise ValueError('Missing curriculum provenance')
+        if 'exam_scope' in payload and payload['exam_scope'] != unit['exam_scope']:
+            raise ValueError('Question exam scope does not match curriculum')
+        if 'practice_note' in payload:
+            note = payload['practice_note']
+            if not isinstance(note, str) or len(note.strip()) < 20 or '<' in note or '\ufffd' in note:
+                raise ValueError('Invalid practice note')
+        if 'image' in payload:
+            image = payload['image']
+            if not isinstance(image, dict) or not re.fullmatch(r'images/questions/[a-z0-9-]+\.svg', image.get('filename', '')):
+                raise ValueError('Invalid question image path')
+            if not (ROOT / 'static' / image['filename']).is_file() or not isinstance(image.get('alt'), str) or len(image['alt'].strip()) < 15:
+                raise ValueError('Missing question image or accessible description')
         verification = payload.get('verification', {})
         if not isinstance(verification, dict):
             raise ValueError('Invalid verification record')
@@ -77,6 +89,14 @@ def validate_release(release):
             result = arithmetic(verification['expression'])
             if values.count(result) != 1 or number(payload['answer']) != result:
                 raise ValueError('Answer does not match exact calculation')
+        elif verification.get('kind') == 'square_root':
+            values = [number(c) for c in payload['choices']]
+            radicand = arithmetic(verification['radicand'])
+            if len(set(values)) != 4 or radicand < 0:
+                raise ValueError('Invalid square root choices/radicand')
+            roots = [v for v in values if v >= 0 and v*v == radicand]
+            if roots != [number(payload['answer'])]:
+                raise ValueError('Answer is not the unique nonnegative square root')
         elif verification.get('kind') == 'conceptual':
             # This checks the explicit review record, not the truth of Greek prose.
             reviews = verification.get('choice_reviews')
@@ -97,6 +117,16 @@ def validate_release(release):
                 raise ValueError('Conceptual review must identify one matching answer')
         else:
             raise ValueError('Unsupported verification kind')
+        checks = payload.get('checks', [])
+        if not isinstance(checks, list):
+            raise ValueError('Invalid arithmetic checks')
+        for assertion in checks:
+            if not isinstance(assertion, list) or len(assertion) != 3:
+                raise ValueError('Invalid arithmetic assertion')
+            left, relation, right = assertion
+            a, b = arithmetic(left), arithmetic(right)
+            if relation not in ('=', '<', '>') or not {'=': a == b, '<': a < b, '>': a > b}[relation]:
+                raise ValueError('Failed question arithmetic check')
         validate_geometry_cases(payload.get('geometry_cases', []))
         prepared.append((unit, entry, qid, payload))
     return prepared

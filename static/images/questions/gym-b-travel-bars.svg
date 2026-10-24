@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+<title id="title">Τρόπος μετακίνησης 20 μαθητών</title>
+<desc id="desc">Λεωφορείο 8 μαθητές, πεζή 6 μαθητές, άλλο μέσο 6 μαθητές. Η κατακόρυφη κλίμακα αρχίζει από το μηδέν.</desc>
+<rect width="600" height="300" rx="12" fill="#fff"/>
+<g font-family="Arial, sans-serif" fill="#16324f">
+<text x="300" y="25" text-anchor="middle" font-size="20" font-weight="bold">Τρόπος μετακίνησης (20 μαθητές)</text>
+<text x="14" y="49" font-size="14">Μαθητές</text>
+<line x1="80" y1="240" x2="565" y2="240" stroke="#dbe5ef"/><text x="67" y="245" text-anchor="end" font-size="15">0</text>
+<line x1="80" y1="202" x2="565" y2="202" stroke="#dbe5ef"/><text x="67" y="207" text-anchor="end" font-size="15">2</text>
+<line x1="80" y1="164" x2="565" y2="164" stroke="#dbe5ef"/><text x="67" y="169" text-anchor="end" font-size="15">4</text>
+<line x1="80" y1="126" x2="565" y2="126" stroke="#dbe5ef"/><text x="67" y="131" text-anchor="end" font-size="15">6</text>
+<line x1="80" y1="88" x2="565" y2="88" stroke="#dbe5ef"/><text x="67" y="93" text-anchor="end" font-size="15">8</text>
+<line x1="80" y1="50" x2="565" y2="50" stroke="#dbe5ef"/><text x="67" y="55" text-anchor="end" font-size="15">10</text>
+<path d="M80 50V240H565" fill="none" stroke="#16324f" stroke-width="2"/>
+<rect x="130" y="88" width="80" height="152" rx="3" fill="#2563eb"/><text x="170" y="78" text-anchor="middle" font-size="18" font-weight="bold">8</text><text x="170" y="270" text-anchor="middle" font-size="16">Λεωφορείο</text>
+<rect x="280" y="126" width="80" height="114" rx="3" fill="#2563eb"/><text x="320" y="116" text-anchor="middle" font-size="18" font-weight="bold">6</text><text x="320" y="270" text-anchor="middle" font-size="16">Πεζή</text>
+<rect x="430" y="126" width="80" height="114" rx="3" fill="#2563eb"/><text x="470" y="116" text-anchor="middle" font-size="18" font-weight="bold">6</text><text x="470" y="270" text-anchor="middle" font-size="16">Άλλο μέσο</text>
+</g></svg>
