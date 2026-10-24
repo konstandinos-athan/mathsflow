@@ -41,6 +41,17 @@ class SecondGeometryValidationTests(unittest.TestCase):
    with self.subTest(mode=mode),self.assertRaises(ValueError):validate_release(r)
 
 class SecondGeometryStorageTests(DatabaseCase):
+ def test_hint_revision_keeps_attempt_version_and_deploys_idempotently(self):
+  apply_release(self.db,release())
+  revision=json.loads((ROOT/'content/questions/gym-b-geometry.v2.json').read_text(encoding='utf-8'))
+  u,_,qid,p=validate_release(revision)[0]
+  attempt=self.repo.start_attempt(u['id'],'hard');old=copy.deepcopy(attempt['questions'])
+  self.assertEqual(apply_release(self.db,revision),1);self.assertEqual(apply_release(self.db,revision),0)
+  self.assertEqual(self.repo.attempt(attempt['id'])['questions'],old)
+  after=self.repo.start_attempt(u['id'],'hard')
+  q=next(q for q in after['questions'] if q['question']==p['question'])
+  self.assertEqual(q['hint'],p['hint']);self.assertIn('αφαιρώντας',q['hint'])
+
  def test_all_new_quizzes_filters_scores_hints_and_solutions(self):
   with patch('tests.test_question_content.release',side_effect=release):
    shared.QuestionReleaseTests.test_all_new_quizzes_filters_scores_hints_and_solutions(self)

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gym-b-geometry-v2",
+  "course": "gym-b-geometry",
+  "authored_on": "2026-10-24",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "3.2",
+      "key": "core-05",
+      "expected_current": "bf2553fd-a706-5b79-a99a-05f856bec82f",
+      "payload": {
+        "question": "Κανονικό πολύγωνο έχει κάθε εσωτερική γωνία ίση με 156°. Πόσες πλευρές έχει;",
+        "choices": [
+          "15",
+          "24",
+          "13",
+          "10"
+        ],
+        "answer": "15",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα την κεντρική γωνία αφαιρώντας την εσωτερική γωνία από τις 180°.",
+        "solution": "Η κεντρική γωνία είναι 180°−156°=24°. Άρα το πλήθος πλευρών είναι 360°:24°=15.",
+        "skill": "Πλήθος πλευρών από εσωτερική γωνία",
+        "objective_ids": [
+          "2c7a6023-065d-58e5-911b-a8a029b22a85"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-01",
+            "pdf_page": 5,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/(180-156)"
+        },
+        "practice_note": "Οι σχέσεις κανονικών πολυγώνων ανήκουν στη βασική ενότητα · η κατασκευή τους με όργανα προσεγγίζεται προαιρετικά."
+      }
+    }
+  ]
+}
