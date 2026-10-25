@@ -1,10 +1,10 @@
 {
   "catalog_units": 325,
-  "units_with_quiz": 94,
-  "active_questions": 948,
-  "with_learning_support": 468,
-  "first_pass_complete_units": 78,
-  "remaining_units": 247,
+  "units_with_quiz": 113,
+  "active_questions": 1062,
+  "with_learning_support": 582,
+  "first_pass_complete_units": 97,
+  "remaining_units": 228,
   "educator_approved_units": 0,
   "units": [
     {
@@ -1494,11 +1494,18 @@
       "reference": "1.1",
       "title": "Πράξεις με πραγματικούς αριθμούς: δυνάμεις και τετραγωνικές ρίζες",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "031e5d46-a62e-564e-ba31-fc3e8619ccae",
+        "6514d52b-978e-5596-a6b3-24a75b1b3104"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1506,11 +1513,18 @@
       "reference": "1.2",
       "title": "Μονώνυμα - Πράξεις με μονώνυμα",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "530d96e2-ab27-5dcf-bb0a-dfc4e8e2bc32",
+        "c5ffc49f-f332-5625-b21d-83708d9be960"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1518,11 +1532,18 @@
       "reference": "1.3",
       "title": "Πολυώνυμα - Πρόσθεση και Αφαίρεση πολυωνύμων",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "444f0437-189c-50bd-9aaa-4b79dddee4b9",
+        "98a12e31-8470-5ba5-82cf-7bb4b95da44f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1530,11 +1551,18 @@
       "reference": "1.4",
       "title": "Πολλαπλασιασμός πολυωνύμων",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "cc3ac8ce-f51b-55d9-8a75-23da612afd6a",
+        "f234cb41-4dd1-5971-8646-34854a9de370"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1542,11 +1570,18 @@
       "reference": "1.5",
       "title": "Αξιοσημείωτες ταυτότητες",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "69eba981-d2ce-5e1a-bb4b-9173a82e3b7c",
+        "bc10f5b0-7b63-5d7b-8fe0-0b45b4636d89"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1554,11 +1589,18 @@
       "reference": "1.6",
       "title": "Παραγοντοποίηση αλγεβρικών παραστάσεων",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a77f8d28-5921-532b-b965-8be61d6b198e",
+        "feff27de-a857-5577-883c-786ab0cbbbb2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1566,11 +1608,18 @@
       "reference": "1.8",
       "title": "Ε.Κ.Π. και Μ.Κ.Δ. ακεραίων αλγεβρικών παραστάσεων",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7a44290d-6a8e-5f82-904a-f34d387f725f",
+        "e721726e-2bd2-5fca-b71b-59d5f4dd3394"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1578,11 +1627,18 @@
       "reference": "1.9",
       "title": "Ρητές αλγεβρικές παραστάσεις",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3589e88c-059d-57ff-b534-a80b0380f8ed",
+        "7f631455-c6cd-5663-8e07-d98fd5fe6fd5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1590,11 +1646,18 @@
       "reference": "1.10",
       "title": "Πράξεις ρητών παραστάσεων",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "21587f8e-4734-5107-9aed-e38e46cbb300",
+        "c1b93ac6-88f3-51dd-abee-75993e8cf9fb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1602,11 +1665,18 @@
       "reference": "2.1",
       "title": "Η εξίσωση αx + β = 0",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "34ff6f1b-d5f2-57f1-ae8e-bf38949c15f0",
+        "51199c09-f46b-5291-af5e-cb82b4c4a3c2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1614,11 +1684,18 @@
       "reference": "2.2",
       "title": "Εξισώσεις δευτέρου βαθμού",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2dd7047e-f975-56d4-8bf8-27645a5dbda5",
+        "f3ec4798-13d4-55e6-801c-4be422476a00"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1626,11 +1703,18 @@
       "reference": "2.3",
       "title": "Προβλήματα εξισώσεων δευτέρου βαθμού",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "ba22b67e-e5d0-51c7-b57b-abbe5c0a957d",
+        "e5e6229b-62ab-581c-bafa-d208f9b489a9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1638,11 +1722,18 @@
       "reference": "2.5",
       "title": "Ανισότητες - Ανισώσεις με έναν άγνωστο",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "52b0d2b2-a557-55ae-af7c-bfe3db828a7c",
+        "9b143615-60db-5f64-a2b3-f5956400f09a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1650,11 +1741,18 @@
       "reference": "3.1",
       "title": "Η έννοια της γραμμικής εξίσωσης",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "01e2864b-d648-5213-9d34-26eaa4d12ee8",
+        "ff272cb0-679b-5dd4-97e0-1974f54e876c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1662,11 +1760,18 @@
       "reference": "3.2",
       "title": "Η έννοια του γραμμικού συστήματος και η γραφική επίλυσή του",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "51085108-fa38-58fe-8c93-3a0666df2bfc",
+        "6062b379-327a-5d13-aa7d-d97c90f10575"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1674,11 +1779,18 @@
       "reference": "3.3",
       "title": "Αλγεβρική επίλυση γραμμικού συστήματος",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "20dfecce-5d59-5458-867a-89830a0861f5",
+        "3e38f2ee-a5ea-57a7-a699-789b1bb573f0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1686,11 +1798,18 @@
       "reference": "5.1",
       "title": "Σύνολα",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "05c284b9-2a91-5c70-a394-cabced8a28f5",
+        "c474144f-5d70-5bd1-bf85-4d6fdb2af035"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1698,11 +1817,18 @@
       "reference": "5.2",
       "title": "Δειγματικός χώρος – Ενδεχόμενα",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "08bb4c61-4cbc-5464-be42-31c431909305",
+        "62c782ad-0b03-5193-9435-e98ffdeff363"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -1710,11 +1836,18 @@
       "reference": "5.3",
       "title": "Έννοια της πιθανότητας",
       "course_key": "gym-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "320d04be-209b-5fab-925c-90ed0f824b44",
+        "43f94b78-17d2-5d5e-bd82-51c01999654c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {

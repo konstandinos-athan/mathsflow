@@ -1,0 +1,5589 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gym-c-algebra-v1",
+  "course": "gym-c-algebra",
+  "authored_on": "2026-10-25",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "1.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 2⁻³.",
+        "choices": [
+          "1/8",
+          "−8",
+          "8",
+          "−1/8"
+        ],
+        "answer": "1/8",
+        "difficulty": "easy",
+        "hint": "Ο αρνητικός εκθέτης δίνει αντίστροφο, όχι αρνητικό πρόσημο.",
+        "solution": "2⁻³=1/2³=1/8.",
+        "skill": "Αρνητικός ακέραιος εκθέτης",
+        "objective_ids": [
+          "6514d52b-978e-5596-a6b3-24a75b1b3104"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(2**3)"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόση είναι η τετραγωνική ρίζα του (−9)²;",
+        "choices": [
+          "9",
+          "−9",
+          "81",
+          "−81"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Η τετραγωνική ρίζα είναι μη αρνητική.",
+        "solution": "√((−9)²)=√81=9. Γενικά √(x²) είναι η απόλυτη τιμή του x.",
+        "skill": "Ρίζα τετραγώνου αρνητικού αριθμού",
+        "objective_ids": [
+          "6514d52b-978e-5596-a6b3-24a75b1b3104"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "(-9)**2"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε √12 × √3.",
+        "choices": [
+          "6",
+          "√15",
+          "36",
+          "15"
+        ],
+        "answer": "6",
+        "difficulty": "medium",
+        "hint": "Για μη αρνητικούς αριθμούς μπορείς να πολλαπλασιάσεις τα υπόρριζα.",
+        "solution": "√12×√3=√36=6. Δεν προσθέτουμε τα υπόρριζα.",
+        "skill": "Γινόμενο τετραγωνικών ριζών",
+        "objective_ids": [
+          "6514d52b-978e-5596-a6b3-24a75b1b3104"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "6",
+              "correct": true,
+              "reason": "√12×√3=√36=6. Δεν προσθέτουμε τα υπόρριζα."
+            },
+            {
+              "choice": "√15",
+              "correct": false,
+              "reason": "Η πρόσθεση των υπορρίζων δεν υπολογίζει το γινόμενο."
+            },
+            {
+              "choice": "36",
+              "correct": false,
+              "reason": "Το 36 είναι το υπόρριζο πριν πάρουμε τη ρίζα."
+            },
+            {
+              "choice": "15",
+              "correct": false,
+              "reason": "Ο αριθμός 15 είναι άθροισμα υπορρίζων και όχι το ζητούμενο γινόμενο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια παράσταση ισούται με 3√2+5√2;",
+        "choices": [
+          "8√2",
+          "8√4",
+          "15√2",
+          "8√8"
+        ],
+        "answer": "8√2",
+        "difficulty": "medium",
+        "hint": "Συγκέντρωσε τις όμοιες ρίζες προσθέτοντας τους συντελεστές.",
+        "solution": "3√2+5√2=(3+5)√2=8√2. Το υπόρριζο παραμένει 2.",
+        "skill": "Πρόσθεση όμοιων ριζών",
+        "objective_ids": [
+          "031e5d46-a62e-564e-ba31-fc3e8619ccae"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "8√2",
+              "correct": true,
+              "reason": "3√2+5√2=(3+5)√2=8√2. Το υπόρριζο παραμένει 2."
+            },
+            {
+              "choice": "8√4",
+              "correct": false,
+              "reason": "Τα υπόρριζα δεν προστίθενται όταν οι ρίζες είναι όμοιες."
+            },
+            {
+              "choice": "15√2",
+              "correct": false,
+              "reason": "Η πρόσθεση απαιτεί άθροισμα, όχι γινόμενο συντελεστών."
+            },
+            {
+              "choice": "8√8",
+              "correct": false,
+              "reason": "Η πρόσθεση συντελεστών δεν μεταβάλλει το υπόρριζο σε 8."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (3/2)⁻² + (−2)³.",
+        "choices": [
+          "−68/9",
+          "76/9",
+          "−23/4",
+          "−4/9"
+        ],
+        "answer": "−68/9",
+        "difficulty": "hard",
+        "hint": "Αντέστρεψε την κλασματική βάση και κράτησε το πρόσημο της περιττής δύναμης.",
+        "solution": "(3/2)⁻²=4/9 και (−2)³=−8. Το άθροισμα είναι 4/9−72/9=−68/9.",
+        "skill": "Σύνθεση δυνάμεων με ρητές βάσεις",
+        "objective_ids": [
+          "031e5d46-a62e-564e-ba31-fc3e8619ccae"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/((3/2)**2)+(-2)**3"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια ισότητα είναι σωστή;",
+        "choices": [
+          "√(9+16)=5",
+          "√(9+16)=7",
+          "√9+√16=5",
+          "√(9+16)=25"
+        ],
+        "answer": "√(9+16)=5",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε χωριστά τη ρίζα του αθροίσματος και το άθροισμα των ριζών.",
+        "solution": "√(9+16)=√25=5, ενώ √9+√16=3+4=7. Η ρίζα δεν επιμερίζεται γενικά στην πρόσθεση.",
+        "skill": "Αντιπαράδειγμα σε λανθασμένη επιμεριστικότητα ρίζας",
+        "objective_ids": [
+          "031e5d46-a62e-564e-ba31-fc3e8619ccae"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "√(9+16)=5",
+              "correct": true,
+              "reason": "√(9+16)=√25=5, ενώ √9+√16=3+4=7. Η ρίζα δεν επιμερίζεται γενικά στην πρόσθεση."
+            },
+            {
+              "choice": "√(9+16)=7",
+              "correct": false,
+              "reason": "Το 7 είναι άθροισμα των δύο χωριστών ριζών."
+            },
+            {
+              "choice": "√9+√16=5",
+              "correct": false,
+              "reason": "Το άθροισμα των χωριστών ριζών είναι 7 και όχι 5."
+            },
+            {
+              "choice": "√(9+16)=25",
+              "correct": false,
+              "reason": "Το 25 είναι το υπόρριζο και όχι η ρίζα του."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο συνολικός βαθμός του μονωνύμου −4x³y²;",
+        "choices": [
+          "5",
+          "3",
+          "2",
+          "−4"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Πρόσθεσε τους εκθέτες των μεταβλητών.",
+        "solution": "Ο συνολικός βαθμός είναι 3+2=5. Ο συντελεστής −4 δεν προστίθεται στους εκθέτες.",
+        "skill": "Συνολικός βαθμός μονωνύμου",
+        "objective_ids": [
+          "530d96e2-ab27-5dcf-bb0a-dfc4e8e2bc32"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+2"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο μονώνυμο είναι όμοιο με το 3x²y;",
+        "choices": [
+          "−7x²y",
+          "3xy²",
+          "3x²",
+          "3xy"
+        ],
+        "answer": "−7x²y",
+        "difficulty": "easy",
+        "hint": "Όμοια μονώνυμα έχουν ακριβώς το ίδιο κύριο μέρος.",
+        "solution": "Το −7x²y έχει το ίδιο κύριο μέρος x²y. Οι συντελεστές επιτρέπεται να διαφέρουν.",
+        "skill": "Αναγνώριση όμοιων μονωνύμων",
+        "objective_ids": [
+          "530d96e2-ab27-5dcf-bb0a-dfc4e8e2bc32"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−7x²y",
+              "correct": true,
+              "reason": "Το −7x²y έχει το ίδιο κύριο μέρος x²y. Οι συντελεστές επιτρέπεται να διαφέρουν."
+            },
+            {
+              "choice": "3xy²",
+              "correct": false,
+              "reason": "Οι εκθέτες των x και y έχουν ανταλλαχθεί."
+            },
+            {
+              "choice": "3x²",
+              "correct": false,
+              "reason": "Απουσιάζει ο παράγοντας y."
+            },
+            {
+              "choice": "3xy",
+              "correct": false,
+              "reason": "Ο εκθέτης του x είναι 1 αντί για 2."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το άθροισμα 5x²−8x²;",
+        "choices": [
+          "−3x²",
+          "−3x⁴",
+          "13x²",
+          "−40x⁴"
+        ],
+        "answer": "−3x²",
+        "difficulty": "medium",
+        "hint": "Πρόσθεσε τους συντελεστές κρατώντας το κύριο μέρος.",
+        "solution": "5x²−8x²=(5−8)x²=−3x².",
+        "skill": "Αναγωγή όμοιων μονωνύμων",
+        "objective_ids": [
+          "530d96e2-ab27-5dcf-bb0a-dfc4e8e2bc32"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−3x²",
+              "correct": true,
+              "reason": "5x²−8x²=(5−8)x²=−3x²."
+            },
+            {
+              "choice": "−3x⁴",
+              "correct": false,
+              "reason": "Στην πρόσθεση δεν προστίθενται οι εκθέτες."
+            },
+            {
+              "choice": "13x²",
+              "correct": false,
+              "reason": "Το δεύτερο μονώνυμο έχει αρνητικό συντελεστή."
+            },
+            {
+              "choice": "−40x⁴",
+              "correct": false,
+              "reason": "Το γινόμενο συντελεστών και δυνάμεων αφορά πολλαπλασιασμό."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το γινόμενο (−2x²y)(3xy³);",
+        "choices": [
+          "−6x³y⁴",
+          "−6x²y³",
+          "6x³y⁴",
+          "−6x²y⁴"
+        ],
+        "answer": "−6x³y⁴",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε συντελεστές και πρόσθεσε εκθέτες κάθε ίδιας βάσης.",
+        "solution": "(−2)×3=−6, x²×x=x³ και y×y³=y⁴. Άρα το γινόμενο είναι −6x³y⁴.",
+        "skill": "Πολλαπλασιασμός μονωνύμων",
+        "objective_ids": [
+          "c5ffc49f-f332-5625-b21d-83708d9be960"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−6x³y⁴",
+              "correct": true,
+              "reason": "(−2)×3=−6, x²×x=x³ και y×y³=y⁴. Άρα το γινόμενο είναι −6x³y⁴."
+            },
+            {
+              "choice": "−6x²y³",
+              "correct": false,
+              "reason": "Πρέπει να προστεθούν οι εκθέτες κάθε μεταβλητής."
+            },
+            {
+              "choice": "6x³y⁴",
+              "correct": false,
+              "reason": "Το γινόμενο αρνητικού και θετικού είναι αρνητικό."
+            },
+            {
+              "choice": "−6x²y⁴",
+              "correct": false,
+              "reason": "Ο εκθέτης του x είναι 2+1=3 και όχι 2."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠0 και y≠0, ποιο είναι το πηλίκο 12x³y² : (−3xy);",
+        "choices": [
+          "−4x²y",
+          "−4x³y²",
+          "4x²y",
+          "−4x⁴y³"
+        ],
+        "answer": "−4x²y",
+        "difficulty": "hard",
+        "hint": "Διαίρεσε συντελεστές και αφαίρεσε εκθέτες ίδιας βάσης.",
+        "solution": "12:(−3)=−4, x³:x=x² και y²:y=y. Άρα το πηλίκο είναι −4x²y, με τους αρχικούς περιορισμούς.",
+        "skill": "Διαίρεση μονωνύμων με περιορισμούς",
+        "objective_ids": [
+          "c5ffc49f-f332-5625-b21d-83708d9be960"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−4x²y",
+              "correct": true,
+              "reason": "12:(−3)=−4, x³:x=x² και y²:y=y. Άρα το πηλίκο είναι −4x²y, με τους αρχικούς περιορισμούς."
+            },
+            {
+              "choice": "−4x³y²",
+              "correct": false,
+              "reason": "Η διαίρεση αλλάζει και τους εκθέτες."
+            },
+            {
+              "choice": "4x²y",
+              "correct": false,
+              "reason": "Το πρόσημο του πηλίκου είναι αρνητικό."
+            },
+            {
+              "choice": "−4x⁴y³",
+              "correct": false,
+              "reason": "Στη διαίρεση αφαιρούνται και δεν προστίθενται οι εκθέτες."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Βρες την τιμή του (−3x²y)(2xy²) για x=−1 και y=2.",
+        "choices": [
+          "48",
+          "−48",
+          "24",
+          "−24"
+        ],
+        "answer": "48",
+        "difficulty": "hard",
+        "hint": "Απλοποίησε πρώτα το γινόμενο και μετά αντικατάστησε.",
+        "solution": "Το γινόμενο είναι −6x³y³. Για x=−1, y=2 γίνεται −6×(−1)×8=48.",
+        "skill": "Τιμή γινομένου μονωνύμων",
+        "objective_ids": [
+          "c5ffc49f-f332-5625-b21d-83708d9be960"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-3*(-1)**2*2)*(2*(-1)*2**2)"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο βαθμός του πολυωνύμου 4x³−2x+7;",
+        "choices": [
+          "3",
+          "4",
+          "7",
+          "1"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Βρες τον μεγαλύτερο εκθέτη με μη μηδενικό συντελεστή.",
+        "solution": "Ο όρος 4x³ έχει βαθμό 3, μεγαλύτερο από τους βαθμούς 1 και 0 των άλλων όρων.",
+        "skill": "Βαθμός πολυωνύμου μίας μεταβλητής",
+        "objective_ids": [
+          "98a12e31-8470-5ba5-82cf-7bb4b95da44f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "practice_note": "Εξάσκηση σε πράξεις πολυωνύμων · δεν περιλαμβάνονται ασκήσεις ισότητας πολυωνύμων με σύγκριση συντελεστών."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε P(−2), αν P(x)=x²−3x+1.",
+        "choices": [
+          "11",
+          "−1",
+          "3",
+          "−9"
+        ],
+        "answer": "11",
+        "difficulty": "easy",
+        "hint": "Βάλε την αρνητική τιμή σε παρενθέσεις.",
+        "solution": "P(−2)=4+6+1=11.",
+        "skill": "Αριθμητική τιμή πολυωνύμου",
+        "objective_ids": [
+          "98a12e31-8470-5ba5-82cf-7bb4b95da44f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-2)**2-3*(-2)+1"
+        },
+        "practice_note": "Εξάσκηση σε πράξεις πολυωνύμων · δεν περιλαμβάνονται ασκήσεις ισότητας πολυωνύμων με σύγκριση συντελεστών."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το άθροισμα (2x²+3x−1)+(x²−5x+4);",
+        "choices": [
+          "3x²−2x+3",
+          "3x²+8x+3",
+          "2x⁴−2x+3",
+          "3x²−2x−5"
+        ],
+        "answer": "3x²−2x+3",
+        "difficulty": "medium",
+        "hint": "Συγκέντρωσε χωριστά τετραγωνικούς, γραμμικούς και σταθερούς όρους.",
+        "solution": "(2+1)x²+(3−5)x+(−1+4)=3x²−2x+3.",
+        "skill": "Πρόσθεση πολυωνύμων",
+        "objective_ids": [
+          "98a12e31-8470-5ba5-82cf-7bb4b95da44f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3x²−2x+3",
+              "correct": true,
+              "reason": "(2+1)x²+(3−5)x+(−1+4)=3x²−2x+3."
+            },
+            {
+              "choice": "3x²+8x+3",
+              "correct": false,
+              "reason": "Ο συντελεστής του x είναι 3−5=−2."
+            },
+            {
+              "choice": "2x⁴−2x+3",
+              "correct": false,
+              "reason": "Η πρόσθεση δεν πολλαπλασιάζει τις δυνάμεις."
+            },
+            {
+              "choice": "3x²−2x−5",
+              "correct": false,
+              "reason": "Ο σταθερός όρος είναι −1+4=3."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση σε πράξεις πολυωνύμων · δεν περιλαμβάνονται ασκήσεις ισότητας πολυωνύμων με σύγκριση συντελεστών."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διαφορά (3x²−x+2)−(x²+4x−5);",
+        "choices": [
+          "2x²−5x+7",
+          "2x²+3x−3",
+          "4x²+3x−3",
+          "2x²−5x−3"
+        ],
+        "answer": "2x²−5x+7",
+        "difficulty": "medium",
+        "hint": "Το αρνητικό πριν από την παρένθεση αλλάζει όλα τα πρόσημά της.",
+        "solution": "3x²−x+2−x²−4x+5=2x²−5x+7.",
+        "skill": "Αφαίρεση ολόκληρου πολυωνύμου",
+        "objective_ids": [
+          "444f0437-189c-50bd-9aaa-4b79dddee4b9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2x²−5x+7",
+              "correct": true,
+              "reason": "3x²−x+2−x²−4x+5=2x²−5x+7."
+            },
+            {
+              "choice": "2x²+3x−3",
+              "correct": false,
+              "reason": "Τα πρόσημα όλων των όρων της δεύτερης παρένθεσης αλλάζουν."
+            },
+            {
+              "choice": "4x²+3x−3",
+              "correct": false,
+              "reason": "Ο συντελεστής του x² είναι 3−1=2."
+            },
+            {
+              "choice": "2x²−5x−3",
+              "correct": false,
+              "reason": "Ο σταθερός όρος είναι 2−(−5)=7."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση σε πράξεις πολυωνύμων · δεν περιλαμβάνονται ασκήσεις ισότητας πολυωνύμων με σύγκριση συντελεστών."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Μετά την αναγωγή του 5x³+2x²−5x³−7x+1, ποιος είναι ο βαθμός του πολυωνύμου;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "0"
+        ],
+        "answer": "2",
+        "difficulty": "hard",
+        "hint": "Οι όροι τρίτου βαθμού μπορεί να μηδενιστούν πριν βρεις βαθμό.",
+        "solution": "Οι 5x³ και −5x³ απαλείφονται. Απομένει 2x²−7x+1, βαθμού 2.",
+        "skill": "Βαθμός μετά από απαλοιφή μεγιστοβάθμιων όρων",
+        "objective_ids": [
+          "444f0437-189c-50bd-9aaa-4b79dddee4b9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "practice_note": "Εξάσκηση σε πράξεις πολυωνύμων · δεν περιλαμβάνονται ασκήσεις ισότητας πολυωνύμων με σύγκριση συντελεστών."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν P(x)=2x²−x και Q(x)=x²+3, υπολόγισε P(−1)−2Q(−1).",
+        "choices": [
+          "−5",
+          "5",
+          "−1",
+          "11"
+        ],
+        "answer": "−5",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε χωριστά P και Q και κράτησε τον συντελεστή 2.",
+        "solution": "P(−1)=3 και Q(−1)=4. Άρα P(−1)−2Q(−1)=3−8=−5.",
+        "skill": "Συνδυασμός τιμών δύο πολυωνύμων",
+        "objective_ids": [
+          "444f0437-189c-50bd-9aaa-4b79dddee4b9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2*(-1)**2-(-1))-2*((-1)**2+3)"
+        },
+        "practice_note": "Εξάσκηση σε πράξεις πολυωνύμων · δεν περιλαμβάνονται ασκήσεις ισότητας πολυωνύμων με σύγκριση συντελεστών."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ανάπτυγμα του 3x(x+2);",
+        "choices": [
+          "3x²+6x",
+          "3x²+2",
+          "3x+6",
+          "3x²+6"
+        ],
+        "answer": "3x²+6x",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε το 3x με κάθε όρο της παρένθεσης.",
+        "solution": "3x×x+3x×2=3x²+6x.",
+        "skill": "Επιμεριστική μονωνύμου σε διώνυμο",
+        "objective_ids": [
+          "cc3ac8ce-f51b-55d9-8a75-23da612afd6a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3x²+6x",
+              "correct": true,
+              "reason": "3x×x+3x×2=3x²+6x."
+            },
+            {
+              "choice": "3x²+2",
+              "correct": false,
+              "reason": "Ο δεύτερος όρος πρέπει να πολλαπλασιαστεί με ολόκληρο το 3x."
+            },
+            {
+              "choice": "3x+6",
+              "correct": false,
+              "reason": "Το γινόμενο x×x δίνει x²."
+            },
+            {
+              "choice": "3x²+6",
+              "correct": false,
+              "reason": "Ο δεύτερος όρος περιέχει τον παράγοντα x."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Βρες την τιμή του (x+3)(x+4) για x=2.",
+        "choices": [
+          "30",
+          "20",
+          "11",
+          "24"
+        ],
+        "answer": "30",
+        "difficulty": "easy",
+        "hint": "Αντικατάστησε πρώτα ή ανέπτυξε και έλεγξε.",
+        "solution": "Για x=2, (2+3)(2+4)=5×6=30.",
+        "skill": "Τιμή γινομένου δύο διωνύμων",
+        "objective_ids": [
+          "cc3ac8ce-f51b-55d9-8a75-23da612afd6a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+3)*(2+4)"
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ανάπτυγμα του (x+2)(x+5);",
+        "choices": [
+          "x²+7x+10",
+          "x²+10",
+          "x²+3x+10",
+          "2x²+7x+10"
+        ],
+        "answer": "x²+7x+10",
+        "difficulty": "medium",
+        "hint": "Κάθε όρος του πρώτου πολλαπλασιάζεται με κάθε όρο του δεύτερου.",
+        "solution": "x²+5x+2x+10=x²+7x+10.",
+        "skill": "Πλήρες ανάπτυγμα γινομένου διωνύμων",
+        "objective_ids": [
+          "cc3ac8ce-f51b-55d9-8a75-23da612afd6a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x²+7x+10",
+              "correct": true,
+              "reason": "x²+5x+2x+10=x²+7x+10."
+            },
+            {
+              "choice": "x²+10",
+              "correct": false,
+              "reason": "Παραλείπει και τους δύο μεικτούς όρους."
+            },
+            {
+              "choice": "x²+3x+10",
+              "correct": false,
+              "reason": "Ο γραμμικός συντελεστής είναι 5+2=7."
+            },
+            {
+              "choice": "2x²+7x+10",
+              "correct": false,
+              "reason": "Ο συντελεστής του x² είναι 1×1=1."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ανάπτυγμα του (2x−3)(x+4);",
+        "choices": [
+          "2x²+5x−12",
+          "2x²+11x−12",
+          "2x²−12",
+          "2x²+5x+12"
+        ],
+        "answer": "2x²+5x−12",
+        "difficulty": "medium",
+        "hint": "Πρόσεξε το πρόσημο στον πολλαπλασιασμό του −3.",
+        "solution": "2x²+8x−3x−12=2x²+5x−12.",
+        "skill": "Γινόμενο διωνύμων με αρνητικό όρο",
+        "objective_ids": [
+          "f234cb41-4dd1-5971-8646-34854a9de370"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2x²+5x−12",
+              "correct": true,
+              "reason": "2x²+8x−3x−12=2x²+5x−12."
+            },
+            {
+              "choice": "2x²+11x−12",
+              "correct": false,
+              "reason": "Ο όρος −3x αφαιρείται από το 8x."
+            },
+            {
+              "choice": "2x²−12",
+              "correct": false,
+              "reason": "Δεν επιτρέπεται παράλειψη των μεικτών όρων."
+            },
+            {
+              "choice": "2x²+5x+12",
+              "correct": false,
+              "reason": "Το γινόμενο −3×4 είναι −12."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο χωρισμένο ορθογώνιο του σχήματος οι πλευρές είναι x+3 και x+2, με x>0. Για x=4, πόσο είναι το συνολικό εμβαδόν σε τετραγωνικές μονάδες;",
+        "choices": [
+          "42",
+          "30",
+          "20",
+          "84"
+        ],
+        "answer": "42",
+        "difficulty": "hard",
+        "hint": "Πρόσθεσε τα τέσσερα επιμέρους εμβαδά ή πολλαπλασίασε ολόκληρες τις πλευρές.",
+        "solution": "Ε=x²+3x+2x+6. Για x=4 είναι 16+12+8+6=42, όσο και 7×6.",
+        "skill": "Γεωμετρική ερμηνεία γινομένου διωνύμων",
+        "objective_ids": [
+          "f234cb41-4dd1-5971-8646-34854a9de370"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(4+3)*(4+2)"
+        },
+        "image": {
+          "filename": "images/questions/gym-c-product-area.svg",
+          "alt": "Ορθογώνιο πλευρών x+3 και x+2, για x>0, χωρισμένο σε τέσσερα μέρη με εμβαδά x², 3x, 2x και 6."
+        }
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ανάπτυγμα του (x−2)(x²+3x+4) με απευθείας επιμεριστική;",
+        "choices": [
+          "x³+x²−2x−8",
+          "x³−8",
+          "x³+x²+2x−8",
+          "x³+x²−2x+8"
+        ],
+        "answer": "x³+x²−2x−8",
+        "difficulty": "hard",
+        "hint": "Γράψε τα έξι γινόμενα και έπειτα συγκέντρωσε όμοιους όρους.",
+        "solution": "x³+3x²+4x−2x²−6x−8=x³+x²−2x−8. Χρησιμοποιούμε επιμεριστική και αναγωγή.",
+        "skill": "Επιμεριστική με τριώνυμο και απαλοιφές",
+        "objective_ids": [
+          "f234cb41-4dd1-5971-8646-34854a9de370"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 1,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x³+x²−2x−8",
+              "correct": true,
+              "reason": "x³+3x²+4x−2x²−6x−8=x³+x²−2x−8. Χρησιμοποιούμε επιμεριστική και αναγωγή."
+            },
+            {
+              "choice": "x³−8",
+              "correct": false,
+              "reason": "Οι όροι δεύτερου και πρώτου βαθμού δεν απαλείφονται πλήρως."
+            },
+            {
+              "choice": "x³+x²+2x−8",
+              "correct": false,
+              "reason": "Οι γραμμικοί όροι δίνουν 4x−6x=−2x."
+            },
+            {
+              "choice": "x³+x²−2x+8",
+              "correct": false,
+              "reason": "Ο σταθερός όρος είναι (−2)×4=−8."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η ανάπτυξη του (x+3)²;",
+        "choices": [
+          "x²+6x+9",
+          "x²+9",
+          "x²+3x+9",
+          "x²+6x+3"
+        ],
+        "answer": "x²+6x+9",
+        "difficulty": "easy",
+        "hint": "Το τετράγωνο αθροίσματος έχει και διπλάσιο γινόμενο.",
+        "solution": "(x+3)²=x²+2×x×3+9=x²+6x+9.",
+        "skill": "Τετράγωνο αθροίσματος",
+        "objective_ids": [
+          "69eba981-d2ce-5e1a-bb4b-9173a82e3b7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x²+6x+9",
+              "correct": true,
+              "reason": "(x+3)²=x²+2×x×3+9=x²+6x+9."
+            },
+            {
+              "choice": "x²+9",
+              "correct": false,
+              "reason": "Λείπει ο μεικτός όρος 6x."
+            },
+            {
+              "choice": "x²+3x+9",
+              "correct": false,
+              "reason": "Ο μεικτός όρος είναι διπλάσιο γινόμενο."
+            },
+            {
+              "choice": "x²+6x+3",
+              "correct": false,
+              "reason": "Ο σταθερός όρος είναι 3²=9."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 101² με το τετράγωνο του 100+1.",
+        "choices": [
+          "10201",
+          "10001",
+          "10101",
+          "10200"
+        ],
+        "answer": "10201",
+        "difficulty": "easy",
+        "hint": "Χρησιμοποίησε 100²+2×100×1+1².",
+        "solution": "101²=10000+200+1=10201.",
+        "skill": "Αριθμητική εφαρμογή ταυτότητας",
+        "objective_ids": [
+          "69eba981-d2ce-5e1a-bb4b-9173a82e3b7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(100+1)**2"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η ανάπτυξη του (2x−5)²;",
+        "choices": [
+          "4x²−20x+25",
+          "4x²−25",
+          "4x²−10x+25",
+          "4x²+20x+25"
+        ],
+        "answer": "4x²−20x+25",
+        "difficulty": "medium",
+        "hint": "Στο τετράγωνο διαφοράς ο μεικτός όρος είναι αρνητικός.",
+        "solution": "(2x−5)²=(2x)²−2×2x×5+5²=4x²−20x+25.",
+        "skill": "Τετράγωνο διαφοράς με συντελεστή",
+        "objective_ids": [
+          "69eba981-d2ce-5e1a-bb4b-9173a82e3b7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "4x²−20x+25",
+              "correct": true,
+              "reason": "(2x−5)²=(2x)²−2×2x×5+5²=4x²−20x+25."
+            },
+            {
+              "choice": "4x²−25",
+              "correct": false,
+              "reason": "Το τετράγωνο διαφοράς δεν είναι διαφορά τετραγώνων."
+            },
+            {
+              "choice": "4x²−10x+25",
+              "correct": false,
+              "reason": "Ο μεικτός όρος περιλαμβάνει και τον συντελεστή 2 της μεταβλητής."
+            },
+            {
+              "choice": "4x²+20x+25",
+              "correct": false,
+              "reason": "Το πρόσημο του μεικτού όρου είναι αρνητικό."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το γινόμενο (3x+2)(3x−2);",
+        "choices": [
+          "9x²−4",
+          "9x²+4",
+          "6x²−4",
+          "9x²−12x−4"
+        ],
+        "answer": "9x²−4",
+        "difficulty": "medium",
+        "hint": "Άθροισμα επί αντίστοιχη διαφορά δίνει διαφορά τετραγώνων.",
+        "solution": "(3x+2)(3x−2)=(3x)²−2²=9x²−4.",
+        "skill": "Γινόμενο αθροίσματος και διαφοράς",
+        "objective_ids": [
+          "bc10f5b0-7b63-5d7b-8fe0-0b45b4636d89"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "9x²−4",
+              "correct": true,
+              "reason": "(3x+2)(3x−2)=(3x)²−2²=9x²−4."
+            },
+            {
+              "choice": "9x²+4",
+              "correct": false,
+              "reason": "Ο σταθερός όρος έχει αρνητικό πρόσημο."
+            },
+            {
+              "choice": "6x²−4",
+              "correct": false,
+              "reason": "Το τετράγωνο του 3x είναι 9x²."
+            },
+            {
+              "choice": "9x²−12x−4",
+              "correct": false,
+              "reason": "Οι μεικτοί όροι είναι αντίθετοι και απαλείφονται."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο συντελεστής του x² στο ανάπτυγμα του (x+2)³;",
+        "choices": [
+          "6",
+          "3",
+          "4",
+          "8"
+        ],
+        "answer": "6",
+        "difficulty": "hard",
+        "hint": "Στον κύβο αθροίσματος ο όρος x² είναι 3×x²×2.",
+        "solution": "(x+2)³=x³+6x²+12x+8. Ο ζητούμενος συντελεστής είναι 6.",
+        "skill": "Κύβος αθροίσματος και συντελεστής όρου",
+        "objective_ids": [
+          "bc10f5b0-7b63-5d7b-8fe0-0b45b4636d89"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2"
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (7+3)²−(7−3)².",
+        "choices": [
+          "84",
+          "0",
+          "58",
+          "100"
+        ],
+        "answer": "84",
+        "difficulty": "hard",
+        "hint": "Ανέπτυξε τα τετράγωνα και παρατήρησε τις απαλοιφές.",
+        "solution": "(α+β)²−(α−β)²=4αβ. Για α=7, β=3 προκύπτει 4×7×3=84.",
+        "skill": "Σύνθεση ταυτοτήτων τετραγώνου",
+        "objective_ids": [
+          "bc10f5b0-7b63-5d7b-8fe0-0b45b4636d89"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(7+3)**2-(7-3)**2"
+        }
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η παραγοντοποίηση του 6x+12;",
+        "choices": [
+          "6(x+2)",
+          "6(x+12)",
+          "x(6+12)",
+          "6(x−2)"
+        ],
+        "answer": "6(x+2)",
+        "difficulty": "easy",
+        "hint": "Βγάλε κοινό αριθμητικό παράγοντα από όλους τους όρους.",
+        "solution": "6x+12=6(x+2), διότι 12:6=2.",
+        "skill": "Κοινός αριθμητικός παράγοντας",
+        "objective_ids": [
+          "feff27de-a857-5577-883c-786ab0cbbbb2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.6"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "6(x+2)",
+              "correct": true,
+              "reason": "6x+12=6(x+2), διότι 12:6=2."
+            },
+            {
+              "choice": "6(x+12)",
+              "correct": false,
+              "reason": "Το 12 πρέπει να διαιρεθεί με τον κοινό παράγοντα."
+            },
+            {
+              "choice": "x(6+12)",
+              "correct": false,
+              "reason": "Ο σταθερός όρος 12 δεν έχει παράγοντα x."
+            },
+            {
+              "choice": "6(x−2)",
+              "correct": false,
+              "reason": "Ο σταθερός όρος της αρχικής παράστασης είναι θετικός."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η παραγοντοποίηση του x²−25;",
+        "choices": [
+          "(x−5)(x+5)",
+          "(x−5)²",
+          "(x−25)(x+25)",
+          "x(x−25)"
+        ],
+        "answer": "(x−5)(x+5)",
+        "difficulty": "easy",
+        "hint": "Αναγνώρισε διαφορά δύο τετραγώνων.",
+        "solution": "x²−25=x²−5²=(x−5)(x+5).",
+        "skill": "Παραγοντοποίηση διαφοράς τετραγώνων",
+        "objective_ids": [
+          "feff27de-a857-5577-883c-786ab0cbbbb2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.6"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(x−5)(x+5)",
+              "correct": true,
+              "reason": "x²−25=x²−5²=(x−5)(x+5)."
+            },
+            {
+              "choice": "(x−5)²",
+              "correct": false,
+              "reason": "Το τετράγωνο διαφοράς θα περιείχε γραμμικό όρο."
+            },
+            {
+              "choice": "(x−25)(x+25)",
+              "correct": false,
+              "reason": "Το 25 είναι τετράγωνο του 5 και όχι η ίδια η ρίζα."
+            },
+            {
+              "choice": "x(x−25)",
+              "correct": false,
+              "reason": "Ο σταθερός όρος δεν περιέχει παράγοντα x."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια παραγοντοποίηση δίνει το 3x²y−6xy²;",
+        "choices": [
+          "3xy(x−2y)",
+          "3xy(x−2)",
+          "3x(x−2y)",
+          "3xy(x+2y)"
+        ],
+        "answer": "3xy(x−2y)",
+        "difficulty": "medium",
+        "hint": "Βρες κοινό αριθμητικό και κοινό αλγεβρικό παράγοντα.",
+        "solution": "Ο κοινός παράγοντας είναι 3xy. Οι υπόλοιποι παράγοντες είναι x και −2y, άρα 3xy(x−2y).",
+        "skill": "Κοινός μονωνυμικός παράγοντας",
+        "objective_ids": [
+          "feff27de-a857-5577-883c-786ab0cbbbb2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.6"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3xy(x−2y)",
+              "correct": true,
+              "reason": "Ο κοινός παράγοντας είναι 3xy. Οι υπόλοιποι παράγοντες είναι x και −2y, άρα 3xy(x−2y)."
+            },
+            {
+              "choice": "3xy(x−2)",
+              "correct": false,
+              "reason": "Στον δεύτερο όρο απομένει ένας παράγοντας y."
+            },
+            {
+              "choice": "3x(x−2y)",
+              "correct": false,
+              "reason": "Χάνεται ο κοινός παράγοντας y από τον πρώτο όρο."
+            },
+            {
+              "choice": "3xy(x+2y)",
+              "correct": false,
+              "reason": "Το αρνητικό πρόσημο του δεύτερου όρου πρέπει να διατηρηθεί."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η παραγοντοποίηση του x²−8x+16 ως τέλειου τετραγώνου;",
+        "choices": [
+          "(x−4)²",
+          "(x+4)²",
+          "(x−8)²",
+          "(x−4)(x+4)"
+        ],
+        "answer": "(x−4)²",
+        "difficulty": "medium",
+        "hint": "Έλεγξε το τετράγωνο του 4 και το διπλάσιο γινόμενο.",
+        "solution": "x²−8x+16=x²−2×x×4+4²=(x−4)². Χρησιμοποιείται η ταυτότητα τέλειου τετραγώνου.",
+        "skill": "Αναγνώριση τέλειου τετραγώνου",
+        "objective_ids": [
+          "a77f8d28-5921-532b-b965-8be61d6b198e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.6"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(x−4)²",
+              "correct": true,
+              "reason": "x²−8x+16=x²−2×x×4+4²=(x−4)². Χρησιμοποιείται η ταυτότητα τέλειου τετραγώνου."
+            },
+            {
+              "choice": "(x+4)²",
+              "correct": false,
+              "reason": "Ο μεικτός όρος της αρχικής παράστασης είναι αρνητικός."
+            },
+            {
+              "choice": "(x−8)²",
+              "correct": false,
+              "reason": "Το 8² είναι 64 και όχι 16."
+            },
+            {
+              "choice": "(x−4)(x+4)",
+              "correct": false,
+              "reason": "Η διαφορά τετραγώνων δεν έχει τον ζητούμενο γραμμικό όρο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η παραγοντοποίηση του αx+αy+βx+βy με ομαδοποίηση;",
+        "choices": [
+          "(α+β)(x+y)",
+          "(α−β)(x+y)",
+          "αβ(x+y)",
+          "(α+β)(x−y)"
+        ],
+        "answer": "(α+β)(x+y)",
+        "difficulty": "hard",
+        "hint": "Ομαδοποίησε τους δύο πρώτους και τους δύο τελευταίους όρους.",
+        "solution": "α(x+y)+β(x+y)=(α+β)(x+y). Η κοινή παρένθεση βγαίνει ως παράγοντας.",
+        "skill": "Ομαδοποίηση με κοινή παρένθεση",
+        "objective_ids": [
+          "a77f8d28-5921-532b-b965-8be61d6b198e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.6"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(α+β)(x+y)",
+              "correct": true,
+              "reason": "α(x+y)+β(x+y)=(α+β)(x+y). Η κοινή παρένθεση βγαίνει ως παράγοντας."
+            },
+            {
+              "choice": "(α−β)(x+y)",
+              "correct": false,
+              "reason": "Οι όροι με β έχουν θετικό πρόσημο."
+            },
+            {
+              "choice": "αβ(x+y)",
+              "correct": false,
+              "reason": "Οι συντελεστές προστίθενται και δεν πολλαπλασιάζονται."
+            },
+            {
+              "choice": "(α+β)(x−y)",
+              "correct": false,
+              "reason": "Οι όροι με y είναι θετικοί."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠3, ποια απλοποιημένη μορφή έχει το (x²−9)/(x−3);",
+        "choices": [
+          "x+3, με τους αρχικούς περιορισμούς",
+          "x−3, με τους αρχικούς περιορισμούς",
+          "x+3 για κάθε πραγματικό x",
+          "1, με τους αρχικούς περιορισμούς"
+        ],
+        "answer": "x+3, με τους αρχικούς περιορισμούς",
+        "difficulty": "hard",
+        "hint": "Παραγοντοποίησε τη διαφορά τετραγώνων και κράτησε το δηλωμένο πεδίο.",
+        "solution": "(x²−9)/(x−3)=(x−3)(x+3)/(x−3)=x+3. Η άσκηση διατηρεί τους δηλωμένους περιορισμούς x≠3.",
+        "skill": "Παραγοντοποίηση στην απλοποίηση ρητής παράστασης",
+        "objective_ids": [
+          "a77f8d28-5921-532b-b965-8be61d6b198e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.6"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x+3, με τους αρχικούς περιορισμούς",
+              "correct": true,
+              "reason": "(x²−9)/(x−3)=(x−3)(x+3)/(x−3)=x+3. Η άσκηση διατηρεί τους δηλωμένους περιορισμούς x≠3."
+            },
+            {
+              "choice": "x−3, με τους αρχικούς περιορισμούς",
+              "correct": false,
+              "reason": "Απλοποιείται ο παράγοντας x−3 και απομένει x+3."
+            },
+            {
+              "choice": "x+3 για κάθε πραγματικό x",
+              "correct": false,
+              "reason": "Η απλοποίηση δεν επιτρέπει να αγνοήσουμε το αρχικό δηλωμένο πεδίο."
+            },
+            {
+              "choice": "1, με τους αρχικούς περιορισμούς",
+              "correct": false,
+              "reason": "Μετά την απλοποίηση απομένει ο μη κοινός παράγοντας x+3."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο αριθμητικός συντελεστής του ΕΚΠ των 6x² και 4x³;",
+        "choices": [
+          "12",
+          "24",
+          "2",
+          "6"
+        ],
+        "answer": "12",
+        "difficulty": "easy",
+        "hint": "Βρες το ΕΚΠ των θετικών ακεραίων συντελεστών.",
+        "solution": "ΕΚΠ(6,4)=12 και ο μεγαλύτερος εκθέτης του x είναι 3. Άρα ΕΚΠ=12x³ και ζητείται το 12.",
+        "skill": "Αριθμητικός συντελεστής ΕΚΠ μονωνύμων",
+        "objective_ids": [
+          "7a44290d-6a8e-5f82-904a-f34d387f725f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.8"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12"
+        },
+        "practice_note": "Βασική εξάσκηση στο ΕΚΠ · ο ΜΚΔ αλγεβρικών παραστάσεων προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ΕΚΠ των x² και x⁵;",
+        "choices": [
+          "x⁵",
+          "x⁷",
+          "x²",
+          "x¹⁰"
+        ],
+        "answer": "x⁵",
+        "difficulty": "easy",
+        "hint": "Κράτησε τη μεγαλύτερη δύναμη του ίδιου παράγοντα.",
+        "solution": "Η x⁵ διαιρείται και με x² και με x⁵. Η μέγιστη εμφανιζόμενη δύναμη αρκεί.",
+        "skill": "Μέγιστος εκθέτης στο ΕΚΠ",
+        "objective_ids": [
+          "7a44290d-6a8e-5f82-904a-f34d387f725f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.8"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x⁵",
+              "correct": true,
+              "reason": "Η x⁵ διαιρείται και με x² και με x⁵. Η μέγιστη εμφανιζόμενη δύναμη αρκεί."
+            },
+            {
+              "choice": "x⁷",
+              "correct": false,
+              "reason": "Το άθροισμα εκθετών δίνει περιττά μεγάλο κοινό πολλαπλάσιο."
+            },
+            {
+              "choice": "x²",
+              "correct": false,
+              "reason": "Η x² δεν περιέχει τον απαιτούμενο παράγοντα x⁵."
+            },
+            {
+              "choice": "x¹⁰",
+              "correct": false,
+              "reason": "Δεν πολλαπλασιάζονται οι εκθέτες για το ΕΚΠ."
+            }
+          ]
+        },
+        "practice_note": "Βασική εξάσκηση στο ΕΚΠ · ο ΜΚΔ αλγεβρικών παραστάσεων προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ΕΚΠ των x(x−1) και (x−1)²;",
+        "choices": [
+          "x(x−1)²",
+          "x²(x−1)³",
+          "x−1",
+          "x(x−1)"
+        ],
+        "answer": "x(x−1)²",
+        "difficulty": "medium",
+        "hint": "Πάρε κάθε διαφορετικό παράγοντα στη μεγαλύτερη δύναμή του.",
+        "solution": "Οι παράγοντες είναι x στη δύναμη 1 και x−1 στη δύναμη 2, άρα x(x−1)².",
+        "skill": "ΕΚΠ ήδη παραγοντοποιημένων παραστάσεων",
+        "objective_ids": [
+          "7a44290d-6a8e-5f82-904a-f34d387f725f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.8"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x(x−1)²",
+              "correct": true,
+              "reason": "Οι παράγοντες είναι x στη δύναμη 1 και x−1 στη δύναμη 2, άρα x(x−1)²."
+            },
+            {
+              "choice": "x²(x−1)³",
+              "correct": false,
+              "reason": "Το πλήρες γινόμενο υπερμετρά κοινούς παράγοντες."
+            },
+            {
+              "choice": "x−1",
+              "correct": false,
+              "reason": "Λείπει ο παράγοντας x και μία δύναμη του x−1."
+            },
+            {
+              "choice": "x(x−1)",
+              "correct": false,
+              "reason": "Λείπει μία δύναμη του x−1."
+            }
+          ]
+        },
+        "practice_note": "Βασική εξάσκηση στο ΕΚΠ · ο ΜΚΔ αλγεβρικών παραστάσεων προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το ΕΚΠ των 2x(x+1) και 3(x+1)²;",
+        "choices": [
+          "6x(x+1)²",
+          "6x(x+1)³",
+          "x+1",
+          "6x²(x+1)²"
+        ],
+        "answer": "6x(x+1)²",
+        "difficulty": "medium",
+        "hint": "Συνδύασε ΕΚΠ συντελεστών και μέγιστους εκθέτες παραγόντων.",
+        "solution": "ΕΚΠ(2,3)=6, ενώ χρειαζόμαστε x και (x+1)². Το ΕΚΠ είναι 6x(x+1)².",
+        "skill": "ΕΚΠ με αριθμητικούς και αλγεβρικούς παράγοντες",
+        "objective_ids": [
+          "e721726e-2bd2-5fca-b71b-59d5f4dd3394"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.8"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "6x(x+1)²",
+              "correct": true,
+              "reason": "ΕΚΠ(2,3)=6, ενώ χρειαζόμαστε x και (x+1)². Το ΕΚΠ είναι 6x(x+1)²."
+            },
+            {
+              "choice": "6x(x+1)³",
+              "correct": false,
+              "reason": "Η μεγαλύτερη δύναμη του x+1 είναι 2 και όχι 3."
+            },
+            {
+              "choice": "x+1",
+              "correct": false,
+              "reason": "Δεν περιέχει τους υπόλοιπους αναγκαίους παράγοντες."
+            },
+            {
+              "choice": "6x²(x+1)²",
+              "correct": false,
+              "reason": "Η μεγαλύτερη δύναμη του x είναι 1 και όχι 2."
+            }
+          ]
+        },
+        "practice_note": "Βασική εξάσκηση στο ΕΚΠ · ο ΜΚΔ αλγεβρικών παραστάσεων προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ένας ελάχιστος κοινός παρονομαστής για 1/(x−2) και 1/(2−x), με x≠2;",
+        "choices": [
+          "x−2",
+          "(x−2)²",
+          "x+2",
+          "1"
+        ],
+        "answer": "x−2",
+        "difficulty": "hard",
+        "hint": "Οι δύο παρονομαστές διαφέρουν μόνο κατά πρόσημο.",
+        "solution": "Επειδή 2−x=−(x−2), αρκεί ο παράγοντας x−2. Αλλάζει το πρόσημο του αντίστοιχου αριθμητή.",
+        "skill": "Αντίθετοι παράγοντες ως ίδιος παράγοντας ΕΚΠ",
+        "objective_ids": [
+          "e721726e-2bd2-5fca-b71b-59d5f4dd3394"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.8"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x−2",
+              "correct": true,
+              "reason": "Επειδή 2−x=−(x−2), αρκεί ο παράγοντας x−2. Αλλάζει το πρόσημο του αντίστοιχου αριθμητή."
+            },
+            {
+              "choice": "(x−2)²",
+              "correct": false,
+              "reason": "Το τετράγωνο είναι κοινό αλλά δεν είναι ελάχιστο."
+            },
+            {
+              "choice": "x+2",
+              "correct": false,
+              "reason": "Ο παράγοντας x+2 δεν αντιστοιχεί στους παρονομαστές."
+            },
+            {
+              "choice": "1",
+              "correct": false,
+              "reason": "Το 1 δεν περιέχει τον αναγκαίο μη σταθερό παράγοντα."
+            }
+          ]
+        },
+        "practice_note": "Βασική εξάσκηση στο ΕΚΠ · ο ΜΚΔ αλγεβρικών παραστάσεων προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για τους παρονομαστές 4x²(x−1) και 6x(x−1)², το ΕΚΠ είναι 12x²(x−1)². Ποια τιμή έχει για x=3;",
+        "choices": [
+          "432",
+          "216",
+          "144",
+          "864"
+        ],
+        "answer": "432",
+        "difficulty": "hard",
+        "hint": "Αντικατάστησε την τιμή στους παράγοντες του ΕΚΠ.",
+        "solution": "12×3²×(3−1)²=12×9×4=432. Οι παρονομαστές είναι μη μηδενικοί για x=3.",
+        "skill": "Τιμή ΕΚΠ παραγοντοποιημένων παρονομαστών",
+        "objective_ids": [
+          "e721726e-2bd2-5fca-b71b-59d5f4dd3394"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.8"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12*3**2*(3-1)**2"
+        },
+        "practice_note": "Βασική εξάσκηση στο ΕΚΠ · ο ΜΚΔ αλγεβρικών παραστάσεων προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.9",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ρητή παράσταση 5/(x−4) δεν ορίζεται για ποια τιμή του x;",
+        "choices": [
+          "4",
+          "0",
+          "5",
+          "−4"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Ο αρχικός παρονομαστής δεν επιτρέπεται να μηδενίζεται.",
+        "solution": "x−4=0 ακριβώς για x=4. Αυτή η τιμή αποκλείεται.",
+        "skill": "Μηδενισμός αρχικού παρονομαστή",
+        "objective_ids": [
+          "3589e88c-059d-57ff-b534-a80b0380f8ed"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        }
+      }
+    },
+    {
+      "reference": "1.9",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠0, ποια είναι η απλοποίηση του 6x/(3x);",
+        "choices": [
+          "2",
+          "2x",
+          "3",
+          "0"
+        ],
+        "answer": "2",
+        "difficulty": "easy",
+        "hint": "Απλοποίησε τον κοινό μη μηδενικό παράγοντα x.",
+        "solution": "6x/(3x)=6/3=2, με τον αρχικό περιορισμό x≠0.",
+        "skill": "Απλοποίηση κοινού μη μηδενικού παράγοντα",
+        "objective_ids": [
+          "3589e88c-059d-57ff-b534-a80b0380f8ed"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2",
+              "correct": true,
+              "reason": "6x/(3x)=6/3=2, με τον αρχικό περιορισμό x≠0."
+            },
+            {
+              "choice": "2x",
+              "correct": false,
+              "reason": "Ο κοινός μη μηδενικός παράγοντας x απλοποιείται πλήρως."
+            },
+            {
+              "choice": "3",
+              "correct": false,
+              "reason": "Η διαίρεση των συντελεστών 6 και 3 δίνει 2 και όχι 3."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Η παράσταση δεν έχει μηδενικό αριθμητή στο επιτρεπτό πεδίο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.9",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η απλοποίηση του (x²−4)/(x−2), με τον αρχικό περιορισμό;",
+        "choices": [
+          "x+2 με x≠2",
+          "x+2 για κάθε πραγματικό x",
+          "x−2 με x≠2",
+          "x με x≠2"
+        ],
+        "answer": "x+2 με x≠2",
+        "difficulty": "medium",
+        "hint": "Παραγοντοποίησε τον αριθμητή και διατήρησε τον περιορισμό.",
+        "solution": "x²−4=(x−2)(x+2). Απλοποιείται το x−2 μόνο για x≠2, άρα η μορφή είναι x+2 με x≠2.",
+        "skill": "Διατήρηση περιορισμού μετά από απλοποίηση",
+        "objective_ids": [
+          "3589e88c-059d-57ff-b534-a80b0380f8ed"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x+2 με x≠2",
+              "correct": true,
+              "reason": "x²−4=(x−2)(x+2). Απλοποιείται το x−2 μόνο για x≠2, άρα η μορφή είναι x+2 με x≠2."
+            },
+            {
+              "choice": "x+2 για κάθε πραγματικό x",
+              "correct": false,
+              "reason": "Η αρχική παράσταση εξακολουθεί να μην ορίζεται στο 2."
+            },
+            {
+              "choice": "x−2 με x≠2",
+              "correct": false,
+              "reason": "Απομένει ο παράγοντας x+2 και όχι x−2."
+            },
+            {
+              "choice": "x με x≠2",
+              "correct": false,
+              "reason": "Ο μη κοινός παράγοντας είναι x+2 και δεν διαγράφεται το 2."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.9",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια απλοποίηση του (x+2)/x για x≠0 είναι σωστή;",
+        "choices": [
+          "1+2/x",
+          "2",
+          "3",
+          "x+2"
+        ],
+        "answer": "1+2/x",
+        "difficulty": "medium",
+        "hint": "Μπορείς να διαιρέσεις κάθε όρο του αριθμητή με τον ίδιο παρονομαστή.",
+        "solution": "(x+2)/x=x/x+2/x=1+2/x. Δεν απλοποιούνται όροι αθροίσματος σαν να ήταν παράγοντες.",
+        "skill": "Διάκριση όρων από παράγοντες",
+        "objective_ids": [
+          "7f631455-c6cd-5663-8e07-d98fd5fe6fd5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "1+2/x",
+              "correct": true,
+              "reason": "(x+2)/x=x/x+2/x=1+2/x. Δεν απλοποιούνται όροι αθροίσματος σαν να ήταν παράγοντες."
+            },
+            {
+              "choice": "2",
+              "correct": false,
+              "reason": "Το x δεν είναι κοινός παράγοντας ολόκληρου του αριθμητή."
+            },
+            {
+              "choice": "3",
+              "correct": false,
+              "reason": "Ο όρος 2/x δεν ισούται γενικά με 2."
+            },
+            {
+              "choice": "x+2",
+              "correct": false,
+              "reason": "Η διαίρεση με το x δεν μπορεί να παραλειφθεί."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.9",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε (x²−1)/(x²+x) για x=2, αφού ελέγξεις ότι ορίζεται.",
+        "choices": [
+          "1/2",
+          "3/2",
+          "1/3",
+          "2"
+        ],
+        "answer": "1/2",
+        "difficulty": "hard",
+        "hint": "Ο παρονομαστής γράφεται x(x+1), ενώ ο αριθμητής (x−1)(x+1).",
+        "solution": "Για x≠0,−1 απλοποιείται σε (x−1)/x. Στο x=2 ο παρονομαστής δεν μηδενίζεται και η τιμή είναι 1/2.",
+        "skill": "Απλοποίηση και επιτρεπτή αντικατάσταση",
+        "objective_ids": [
+          "7f631455-c6cd-5663-8e07-d98fd5fe6fd5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2**2-1)/(2**2+2)"
+        }
+      }
+    },
+    {
+      "reference": "1.9",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιες τιμές αποκλείονται από την αρχική παράσταση (x²−9)/(x²−3x);",
+        "choices": [
+          "0 και 3",
+          "Μόνο 0",
+          "Μόνο 3",
+          "−3 και 3"
+        ],
+        "answer": "0 και 3",
+        "difficulty": "hard",
+        "hint": "Παραγοντοποίησε μόνο τον παρονομαστή για τους περιορισμούς.",
+        "solution": "x²−3x=x(x−3), άρα αποκλείονται 0 και 3. Η απλοποίηση του παράγοντα x−3 δεν επαναφέρει το 3 στο πεδίο ορισμού.",
+        "skill": "Πεδίο ορισμού πριν από παραγοντοποίηση",
+        "objective_ids": [
+          "7f631455-c6cd-5663-8e07-d98fd5fe6fd5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.9"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "0 και 3",
+              "correct": true,
+              "reason": "x²−3x=x(x−3), άρα αποκλείονται 0 και 3. Η απλοποίηση του παράγοντα x−3 δεν επαναφέρει το 3 στο πεδίο ορισμού."
+            },
+            {
+              "choice": "Μόνο 0",
+              "correct": false,
+              "reason": "Και το x−3 μπορεί να μηδενιστεί."
+            },
+            {
+              "choice": "Μόνο 3",
+              "correct": false,
+              "reason": "Και ο παράγοντας x μπορεί να μηδενιστεί."
+            },
+            {
+              "choice": "−3 και 3",
+              "correct": false,
+              "reason": "Το −3 δεν μηδενίζει τον αρχικό παρονομαστή."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.10",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε 1/x+2/x για x=3.",
+        "choices": [
+          "1",
+          "3",
+          "1/3",
+          "2/3"
+        ],
+        "answer": "1",
+        "difficulty": "easy",
+        "hint": "Με ίδιο παρονομαστή προστίθενται οι αριθμητές.",
+        "solution": "1/3+2/3=3/3=1. Η τιμή x=3 είναι επιτρεπτή.",
+        "skill": "Άθροισμα ρητών με ίδιο παρονομαστή",
+        "objective_ids": [
+          "21587f8e-4734-5107-9aed-e38e46cbb300"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.10"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/3+2/3"
+        }
+      }
+    },
+    {
+      "reference": "1.10",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠0, πόσο είναι το (2/x)×(3x/4);",
+        "choices": [
+          "3/2",
+          "6x",
+          "3/(2x)",
+          "5/4"
+        ],
+        "answer": "3/2",
+        "difficulty": "easy",
+        "hint": "Πολλαπλασίασε αριθμητές και παρονομαστές και απλοποίησε x.",
+        "solution": "(2×3x)/(4x)=6/4=3/2, με x≠0.",
+        "skill": "Πολλαπλασιασμός ρητών παραστάσεων",
+        "objective_ids": [
+          "21587f8e-4734-5107-9aed-e38e46cbb300"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.10"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3/2",
+              "correct": true,
+              "reason": "(2×3x)/(4x)=6/4=3/2, με x≠0."
+            },
+            {
+              "choice": "6x",
+              "correct": false,
+              "reason": "Ο κοινός παράγοντας x απλοποιείται και δεν απομένει στο γινόμενο."
+            },
+            {
+              "choice": "3/(2x)",
+              "correct": false,
+              "reason": "Ο παράγοντας x απλοποιείται και δεν παραμένει στον παρονομαστή."
+            },
+            {
+              "choice": "5/4",
+              "correct": false,
+              "reason": "Πολλαπλασιάζουμε αριθμητές και παρονομαστές, δεν τους προσθέτουμε."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.10",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διαφορά 1/(x−1)−1/(x+1), για x≠1,−1;",
+        "choices": [
+          "2/(x²−1)",
+          "0",
+          "2x/(x²−1)",
+          "−2/(x²−1)"
+        ],
+        "answer": "2/(x²−1)",
+        "difficulty": "medium",
+        "hint": "Πάρε κοινό παρονομαστή και βάλε παρενθέσεις στον δεύτερο αριθμητή.",
+        "solution": "[(x+1)−(x−1)]/[(x−1)(x+1)]=2/(x²−1).",
+        "skill": "Αφαίρεση με διαφορετικούς παρονομαστές",
+        "objective_ids": [
+          "21587f8e-4734-5107-9aed-e38e46cbb300"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.10"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2/(x²−1)",
+              "correct": true,
+              "reason": "[(x+1)−(x−1)]/[(x−1)(x+1)]=2/(x²−1)."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Οι αρχικοί παρονομαστές διαφέρουν, άρα δεν αφαιρούμε μόνο τους αρχικούς αριθμητές."
+            },
+            {
+              "choice": "2x/(x²−1)",
+              "correct": false,
+              "reason": "Το 2x προκύπτει από πρόσθεση και όχι από τη ζητούμενη διαφορά."
+            },
+            {
+              "choice": "−2/(x²−1)",
+              "correct": false,
+              "reason": "Ο αριθμητής είναι (x+1)−(x−1)=2."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.10",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του [x/(x−1)] : [(x+1)/(x−1)] για x=2;",
+        "choices": [
+          "2/3",
+          "3/2",
+          "2",
+          "1/3"
+        ],
+        "answer": "2/3",
+        "difficulty": "medium",
+        "hint": "Η διαίρεση γίνεται πολλαπλασιασμός με το αντίστροφο του μη μηδενικού διαιρέτη.",
+        "solution": "Οι αρχικοί περιορισμοί είναι x≠1 και x≠−1. Στο x=2 η τιμή είναι 2/(2+1)=2/3.",
+        "skill": "Διαίρεση με μη μηδενικό ρητό διαιρέτη",
+        "objective_ids": [
+          "c1b93ac6-88f3-51dd-abee-75993e8cf9fb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.10"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2/(2-1))/((2+1)/(2-1))"
+        }
+      }
+    },
+    {
+      "reference": "1.10",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιες τιμές αποκλείονται από το [1/(x−2)] : [(x−3)/(x+1)];",
+        "choices": [
+          "2, −1 και 3",
+          "Μόνο 2 και −1",
+          "Μόνο 2 και 3",
+          "Μόνο −1 και 3"
+        ],
+        "answer": "2, −1 και 3",
+        "difficulty": "hard",
+        "hint": "Εκτός από τους παρονομαστές, ο διαιρέτης πρέπει να είναι μη μηδενικός.",
+        "solution": "Απαιτούνται x≠2 και x≠−1 για τους αρχικούς παρονομαστές, καθώς και x≠3 ώστε ο διαιρέτης να μην είναι μηδέν.",
+        "skill": "Περιορισμοί ορισμού και μηδενικού διαιρέτη",
+        "objective_ids": [
+          "c1b93ac6-88f3-51dd-abee-75993e8cf9fb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.10"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2, −1 και 3",
+              "correct": true,
+              "reason": "Απαιτούνται x≠2 και x≠−1 για τους αρχικούς παρονομαστές, καθώς και x≠3 ώστε ο διαιρέτης να μην είναι μηδέν."
+            },
+            {
+              "choice": "Μόνο 2 και −1",
+              "correct": false,
+              "reason": "Στο x=3 ο διαιρέτης μηδενίζεται και η διαίρεση απαγορεύεται."
+            },
+            {
+              "choice": "Μόνο 2 και 3",
+              "correct": false,
+              "reason": "Στο x=−1 ο διαιρέτης δεν ορίζεται."
+            },
+            {
+              "choice": "Μόνο −1 και 3",
+              "correct": false,
+              "reason": "Στο x=2 δεν ορίζεται η πρώτη παράσταση."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.10",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Βρες την τιμή του 2/(x−1)−(x+1)/(x²−1) για x=3.",
+        "choices": [
+          "1/2",
+          "1",
+          "−1/2",
+          "3/2"
+        ],
+        "answer": "1/2",
+        "difficulty": "hard",
+        "hint": "Έλεγξε x≠±1 και φέρε σε κοινό παρονομαστή.",
+        "solution": "[2(x+1)−(x+1)]/(x²−1)=(x+1)/[(x−1)(x+1)]=1/(x−1). Για x=3 η τιμή είναι 1/2.",
+        "skill": "Σύνθετη αφαίρεση και απλοποίηση",
+        "objective_ids": [
+          "c1b93ac6-88f3-51dd-abee-75993e8cf9fb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 2,
+            "paragraph": "1.10"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/(3-1)-(3+1)/(3**2-1)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση 4x−12=0.",
+        "choices": [
+          "3",
+          "−3",
+          "4",
+          "12"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Μετέφερε τον σταθερό όρο και διαίρεσε με 4.",
+        "solution": "4x=12, άρα x=3. Έλεγχος: 4×3−12=0.",
+        "skill": "Επανάληψη εξίσωσης πρώτου βαθμού",
+        "objective_ids": [
+          "34ff6f1b-d5f2-57f1-ae8e-bf38949c15f0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12/4"
+        },
+        "practice_note": "Προαιρετική επανάληψη εξισώσεων πρώτου βαθμού."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε την εξίσωση −5x+10=0.",
+        "choices": [
+          "2",
+          "−2",
+          "5",
+          "−5"
+        ],
+        "answer": "2",
+        "difficulty": "easy",
+        "hint": "Η διαίρεση γίνεται με τον μη μηδενικό συντελεστή −5.",
+        "solution": "−5x=−10, άρα x=2.",
+        "skill": "Εξίσωση με αρνητικό συντελεστή",
+        "objective_ids": [
+          "34ff6f1b-d5f2-57f1-ae8e-bf38949c15f0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-10)/(-5)"
+        },
+        "practice_note": "Προαιρετική επανάληψη εξισώσεων πρώτου βαθμού."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσες πραγματικές λύσεις έχει η εξίσωση 0x+7=0;",
+        "choices": [
+          "Καμία",
+          "Μία, η x=0",
+          "Μία, η x=−7",
+          "Άπειρες"
+        ],
+        "answer": "Καμία",
+        "difficulty": "medium",
+        "hint": "Έλεγξε αν η αριθμητική ισότητα που απομένει μπορεί να ισχύει.",
+        "solution": "Το 0x είναι πάντα 0. Η εξίσωση απαιτεί 7=0, που είναι ψευδές για κάθε x.",
+        "skill": "Αδύνατη εξίσωση με μηδενικό συντελεστή",
+        "objective_ids": [
+          "34ff6f1b-d5f2-57f1-ae8e-bf38949c15f0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Καμία",
+              "correct": true,
+              "reason": "Το 0x είναι πάντα 0. Η εξίσωση απαιτεί 7=0, που είναι ψευδές για κάθε x."
+            },
+            {
+              "choice": "Μία, η x=0",
+              "correct": false,
+              "reason": "Το x=0 εξακολουθεί να δίνει 7 και όχι 0."
+            },
+            {
+              "choice": "Μία, η x=−7",
+              "correct": false,
+              "reason": "Κάθε x πολλαπλασιάζεται με 0, οπότε δεν αναιρεί το 7."
+            },
+            {
+              "choice": "Άπειρες",
+              "correct": false,
+              "reason": "Η αριθμητική ισότητα δεν είναι αληθής για καμία τιμή."
+            }
+          ]
+        },
+        "practice_note": "Προαιρετική επανάληψη εξισώσεων πρώτου βαθμού."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσες πραγματικές λύσεις έχει η 3(x−2)=3x−6;",
+        "choices": [
+          "Άπειρες",
+          "Καμία",
+          "Μόνο x=2",
+          "Μόνο x=0"
+        ],
+        "answer": "Άπειρες",
+        "difficulty": "medium",
+        "hint": "Ανάπτυξε το αριστερό μέλος και σύγκρινέ το με το δεξί.",
+        "solution": "Τα δύο μέλη γίνονται 3x−6 για κάθε πραγματικό x. Άρα κάθε πραγματικός είναι λύση.",
+        "skill": "Ταυτότητα ως εξίσωση πρώτου βαθμού",
+        "objective_ids": [
+          "51199c09-f46b-5291-af5e-cb82b4c4a3c2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Άπειρες",
+              "correct": true,
+              "reason": "Τα δύο μέλη γίνονται 3x−6 για κάθε πραγματικό x. Άρα κάθε πραγματικός είναι λύση."
+            },
+            {
+              "choice": "Καμία",
+              "correct": false,
+              "reason": "Η ισότητα ισχύει για κάθε τιμή και δεν είναι αντίφαση."
+            },
+            {
+              "choice": "Μόνο x=2",
+              "correct": false,
+              "reason": "Το 2 είναι μία λύση, αλλά δεν είναι η μοναδική."
+            },
+            {
+              "choice": "Μόνο x=0",
+              "correct": false,
+              "reason": "Το 0 είναι μία λύση, αλλά δεν είναι η μοναδική."
+            }
+          ]
+        },
+        "practice_note": "Προαιρετική επανάληψη εξισώσεων πρώτου βαθμού."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Λύσε (x−1)/3−(x+2)/2=−2.",
+        "choices": [
+          "4",
+          "−4",
+          "2",
+          "8"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασίασε όλα τα μέλη με το κοινό πολλαπλάσιο 6.",
+        "solution": "2(x−1)−3(x+2)=−12, άρα −x−8=−12 και x=4.",
+        "skill": "Επανάληψη εξίσωσης με κλασματικούς συντελεστές",
+        "objective_ids": [
+          "51199c09-f46b-5291-af5e-cb82b4c4a3c2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "practice_note": "Προαιρετική επανάληψη εξισώσεων πρώτου βαθμού.",
+        "checks": [
+          [
+            "(4-1)/3-(4+2)/2",
+            "=",
+            "-2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για ποια τιμή του α η εξίσωση (α−2)x=5 δεν έχει λύση;",
+        "choices": [
+          "2",
+          "0",
+          "5",
+          "−2"
+        ],
+        "answer": "2",
+        "difficulty": "hard",
+        "hint": "Όταν ο συντελεστής του x είναι μηδέν, έλεγξε το άλλο μέλος.",
+        "solution": "Για α=2 η εξίσωση γίνεται 0x=5 και είναι αδύνατη. Για α≠2 έχει μία λύση 5/(α−2).",
+        "skill": "Παράμετρος και μηδενικός συντελεστής",
+        "objective_ids": [
+          "51199c09-f46b-5291-af5e-cb82b4c4a3c2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "optional",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "practice_note": "Προαιρετική επανάληψη εξισώσεων πρώτου βαθμού."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το σύνολο πραγματικών λύσεων της x²=9;",
+        "choices": [
+          "{−3, 3}",
+          "{3}",
+          "{−3}",
+          "{9}"
+        ],
+        "answer": "{−3, 3}",
+        "difficulty": "easy",
+        "hint": "Διαφέρει η λύση εξίσωσης x²=9 από την κύρια τετραγωνική ρίζα του 9.",
+        "solution": "Και (−3)² και 3² ισούνται με 9. Η εξίσωση έχει δύο λύσεις, −3 και 3.",
+        "skill": "Δύο ρίζες εξίσωσης τετραγώνου",
+        "objective_ids": [
+          "2dd7047e-f975-56d4-8bf8-27645a5dbda5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{−3, 3}",
+              "correct": true,
+              "reason": "Και (−3)² και 3² ισούνται με 9. Η εξίσωση έχει δύο λύσεις, −3 και 3."
+            },
+            {
+              "choice": "{3}",
+              "correct": false,
+              "reason": "Παραλείπεται η αρνητική λύση."
+            },
+            {
+              "choice": "{−3}",
+              "correct": false,
+              "reason": "Παραλείπεται η θετική λύση."
+            },
+            {
+              "choice": "{9}",
+              "correct": false,
+              "reason": "Το τετράγωνο του 9 είναι 81 και όχι 9."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση επίλυσης δευτεροβάθμιας · η απόδειξη του τύπου προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόση είναι η διακρίνουσα της 2x²−3x+1=0;",
+        "choices": [
+          "1",
+          "17",
+          "5",
+          "−1"
+        ],
+        "answer": "1",
+        "difficulty": "easy",
+        "hint": "Στον τύπο Δ=β²−4αγ βάλε β=−3, α=2, γ=1.",
+        "solution": "Δ=(−3)²−4×2×1=9−8=1.",
+        "skill": "Διακρίνουσα με αρνητικό γραμμικό συντελεστή",
+        "objective_ids": [
+          "2dd7047e-f975-56d4-8bf8-27645a5dbda5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-3)**2-4*2*1"
+        },
+        "practice_note": "Εξάσκηση επίλυσης δευτεροβάθμιας · η απόδειξη του τύπου προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιες είναι οι λύσεις της x(x−5)=0;",
+        "choices": [
+          "0 και 5",
+          "Μόνο 5",
+          "Μόνο 0",
+          "−5 και 5"
+        ],
+        "answer": "0 και 5",
+        "difficulty": "medium",
+        "hint": "Ένα γινόμενο μηδενίζεται όταν ένας τουλάχιστον παράγοντας είναι μηδέν.",
+        "solution": "x=0 ή x−5=0, άρα οι λύσεις είναι 0 και 5. Δεν διαιρούμε με x επειδή μπορεί να είναι μηδέν.",
+        "skill": "Μηδενικό γινόμενο χωρίς απώλεια ρίζας",
+        "objective_ids": [
+          "2dd7047e-f975-56d4-8bf8-27645a5dbda5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "0 και 5",
+              "correct": true,
+              "reason": "x=0 ή x−5=0, άρα οι λύσεις είναι 0 και 5. Δεν διαιρούμε με x επειδή μπορεί να είναι μηδέν."
+            },
+            {
+              "choice": "Μόνο 5",
+              "correct": false,
+              "reason": "Η διαίρεση με x θα έχανε τη νόμιμη ρίζα 0."
+            },
+            {
+              "choice": "Μόνο 0",
+              "correct": false,
+              "reason": "Ο δεύτερος παράγοντας δίνει και τη ρίζα 5."
+            },
+            {
+              "choice": "−5 και 5",
+              "correct": false,
+              "reason": "Το −5 δεν μηδενίζει κανέναν από τους δύο παράγοντες."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση επίλυσης δευτεροβάθμιας · η απόδειξη του τύπου προσεγγίζεται προαιρετικά.",
+        "checks": [
+          [
+            "0*(0-5)",
+            "=",
+            "0"
+          ],
+          [
+            "5*(5-5)",
+            "=",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η εξίσωση x²−6x+9=0 έχει μία διπλή ρίζα. Ποια είναι;",
+        "choices": [
+          "3",
+          "−3",
+          "9",
+          "6"
+        ],
+        "answer": "3",
+        "difficulty": "medium",
+        "hint": "Αναγνώρισε τέλειο τετράγωνο ή υπολόγισε Δ=0.",
+        "solution": "x²−6x+9=(x−3)². Επομένως η διπλή ρίζα είναι x=3.",
+        "skill": "Διπλή ρίζα από τέλειο τετράγωνο",
+        "objective_ids": [
+          "f3ec4798-13d4-55e6-801c-4be422476a00"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6/2"
+        },
+        "practice_note": "Εξάσκηση επίλυσης δευτεροβάθμιας · η απόδειξη του τύπου προσεγγίζεται προαιρετικά.",
+        "checks": [
+          [
+            "3**2-6*3+9",
+            "=",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η μεγαλύτερη ρίζα της 2x²−5x−3=0;",
+        "choices": [
+          "3",
+          "−1/2",
+          "1/2",
+          "−3"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε τη διακρίνουσα και χρησιμοποίησε σωστά τον παρονομαστή 2α.",
+        "solution": "Δ=25+24=49. Οι ρίζες είναι (5+7)/4=3 και (5−7)/4=−1/2. Μεγαλύτερη είναι η 3.",
+        "skill": "Τύπος δευτεροβάθμιας και επιλογή ρίζας",
+        "objective_ids": [
+          "f3ec4798-13d4-55e6-801c-4be422476a00"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(5+7)/(2*2)"
+        },
+        "practice_note": "Εξάσκηση επίλυσης δευτεροβάθμιας · η απόδειξη του τύπου προσεγγίζεται προαιρετικά.",
+        "checks": [
+          [
+            "(-5)**2-4*2*(-3)",
+            "=",
+            "49"
+          ],
+          [
+            "2*3**2-5*3-3",
+            "=",
+            "0"
+          ],
+          [
+            "2*(-1/2)**2-5*(-1/2)-3",
+            "=",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσες πραγματικές λύσεις έχει η 3x²+2x+1=0;",
+        "choices": [
+          "Καμία",
+          "Μία διπλή",
+          "Δύο διαφορετικές",
+          "Άπειρες"
+        ],
+        "answer": "Καμία",
+        "difficulty": "hard",
+        "hint": "Το πρόσημο της διακρίνουσας καθορίζει το πλήθος πραγματικών ριζών.",
+        "solution": "Δ=2²−4×3×1=−8<0. Άρα δεν υπάρχουν πραγματικές λύσεις.",
+        "skill": "Αρνητική διακρίνουσα στους πραγματικούς",
+        "objective_ids": [
+          "f3ec4798-13d4-55e6-801c-4be422476a00"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Καμία",
+              "correct": true,
+              "reason": "Δ=2²−4×3×1=−8<0. Άρα δεν υπάρχουν πραγματικές λύσεις."
+            },
+            {
+              "choice": "Μία διπλή",
+              "correct": false,
+              "reason": "Διπλή ρίζα υπάρχει για Δ=0 και όχι για αρνητική."
+            },
+            {
+              "choice": "Δύο διαφορετικές",
+              "correct": false,
+              "reason": "Δύο διαφορετικές πραγματικές ρίζες απαιτούν Δ>0."
+            },
+            {
+              "choice": "Άπειρες",
+              "correct": false,
+              "reason": "Ο μη μηδενικός τετραγωνικός συντελεστής δεν δίνει ταυτότητα."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση επίλυσης δευτεροβάθμιας · η απόδειξη του τύπου προσεγγίζεται προαιρετικά.",
+        "checks": [
+          [
+            "2**2-4*3*1",
+            "<",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Θετικός αριθμός έχει τετράγωνο 49. Ποιος είναι;",
+        "choices": [
+          "7",
+          "−7",
+          "49",
+          "14"
+        ],
+        "answer": "7",
+        "difficulty": "easy",
+        "hint": "Οι αλγεβρικές ρίζες ελέγχονται με τον περιορισμό θετικότητας.",
+        "solution": "Η εξίσωση x²=49 έχει ρίζες ±7. Επειδή ζητείται θετικός αριθμός, κρατάμε το 7.",
+        "skill": "Αποδεκτή ρίζα με θετικό περιορισμό",
+        "objective_ids": [
+          "ba22b67e-e5d0-51c7-b57b-abbe5c0a957d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "49"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Τετράγωνο έχει εμβαδόν 81 cm². Πόση είναι η πλευρά του σε cm;",
+        "choices": [
+          "9",
+          "−9",
+          "40,5",
+          "81"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Μήκος πλευράς σημαίνει θετική ρίζα.",
+        "solution": "Αν α είναι η πλευρά, α²=81 και α>0, άρα α=9 cm.",
+        "skill": "Μήκος από δευτεροβάθμια σχέση",
+        "objective_ids": [
+          "ba22b67e-e5d0-51c7-b57b-abbe5c0a957d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "81"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνιο έχει πλάτος x cm, μήκος x+3 cm και εμβαδόν 40 cm². Πόσο είναι το πλάτος σε cm;",
+        "choices": [
+          "5",
+          "−8",
+          "8",
+          "−5"
+        ],
+        "answer": "5",
+        "difficulty": "medium",
+        "hint": "Θέσε x(x+3)=40 και έλεγξε θετικές διαστάσεις.",
+        "solution": "x²+3x−40=0 έχει ρίζες 5 και −8 από τον τύπο. Μόνο το 5 δίνει θετικά μήκη: 5×8=40.",
+        "skill": "Εμβαδόν ορθογωνίου και απόρριψη αρνητικού μήκους",
+        "objective_ids": [
+          "ba22b67e-e5d0-51c7-b57b-abbe5c0a957d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "checks": [
+          [
+            "5*(5+3)",
+            "=",
+            "40"
+          ],
+          [
+            "(-8)*(-8+3)",
+            "=",
+            "40"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο διαδοχικοί θετικοί ακέραιοι έχουν γινόμενο 56. Ποιος είναι ο μικρότερος;",
+        "choices": [
+          "7",
+          "−8",
+          "8",
+          "6"
+        ],
+        "answer": "7",
+        "difficulty": "medium",
+        "hint": "Γράψε τους αριθμούς x και x+1, με θετικό ακέραιο x.",
+        "solution": "x(x+1)=56 δίνει x=7 ή x=−8 από τον τύπο δευτεροβάθμιας. Η θετική λύση είναι 7 και ο επόμενος 8.",
+        "skill": "Διαδοχικοί θετικοί ακέραιοι",
+        "objective_ids": [
+          "e5e6229b-62ab-581c-bafa-d208f9b489a9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        },
+        "checks": [
+          [
+            "7*(7+1)",
+            "=",
+            "56"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνιος κήπος 6 m επί 4 m περιβάλλεται εξωτερικά από ομοιόμορφο διάδρομο πλάτους x>0. Αν το συνολικό εξωτερικό εμβαδόν είναι 80 m², πόσο είναι το x σε m;",
+        "choices": [
+          "2",
+          "−7",
+          "4",
+          "1"
+        ],
+        "answer": "2",
+        "difficulty": "hard",
+        "hint": "Οι δύο εξωτερικές διαστάσεις αυξάνονται κατά 2x η καθεμία.",
+        "solution": "(6+2x)(4+2x)=80 δίνει 4x²+20x−56=0, δηλαδή x²+5x−14=0. Οι ρίζες είναι 2 και −7. Μόνο x=2 m είναι αποδεκτό.",
+        "skill": "Εξωτερικός διάδρομος και έλεγχος διαστάσεων",
+        "objective_ids": [
+          "e5e6229b-62ab-581c-bafa-d208f9b489a9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "checks": [
+          [
+            "(6+2*2)*(4+2*2)",
+            "=",
+            "80"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα πρόβλημα πλήθους αντικειμένων οδηγεί στην εξίσωση 2n²−5n−3=0. Το n είναι θετικός ακέραιος. Ποια λύση είναι αποδεκτή;",
+        "choices": [
+          "3",
+          "−1/2",
+          "Και οι δύο αλγεβρικές ρίζες",
+          "Καμία"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Το πλήθος πρέπει να είναι θετικός ακέραιος, όχι απλώς αλγεβρική ρίζα.",
+        "solution": "Οι ρίζες είναι 3 και −1/2. Μόνο το 3 ικανοποιεί τη συνθήκη θετικού ακέραιου πλήθους.",
+        "skill": "Διακριτό πλήθος και αποδεκτές ρίζες",
+        "objective_ids": [
+          "e5e6229b-62ab-581c-bafa-d208f9b489a9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3",
+              "correct": true,
+              "reason": "Οι ρίζες είναι 3 και −1/2. Μόνο το 3 ικανοποιεί τη συνθήκη θετικού ακέραιου πλήθους."
+            },
+            {
+              "choice": "−1/2",
+              "correct": false,
+              "reason": "Η τιμή −1/2 δεν είναι θετικός ακέραιος."
+            },
+            {
+              "choice": "Και οι δύο αλγεβρικές ρίζες",
+              "correct": false,
+              "reason": "Δεν αρκεί να επαληθεύεται μόνο η εξίσωση."
+            },
+            {
+              "choice": "Καμία",
+              "correct": false,
+              "reason": "Η τιμή 3 επαληθεύει και την εξίσωση και τον περιορισμό."
+            }
+          ]
+        },
+        "checks": [
+          [
+            "2*3**2-5*3-3",
+            "=",
+            "0"
+          ],
+          [
+            "2*(-1/2)**2-5*(-1/2)-3",
+            "=",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η λύση της x+3>7;",
+        "choices": [
+          "x>4",
+          "x<4",
+          "x≥4",
+          "x>10"
+        ],
+        "answer": "x>4",
+        "difficulty": "easy",
+        "hint": "Αφαίρεσε τον ίδιο αριθμό και από τα δύο μέλη.",
+        "solution": "Αφαιρώντας 3 παίρνουμε x>4. Η αυστηρή ανισότητα παραμένει αυστηρή.",
+        "skill": "Απλή αυστηρή ανίσωση",
+        "objective_ids": [
+          "52b0d2b2-a557-55ae-af7c-bfe3db828a7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x>4",
+              "correct": true,
+              "reason": "Αφαιρώντας 3 παίρνουμε x>4. Η αυστηρή ανισότητα παραμένει αυστηρή."
+            },
+            {
+              "choice": "x<4",
+              "correct": false,
+              "reason": "Η αφαίρεση ίδιου αριθμού δεν αλλάζει τη φορά."
+            },
+            {
+              "choice": "x≥4",
+              "correct": false,
+              "reason": "Η αρχική σχέση είναι αυστηρή και δεν περιλαμβάνει το άκρο."
+            },
+            {
+              "choice": "x>10",
+              "correct": false,
+              "reason": "Το 3 αφαιρείται από το 7, δεν προστίθεται."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση ανισώσεων · οι προαιρετικές αποδείξεις και πρόσθετες ιδιότητες διάταξης δεν εξετάζονται εδώ."
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η λύση της −2x<6;",
+        "choices": [
+          "x>−3",
+          "x<−3",
+          "x>3",
+          "x≤−3"
+        ],
+        "answer": "x>−3",
+        "difficulty": "easy",
+        "hint": "Η διαίρεση με αρνητικό αριθμό αντιστρέφει τη φορά.",
+        "solution": "Διαιρώντας με −2 η ανίσωση γίνεται x>−3.",
+        "skill": "Αντιστροφή φοράς με αρνητικό διαιρέτη",
+        "objective_ids": [
+          "52b0d2b2-a557-55ae-af7c-bfe3db828a7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x>−3",
+              "correct": true,
+              "reason": "Διαιρώντας με −2 η ανίσωση γίνεται x>−3."
+            },
+            {
+              "choice": "x<−3",
+              "correct": false,
+              "reason": "Παραλείπει την απαραίτητη αντιστροφή της φοράς."
+            },
+            {
+              "choice": "x>3",
+              "correct": false,
+              "reason": "Το 6:(−2) είναι −3 και όχι 3."
+            },
+            {
+              "choice": "x≤−3",
+              "correct": false,
+              "reason": "Η αρχική ανισότητα είναι αυστηρή και το άκρο αποκλείεται."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση ανισώσεων · οι προαιρετικές αποδείξεις και πρόσθετες ιδιότητες διάταξης δεν εξετάζονται εδώ."
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η λύση της 3(x−1)≤2x+5;",
+        "choices": [
+          "x≤8",
+          "x≥8",
+          "x<8",
+          "x≤2"
+        ],
+        "answer": "x≤8",
+        "difficulty": "medium",
+        "hint": "Ανάπτυξε και μετέφερε όμοιους όρους, κρατώντας τη μη αυστηρή σχέση.",
+        "solution": "3x−3≤2x+5 ισοδυναμεί με x≤8. Το x=8 επαληθεύει την ισότητα.",
+        "skill": "Ανίσωση με παρενθέσεις και περιλαμβανόμενο άκρο",
+        "objective_ids": [
+          "52b0d2b2-a557-55ae-af7c-bfe3db828a7c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x≤8",
+              "correct": true,
+              "reason": "3x−3≤2x+5 ισοδυναμεί με x≤8. Το x=8 επαληθεύει την ισότητα."
+            },
+            {
+              "choice": "x≥8",
+              "correct": false,
+              "reason": "Δεν έγινε διαίρεση με αρνητικό για να αλλάξει η φορά."
+            },
+            {
+              "choice": "x<8",
+              "correct": false,
+              "reason": "Το άκρο 8 επιτρέπεται επειδή υπάρχει ≤."
+            },
+            {
+              "choice": "x≤2",
+              "correct": false,
+              "reason": "Οι σταθεροί όροι δίνουν 5+3=8."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση ανισώσεων · οι προαιρετικές αποδείξεις και πρόσθετες ιδιότητες διάταξης δεν εξετάζονται εδώ."
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος από τους αριθμούς 2, 3, 4, 5 είναι λύση της 5−2x>−1;",
+        "choices": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "2",
+        "difficulty": "medium",
+        "hint": "Λύσε την ανίσωση και έλεγξε αν περιλαμβάνεται το άκρο.",
+        "solution": "−2x>−6, άρα x<3. Από τις επιλογές μόνο το 2 ανήκει στο σύνολο λύσεων.",
+        "skill": "Έλεγχος συγκεκριμένης τιμής σε ανίσωση",
+        "objective_ids": [
+          "9b143615-60db-5f64-a2b3-f5956400f09a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "practice_note": "Εξάσκηση ανισώσεων · οι προαιρετικές αποδείξεις και πρόσθετες ιδιότητες διάταξης δεν εξετάζονται εδώ.",
+        "checks": [
+          [
+            "5-2*2",
+            ">",
+            "-1"
+          ],
+          [
+            "5-2*3",
+            "=",
+            "-1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η λύση της (2x−1)/3−(x+1)/2>1;",
+        "choices": [
+          "x>11",
+          "x<11",
+          "x>5",
+          "x≥11"
+        ],
+        "answer": "x>11",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασίασε με το θετικό 6 χωρίς αλλαγή φοράς.",
+        "solution": "2(2x−1)−3(x+1)>6 δίνει x−5>6, άρα x>11.",
+        "skill": "Ανίσωση με κλασματικούς συντελεστές",
+        "objective_ids": [
+          "9b143615-60db-5f64-a2b3-f5956400f09a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x>11",
+              "correct": true,
+              "reason": "2(2x−1)−3(x+1)>6 δίνει x−5>6, άρα x>11."
+            },
+            {
+              "choice": "x<11",
+              "correct": false,
+              "reason": "Ο κοινός πολλαπλασιαστής είναι θετικός και δεν αλλάζει τη φορά."
+            },
+            {
+              "choice": "x>5",
+              "correct": false,
+              "reason": "Το 5 πρέπει να προστεθεί στο 6, όχι να αποτελέσει μόνο του το άκρο."
+            },
+            {
+              "choice": "x≥11",
+              "correct": false,
+              "reason": "Η αρχική σχέση είναι αυστηρή, άρα το 11 αποκλείεται."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση ανισώσεων · οι προαιρετικές αποδείξεις και πρόσθετες ιδιότητες διάταξης δεν εξετάζονται εδώ."
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το σύνολο λύσεων της 2(x+1)<2x+5 στους πραγματικούς;",
+        "choices": [
+          "Όλοι οι πραγματικοί",
+          "Κανένας πραγματικός",
+          "Μόνο x<3",
+          "Μόνο x>3"
+        ],
+        "answer": "Όλοι οι πραγματικοί",
+        "difficulty": "hard",
+        "hint": "Οι όροι με x μπορεί να απαλειφθούν πλήρως.",
+        "solution": "2x+2<2x+5 ισοδυναμεί με 2<5, που είναι πάντα αληθές. Άρα κάθε πραγματικός είναι λύση.",
+        "skill": "Ανίσωση που γίνεται αριθμητική αλήθεια",
+        "objective_ids": [
+          "9b143615-60db-5f64-a2b3-f5956400f09a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "2.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όλοι οι πραγματικοί",
+              "correct": true,
+              "reason": "2x+2<2x+5 ισοδυναμεί με 2<5, που είναι πάντα αληθές. Άρα κάθε πραγματικός είναι λύση."
+            },
+            {
+              "choice": "Κανένας πραγματικός",
+              "correct": false,
+              "reason": "Η αριθμητική ανισότητα είναι αληθής και όχι ψευδής."
+            },
+            {
+              "choice": "Μόνο x<3",
+              "correct": false,
+              "reason": "Δεν απομένει κανένας περιορισμός του x."
+            },
+            {
+              "choice": "Μόνο x>3",
+              "correct": false,
+              "reason": "Οι όροι με x απαλείφονται και δεν προκύπτει κάτω φράγμα."
+            }
+          ]
+        },
+        "practice_note": "Εξάσκηση ανισώσεων · οι προαιρετικές αποδείξεις και πρόσθετες ιδιότητες διάταξης δεν εξετάζονται εδώ."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Το ζεύγος (2,y) είναι λύση της 2x+y=7. Ποια είναι η τιμή του y;",
+        "choices": [
+          "3",
+          "5",
+          "7",
+          "−3"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Αντικατάστησε το πρώτο στοιχείο στη θέση του x.",
+        "solution": "2×2+y=7, άρα y=3.",
+        "skill": "Επαλήθευση διατεταγμένου ζεύγους",
+        "objective_ids": [
+          "01e2864b-d648-5213-9d34-26eaa4d12ee8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7-2*2"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια εξίσωση παριστάνει κατακόρυφη ευθεία;",
+        "choices": [
+          "x=3",
+          "y=3",
+          "y=x+3",
+          "y=3x"
+        ],
+        "answer": "x=3",
+        "difficulty": "easy",
+        "hint": "Στην κατακόρυφη ευθεία το x παραμένει σταθερό.",
+        "solution": "Η x=3 περιέχει όλα τα σημεία με τετμημένη 3, ανεξάρτητα από το y.",
+        "skill": "Αναγνώριση κατακόρυφης ευθείας",
+        "objective_ids": [
+          "01e2864b-d648-5213-9d34-26eaa4d12ee8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x=3",
+              "correct": true,
+              "reason": "Η x=3 περιέχει όλα τα σημεία με τετμημένη 3, ανεξάρτητα από το y."
+            },
+            {
+              "choice": "y=3",
+              "correct": false,
+              "reason": "Η y=3 παριστάνει οριζόντια ευθεία."
+            },
+            {
+              "choice": "y=x+3",
+              "correct": false,
+              "reason": "Στη y=x+3 μεταβάλλονται και οι δύο συντεταγμένες."
+            },
+            {
+              "choice": "y=3x",
+              "correct": false,
+              "reason": "Η y=3x είναι πλάγια ευθεία που περνά από την αρχή."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόση είναι η τετμημένη της τομής της 3x+2y=12 με τον άξονα x;",
+        "choices": [
+          "4",
+          "6",
+          "12",
+          "0"
+        ],
+        "answer": "4",
+        "difficulty": "medium",
+        "hint": "Στον άξονα x η τεταγμένη είναι μηδέν.",
+        "solution": "Θέτουμε y=0 και παίρνουμε 3x=12, άρα x=4.",
+        "skill": "Τομή γραμμικής εξίσωσης με άξονα x",
+        "objective_ids": [
+          "01e2864b-d648-5213-9d34-26eaa4d12ee8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12/3"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια εξίσωση ισοδυναμεί με την 2x−y=5;",
+        "choices": [
+          "y=2x−5",
+          "y=5−2x",
+          "y=2x+5",
+          "y=x−5"
+        ],
+        "answer": "y=2x−5",
+        "difficulty": "medium",
+        "hint": "Λύσε ως προς y και πρόσεξε το πρόσημο του −y.",
+        "solution": "−y=5−2x, άρα y=2x−5.",
+        "skill": "Επίλυση γραμμικής εξίσωσης ως προς y",
+        "objective_ids": [
+          "ff272cb0-679b-5dd4-97e0-1974f54e876c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "y=2x−5",
+              "correct": true,
+              "reason": "−y=5−2x, άρα y=2x−5."
+            },
+            {
+              "choice": "y=5−2x",
+              "correct": false,
+              "reason": "Η διαίρεση με −1 αλλάζει και τα δύο πρόσημα."
+            },
+            {
+              "choice": "y=2x+5",
+              "correct": false,
+              "reason": "Ο σταθερός όρος γίνεται −5."
+            },
+            {
+              "choice": "y=x−5",
+              "correct": false,
+              "reason": "Ο συντελεστής του x παραμένει 2."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια τιμή του κ κάνει το σημείο (−2,3) λύση της κx+2y=10;",
+        "choices": [
+          "−2",
+          "2",
+          "−5",
+          "5"
+        ],
+        "answer": "−2",
+        "difficulty": "hard",
+        "hint": "Αντικατάστησε και τις δύο συντεταγμένες πριν λύσεις για κ.",
+        "solution": "−2κ+6=10, άρα −2κ=4 και κ=−2.",
+        "skill": "Παράμετρος από γνωστό σημείο ευθείας",
+        "objective_ids": [
+          "ff272cb0-679b-5dd4-97e0-1974f54e876c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(10-2*3)/(-2)"
+        }
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για την εξίσωση 0x+0y=5, ποια δήλωση ισχύει;",
+        "choices": [
+          "Δεν έχει κανένα ζεύγος λύση και δεν παριστάνει ευθεία",
+          "Παριστάνει την ευθεία x=5",
+          "Παριστάνει την ευθεία y=5",
+          "Κάθε ζεύγος είναι λύση"
+        ],
+        "answer": "Δεν έχει κανένα ζεύγος λύση και δεν παριστάνει ευθεία",
+        "difficulty": "hard",
+        "hint": "Έλεγξε τη συνθήκη ότι οι δύο συντελεστές δεν είναι και οι δύο μηδέν.",
+        "solution": "Η εξίσωση γίνεται 0=5, άρα κανένα ζεύγος δεν την επαληθεύει. Δεν είναι εξίσωση ευθείας.",
+        "skill": "Μη εκφυλισμένη γραμμική εξίσωση ευθείας",
+        "objective_ids": [
+          "ff272cb0-679b-5dd4-97e0-1974f54e876c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν έχει κανένα ζεύγος λύση και δεν παριστάνει ευθεία",
+              "correct": true,
+              "reason": "Η εξίσωση γίνεται 0=5, άρα κανένα ζεύγος δεν την επαληθεύει. Δεν είναι εξίσωση ευθείας."
+            },
+            {
+              "choice": "Παριστάνει την ευθεία x=5",
+              "correct": false,
+              "reason": "Το αριστερό μέλος είναι 0 ανεξάρτητα από το x."
+            },
+            {
+              "choice": "Παριστάνει την ευθεία y=5",
+              "correct": false,
+              "reason": "Το αριστερό μέλος είναι 0 ανεξάρτητα από το y."
+            },
+            {
+              "choice": "Κάθε ζεύγος είναι λύση",
+              "correct": false,
+              "reason": "Η ισότητα 0=5 είναι ψευδής για κάθε ζεύγος."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι ευθείες του σχήματος είναι y=x+1 και y=−x+5. Ποιο είναι το κοινό τους σημείο;",
+        "choices": [
+          "(2,3)",
+          "(3,2)",
+          "(0,1)",
+          "(0,5)"
+        ],
+        "answer": "(2,3)",
+        "difficulty": "easy",
+        "hint": "Διάβασε την τομή και επιβεβαίωσε το ζεύγος και στις δύο εξισώσεις.",
+        "solution": "Στο (2,3), 3=2+1 και 3=−2+5. Το σημείο ανήκει και στις δύο ευθείες.",
+        "skill": "Γραφική λύση και αλγεβρικός έλεγχος",
+        "objective_ids": [
+          "51085108-fa38-58fe-8c93-3a0666df2bfc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(2,3)",
+              "correct": true,
+              "reason": "Στο (2,3), 3=2+1 και 3=−2+5. Το σημείο ανήκει και στις δύο ευθείες."
+            },
+            {
+              "choice": "(3,2)",
+              "correct": false,
+              "reason": "Το (3,2) δεν επαληθεύει την πρώτη εξίσωση."
+            },
+            {
+              "choice": "(0,1)",
+              "correct": false,
+              "reason": "Το (0,1) ανήκει μόνο στην πρώτη ευθεία."
+            },
+            {
+              "choice": "(0,5)",
+              "correct": false,
+              "reason": "Το (0,5) ανήκει μόνο στη δεύτερη ευθεία."
+            }
+          ]
+        },
+        "image": {
+          "filename": "images/questions/gym-c-system-lines.svg",
+          "alt": "Σύστημα συντεταγμένων με ίση μοναδιαία κλίμακα. Οι ευθείες y=x+1 και y=−x+5 τέμνονται στο σημείο με τετμημένη 2 και τεταγμένη 3."
+        },
+        "checks": [
+          [
+            "2+1",
+            "=",
+            "3"
+          ],
+          [
+            "-2+5",
+            "=",
+            "3"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο διαφορετικές παράλληλες ευθείες παριστάνουν τις εξισώσεις ενός συστήματος. Πόσες λύσεις έχει;",
+        "choices": [
+          "Καμία",
+          "Μία",
+          "Δύο",
+          "Άπειρες"
+        ],
+        "answer": "Καμία",
+        "difficulty": "easy",
+        "hint": "Η λύση πρέπει να είναι κοινό σημείο και των δύο ευθειών.",
+        "solution": "Διαφορετικές παράλληλες ευθείες δεν έχουν κοινό σημείο, άρα το σύστημα δεν έχει λύση.",
+        "skill": "Γραφική ερμηνεία αδύνατου συστήματος",
+        "objective_ids": [
+          "51085108-fa38-58fe-8c93-3a0666df2bfc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Καμία",
+              "correct": true,
+              "reason": "Διαφορετικές παράλληλες ευθείες δεν έχουν κοινό σημείο, άρα το σύστημα δεν έχει λύση."
+            },
+            {
+              "choice": "Μία",
+              "correct": false,
+              "reason": "Μία λύση απαιτεί ένα κοινό σημείο."
+            },
+            {
+              "choice": "Δύο",
+              "correct": false,
+              "reason": "Δύο διαφορετικές ευθείες δεν έχουν δύο κοινά σημεία."
+            },
+            {
+              "choice": "Άπειρες",
+              "correct": false,
+              "reason": "Άπειρες λύσεις δίνουν ταυτιζόμενες και όχι διαφορετικές παράλληλες ευθείες."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Το σύστημα y=2x+1 και y=2x−3 έχει πόσες λύσεις;",
+        "choices": [
+          "Καμία",
+          "Μία, την (0,1)",
+          "Μία, την (0,−3)",
+          "Άπειρες"
+        ],
+        "answer": "Καμία",
+        "difficulty": "medium",
+        "hint": "Οι ευθείες έχουν ίδιο συντελεστή του x αλλά διαφορετικό σταθερό όρο.",
+        "solution": "Η ισότητα των δύο y θα έδινε 2x+1=2x−3, δηλαδή 1=−3. Οι ευθείες είναι διαφορετικές παράλληλες.",
+        "skill": "Παράλληλες από δοσμένες εξισώσεις",
+        "objective_ids": [
+          "51085108-fa38-58fe-8c93-3a0666df2bfc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Καμία",
+              "correct": true,
+              "reason": "Η ισότητα των δύο y θα έδινε 2x+1=2x−3, δηλαδή 1=−3. Οι ευθείες είναι διαφορετικές παράλληλες."
+            },
+            {
+              "choice": "Μία, την (0,1)",
+              "correct": false,
+              "reason": "Το (0,1) δεν ανήκει στη δεύτερη ευθεία."
+            },
+            {
+              "choice": "Μία, την (0,−3)",
+              "correct": false,
+              "reason": "Το (0,−3) δεν ανήκει στην πρώτη ευθεία."
+            },
+            {
+              "choice": "Άπειρες",
+              "correct": false,
+              "reason": "Οι διαφορετικοί σταθεροί όροι αποκλείουν την ταύτιση."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι εξισώσεις x+y=4 και 2x+2y=8 παριστάνουν ποια περίπτωση;",
+        "choices": [
+          "Ταυτιζόμενες ευθείες και άπειρες λύσεις",
+          "Διαφορετικές παράλληλες και καμία λύση",
+          "Τεμνόμενες και μία λύση",
+          "Δύο κοινά σημεία μόνο"
+        ],
+        "answer": "Ταυτιζόμενες ευθείες και άπειρες λύσεις",
+        "difficulty": "medium",
+        "hint": "Η δεύτερη εξίσωση είναι μη μηδενικό πολλαπλάσιο ολόκληρης της πρώτης.",
+        "solution": "Διαιρώντας τη δεύτερη με 2 παίρνουμε την πρώτη. Κάθε σημείο της ίδιας ευθείας είναι κοινή λύση.",
+        "skill": "Ταύτιση ευθειών και άπειρες λύσεις",
+        "objective_ids": [
+          "6062b379-327a-5d13-aa7d-d97c90f10575"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ταυτιζόμενες ευθείες και άπειρες λύσεις",
+              "correct": true,
+              "reason": "Διαιρώντας τη δεύτερη με 2 παίρνουμε την πρώτη. Κάθε σημείο της ίδιας ευθείας είναι κοινή λύση."
+            },
+            {
+              "choice": "Διαφορετικές παράλληλες και καμία λύση",
+              "correct": false,
+              "reason": "Οι δύο εξισώσεις έχουν ακριβώς το ίδιο σύνολο σημείων."
+            },
+            {
+              "choice": "Τεμνόμενες και μία λύση",
+              "correct": false,
+              "reason": "Δεν πρόκειται για δύο διαφορετικές τεμνόμενες ευθείες."
+            },
+            {
+              "choice": "Δύο κοινά σημεία μόνο",
+              "correct": false,
+              "reason": "Η κοινή ευθεία έχει άπειρα σημεία και όχι μόνο δύο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η τομή δύο ευθειών διαβάζεται προσεγγιστικά με x≈1,5 και y≈2,5. Ποια πράξη τεκμηριώνει ότι είναι ακριβής λύση δοσμένου συστήματος;",
+        "choices": [
+          "Αντικατάσταση και των δύο συντεταγμένων και στις δύο εξισώσεις",
+          "Έλεγχος μόνο στην πρώτη εξίσωση",
+          "Στρογγυλοποίηση σε ακέραιες συντεταγμένες",
+          "Έλεγχος μόνο του x"
+        ],
+        "answer": "Αντικατάσταση και των δύο συντεταγμένων και στις δύο εξισώσεις",
+        "difficulty": "hard",
+        "hint": "Η κοινή λύση πρέπει να επαληθεύει ταυτόχρονα και τις δύο σχέσεις.",
+        "solution": "Η γραφική ανάγνωση χρειάζεται έλεγχο και στις δύο εξισώσεις. Το οπτικό σημείο τομής από μόνο του μπορεί να είναι προσεγγιστικό.",
+        "skill": "Όριο ακρίβειας γραφικής ανάγνωσης",
+        "objective_ids": [
+          "6062b379-327a-5d13-aa7d-d97c90f10575"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Αντικατάσταση και των δύο συντεταγμένων και στις δύο εξισώσεις",
+              "correct": true,
+              "reason": "Η γραφική ανάγνωση χρειάζεται έλεγχο και στις δύο εξισώσεις. Το οπτικό σημείο τομής από μόνο του μπορεί να είναι προσεγγιστικό."
+            },
+            {
+              "choice": "Έλεγχος μόνο στην πρώτη εξίσωση",
+              "correct": false,
+              "reason": "Ένα σημείο μίας ευθείας μπορεί να μην ανήκει στην άλλη."
+            },
+            {
+              "choice": "Στρογγυλοποίηση σε ακέραιες συντεταγμένες",
+              "correct": false,
+              "reason": "Η στρογγυλοποίηση γενικά αλλάζει το σημείο και μπορεί να χαλάσει τις εξισώσεις."
+            },
+            {
+              "choice": "Έλεγχος μόνο του x",
+              "correct": false,
+              "reason": "Η λύση συστήματος είναι ολόκληρο διατεταγμένο ζεύγος."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι ευθείες y=3x−2 και y=−x+6 τέμνονται. Ποια είναι η τεταγμένη του κοινού σημείου;",
+        "choices": [
+          "4",
+          "2",
+          "6",
+          "−2"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Εξίσωσε τις δύο εκφράσεις του y και μετά βρες το y.",
+        "solution": "3x−2=−x+6 δίνει 4x=8 και x=2. Άρα y=3×2−2=4.",
+        "skill": "Έλεγχος κοινής τεταγμένης δύο ευθειών",
+        "objective_ids": [
+          "6062b379-327a-5d13-aa7d-d97c90f10575"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*((6+2)/4)-2"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σύστημα x+y=7 και x−y=1, ποια είναι η τιμή του x;",
+        "choices": [
+          "4",
+          "3",
+          "8",
+          "6"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Πρόσθεσε τις εξισώσεις ώστε να απαλειφθεί το y.",
+        "solution": "2x=8, άρα x=4 και κατόπιν y=3. Το ζεύγος (4,3) επαληθεύει και τις δύο εξισώσεις.",
+        "skill": "Απαλοιφή με αντίθετους συντελεστές",
+        "objective_ids": [
+          "3e38f2ee-a5ea-57a7-a699-789b1bb573f0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(7+1)/2"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σύστημα y=2x και x+y=9, ποια είναι η τιμή του y;",
+        "choices": [
+          "6",
+          "3",
+          "9",
+          "18"
+        ],
+        "answer": "6",
+        "difficulty": "easy",
+        "hint": "Αντικατάστησε το y στη δεύτερη εξίσωση.",
+        "solution": "x+2x=9, άρα x=3 και y=6.",
+        "skill": "Αντικατάσταση ήδη απομονωμένου αγνώστου",
+        "objective_ids": [
+          "3e38f2ee-a5ea-57a7-a699-789b1bb573f0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*(9/3)"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο ζεύγος λύνει το σύστημα 2x+y=8 και x−y=1;",
+        "choices": [
+          "(3,2)",
+          "(2,3)",
+          "(4,0)",
+          "(1,6)"
+        ],
+        "answer": "(3,2)",
+        "difficulty": "medium",
+        "hint": "Πρόσθεσε τις εξισώσεις για να βρεις πρώτα το x.",
+        "solution": "3x=9 δίνει x=3. Από x−y=1 προκύπτει y=2. Έλεγχος: 2×3+2=8 και 3−2=1.",
+        "skill": "Πλήρης λύση και έλεγχος συστήματος",
+        "objective_ids": [
+          "3e38f2ee-a5ea-57a7-a699-789b1bb573f0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(3,2)",
+              "correct": true,
+              "reason": "3x=9 δίνει x=3. Από x−y=1 προκύπτει y=2. Έλεγχος: 2×3+2=8 και 3−2=1."
+            },
+            {
+              "choice": "(2,3)",
+              "correct": false,
+              "reason": "Το (2,3) δεν δίνει 8 στην πρώτη εξίσωση."
+            },
+            {
+              "choice": "(4,0)",
+              "correct": false,
+              "reason": "Το (4,0) δεν δίνει 1 στη δεύτερη εξίσωση."
+            },
+            {
+              "choice": "(1,6)",
+              "correct": false,
+              "reason": "Το (1,6) δίνει −5 στη δεύτερη εξίσωση."
+            }
+          ]
+        },
+        "checks": [
+          [
+            "2*3+2",
+            "=",
+            "8"
+          ],
+          [
+            "3-2",
+            "=",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σύστημα 3x+2y=16 και x−2y=0, ποια είναι η τιμή του y;",
+        "choices": [
+          "2",
+          "4",
+          "8",
+          "−2"
+        ],
+        "answer": "2",
+        "difficulty": "medium",
+        "hint": "Πρόσθεσε ώστε να απαλειφθούν οι όροι με y.",
+        "solution": "4x=16, άρα x=4. Η δεύτερη δίνει 4−2y=0, επομένως y=2.",
+        "skill": "Απαλοιφή και επιστροφή σε αρχική εξίσωση",
+        "objective_ids": [
+          "20dfecce-5d59-5458-867a-89830a0861f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(16/4)/2"
+        }
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε 12 εισιτήρια, τα πλήρη κοστίζουν 8 ευρώ και τα μειωμένα 5 ευρώ. Το σύνολο είναι 78 ευρώ. Πόσα είναι τα πλήρη;",
+        "choices": [
+          "6",
+          "12",
+          "3",
+          "9"
+        ],
+        "answer": "6",
+        "difficulty": "hard",
+        "hint": "Θέσε x τα πλήρη και y τα μειωμένα: x+y=12.",
+        "solution": "Από y=12−x και 8x+5y=78 προκύπτει 8x+60−5x=78, άρα x=6 και y=6.",
+        "skill": "Μοντελοποίηση πλήθους και κόστους",
+        "objective_ids": [
+          "20dfecce-5d59-5458-867a-89830a0861f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(78-5*12)/(8-5)"
+        },
+        "checks": [
+          [
+            "6+6",
+            "=",
+            "12"
+          ],
+          [
+            "8*6+5*6",
+            "=",
+            "78"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Κατά την επίλυση συστήματος προκύπτει τελικά η ισότητα 0=−4. Ποιο συμπέρασμα ισχύει, αν οι πράξεις ήταν ισοδύναμες;",
+        "choices": [
+          "Το σύστημα είναι αδύνατο",
+          "Το σύστημα έχει άπειρες λύσεις",
+          "Η μοναδική λύση είναι (0,−4)",
+          "Η μοναδική λύση είναι (−4,0)"
+        ],
+        "answer": "Το σύστημα είναι αδύνατο",
+        "difficulty": "hard",
+        "hint": "Η τελική αριθμητική αντίφαση δεν επαληθεύεται από κανένα ζεύγος.",
+        "solution": "Η σχέση 0=−4 είναι ψευδής, άρα το ισοδύναμο αρχικό σύστημα δεν έχει λύση.",
+        "skill": "Αριθμητική αντίφαση μετά από απαλοιφή",
+        "objective_ids": [
+          "20dfecce-5d59-5458-867a-89830a0861f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 3,
+            "paragraph": "3.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το σύστημα είναι αδύνατο",
+              "correct": true,
+              "reason": "Η σχέση 0=−4 είναι ψευδής, άρα το ισοδύναμο αρχικό σύστημα δεν έχει λύση."
+            },
+            {
+              "choice": "Το σύστημα έχει άπειρες λύσεις",
+              "correct": false,
+              "reason": "Άπειρες λύσεις θα απαιτούσαν συμβατή ταυτότητα και όχι αντίφαση."
+            },
+            {
+              "choice": "Η μοναδική λύση είναι (0,−4)",
+              "correct": false,
+              "reason": "Το 0=−4 δεν δίνει τιμές στους δύο αγνώστους."
+            },
+            {
+              "choice": "Η μοναδική λύση είναι (−4,0)",
+              "correct": false,
+              "reason": "Η αντίφαση αποκλείει κάθε ζεύγος, ανεξάρτητα από τη σειρά."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνεται Α={2,4,6}. Ποια δήλωση είναι σωστή;",
+        "choices": [
+          "4∈Α",
+          "3∈Α",
+          "6∉Α",
+          "Α δεν έχει στοιχεία"
+        ],
+        "answer": "4∈Α",
+        "difficulty": "easy",
+        "hint": "Έλεγξε τη συμμετοχή από την καταγραφή των στοιχείων.",
+        "solution": "Το 4 είναι ένα από τα στοιχεία που γράφονται μέσα στα άγκιστρα του Α.",
+        "skill": "Συμμετοχή στοιχείου σε σύνολο",
+        "objective_ids": [
+          "05c284b9-2a91-5c70-a394-cabced8a28f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "4∈Α",
+              "correct": true,
+              "reason": "Το 4 είναι ένα από τα στοιχεία που γράφονται μέσα στα άγκιστρα του Α."
+            },
+            {
+              "choice": "3∈Α",
+              "correct": false,
+              "reason": "Το 3 δεν υπάρχει στην καταγραφή του Α."
+            },
+            {
+              "choice": "6∉Α",
+              "correct": false,
+              "reason": "Το 6 είναι ρητά στοιχείο του Α."
+            },
+            {
+              "choice": "Α δεν έχει στοιχεία",
+              "correct": false,
+              "reason": "Το Α έχει τρία διαφορετικά στοιχεία."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα διαφορετικά στοιχεία έχει το σύνολο {1,2,2,3,1};",
+        "choices": [
+          "3",
+          "5",
+          "2",
+          "1"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Οι επαναλήψεις δεν μετριούνται ως καινούρια στοιχεία.",
+        "solution": "Τα διαφορετικά στοιχεία είναι 1, 2 και 3, άρα το σύνολο έχει τρία στοιχεία.",
+        "skill": "Πλήθος συνόλου χωρίς διπλομέτρηση",
+        "objective_ids": [
+          "05c284b9-2a91-5c70-a394-cabced8a28f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο σύνολο είναι ίσο με το {α,β,γ};",
+        "choices": [
+          "{γ,α,β}",
+          "{α,β}",
+          "{α,β,δ}",
+          "{α,β,γ,δ}"
+        ],
+        "answer": "{γ,α,β}",
+        "difficulty": "medium",
+        "hint": "Η σειρά γραφής δεν επηρεάζει τα στοιχεία ενός συνόλου.",
+        "solution": "Το {γ,α,β} έχει ακριβώς τα ίδια στοιχεία α, β, γ, ανεξάρτητα από τη σειρά.",
+        "skill": "Ισότητα συνόλων από ίδια στοιχεία",
+        "objective_ids": [
+          "05c284b9-2a91-5c70-a394-cabced8a28f5"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{γ,α,β}",
+              "correct": true,
+              "reason": "Το {γ,α,β} έχει ακριβώς τα ίδια στοιχεία α, β, γ, ανεξάρτητα από τη σειρά."
+            },
+            {
+              "choice": "{α,β}",
+              "correct": false,
+              "reason": "Λείπει το στοιχείο γ."
+            },
+            {
+              "choice": "{α,β,δ}",
+              "correct": false,
+              "reason": "Το γ αντικαθίσταται από διαφορετικό στοιχείο δ."
+            },
+            {
+              "choice": "{α,β,γ,δ}",
+              "correct": false,
+              "reason": "Το πρόσθετο δ αλλάζει το σύνολο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνεται Β={1,2,3,4}. Ποιο από τα παρακάτω είναι υποσύνολο του Β;",
+        "choices": [
+          "{2,4}",
+          "{2,5}",
+          "{0}",
+          "{1,4,6}"
+        ],
+        "answer": "{2,4}",
+        "difficulty": "medium",
+        "hint": "Κάθε στοιχείο του υποσυνόλου πρέπει να ανήκει στο Β.",
+        "solution": "Και το 2 και το 4 ανήκουν στο Β. Άρα {2,4} είναι υποσύνολό του.",
+        "skill": "Αναγνώριση υποσυνόλου",
+        "objective_ids": [
+          "c474144f-5d70-5bd1-bf85-4d6fdb2af035"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{2,4}",
+              "correct": true,
+              "reason": "Και το 2 και το 4 ανήκουν στο Β. Άρα {2,4} είναι υποσύνολό του."
+            },
+            {
+              "choice": "{2,5}",
+              "correct": false,
+              "reason": "Το 5 δεν ανήκει στο Β."
+            },
+            {
+              "choice": "{0}",
+              "correct": false,
+              "reason": "Το 0 δεν ανήκει στο Β."
+            },
+            {
+              "choice": "{1,4,6}",
+              "correct": false,
+              "reason": "Το 6 δεν ανήκει στο Β."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Το Α είναι το σύνολο των θετικών ακεραίων μικρότερων από το 5. Πόσα στοιχεία έχει;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "0"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Οι θετικοί ακέραιοι αρχίζουν από το 1 και το όριο είναι αυστηρό.",
+        "solution": "Α={1,2,3,4}. Το 0 δεν είναι θετικό και το 5 αποκλείεται, άρα τέσσερα στοιχεία.",
+        "skill": "Καταγραφή συνόλου από ιδιότητα",
+        "objective_ids": [
+          "c474144f-5d70-5bd1-bf85-4d6fdb2af035"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        }
+      }
+    },
+    {
+      "reference": "5.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια δήλωση για το κενό σύνολο ∅ και το {0} είναι σωστή;",
+        "choices": [
+          "Το ∅ έχει μηδέν στοιχεία, ενώ το {0} ένα",
+          "Και τα δύο δεν έχουν στοιχεία",
+          "Είναι ίσα επειδή περιέχουν μηδέν",
+          "Το ∅ έχει ένα στοιχείο"
+        ],
+        "answer": "Το ∅ έχει μηδέν στοιχεία, ενώ το {0} ένα",
+        "difficulty": "hard",
+        "hint": "Ξεχώρισε την απουσία στοιχείων από τον αριθμό 0 ως στοιχείο.",
+        "solution": "Το κενό σύνολο δεν έχει κανένα στοιχείο. Το {0} περιέχει ακριβώς ένα στοιχείο, τον αριθμό 0.",
+        "skill": "Κενό σύνολο έναντι συνόλου με στοιχείο μηδέν",
+        "objective_ids": [
+          "c474144f-5d70-5bd1-bf85-4d6fdb2af035"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.1"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το ∅ έχει μηδέν στοιχεία, ενώ το {0} ένα",
+              "correct": true,
+              "reason": "Το κενό σύνολο δεν έχει κανένα στοιχείο. Το {0} περιέχει ακριβώς ένα στοιχείο, τον αριθμό 0."
+            },
+            {
+              "choice": "Και τα δύο δεν έχουν στοιχεία",
+              "correct": false,
+              "reason": "Το {0} έχει ένα συγκεκριμένο στοιχείο."
+            },
+            {
+              "choice": "Είναι ίσα επειδή περιέχουν μηδέν",
+              "correct": false,
+              "reason": "Το κενό σύνολο δεν περιέχει ούτε τον αριθμό 0."
+            },
+            {
+              "choice": "Το ∅ έχει ένα στοιχείο",
+              "correct": false,
+              "reason": "Από τον ορισμό του το κενό σύνολο δεν έχει στοιχεία."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ρίχνουμε μία φορά κανονικό εξάεδρο ζάρι και καταγράφουμε τον αριθμό της επάνω έδρας. Πόσα απλά αποτελέσματα έχει ο δειγματικός χώρος;",
+        "choices": [
+          "6",
+          "1",
+          "2",
+          "12"
+        ],
+        "answer": "6",
+        "difficulty": "easy",
+        "hint": "Κατάγραψε τους αριθμούς που είναι δυνατόν να εμφανιστούν.",
+        "solution": "Ω={1,2,3,4,5,6}, άρα έξι δυνατά απλά αποτελέσματα.",
+        "skill": "Δειγματικός χώρος ρίψης ζαριού",
+        "objective_ids": [
+          "08bb4c61-4cbc-5464-be42-31c431909305"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε μία ρίψη εξάεδρου ζαριού, ποια καταγραφή παριστάνει το ενδεχόμενο «εμφανίζεται άρτιος αριθμός»;",
+        "choices": [
+          "{2,4,6}",
+          "{1,3,5}",
+          "{2}",
+          "{1,2,3,4,5,6}"
+        ],
+        "answer": "{2,4,6}",
+        "difficulty": "easy",
+        "hint": "Επίλεξε από τον δειγματικό χώρο όσους αριθμούς διαιρούνται με 2.",
+        "solution": "Οι άρτιοι δυνατοί αριθμοί είναι ακριβώς 2, 4 και 6.",
+        "skill": "Περιγραφή ενδεχομένου ως υποσυνόλου",
+        "objective_ids": [
+          "08bb4c61-4cbc-5464-be42-31c431909305"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{2,4,6}",
+              "correct": true,
+              "reason": "Οι άρτιοι δυνατοί αριθμοί είναι ακριβώς 2, 4 και 6."
+            },
+            {
+              "choice": "{1,3,5}",
+              "correct": false,
+              "reason": "Τα 1,3,5 είναι περιττά."
+            },
+            {
+              "choice": "{2}",
+              "correct": false,
+              "reason": "Το 2 είναι μόνο ένα από τα τρία ευνοϊκά αποτελέσματα."
+            },
+            {
+              "choice": "{1,2,3,4,5,6}",
+              "correct": false,
+              "reason": "Ολόκληρος ο χώρος περιλαμβάνει και περιττούς αριθμούς."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ρίχνουμε ένα νόμισμα δύο φορές και καταγράφουμε τη σειρά Κ ή Γ. Πόσα διαφορετικά διατεταγμένα αποτελέσματα υπάρχουν;",
+        "choices": [
+          "4",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "4",
+        "difficulty": "medium",
+        "hint": "Δύο δυνατότητες στην πρώτη και δύο στη δεύτερη ρίψη.",
+        "solution": "Ο χώρος είναι {ΚΚ,ΚΓ,ΓΚ,ΓΓ}. Τα ΚΓ και ΓΚ είναι διαφορετικές σειρές, άρα τέσσερα αποτελέσματα.",
+        "skill": "Διατεταγμένα αποτελέσματα δύο δοκιμών",
+        "objective_ids": [
+          "08bb4c61-4cbc-5464-be42-31c431909305"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε μία ρίψη ζαριού με Ω={1,2,3,4,5,6}, ποιο είναι το βέβαιο ενδεχόμενο;",
+        "choices": [
+          "Το Ω ολόκληρο",
+          "Το {6}",
+          "Το ∅",
+          "Το {1,2}"
+        ],
+        "answer": "Το Ω ολόκληρο",
+        "difficulty": "medium",
+        "hint": "Το βέβαιο ενδεχόμενο περιλαμβάνει κάθε δυνατό αποτέλεσμα.",
+        "solution": "Κάθε αποτέλεσμα ανήκει στο Ω, άρα το Ω πραγματοποιείται σε κάθε ρίψη.",
+        "skill": "Βέβαιο ενδεχόμενο",
+        "objective_ids": [
+          "62c782ad-0b03-5193-9435-e98ffdeff363"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το Ω ολόκληρο",
+              "correct": true,
+              "reason": "Κάθε αποτέλεσμα ανήκει στο Ω, άρα το Ω πραγματοποιείται σε κάθε ρίψη."
+            },
+            {
+              "choice": "Το {6}",
+              "correct": false,
+              "reason": "Το {6} πραγματοποιείται μόνο αν εμφανιστεί το 6."
+            },
+            {
+              "choice": "Το ∅",
+              "correct": false,
+              "reason": "Το κενό σύνολο είναι αδύνατο ενδεχόμενο."
+            },
+            {
+              "choice": "Το {1,2}",
+              "correct": false,
+              "reason": "Τα αποτελέσματα 3,4,5,6 δεν ανήκουν στο {1,2}."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ρίχνουμε δύο ζάρια αλλά καταγράφουμε μόνο το άθροισμα των ενδείξεων. Πόσες διαφορετικές τιμές έχει ο δειγματικός χώρος αυτής της καταγραφής;",
+        "choices": [
+          "11",
+          "36",
+          "12",
+          "6"
+        ],
+        "answer": "11",
+        "difficulty": "hard",
+        "hint": "Το μικρότερο άθροισμα είναι 2 και το μεγαλύτερο 12.",
+        "solution": "Τα δυνατά αθροίσματα είναι 2,3,...,12: συνολικά 12−2+1=11. Αυτές οι τιμές δεν είναι όλες ισοπίθανες.",
+        "skill": "Δειγματικός χώρος σύμφωνα με την καταγραφή",
+        "objective_ids": [
+          "62c782ad-0b03-5193-9435-e98ffdeff363"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12-2+1"
+        }
+      }
+    },
+    {
+      "reference": "5.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε μία ρίψη εξάεδρου ζαριού, ποιο ενδεχόμενο είναι αδύνατο;",
+        "choices": [
+          "Να εμφανιστεί αριθμός 8",
+          "Να εμφανιστεί αριθμός 1",
+          "Να εμφανιστεί άρτιος αριθμός",
+          "Να εμφανιστεί αριθμός μικρότερος του 7"
+        ],
+        "answer": "Να εμφανιστεί αριθμός 8",
+        "difficulty": "hard",
+        "hint": "Το αδύνατο ενδεχόμενο δεν έχει κανένα αποτέλεσμα μέσα στον δοσμένο χώρο.",
+        "solution": "Ο αριθμός 8 δεν ανήκει στο Ω={1,2,3,4,5,6}, άρα το ενδεχόμενο είναι αδύνατο.",
+        "skill": "Αδύνατο ενδεχόμενο από δοσμένο χώρο",
+        "objective_ids": [
+          "62c782ad-0b03-5193-9435-e98ffdeff363"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Να εμφανιστεί αριθμός 8",
+              "correct": true,
+              "reason": "Ο αριθμός 8 δεν ανήκει στο Ω={1,2,3,4,5,6}, άρα το ενδεχόμενο είναι αδύνατο."
+            },
+            {
+              "choice": "Να εμφανιστεί αριθμός 1",
+              "correct": false,
+              "reason": "Το 1 είναι ένα από τα δυνατά αποτελέσματα."
+            },
+            {
+              "choice": "Να εμφανιστεί άρτιος αριθμός",
+              "correct": false,
+              "reason": "Τα 2,4,6 είναι δυνατά άρτια αποτελέσματα."
+            },
+            {
+              "choice": "Να εμφανιστεί αριθμός μικρότερος του 7",
+              "correct": false,
+              "reason": "Κάθε δυνατή ένδειξη είναι μικρότερη του 7, άρα αυτό είναι βέβαιο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "5.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δίκαιο εξάεδρο ζάρι, πόση είναι η πιθανότητα να εμφανιστεί το 4;",
+        "choices": [
+          "1/6",
+          "4/6",
+          "1/4",
+          "1"
+        ],
+        "answer": "1/6",
+        "difficulty": "easy",
+        "hint": "Μία ευνοϊκή ένδειξη από έξι ισοπίθανες.",
+        "solution": "Υπάρχει ένα ευνοϊκό από έξι ισοπίθανα απλά αποτελέσματα, άρα P=1/6.",
+        "skill": "Πιθανότητα απλού ισοπίθανου αποτελέσματος",
+        "objective_ids": [
+          "43f94b78-17d2-5d5e-bd82-51c01999654c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/6"
+        }
+      }
+    },
+    {
+      "reference": "5.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σάκος έχει 3 κόκκινες και 5 μπλε ίδιου μεγέθους μπίλιες. Επιλέγεται μία με τρόπο που κάνει κάθε μπίλια εξίσου πιθανή. Ποια είναι η πιθανότητα κόκκινης;",
+        "choices": [
+          "3/8",
+          "3/5",
+          "5/8",
+          "1/3"
+        ],
+        "answer": "3/8",
+        "difficulty": "easy",
+        "hint": "Μέτρησε όλες τις μπίλιες για τον παρονομαστή.",
+        "solution": "Οι ευνοϊκές είναι 3 και το σύνολο 8. Άρα P=3/8.",
+        "skill": "Ισοπίθανη επιλογή αντικειμένου",
+        "objective_ids": [
+          "43f94b78-17d2-5d5e-bd82-51c01999654c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/(3+5)"
+        }
+      }
+    },
+    {
+      "reference": "5.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δίκαιο εξάεδρο ζάρι, ποια είναι η πιθανότητα ένδειξης μεγαλύτερης από 4;",
+        "choices": [
+          "1/3",
+          "2/3",
+          "1/2",
+          "1/6"
+        ],
+        "answer": "1/3",
+        "difficulty": "medium",
+        "hint": "Κατάγραψε πρώτα τις ευνοϊκές ενδείξεις.",
+        "solution": "Οι ενδείξεις είναι 5 και 6. Άρα P=2/6=1/3, με απευθείας απαρίθμηση.",
+        "skill": "Απαρίθμηση ευνοϊκών αποτελεσμάτων",
+        "objective_ids": [
+          "43f94b78-17d2-5d5e-bd82-51c01999654c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/6"
+        }
+      }
+    },
+    {
+      "reference": "5.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε 50 δοκιμές ένα ενδεχόμενο εμφανίστηκε 18 φορές. Ποια είναι η σχετική συχνότητά του;",
+        "choices": [
+          "0,36",
+          "0,18",
+          "18/32",
+          "0,5"
+        ],
+        "answer": "0,36",
+        "difficulty": "medium",
+        "hint": "Διαίρεσε τις εμφανίσεις με το πλήθος δοκιμών.",
+        "solution": "Η σχετική συχνότητα είναι 18/50=0,36. Δεν ταυτίζεται υποχρεωτικά με τη θεωρητική πιθανότητα.",
+        "skill": "Εμπειρική σχετική συχνότητα",
+        "objective_ids": [
+          "320d04be-209b-5fab-925c-90ed0f824b44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18/50"
+        }
+      }
+    },
+    {
+      "reference": "5.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ρίχνουμε δύο δίκαια ζάρια με 36 ισοπίθανα διατεταγμένα ζεύγη ενδείξεων. Ποια είναι η πιθανότητα αθροίσματος 3;",
+        "choices": [
+          "1/18",
+          "1/11",
+          "1/12",
+          "1/6"
+        ],
+        "answer": "1/18",
+        "difficulty": "hard",
+        "hint": "Κατάγραψε τα ζεύγη που δίνουν 3 και μέτρησε μέσα στα 36.",
+        "solution": "Τα ευνοϊκά ζεύγη είναι (1,2) και (2,1). Άρα P=2/36=1/18. Τα 11 δυνατά αθροίσματα δεν είναι ισοπίθανα.",
+        "skill": "Απαρίθμηση ισοπίθανων ζευγών αντί αθροισμάτων",
+        "objective_ids": [
+          "320d04be-209b-5fab-925c-90ed0f824b44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/36"
+        }
+      }
+    },
+    {
+      "reference": "5.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ένα δίκαιο νόμισμα έδωσε Κ σε 8 από 10 δοκιμές. Ποια δήλωση είναι σωστή;",
+        "choices": [
+          "Η σχετική συχνότητα ήταν 0,8, ενώ η θεωρητική πιθανότητα Κ παραμένει 1/2",
+          "Η θεωρητική πιθανότητα Κ έγινε 0,8",
+          "Η επόμενη ρίψη θα είναι οπωσδήποτε Γ",
+          "Το νόμισμα αποκλείεται να είναι δίκαιο"
+        ],
+        "answer": "Η σχετική συχνότητα ήταν 0,8, ενώ η θεωρητική πιθανότητα Κ παραμένει 1/2",
+        "difficulty": "hard",
+        "hint": "Ξεχώρισε το παρατηρημένο δείγμα από το μοντέλο δίκαιου νομίσματος.",
+        "solution": "Το 8/10=0,8 περιγράφει αυτές τις δοκιμές. Το δεδομένο μοντέλο δίκαιου νομίσματος εξακολουθεί να δίνει πιθανότητα 1/2 για Κ.",
+        "skill": "Συχνότητα μικρού δείγματος και θεωρητικό μοντέλο",
+        "objective_ids": [
+          "320d04be-209b-5fab-925c-90ed0f824b44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "5.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η σχετική συχνότητα ήταν 0,8, ενώ η θεωρητική πιθανότητα Κ παραμένει 1/2",
+              "correct": true,
+              "reason": "Το 8/10=0,8 περιγράφει αυτές τις δοκιμές. Το δεδομένο μοντέλο δίκαιου νομίσματος εξακολουθεί να δίνει πιθανότητα 1/2 για Κ."
+            },
+            {
+              "choice": "Η θεωρητική πιθανότητα Κ έγινε 0,8",
+              "correct": false,
+              "reason": "Το μικρό δείγμα δεν αλλάζει από μόνο του τη δοσμένη θεωρητική πιθανότητα."
+            },
+            {
+              "choice": "Η επόμενη ρίψη θα είναι οπωσδήποτε Γ",
+              "correct": false,
+              "reason": "Τα προηγούμενα αποτελέσματα δεν επιβάλλουν το επόμενο."
+            },
+            {
+              "choice": "Το νόμισμα αποκλείεται να είναι δίκαιο",
+              "correct": false,
+              "reason": "Ακόμη και δίκαιο νόμισμα μπορεί να δώσει άνιση κατανομή σε μικρό δείγμα."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
