@@ -1,0 +1,1851 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gym-c-geometry-v1",
+  "course": "gym-c-geometry",
+  "authored_on": "2026-10-25",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "1.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο τρίγωνα έχουν αντίστοιχες πλευρές 4 cm, 5 cm και 6 cm. Ποιο κριτήριο αποδεικνύει ότι είναι ίσα;",
+        "choices": [
+          "ΠΠΠ",
+          "Μόνο ισότητα περιμέτρων",
+          "Μόνο ισότητα εμβαδών",
+          "Μόνο ισότητα τριών γωνιών"
+        ],
+        "answer": "ΠΠΠ",
+        "difficulty": "easy",
+        "hint": "Χρησιμοποιούνται τρία ζεύγη ίσων αντίστοιχων πλευρών.",
+        "solution": "Οι τρεις αντίστοιχες πλευρές είναι ίσες μία προς μία, άρα ισχύει το κριτήριο ΠΠΠ.",
+        "skill": "Κριτήριο ισότητας τριών πλευρών",
+        "objective_ids": [
+          "4b01ce25-e930-59c1-a24c-7cd2bd7f36a7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "ΠΠΠ",
+              "correct": true,
+              "reason": "Οι τρεις αντίστοιχες πλευρές είναι ίσες μία προς μία, άρα ισχύει το κριτήριο ΠΠΠ."
+            },
+            {
+              "choice": "Μόνο ισότητα περιμέτρων",
+              "correct": false,
+              "reason": "Ίδιες περίμετροι δεν αρκούν για ισότητα σχημάτων."
+            },
+            {
+              "choice": "Μόνο ισότητα εμβαδών",
+              "correct": false,
+              "reason": "Ίσα εμβαδά δεν εξασφαλίζουν ίσα τρίγωνα."
+            },
+            {
+              "choice": "Μόνο ισότητα τριών γωνιών",
+              "correct": false,
+              "reason": "Ίσες γωνίες δεν καθορίζουν το μέγεθος των πλευρών."
+            }
+          ]
+        },
+        "geometry_cases": [
+          {
+            "sides": [
+              4,
+              5,
+              6
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "sides": [
+              4,
+              5,
+              6
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              null
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν τρίγωνο ΑΒΓ είναι ίσο με τρίγωνο ΔΕΖ, με αντιστοίχιση Α↔Δ, Β↔Ε, Γ↔Ζ, και ΑΓ=7 cm, πόσο είναι το ΔΖ σε cm;",
+        "choices": [
+          "7",
+          "14",
+          "3,5",
+          "21"
+        ],
+        "answer": "7",
+        "difficulty": "easy",
+        "hint": "Χρησιμοποίησε την αντιστοίχιση των δύο άκρων της πλευράς.",
+        "solution": "Η ΑΓ αντιστοιχεί στη ΔΖ. Σε ίσα τρίγωνα οι αντίστοιχες πλευρές είναι ίσες, άρα ΔΖ=7 cm.",
+        "skill": "Αντιστοίχιση κορυφών και πλευρών",
+        "objective_ids": [
+          "4b01ce25-e930-59c1-a24c-7cd2bd7f36a7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δύο τρίγωνα είναι ίσες δύο αντίστοιχες πλευρές και η γωνία ανάμεσά τους. Ποιο κριτήριο εφαρμόζεται;",
+        "choices": [
+          "ΠΓΠ",
+          "ΠΠΠ χωρίς άλλη πληροφορία",
+          "Ισότητα μόνο μίας πλευράς",
+          "Ισότητα μόνο δύο γωνιών"
+        ],
+        "answer": "ΠΓΠ",
+        "difficulty": "medium",
+        "hint": "Η θέση της δοσμένης γωνίας ανάμεσα στις δύο πλευρές είναι ουσιώδης.",
+        "solution": "Το κριτήριο ΠΓΠ απαιτεί δύο αντίστοιχες πλευρές και τις περιεχόμενες γωνίες ίσες.",
+        "skill": "Κριτήριο περιεχόμενης γωνίας",
+        "objective_ids": [
+          "4b01ce25-e930-59c1-a24c-7cd2bd7f36a7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "ΠΓΠ",
+              "correct": true,
+              "reason": "Το κριτήριο ΠΓΠ απαιτεί δύο αντίστοιχες πλευρές και τις περιεχόμενες γωνίες ίσες."
+            },
+            {
+              "choice": "ΠΠΠ χωρίς άλλη πληροφορία",
+              "correct": false,
+              "reason": "Δεν δίνεται ισότητα και της τρίτης πλευράς ώστε να χρησιμοποιηθεί ΠΠΠ."
+            },
+            {
+              "choice": "Ισότητα μόνο μίας πλευράς",
+              "correct": false,
+              "reason": "Μία πλευρά δεν καθορίζει τρίγωνο."
+            },
+            {
+              "choice": "Ισότητα μόνο δύο γωνιών",
+              "correct": false,
+              "reason": "Δύο γωνίες χωρίς πλευρά δεν καθορίζουν το μέγεθος."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε ίσα τρίγωνα ΑΒΓ και ΔΕΖ με αντιστοίχιση Α↔Δ, Β↔Ε, Γ↔Ζ, δίνονται Α=48° και Β=67°. Πόσες μοίρες είναι η Ζ;",
+        "choices": [
+          "65",
+          "48",
+          "67",
+          "115"
+        ],
+        "answer": "65",
+        "difficulty": "medium",
+        "hint": "Βρες πρώτα την τρίτη γωνία του πρώτου τριγώνου.",
+        "solution": "Γ=180°−48°−67°=65°. Η Ζ είναι αντίστοιχη της Γ, άρα Ζ=65°.",
+        "skill": "Τρίτη γωνία και σωστή αντιστοίχιση",
+        "objective_ids": [
+          "2a57ee51-a952-5934-9d76-b9200f56e64f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "180-48-67"
+        },
+        "geometry_cases": [
+          {
+            "sides": [
+              null,
+              null,
+              null
+            ],
+            "angles_degrees": [
+              48,
+              67,
+              65
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο ορθογώνια τρίγωνα έχουν ίσες υποτείνουσες και μία αντίστοιχη κάθετη πλευρά ίση. Τι συμπεραίνουμε;",
+        "choices": [
+          "Είναι ίσα τρίγωνα",
+          "Έχουν μόνο ίσες περιμέτρους χωρίς να είναι ίσα",
+          "Η άλλη κάθετη μπορεί να έχει οποιοδήποτε μήκος",
+          "Δεν αρκούν τα στοιχεία επειδή δεν δίνεται οξεία γωνία"
+        ],
+        "answer": "Είναι ίσα τρίγωνα",
+        "difficulty": "hard",
+        "hint": "Στα ορθογώνια τρίγωνα υπάρχει ειδικό κριτήριο με υποτείνουσα και κάθετη.",
+        "solution": "Ίση υποτείνουσα και μία ίση αντίστοιχη κάθετη αρκούν για ισότητα ορθογωνίων τριγώνων.",
+        "skill": "Ισότητα ορθογωνίων από υποτείνουσα και κάθετη",
+        "objective_ids": [
+          "2a57ee51-a952-5934-9d76-b9200f56e64f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι ίσα τρίγωνα",
+              "correct": true,
+              "reason": "Ίση υποτείνουσα και μία ίση αντίστοιχη κάθετη αρκούν για ισότητα ορθογωνίων τριγώνων."
+            },
+            {
+              "choice": "Έχουν μόνο ίσες περιμέτρους χωρίς να είναι ίσα",
+              "correct": false,
+              "reason": "Τα δεδομένα αποδεικνύουν ισότητα ολόκληρων των τριγώνων."
+            },
+            {
+              "choice": "Η άλλη κάθετη μπορεί να έχει οποιοδήποτε μήκος",
+              "correct": false,
+              "reason": "Η άλλη κάθετη καθορίζεται από το Πυθαγόρειο."
+            },
+            {
+              "choice": "Δεν αρκούν τα στοιχεία επειδή δεν δίνεται οξεία γωνία",
+              "correct": false,
+              "reason": "Η ορθή γωνία και τα συγκεκριμένα μήκη αρκούν με το ειδικό κριτήριο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο ισοσκελή τρίγωνα έχουν αντίστοιχες πλευρές 5 cm, 5 cm και 6 cm. Πόσο είναι το άθροισμα των περιμέτρων τους σε cm;",
+        "choices": [
+          "32",
+          "16",
+          "30",
+          "36"
+        ],
+        "answer": "32",
+        "difficulty": "hard",
+        "hint": "Κάθε τρίγωνο έχει την ίδια τριάδα πλευρών και την ίδια περίμετρο.",
+        "solution": "Κάθε περίμετρος είναι 5+5+6=16 cm. Το άθροισμα είναι 2×16=32 cm.",
+        "skill": "Συνδυασμός ισότητας και περιμέτρων",
+        "objective_ids": [
+          "2a57ee51-a952-5934-9d76-b9200f56e64f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*(5+5+6)"
+        },
+        "geometry_cases": [
+          {
+            "sides": [
+              5,
+              5,
+              6
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "sides": [
+              5,
+              5,
+              6
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              null
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Τμήματα έχουν μήκη ΑΒ=6 cm και ΓΔ=9 cm. Ποιος είναι ο λόγος ΑΒ/ΓΔ;",
+        "choices": [
+          "2/3",
+          "3/2",
+          "3",
+          "15"
+        ],
+        "answer": "2/3",
+        "difficulty": "easy",
+        "hint": "Σχημάτισε το πηλίκο με τη δοσμένη σειρά και απλοποίησε.",
+        "solution": "ΑΒ/ΓΔ=6/9=2/3. Οι μονάδες είναι ίδιες και απλοποιούνται.",
+        "skill": "Λόγος δύο μηκών με καθορισμένη σειρά",
+        "objective_ids": [
+          "ddce3d64-dc65-5188-90ed-8eb2237ce31f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6/9"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο λόγος μήκους 1 m προς μήκος 25 cm;",
+        "choices": [
+          "4",
+          "1/25",
+          "40",
+          "25"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Μετέτρεψε και τα δύο μήκη στην ίδια μονάδα.",
+        "solution": "1 m=100 cm, άρα ο λόγος είναι 100/25=4, χωρίς μονάδα.",
+        "skill": "Κοινές μονάδες πριν από υπολογισμό λόγου",
+        "objective_ids": [
+          "ddce3d64-dc65-5188-90ed-8eb2237ce31f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100/25"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Θετικά μήκη x και 12 είναι ανάλογα προς 5 και 8 με σειρά x/12=5/8. Ποιο είναι το x;",
+        "choices": [
+          "7,5",
+          "19,2",
+          "9",
+          "4,8"
+        ],
+        "answer": "7,5",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε τη σχέση με το μη μηδενικό 12.",
+        "solution": "x=12×5/8=7,5 στην κοινή μονάδα μήκους.",
+        "skill": "Εύρεση τέταρτου αναλόγου",
+        "objective_ids": [
+          "ddce3d64-dc65-5188-90ed-8eb2237ce31f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12*5/8"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια σχέση προκύπτει από την α/β=γ/δ, με β≠0 και δ≠0;",
+        "choices": [
+          "αδ=βγ",
+          "αγ=βδ",
+          "αβ=γδ",
+          "α+δ=β+γ"
+        ],
+        "answer": "αδ=βγ",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε με το γινόμενο των δύο παρονομαστών.",
+        "solution": "Από α/β=γ/δ πολλαπλασιάζουμε με βδ και βρίσκουμε αδ=βγ.",
+        "skill": "Χιαστί γινόμενα με μη μηδενικούς παρονομαστές",
+        "objective_ids": [
+          "5682e767-6d2a-5702-849a-01f779e88c66"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "αδ=βγ",
+              "correct": true,
+              "reason": "Από α/β=γ/δ πολλαπλασιάζουμε με βδ και βρίσκουμε αδ=βγ."
+            },
+            {
+              "choice": "αγ=βδ",
+              "correct": false,
+              "reason": "Δεν σχηματίζονται τα χιαστί γινόμενα."
+            },
+            {
+              "choice": "αβ=γδ",
+              "correct": false,
+              "reason": "Το γινόμενο κάθε αριθμητή με τον δικό του παρονομαστή δεν δίνει ισοδύναμη σχέση."
+            },
+            {
+              "choice": "α+δ=β+γ",
+              "correct": false,
+              "reason": "Η ισότητα λόγων δεν συνεπάγεται αυτή την ισότητα αθροισμάτων."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Τμήμα 35 cm χωρίζεται σε δύο θετικά μέρη με λόγο μικρού προς μεγάλο 2:5. Πόσο είναι το μικρό μέρος σε cm;",
+        "choices": [
+          "10",
+          "14",
+          "25",
+          "7"
+        ],
+        "answer": "10",
+        "difficulty": "hard",
+        "hint": "Το σύνολο αντιστοιχεί σε 2+5 ίσα μερίδια.",
+        "solution": "Κάθε μερίδιο είναι 35/7=5 cm. Το μικρό μέρος είναι 2×5=10 cm και το μεγάλο 25 cm.",
+        "skill": "Διαίρεση τμήματος σε δοσμένο λόγο",
+        "objective_ids": [
+          "5682e767-6d2a-5702-849a-01f779e88c66"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "35*2/(2+5)"
+        }
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε χάρτη κλίμακας 1:50000, μια απόσταση είναι 3,6 cm. Πόσα km αντιστοιχούν στην πραγματικότητα;",
+        "choices": [
+          "1,8",
+          "18",
+          "0,18",
+          "180"
+        ],
+        "answer": "1,8",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασίασε με την κλίμακα και μετέτρεψε τα cm σε km.",
+        "solution": "3,6×50000=180000 cm. Επειδή 1 km=100000 cm, η πραγματική απόσταση είναι 1,8 km.",
+        "skill": "Κλίμακα χάρτη και μετατροπή μονάδων",
+        "objective_ids": [
+          "5682e767-6d2a-5702-849a-01f779e88c66"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(36/10)*50000/100000"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σχήμα ΔΕ∥ΒΓ, με Δ στο ΑΒ και Ε στο ΑΓ. Δίνονται ΑΔ=3 cm, ΔΒ=3 cm και ΑΕ=5 cm. Πόσο είναι το ΕΓ σε cm;",
+        "choices": [
+          "5",
+          "10",
+          "3",
+          "15"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Χρησιμοποίησε την αναλογία αντίστοιχων μερών ΑΔ/ΔΒ=ΑΕ/ΕΓ.",
+        "solution": "3/3=5/ΕΓ, άρα ΕΓ=5 cm. Δεν συγχέουμε το ΕΓ με το ολόκληρο ΑΓ=10 cm.",
+        "skill": "Θαλής με αντίστοιχα τμήματα μερών",
+        "objective_ids": [
+          "48620ad4-9dbf-5c4b-ace1-ce7886df8fe1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5*3/3"
+        },
+        "image": {
+          "filename": "images/questions/gym-c-thales.svg",
+          "alt": "Τρίγωνο ΑΒΓ με Δ στο ΑΒ, Ε στο ΑΓ και ΔΕ παράλληλη στη ΒΓ. ΑΔ 3 cm, ΔΒ 3 cm, ΑΕ 5 cm, ΕΓ άγνωστο."
+        },
+        "geometry_cases": [
+          {
+            "sides": [
+              3,
+              4,
+              5
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              90
+            ]
+          },
+          {
+            "sides": [
+              6,
+              8,
+              10
+            ],
+            "angles_degrees": [
+              null,
+              null,
+              90
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε τρίγωνο ΑΒΓ, το Δ είναι μέσο του ΑΒ και το Ε ανήκει στο ΑΓ, με ΔΕ∥ΒΓ. Αν ΑΓ=18 cm, πόσο είναι το ΑΕ σε cm;",
+        "choices": [
+          "9",
+          "18",
+          "6",
+          "36"
+        ],
+        "answer": "9",
+        "difficulty": "easy",
+        "hint": "Ο λόγος ΑΔ/ΑΒ είναι 1/2 και ισούται με ΑΕ/ΑΓ.",
+        "solution": "ΑΕ/18=1/2, άρα ΑΕ=9 cm. Η παραλληλία επιτρέπει την εφαρμογή του Θαλή.",
+        "skill": "Θαλής και μέσο πλευράς",
+        "objective_ids": [
+          "48620ad4-9dbf-5c4b-ace1-ce7886df8fe1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18/2"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρεις παράλληλες τέμνουν δύο ευθείες. Στη μία τα διαδοχικά τμήματα έχουν μήκη 4 και 6 cm, ενώ τα αντίστοιχα στην άλλη 10 και x cm. Πόσο είναι το x;",
+        "choices": [
+          "15",
+          "12",
+          "2,4",
+          "20"
+        ],
+        "answer": "15",
+        "difficulty": "medium",
+        "hint": "Κράτησε την ίδια αντιστοίχιση των διαδοχικών τμημάτων.",
+        "solution": "4/6=10/x, άρα 4x=60 και x=15 cm.",
+        "skill": "Θαλής σε τρεις παράλληλες και δύο τέμνουσες",
+        "objective_ids": [
+          "48620ad4-9dbf-5c4b-ace1-ce7886df8fe1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*10/4"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε τρίγωνο ΑΒΓ, ΔΕ∥ΒΓ με Δ στο ΑΒ και Ε στο ΑΓ. Δίνονται ΑΔ=4 cm, ΑΒ=10 cm και ΑΓ=15 cm. Πόσο είναι το ΑΕ σε cm;",
+        "choices": [
+          "6",
+          "10",
+          "9",
+          "37,5"
+        ],
+        "answer": "6",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε μέρος προς όλο και στις δύο πλευρές.",
+        "solution": "ΑΔ/ΑΒ=ΑΕ/ΑΓ, άρα 4/10=ΑΕ/15 και ΑΕ=6 cm.",
+        "skill": "Αντίστοιχοι λόγοι μέρους προς όλο",
+        "objective_ids": [
+          "a7a7826c-a5fd-58df-bd7c-533c897b6428"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*15/10"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε τρίγωνο ΑΒΓ, ΔΕ∥ΒΓ με Δ, Ε εσωτερικά των ΑΒ, ΑΓ. Αν ΑΔ=6 cm, ΔΒ=4 cm και ΕΓ=8 cm, πόσο είναι το ΑΕ σε cm;",
+        "choices": [
+          "12",
+          "4,8",
+          "20",
+          "6"
+        ],
+        "answer": "12",
+        "difficulty": "hard",
+        "hint": "Σύγκρινε ΑΔ/ΔΒ με ΑΕ/ΕΓ και όχι με ΑΕ/ΑΓ.",
+        "solution": "6/4=ΑΕ/8, άρα ΑΕ=12 cm. Τότε ΑΒ=10 και ΑΓ=20, με κοινό λόγο μέρους προς όλο 3/5.",
+        "skill": "Διάκριση αναλογιών μέρους και ολόκληρης πλευράς",
+        "objective_ids": [
+          "a7a7826c-a5fd-58df-bd7c-533c897b6428"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*8/4"
+        }
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε ένα σκίτσο τα Δ, Ε βρίσκονται στις πλευρές ΑΒ, ΑΓ ενός τριγώνου, αλλά δεν δίνεται ΔΕ∥ΒΓ ούτε έχει αποδειχθεί. Ποια αντιμετώπιση είναι ορθή;",
+        "choices": [
+          "Δεν εφαρμόζουμε τον Θαλή μόνο επειδή οι γραμμές φαίνονται παράλληλες",
+          "Η εμφάνιση του σκίτσου αποδεικνύει παραλληλία",
+          "Ο Θαλής ισχύει για κάθε θέση των Δ και Ε",
+          "Αρκεί να είναι ίσα τα ΑΔ και ΑΕ"
+        ],
+        "answer": "Δεν εφαρμόζουμε τον Θαλή μόνο επειδή οι γραμμές φαίνονται παράλληλες",
+        "difficulty": "hard",
+        "hint": "Ξεχώρισε τα δοσμένα ή αποδεδειγμένα στοιχεία από την οπτική εντύπωση.",
+        "solution": "Η παραλληλία είναι ουσιώδης προϋπόθεση. Πρέπει να δίνεται ή να τεκμηριώνεται πριν χρησιμοποιήσουμε τις αναλογίες του Θαλή.",
+        "skill": "Έλεγχος προϋποθέσεων του θεωρήματος Θαλή",
+        "objective_ids": [
+          "a7a7826c-a5fd-58df-bd7c-533c897b6428"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 4,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν εφαρμόζουμε τον Θαλή μόνο επειδή οι γραμμές φαίνονται παράλληλες",
+              "correct": true,
+              "reason": "Η παραλληλία είναι ουσιώδης προϋπόθεση. Πρέπει να δίνεται ή να τεκμηριώνεται πριν χρησιμοποιήσουμε τις αναλογίες του Θαλή."
+            },
+            {
+              "choice": "Η εμφάνιση του σκίτσου αποδεικνύει παραλληλία",
+              "correct": false,
+              "reason": "Ένα ενδεικτικό σκίτσο δεν αποτελεί απόδειξη παραλληλίας."
+            },
+            {
+              "choice": "Ο Θαλής ισχύει για κάθε θέση των Δ και Ε",
+              "correct": false,
+              "reason": "Τυχαίες θέσεις σημείων δεν εξασφαλίζουν τις αναλογίες."
+            },
+            {
+              "choice": "Αρκεί να είναι ίσα τα ΑΔ και ΑΕ",
+              "correct": false,
+              "reason": "Η ισότητα δύο τμημάτων από μόνη της δεν εξασφαλίζει την απαιτούμενη παραλληλία."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο όμοια πολύγωνα έχουν λόγο αντίστοιχων πλευρών δεύτερου προς πρώτο 3. Αν μία πλευρά του πρώτου είναι 4 cm, πόση είναι η αντίστοιχη του δεύτερου σε cm;",
+        "choices": [
+          "12",
+          "4/3",
+          "7",
+          "16"
+        ],
+        "answer": "12",
+        "difficulty": "easy",
+        "hint": "Ο λόγος δείχνει με ποιον αριθμό πολλαπλασιάζουμε τις πλευρές του πρώτου.",
+        "solution": "Η αντίστοιχη πλευρά του δεύτερου είναι 3×4=12 cm.",
+        "skill": "Πλευρά από λόγο ομοιότητας με σαφή κατεύθυνση",
+        "objective_ids": [
+          "c7994ffe-6e32-5dd0-b4da-2d2cd23c3835"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*4"
+        },
+        "practice_note": "Βασική εξάσκηση ομοιότητας πολυγώνων · η αναφορά στα όμοια τρίγωνα ως ειδική περίπτωση προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια στοιχεία απαιτούνται για ομοιότητα δύο πολυγώνων;",
+        "choices": [
+          "Ίσες αντίστοιχες γωνίες και ανάλογες αντίστοιχες πλευρές",
+          "Μόνο ίσες περίμετροι",
+          "Μόνο ίσα εμβαδά",
+          "Μόνο ίσο πλήθος πλευρών"
+        ],
+        "answer": "Ίσες αντίστοιχες γωνίες και ανάλογες αντίστοιχες πλευρές",
+        "difficulty": "easy",
+        "hint": "Χρειάζονται σχέσεις τόσο στις γωνίες όσο και στις αντίστοιχες πλευρές.",
+        "solution": "Η ομοιότητα πολυγώνων απαιτεί ίσες αντίστοιχες γωνίες και έναν κοινό θετικό λόγο αντίστοιχων πλευρών.",
+        "skill": "Συνθήκες ομοιότητας πολυγώνων",
+        "objective_ids": [
+          "c7994ffe-6e32-5dd0-b4da-2d2cd23c3835"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ίσες αντίστοιχες γωνίες και ανάλογες αντίστοιχες πλευρές",
+              "correct": true,
+              "reason": "Η ομοιότητα πολυγώνων απαιτεί ίσες αντίστοιχες γωνίες και έναν κοινό θετικό λόγο αντίστοιχων πλευρών."
+            },
+            {
+              "choice": "Μόνο ίσες περίμετροι",
+              "correct": false,
+              "reason": "Η ίδια περίμετρος δεν καθορίζει το σχήμα."
+            },
+            {
+              "choice": "Μόνο ίσα εμβαδά",
+              "correct": false,
+              "reason": "Το ίδιο εμβαδόν δεν καθορίζει τις γωνίες και τις πλευρές."
+            },
+            {
+              "choice": "Μόνο ίσο πλήθος πλευρών",
+              "correct": false,
+              "reason": "Το ίδιο πλήθος πλευρών είναι απαραίτητο για αντιστοίχιση αλλά δεν αρκεί."
+            }
+          ]
+        },
+        "practice_note": "Βασική εξάσκηση ομοιότητας πολυγώνων · η αναφορά στα όμοια τρίγωνα ως ειδική περίπτωση προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια πολύγωνα έχουν λόγο πλευρών δεύτερου προς πρώτο 5/2. Η περίμετρος του πρώτου είναι 18 cm. Πόση είναι του δεύτερου σε cm;",
+        "choices": [
+          "45",
+          "7,2",
+          "112,5",
+          "36"
+        ],
+        "answer": "45",
+        "difficulty": "medium",
+        "hint": "Οι περίμετροι μεταβάλλονται με τον ίδιο λόγο όπως οι πλευρές.",
+        "solution": "Π₂/Π₁=5/2, άρα Π₂=18×5/2=45 cm.",
+        "skill": "Λόγος περιμέτρων όμοιων πολυγώνων",
+        "objective_ids": [
+          "c7994ffe-6e32-5dd0-b4da-2d2cd23c3835"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18*5/2"
+        },
+        "practice_note": "Βασική εξάσκηση ομοιότητας πολυγώνων · η αναφορά στα όμοια τρίγωνα ως ειδική περίπτωση προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Το δεύτερο από δύο όμοια πολύγωνα έχει πλευρές διπλάσιες από του πρώτου. Αν το πρώτο έχει εμβαδόν 15 cm², πόσο είναι του δεύτερου σε cm²;",
+        "choices": [
+          "60",
+          "30",
+          "7,5",
+          "225"
+        ],
+        "answer": "60",
+        "difficulty": "medium",
+        "hint": "Τα εμβαδά έχουν λόγο ίσο με το τετράγωνο του λόγου πλευρών.",
+        "solution": "Ο λόγος εμβαδών είναι 2²=4, οπότε Ε₂=4×15=60 cm².",
+        "skill": "Τετραγωνικός λόγος εμβαδών",
+        "objective_ids": [
+          "a0bb88e9-061d-5fa8-8ab1-7105fdb4b792"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2*15"
+        },
+        "practice_note": "Βασική εξάσκηση ομοιότητας πολυγώνων · η αναφορά στα όμοια τρίγωνα ως ειδική περίπτωση προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο ορθογώνια έχουν πλευρές 4 cm επί 6 cm και 6 cm επί 9 cm, με αυτή την αντιστοίχιση. Ποιος είναι ο λόγος εμβαδού δεύτερου προς πρώτο;",
+        "choices": [
+          "9/4",
+          "3/2",
+          "2/3",
+          "4/9"
+        ],
+        "answer": "9/4",
+        "difficulty": "hard",
+        "hint": "Έλεγξε πρώτα τον κοινό λόγο των αντίστοιχων πλευρών.",
+        "solution": "6/4=9/6=3/2 και οι αντίστοιχες γωνίες είναι ορθές. Τα ορθογώνια είναι όμοια και ο λόγος εμβαδών είναι (3/2)²=9/4.",
+        "skill": "Έλεγχος ομοιότητας και λόγος εμβαδών",
+        "objective_ids": [
+          "a0bb88e9-061d-5fa8-8ab1-7105fdb4b792"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(6*9)/(4*6)"
+        },
+        "practice_note": "Βασική εξάσκηση ομοιότητας πολυγώνων · η αναφορά στα όμοια τρίγωνα ως ειδική περίπτωση προσεγγίζεται προαιρετικά."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια πολύγωνα έχουν εμβαδά 25 cm² και 81 cm². Αν μία πλευρά του πρώτου είναι 10 cm, πόση είναι η αντίστοιχη του δεύτερου σε cm;",
+        "choices": [
+          "18",
+          "32,4",
+          "50/9",
+          "56"
+        ],
+        "answer": "18",
+        "difficulty": "hard",
+        "hint": "Ο θετικός λόγος πλευρών είναι η ρίζα του λόγου εμβαδών.",
+        "solution": "Ο λόγος πλευρών δεύτερου προς πρώτο είναι √(81/25)=9/5. Άρα η πλευρά είναι 10×9/5=18 cm.",
+        "skill": "Ανάκτηση λόγου πλευρών από εμβαδά",
+        "objective_ids": [
+          "a0bb88e9-061d-5fa8-8ab1-7105fdb4b792"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "1.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "10*9/5"
+        },
+        "practice_note": "Βασική εξάσκηση ομοιότητας πολυγώνων · η αναφορά στα όμοια τρίγωνα ως ειδική περίπτωση προσεγγίζεται προαιρετικά.",
+        "checks": [
+          [
+            "(9/5)**2",
+            "=",
+            "81/25"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του ημ 90°;",
+        "choices": [
+          "1",
+          "0",
+          "−1",
+          "1/2"
+        ],
+        "answer": "1",
+        "difficulty": "easy",
+        "hint": "Στις 90° το σημείο βρίσκεται στον θετικό κατακόρυφο ημιάξονα.",
+        "solution": "Η τεταγμένη ισούται με την απόσταση από την αρχή, άρα ημ 90°=1.",
+        "skill": "Ημίτονο ορθής γωνίας",
+        "objective_ids": [
+          "e05906e0-6353-5c7d-b13b-e893de763aff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του συν 180°;",
+        "choices": [
+          "−1",
+          "1",
+          "0",
+          "1/2"
+        ],
+        "answer": "−1",
+        "difficulty": "easy",
+        "hint": "Στις 180° το σημείο βρίσκεται στον αρνητικό οριζόντιο ημιάξονα.",
+        "solution": "Η τετμημένη είναι το αντίθετο της ακτίνας, άρα συν 180°=−1.",
+        "skill": "Συνημίτονο ευθείας γωνίας",
+        "objective_ids": [
+          "e05906e0-6353-5c7d-b13b-e893de763aff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Στο σχήμα Μ(−3,4) βρίσκεται στη δεύτερη πλευρά αμβλείας γωνίας ω με αρχική πλευρά τον θετικό ημιάξονα x. Αν ΟΜ=5, πόσο είναι το συν ω;",
+        "choices": [
+          "−3/5",
+          "3/5",
+          "4/5",
+          "−4/3"
+        ],
+        "answer": "−3/5",
+        "difficulty": "medium",
+        "hint": "Το συνημίτονο είναι τετμημένη προς θετική απόσταση από την αρχή.",
+        "solution": "συν ω=x/ρ=−3/5. Η γωνία είναι αμβλεία, οπότε το συνημίτονο είναι αρνητικό.",
+        "skill": "Συνημίτονο αμβλείας από συντεταγμένες",
+        "objective_ids": [
+          "e05906e0-6353-5c7d-b13b-e893de763aff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3/5"
+        },
+        "image": {
+          "filename": "images/questions/gym-c-obtuse-angle.svg",
+          "alt": "Άνω ημικύκλιο με κέντρο Ο, ακτίνα 5 και σημείο Μ με συντεταγμένες (−3,4). Η γωνία ω από τον θετικό ημιάξονα x προς την ΟΜ είναι αμβλεία."
+        },
+        "checks": [
+          [
+            "(-3)**2+4**2",
+            "=",
+            "5**2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σημείο Μ(−5,12) βρίσκεται στη δεύτερη πλευρά γωνίας ω∈(90°,180°) και ΟΜ=13. Πόσο είναι το ημ ω;",
+        "choices": [
+          "12/13",
+          "−12/13",
+          "−5/13",
+          "12/5"
+        ],
+        "answer": "12/13",
+        "difficulty": "medium",
+        "hint": "Το ημίτονο είναι τεταγμένη προς θετική απόσταση.",
+        "solution": "ημ ω=y/ρ=12/13. Στο άνω ημιεπίπεδο η τεταγμένη είναι θετική.",
+        "skill": "Ημίτονο αμβλείας από συντεταγμένες",
+        "objective_ids": [
+          "fee0db06-6967-5e8e-8d65-d4b49766f581"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12/13"
+        },
+        "checks": [
+          [
+            "(-5)**2+12**2",
+            "=",
+            "13**2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για ποια γωνία από τις 0°, 60°, 90°, 180° δεν ορίζεται η εφαπτομένη;",
+        "choices": [
+          "90°",
+          "0°",
+          "60°",
+          "180°"
+        ],
+        "answer": "90°",
+        "difficulty": "hard",
+        "hint": "Η εφαπτομένη y/x απαιτεί μη μηδενική τετμημένη.",
+        "solution": "Στις 90° η τετμημένη είναι 0, οπότε το y/x δεν ορίζεται. Στις 0° και 180° η εφαπτομένη είναι 0.",
+        "skill": "Μη ορισμένη εφαπτομένη στις 90 μοίρες",
+        "objective_ids": [
+          "fee0db06-6967-5e8e-8d65-d4b49766f581"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "90°",
+              "correct": true,
+              "reason": "Στις 90° η τετμημένη είναι 0, οπότε το y/x δεν ορίζεται. Στις 0° και 180° η εφαπτομένη είναι 0."
+            },
+            {
+              "choice": "0°",
+              "correct": false,
+              "reason": "Στις 0° έχουμε y=0 αλλά μη μηδενικό x, άρα η εφαπτομένη ορίζεται."
+            },
+            {
+              "choice": "60°",
+              "correct": false,
+              "reason": "Στις 60° η τετμημένη είναι θετική και μη μηδενική."
+            },
+            {
+              "choice": "180°",
+              "correct": false,
+              "reason": "Στις 180° η τετμημένη είναι αρνητική και μη μηδενική."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για αμβλεία γωνία ω δίνεται σημείο της δεύτερης πλευράς Μ(−8,6). Πόση είναι η εφ ω;",
+        "choices": [
+          "−3/4",
+          "3/4",
+          "3/5",
+          "−4/3"
+        ],
+        "answer": "−3/4",
+        "difficulty": "hard",
+        "hint": "Χρησιμοποίησε τον λόγο y/x και κράτησε το αρνητικό πρόσημο της τετμημένης.",
+        "solution": "εφ ω=6/(−8)=−3/4. Ο λόγος y/x διαφέρει από τους λόγους με την ακτίνα.",
+        "skill": "Εφαπτομένη αμβλείας με πρόσημο",
+        "objective_ids": [
+          "fee0db06-6967-5e8e-8d65-d4b49766f581"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6/(-8)"
+        },
+        "checks": [
+          [
+            "(-8)**2+6**2",
+            "=",
+            "10**2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του ημ 150°, αν ημ 30°=1/2;",
+        "choices": [
+          "1/2",
+          "−1/2",
+          "0",
+          "1"
+        ],
+        "answer": "1/2",
+        "difficulty": "easy",
+        "hint": "Οι γωνίες 150° και 30° είναι παραπληρωματικές.",
+        "solution": "ημ(180°−30°)=ημ 30°=1/2. Το ημίτονο διατηρείται.",
+        "skill": "Ίσα ημίτονα παραπληρωματικών γωνιών",
+        "objective_ids": [
+          "466b169b-4ceb-544c-afbf-ddff71df3d98"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/2"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του συν 120°, αν συν 60°=1/2;",
+        "choices": [
+          "−1/2",
+          "1/2",
+          "−1",
+          "0"
+        ],
+        "answer": "−1/2",
+        "difficulty": "easy",
+        "hint": "Το συνημίτονο παραπληρωματικών γωνιών αλλάζει πρόσημο.",
+        "solution": "συν(180°−60°)=−συν 60°=−1/2.",
+        "skill": "Αντίθετα συνημίτονα παραπληρωματικών",
+        "objective_ids": [
+          "466b169b-4ceb-544c-afbf-ddff71df3d98"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1/2"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τιμή του εφ 135°, αν εφ 45°=1;",
+        "choices": [
+          "−1",
+          "1",
+          "0",
+          "2"
+        ],
+        "answer": "−1",
+        "difficulty": "medium",
+        "hint": "Οι εφαπτόμενες παραπληρωματικών είναι αντίθετες όπου ορίζονται.",
+        "solution": "εφ(180°−45°)=−εφ 45°=−1.",
+        "skill": "Αντίθετες εφαπτόμενες παραπληρωματικών",
+        "objective_ids": [
+          "466b169b-4ceb-544c-afbf-ddff71df3d98"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για ω∈(0°,90°), δίνεται συν ω=3/5. Ποια είναι η τιμή του συν(180°−ω);",
+        "choices": [
+          "−3/5",
+          "3/5",
+          "4/5",
+          "−4/5"
+        ],
+        "answer": "−3/5",
+        "difficulty": "medium",
+        "hint": "Η παραπληρωματική γωνία είναι αμβλεία.",
+        "solution": "συν(180°−ω)=−συν ω=−3/5.",
+        "skill": "Παραπληρωματική δοσμένης οξείας γωνίας",
+        "objective_ids": [
+          "83d41d08-ac2a-52ab-b1ad-255467ccd7e8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3/5"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για ω=90°, ποια δήλωση για τις εφαπτόμενες των ω και 180°−ω είναι σωστή;",
+        "choices": [
+          "Καμία από τις δύο εφαπτόμενες δεν ορίζεται",
+          "Είναι και οι δύο 0",
+          "Είναι και οι δύο 1",
+          "Η μία είναι 1 και η άλλη −1"
+        ],
+        "answer": "Καμία από τις δύο εφαπτόμενες δεν ορίζεται",
+        "difficulty": "hard",
+        "hint": "Οι δύο γωνίες είναι εδώ και οι δύο 90°.",
+        "solution": "Η εφαπτομένη δεν ορίζεται στις 90°. Δεν χρησιμοποιούμε ισότητα αντίθετων εφαπτομένων σε γωνία όπου αυτές δεν ορίζονται.",
+        "skill": "Περιορισμός σχέσης εφαπτομένων παραπληρωματικών",
+        "objective_ids": [
+          "83d41d08-ac2a-52ab-b1ad-255467ccd7e8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Καμία από τις δύο εφαπτόμενες δεν ορίζεται",
+              "correct": true,
+              "reason": "Η εφαπτομένη δεν ορίζεται στις 90°. Δεν χρησιμοποιούμε ισότητα αντίθετων εφαπτομένων σε γωνία όπου αυτές δεν ορίζονται."
+            },
+            {
+              "choice": "Είναι και οι δύο 0",
+              "correct": false,
+              "reason": "Η μηδενική τετμημένη εμποδίζει τον ορισμό της εφαπτομένης."
+            },
+            {
+              "choice": "Είναι και οι δύο 1",
+              "correct": false,
+              "reason": "Η τιμή 1 αντιστοιχεί στις 45° και όχι στις 90°."
+            },
+            {
+              "choice": "Η μία είναι 1 και η άλλη −1",
+              "correct": false,
+              "reason": "Δεν υπάρχουν ορισμένες αριθμητικές τιμές για να είναι αντίθετες."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για οξεία γωνία α δίνεται ημ α=5/13. Πόσο είναι το ημ α+ημ(180°−α);",
+        "choices": [
+          "10/13",
+          "0",
+          "5/13",
+          "1"
+        ],
+        "answer": "10/13",
+        "difficulty": "hard",
+        "hint": "Οι δύο όροι έχουν ίσες τιμές και όχι αντίθετες.",
+        "solution": "ημ(180°−α)=ημ α=5/13. Το άθροισμα είναι 5/13+5/13=10/13.",
+        "skill": "Άθροισμα ημιτόνων παραπληρωματικών",
+        "objective_ids": [
+          "83d41d08-ac2a-52ab-b1ad-255467ccd7e8"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/13+5/13"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για οποιαδήποτε ω∈[0°,180°], πόσο είναι το ημ²ω+συν²ω;",
+        "choices": [
+          "1",
+          "0",
+          "2",
+          "−1"
+        ],
+        "answer": "1",
+        "difficulty": "easy",
+        "hint": "Η βασική ταυτότητα προκύπτει από το Πυθαγόρειο στις συντεταγμένες.",
+        "solution": "Η βασική τριγωνομετρική ταυτότητα είναι ημ²ω+συν²ω=1.",
+        "skill": "Βασική τριγωνομετρική ταυτότητα",
+        "objective_ids": [
+          "a4b5f1fe-04d4-53f5-b08a-2d3ca47a5db9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για οξεία γωνία ω, ημ ω=3/5 και συν ω=4/5. Πόσο είναι το εφ ω;",
+        "choices": [
+          "3/4",
+          "4/3",
+          "12/25",
+          "7/5"
+        ],
+        "answer": "3/4",
+        "difficulty": "easy",
+        "hint": "Όπου το συνημίτονο δεν μηδενίζεται, εφ ω=ημ ω/συν ω.",
+        "solution": "εφ ω=(3/5)/(4/5)=3/4.",
+        "skill": "Εφαπτομένη ως πηλίκο ημιτόνου και συνημιτόνου",
+        "objective_ids": [
+          "a4b5f1fe-04d4-53f5-b08a-2d3ca47a5db9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3/5)/(4/5)"
+        },
+        "checks": [
+          [
+            "(3/5)**2+(4/5)**2",
+            "=",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για αμβλεία γωνία ω δίνεται ημ ω=4/5. Ποια είναι η τιμή του συν ω;",
+        "choices": [
+          "−3/5",
+          "3/5",
+          "−4/5",
+          "1/5"
+        ],
+        "answer": "−3/5",
+        "difficulty": "medium",
+        "hint": "Βρες πρώτα το τετράγωνο και μετά χρησιμοποίησε το πρόσημο της αμβλείας.",
+        "solution": "συν²ω=1−16/25=9/25. Οι υποψήφιες τιμές είναι ±3/5. Επειδή η ω είναι αμβλεία, συν ω=−3/5.",
+        "skill": "Επιλογή προσήμου συνημιτόνου αμβλείας",
+        "objective_ids": [
+          "a4b5f1fe-04d4-53f5-b08a-2d3ca47a5db9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3/5"
+        },
+        "checks": [
+          [
+            "(4/5)**2+(-3/5)**2",
+            "=",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για ω∈(0°,180°) δίνεται συν ω=−12/13. Πόση είναι η τιμή του ημ ω;",
+        "choices": [
+          "5/13",
+          "−5/13",
+          "12/13",
+          "1/13"
+        ],
+        "answer": "5/13",
+        "difficulty": "medium",
+        "hint": "Το ημίτονο είναι θετικό σε όλο το ανοικτό διάστημα αυτό.",
+        "solution": "ημ²ω=1−144/169=25/169. Εφόσον ημ ω>0, παίρνουμε ημ ω=5/13.",
+        "skill": "Θετικό ημίτονο από αρνητικό συνημίτονο",
+        "objective_ids": [
+          "7f01ce68-0123-5659-a07e-2e79c52dd821"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/13"
+        },
+        "checks": [
+          [
+            "(5/13)**2+(-12/13)**2",
+            "=",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για οξεία γωνία ω δίνεται εφ ω=3/4. Πόση είναι η τιμή του συν²ω;",
+        "choices": [
+          "16/25",
+          "9/25",
+          "25/16",
+          "7/16"
+        ],
+        "answer": "16/25",
+        "difficulty": "hard",
+        "hint": "Χρησιμοποίησε 1+εφ²ω=1/συν²ω και μετά πάρε τον αντίστροφο.",
+        "solution": "1+9/16=25/16=1/συν²ω. Άρα συν²ω=16/25.",
+        "skill": "Ανάκτηση τετραγώνου συνημιτόνου από εφαπτομένη",
+        "objective_ids": [
+          "7f01ce68-0123-5659-a07e-2e79c52dd821"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(1+(3/4)**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "core-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για αμβλεία γωνία ω ισχύει ημ ω=5/13 και συν ω=−12/13. Πόση είναι η τιμή του (1−ημ²ω)/συν ω;",
+        "choices": [
+          "−12/13",
+          "12/13",
+          "−13/12",
+          "144/169"
+        ],
+        "answer": "−12/13",
+        "difficulty": "hard",
+        "hint": "Ο αριθμητής ισούται με συν²ω και ο παρονομαστής είναι μη μηδενικός.",
+        "solution": "(1−ημ²ω)/συν ω=συν²ω/συν ω=συν ω=−12/13. Η διαίρεση επιτρέπεται επειδή συν ω≠0.",
+        "skill": "Απλοποίηση ταυτότητας με έλεγχο μηδενικού παρονομαστή",
+        "objective_ids": [
+          "7f01ce68-0123-5659-a07e-2e79c52dd821"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s01-02",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school_specific_not_preselected",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(1-(5/13)**2)/(-12/13)"
+        },
+        "checks": [
+          [
+            "(5/13)**2+(-12/13)**2",
+            "=",
+            "1"
+          ]
+        ]
+      }
+    }
+  ]
+}
