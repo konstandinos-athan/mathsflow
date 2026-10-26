@@ -1,0 +1,3436 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-a-algebra-v2",
+  "course": "gel-a-algebra",
+  "authored_on": "2026-10-26",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "2.1",
+      "key": "legacy-01",
+      "legacy_index": 1,
+      "expected_current": "29127508-29ba-5683-86c6-aa615c5435a2",
+      "payload": {
+        "question": "Για πραγματικούς α και β, πότε ισχύει αβ≠0;",
+        "choices": [
+          "Όταν α≠0 και β≠0",
+          "Όταν τουλάχιστον ένας από τους δύο είναι 0",
+          "Μόνο όταν α και β είναι θετικοί",
+          "Όταν α+β≠0 και αυτό αρκεί"
+        ],
+        "answer": "Όταν α≠0 και β≠0",
+        "difficulty": "easy",
+        "hint": "Γινόμενο μηδενίζεται αν και μόνο αν ένας τουλάχιστον παράγοντας είναι μηδέν.",
+        "solution": "Για να μην είναι μηδέν το γινόμενο, πρέπει και οι δύο παράγοντες να είναι μη μηδενικοί. Επιτρέπονται και αρνητικοί παράγοντες.",
+        "skill": "Μη μηδενικό γινόμενο και σύνδεσμος και",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όταν α≠0 και β≠0",
+              "correct": true,
+              "reason": "Για να μην είναι μηδέν το γινόμενο, πρέπει και οι δύο παράγοντες να είναι μη μηδενικοί. Επιτρέπονται και αρνητικοί παράγοντες."
+            },
+            {
+              "choice": "Όταν τουλάχιστον ένας από τους δύο είναι 0",
+              "correct": false,
+              "reason": "Ένας μηδενικός παράγοντας μηδενίζει το γινόμενο."
+            },
+            {
+              "choice": "Μόνο όταν α και β είναι θετικοί",
+              "correct": false,
+              "reason": "Δεν χρειάζεται θετικότητα, όπως δείχνει το (−2)×3."
+            },
+            {
+              "choice": "Όταν α+β≠0 και αυτό αρκεί",
+              "correct": false,
+              "reason": "Το άθροισμα 0+1 είναι μη μηδενικό, αλλά το γινόμενο είναι 0."
+            }
+          ]
+        },
+        "checks": [
+          [
+            "(-2)*3",
+            "<",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-02",
+      "legacy_index": 2,
+      "expected_current": "2256c60a-2ddb-5632-b83e-b5ac3461e8c9",
+      "payload": {
+        "question": "Ποιος πραγματικός αριθμός έχει αντίθετο τον 4;",
+        "choices": [
+          "−4",
+          "4",
+          "1/4",
+          "0"
+        ],
+        "answer": "−4",
+        "difficulty": "easy",
+        "hint": "Αντίθετοι είναι δύο αριθμοί με άθροισμα μηδέν.",
+        "solution": "Ο −4 έχει αντίθετο τον 4, διότι −4+4=0.",
+        "skill": "Αντίθετος αριθμός και μηδενικό άθροισμα",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-4"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-03",
+      "legacy_index": 3,
+      "expected_current": "bc477538-9285-508e-88f8-9e5d40eca4bc",
+      "payload": {
+        "question": "Υπολόγισε (−3)×4.",
+        "choices": [
+          "−12",
+          "12",
+          "−7",
+          "7"
+        ],
+        "answer": "−12",
+        "difficulty": "easy",
+        "hint": "Γινόμενο αρνητικού και θετικού είναι αρνητικό.",
+        "solution": "Το απόλυτο μέγεθος είναι 3×4=12 και το πρόσημο αρνητικό, άρα −12.",
+        "skill": "Πρόσημο γινομένου πραγματικών",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-3)*4"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-04",
+      "legacy_index": 4,
+      "expected_current": "1f2c2b43-0d34-5e0b-9a00-2bf5d4dc235c",
+      "payload": {
+        "question": "Υπολόγισε (3/2):(3/8).",
+        "choices": [
+          "4",
+          "9/16",
+          "1/4",
+          "3"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Διαίρεση με μη μηδενικό κλάσμα σημαίνει γινόμενο με το αντίστροφό του.",
+        "solution": "(3/2)×(8/3)=4. Ο διαιρέτης 3/8 είναι μη μηδενικός.",
+        "skill": "Διαίρεση μη μηδενικού ρητού",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3/2)/(3/8)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-05",
+      "legacy_index": 5,
+      "expected_current": "3d5564e5-3497-5265-a83e-e492f4c1eded",
+      "payload": {
+        "question": "Πόσο είναι το (−2)³;",
+        "choices": [
+          "−8",
+          "8",
+          "−6",
+          "6"
+        ],
+        "answer": "−8",
+        "difficulty": "easy",
+        "hint": "Ο περιττός εκθέτης διατηρεί το αρνητικό πρόσημο της βάσης.",
+        "solution": "(−2)³=(−2)(−2)(−2)=−8.",
+        "skill": "Περιττή δύναμη αρνητικής βάσης",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-2)**3"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-06",
+      "legacy_index": 6,
+      "expected_current": "7b831922-b8c3-5f01-9fcd-5fa2d2daaaf8",
+      "payload": {
+        "question": "Πόσο είναι το −5², χωρίς παρένθεση γύρω από το −5;",
+        "choices": [
+          "−25",
+          "25",
+          "−10",
+          "10"
+        ],
+        "answer": "−25",
+        "difficulty": "easy",
+        "hint": "Η δύναμη προηγείται του εξωτερικού αρνητικού προσήμου.",
+        "solution": "−5²=−(5²)=−25, ενώ (−5)² θα ήταν 25.",
+        "skill": "Προτεραιότητα δύναμης και προσήμου",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-(5**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-07",
+      "legacy_index": 7,
+      "expected_current": "16fe9a27-f2de-5e82-b140-30a1d4f9fb3f",
+      "payload": {
+        "question": "Ποιος είναι ο ουδέτερος του πολλαπλασιασμού πραγματικών;",
+        "choices": [
+          "1",
+          "0",
+          "−1",
+          "2"
+        ],
+        "answer": "1",
+        "difficulty": "easy",
+        "hint": "Ο ουδέτερος αφήνει κάθε πραγματικό αριθμό αμετάβλητο όταν τον πολλαπλασιάζει.",
+        "solution": "Για κάθε πραγματικό α ισχύει α×1=α, άρα ο ουδέτερος είναι το 1.",
+        "skill": "Ουδέτερο στοιχείο πολλαπλασιασμού",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-08",
+      "legacy_index": 8,
+      "expected_current": "375d4c12-8aa3-552e-8c7b-b4002fa0f94c",
+      "payload": {
+        "question": "Ποιος είναι ο ουδέτερος της πρόσθεσης πραγματικών;",
+        "choices": [
+          "0",
+          "1",
+          "−1",
+          "2"
+        ],
+        "answer": "0",
+        "difficulty": "easy",
+        "hint": "Η πρόσθεση του ουδέτερου δεν αλλάζει κανέναν πραγματικό αριθμό.",
+        "solution": "Για κάθε πραγματικό α ισχύει α+0=α, άρα ο ουδέτερος είναι το 0.",
+        "skill": "Ουδέτερο στοιχείο πρόσθεσης",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-09",
+      "legacy_index": 9,
+      "expected_current": "9c5d3c9d-ff34-5c76-b46c-b8480aaca812",
+      "payload": {
+        "question": "Ποιος είναι ο αντίθετος του 3;",
+        "choices": [
+          "−3",
+          "3",
+          "1/3",
+          "0"
+        ],
+        "answer": "−3",
+        "difficulty": "easy",
+        "hint": "Ο αριθμός μαζί με τον αντίθετό του έχουν άθροισμα μηδέν.",
+        "solution": "3+(−3)=0, άρα ο αντίθετος του 3 είναι −3.",
+        "skill": "Αντίθετος θετικού αριθμού",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-10",
+      "legacy_index": 10,
+      "expected_current": "a031ce57-af16-5ffe-852c-0a38a4d36305",
+      "payload": {
+        "question": "Ποιος είναι ο αντίστροφος του 2;",
+        "choices": [
+          "1/2",
+          "2",
+          "−2",
+          "0"
+        ],
+        "answer": "1/2",
+        "difficulty": "easy",
+        "hint": "Αντίστροφοι είναι δύο μη μηδενικοί αριθμοί με γινόμενο 1.",
+        "solution": "2×(1/2)=1. Ο αντίστροφος του 2 είναι 1/2· το 0 δεν έχει αντίστροφο.",
+        "skill": "Αντίστροφος μη μηδενικού πραγματικού",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/2"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-11",
+      "legacy_index": 11,
+      "expected_current": "d4a0414e-0588-5ec7-a4c2-4ecd580d1eee",
+      "payload": {
+        "question": "Πώς ονομάζεται η ιδιότητα α+β=β+α;",
+        "choices": [
+          "Αντιμεταθετική",
+          "Προσεταιριστική",
+          "Επιμεριστική",
+          "Αλλαγή προσήμου"
+        ],
+        "answer": "Αντιμεταθετική",
+        "difficulty": "medium",
+        "hint": "Αλλάζει η σειρά των προσθετέων, όχι ο τρόπος ομαδοποίησής τους.",
+        "solution": "Η αλλαγή σειράς στην πρόσθεση χωρίς αλλαγή αποτελέσματος είναι η αντιμεταθετική ιδιότητα.",
+        "skill": "Αντιμεταθετικότητα της πρόσθεσης",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Αντιμεταθετική",
+              "correct": true,
+              "reason": "Η αλλαγή σειράς στην πρόσθεση χωρίς αλλαγή αποτελέσματος είναι η αντιμεταθετική ιδιότητα."
+            },
+            {
+              "choice": "Προσεταιριστική",
+              "correct": false,
+              "reason": "Η προσεταιριστική αλλάζει ομαδοποίηση τριών όρων."
+            },
+            {
+              "choice": "Επιμεριστική",
+              "correct": false,
+              "reason": "Η επιμεριστική συνδέει πολλαπλασιασμό με πρόσθεση."
+            },
+            {
+              "choice": "Αλλαγή προσήμου",
+              "correct": false,
+              "reason": "Δεν αλλάζουν τα πρόσημα των όρων."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-12",
+      "legacy_index": 12,
+      "expected_current": "de87480c-582e-5249-8e13-c244cd1f4ed3",
+      "payload": {
+        "question": "Πώς ονομάζεται η ιδιότητα (α+β)+γ=α+(β+γ);",
+        "choices": [
+          "Προσεταιριστική",
+          "Αντιμεταθετική",
+          "Επιμεριστική",
+          "Αντιστροφή"
+        ],
+        "answer": "Προσεταιριστική",
+        "difficulty": "medium",
+        "hint": "Οι όροι μένουν στην ίδια σειρά και αλλάζουν μόνο οι παρενθέσεις.",
+        "solution": "Η διαφορετική ομαδοποίηση της πρόσθεσης λέγεται προσεταιριστική ιδιότητα.",
+        "skill": "Προσεταιριστικότητα της πρόσθεσης",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Προσεταιριστική",
+              "correct": true,
+              "reason": "Η διαφορετική ομαδοποίηση της πρόσθεσης λέγεται προσεταιριστική ιδιότητα."
+            },
+            {
+              "choice": "Αντιμεταθετική",
+              "correct": false,
+              "reason": "Δεν αλλάζει η σειρά των όρων."
+            },
+            {
+              "choice": "Επιμεριστική",
+              "correct": false,
+              "reason": "Δεν εμφανίζεται πολλαπλασιασμός για επιμεριστική."
+            },
+            {
+              "choice": "Αντιστροφή",
+              "correct": false,
+              "reason": "Δεν σχηματίζονται αντίστροφοι αριθμοί."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-13",
+      "legacy_index": 13,
+      "expected_current": "8f1db7cb-c03f-5f7b-8569-e5f59a3e4cad",
+      "payload": {
+        "question": "Ποια σχέση εκφράζει την επιμεριστική ιδιότητα;",
+        "choices": [
+          "α(β+γ)=αβ+αγ",
+          "(α+β)²=α²+β²",
+          "α+β=β+α",
+          "(αβ)²=α²+β"
+        ],
+        "answer": "α(β+γ)=αβ+αγ",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε τον εξωτερικό παράγοντα με κάθε προσθετέο.",
+        "solution": "Η σχέση α(β+γ)=αβ+αγ συνδέει πολλαπλασιασμό και πρόσθεση με επιμερισμό σε όλους τους όρους.",
+        "skill": "Επιμεριστική σε όλους τους προσθετέους",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α(β+γ)=αβ+αγ",
+              "correct": true,
+              "reason": "Η σχέση α(β+γ)=αβ+αγ συνδέει πολλαπλασιασμό και πρόσθεση με επιμερισμό σε όλους τους όρους."
+            },
+            {
+              "choice": "(α+β)²=α²+β²",
+              "correct": false,
+              "reason": "Λείπει ο μεικτός όρος 2αβ από το τετράγωνο."
+            },
+            {
+              "choice": "α+β=β+α",
+              "correct": false,
+              "reason": "Η σχέση αυτή είναι αντιμεταθετική πρόσθεσης."
+            },
+            {
+              "choice": "(αβ)²=α²+β",
+              "correct": false,
+              "reason": "Το τετράγωνο γινομένου είναι α²β², όχι το προτεινόμενο άθροισμα."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-14",
+      "legacy_index": 14,
+      "expected_current": "f2ddc72b-e934-55e0-8258-e51a11d2b85a",
+      "payload": {
+        "question": "Ποια είναι η αριθμητική τιμή του 2³×2²;",
+        "choices": [
+          "32",
+          "64",
+          "2",
+          "1024"
+        ],
+        "answer": "32",
+        "difficulty": "medium",
+        "hint": "Στο γινόμενο δυνάμεων ίδιας βάσης πρόσθεσε εκθέτες.",
+        "solution": "2³×2²=2⁵=32.",
+        "skill": "Γινόμενο δυνάμεων ίδιας βάσης",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**3*2**2"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-15",
+      "legacy_index": 15,
+      "expected_current": "6817a861-c0d5-5572-b5f5-ea372527fea2",
+      "payload": {
+        "question": "Ποια είναι η αριθμητική τιμή του 2⁵:2²;",
+        "choices": [
+          "8",
+          "128",
+          "4",
+          "1024"
+        ],
+        "answer": "8",
+        "difficulty": "medium",
+        "hint": "Στο πηλίκο δυνάμεων ίδιας μη μηδενικής βάσης αφαίρεσε εκθέτες.",
+        "solution": "2⁵:2²=2³=8.",
+        "skill": "Πηλίκο δυνάμεων ίδιας βάσης",
+        "objective_ids": [
+          "af974e06-9007-501f-902a-3a4175586e97"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**5/(2**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-16",
+      "legacy_index": 16,
+      "expected_current": "e4d3ffa2-1808-5786-b9ef-53b4d028f41f",
+      "payload": {
+        "question": "Ποια είναι η αριθμητική τιμή του (2³)²;",
+        "choices": [
+          "64",
+          "32",
+          "128",
+          "256"
+        ],
+        "answer": "64",
+        "difficulty": "medium",
+        "hint": "Στη δύναμη δύναμης πολλαπλασιάζεις τους εκθέτες.",
+        "solution": "(2³)²=2⁶=64. Οι τέσσερις επιλογές είναι διαφορετικές αριθμητικές τιμές.",
+        "skill": "Δύναμη δύναμης χωρίς ισοδύναμες επιλογές",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2**3)**2"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-17",
+      "legacy_index": 17,
+      "expected_current": "2c3df5b1-05e7-5e8d-a118-41ee4a71b351",
+      "payload": {
+        "question": "Ποιο είναι το ανάπτυγμα του (α+β)²;",
+        "choices": [
+          "α²+2αβ+β²",
+          "α²+β²",
+          "2αβ",
+          "α²−αβ+β²"
+        ],
+        "answer": "α²+2αβ+β²",
+        "difficulty": "medium",
+        "hint": "Γράψε το τετράγωνο ως γινόμενο δύο ίδιων διωνύμων.",
+        "solution": "(α+β)(α+β)=α²+αβ+αβ+β²=α²+2αβ+β².",
+        "skill": "Ταυτότητα τετραγώνου αθροίσματος",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α²+2αβ+β²",
+              "correct": true,
+              "reason": "(α+β)(α+β)=α²+αβ+αβ+β²=α²+2αβ+β²."
+            },
+            {
+              "choice": "α²+β²",
+              "correct": false,
+              "reason": "Λείπει ο διπλάσιος μεικτός όρος."
+            },
+            {
+              "choice": "2αβ",
+              "correct": false,
+              "reason": "Λείπουν και τα δύο τετράγωνα."
+            },
+            {
+              "choice": "α²−αβ+β²",
+              "correct": false,
+              "reason": "Ο μεικτός όρος είναι +2αβ και όχι −αβ."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-18",
+      "legacy_index": 18,
+      "expected_current": "0c6af56e-673a-5ed2-a6d1-3937c0d1da36",
+      "payload": {
+        "question": "Ποιο είναι το ανάπτυγμα του (α−β)²;",
+        "choices": [
+          "α²−2αβ+β²",
+          "α²−β²",
+          "α²+2αβ+β²",
+          "αβ"
+        ],
+        "answer": "α²−2αβ+β²",
+        "difficulty": "medium",
+        "hint": "Ο μεικτός όρος είναι αρνητικός αλλά το τελευταίο τετράγωνο θετικό.",
+        "solution": "(α−β)²=α²−2αβ+β². Το τετράγωνο της διαφοράς δεν είναι η διαφορά τετραγώνων.",
+        "skill": "Ταυτότητα τετραγώνου διαφοράς",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α²−2αβ+β²",
+              "correct": true,
+              "reason": "(α−β)²=α²−2αβ+β². Το τετράγωνο της διαφοράς δεν είναι η διαφορά τετραγώνων."
+            },
+            {
+              "choice": "α²−β²",
+              "correct": false,
+              "reason": "Η διαφορά τετραγώνων δεν ισούται γενικά με τετράγωνο διαφοράς."
+            },
+            {
+              "choice": "α²+2αβ+β²",
+              "correct": false,
+              "reason": "Το πρόσημο του μεικτού όρου είναι αρνητικό."
+            },
+            {
+              "choice": "αβ",
+              "correct": false,
+              "reason": "Το γινόμενο αβ παραλείπει όλους τους υπόλοιπους όρους."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-19",
+      "legacy_index": 19,
+      "expected_current": "0b7c42ef-1889-5d81-b356-f6d4983cab03",
+      "payload": {
+        "question": "Ποια παραγοντοποίηση ισούται με α²−β²;",
+        "choices": [
+          "(α+β)(α−β)",
+          "(α+β)²",
+          "(α−β)²",
+          "αβ"
+        ],
+        "answer": "(α+β)(α−β)",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε άθροισμα επί αντίστοιχη διαφορά.",
+        "solution": "(α+β)(α−β)=α²−αβ+αβ−β²=α²−β².",
+        "skill": "Διαφορά τετραγώνων ως γινόμενο",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(α+β)(α−β)",
+              "correct": true,
+              "reason": "(α+β)(α−β)=α²−αβ+αβ−β²=α²−β²."
+            },
+            {
+              "choice": "(α+β)²",
+              "correct": false,
+              "reason": "Το τετράγωνο αθροίσματος έχει επιπλέον μεικτό όρο."
+            },
+            {
+              "choice": "(α−β)²",
+              "correct": false,
+              "reason": "Το τετράγωνο διαφοράς έχει μεικτό όρο και θετικό τελευταίο τετράγωνο."
+            },
+            {
+              "choice": "αβ",
+              "correct": false,
+              "reason": "Το αβ δεν εκφράζει διαφορά τετραγώνων."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-20",
+      "legacy_index": 20,
+      "expected_current": "5f5336d8-6e46-555b-8574-6ac43e9c31f8",
+      "payload": {
+        "question": "Πόσο είναι το 2⁻²;",
+        "choices": [
+          "1/4",
+          "4",
+          "−4",
+          "1/2"
+        ],
+        "answer": "1/4",
+        "difficulty": "medium",
+        "hint": "Ο αρνητικός εκθέτης δηλώνει αντίστροφο της θετικής δύναμης.",
+        "solution": "2⁻²=1/2²=1/4, όχι αρνητικός αριθμός.",
+        "skill": "Αρνητικός εκθέτης με θετική βάση",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(2**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-21",
+      "legacy_index": 21,
+      "expected_current": "612bfa6c-a6f3-5ceb-9426-22be386dcfd3",
+      "payload": {
+        "question": "Για α=−2 και β=3, πόση είναι η τιμή του (3α−2β)²;",
+        "choices": [
+          "144",
+          "0",
+          "36",
+          "−144"
+        ],
+        "answer": "144",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε ολόκληρη τη βάση πριν την υψώσεις στο τετράγωνο.",
+        "solution": "3α−2β=−6−6=−12, οπότε (3α−2β)²=144.",
+        "skill": "Σύνθετη αντικατάσταση σε τετράγωνο",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3*(-2)-2*3)**2"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-22",
+      "legacy_index": 22,
+      "expected_current": "8a49ffc2-7c01-55e4-be6e-9d6d0f7f0a0d",
+      "payload": {
+        "question": "Για α=7/2 και β=−3/2, πόση είναι η τιμή του α²−β²;",
+        "choices": [
+          "10",
+          "4",
+          "29/2",
+          "−10"
+        ],
+        "answer": "10",
+        "difficulty": "hard",
+        "hint": "Τα τετράγωνα είναι θετικά και μετά γίνεται η αφαίρεση.",
+        "solution": "α²−β²=49/4−9/4=40/4=10. Εναλλακτικά (α+β)(α−β)=2×5.",
+        "skill": "Διαφορά τετραγώνων ρητών αριθμών",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(7/2)**2-(-3/2)**2"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-23",
+      "legacy_index": 23,
+      "expected_current": "b333f001-30ba-5804-aee0-4644c7e145ef",
+      "payload": {
+        "question": "Υπολόγισε (2⁻²×4³):8⁻¹.",
+        "choices": [
+          "128",
+          "2",
+          "8",
+          "512"
+        ],
+        "answer": "128",
+        "difficulty": "hard",
+        "hint": "Γράψε όλους τους παράγοντες ως δυνάμεις του 2 ή υπολόγισε τους αντίστροφους.",
+        "solution": "(1/4×64):(1/8)=16×8=128.",
+        "skill": "Συνδυασμός δυνάμεων και αντίστροφων",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(1/(2**2)*4**3)/(1/8)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-24",
+      "legacy_index": 24,
+      "expected_current": "145c1e3d-f7e8-54ff-a89f-435f2d4dc220",
+      "payload": {
+        "question": "Για φυσικό αριθμό x ισχύει 2^(x+1)=32. Ποιο είναι το x;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": "4",
+        "difficulty": "hard",
+        "hint": "Γράψε το 32 ως δύναμη του 2 και σύγκρινε τους φυσικούς εκθέτες.",
+        "solution": "32=2⁵, άρα x+1=5 και x=4.",
+        "skill": "Εύρεση φυσικού εκθέτη με γνωστή δύναμη",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-1"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-25",
+      "legacy_index": 25,
+      "expected_current": "ea0c60cb-5903-52da-9abc-69f7e59ccdef",
+      "payload": {
+        "question": "Υπολόγισε [(−2)³]²:2⁴−(3/2)⁻².",
+        "choices": [
+          "32/9",
+          "40/9",
+          "−32/9",
+          "5/4"
+        ],
+        "answer": "32/9",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε χωριστά το πηλίκο δυνάμεων και την αντίστροφη κλασματική δύναμη.",
+        "solution": "[(−2)³]²:2⁴=64/16=4 και (3/2)⁻²=4/9. Άρα 4−4/9=32/9.",
+        "skill": "Σύνθετη παράσταση με παρενθέσεις και δυνάμεις",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((-2)**3)**2/(2**4)-1/((3/2)**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-26",
+      "legacy_index": 26,
+      "expected_current": "822e2c02-0f68-5d85-9987-0a32e6bc9d12",
+      "payload": {
+        "question": "Αν α=−1/2, πόσο είναι το (2α−1)³;",
+        "choices": [
+          "−8",
+          "8",
+          "−1",
+          "0"
+        ],
+        "answer": "−8",
+        "difficulty": "hard",
+        "hint": "Αντικατάστησε πριν από την περιττή δύναμη.",
+        "solution": "2α−1=−1−1=−2. Άρα (2α−1)³=(−2)³=−8.",
+        "skill": "Αρνητική βάση σε κύβο σύνθετης παράστασης",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2*(-1/2)-1)**3"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-27",
+      "legacy_index": 27,
+      "expected_current": "ad1cf9e2-1226-58bf-80b7-0ec1bb57adca",
+      "payload": {
+        "question": "Με ποια παράσταση ισούται το (α+β)²−(α−β)²;",
+        "choices": [
+          "4αβ",
+          "2αβ",
+          "α²−β²",
+          "0"
+        ],
+        "answer": "4αβ",
+        "difficulty": "hard",
+        "hint": "Ανάπτυξε και τα δύο τετράγωνα και αφαίρεσε ολόκληρο το δεύτερο.",
+        "solution": "α²+2αβ+β²−α²+2αβ−β²=4αβ. Το αρνητικό μπροστά στη δεύτερη παρένθεση αλλάζει όλα τα πρόσημα.",
+        "skill": "Αφαίρεση δύο ταυτοτήτων τετραγώνου",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "4αβ",
+              "correct": true,
+              "reason": "α²+2αβ+β²−α²+2αβ−β²=4αβ. Το αρνητικό μπροστά στη δεύτερη παρένθεση αλλάζει όλα τα πρόσημα."
+            },
+            {
+              "choice": "2αβ",
+              "correct": false,
+              "reason": "Οι δύο μεικτοί όροι προστίθενται και δίνουν 4αβ."
+            },
+            {
+              "choice": "α²−β²",
+              "correct": false,
+              "reason": "Τα τετράγωνα απαλείφονται και απομένουν οι μεικτοί όροι."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Η διαφορά δεν είναι μηδέν για όλα τα α και β."
+            }
+          ]
+        },
+        "checks": [
+          [
+            "(2+3)**2-(2-3)**2",
+            "=",
+            "4*2*3"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-28",
+      "legacy_index": 28,
+      "expected_current": "57ab0967-18c5-50e9-a0af-bb7a92983ff8",
+      "payload": {
+        "question": "Υπολόγισε (3²×3³):9².",
+        "choices": [
+          "3",
+          "9",
+          "27",
+          "81"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Γράψε το 9² ως 3⁴ πριν αφαιρέσεις εκθέτες.",
+        "solution": "3²×3³:3⁴=3^(2+3−4)=3.",
+        "skill": "Μετατροπή βάσης σε πηλίκο δυνάμεων",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2*3**3/(9**2)"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-29",
+      "legacy_index": 29,
+      "expected_current": "0cafcd44-c6da-5185-a893-63c0924b8c68",
+      "payload": {
+        "question": "Υπολόγισε (4²:2²)⁻¹+(−3)⁰.",
+        "choices": [
+          "5/4",
+          "1/4",
+          "4",
+          "−3/4"
+        ],
+        "answer": "5/4",
+        "difficulty": "hard",
+        "hint": "Πάρε τον αντίστροφο του πηλίκου και θυμήσου τη μηδενική δύναμη μη μηδενικής βάσης.",
+        "solution": "4²:2²=4, άρα η αντίστροφή του είναι 1/4. Επίσης (−3)⁰=1. Το άθροισμα είναι 5/4.",
+        "skill": "Αντίστροφη και μηδενική δύναμη",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(4**2/(2**2))+1"
+        }
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "legacy-30",
+      "legacy_index": 30,
+      "expected_current": "c6ce2093-2935-55f7-9960-bea25da92cdc",
+      "payload": {
+        "question": "Υπολόγισε [(−2)²]³:(−2)⁵.",
+        "choices": [
+          "−2",
+          "2",
+          "−4",
+          "1/2"
+        ],
+        "answer": "−2",
+        "difficulty": "hard",
+        "hint": "Ο αριθμητής είναι έκτη δύναμη της ίδιας μη μηδενικής βάσης.",
+        "solution": "[(−2)²]³=(−2)⁶. Διαιρώντας με (−2)⁵ απομένει (−2)¹=−2.",
+        "skill": "Σύνθεση κανόνων με αρνητική βάση",
+        "objective_ids": [
+          "d9da7928-5031-50f6-bd09-e360e52efde7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((-2)**2)**3/((-2)**5)"
+        }
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-01",
+      "legacy_index": 1,
+      "expected_current": "0c4ccfae-73b6-5bd6-a344-5b4bdb64f87d",
+      "payload": {
+        "question": "Ποιος από τους παρακάτω ρητούς βρίσκεται αυστηρά ανάμεσα στο 1/3 και στο 1/2;",
+        "choices": [
+          "5/12",
+          "1/4",
+          "2/3",
+          "1/2"
+        ],
+        "answer": "5/12",
+        "difficulty": "easy",
+        "hint": "Γράψε τους αριθμούς με παρονομαστή 12.",
+        "solution": "1/3=4/12 και 1/2=6/12, άρα 4/12<5/12<6/12. Το άκρο 1/2 αποκλείεται.",
+        "skill": "Ενδιάμεσος ρητός ανάμεσα σε δύο ρητούς",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5/12"
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "1/3",
+            "<",
+            "5/12"
+          ],
+          [
+            "5/12",
+            "<",
+            "1/2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-02",
+      "legacy_index": 2,
+      "expected_current": "47482b21-eefa-5c4e-b094-e5356b8d1e68",
+      "payload": {
+        "question": "Υπάρχει αμέσως επόμενος ρητός αριθμός μετά το 1/2;",
+        "choices": [
+          "Όχι, ανάμεσα στο 1/2 και σε κάθε μεγαλύτερο ρητό υπάρχει άλλος ρητός",
+          "Ναι, είναι το 0,51",
+          "Ναι, είναι το 1",
+          "Ναι, είναι το 1/2+1/1000"
+        ],
+        "answer": "Όχι, ανάμεσα στο 1/2 και σε κάθε μεγαλύτερο ρητό υπάρχει άλλος ρητός",
+        "difficulty": "easy",
+        "hint": "Η έννοια του διαδόχου στους ακεραίους δεν μεταφέρεται στους ρητούς.",
+        "solution": "Για κάθε ρητό q>1/2, ο μέσος τους είναι ρητός και βρίσκεται αυστηρά ανάμεσά τους. Άρα δεν υπάρχει αμέσως επόμενος ρητός.",
+        "skill": "Πυκνότητα ρητών και απουσία διαδόχου",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, ανάμεσα στο 1/2 και σε κάθε μεγαλύτερο ρητό υπάρχει άλλος ρητός",
+              "correct": true,
+              "reason": "Για κάθε ρητό q>1/2, ο μέσος τους είναι ρητός και βρίσκεται αυστηρά ανάμεσά τους. Άρα δεν υπάρχει αμέσως επόμενος ρητός."
+            },
+            {
+              "choice": "Ναι, είναι το 0,51",
+              "correct": false,
+              "reason": "Μεταξύ 0,5 και 0,51 υπάρχει ο ρητός 0,505."
+            },
+            {
+              "choice": "Ναι, είναι το 1",
+              "correct": false,
+              "reason": "Μεταξύ 1/2 και 1 υπάρχει ο ρητός 3/4."
+            },
+            {
+              "choice": "Ναι, είναι το 1/2+1/1000",
+              "correct": false,
+              "reason": "Μεταξύ 0,5 και 0,501 υπάρχει ο ρητός 0,5005."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "1/2",
+            "<",
+            "101/200"
+          ],
+          [
+            "101/200",
+            "<",
+            "51/100"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-03",
+      "legacy_index": 3,
+      "expected_current": "34a54e05-e3f0-5ac9-927a-f2fc4c23581d",
+      "payload": {
+        "question": "Ποιους πραγματικούς αριθμούς περιέχει το διάστημα (1,4);",
+        "choices": [
+          "Όλους με 1<x<4",
+          "Μόνο τα άκρα 1 και 4",
+          "Όλους με 1≤x≤4",
+          "Μόνο φυσικούς ανάμεσα στο 1 και στο 4"
+        ],
+        "answer": "Όλους με 1<x<4",
+        "difficulty": "easy",
+        "hint": "Οι δύο παρενθέσεις αποκλείουν τα πεπερασμένα άκρα.",
+        "solution": "Το (1,4) περιέχει κάθε πραγματικό αυστηρά ανάμεσα στο 1 και στο 4, χωρίς τα άκρα.",
+        "skill": "Ανοικτό διάστημα πραγματικών",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όλους με 1<x<4",
+              "correct": true,
+              "reason": "Το (1,4) περιέχει κάθε πραγματικό αυστηρά ανάμεσα στο 1 και στο 4, χωρίς τα άκρα."
+            },
+            {
+              "choice": "Μόνο τα άκρα 1 και 4",
+              "correct": false,
+              "reason": "Τα άκρα αποκλείονται αντί να είναι τα μόνα στοιχεία."
+            },
+            {
+              "choice": "Όλους με 1≤x≤4",
+              "correct": false,
+              "reason": "Οι ισότητες θα πρόσθεταν τα άκρα που εδώ αποκλείονται."
+            },
+            {
+              "choice": "Μόνο φυσικούς ανάμεσα στο 1 και στο 4",
+              "correct": false,
+              "reason": "Το διάστημα περιέχει και μη ακέραιους πραγματικούς."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-04",
+      "legacy_index": 4,
+      "expected_current": "c39b99f4-2b0b-5b5d-b107-0db9d639cc51",
+      "payload": {
+        "question": "Ποιους πραγματικούς αριθμούς περιέχει το διάστημα [1,4];",
+        "choices": [
+          "Όλους με 1≤x≤4",
+          "Όλους με 1<x<4",
+          "Μόνο το 1",
+          "Μόνο το 4"
+        ],
+        "answer": "Όλους με 1≤x≤4",
+        "difficulty": "easy",
+        "hint": "Οι αγκύλες περιλαμβάνουν και τα δύο πεπερασμένα άκρα.",
+        "solution": "Το [1,4] περιέχει όλους τους πραγματικούς ανάμεσα στα άκρα, μαζί με το 1 και το 4.",
+        "skill": "Κλειστό διάστημα πραγματικών",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όλους με 1≤x≤4",
+              "correct": true,
+              "reason": "Το [1,4] περιέχει όλους τους πραγματικούς ανάμεσα στα άκρα, μαζί με το 1 και το 4."
+            },
+            {
+              "choice": "Όλους με 1<x<4",
+              "correct": false,
+              "reason": "Οι αυστηρές ανισότητες θα απέκλειαν τα δύο άκρα."
+            },
+            {
+              "choice": "Μόνο το 1",
+              "correct": false,
+              "reason": "Περιέχονται και όλα τα εσωτερικά σημεία και το 4."
+            },
+            {
+              "choice": "Μόνο το 4",
+              "correct": false,
+              "reason": "Περιέχονται και όλα τα εσωτερικά σημεία και το 1."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-05",
+      "legacy_index": 5,
+      "expected_current": "ec7ff6d4-b387-562b-b2d9-7e354ae6d7c9",
+      "payload": {
+        "question": "Αν α<β, ποια σχέση ισχύει μετά από πρόσθεση 2 και στα δύο μέλη;",
+        "choices": [
+          "α+2<β+2",
+          "α+2>β+2",
+          "α+2=β+2",
+          "Δεν προκύπτει καμία σχέση"
+        ],
+        "answer": "α+2<β+2",
+        "difficulty": "easy",
+        "hint": "Η πρόσθεση ίδιου αριθμού διατηρεί τη διάταξη.",
+        "solution": "Από α<β προσθέτουμε 2 στα δύο μέλη και παίρνουμε α+2<β+2, με ίδια φορά.",
+        "skill": "Πρόσθεση ίδιου πραγματικού σε ανισότητα",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α+2<β+2",
+              "correct": true,
+              "reason": "Από α<β προσθέτουμε 2 στα δύο μέλη και παίρνουμε α+2<β+2, με ίδια φορά."
+            },
+            {
+              "choice": "α+2>β+2",
+              "correct": false,
+              "reason": "Η πρόσθεση δεν αντιστρέφει τη φορά."
+            },
+            {
+              "choice": "α+2=β+2",
+              "correct": false,
+              "reason": "Η αυστηρή ανισότητα δεν γίνεται ισότητα."
+            },
+            {
+              "choice": "Δεν προκύπτει καμία σχέση",
+              "correct": false,
+              "reason": "Η σχέση καθορίζεται από την αντίστοιχη ιδιότητα διάταξης."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-06",
+      "legacy_index": 6,
+      "expected_current": "115bcbca-58b5-5f31-a47a-4026c5aeceb7",
+      "payload": {
+        "question": "Αν α<β και λ>0, ποια σχέση ισχύει;",
+        "choices": [
+          "αλ<βλ",
+          "αλ>βλ",
+          "αλ=βλ",
+          "Δεν προκύπτει καμία σχέση"
+        ],
+        "answer": "αλ<βλ",
+        "difficulty": "easy",
+        "hint": "Ο θετικός πολλαπλασιαστής διατηρεί τη φορά.",
+        "solution": "Πολλαπλασιάζοντας με λ>0 παίρνουμε αλ<βλ.",
+        "skill": "Θετικός πολλαπλασιαστής ανισότητας",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "αλ<βλ",
+              "correct": true,
+              "reason": "Πολλαπλασιάζοντας με λ>0 παίρνουμε αλ<βλ."
+            },
+            {
+              "choice": "αλ>βλ",
+              "correct": false,
+              "reason": "Αντιστροφή απαιτεί αρνητικό πολλαπλασιαστή."
+            },
+            {
+              "choice": "αλ=βλ",
+              "correct": false,
+              "reason": "Ο μη μηδενικός πολλαπλασιαστής δεν μετατρέπει την αυστηρή ανισότητα σε ισότητα."
+            },
+            {
+              "choice": "Δεν προκύπτει καμία σχέση",
+              "correct": false,
+              "reason": "Η θετικότητα του λ αρκεί για τη συγκεκριμένη σχέση."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-07",
+      "legacy_index": 7,
+      "expected_current": "78f42b38-b43a-5fe0-9146-e7e438c6731b",
+      "payload": {
+        "question": "Αν α<β και λ<0, ποια σχέση ισχύει;",
+        "choices": [
+          "αλ>βλ",
+          "αλ<βλ",
+          "αλ=βλ",
+          "Δεν επιτρέπεται ο πολλαπλασιασμός"
+        ],
+        "answer": "αλ>βλ",
+        "difficulty": "easy",
+        "hint": "Ο αρνητικός πολλαπλασιαστής αντιστρέφει τη φορά.",
+        "solution": "Πολλαπλασιάζοντας με λ<0 παίρνουμε αλ>βλ.",
+        "skill": "Αρνητικός πολλαπλασιαστής ανισότητας",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "αλ>βλ",
+              "correct": true,
+              "reason": "Πολλαπλασιάζοντας με λ<0 παίρνουμε αλ>βλ."
+            },
+            {
+              "choice": "αλ<βλ",
+              "correct": false,
+              "reason": "Η φορά πρέπει να αντιστραφεί."
+            },
+            {
+              "choice": "αλ=βλ",
+              "correct": false,
+              "reason": "Το λ είναι μη μηδενικό και δεν δίνει ισότητα."
+            },
+            {
+              "choice": "Δεν επιτρέπεται ο πολλαπλασιασμός",
+              "correct": false,
+              "reason": "Ο πολλαπλασιασμός επιτρέπεται με την αλλαγή φοράς."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-08",
+      "legacy_index": 8,
+      "expected_current": "25c47f5c-c60e-5ac7-9824-f1c2c73899cc",
+      "payload": {
+        "question": "Ποια από τις παρακάτω αριθμητικές ανισότητες είναι σωστή;",
+        "choices": [
+          "−3<−1",
+          "−2>1",
+          "0<−1",
+          "4<2"
+        ],
+        "answer": "−3<−1",
+        "difficulty": "easy",
+        "hint": "Στον άξονα ο αριθμός που βρίσκεται αριστερότερα είναι μικρότερος.",
+        "solution": "Το −3 βρίσκεται αριστερά του −1, άρα −3<−1.",
+        "skill": "Σύγκριση συγκεκριμένων πραγματικών",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−3<−1",
+              "correct": true,
+              "reason": "Το −3 βρίσκεται αριστερά του −1, άρα −3<−1."
+            },
+            {
+              "choice": "−2>1",
+              "correct": false,
+              "reason": "Το −2 είναι μικρότερο από τον θετικό αριθμό 1."
+            },
+            {
+              "choice": "0<−1",
+              "correct": false,
+              "reason": "Το 0 είναι μεγαλύτερο από το −1."
+            },
+            {
+              "choice": "4<2",
+              "correct": false,
+              "reason": "Το 4 είναι μεγαλύτερο από το 2."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-09",
+      "legacy_index": 9,
+      "expected_current": "88791ecd-f7d5-516c-b804-80025cd6195b",
+      "payload": {
+        "question": "Ποια συνθήκη περιγράφει το διάστημα (−∞,3);",
+        "choices": [
+          "x<3",
+          "x≤3",
+          "x>3",
+          "x≥3"
+        ],
+        "answer": "x<3",
+        "difficulty": "easy",
+        "hint": "Το πεπερασμένο άκρο 3 είναι ανοικτό και η ημιευθεία εκτείνεται προς τα αριστερά.",
+        "solution": "Το (−∞,3) περιλαμβάνει ακριβώς τους πραγματικούς x<3, όχι το 3.",
+        "skill": "Ανοικτή άνω ημιευθεία",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x<3",
+              "correct": true,
+              "reason": "Το (−∞,3) περιλαμβάνει ακριβώς τους πραγματικούς x<3, όχι το 3."
+            },
+            {
+              "choice": "x≤3",
+              "correct": false,
+              "reason": "Το 3 δεν περιλαμβάνεται."
+            },
+            {
+              "choice": "x>3",
+              "correct": false,
+              "reason": "Η κατεύθυνση του διαστήματος είναι προς μικρότερους αριθμούς."
+            },
+            {
+              "choice": "x≥3",
+              "correct": false,
+              "reason": "Η σχέση έχει και λάθος κατεύθυνση και περιλαμβάνει λάθος άκρο."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-10",
+      "legacy_index": 10,
+      "expected_current": "bb7d0d97-ba89-59af-b62c-72419b9c9064",
+      "payload": {
+        "question": "Ποια συνθήκη περιγράφει το διάστημα [2,+∞);",
+        "choices": [
+          "x≥2",
+          "x>2",
+          "x<2",
+          "x≤2"
+        ],
+        "answer": "x≥2",
+        "difficulty": "easy",
+        "hint": "Η αγκύλη στο 2 το περιλαμβάνει και η ημιευθεία εκτείνεται δεξιά.",
+        "solution": "Το [2,+∞) είναι το σύνολο όλων των πραγματικών x≥2. Το +∞ δεν είναι πραγματικό άκρο που περιλαμβάνεται.",
+        "skill": "Κλειστή κάτω ημιευθεία",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x≥2",
+              "correct": true,
+              "reason": "Το [2,+∞) είναι το σύνολο όλων των πραγματικών x≥2. Το +∞ δεν είναι πραγματικό άκρο που περιλαμβάνεται."
+            },
+            {
+              "choice": "x>2",
+              "correct": false,
+              "reason": "Η αυστηρή σχέση θα απέκλειε το 2."
+            },
+            {
+              "choice": "x<2",
+              "correct": false,
+              "reason": "Η ημιευθεία εκτείνεται προς μεγαλύτερες τιμές."
+            },
+            {
+              "choice": "x≤2",
+              "correct": false,
+              "reason": "Η κατεύθυνση είναι αντίθετη από τη δοσμένη ημιευθεία."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-11",
+      "legacy_index": 11,
+      "expected_current": "390d3fa0-a287-51c8-9f78-852cb646d1b0",
+      "payload": {
+        "question": "Αν 3<x<7, ποιο διάστημα εκφράζει ακριβώς το σύνολο των επιτρεπτών τιμών του x;",
+        "choices": [
+          "(3,7)",
+          "[3,7]",
+          "(−∞,3)",
+          "(7,+∞)"
+        ],
+        "answer": "(3,7)",
+        "difficulty": "medium",
+        "hint": "Και οι δύο ανισότητες είναι αυστηρές.",
+        "solution": "Η συνθήκη γράφεται x∈(3,7), με ανοικτά τα δύο άκρα.",
+        "skill": "Διπλή αυστηρή ανισότητα σε διάστημα",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(3,7)",
+              "correct": true,
+              "reason": "Η συνθήκη γράφεται x∈(3,7), με ανοικτά τα δύο άκρα."
+            },
+            {
+              "choice": "[3,7]",
+              "correct": false,
+              "reason": "Οι αγκύλες θα πρόσθεταν τα 3 και 7."
+            },
+            {
+              "choice": "(−∞,3)",
+              "correct": false,
+              "reason": "Η σχέση x<3 αντιφάσκει με το δοσμένο 3<x."
+            },
+            {
+              "choice": "(7,+∞)",
+              "correct": false,
+              "reason": "Η σχέση x>7 αντιφάσκει με το δοσμένο x<7."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-12",
+      "legacy_index": 12,
+      "expected_current": "fc0d62db-ed97-5143-b789-4d7ec780e859",
+      "payload": {
+        "question": "Αν 2≤x<5, ποιο διάστημα εκφράζει ακριβώς το σύνολο των επιτρεπτών τιμών του x;",
+        "choices": [
+          "[2,5)",
+          "(2,5)",
+          "(2,5]",
+          "[2,5]"
+        ],
+        "answer": "[2,5)",
+        "difficulty": "medium",
+        "hint": "Το 2 περιλαμβάνεται, ενώ το 5 αποκλείεται.",
+        "solution": "Η συνθήκη γράφεται x∈[2,5). Χρειάζεται αγκύλη αριστερά και παρένθεση δεξιά.",
+        "skill": "Μικτό διάστημα από ανισότητες",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "[2,5)",
+              "correct": true,
+              "reason": "Η συνθήκη γράφεται x∈[2,5). Χρειάζεται αγκύλη αριστερά και παρένθεση δεξιά."
+            },
+            {
+              "choice": "(2,5)",
+              "correct": false,
+              "reason": "Το 2 επιτρέπεται και δεν πρέπει να αποκλειστεί."
+            },
+            {
+              "choice": "(2,5]",
+              "correct": false,
+              "reason": "Αντιστρέφει και τις δύο συμβάσεις των άκρων."
+            },
+            {
+              "choice": "[2,5]",
+              "correct": false,
+              "reason": "Το 5 δεν περιλαμβάνεται στην αρχική σχέση."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-13",
+      "legacy_index": 13,
+      "expected_current": "27312aae-762e-5906-a0e0-000e13b6b9dc",
+      "payload": {
+        "question": "Αν α<β, ποια σχέση προκύπτει αφαιρώντας 3 και από τα δύο μέλη;",
+        "choices": [
+          "α−3<β−3",
+          "α−3>β−3",
+          "α−3=β−3",
+          "Δεν προκύπτει καμία σχέση"
+        ],
+        "answer": "α−3<β−3",
+        "difficulty": "medium",
+        "hint": "Η αφαίρεση είναι πρόσθεση του ίδιου αρνητικού αριθμού.",
+        "solution": "Προσθέτοντας −3 και στα δύο μέλη διατηρούμε τη φορά: α−3<β−3.",
+        "skill": "Αφαίρεση ίδιου αριθμού από ανισότητα",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α−3<β−3",
+              "correct": true,
+              "reason": "Προσθέτοντας −3 και στα δύο μέλη διατηρούμε τη φορά: α−3<β−3."
+            },
+            {
+              "choice": "α−3>β−3",
+              "correct": false,
+              "reason": "Η αφαίρεση δεν είναι πολλαπλασιασμός με αρνητικό για να αντιστρέψει τη φορά."
+            },
+            {
+              "choice": "α−3=β−3",
+              "correct": false,
+              "reason": "Η αυστηρή ανισότητα δεν γίνεται ισότητα."
+            },
+            {
+              "choice": "Δεν προκύπτει καμία σχέση",
+              "correct": false,
+              "reason": "Η ίδια πρόσθεση στα δύο μέλη καθορίζει τη σχέση."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-14",
+      "legacy_index": 14,
+      "expected_current": "81684dc2-8637-5a74-b2dd-a73b20178135",
+      "payload": {
+        "question": "Αν −2<x<4, ποια σχέση για το x+3 προκύπτει προσθέτοντας 3 σε όλα τα μέλη;",
+        "choices": [
+          "1<x+3<7",
+          "1<x<7",
+          "−5<x+3<1",
+          "−2<x+3<7"
+        ],
+        "answer": "1<x+3<7",
+        "difficulty": "medium",
+        "hint": "Η πράξη γίνεται και στα τρία μέλη, μαζί με το μεσαίο x.",
+        "solution": "−2+3<x+3<4+3, άρα 1<x+3<7. Το μεσαίο μέλος είναι x+3 και δεν παραμένει x.",
+        "skill": "Μεταφορά ολόκληρης διπλής ανισότητας με πρόσθεση",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "1<x+3<7",
+              "correct": true,
+              "reason": "−2+3<x+3<4+3, άρα 1<x+3<7. Το μεσαίο μέλος είναι x+3 και δεν παραμένει x."
+            },
+            {
+              "choice": "1<x<7",
+              "correct": false,
+              "reason": "Η μεταβλητή έκφραση πρέπει επίσης να αυξηθεί κατά 3."
+            },
+            {
+              "choice": "−5<x+3<1",
+              "correct": false,
+              "reason": "Τα άκρα αυτά αντιστοιχούν σε αφαίρεση 3."
+            },
+            {
+              "choice": "−2<x+3<7",
+              "correct": false,
+              "reason": "Το αριστερό άκρο πρέπει επίσης να αυξηθεί κατά 3."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "-2+3",
+            "=",
+            "1"
+          ],
+          [
+            "4+3",
+            "=",
+            "7"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-15",
+      "legacy_index": 15,
+      "expected_current": "088aefd4-b320-53f0-af32-7e4bfd7e8a3e",
+      "payload": {
+        "question": "Αν 1<x<5, ποια σχέση προκύπτει πολλαπλασιάζοντας όλα τα μέλη με 2;",
+        "choices": [
+          "2<2x<10",
+          "2<x<10",
+          "10<2x<2",
+          "2x<10<2"
+        ],
+        "answer": "2<2x<10",
+        "difficulty": "medium",
+        "hint": "Ο θετικός πολλαπλασιαστής διατηρεί τη φορά και αλλάζει και το μεσαίο μέλος.",
+        "solution": "2×1<2x<2×5, άρα 2<2x<10.",
+        "skill": "Θετική κλιμάκωση διπλής ανισότητας",
+        "objective_ids": [
+          "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2<2x<10",
+              "correct": true,
+              "reason": "2×1<2x<2×5, άρα 2<2x<10."
+            },
+            {
+              "choice": "2<x<10",
+              "correct": false,
+              "reason": "Το x πρέπει να πολλαπλασιαστεί και αυτό με το 2."
+            },
+            {
+              "choice": "10<2x<2",
+              "correct": false,
+              "reason": "Ο θετικός πολλαπλασιαστής δεν αντιστρέφει τη φορά."
+            },
+            {
+              "choice": "2x<10<2",
+              "correct": false,
+              "reason": "Η σχέση 10<2 είναι ψευδής."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "1*2",
+            "=",
+            "2"
+          ],
+          [
+            "5*2",
+            "=",
+            "10"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-16",
+      "legacy_index": 16,
+      "expected_current": "9bc0c837-b20d-5043-8513-9a34f1804587",
+      "payload": {
+        "question": "Αν 1<x<5, ποια είναι η ισοδύναμη διπλή ανισότητα για το −x, με αύξουσα σειρά ορίων;",
+        "choices": [
+          "−5<−x<−1",
+          "−1<−x<−5",
+          "−5>−x>−1",
+          "−5≤−x≤−1"
+        ],
+        "answer": "−5<−x<−1",
+        "difficulty": "medium",
+        "hint": "Με το −1 αλλάζει η φορά και μετά γράφουμε πρώτα το μικρότερο όριο.",
+        "solution": "Προκύπτει −1>−x>−5, που σε αύξουσα σειρά είναι −5<−x<−1. Τα άκρα παραμένουν ανοικτά.",
+        "skill": "Αρνητική κλιμάκωση χωρίς ισοδύναμες σωστές επιλογές",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−5<−x<−1",
+              "correct": true,
+              "reason": "Προκύπτει −1>−x>−5, που σε αύξουσα σειρά είναι −5<−x<−1. Τα άκρα παραμένουν ανοικτά."
+            },
+            {
+              "choice": "−1<−x<−5",
+              "correct": false,
+              "reason": "Η ακολουθία ορίων δεν είναι δυνατή: −1 δεν είναι μικρότερο από −5."
+            },
+            {
+              "choice": "−5>−x>−1",
+              "correct": false,
+              "reason": "Αντιστρέφει εσφαλμένα την αύξουσα σχέση."
+            },
+            {
+              "choice": "−5≤−x≤−1",
+              "correct": false,
+              "reason": "Προσθέτει τα άκρα, ενώ οι αρχικές ανισότητες είναι αυστηρές."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "-5",
+            "<",
+            "-1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-17",
+      "legacy_index": 17,
+      "expected_current": "575d7b58-9c68-5cad-ac75-2c010c641085",
+      "payload": {
+        "question": "Ποια συνθήκη αντιστοιχεί ακριβώς στο x∈[1,3);",
+        "choices": [
+          "1≤x<3",
+          "1<x<3",
+          "1<x≤3",
+          "1≤x≤3"
+        ],
+        "answer": "1≤x<3",
+        "difficulty": "medium",
+        "hint": "Διάβασε ανεξάρτητα την αγκύλη αριστερά και την παρένθεση δεξιά.",
+        "solution": "Η αγκύλη περιλαμβάνει το 1 και η παρένθεση αποκλείει το 3, άρα 1≤x<3.",
+        "skill": "Ανάγνωση άκρων συγκεκριμένου διαστήματος",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "1≤x<3",
+              "correct": true,
+              "reason": "Η αγκύλη περιλαμβάνει το 1 και η παρένθεση αποκλείει το 3, άρα 1≤x<3."
+            },
+            {
+              "choice": "1<x<3",
+              "correct": false,
+              "reason": "Αποκλείει λανθασμένα το 1."
+            },
+            {
+              "choice": "1<x≤3",
+              "correct": false,
+              "reason": "Αντιστρέφει ποιο άκρο περιλαμβάνεται."
+            },
+            {
+              "choice": "1≤x≤3",
+              "correct": false,
+              "reason": "Περιλαμβάνει λανθασμένα το 3."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-18",
+      "legacy_index": 18,
+      "expected_current": "8c66689a-ed9c-5e41-a6ac-386ad96e3bdb",
+      "payload": {
+        "question": "Πώς γράφεται ως διάστημα το σύνολο των πραγματικών x>2;",
+        "choices": [
+          "(2,+∞)",
+          "[2,+∞)",
+          "(−∞,2)",
+          "(−∞,2]"
+        ],
+        "answer": "(2,+∞)",
+        "difficulty": "medium",
+        "hint": "Η αυστηρή κάτω φραγή αποκλείει το 2.",
+        "solution": "Η συνθήκη x>2 γράφεται x∈(2,+∞). Το άπειρο γράφεται πάντοτε με παρένθεση.",
+        "skill": "Αυστηρή κάτω φραγή σε διάστημα",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(2,+∞)",
+              "correct": true,
+              "reason": "Η συνθήκη x>2 γράφεται x∈(2,+∞). Το άπειρο γράφεται πάντοτε με παρένθεση."
+            },
+            {
+              "choice": "[2,+∞)",
+              "correct": false,
+              "reason": "Η αγκύλη θα πρόσθετε το 2."
+            },
+            {
+              "choice": "(−∞,2)",
+              "correct": false,
+              "reason": "Η ημιευθεία πρέπει να εκτείνεται προς μεγαλύτερους αριθμούς."
+            },
+            {
+              "choice": "(−∞,2]",
+              "correct": false,
+              "reason": "Η επιλογή έχει αντίθετη κατεύθυνση και περιλαμβάνει το 2."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-19",
+      "legacy_index": 19,
+      "expected_current": "1633b8d9-657e-5c43-b005-736d08bb2eb6",
+      "payload": {
+        "question": "Πώς γράφεται ως διάστημα το σύνολο των πραγματικών x≤−1;",
+        "choices": [
+          "(−∞,−1]",
+          "(−∞,−1)",
+          "[−1,+∞)",
+          "(−1,+∞)"
+        ],
+        "answer": "(−∞,−1]",
+        "difficulty": "medium",
+        "hint": "Το −1 επιτρέπεται και οι υπόλοιποι αριθμοί βρίσκονται αριστερά του.",
+        "solution": "Το σύνολο είναι (−∞,−1], με αγκύλη στο πεπερασμένο άκρο.",
+        "skill": "Μη αυστηρή άνω φραγή σε διάστημα",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(−∞,−1]",
+              "correct": true,
+              "reason": "Το σύνολο είναι (−∞,−1], με αγκύλη στο πεπερασμένο άκρο."
+            },
+            {
+              "choice": "(−∞,−1)",
+              "correct": false,
+              "reason": "Αποκλείει λανθασμένα το −1."
+            },
+            {
+              "choice": "[−1,+∞)",
+              "correct": false,
+              "reason": "Περιγράφει αριθμούς μεγαλύτερους ή ίσους του −1."
+            },
+            {
+              "choice": "(−1,+∞)",
+              "correct": false,
+              "reason": "Περιγράφει αριθμούς αυστηρά μεγαλύτερους του −1."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-20",
+      "legacy_index": 20,
+      "expected_current": "e922c2d1-41cc-514c-a2b0-f0b65827701a",
+      "payload": {
+        "question": "Αν α<β<γ, ποια σχέση ισχύει υποχρεωτικά;",
+        "choices": [
+          "α<γ",
+          "γ<α",
+          "α=β",
+          "β<γ<α"
+        ],
+        "answer": "α<γ",
+        "difficulty": "medium",
+        "hint": "Εφάρμοσε τη μεταβατικότητα της διάταξης.",
+        "solution": "Από α<β και β<γ προκύπτει α<γ.",
+        "skill": "Μεταβατικότητα αυστηρής διάταξης",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α<γ",
+              "correct": true,
+              "reason": "Από α<β και β<γ προκύπτει α<γ."
+            },
+            {
+              "choice": "γ<α",
+              "correct": false,
+              "reason": "Η σχέση είναι αντίθετη από τη μεταβατικότητα."
+            },
+            {
+              "choice": "α=β",
+              "correct": false,
+              "reason": "Αντιφάσκει με το δοσμένο α<β."
+            },
+            {
+              "choice": "β<γ<α",
+              "correct": false,
+              "reason": "Το τελευταίο γ<α αντιφάσκει με τα αρχικά δεδομένα."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-21",
+      "legacy_index": 21,
+      "expected_current": "d9533ddf-0cef-5afc-a8e3-372cea627986",
+      "payload": {
+        "question": "Αν −1<x<2, ποια είναι η ακριβής περιοχή τιμών του 2x−3;",
+        "choices": [
+          "(−5,1)",
+          "(−1,4)",
+          "(−3,1)",
+          "(1,5)"
+        ],
+        "answer": "(−5,1)",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασίασε με 2 και έπειτα αφαίρεσε 3 από όλα τα μέλη.",
+        "solution": "−2<2x<4, άρα −5<2x−3<1. Το ζητούμενο διάστημα είναι (−5,1).",
+        "skill": "Σύνθεση θετικής κλιμάκωσης και μεταφοράς",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(−5,1)",
+              "correct": true,
+              "reason": "−2<2x<4, άρα −5<2x−3<1. Το ζητούμενο διάστημα είναι (−5,1)."
+            },
+            {
+              "choice": "(−1,4)",
+              "correct": false,
+              "reason": "Τα άκρα δεν προκύπτουν από την ίδια πράξη."
+            },
+            {
+              "choice": "(−3,1)",
+              "correct": false,
+              "reason": "Το αριστερό άκρο προκύπτει από 2×(−1)−3=−5."
+            },
+            {
+              "choice": "(1,5)",
+              "correct": false,
+              "reason": "Η παράσταση μπορεί να είναι αρνητική και το άνω άκρο είναι 1."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "2*(-1)-3",
+            "=",
+            "-5"
+          ],
+          [
+            "2*2-3",
+            "=",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-22",
+      "legacy_index": 22,
+      "expected_current": "cb8ac978-fdad-5816-ae30-e2dca2b2d548",
+      "payload": {
+        "question": "Αν 2<α<5, ποια σχέση ισχύει για το α−4;",
+        "choices": [
+          "−2<α−4<1",
+          "−1<α−4<2",
+          "2<α−4<5",
+          "−5<α−4<−2"
+        ],
+        "answer": "−2<α−4<1",
+        "difficulty": "hard",
+        "hint": "Αφαίρεσε 4 από κάθε μέλος της διπλής ανισότητας.",
+        "solution": "2−4<α−4<5−4, άρα −2<α−4<1.",
+        "skill": "Μεταφορά διαστήματος προς τα αριστερά",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−2<α−4<1",
+              "correct": true,
+              "reason": "2−4<α−4<5−4, άρα −2<α−4<1."
+            },
+            {
+              "choice": "−1<α−4<2",
+              "correct": false,
+              "reason": "Η αφαίρεση 4 δίνει άκρα −2 και 1."
+            },
+            {
+              "choice": "2<α−4<5",
+              "correct": false,
+              "reason": "Τα άκρα πρέπει επίσης να μειωθούν κατά 4."
+            },
+            {
+              "choice": "−5<α−4<−2",
+              "correct": false,
+              "reason": "Τα άκρα αυτά δεν αντιστοιχούν στην αφαίρεση του 4."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-23",
+      "legacy_index": 23,
+      "expected_current": "cc60eb25-70d7-5945-9f16-299bd782e28e",
+      "payload": {
+        "question": "Αν −3<x≤1, ποια είναι η ακριβής περιοχή τιμών του x+2;",
+        "choices": [
+          "(−1,3]",
+          "[−1,3)",
+          "(−1,3)",
+          "[−1,3]"
+        ],
+        "answer": "(−1,3]",
+        "difficulty": "hard",
+        "hint": "Η πρόσθεση διατηρεί ποια άκρα είναι ανοικτά και ποια κλειστά.",
+        "solution": "−1<x+2≤3, άρα x+2∈(−1,3].",
+        "skill": "Μεταφορά μικτού διαστήματος",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(−1,3]",
+              "correct": true,
+              "reason": "−1<x+2≤3, άρα x+2∈(−1,3]."
+            },
+            {
+              "choice": "[−1,3)",
+              "correct": false,
+              "reason": "Αντιστρέφει τις συμβάσεις των δύο άκρων."
+            },
+            {
+              "choice": "(−1,3)",
+              "correct": false,
+              "reason": "Το δεξί άκρο πρέπει να περιλαμβάνεται."
+            },
+            {
+              "choice": "[−1,3]",
+              "correct": false,
+              "reason": "Το αριστερό άκρο πρέπει να αποκλείεται."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "-3+2",
+            "=",
+            "-1"
+          ],
+          [
+            "1+2",
+            "=",
+            "3"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-24",
+      "legacy_index": 24,
+      "expected_current": "a2e0a39f-8a6c-599e-9b64-d1443903f8e1",
+      "payload": {
+        "question": "Για πραγματικούς α και β, πότε ισχύει α²+β²=0;",
+        "choices": [
+          "Όταν α=0 και β=0",
+          "Όταν α+β=0 και αυτό αρκεί",
+          "Όταν μόνο ένας από τους δύο είναι 0",
+          "Όταν α=β, ανεξάρτητα από την τιμή τους"
+        ],
+        "answer": "Όταν α=0 και β=0",
+        "difficulty": "hard",
+        "hint": "Κάθε τετράγωνο πραγματικού είναι μη αρνητικό.",
+        "solution": "Για να είναι μηδέν το άθροισμα των δύο μη αρνητικών τετραγώνων πρέπει να μηδενίζονται και τα δύο. Άρα α=β=0.",
+        "skill": "Μηδενικό άθροισμα τετραγώνων πραγματικών",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όταν α=0 και β=0",
+              "correct": true,
+              "reason": "Για να είναι μηδέν το άθροισμα των δύο μη αρνητικών τετραγώνων πρέπει να μηδενίζονται και τα δύο. Άρα α=β=0."
+            },
+            {
+              "choice": "Όταν α+β=0 και αυτό αρκεί",
+              "correct": false,
+              "reason": "Οι α=1, β=−1 έχουν άθροισμα 0 αλλά άθροισμα τετραγώνων 2."
+            },
+            {
+              "choice": "Όταν μόνο ένας από τους δύο είναι 0",
+              "correct": false,
+              "reason": "Ο άλλος μη μηδενικός αριθμός θα είχε θετικό τετράγωνο."
+            },
+            {
+              "choice": "Όταν α=β, ανεξάρτητα από την τιμή τους",
+              "correct": false,
+              "reason": "Για α=β=1 το άθροισμα τετραγώνων είναι 2."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4.",
+        "checks": [
+          [
+            "1**2+(-1)**2",
+            "=",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-25",
+      "legacy_index": 25,
+      "expected_current": "fc8c7bda-b49f-5d77-844e-f415a4305e37",
+      "payload": {
+        "question": "Αν 0<α<β, ποια σχέση ισχύει;",
+        "choices": [
+          "α²<β²",
+          "α²>β²",
+          "α²=β²",
+          "α²<0"
+        ],
+        "answer": "α²<β²",
+        "difficulty": "hard",
+        "hint": "Η θετικότητα είναι απαραίτητη για αυτή την εφαρμογή τετραγωνίσματος.",
+        "solution": "Για θετικούς αριθμούς η αύξηση του αριθμού συνεπάγεται αύξηση του τετραγώνου του, άρα α²<β².",
+        "skill": "Τετραγωνισμός με θετικές προϋποθέσεις",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "α²<β²",
+              "correct": true,
+              "reason": "Για θετικούς αριθμούς η αύξηση του αριθμού συνεπάγεται αύξηση του τετραγώνου του, άρα α²<β²."
+            },
+            {
+              "choice": "α²>β²",
+              "correct": false,
+              "reason": "Η φορά δεν αντιστρέφεται για τους δοσμένους θετικούς."
+            },
+            {
+              "choice": "α²=β²",
+              "correct": false,
+              "reason": "Διαφορετικοί θετικοί αριθμοί έχουν διαφορετικά τετράγωνα."
+            },
+            {
+              "choice": "α²<0",
+              "correct": false,
+              "reason": "Το τετράγωνο πραγματικού δεν είναι αρνητικό."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-26",
+      "legacy_index": 26,
+      "expected_current": "777caf13-121b-5c1e-9f31-2779d9612ac3",
+      "payload": {
+        "question": "Αν α<β<0, ποια σχέση ισχύει για τους αντίθετούς τους;",
+        "choices": [
+          "−α>−β",
+          "−α<−β",
+          "α=−β",
+          "−α=β"
+        ],
+        "answer": "−α>−β",
+        "difficulty": "hard",
+        "hint": "Ο πολλαπλασιασμός με −1 αλλάζει τη φορά.",
+        "solution": "Από α<β προκύπτει −α>−β. Και οι δύο αντίθετοι είναι θετικοί.",
+        "skill": "Σύγκριση αντίθετων αρνητικών αριθμών",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−α>−β",
+              "correct": true,
+              "reason": "Από α<β προκύπτει −α>−β. Και οι δύο αντίθετοι είναι θετικοί."
+            },
+            {
+              "choice": "−α<−β",
+              "correct": false,
+              "reason": "Παραλείπει την αντιστροφή της φοράς."
+            },
+            {
+              "choice": "α=−β",
+              "correct": false,
+              "reason": "Το α είναι αρνητικό και το −β θετικό."
+            },
+            {
+              "choice": "−α=β",
+              "correct": false,
+              "reason": "Το −α είναι θετικό και το β αρνητικό."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-27",
+      "legacy_index": 27,
+      "expected_current": "4ffb71f3-52f6-5a45-8b09-069453247967",
+      "payload": {
+        "question": "Ποια είναι η τομή των διαστημάτων (1,5) και [3,7];",
+        "choices": [
+          "[3,5)",
+          "(1,7)",
+          "(3,5]",
+          "[1,3]"
+        ],
+        "answer": "[3,5)",
+        "difficulty": "hard",
+        "hint": "Κράτησε τους αριθμούς που ανήκουν και στα δύο διαστήματα.",
+        "solution": "Το 3 ανήκει και στα δύο, το 5 αποκλείεται από το πρώτο. Η κοινή περιοχή είναι [3,5). Δεν πρόκειται για ένα μόνο κοινό σημείο.",
+        "skill": "Τομή διαστημάτων και ορθά άκρα",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "[3,5)",
+              "correct": true,
+              "reason": "Το 3 ανήκει και στα δύο, το 5 αποκλείεται από το πρώτο. Η κοινή περιοχή είναι [3,5). Δεν πρόκειται για ένα μόνο κοινό σημείο."
+            },
+            {
+              "choice": "(1,7)",
+              "correct": false,
+              "reason": "Η ένωση, όχι η τομή, εκτείνεται συνολικά προς αυτά τα όρια."
+            },
+            {
+              "choice": "(3,5]",
+              "correct": false,
+              "reason": "Αποκλείει λανθασμένα το 3 και περιλαμβάνει λανθασμένα το 5."
+            },
+            {
+              "choice": "[1,3]",
+              "correct": false,
+              "reason": "Οι αριθμοί μικρότεροι του 3 δεν ανήκουν στο δεύτερο διάστημα."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-28",
+      "legacy_index": 28,
+      "expected_current": "6e9ad023-056d-5430-86e1-f01fd7c5290e",
+      "payload": {
+        "question": "Αν x∈(−2,4), ποια είναι η ακριβής περιοχή τιμών του x+1;",
+        "choices": [
+          "(−1,5)",
+          "[−1,5]",
+          "(−3,3)",
+          "(1,5)"
+        ],
+        "answer": "(−1,5)",
+        "difficulty": "hard",
+        "hint": "Πρόσθεσε 1 και στα δύο ανοικτά άκρα.",
+        "solution": "−2<x<4 δίνει −1<x+1<5. Άρα x+1∈(−1,5), με τα άκρα ανοικτά.",
+        "skill": "Περιοχή τιμών μετατοπισμένης παράστασης",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(−1,5)",
+              "correct": true,
+              "reason": "−2<x<4 δίνει −1<x+1<5. Άρα x+1∈(−1,5), με τα άκρα ανοικτά."
+            },
+            {
+              "choice": "[−1,5]",
+              "correct": false,
+              "reason": "Η πρόσθεση δεν προσθέτει τα αποκλεισμένα άκρα."
+            },
+            {
+              "choice": "(−3,3)",
+              "correct": false,
+              "reason": "Τα άκρα αυτά προκύπτουν από αφαίρεση 1."
+            },
+            {
+              "choice": "(1,5)",
+              "correct": false,
+              "reason": "Το κάτω άκρο είναι −1 και όχι 1."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-29",
+      "legacy_index": 29,
+      "expected_current": "e4f248aa-b820-5c31-bd15-fb19bde2ec1a",
+      "payload": {
+        "question": "Αν α<β και διαιρέσουμε τα δύο μέλη με τον ίδιο αρνητικό αριθμό, τι συμβαίνει στη φορά;",
+        "choices": [
+          "Αντιστρέφεται",
+          "Παραμένει ίδια",
+          "Γίνεται ισότητα",
+          "Η διαίρεση απαγορεύεται πάντα"
+        ],
+        "answer": "Αντιστρέφεται",
+        "difficulty": "hard",
+        "hint": "Η διαίρεση ισοδυναμεί με πολλαπλασιασμό με τον αρνητικό αντίστροφο.",
+        "solution": "Η διαίρεση με τον ίδιο μη μηδενικό αρνητικό αριθμό αντιστρέφει τη φορά της ανισότητας.",
+        "skill": "Αρνητικός διαιρέτης και φορά ανισότητας",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Αντιστρέφεται",
+              "correct": true,
+              "reason": "Η διαίρεση με τον ίδιο μη μηδενικό αρνητικό αριθμό αντιστρέφει τη φορά της ανισότητας."
+            },
+            {
+              "choice": "Παραμένει ίδια",
+              "correct": false,
+              "reason": "Αυτό ισχύει για θετικό και όχι για αρνητικό διαιρέτη."
+            },
+            {
+              "choice": "Γίνεται ισότητα",
+              "correct": false,
+              "reason": "Μη μηδενικός διαιρέτης δεν μετατρέπει αυστηρή ανισότητα σε ισότητα."
+            },
+            {
+              "choice": "Η διαίρεση απαγορεύεται πάντα",
+              "correct": false,
+              "reason": "Η διαίρεση επιτρέπεται, με την απαιτούμενη αλλαγή φοράς."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "legacy-30",
+      "legacy_index": 30,
+      "expected_current": "a6277aa2-5e49-57f6-9d68-8e20aebc3a9b",
+      "payload": {
+        "question": "Ποιο διάστημα αντιστοιχεί ακριβώς στη σχέση −4≤x<2;",
+        "choices": [
+          "[−4,2)",
+          "(−4,2)",
+          "(−4,2]",
+          "[−4,2]"
+        ],
+        "answer": "[−4,2)",
+        "difficulty": "hard",
+        "hint": "Το αριστερό άκρο επιτρέπεται, ενώ το δεξί αποκλείεται.",
+        "solution": "Η μη αυστηρή κάτω φραγή δίνει αγκύλη στο −4 και η αυστηρή άνω παρένθεση στο 2: [−4,2).",
+        "skill": "Σύνθεση αυστηρής και μη αυστηρής φραγής",
+        "objective_ids": [
+          "128959a6-e8ee-512f-87fa-aad27363143a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "[−4,2)",
+              "correct": true,
+              "reason": "Η μη αυστηρή κάτω φραγή δίνει αγκύλη στο −4 και η αυστηρή άνω παρένθεση στο 2: [−4,2)."
+            },
+            {
+              "choice": "(−4,2)",
+              "correct": false,
+              "reason": "Το −4 περιλαμβάνεται στη δοσμένη σχέση."
+            },
+            {
+              "choice": "(−4,2]",
+              "correct": false,
+              "reason": "Αντιστρέφει τις δύο συμβάσεις άκρων."
+            },
+            {
+              "choice": "[−4,2]",
+              "correct": false,
+              "reason": "Το 2 αποκλείεται από την αυστηρή άνω φραγή."
+            }
+          ]
+        },
+        "practice_note": "Εφαρμογές διάταξης και διαστημάτων · δεν ζητείται η εξαιρούμενη απόδειξη της ιδιότητας 4."
+      }
+    }
+  ]
+}

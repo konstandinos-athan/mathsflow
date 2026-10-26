@@ -2,9 +2,9 @@
   "catalog_units": 325,
   "units_with_quiz": 120,
   "active_questions": 1104,
-  "with_learning_support": 654,
-  "first_pass_complete_units": 105,
-  "remaining_units": 220,
+  "with_learning_support": 714,
+  "first_pass_complete_units": 107,
+  "remaining_units": 218,
   "educator_approved_units": 0,
   "units": [
     {
@@ -2008,10 +2008,17 @@
       "title": "Οι Πράξεις και οι Ιδιότητές τους",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "af974e06-9007-501f-902a-3a4175586e97",
+        "d9da7928-5031-50f6-bd09-e360e52efde7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2020,10 +2027,17 @@
       "title": "Διάταξη Πραγματικών Αριθμών",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "128959a6-e8ee-512f-87fa-aad27363143a",
+        "716e8246-7858-5dca-95c0-b1d8d02ea8e0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4644,16 +4658,6 @@
     }
   ],
   "legacy_quality_issues": [
-    {
-      "unit_id": "387b639d-0027-522b-adb9-a06e81f3f3b7",
-      "version_id": "25c47f5c-c60e-5ac7-9824-f1c2c73899cc",
-      "issue": "duplicate_prompt"
-    },
-    {
-      "unit_id": "387b639d-0027-522b-adb9-a06e81f3f3b7",
-      "version_id": "575d7b58-9c68-5cad-ac75-2c010c641085",
-      "issue": "duplicate_prompt"
-    },
     {
       "unit_id": "ee6441c9-8085-587c-b098-324f89c8f9db",
       "version_id": "8f73f293-81d1-522f-ab27-cdb7f599cc6f",

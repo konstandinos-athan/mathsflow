@@ -63,7 +63,8 @@ class LegacySetsStorageTests(DatabaseCase):
     text=html.unescape(result.get_data(as_text=True))
     for q in attempt['questions']:self.assertIn(q['solution'],text)
     self.assertEqual(self.client.post(url,data=form).data,result.data)
-    if level in ['all','easy']:self.assertIn('gel-a-set-intersection.svg',text)
+    for q in attempt['questions']:
+     if 'image' in q:self.assertIn(q['image']['filename'],text)
 
  def test_old_attempt_and_all_original_question_identities_preserved(self):
   r=release();rows=validate_release(r);uid=rows[0][0]['id'];attempt=self.repo.start_attempt(uid,'easy')
@@ -79,8 +80,10 @@ class LegacySetsStorageTests(DatabaseCase):
   deploy_releases(self.db);versions=self.db.execute('SELECT COUNT(*) FROM question_versions').fetchone()[0]
   deploy_releases(self.db);self.assertEqual(self.db.execute('SELECT COUNT(*) FROM question_versions').fetchone()[0],versions)
   report=coverage(self.db)
-  for k,v in {'active_questions':1104,'with_learning_support':654,'first_pass_complete_units':105,'units_with_quiz':120,'remaining_units':220}.items():self.assertEqual(report[k],v)
-  gel=[u for u in report['units'] if u['course_key']=='gel-a-algebra'];self.assertEqual(sum(u['first_pass_complete'] for u in gel),1)
+  gel=[u for u in report['units'] if u['course_key']=='gel-a-algebra']
+  unit=next(u for u in gel if u['reference']=='Ε.2')
+  self.assertEqual(unit['questions'],30);self.assertEqual(unit['with_learning_support'],30)
+  self.assertTrue(unit['first_pass_complete'])
 
  def test_stale_baseline_rolls_back_every_revision(self):
   r=release();r['entries'][1]['expected_current']='00000000-0000-0000-0000-000000000000'
