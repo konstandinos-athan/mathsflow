@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "All Gymnasium first batches plus 150 revised legacy questions in gel-a-algebra E.2, 2.1, 2.2, 2.3 and 2.4; assistant first pass, independent educational review pending.",
+  "scope": "Assistant first pass: Gymnasium banks, five GEL A algebra units and all 55 GEL A/B geometry units. Six questions per new geometry unit; independent educational review pending, not exhaustive mastery coverage.",
   "questions": [
     {
       "unit_id": "6dbf7e30-c0b3-54a2-803d-a1224ce32b11",
@@ -6192,6 +6192,2646 @@
       "question_id": "078d8c85-ce17-53a5-8269-c4ea2edcd28d",
       "version_id": "dc4cc5e8-e5b6-5558-9310-9b1974ed5da3",
       "content_hash": "80db58a2cd55d209ad22ce83989b6b5e8d0e7e72c044abaaef2845e0072e1bb8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "53da126a-f034-5c05-a584-e11686053033",
+      "reference": "2.16",
+      "question_id": "5a4dbd3e-940f-56ab-b5f1-42ea54a1527a",
+      "version_id": "39162580-9217-5134-9777-3994b6056269",
+      "content_hash": "1c900b74fbb4be6bf5ed30c48e8106dc789303851ba93ebc8482a90c496be6a2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "53da126a-f034-5c05-a584-e11686053033",
+      "reference": "2.16",
+      "question_id": "98c2aaec-554e-5465-93c0-bb4b03764279",
+      "version_id": "07b4335c-c3eb-54c9-9281-dc612d4ab200",
+      "content_hash": "64cf5eba9e00c915bfaf5fc2cd771e3be01256c1e5a170065bd9f6174065b96f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "53da126a-f034-5c05-a584-e11686053033",
+      "reference": "2.16",
+      "question_id": "3a1b2435-1a2c-5c1f-bb19-450fd13e3a18",
+      "version_id": "18dc6b5a-6922-5dd5-a223-3bc069d407fb",
+      "content_hash": "186c8622f6fcc717a2ed2dced3609a5156e29f1a9d54a4ec2968addd11abcb68",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "53da126a-f034-5c05-a584-e11686053033",
+      "reference": "2.16",
+      "question_id": "9ddc0d5b-88d5-54fd-b50f-911e082e1a6f",
+      "version_id": "a98bcd6a-1239-5cb6-ad52-9ba22451e1f5",
+      "content_hash": "be64a5e961b7f2eb72cf88c21e3b2a62a3994cd2e36adc92ae36ef4651b22fd6",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "53da126a-f034-5c05-a584-e11686053033",
+      "reference": "2.16",
+      "question_id": "02cb1117-4bf3-5c4d-9367-badb4cc6d59d",
+      "version_id": "3a27a8e4-3c68-5114-aeda-fbf7ddf963d1",
+      "content_hash": "6489da43f9577c8c553e346af752d5b9d767f7c8a8d45725721ead24c7e9776c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "53da126a-f034-5c05-a584-e11686053033",
+      "reference": "2.16",
+      "question_id": "4f4d1903-c5db-5ee3-affd-618b3faded9b",
+      "version_id": "3503ed36-770f-54b8-abdd-b66015e73e04",
+      "content_hash": "fa485782ca0ec40ad0333708b3ebfbcc28d808814f275cd93a9abbb65ad8e42e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a8ad641-d190-52c7-abda-ffdc4f67b402",
+      "reference": "3.1",
+      "question_id": "84ea1407-6d5e-54bd-8677-00eb26f155c6",
+      "version_id": "ad651407-cf2c-522c-9de8-9442e7b37d52",
+      "content_hash": "31edb4e7e982288a08c09b823d66a14a9085dea1aaa4c1524a3ae1f0aa4b91e0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a8ad641-d190-52c7-abda-ffdc4f67b402",
+      "reference": "3.1",
+      "question_id": "29034220-7b30-573e-a9a8-5c50a3e1d67f",
+      "version_id": "2602d39f-ff82-512a-b825-85aaf5ceb4f3",
+      "content_hash": "3c6a1cf367fabd3235bf8dc77bdf47d72387c82f6a92a9c2155b9e563ae0218f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a8ad641-d190-52c7-abda-ffdc4f67b402",
+      "reference": "3.1",
+      "question_id": "89564fa9-d692-5728-937a-c27341a603b8",
+      "version_id": "c4516661-4c9b-5c2d-bd82-7a7639e49d94",
+      "content_hash": "bff8008ba69e7d8c1a0b529f67510dbe77beec3db0bec19752cd65fc03876ec2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a8ad641-d190-52c7-abda-ffdc4f67b402",
+      "reference": "3.1",
+      "question_id": "d486138c-7d31-54a1-a9d1-8160e178cdc1",
+      "version_id": "30d6bce1-da97-5c83-b394-0a13555f736a",
+      "content_hash": "33eb1cd6a7a9be061513ee61b758865f0033da03e6e8cc6ecd86082a8c989e10",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a8ad641-d190-52c7-abda-ffdc4f67b402",
+      "reference": "3.1",
+      "question_id": "545576a3-b7f4-5d34-97f1-e966634afa37",
+      "version_id": "bd4c601d-ab79-5680-8bd8-a76e8d2aea60",
+      "content_hash": "4b9c3cd8e50c3c295a7e164cc8553f462b0a5f19edf25220503c1360414dc938",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a8ad641-d190-52c7-abda-ffdc4f67b402",
+      "reference": "3.1",
+      "question_id": "e28e8489-92ee-5f1b-b2e5-19c50ca2d990",
+      "version_id": "26f68ca0-bead-52e5-9864-bc23d1abe04f",
+      "content_hash": "b33c1c9a938775a023c35d8cab117907a39b2bf49d4c4ad77ce869775eef4361",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cd55acf6-5b4d-5c09-8e67-9e3fcd497a74",
+      "reference": "3.2",
+      "question_id": "f0bffe03-ea71-5b2f-a41f-b829c5ae5e45",
+      "version_id": "8ff0a0fb-b6f5-55dc-8bab-62237e759bef",
+      "content_hash": "67356a87dd105b53fa089d696d70ba26f7354557008805b44ef706dc49e52100",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cd55acf6-5b4d-5c09-8e67-9e3fcd497a74",
+      "reference": "3.2",
+      "question_id": "a28c8099-4034-5b24-a117-d9be96ec4b61",
+      "version_id": "541b29c1-cb44-562b-8712-039ea32dd2f8",
+      "content_hash": "1bf148a73b5466e718e301536c603e7342661510dcc6328095226bdae8898ac3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cd55acf6-5b4d-5c09-8e67-9e3fcd497a74",
+      "reference": "3.2",
+      "question_id": "7f6cc591-7636-5e42-9bc8-213e07aef8dc",
+      "version_id": "5f9cc12c-b7c2-5a5b-9af2-1e9abc2e4d3e",
+      "content_hash": "29b3c9e130a0ca2c23361c5951e28e5d55479a28d9b8eebd417792b34c930d6d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cd55acf6-5b4d-5c09-8e67-9e3fcd497a74",
+      "reference": "3.2",
+      "question_id": "759a7156-5e09-5f26-9efa-380b0316f070",
+      "version_id": "80e8e323-1eb4-5f35-ab04-b41a9047d90e",
+      "content_hash": "12f65561b583a76d3f1280fccb32b2d2e2e6593c0aa72d77dc819e7aa81a9283",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cd55acf6-5b4d-5c09-8e67-9e3fcd497a74",
+      "reference": "3.2",
+      "question_id": "89c254f2-91f6-5e66-88ce-b1e6e6d4b2f3",
+      "version_id": "063a9bb7-cd3d-5129-991f-63340333ecc8",
+      "content_hash": "67fc3c75c1a74353bb0183268375731508c77b2a79032d3074d76d4a73825ab1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cd55acf6-5b4d-5c09-8e67-9e3fcd497a74",
+      "reference": "3.2",
+      "question_id": "0d4704ae-6164-5df2-8523-eed8f10a5167",
+      "version_id": "a02f5500-60e9-57cf-9684-9d17db71757c",
+      "content_hash": "bad08a3fd416847d9efa87d61e8efe66ce6c945c77dad2058c0504c40dfaf9d9",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "aade833e-87d2-58e1-9ee2-4fc9d632373f",
+      "reference": "3.3",
+      "question_id": "f96156bf-8f21-55ea-9144-bc4b9c108dda",
+      "version_id": "a838cf30-12fb-5b48-9844-ed1f1b2862da",
+      "content_hash": "e0cb905f21bb14351896a5c0c5614708e802de97b33e86792a96bc010331ba1e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "aade833e-87d2-58e1-9ee2-4fc9d632373f",
+      "reference": "3.3",
+      "question_id": "411f4d66-44e2-558b-8f44-3ef8dc988ac4",
+      "version_id": "a0bc7bbc-05ab-5203-8523-02c61d4f0e20",
+      "content_hash": "aa3666c10f1c50d4bedfcd1b1593413cdf7bfa9fd0650bf46dfd0dc45553b5ec",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "aade833e-87d2-58e1-9ee2-4fc9d632373f",
+      "reference": "3.3",
+      "question_id": "f289037a-8dba-5de5-be2b-a5377f2c6592",
+      "version_id": "608baeb4-12fa-5ad5-aa97-f52648c0419f",
+      "content_hash": "aa954f3010854c67791e0040d62b5fa1539b61883798878092db917e9ccc8b61",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "aade833e-87d2-58e1-9ee2-4fc9d632373f",
+      "reference": "3.3",
+      "question_id": "3a44e12b-c034-5f1b-89c5-962e6a17c28a",
+      "version_id": "352f5b76-2451-5bf7-92a9-c663c587d8f5",
+      "content_hash": "2b3e3181a668488caaffea544abb69bc10fa2917ed240a75c6645b0224dc54e2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "aade833e-87d2-58e1-9ee2-4fc9d632373f",
+      "reference": "3.3",
+      "question_id": "951649be-d971-566e-8754-4c45263fd49e",
+      "version_id": "25ca3d08-b9c6-5403-85fa-967590957088",
+      "content_hash": "5b4d01d21fdde65b7ec330d04f915edcd961e03e1cbe17b3457504286f2c9f71",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "aade833e-87d2-58e1-9ee2-4fc9d632373f",
+      "reference": "3.3",
+      "question_id": "579e9e12-7988-52aa-9947-077ba8f82401",
+      "version_id": "a99e118c-aee1-5fc1-9247-9bcd08f19e5a",
+      "content_hash": "d4affef31ad9f887adea0d3f188181d87c7746615ff057eaed661adb716ab76a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fa849368-792e-5b8d-b187-c98c7ef92298",
+      "reference": "3.4",
+      "question_id": "f9b942b1-0314-5cbf-a4ae-f1d70b2073f5",
+      "version_id": "5fed6250-91e3-5327-99d3-7a4897d64c81",
+      "content_hash": "4989fc531c9e0f9d868a91d7a7a0eaa028c84537c75e0d1d57e6a890bcbe50ee",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fa849368-792e-5b8d-b187-c98c7ef92298",
+      "reference": "3.4",
+      "question_id": "1124b8cc-ba6c-5488-8f75-bf8797ce9372",
+      "version_id": "e0994cfb-b040-5d95-9ff6-f5e17460f728",
+      "content_hash": "77a3bfdb753e730b756525360040c6454a4e1697fce8c7bc8dd57cd20e86360a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fa849368-792e-5b8d-b187-c98c7ef92298",
+      "reference": "3.4",
+      "question_id": "489d4b51-de61-5c63-8099-7e26d6f7537d",
+      "version_id": "f7a50170-6841-5986-8d51-1fde9b8e7c53",
+      "content_hash": "ea3f2025e0e39ac53a55046e0e67ebe2cc0c0e929453f9cec71243f54b126bd6",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fa849368-792e-5b8d-b187-c98c7ef92298",
+      "reference": "3.4",
+      "question_id": "0048659c-6129-5afb-a96e-9df05887f2ee",
+      "version_id": "72c0776a-fbdf-5eab-8027-62a9e9f50679",
+      "content_hash": "ad92ef48739c53dc1bb01d23a44e9a3ebbec17df9265ad23ec33be4a4d540341",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fa849368-792e-5b8d-b187-c98c7ef92298",
+      "reference": "3.4",
+      "question_id": "7a30bd1f-5d33-5554-996c-8fb04fae8c1b",
+      "version_id": "e4535380-c18b-5eac-8b40-58e4cd905312",
+      "content_hash": "be0efb9204bca00f48a65ce759d6ee86d20379dbe6f6d68ab268aff3bbd27d78",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fa849368-792e-5b8d-b187-c98c7ef92298",
+      "reference": "3.4",
+      "question_id": "0f0dc2a6-5d69-5d45-9605-4d50cd8e9ef4",
+      "version_id": "52fa5d38-477f-5680-8b61-f8623789ffa2",
+      "content_hash": "b50a74b249fefe7c7daa4490e77b5d358642fe5e42ac47c4b9c304ac05147e5f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1892755e-8807-5179-ad38-480231863484",
+      "reference": "3.5",
+      "question_id": "fc3199df-01dc-519c-b7ce-41dc6f0d37c1",
+      "version_id": "77cd390d-7264-532a-b80e-0a3a0fccae93",
+      "content_hash": "bfbf6191c5977186166134520ef7503872cd559a8e2509f1cdb8a6c32ff1f590",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1892755e-8807-5179-ad38-480231863484",
+      "reference": "3.5",
+      "question_id": "c4319cfc-0141-583e-803c-0a5c7cde82a2",
+      "version_id": "90530583-d5eb-5674-982c-1831a920a58e",
+      "content_hash": "85304dacdcddf3822c292f816ab3ad628a9994502588c1b15373449198d15168",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1892755e-8807-5179-ad38-480231863484",
+      "reference": "3.5",
+      "question_id": "667fd2c9-7595-5ac6-bc33-d8cf5f006b45",
+      "version_id": "b17c6d4f-9545-5357-8277-c2c1cbed1bf1",
+      "content_hash": "5c85ab05b95b665d7c1d79ff42855a0010a562c4babe0d47536fc13a8d5c10e1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1892755e-8807-5179-ad38-480231863484",
+      "reference": "3.5",
+      "question_id": "c4b11f16-97cb-54c5-8a59-81b0bd519664",
+      "version_id": "38e5f403-b704-5013-a337-29955a56f7dc",
+      "content_hash": "b603570acc27fe981d12d4ddbaa1f9e63892f7be8ef8d1716eca5cf88d7cd683",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1892755e-8807-5179-ad38-480231863484",
+      "reference": "3.5",
+      "question_id": "4ee4b647-178a-5e99-8a94-b89b0193cb94",
+      "version_id": "611b2957-0295-5048-9640-7be586693eca",
+      "content_hash": "5f60ca5e98531cb50479980561febf85531e217753886c3536a0f4371842dd76",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1892755e-8807-5179-ad38-480231863484",
+      "reference": "3.5",
+      "question_id": "7bd77f1c-73ea-59d4-bba4-a920bf7fed1a",
+      "version_id": "a387f302-bdf7-5a40-ad6e-778feea62166",
+      "content_hash": "b7c5b51310525841d6ab5403df6de762aa45f02b58aa46284c0b9aa49ba14ac0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "26a4fa7a-2aa2-5b66-9c27-0d3bc436cf02",
+      "reference": "3.6",
+      "question_id": "f5fdbcbb-f13f-5b12-b2b0-fc3b2fefc1ba",
+      "version_id": "64e99701-ba99-5a6b-ac26-aac28714c3f5",
+      "content_hash": "3ebfbba0d664af0464530b8f672ec41421bbbdef3139fcc6056cb13661a81ada",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "26a4fa7a-2aa2-5b66-9c27-0d3bc436cf02",
+      "reference": "3.6",
+      "question_id": "8d06ddc6-f8e0-54f6-823a-6feca3acf18c",
+      "version_id": "a44eda81-83cd-587a-a63f-aed837f2ea98",
+      "content_hash": "5f8928fd1a346607e2218ab67e3a89b425587f8ea14376a10564564b2b7902d9",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "26a4fa7a-2aa2-5b66-9c27-0d3bc436cf02",
+      "reference": "3.6",
+      "question_id": "fbe05c62-e3b6-51c0-9318-840463250fb0",
+      "version_id": "5ae38d71-3952-5772-abb5-0d4dc89ebd91",
+      "content_hash": "23acbda60b5e41d766edc0fbf1ed5ae2517656b496e3cd6f838dd5d889bff2c1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "26a4fa7a-2aa2-5b66-9c27-0d3bc436cf02",
+      "reference": "3.6",
+      "question_id": "964da438-4218-585f-af7f-557a744cdfe8",
+      "version_id": "e0decf7d-0132-5878-a7c5-de8c56c3cf91",
+      "content_hash": "88ae0c2b3ea6ecf5264873d8bdac532b04867acad216936c7b314bb832436fcd",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "26a4fa7a-2aa2-5b66-9c27-0d3bc436cf02",
+      "reference": "3.6",
+      "question_id": "9774dd6d-bebd-5f4c-a5f2-fd8bd21016d8",
+      "version_id": "06ce0059-f936-50dd-be61-a620241a1ebb",
+      "content_hash": "9ad3d2ad13f77ae70c142cd965ac64c8684becf5b9256df4a2759ba272773f35",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "26a4fa7a-2aa2-5b66-9c27-0d3bc436cf02",
+      "reference": "3.6",
+      "question_id": "92d7bad6-32ef-5bae-ada3-f80dee806ccb",
+      "version_id": "a2ba6627-191c-5729-a7a2-d1252797a17e",
+      "content_hash": "70726d38e5abccb789570d8a36e2868670d109845269a9cc33d233a7942b1e7b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fb4d685f-6cfe-56b2-bf62-502203c069de",
+      "reference": "3.7",
+      "question_id": "efe6c237-5e22-5c4c-862f-4912684b3b7e",
+      "version_id": "26e1e5a8-a9ef-5fbd-a3b9-1652680d2e23",
+      "content_hash": "c060c1e340df1903b35477e69d0a02aea57e336befdd80a4b0c8758bb0de372e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fb4d685f-6cfe-56b2-bf62-502203c069de",
+      "reference": "3.7",
+      "question_id": "3c332f59-bace-55bd-82b4-91fa8f321a1f",
+      "version_id": "922987f4-b8ca-556b-bb5a-0781b5aef39e",
+      "content_hash": "dcb2c08fdd53e1e1f5ce90e6be2f31f834f8c52fbe8ac01b237c634a9fbbd376",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fb4d685f-6cfe-56b2-bf62-502203c069de",
+      "reference": "3.7",
+      "question_id": "51bc93d3-f087-58ed-8f82-cf466c5ea182",
+      "version_id": "2358abbd-ac8c-55a6-8611-f872a8caf790",
+      "content_hash": "8c7eb6e543e6169729abe7551a63c5c3e8d6ca28fb0d288231f37df1cbf6ecb1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fb4d685f-6cfe-56b2-bf62-502203c069de",
+      "reference": "3.7",
+      "question_id": "1f6990fa-52e6-5f13-bdf2-a6ca00149dcf",
+      "version_id": "8cce0790-f91a-56eb-ada1-0a63d304d310",
+      "content_hash": "7d45d969937dbfe2ccabbac7a8c4c8e904f4d80325439d63db2f53343d642573",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fb4d685f-6cfe-56b2-bf62-502203c069de",
+      "reference": "3.7",
+      "question_id": "ffcddfef-10d5-5638-a6f1-fcd2e2ea1bd4",
+      "version_id": "4dc6b455-543d-5121-9553-9799d5697b39",
+      "content_hash": "59d7ad60fe5852914d323b5b329d7bde081c5cf951e34cb4bf5d0263cd9a78da",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "fb4d685f-6cfe-56b2-bf62-502203c069de",
+      "reference": "3.7",
+      "question_id": "babc4547-97f1-507f-9ee9-d148cde3ff31",
+      "version_id": "39ced43d-3b6d-51ac-b7e7-b6ed2dc1b2ed",
+      "content_hash": "0e479d4d15e08b44d5d8649cc7528a57b5ab9c3d661f429fe8718e863bf76b66",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "56700008-45a0-5876-b8e9-3d1f5a0cf05a",
+      "reference": "3.10",
+      "question_id": "a19a0d41-4457-501f-8fa8-7d93ca371d94",
+      "version_id": "403228d0-3687-51dd-8799-12b5b0165a65",
+      "content_hash": "24ec1647208706803f2c6b5ff3b78800cada6645707c65eadafc1d3da9a993a1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "56700008-45a0-5876-b8e9-3d1f5a0cf05a",
+      "reference": "3.10",
+      "question_id": "da5f3c24-888d-5fc6-85d8-d379cffb9dd1",
+      "version_id": "2910eb90-d0d9-5a9b-b473-e1b88c079cff",
+      "content_hash": "4ea0a23cb5aad7fb40b7f42a89b42750b1063d5adf027043021f9c0cb66dfe29",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "56700008-45a0-5876-b8e9-3d1f5a0cf05a",
+      "reference": "3.10",
+      "question_id": "6a715af6-8a02-5001-82d6-981fd2c20257",
+      "version_id": "367cf35d-be98-5e42-8aa0-8418b11b0b7c",
+      "content_hash": "7ca279b5bd4cd42257c5c5017baf8c655a746dc9126f70f01a67af62e82d18fe",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "56700008-45a0-5876-b8e9-3d1f5a0cf05a",
+      "reference": "3.10",
+      "question_id": "69d7d6c1-3c56-5ae1-bce8-a1c02250a708",
+      "version_id": "cbeec0c9-c0de-5e26-b966-be2f7a018349",
+      "content_hash": "ff01377cbfcd4fb172e106b9861a162412d128eb9d124168328b4b0ea9a9b98b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "56700008-45a0-5876-b8e9-3d1f5a0cf05a",
+      "reference": "3.10",
+      "question_id": "2919de76-486b-5146-adaa-1b1ee82e861d",
+      "version_id": "c4aa281f-c451-5c4d-ae39-ec56e79785dd",
+      "content_hash": "c245c77048835d6a89c7e4d8a6b2ce8e897cc3a7cbc89a4a32df5d74ec07013d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "56700008-45a0-5876-b8e9-3d1f5a0cf05a",
+      "reference": "3.10",
+      "question_id": "20498192-efdf-5c6f-9ff2-6a267b1e2bd6",
+      "version_id": "cf72f1b8-21d9-58d5-8a2b-18140fce5aa0",
+      "content_hash": "a4eb346bba5f2205b34463b80b9752f80d5dd459acac10e37002eae7b853f472",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "7c3f7a75-e309-56c1-8045-1c2da2bbea97",
+      "reference": "3.11",
+      "question_id": "495029fe-ba1c-5041-a1f6-0ad62c93aae1",
+      "version_id": "ac7270a6-8b42-53a6-b943-9b37e47cfe45",
+      "content_hash": "f00cd6697d6efdcf3a4f1834760f3e49d39ce3be58a0a31cfe338e7aea0ed8b8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "7c3f7a75-e309-56c1-8045-1c2da2bbea97",
+      "reference": "3.11",
+      "question_id": "c798c993-3c9a-59c0-9819-e73dd4f9684b",
+      "version_id": "85a7d9be-0827-5627-b4cb-0c82c3528e9c",
+      "content_hash": "a766ec16061da9259ee1fa0c8ec7affeaf081adfbbe642fd317e743027bbb110",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "7c3f7a75-e309-56c1-8045-1c2da2bbea97",
+      "reference": "3.11",
+      "question_id": "255a6538-b2d9-583d-baac-56d4994d9549",
+      "version_id": "162e90dd-420f-58cb-b516-34892d7da456",
+      "content_hash": "beb8b8f9904ec06f50b9882509724d6384dd8891760c7eddd6d6176a82cccf11",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "7c3f7a75-e309-56c1-8045-1c2da2bbea97",
+      "reference": "3.11",
+      "question_id": "36b37713-3859-5dbb-ba79-985b1688b364",
+      "version_id": "43bcc5dd-1854-5994-88f1-10708c9cb713",
+      "content_hash": "8e9e70e2543e85e8026464b0a603f1206107f592227a2c300d8868058ffdd138",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "7c3f7a75-e309-56c1-8045-1c2da2bbea97",
+      "reference": "3.11",
+      "question_id": "d4878664-9123-5dec-a005-7d6ddefceff0",
+      "version_id": "5e8e166d-69be-572b-935b-0901492a9b52",
+      "content_hash": "772df30b06bc00881f81819e55a64ce5ce45bd97a6e149afbf7a59b9dfa84aa8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "7c3f7a75-e309-56c1-8045-1c2da2bbea97",
+      "reference": "3.11",
+      "question_id": "50e2ba45-ca87-530c-bb24-586044c55a33",
+      "version_id": "c11ce2bf-e5cb-5109-9233-2e6dd9642adf",
+      "content_hash": "5f3f7ec4930380805bde865c192132ead28f4cb8f4470b9e267d841b37382169",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "bcaa7446-48d0-50d6-9c07-58ba2f5a594c",
+      "reference": "3.12",
+      "question_id": "60efb8ce-5cc2-582c-9bce-1b724f2cdb2c",
+      "version_id": "0b49390b-a6d1-54a4-9a79-922cc6fbb1b9",
+      "content_hash": "c806b4897b8c6ddb2f6fce4a1c1b972332ea9952d369cf7d6da4648fe8c70307",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "bcaa7446-48d0-50d6-9c07-58ba2f5a594c",
+      "reference": "3.12",
+      "question_id": "1ffd571a-fe1d-5a8c-aeec-651a884847f9",
+      "version_id": "de1a8972-33fa-541f-b7e1-090ea7debd70",
+      "content_hash": "a76aa6d1a63cf3accac54e088bd4ce6b39cf313e13da108c824d9bbbbd2d6bca",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "bcaa7446-48d0-50d6-9c07-58ba2f5a594c",
+      "reference": "3.12",
+      "question_id": "9881a98c-4705-5302-848c-a0a7746bafdc",
+      "version_id": "b187310b-a040-5b09-9aa1-89f905e2cb9a",
+      "content_hash": "9de8354fb556816dbad4fcc45d832f4e9e8ad0a31f1bb7242146e5d26569351e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "bcaa7446-48d0-50d6-9c07-58ba2f5a594c",
+      "reference": "3.12",
+      "question_id": "4965dd06-04b8-5bdc-8397-4a0a8adfea5a",
+      "version_id": "d655e4a4-2f15-5907-83a1-e7164a3501d8",
+      "content_hash": "f1f6f4d1e41c0326a498480ff63fce76910d3d416ae7f284d8200fb97d5218fb",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "bcaa7446-48d0-50d6-9c07-58ba2f5a594c",
+      "reference": "3.12",
+      "question_id": "8896b133-e6c3-5591-833e-1e5daffd835d",
+      "version_id": "a421f3e7-03d8-5e80-a87a-1dcf6e7ed6d4",
+      "content_hash": "e978a26522a02980fec7d15daf3134c6d5d10fc84162ca943ca3ba814d1dfac6",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "bcaa7446-48d0-50d6-9c07-58ba2f5a594c",
+      "reference": "3.12",
+      "question_id": "c24f6bd2-d99a-5e47-a9c9-0053a2c74104",
+      "version_id": "99dc2b6f-31d6-5b3b-a760-0b23a83cb5fb",
+      "content_hash": "4f170d66e668019082c9fe7e901071a42ef422c851b75fc9b3315d534f1acbb0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cda7ea6b-95f6-56fb-b351-94b84d300b2a",
+      "reference": "3.14",
+      "question_id": "0d9e7e7a-eed3-5a44-843e-41375e447fd6",
+      "version_id": "4d1194b4-b3fa-5324-a366-284a26539c4b",
+      "content_hash": "aeb1ced95c7780c3e87d772da15607b94e96aa6381d3bc2917c2c0b77f26a270",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cda7ea6b-95f6-56fb-b351-94b84d300b2a",
+      "reference": "3.14",
+      "question_id": "3d13cd58-6ac0-57b5-9402-d2f9c6cf1822",
+      "version_id": "64109f9c-875a-5c98-bf52-2ad9cccf80c8",
+      "content_hash": "a32b4370cc1d1924b1e322497d03f57d4f9d7bf032ee85061278fcd63c4c87e0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cda7ea6b-95f6-56fb-b351-94b84d300b2a",
+      "reference": "3.14",
+      "question_id": "39cf26c0-790f-5f02-ab02-58bc60f0ea86",
+      "version_id": "ddb82c95-45e4-5c16-8aaa-c4b1cfa39565",
+      "content_hash": "fec274b58cb1905ce5655012986471b1571480ad8fcbf1df6d89e3f28b7bb9c7",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cda7ea6b-95f6-56fb-b351-94b84d300b2a",
+      "reference": "3.14",
+      "question_id": "0c2b3850-2324-5b4d-8015-8dc3bf7f7318",
+      "version_id": "c3098272-abcd-56c0-b088-77abb08f0801",
+      "content_hash": "47618681e2370671dba4d9ab92a5e3b769d722734da855190db48c882a296843",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cda7ea6b-95f6-56fb-b351-94b84d300b2a",
+      "reference": "3.14",
+      "question_id": "af223403-2aeb-5230-b8fd-303727f8b732",
+      "version_id": "7f5452ba-aca9-52f4-b276-49edd01750b9",
+      "content_hash": "da39d8c6b959549d0269d10d1db07dafe1d687ede36fe7f82fda98169e315860",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cda7ea6b-95f6-56fb-b351-94b84d300b2a",
+      "reference": "3.14",
+      "question_id": "46d7e648-368d-5b05-8d7a-d594a5de762e",
+      "version_id": "4537c481-6ac9-5804-ad1c-c16120a3a799",
+      "content_hash": "75c53a1cfd47806f639433ca4aaac16a878ad8d91ecfb57d4d970b74d0c627b1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cfe848a9-2dd4-5bf6-bcb6-6df6cf83f7df",
+      "reference": "3.15",
+      "question_id": "770360b5-fc2d-5b14-b099-f14a071d7632",
+      "version_id": "c3e442e6-e788-5821-bead-f99978390034",
+      "content_hash": "583547688e86a20f9580d3569008df70533b3c498875f33993a070d43fec42a2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cfe848a9-2dd4-5bf6-bcb6-6df6cf83f7df",
+      "reference": "3.15",
+      "question_id": "8cbf44f8-e81d-5640-b7e6-852392b4ba08",
+      "version_id": "aa8d560a-d2d0-5b0e-b2ef-7b187b1b0245",
+      "content_hash": "f1e179c190e1c4e874c0474054720a9d0697fae09b622d9876562a7f115bdb5d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cfe848a9-2dd4-5bf6-bcb6-6df6cf83f7df",
+      "reference": "3.15",
+      "question_id": "7b6ec273-f1c4-5a30-b7af-ac6e22b7cb0b",
+      "version_id": "7f5bc136-b8b9-5bec-9fb0-7c782bd2be9a",
+      "content_hash": "1f2614d2de57f38459a844d66c963135595a956d8cc3c3e3fb48a64853371047",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cfe848a9-2dd4-5bf6-bcb6-6df6cf83f7df",
+      "reference": "3.15",
+      "question_id": "029408dc-842f-5b14-afa5-33178bcecd53",
+      "version_id": "0753004d-a3f5-5bb6-a3d8-90727d299662",
+      "content_hash": "1251c8751ea57e60fda563bb33917d24158247432b0fa61961740ee8801b3e02",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cfe848a9-2dd4-5bf6-bcb6-6df6cf83f7df",
+      "reference": "3.15",
+      "question_id": "7e097a41-53e8-569d-b3c9-26900626b38b",
+      "version_id": "d8c286e6-d0a2-5946-8591-4d71dd01ef75",
+      "content_hash": "bbe1dadeae4ea3151acc2a094fc39a0d057f00d3a957945ada66f48c9151304f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cfe848a9-2dd4-5bf6-bcb6-6df6cf83f7df",
+      "reference": "3.15",
+      "question_id": "1842a2ca-ae69-57a0-8e07-0b2d8398c083",
+      "version_id": "1cb0735f-7b81-5f24-9d65-49a343fc2f6a",
+      "content_hash": "e76a91ac7b07ca10585ac692b98abe0ac05a744d2694224a3d491d9432f5521d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6d8cb8ee-dba8-5d7a-a220-66d4c3b92109",
+      "reference": "3.16",
+      "question_id": "9b033035-051e-5479-b894-3570b61a34c7",
+      "version_id": "5b4b9fca-3bde-5ba5-8643-1b2c421cf4cb",
+      "content_hash": "cb342cab39b1e7ca5b82cbf5a9a3306579df68288660d621dbe64db33ddb27b3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6d8cb8ee-dba8-5d7a-a220-66d4c3b92109",
+      "reference": "3.16",
+      "question_id": "13eef5ec-e4f7-5151-8b6e-b214786617d2",
+      "version_id": "7131c508-ef1f-51f9-a4f8-a8d87b9a7f56",
+      "content_hash": "8b39ab77361d01c6644c5abc05c37b6d863df315de3fddb570c60723b38b7bff",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6d8cb8ee-dba8-5d7a-a220-66d4c3b92109",
+      "reference": "3.16",
+      "question_id": "d32de956-d8e7-54ff-a365-6fe6ae2e6972",
+      "version_id": "302d1afc-bac9-5a17-bb91-822019a82cf2",
+      "content_hash": "8191800f0b1cc66cdbe1640c8817b54ac5a2f7d1b35bac9eac7168409a573556",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6d8cb8ee-dba8-5d7a-a220-66d4c3b92109",
+      "reference": "3.16",
+      "question_id": "fdd75f61-29cc-5ce6-9027-5c7ae01bfa0d",
+      "version_id": "de790fe9-c192-5593-9722-d25f03567c62",
+      "content_hash": "9f226ed8eab8e2f179fb9b6914adadaeab20e9e419b3c8004b1e46b949ed9491",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6d8cb8ee-dba8-5d7a-a220-66d4c3b92109",
+      "reference": "3.16",
+      "question_id": "547efb2f-4c4e-5752-8f97-6ad358b90b1e",
+      "version_id": "ff8e4bf2-691b-576f-b547-07ca2382eea8",
+      "content_hash": "16045cf07bb5713d353be9644f5b299a8ec2d7ab10b8511fc27224244cdca6d2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6d8cb8ee-dba8-5d7a-a220-66d4c3b92109",
+      "reference": "3.16",
+      "question_id": "e4fa63af-310f-5218-afe4-d78ae23d7bbc",
+      "version_id": "7c1358f3-af69-52c5-aae7-d3a2cbf09ab6",
+      "content_hash": "fcc7be3b93bb41022879c4980df78783f63935ab34b7b647fadc6dc952a84500",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1c4ac63e-8e02-5d9c-b914-6fe9ca78c4d0",
+      "reference": "3.17",
+      "question_id": "76e2132d-f2b2-5d1b-9a0b-1e954096b884",
+      "version_id": "8ca88eef-caf1-5b01-9570-69c2db8a63fa",
+      "content_hash": "b855de05166ad2b6d32dcf0f42ca9367cceed9f7685e5baeb79b7328e2069a5b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1c4ac63e-8e02-5d9c-b914-6fe9ca78c4d0",
+      "reference": "3.17",
+      "question_id": "ec473cc8-f4cd-5d8a-8572-7d212d797d08",
+      "version_id": "2302c040-c29e-51fa-8c2c-87bb93756407",
+      "content_hash": "2c3cc3221e211dc1114b380e54c0f5acfd1f5095a31c15f452fc18d3cdb185f1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1c4ac63e-8e02-5d9c-b914-6fe9ca78c4d0",
+      "reference": "3.17",
+      "question_id": "98e231b9-bf34-53b3-b02a-d2c17542f9cb",
+      "version_id": "d01677d9-7d84-536a-ba41-8c2b6dbef54a",
+      "content_hash": "b70ebec6ced4694deabe9d87faa8ee479951a95d4fba1c5e005d4fb000994d24",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1c4ac63e-8e02-5d9c-b914-6fe9ca78c4d0",
+      "reference": "3.17",
+      "question_id": "bd7eb810-784e-5dca-9230-966a7054c153",
+      "version_id": "8ee0f60b-dc08-50c8-ad69-6f32e0126d9e",
+      "content_hash": "a0f4c53e6fec2ef7071c00e3849b51abc78b56d5c53ec8aacc6751f6352e9ee5",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1c4ac63e-8e02-5d9c-b914-6fe9ca78c4d0",
+      "reference": "3.17",
+      "question_id": "c31a9d03-dfca-5341-9983-63a70ded8698",
+      "version_id": "3031dbc9-a407-5b7b-b05b-55b69b6a0710",
+      "content_hash": "9aedb5f49d7b2fc3a631dcc494a4dbc93119e385ec538abff964a67db03119f1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1c4ac63e-8e02-5d9c-b914-6fe9ca78c4d0",
+      "reference": "3.17",
+      "question_id": "30156deb-5f8f-5c45-b46d-4dad1a9b82a6",
+      "version_id": "2e545f0a-d22b-5c94-8bd6-e70f85a57d29",
+      "content_hash": "41fabe22b69946cff6cf2ad6c5d388049015662559cf322d84fe4f443c817f4d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "58e3e229-1214-580b-b910-f31943a101ca",
+      "reference": "3.18",
+      "question_id": "ec3e84e4-0cfc-59c9-aa73-d55f0bd78957",
+      "version_id": "cae395a6-f4a0-5651-8e5c-f60e2d65dd7f",
+      "content_hash": "df22f560d252fc556c4d8375135be2593bfcf24afe418f29fe6e08398cfa1aec",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "58e3e229-1214-580b-b910-f31943a101ca",
+      "reference": "3.18",
+      "question_id": "167b7a89-e5b7-5227-b863-e7e2fd6a8c7c",
+      "version_id": "6b04fad4-3fda-513e-8ee3-e9efc47f1330",
+      "content_hash": "07018b5178d33b00550a73725602a66f383f3ef7e64c3d41d63806739ac34b1e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "58e3e229-1214-580b-b910-f31943a101ca",
+      "reference": "3.18",
+      "question_id": "0944eaa6-ad1e-59ab-a3ae-9b1841d32f60",
+      "version_id": "b51e86c5-0b4c-5aa2-bdd7-2bc2abc30c8e",
+      "content_hash": "b74e1b203bac45ac2613e006f34d0886ebf03e039c4a7b05c93902f9b0da34ab",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "58e3e229-1214-580b-b910-f31943a101ca",
+      "reference": "3.18",
+      "question_id": "44fe25e3-4325-5183-bbc5-8e6c76b35eb4",
+      "version_id": "28509105-8245-505c-be1b-3ce119033fa6",
+      "content_hash": "bebbfb3e4a87c9c5893fb6e57ad7fc683f602e459511f7efc1ed23210546dad0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "58e3e229-1214-580b-b910-f31943a101ca",
+      "reference": "3.18",
+      "question_id": "cf71482a-2355-5206-ac3f-a133fe59bce3",
+      "version_id": "54c5bebb-9114-53d7-ad64-60743943f29b",
+      "content_hash": "f2ed01b7d69ae5a0a251870baecd88e54d5062eba0dbd4edd8f4e1d7c62a9670",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "58e3e229-1214-580b-b910-f31943a101ca",
+      "reference": "3.18",
+      "question_id": "8d3cddcf-65ed-567f-a354-b6f94ee9d4bb",
+      "version_id": "298fcc49-3842-5418-b012-032add8f7c3a",
+      "content_hash": "02c53891b7ea9694b00fe778b95b035f955a617757ee254448527830c83b92ef",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3f6c7f1c-1019-5d36-8b4c-e7cc3175da70",
+      "reference": "4.1",
+      "question_id": "84f182e4-92cd-5a46-8375-5fda8b2e32c1",
+      "version_id": "0008e860-4473-5981-8802-308385d55205",
+      "content_hash": "c59504cb2bb96dd454098434041813c82886917424d951d0757b409a2c52d4b9",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3f6c7f1c-1019-5d36-8b4c-e7cc3175da70",
+      "reference": "4.1",
+      "question_id": "c474600d-e33d-5d65-a5ab-402bda73dec2",
+      "version_id": "85683e74-0db1-55c9-86a8-6d6579221ee5",
+      "content_hash": "a269dfd42819136ebc1ce8d14cda2db8a361c3abfa73f781f9a0dc23368fbe45",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3f6c7f1c-1019-5d36-8b4c-e7cc3175da70",
+      "reference": "4.1",
+      "question_id": "1703697a-1520-5021-8648-291274a384ef",
+      "version_id": "b8959d92-2330-5563-badd-1db6277efbaf",
+      "content_hash": "dc4c6eaf7fc2b4cc79fdc72902064f361bc1c6b33faf01611d45e87e3c0a9cda",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3f6c7f1c-1019-5d36-8b4c-e7cc3175da70",
+      "reference": "4.1",
+      "question_id": "d52d5184-292d-5fab-bb71-6cd887abd523",
+      "version_id": "fa31c4aa-9ae0-5a71-9905-4eb09532d433",
+      "content_hash": "34948d5e03c5b6af81b3ca8d1b5eb94c77f627ba4e2c90b2291ca2f37bc40c75",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3f6c7f1c-1019-5d36-8b4c-e7cc3175da70",
+      "reference": "4.1",
+      "question_id": "c3beba47-ee32-559b-8666-59239fab0510",
+      "version_id": "2c566b87-47c7-5e3b-ad67-4b6e3464a899",
+      "content_hash": "877c9fec92325df3dd1a3bb1d8218e58d43fe8f4fea77505a6b3a5c8d8e6ca84",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3f6c7f1c-1019-5d36-8b4c-e7cc3175da70",
+      "reference": "4.1",
+      "question_id": "49406c95-e77c-5808-9a6e-02b977283a35",
+      "version_id": "10e03f26-5336-5a2d-bf40-6102a8768ffb",
+      "content_hash": "4ecf128aa12517afa0f629ed9bca381faf50df5af0d4b6732d4c17aa3eb6025c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "52cdae55-06a1-5f24-8197-a6a223a89a5e",
+      "reference": "4.2",
+      "question_id": "ec145450-8738-5600-8780-c7afb963943e",
+      "version_id": "cf56133b-9a79-557c-99a0-957f47730212",
+      "content_hash": "b62b0ee377164d5e2fb2391ce10b96a34ed8ca1b597058845ae38fab09f10878",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "52cdae55-06a1-5f24-8197-a6a223a89a5e",
+      "reference": "4.2",
+      "question_id": "9c6f30f3-3e70-5c22-b9f3-b15f4647baa7",
+      "version_id": "b3caf572-5bd7-56f5-955f-eaefd951b3f2",
+      "content_hash": "16a3e4ffbe91ccfe86408ed395fa31db34c15052fa9b52103ea514c07b9c8b14",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "52cdae55-06a1-5f24-8197-a6a223a89a5e",
+      "reference": "4.2",
+      "question_id": "e24f313a-229b-5a15-9a8a-01c56124ee0e",
+      "version_id": "9ce1c084-ddb4-5364-ad3a-58f341871966",
+      "content_hash": "1e298927a702e092965e04aa14d94a492770b1ea8f7a532eb2b17d68f0f90e62",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "52cdae55-06a1-5f24-8197-a6a223a89a5e",
+      "reference": "4.2",
+      "question_id": "8d8b98af-314e-511c-8412-174015392ad5",
+      "version_id": "2d2097a6-ce18-57d9-a155-9780f8046426",
+      "content_hash": "51fe9b83f1ce68adc4857ae9aa47e980434c36ee0b142c64c8f989f459430fe4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "52cdae55-06a1-5f24-8197-a6a223a89a5e",
+      "reference": "4.2",
+      "question_id": "96fdc4fd-a1f0-54ba-ac64-b4fc3d45dbd8",
+      "version_id": "9698b449-6bb6-5c95-b57c-3dca9a22ec10",
+      "content_hash": "c1ad86ada23a98058af309618270003d6ce55b480dc5e880ec6f568603447c53",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "52cdae55-06a1-5f24-8197-a6a223a89a5e",
+      "reference": "4.2",
+      "question_id": "d2da2d99-5208-5a3b-8557-8efda78ea63d",
+      "version_id": "76de2bad-0958-531b-a9ae-fb3477cfd9d7",
+      "content_hash": "5599a2bd32a12c53d0ad04efcacaa46ad0269683aa5d4490cc98e7bce398256c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "565073db-fe9d-56e5-bd90-89b3775d4e2d",
+      "reference": "4.4",
+      "question_id": "f05eba36-ea24-5727-9aab-7217d2cde198",
+      "version_id": "57b89be1-2c49-59a7-97b3-1e4ac5e32536",
+      "content_hash": "0eada8bf67d9c2c8de20e421ded41bdef42d2d7427766ced0eb5ef718fd21e7b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "565073db-fe9d-56e5-bd90-89b3775d4e2d",
+      "reference": "4.4",
+      "question_id": "c9be1fca-3e8e-553d-8d23-ddb90c0e5990",
+      "version_id": "7e7a1062-a4a6-5739-ac20-3213037559bb",
+      "content_hash": "a57035e31ae272f44e9013b751f8cd7dc74f66795485b2dcd8522a47e9bdd94e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "565073db-fe9d-56e5-bd90-89b3775d4e2d",
+      "reference": "4.4",
+      "question_id": "f1f03f1d-391d-5289-9119-9c4507c47dc1",
+      "version_id": "ac4092fa-a99b-54c9-b30d-aeefaf2a73dd",
+      "content_hash": "defbffbcfed1b37928d1f3f785d299017959d09935fd617f360a302162d04df0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "565073db-fe9d-56e5-bd90-89b3775d4e2d",
+      "reference": "4.4",
+      "question_id": "86ca814b-a1b7-50a4-a317-5b9d104402a2",
+      "version_id": "9f61a349-806f-5dbe-bd2c-0fc78452ac1f",
+      "content_hash": "f8f8eb7ec9d9ae5d3d27b924186633876970136e9abf0e1c03a9f3d139df74a4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "565073db-fe9d-56e5-bd90-89b3775d4e2d",
+      "reference": "4.4",
+      "question_id": "7ba65490-e072-53aa-9a92-3159608e893e",
+      "version_id": "326dd4a7-9d8e-571f-9d8b-7d26836d8654",
+      "content_hash": "4ef53cec9d7747576c316eccd701dc4a1696ae009ffdb611f8f2b29f3bbad9d2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "565073db-fe9d-56e5-bd90-89b3775d4e2d",
+      "reference": "4.4",
+      "question_id": "f185e359-81e6-50e3-a7ad-b59f1d3f8c9c",
+      "version_id": "f349956c-e54e-516d-8bbd-c9507e2eb57a",
+      "content_hash": "b0e89c40ec358dcfbc28b543b52ef71bfdfe1925b0106e78337c52d88ac8b356",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3a048dda-9b4c-550c-b2e5-d005a093f667",
+      "reference": "4.5",
+      "question_id": "a761a416-954c-59a5-896c-971e9009ad18",
+      "version_id": "87149e46-f4f9-5df3-8987-b61c19af38ab",
+      "content_hash": "300b4338febaa5bc55d8064240c4d6705fcdbd1459f9ab809ecc2e746654b160",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3a048dda-9b4c-550c-b2e5-d005a093f667",
+      "reference": "4.5",
+      "question_id": "8e6fb990-692c-520c-aab7-a1b36ce345aa",
+      "version_id": "ebf84e07-5071-582a-a63b-4c01420ff8b7",
+      "content_hash": "1e77194807feca14748161d32b858ef07b0542002f8552f9fceb08a6de66ac5c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3a048dda-9b4c-550c-b2e5-d005a093f667",
+      "reference": "4.5",
+      "question_id": "8caf117b-5ca9-5d4b-a277-357b3a928b0f",
+      "version_id": "29f31114-fff3-53ea-9cb0-7edc888c6116",
+      "content_hash": "cdc8c3b875e222e28b1e97d4eb260ba8d90c3da486fa69ac778f09cd897a5d83",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3a048dda-9b4c-550c-b2e5-d005a093f667",
+      "reference": "4.5",
+      "question_id": "b4c83a02-8797-5340-81c9-7cdb445a4788",
+      "version_id": "6dbe1f40-5ceb-5f3e-8045-9ab663b53cd2",
+      "content_hash": "eb442fd5a4154647001a10a18503cc3005c31f70e2dc49bac67c010638bd95f4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3a048dda-9b4c-550c-b2e5-d005a093f667",
+      "reference": "4.5",
+      "question_id": "972b6650-317f-5c20-ab29-156255175fe1",
+      "version_id": "6a81df2e-fb7c-5a92-be75-8ed53f7e7269",
+      "content_hash": "3a5a9a381f4a2d71825114e73b9cca21ee73950e9e7052e81e99738f28e4f17a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3a048dda-9b4c-550c-b2e5-d005a093f667",
+      "reference": "4.5",
+      "question_id": "073c834c-e0e5-509c-9a1c-685772b1a032",
+      "version_id": "708b6a77-08cc-5326-aa33-bf3feaec4c8a",
+      "content_hash": "16755e88e0c7fd0abe6c67378934b6367f469abb4b54e6e8b371b811c74b5e67",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d7af85f6-47f4-5a0b-a705-f95b6ef15ad3",
+      "reference": "4.6",
+      "question_id": "ee3beeef-20a5-5bb4-8f21-6da9373ea1a1",
+      "version_id": "ef616bd2-92da-5e4a-bcbd-9fd923083aef",
+      "content_hash": "d84ef61c306e4e5fc321ddf07a0f2fe7cddf381311a393f8b897cbbc44f3f910",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d7af85f6-47f4-5a0b-a705-f95b6ef15ad3",
+      "reference": "4.6",
+      "question_id": "b5bec0de-c78b-5713-b0bb-3de14c4a168f",
+      "version_id": "3adcdd75-60d8-553c-993d-f9059e4b2aff",
+      "content_hash": "987c80d78beb58bcc9bb297f4d27ea6eab0380b5e14a504e115968938e70b40c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d7af85f6-47f4-5a0b-a705-f95b6ef15ad3",
+      "reference": "4.6",
+      "question_id": "0a79d3a9-8972-55aa-ade9-86c20ba933ea",
+      "version_id": "96b0c7ce-e94d-5302-b05f-23e7dea6a1a2",
+      "content_hash": "495987a32db7b2423d3ce37f8b94af196b4572b699282e4072acbebea6b8faad",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d7af85f6-47f4-5a0b-a705-f95b6ef15ad3",
+      "reference": "4.6",
+      "question_id": "c9346797-a10d-52c4-9e34-69e6798ce56e",
+      "version_id": "6e9499a9-c9e0-5fc8-9dfa-1448872fbd7e",
+      "content_hash": "fbec1f05baf82b748f4edb6bc6af78b2c1b14ce9d7ced891a3243f2c0a47f23c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d7af85f6-47f4-5a0b-a705-f95b6ef15ad3",
+      "reference": "4.6",
+      "question_id": "cd424f4c-b25e-58a3-b31d-f9406bc4ec23",
+      "version_id": "24f836ab-37ed-5fcb-9396-5b5ae36f4603",
+      "content_hash": "890a9d67c862644e93e03e7ea7d05ddf46c0eaef14bbd28144bcb8773ba2100e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d7af85f6-47f4-5a0b-a705-f95b6ef15ad3",
+      "reference": "4.6",
+      "question_id": "4f1a7f1c-5c1d-535f-abe8-98a56e16c525",
+      "version_id": "adce7f2f-09fb-5fe3-9a0b-be6095633c55",
+      "content_hash": "8ee2e4bf79a60c8b48dc70dd2d2eeec780339d2e8b93adb63cfd5d96c37ac4e8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "f22b82c2-c98f-5c0e-b9b9-8c9e3b389799",
+      "reference": "4.8",
+      "question_id": "248817f8-53de-5cd7-bcbb-c285ce3a321d",
+      "version_id": "bf922b2d-eae5-59b8-b92c-8f0468e6cc2c",
+      "content_hash": "b0e9233e32617fb33db58f18d32380373b39044838e454ad3d06e0f2c8e33c9e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "f22b82c2-c98f-5c0e-b9b9-8c9e3b389799",
+      "reference": "4.8",
+      "question_id": "30e21437-d27f-5234-bd58-129a719fb2a5",
+      "version_id": "cf4a0e39-4db4-5e0f-81b7-ffe0ac7ea89a",
+      "content_hash": "935c069e9dc2860e41a35d07ba528267d08069a24b1356e72930df86885fa5c3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "f22b82c2-c98f-5c0e-b9b9-8c9e3b389799",
+      "reference": "4.8",
+      "question_id": "ff1927e3-beef-50e8-8e2e-51ada10cc23c",
+      "version_id": "87c8bebc-cb97-5b02-b210-9ce0a4c0f7ee",
+      "content_hash": "d538761ffb3ee9a59617eaa7d9e72a28ae4a28c03a4fd3d95ad119d1052a8d31",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "f22b82c2-c98f-5c0e-b9b9-8c9e3b389799",
+      "reference": "4.8",
+      "question_id": "10e38bd5-35b8-57d5-b350-5975fb9825f5",
+      "version_id": "52e7a658-e855-5cfa-94e5-077fbde7fe18",
+      "content_hash": "71f7501520ef10dcb499f3f9af05c8655567c5d12cef7ff6677432ade2ed6b82",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "f22b82c2-c98f-5c0e-b9b9-8c9e3b389799",
+      "reference": "4.8",
+      "question_id": "bed879c6-de00-5896-b5db-b84dca8d151a",
+      "version_id": "414b91fa-4445-539f-95d9-6973d1d89085",
+      "content_hash": "e30fc23deca2b609cca3d59d041359788b21dcfce6b83e60d59300c7a2000e82",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "f22b82c2-c98f-5c0e-b9b9-8c9e3b389799",
+      "reference": "4.8",
+      "question_id": "20d42959-d09f-518d-beaf-dd36424610bd",
+      "version_id": "4f030ca4-4121-5db3-85d2-25285780823d",
+      "content_hash": "860b3aabceb434bab570a8c63122ae66254412017fd7caaa8199f6ec318eadde",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a6d6fc3-376a-542d-968c-c7939548d919",
+      "reference": "5.1",
+      "question_id": "ca114c3a-d364-5231-b6d6-fa08da4d9e53",
+      "version_id": "2223bf93-3b70-5dae-80c9-a45f6be16f79",
+      "content_hash": "3abdd445e6ba29344242317f85544527287e07754111c805db969e01076a9cb3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a6d6fc3-376a-542d-968c-c7939548d919",
+      "reference": "5.1",
+      "question_id": "a7437343-7781-59ec-8caa-1d21769fc7ae",
+      "version_id": "4a8f23d8-0d13-5864-9b33-0aaa9c327f4c",
+      "content_hash": "270b5e1f504528cc26bd1a007139f9db96c027c1a7a6fd4c1c43869c357861c5",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a6d6fc3-376a-542d-968c-c7939548d919",
+      "reference": "5.1",
+      "question_id": "fa02bb9c-50f8-5f3b-b2dd-a5782d945a86",
+      "version_id": "3e1fd25d-07a6-563d-a9f1-9e767e4ae15f",
+      "content_hash": "9c85a20a0ba856b09a05e0b394ccce88c1485e5d5dce3e3a9f20dd02e935a40b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a6d6fc3-376a-542d-968c-c7939548d919",
+      "reference": "5.1",
+      "question_id": "181e6293-0e7f-5939-8a17-cdec16603583",
+      "version_id": "c4ad48ca-09fb-55a5-ad1a-7f2873902b1e",
+      "content_hash": "b36b0baaa39eab2801b73b4f1611e37f69866a623574a90e420dc1f316ea46bc",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a6d6fc3-376a-542d-968c-c7939548d919",
+      "reference": "5.1",
+      "question_id": "89588cbc-cae4-566f-8c39-0d5bff785d47",
+      "version_id": "b4e8bce1-0552-5118-94e0-695406a52f65",
+      "content_hash": "be8e58b080d4e5cc15cbe6fc73b4c72a4499f9818520a124ac09e22ea205f2ba",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "2a6d6fc3-376a-542d-968c-c7939548d919",
+      "reference": "5.1",
+      "question_id": "cd2f7c73-57a8-5b77-8649-497b2e3671f8",
+      "version_id": "5052e150-52ce-5866-8a75-8c7b688d3370",
+      "content_hash": "f0972f81230fe305aa129144df52432194f5ed657dbb94ee583dc072f3ceab66",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9ee35c9e-446f-5ea3-aeef-5d4eefca8e67",
+      "reference": "5.2",
+      "question_id": "8d542431-f9a8-55e7-b827-59bf7272a3a1",
+      "version_id": "0cd2bd2e-aee3-5054-8160-f25381093c8d",
+      "content_hash": "db016df7232fd60f3756cca8a4bd0653fdea21bc80dc4a81c5b0016e2d1a1b25",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9ee35c9e-446f-5ea3-aeef-5d4eefca8e67",
+      "reference": "5.2",
+      "question_id": "4b08ba5a-5daf-5f79-84ca-650b146102ae",
+      "version_id": "db56a1f1-03ea-58eb-9f13-c2cb2268ec76",
+      "content_hash": "1eb1e1e7bc35e54b33b1fbbebd541622bb464e192309d76f120222e4fb005a43",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9ee35c9e-446f-5ea3-aeef-5d4eefca8e67",
+      "reference": "5.2",
+      "question_id": "09fc1395-ac6b-5407-bc71-81e439af0032",
+      "version_id": "61e95159-8f55-59d5-868d-bc2ade854733",
+      "content_hash": "fb4626074d931661fa3fffbfae79d6a6fd176ed9366464758a09b0396b310eb3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9ee35c9e-446f-5ea3-aeef-5d4eefca8e67",
+      "reference": "5.2",
+      "question_id": "bb5deb0a-bfe1-5a71-a735-a4d2056df28d",
+      "version_id": "9020e902-8edd-5317-91fe-8b9ae74b0e10",
+      "content_hash": "4e87585564a723b600382d31b61bf60098fc3b7b13dd9671524b7838854eaf46",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9ee35c9e-446f-5ea3-aeef-5d4eefca8e67",
+      "reference": "5.2",
+      "question_id": "ae646420-d6d9-5628-8c5e-e3e35853597d",
+      "version_id": "5db015d0-275b-5c97-8753-60735d15d5e4",
+      "content_hash": "37c2d2fa8bb93f1d0b80d801fc4301269dc5b013460b06e30555d1c29e386f4c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9ee35c9e-446f-5ea3-aeef-5d4eefca8e67",
+      "reference": "5.2",
+      "question_id": "eaeb4207-3ed2-53c7-bb94-0f89c4f168b6",
+      "version_id": "b8cb4952-f66e-566f-bbc3-24a2ad386bce",
+      "content_hash": "91bed098233637f60a24ce44139ccc3f351f2c1f5cf2e7c318df52c85cfc4c07",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "42bcef41-2cf3-5656-a886-0bf6b03bcc61",
+      "reference": "5.3",
+      "question_id": "8f127885-9e88-5052-bbd3-9f0658f75ab7",
+      "version_id": "75ce298b-751d-5e30-8be4-a776c675fa11",
+      "content_hash": "f6d2af2917cde6fba4038389bf0feca214ee964d80d140c8f5b42b9b2ef37918",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "42bcef41-2cf3-5656-a886-0bf6b03bcc61",
+      "reference": "5.3",
+      "question_id": "8091d518-5bd2-5bbd-9841-52048f34fcda",
+      "version_id": "fd519554-9ca4-54d0-9015-cf0a764e3857",
+      "content_hash": "d29585017fb37813a29a4a5c2ec5068d9b114955c959aab9fe21a6655f9f6524",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "42bcef41-2cf3-5656-a886-0bf6b03bcc61",
+      "reference": "5.3",
+      "question_id": "3096b0c1-fe5a-59c2-a762-00c479eb7517",
+      "version_id": "7490370e-feb2-5223-8fd4-514cb77d7004",
+      "content_hash": "34491764b8f1320a853c62e0b7ae174314adc75e5dc013a6484b87a0da77ed40",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "42bcef41-2cf3-5656-a886-0bf6b03bcc61",
+      "reference": "5.3",
+      "question_id": "02517d4d-3e61-5f8d-8a69-6b22c3f240c7",
+      "version_id": "389a16b8-2a26-5be1-ad33-ec6d44235194",
+      "content_hash": "3d7fabd08147ec8138f6d57aae5e006ca2fdc19de5ae7d7a8cce8c88c02016b1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "42bcef41-2cf3-5656-a886-0bf6b03bcc61",
+      "reference": "5.3",
+      "question_id": "ca3a7de2-d887-5e45-8018-30ac30f93326",
+      "version_id": "22b577ba-40ee-5c2f-bbc3-32ac477600f5",
+      "content_hash": "2f1d46d0905d83e587a36a4f0d307993296e8551a5c5f6b6366c921d4cf081c3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "42bcef41-2cf3-5656-a886-0bf6b03bcc61",
+      "reference": "5.3",
+      "question_id": "31aa8b4f-d7b7-5970-81fe-a778e6822ac9",
+      "version_id": "7c61d8e8-a732-516c-bf90-dec5f49b5f73",
+      "content_hash": "1fefe12d8594a318f9559df6b6241f6d72174fb777a4740458ce2a9a6fb2e275",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "68944bd7-dec0-5538-bbba-dc2abb5839b6",
+      "reference": "5.4",
+      "question_id": "f29eb923-7e9c-545f-8f55-26277b977961",
+      "version_id": "62dffb24-fc28-5708-8e1e-96d5e2f94745",
+      "content_hash": "84d191b1f2d8707d6be28f833abf00c1d0988e7e27de85759d47938aa1c742b0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "68944bd7-dec0-5538-bbba-dc2abb5839b6",
+      "reference": "5.4",
+      "question_id": "2593227b-bd1f-5566-94dd-fda40dd84d7d",
+      "version_id": "ffc72e46-a16b-5a55-b437-74a83e8e140a",
+      "content_hash": "df6ad481725e8ee0dc398bf1c6bbc45a8f28ba24faf7fc917fc59e3f0f4bb786",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "68944bd7-dec0-5538-bbba-dc2abb5839b6",
+      "reference": "5.4",
+      "question_id": "683545e6-ed6e-5400-a22d-050983557332",
+      "version_id": "76da29df-344c-5eb8-a04c-add58c4432e9",
+      "content_hash": "3d6b4881682d5f8fdd4adbeeaca70a2dd3a45cda2cc4c29e92a3e436c9a7854a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "68944bd7-dec0-5538-bbba-dc2abb5839b6",
+      "reference": "5.4",
+      "question_id": "f7058b9d-f800-52fb-bb54-c3861060f492",
+      "version_id": "8b586e98-bd03-571d-954f-4721e374b053",
+      "content_hash": "6837ef23831df69e287feb14fcd05b15a7553d61db4853068a17730a9e8bbef3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "68944bd7-dec0-5538-bbba-dc2abb5839b6",
+      "reference": "5.4",
+      "question_id": "88addce3-e9ce-5c41-9bf5-9db50373e483",
+      "version_id": "4b6d7540-8ab5-5090-a1e1-305c4b26d994",
+      "content_hash": "1c23f47c3165c6a87fba74d721177bbd8db793a051f8d4e9cee048754b0d9eb4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "68944bd7-dec0-5538-bbba-dc2abb5839b6",
+      "reference": "5.4",
+      "question_id": "2c51b784-bdfe-5a32-ae11-c9b77f13452e",
+      "version_id": "4ec190e5-236e-5cec-9e03-fa107b90e6ae",
+      "content_hash": "f8aaef1e3205852d1529391f86d28301893a8f213d57ce3131c3933e598c791a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4a6bd256-df29-5b83-8fc1-15ce3c6ffa0a",
+      "reference": "5.5",
+      "question_id": "56308b55-bc83-5ecb-846e-881432213c89",
+      "version_id": "6d38cc6c-3d6a-533f-aeaa-d4394c3e3933",
+      "content_hash": "4acfa0dc5e95549eae9868867060353083d60db99caa1171f9bdd1eb20cead49",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4a6bd256-df29-5b83-8fc1-15ce3c6ffa0a",
+      "reference": "5.5",
+      "question_id": "dd081a49-0dac-52ae-a1ff-d5e7778ec708",
+      "version_id": "14792e83-69aa-5604-8210-5fc8f0acd5d4",
+      "content_hash": "06c2e947cadc58445186d05e648aae0490e8a529c07795577e5d6b79aca822be",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4a6bd256-df29-5b83-8fc1-15ce3c6ffa0a",
+      "reference": "5.5",
+      "question_id": "07414a8f-1379-5686-8ece-ffde8a72cf4e",
+      "version_id": "6174ded7-a2f2-5078-a73d-b4e4b605081d",
+      "content_hash": "c705945ffa68cc7942a0d78867402f99fb5dd52fc95bc56405513d4132e6bdbf",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4a6bd256-df29-5b83-8fc1-15ce3c6ffa0a",
+      "reference": "5.5",
+      "question_id": "0376a27d-a55e-5768-be11-92d38be4e160",
+      "version_id": "062bc0de-1a69-584e-920a-26390218b7b3",
+      "content_hash": "a5041b48d1c7ceac27d75bbee505ccf501aad5f0766c75f0c437676aa21aa366",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4a6bd256-df29-5b83-8fc1-15ce3c6ffa0a",
+      "reference": "5.5",
+      "question_id": "d528b6c9-9eab-53f0-b51f-3de300dddb4f",
+      "version_id": "8fd77f55-e8fc-53b8-87a6-8d5b6f32f35a",
+      "content_hash": "5b31dac1595d6449e002931661406554c1558e7f2c31a99087fee007b41b58b3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4a6bd256-df29-5b83-8fc1-15ce3c6ffa0a",
+      "reference": "5.5",
+      "question_id": "c543fd43-b0a0-588b-ab68-5ab6f15578e4",
+      "version_id": "1602c570-c073-5fac-add3-c202609a5e18",
+      "content_hash": "c00d824e435a3b2450d5ad78773b0babb667d24582df0f36b7161cf26127fd09",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "97542599-aebd-5339-b12b-d964b7e2f44c",
+      "reference": "5.6",
+      "question_id": "e30c5e83-c4d0-5377-b8b9-2ad76a214063",
+      "version_id": "226ecaf6-9212-50a0-9c1a-ad3ffdc018ea",
+      "content_hash": "17a5ed8d9dd23eadd82e5102ec237579578b0c0449dc025961fc549698e00c7a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "97542599-aebd-5339-b12b-d964b7e2f44c",
+      "reference": "5.6",
+      "question_id": "5dc5def2-aa52-5fa2-9047-3c94d8b9bb11",
+      "version_id": "cc68973c-2727-566b-b6a8-06698d0589a6",
+      "content_hash": "704e1490f03684508b0a9ba36c57c70e20ccbc9b1d9b8c94abd94351ad9d75c8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "97542599-aebd-5339-b12b-d964b7e2f44c",
+      "reference": "5.6",
+      "question_id": "dbbc426a-3cd9-52a8-b87c-6a40eb49b422",
+      "version_id": "9841b717-ad7c-533a-b001-aad4775dca5a",
+      "content_hash": "3acab2745b4ae49402cd011eb4ff94ad13ebb27d45c07c54a5bf9ed49be9bcce",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "97542599-aebd-5339-b12b-d964b7e2f44c",
+      "reference": "5.6",
+      "question_id": "53e7da5b-356e-58e7-b430-df7d58a17a71",
+      "version_id": "d6478d6e-a114-5a9b-805a-6448180ea0a8",
+      "content_hash": "d3dd7e789924cd607e3dd57db00ab949be6e0c7caf332a5c84bc5c1bf12ed89b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "97542599-aebd-5339-b12b-d964b7e2f44c",
+      "reference": "5.6",
+      "question_id": "0f646241-a641-5430-9eed-4410eab7a650",
+      "version_id": "307ab7c4-3506-5246-9af5-a4c0d65d0a22",
+      "content_hash": "26861f374b107e223a158caa395a90726012089bcc234cfea8e7915250d4d9de",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "97542599-aebd-5339-b12b-d964b7e2f44c",
+      "reference": "5.6",
+      "question_id": "33746845-f2c0-54f7-b68c-955b279f6774",
+      "version_id": "1e3b956d-33ea-5db5-9941-cd5eb32f15fc",
+      "content_hash": "59f7477fc6456bf55640b9b7bf4547401ef1186d05b04f63ee43f6c5624260ab",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "10efd324-9338-55e9-bb93-d1637cb20d00",
+      "reference": "5.7",
+      "question_id": "96745590-1663-59ed-ab9a-78f0a561e05a",
+      "version_id": "e5767d7f-3073-572a-a2d2-335cd9c2e5aa",
+      "content_hash": "be4421a17dbf3f314d908db01f88049c5aca4f7d10dfc5b50328922e192e3296",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "10efd324-9338-55e9-bb93-d1637cb20d00",
+      "reference": "5.7",
+      "question_id": "c776ff24-3d36-524e-b3a9-7f4327e9cd0c",
+      "version_id": "2a7179cf-295a-5bd5-87db-1d445fe9a545",
+      "content_hash": "86babc664f2cd01b3c52423edc2f52defcebf003f59716477866373d09c04bbd",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "10efd324-9338-55e9-bb93-d1637cb20d00",
+      "reference": "5.7",
+      "question_id": "5622b7d4-0ef3-5134-b24e-5ca3e0ffc356",
+      "version_id": "69db403d-19b5-5fe3-91b4-543350f3d470",
+      "content_hash": "d35937c0307e82affc43a4a22a75efd77be6e296b423f5f6769d8346f1923a3f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "10efd324-9338-55e9-bb93-d1637cb20d00",
+      "reference": "5.7",
+      "question_id": "c61a71fa-5e5a-54bc-90eb-e0d89b3022a0",
+      "version_id": "4e189d15-fa67-5b2f-881f-33ab251843db",
+      "content_hash": "a08dfacb9ef504c48652dc454cdbb792a0c535e07b63ea664ef29ae1cc6132b8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "10efd324-9338-55e9-bb93-d1637cb20d00",
+      "reference": "5.7",
+      "question_id": "1993aebf-4ce3-5fb9-8c53-42613e8a0e60",
+      "version_id": "96c3d9a2-1fe0-5dcc-9e0c-b17a85b56269",
+      "content_hash": "892aa6f77145b14f42ed93eddb0dc65ca4d6e31d74ca0ee356f4eeb4aa9a215e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "10efd324-9338-55e9-bb93-d1637cb20d00",
+      "reference": "5.7",
+      "question_id": "7aeb1232-9afa-5750-940b-c7e57aef6806",
+      "version_id": "c792884f-8927-5d56-8f23-dcbf1e527aab",
+      "content_hash": "f30b00b2cbd55c536db8d8068701469d6fd63bf5e4bf6e9f3126c2519de24cf4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3c11a8d4-3fd6-59bf-a80a-0d97bbcb150e",
+      "reference": "5.8",
+      "question_id": "2910b56f-aaa1-501f-ad78-43f644636d8e",
+      "version_id": "05aa8914-b1d0-58d3-b0a9-d713f3fcae00",
+      "content_hash": "e1df18aa2684e706a999f01bc546d850aacaf79dbd673b4ab2876065e6c24bde",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3c11a8d4-3fd6-59bf-a80a-0d97bbcb150e",
+      "reference": "5.8",
+      "question_id": "8f4d876b-d7b5-5ade-9068-a6fb41763ac8",
+      "version_id": "77bf780e-dcca-5ad6-ad6c-eda1d6afa5a1",
+      "content_hash": "b504a644b24473e6c9794219891873c627693d25c64590a18bf17413de323fca",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3c11a8d4-3fd6-59bf-a80a-0d97bbcb150e",
+      "reference": "5.8",
+      "question_id": "b84dcaf4-89c8-56c7-907d-d0a9866428e9",
+      "version_id": "3878170d-36c7-501e-b3bc-083d24615b42",
+      "content_hash": "298726a7dce325e682a99deebbe1492b25891fbc171d91ebb966ae5798fde385",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3c11a8d4-3fd6-59bf-a80a-0d97bbcb150e",
+      "reference": "5.8",
+      "question_id": "f2b74f06-970f-5c6e-86d2-66a5f2e35b1a",
+      "version_id": "a246582e-f978-5fe7-ba7e-4c4bab51f5c9",
+      "content_hash": "380de291f46c3247395115662be257c80f4e95e11f4da297155d76f9361369d0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3c11a8d4-3fd6-59bf-a80a-0d97bbcb150e",
+      "reference": "5.8",
+      "question_id": "ea7e5c23-e8f6-5559-a997-0556460d9f05",
+      "version_id": "bce48fb2-de18-56d2-a32d-69e4d7d87c31",
+      "content_hash": "3f91c3c53278c8acba9367d77ed376e7af94b6de48de0ad3cffc86091a9f7b37",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3c11a8d4-3fd6-59bf-a80a-0d97bbcb150e",
+      "reference": "5.8",
+      "question_id": "9fa38a74-677c-52e1-8b22-f49267c8a76a",
+      "version_id": "35a9fea9-eda5-50f7-b5b5-76e674b843a5",
+      "content_hash": "5cfc047a1bc34d4f94704a6ad61929b8390194996547e0e458654898bda845bc",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cb8d15ea-8beb-5e8c-b28a-92da7b694dd1",
+      "reference": "5.9",
+      "question_id": "cc89a691-07aa-5c85-ac56-132b8792c141",
+      "version_id": "c23ac62b-d32c-5dc8-83b1-2353e06a2967",
+      "content_hash": "85b87f5f04587aa84806c900b76df374ad38e5633c41855f7bf14148f7ee529b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cb8d15ea-8beb-5e8c-b28a-92da7b694dd1",
+      "reference": "5.9",
+      "question_id": "29735fdf-5e59-5e93-b1cf-abef79922a32",
+      "version_id": "d3ca2bd3-f6a0-5185-a3da-b00946905356",
+      "content_hash": "321088236f9966769461a0d4776feeca6388d0fd6f721c27d2ee025166757904",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cb8d15ea-8beb-5e8c-b28a-92da7b694dd1",
+      "reference": "5.9",
+      "question_id": "2f6f6243-3ddc-5393-8fd2-3bf628144059",
+      "version_id": "634db5c1-588f-5ddb-b268-6399195a38c0",
+      "content_hash": "589c0d8e3632f5daae09bb70ccb412d3bdea55c85661cece9453f0d5695a5ce9",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cb8d15ea-8beb-5e8c-b28a-92da7b694dd1",
+      "reference": "5.9",
+      "question_id": "d01699d8-290d-5e54-9e57-16301f91e9b8",
+      "version_id": "8b1e038d-e205-5384-8577-d8999c108c07",
+      "content_hash": "a3bf1199710759fffbb6be38b099a7d68f8f2e5b7218f8f2f9abd9ef34666bcc",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cb8d15ea-8beb-5e8c-b28a-92da7b694dd1",
+      "reference": "5.9",
+      "question_id": "3f840040-ae17-5371-beac-a7175c4571de",
+      "version_id": "16af5df1-bfa7-52d7-b576-220901477a09",
+      "content_hash": "b62ac39875340cc44cd228d3f37d8270deabf3cc5cb19c9f232ecc941defe956",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "cb8d15ea-8beb-5e8c-b28a-92da7b694dd1",
+      "reference": "5.9",
+      "question_id": "a825b373-34a5-516e-883c-81005f0e6e4e",
+      "version_id": "38a471e8-2646-5b76-aa92-77ae9a2dab1a",
+      "content_hash": "471dcf59cca60e94b5cae29ec8003739387ebc836aa83ef9654d9d8261d5f085",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "09669e56-4544-5267-a0ef-338bf440871f",
+      "reference": "5.10",
+      "question_id": "1bc29e21-bce4-5771-bb18-919c7187c843",
+      "version_id": "f68f9ad7-fe61-5a9b-9e83-ba49b737c9a7",
+      "content_hash": "607e4a8c1c1fbd07e25b50d29fec2a3b62cc77535a5c90a073c2a2ebd29cf2f9",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "09669e56-4544-5267-a0ef-338bf440871f",
+      "reference": "5.10",
+      "question_id": "973e898e-a0e0-59f3-8888-1f72c05d885f",
+      "version_id": "9ced52f3-442f-50df-af8f-a0d3073fcdb7",
+      "content_hash": "85812c10d845256dd3eff0d18553e3bcaec875ff7e480170d7ba3a577fd59962",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "09669e56-4544-5267-a0ef-338bf440871f",
+      "reference": "5.10",
+      "question_id": "e3b247c2-d443-5428-a94d-caf7cac64247",
+      "version_id": "070be91a-0f9d-5ba2-8f06-c2252be8b17d",
+      "content_hash": "bed3e4bc028bd30022bcb7e88e816b0f441263e86a01e717b1d707e691da65cc",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "09669e56-4544-5267-a0ef-338bf440871f",
+      "reference": "5.10",
+      "question_id": "d0eee64a-818f-5009-b90c-a7fa79e1b06e",
+      "version_id": "c61a91db-6388-535e-b8b1-35791f3d1cce",
+      "content_hash": "cb527a0a5af7ab6fd7b1710aa2fbe714df3830c8202722cad6ae9e698b6327db",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "09669e56-4544-5267-a0ef-338bf440871f",
+      "reference": "5.10",
+      "question_id": "56084939-6469-583b-b992-8b46b4fccbc4",
+      "version_id": "8dedd3c8-d3b6-5ac1-b67e-afe3230e0f27",
+      "content_hash": "45f641d85030c48ae515225189ecef547dd6ded6c47885f554678b655810115b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "09669e56-4544-5267-a0ef-338bf440871f",
+      "reference": "5.10",
+      "question_id": "4d0e84eb-7265-5458-a548-fba116bf026c",
+      "version_id": "0ab60d58-8bf0-542c-a16b-0b0587476c4f",
+      "content_hash": "6df847d995d4b741f4b6a382489e27064bfa47d385a5c0dd636e316a1b5c9842",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3e7810d9-04c9-5143-a85b-29f89d7e7d74",
+      "reference": "5.11",
+      "question_id": "2231a093-ebab-51ed-aeaa-ca1ac63525ab",
+      "version_id": "1fef9f64-400d-5b9c-8ff0-b6c028e851db",
+      "content_hash": "0731efadc5b35d4f84aadb1c1f4619a274104c51f680e38821a9e30814ab89ea",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3e7810d9-04c9-5143-a85b-29f89d7e7d74",
+      "reference": "5.11",
+      "question_id": "e29dc573-656e-579f-9c38-b34957cf4a6c",
+      "version_id": "79fa08ea-e860-504f-a040-b6800c820e8b",
+      "content_hash": "04e2493df84ed2accec6f031bef900880a22272d86b38332edcdfab3eecb3f3d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3e7810d9-04c9-5143-a85b-29f89d7e7d74",
+      "reference": "5.11",
+      "question_id": "a45e2cab-f4c6-5e3b-88b0-b522dafdd21c",
+      "version_id": "1b2ea220-7486-52b7-86d6-2774aaa9ade1",
+      "content_hash": "a3daaa3cd374cbc08076f3dca0fabec8f22a880dad62b53977da267790e0b2cb",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3e7810d9-04c9-5143-a85b-29f89d7e7d74",
+      "reference": "5.11",
+      "question_id": "0d6e5db5-a3fb-5f97-adbf-92528050a9c6",
+      "version_id": "abae1082-c13d-5a22-98fc-89c818d8f8dc",
+      "content_hash": "90a816ef2d207c931acc9dc1ae4e06b866cbcf4b4796e20eaaccbe51f822f88b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3e7810d9-04c9-5143-a85b-29f89d7e7d74",
+      "reference": "5.11",
+      "question_id": "a7b21ca4-ac17-57d3-a290-a7c55ac584b2",
+      "version_id": "e2d96631-3c3d-53c6-975e-8bff0ee27d22",
+      "content_hash": "15f905375fe47d4047ebd11f52888df315b7fc9deb2a3884317441f0d329e49f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "3e7810d9-04c9-5143-a85b-29f89d7e7d74",
+      "reference": "5.11",
+      "question_id": "a14a8ff6-d5cd-5ed9-ae00-6ffcd8bb1ca6",
+      "version_id": "dc82e63e-c937-5602-93cf-c2ced4e6ae87",
+      "content_hash": "ab03b6d080279ed6a35e5c2c6db65bbe9860241ccb9adcde7e9bb2ef1c2c05f4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "8d1f686a-af2d-51db-b744-05d3af86b6c2",
+      "reference": "7.1",
+      "question_id": "5f80f329-36c6-5fb1-bb55-2925d64dc3ae",
+      "version_id": "3d5d9dc7-d059-5438-99dc-1be142f8b3f4",
+      "content_hash": "e031086d87449ade2654ab3725a523dd1ddec2dda438b542afba871f2c77bf62",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "8d1f686a-af2d-51db-b744-05d3af86b6c2",
+      "reference": "7.1",
+      "question_id": "b1bd3564-17c0-5a64-a37b-06429b1a72f1",
+      "version_id": "1e2f7083-990b-5929-8b9b-82c86a27db31",
+      "content_hash": "a4274e75177696a74a3d1e74fffdc2887a087bb4bdc4ec1993f9c64a1450ee2d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "8d1f686a-af2d-51db-b744-05d3af86b6c2",
+      "reference": "7.1",
+      "question_id": "8dcfbb97-c63c-5f6e-81e8-98e9ff2b6410",
+      "version_id": "947da16e-b2d0-56d6-9264-5f055d41e274",
+      "content_hash": "fbd02127efe0aa53484e9d76539fffa4f3d6335a993de15e2f5a19f2b8c16056",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "8d1f686a-af2d-51db-b744-05d3af86b6c2",
+      "reference": "7.1",
+      "question_id": "4bfe7126-228d-5a9c-8625-50fa5065ec50",
+      "version_id": "1051581d-7e5f-58dc-8cee-367b1827d9fa",
+      "content_hash": "e788b121d21df7544b7b76593f5118cb1c86086eb18bc4b6b9cbcb9a87520473",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "8d1f686a-af2d-51db-b744-05d3af86b6c2",
+      "reference": "7.1",
+      "question_id": "66a8334e-8c07-5b7d-8cca-4662a4491a2b",
+      "version_id": "5d9f85c7-6b09-586e-908b-16354264229f",
+      "content_hash": "07815b6e8e5bfeabe8158aaf0ba4307d4bbc060ee4049bcb7dd3c9a0e9072d18",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "8d1f686a-af2d-51db-b744-05d3af86b6c2",
+      "reference": "7.1",
+      "question_id": "ddd485cd-9dd9-503a-8e8f-d7dac33894b1",
+      "version_id": "a442e13c-0819-5fb2-b4da-017eb184abb7",
+      "content_hash": "78284f4164f21d7087674441089296058a3f70f86712b4986eac461b53f2bfe0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "04c6945f-6c1f-5bea-a011-9777c4bad4c1",
+      "reference": "7.4",
+      "question_id": "ba1d2be9-d2b2-5605-bfbe-a9a3a4e5dc25",
+      "version_id": "090e3cb7-5304-5ea6-8f73-979e3663178e",
+      "content_hash": "a29d9f1f753c06b298ab88d92df52c705c2b88bc568a96f218e2389a5ea621d2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "04c6945f-6c1f-5bea-a011-9777c4bad4c1",
+      "reference": "7.4",
+      "question_id": "a262c0a3-4ea9-5347-8fc1-c40c92dcdf46",
+      "version_id": "7a3bf922-e93e-5dc8-b6b8-dc8d2e849f7d",
+      "content_hash": "b2016cde79088ed6fd25ec8369ef0ebdf3ca8e8dddf4b76f7ca3453ab0b01ab5",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "04c6945f-6c1f-5bea-a011-9777c4bad4c1",
+      "reference": "7.4",
+      "question_id": "a0a45279-622b-58cd-8353-e3ce470ce5d1",
+      "version_id": "0dd5ed6f-39fe-5c33-b0d0-1d5ee625f8b0",
+      "content_hash": "3d4a7b432123e272d3ca8a5c10907727dbe6a2c06bf0e0fb71130244012a4074",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "04c6945f-6c1f-5bea-a011-9777c4bad4c1",
+      "reference": "7.4",
+      "question_id": "e1b0da53-a2a7-5802-ab82-70b62d7aef40",
+      "version_id": "0e704650-92a1-5346-b95a-9d04c15ce3b0",
+      "content_hash": "893341ff9b335b8f83afd1cf218c8b901a99ddbfd9c139fa57c2ed760b3ec119",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "04c6945f-6c1f-5bea-a011-9777c4bad4c1",
+      "reference": "7.4",
+      "question_id": "65e87218-306d-53a5-9985-81f3d3d6748f",
+      "version_id": "323fc9d1-012c-5d92-a140-0100493eff11",
+      "content_hash": "7b21a20c249361f6d92b4b0ceed6a6b9a89be4930de2e727562a7fc02d55b96b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "04c6945f-6c1f-5bea-a011-9777c4bad4c1",
+      "reference": "7.4",
+      "question_id": "fec87fba-3827-5ca6-9a17-6fd9a563342c",
+      "version_id": "ea9ab1d2-22b3-5f8e-8d31-712a2a8bb65c",
+      "content_hash": "30117d343f1e4cd9e7d06ddfa559972b72f82379682b0d52ec0977f820ca7369",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "07eb6899-f0f3-5ba8-974d-62a51459b1e8",
+      "reference": "7.5",
+      "question_id": "fc27bddb-0dd5-5542-999f-4b5827d3acdf",
+      "version_id": "512d111c-9c6e-519f-b980-10993705ef28",
+      "content_hash": "b4f04b7ecb5a20cfc07104944eae0bec26f847a8fe3da9f12c37e751284c9588",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "07eb6899-f0f3-5ba8-974d-62a51459b1e8",
+      "reference": "7.5",
+      "question_id": "ba097556-7554-5079-8d21-c2731289bfb9",
+      "version_id": "fa92a74a-2f0f-5b78-aa42-fc968673c28a",
+      "content_hash": "86cae6b9c6acd40815d9bd7a996fb9f4f4767588572396b57a7c031018aa3d53",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "07eb6899-f0f3-5ba8-974d-62a51459b1e8",
+      "reference": "7.5",
+      "question_id": "9da19e29-edc9-5a16-a2e0-635f329aeaa3",
+      "version_id": "7225f935-3be3-5bfd-84a5-e23358789617",
+      "content_hash": "42f5a0c4afb12ebf012561514ce1e65c1a0d3f9dd32a18adb16aea260a75a021",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "07eb6899-f0f3-5ba8-974d-62a51459b1e8",
+      "reference": "7.5",
+      "question_id": "0b5c6372-2a8b-5cc8-9aef-869d059ee057",
+      "version_id": "297a1013-2d2b-5057-befa-2015d0938cb3",
+      "content_hash": "2c17f9bee99af941af2e572cabe6d27d380170c21de7e3ebbe0034f0c9c46eb8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "07eb6899-f0f3-5ba8-974d-62a51459b1e8",
+      "reference": "7.5",
+      "question_id": "b3a1ac02-30af-527c-81a4-1a5e76150a5e",
+      "version_id": "8b2a1cdd-965a-5fc0-9887-d2d227f6647e",
+      "content_hash": "2b7dea3a04353789d7378bce623e8c19ff41bbc0799891fe18022dafedcf834d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "07eb6899-f0f3-5ba8-974d-62a51459b1e8",
+      "reference": "7.5",
+      "question_id": "1f2baebc-702e-545d-a3ea-a9748fce7b77",
+      "version_id": "9de5aa27-56a7-59fe-85cb-d696e7f682b4",
+      "content_hash": "b0ecef1f3b3cca8807a9a470597e968e8771291f81810ab9a4ab66b213640928",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "038a72d4-c783-5d71-8530-1e1f1549d867",
+      "reference": "7.6",
+      "question_id": "4dc31de6-4db2-511e-99a1-71ff01c6e6b5",
+      "version_id": "ca488095-6706-508b-9ae7-bdf9192fc656",
+      "content_hash": "8738266342c3e3dbbab80826194dc86e597f7175964497fdb86257df09cdea78",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "038a72d4-c783-5d71-8530-1e1f1549d867",
+      "reference": "7.6",
+      "question_id": "8535b3ea-0195-578a-9c23-57d862b5b374",
+      "version_id": "32d1bcbe-f5bb-5154-a89e-27fceb78853c",
+      "content_hash": "588d831da8dc6d07d8908a07502544cdd7e03da73e5e1529ff70d1bf8d4f9612",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "038a72d4-c783-5d71-8530-1e1f1549d867",
+      "reference": "7.6",
+      "question_id": "620d3778-f484-5d3a-9962-dc269769d170",
+      "version_id": "291b1fa1-0386-54db-9b41-63882ee793b8",
+      "content_hash": "6a4791df3ceeb18ffe90d4da832d0073cf555a216a5e66c15b414ba371a1c936",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "038a72d4-c783-5d71-8530-1e1f1549d867",
+      "reference": "7.6",
+      "question_id": "f341d968-e9cc-5ec7-861a-63e911592dd8",
+      "version_id": "3b07e808-d20d-5760-8da3-1a5d2125c311",
+      "content_hash": "906896a7d3e72402663ff164b698a14895c7834e8bd4431e30c8c1a55e509350",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "038a72d4-c783-5d71-8530-1e1f1549d867",
+      "reference": "7.6",
+      "question_id": "b10c3e48-bc1d-5854-8d7c-580f47d260bc",
+      "version_id": "e91a3d11-c346-5f0c-a184-e2d6ad6960a4",
+      "content_hash": "19723e2c1706f4bb0c6396211c5e48ebc19180922e11d475f83ebef39534a08f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "038a72d4-c783-5d71-8530-1e1f1549d867",
+      "reference": "7.6",
+      "question_id": "b230018d-bfb8-58ce-9b36-04a1a7cd572a",
+      "version_id": "0f53d4b1-1458-51d2-a0ea-0c1d2c02b741",
+      "content_hash": "299bc4e0a8909a64335c47b35d63913db3dfabdce7194725786b9d00f0fd81ad",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "251f3e8b-abad-5faa-9c2c-ab2d98213921",
+      "reference": "7.7",
+      "question_id": "3ce88619-0264-5583-b033-e2e15fab112c",
+      "version_id": "e1e252f1-538d-544d-9f1a-26641bc483dd",
+      "content_hash": "872482cf6fc1d101de8ee1d1973fb93c4b1a9c7410926d65520e6031da27ca4e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "251f3e8b-abad-5faa-9c2c-ab2d98213921",
+      "reference": "7.7",
+      "question_id": "413a9992-a457-5478-ac29-6a2138aea673",
+      "version_id": "6414c746-56e2-551d-894d-1d19a13d0cc5",
+      "content_hash": "fc637b96c9aa5a13d3f391fd6e5774a76e96e2542fa118f68b37a29dbd2e286c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "251f3e8b-abad-5faa-9c2c-ab2d98213921",
+      "reference": "7.7",
+      "question_id": "181a2bc1-9131-5586-9747-13d44a9aa94a",
+      "version_id": "ce30d685-4528-5c9b-8193-3733cdd78cf8",
+      "content_hash": "d8f052b8a2edf6b30b70bee2f82b418b982b97227dad1e80983732c5c917ebb4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "251f3e8b-abad-5faa-9c2c-ab2d98213921",
+      "reference": "7.7",
+      "question_id": "34d83310-c53e-5cfc-86a0-560cf774afc8",
+      "version_id": "2eeed5d9-c0c8-577e-83ca-8f7a27875f91",
+      "content_hash": "ba1dcf732a687b8dc09b006e926546fda325df3d6e1e16f40fe920d2c9d89aa9",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "251f3e8b-abad-5faa-9c2c-ab2d98213921",
+      "reference": "7.7",
+      "question_id": "a3fad4f1-95bd-5426-9651-24bd0be96e09",
+      "version_id": "9b078dc5-c885-54ae-8ee3-e835d5ebb1e3",
+      "content_hash": "433532959e4fd75725d20181bcc9a08db6df4f099ac6a7af0ee75e50a115f0e2",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "251f3e8b-abad-5faa-9c2c-ab2d98213921",
+      "reference": "7.7",
+      "question_id": "92bff849-6b2a-5388-b8c3-2f363be42c37",
+      "version_id": "01abef32-529a-5a5f-83ec-8e1e098b0b2b",
+      "content_hash": "8bdf7189af71c5cc4a97059cdad7bf1599f2ed588d6f9d29b55edc704c02409f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "59429d83-ba78-5881-85e8-fbefa208cb2f",
+      "reference": "8.1",
+      "question_id": "99536acd-5f86-5009-bbb7-dc76b465a4f0",
+      "version_id": "2418a1a8-9bda-5eb9-9b57-eddf2382991a",
+      "content_hash": "3cb0daf234784a091fa08684d51067bfd23aa75a8085450cf7b611767a311293",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "59429d83-ba78-5881-85e8-fbefa208cb2f",
+      "reference": "8.1",
+      "question_id": "b9995fd7-8923-51d5-a4be-c842f54f11e1",
+      "version_id": "1dd87252-f182-5423-8b99-7114609a7b39",
+      "content_hash": "6b784f8fb2d8354ed1511fadb2036d8b7077c36a8f8852b4989820b0ea78f932",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "59429d83-ba78-5881-85e8-fbefa208cb2f",
+      "reference": "8.1",
+      "question_id": "5475ca37-8d17-5e7c-ad8a-9da82de7f1ba",
+      "version_id": "1e69540c-50de-565e-a9ae-23757a5f684f",
+      "content_hash": "603a5cf767c5554c31a95d0f01067f10b52618d4ad472d1ef1ac306395a5ee15",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "59429d83-ba78-5881-85e8-fbefa208cb2f",
+      "reference": "8.1",
+      "question_id": "bf7f2f3e-4b40-546d-84a9-1aadd30f0071",
+      "version_id": "8c1ca5f4-999e-55b6-8ea1-f9e6d459462f",
+      "content_hash": "e8b4f3be7b5ddb8df5c54e8f96303dc8e4bcd12b34b0e72e039b7560bc4484eb",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "59429d83-ba78-5881-85e8-fbefa208cb2f",
+      "reference": "8.1",
+      "question_id": "55dde9d2-fb2e-57fe-9691-f4d5975c40a0",
+      "version_id": "5ce6c20a-e9f0-5a37-ab60-f1010e199b0a",
+      "content_hash": "3f28eaf5da1f23d172c0ae8e0741adb4eb080c1a127d9cfe0745b74585f88639",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "59429d83-ba78-5881-85e8-fbefa208cb2f",
+      "reference": "8.1",
+      "question_id": "7d8e0571-2666-5764-806b-7d690a5c2146",
+      "version_id": "39543e22-cd7a-525b-935f-25ac265c9761",
+      "content_hash": "0a9a4fd585d72fcdb70d98819da56f7382c75aef65c0330b44f6c6cabf9956e1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "beee985c-ad10-54c9-a82c-43a88a03f790",
+      "reference": "8.2",
+      "question_id": "a3d11f47-e30f-5984-822e-ceca9217befd",
+      "version_id": "0a55a5af-8de8-51a6-89be-cd6a4eda4b69",
+      "content_hash": "8aa3c391a188af53a404aebde7e781f097bfff3b3f33502626c5e913b884e659",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "beee985c-ad10-54c9-a82c-43a88a03f790",
+      "reference": "8.2",
+      "question_id": "fac17f3a-e8e7-5aaf-9d79-cf32e8c6fced",
+      "version_id": "9d727c2b-5ffa-5727-9abf-ae9b9091370a",
+      "content_hash": "55b0539d92c35124a5189c820767b3f5b141aa3c379ee05c33641e7cbefeaa70",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "beee985c-ad10-54c9-a82c-43a88a03f790",
+      "reference": "8.2",
+      "question_id": "a30b1eca-20cc-54a9-8be8-9804d3dc95d2",
+      "version_id": "9bc4ca51-8ccb-5be9-a902-33bc1c50e641",
+      "content_hash": "9261455a88758eb36b3c4c36a7eb82df1acaa3a6f94389e035ff6baeb0217343",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "beee985c-ad10-54c9-a82c-43a88a03f790",
+      "reference": "8.2",
+      "question_id": "8d993b50-fbfb-58f1-87d7-ce7540ab4853",
+      "version_id": "5637ffe3-b033-518e-9c1d-8914b3c7ed80",
+      "content_hash": "c825da59d52da09430d0990f82e460540793fe834fbe05bdf36acd6869bbc681",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "beee985c-ad10-54c9-a82c-43a88a03f790",
+      "reference": "8.2",
+      "question_id": "30533a59-47b8-5fd6-8d40-ae0bd3592f76",
+      "version_id": "fa6f9137-73f1-595b-bb94-a34499ea2e8f",
+      "content_hash": "739ad335ad9122be88d4a646e46ed055caa360f1f928da3817c8046ed25c4fd8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "beee985c-ad10-54c9-a82c-43a88a03f790",
+      "reference": "8.2",
+      "question_id": "d6a1e4b5-dcea-5126-ab42-a1f228ee233f",
+      "version_id": "85e293f3-04c1-54f8-9e2a-d73947efcf6b",
+      "content_hash": "2a44b0eca4a51bf66eb696aff4bd3c32d33660e48c573c16beb3a81a4c4b2d50",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0dd63a8c-ded0-5334-bc35-841bd7fe07cc",
+      "reference": "9.1",
+      "question_id": "4643fcfd-d875-5410-b419-445611ec1439",
+      "version_id": "62652e70-1f63-54a7-afe1-a6446cafc877",
+      "content_hash": "7f11e01870b013cb6a4fbfbd8e9f615657cc72335767415d6a513caef27450cf",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0dd63a8c-ded0-5334-bc35-841bd7fe07cc",
+      "reference": "9.1",
+      "question_id": "7160db67-4adf-5a6c-8977-87605825904a",
+      "version_id": "7bc26bd5-885f-5e29-b1b6-5934ba83c088",
+      "content_hash": "e38a649255dcdebea8f840cb04f75244a3ac3a0bc9bd7b38d82a60415001fa10",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0dd63a8c-ded0-5334-bc35-841bd7fe07cc",
+      "reference": "9.1",
+      "question_id": "a50abf19-0a02-59c8-af2c-d425039f17b9",
+      "version_id": "f5669917-5fd3-5cb5-94b6-7ccc0db23fee",
+      "content_hash": "7e0f0b1edc8cb47353a3c7ad880ddcf19af1f523a65878507257d84c46007ac1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0dd63a8c-ded0-5334-bc35-841bd7fe07cc",
+      "reference": "9.1",
+      "question_id": "a9de62b9-c0ec-5dac-ab2c-5fe07e34ab7b",
+      "version_id": "7d3d2ba5-98e5-571a-8c0a-722881e04262",
+      "content_hash": "b86b71b38f9188cc54097353609275bdc00ecd952d53ae3080bdf1bd8b6bf868",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0dd63a8c-ded0-5334-bc35-841bd7fe07cc",
+      "reference": "9.1",
+      "question_id": "5737d03c-d058-5c51-a72a-a41a2fbfbc71",
+      "version_id": "3f006548-e27d-50f3-b4dd-70d0469b342f",
+      "content_hash": "95639bf2cafcbf99ae6a44aa98d98b90f880c19d8d45f6f443f8cf794786cb5a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0dd63a8c-ded0-5334-bc35-841bd7fe07cc",
+      "reference": "9.1",
+      "question_id": "4ee4bc9a-752e-513a-b31b-89405114a21d",
+      "version_id": "5341a4bf-80ce-586a-b083-ddc1f257831e",
+      "content_hash": "81e3b1620cd130495e31738d7e83a2db0863400a3b0d68b1e54eb4248003ccd0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d1f8a14e-aac6-5611-beb2-0186ea7cd920",
+      "reference": "9.2",
+      "question_id": "90a1d92b-5aa8-5360-a7ff-e3c40505c428",
+      "version_id": "03f5514f-00f9-537f-8dd4-26915be48807",
+      "content_hash": "07a0cc609f1a530d5f90369dfff14ee9ee881871b3a8a4f9f1e1405c9ec551e0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d1f8a14e-aac6-5611-beb2-0186ea7cd920",
+      "reference": "9.2",
+      "question_id": "cfea863d-6310-5215-9321-16d8b6f66526",
+      "version_id": "fd03ac65-4db4-5de1-9b8a-376fd1736d00",
+      "content_hash": "4dd4308aeeba1e41cf93ef36eb0251e8c0ab059ba6eba5f7c1958f1818417cbd",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d1f8a14e-aac6-5611-beb2-0186ea7cd920",
+      "reference": "9.2",
+      "question_id": "645fae46-1768-5370-bb5d-206a7b0cd2d6",
+      "version_id": "a13cad57-2704-5fef-ba76-702590c3314e",
+      "content_hash": "eaf736aecb9145681285ae7865557649516f3c51b120eff26e29275fefe3e6dd",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d1f8a14e-aac6-5611-beb2-0186ea7cd920",
+      "reference": "9.2",
+      "question_id": "77d55de1-73b4-5ef9-abbe-e09d6a08f13e",
+      "version_id": "df0bc580-27e6-5926-acf8-ade5a68c4acf",
+      "content_hash": "d9e675d22b0af79c4e70e90cccd4344f794bf05ac03caa431201a0df00596aeb",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d1f8a14e-aac6-5611-beb2-0186ea7cd920",
+      "reference": "9.2",
+      "question_id": "3669f286-6130-5603-aa7c-18ea2240d287",
+      "version_id": "638dcb80-1273-5bc6-8bf4-e97d5a4fc756",
+      "content_hash": "ca61f2d916941996d3df075fa9c5fd1021ba40a0654a739643b6db4d8660fe9b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "d1f8a14e-aac6-5611-beb2-0186ea7cd920",
+      "reference": "9.2",
+      "question_id": "e7fafb53-36b4-5147-8675-d892539244db",
+      "version_id": "e34b47d0-2e5e-50b8-a7f2-0cd990a0afae",
+      "content_hash": "5e39f096e22051ba23ed82daa1a0623d04e4464af20f5181ba03c805419872ec",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "e3d5aee6-e833-5f2a-967f-82b0f9374017",
+      "reference": "9.3",
+      "question_id": "3e338114-273c-5839-add1-f8d5961d37ad",
+      "version_id": "ac18bed1-e456-53e3-8ae7-6b0e8e6f818c",
+      "content_hash": "35f0dc1a8a2089bd88327d42a1ef131fd403134b4fbcff1e03f3289805054141",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "e3d5aee6-e833-5f2a-967f-82b0f9374017",
+      "reference": "9.3",
+      "question_id": "96542830-0eaa-5925-8060-544eca96dcfd",
+      "version_id": "d1c1b2e4-2b62-51d2-b24a-55ee9ad34f36",
+      "content_hash": "4cda76e4f23ba3a42bab27853666c76e875aaf80f22cf0eac2647e2939e2c2be",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "e3d5aee6-e833-5f2a-967f-82b0f9374017",
+      "reference": "9.3",
+      "question_id": "c7e76872-0085-5b6e-a8b7-3eb798184f1f",
+      "version_id": "51491942-54db-541c-b525-32e8f6c9dda3",
+      "content_hash": "6987a40d24ddac6d9b095eaf2f7d47133a5c29f2d32c811c4169367cbf4678dc",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "e3d5aee6-e833-5f2a-967f-82b0f9374017",
+      "reference": "9.3",
+      "question_id": "e75101b5-fc32-512c-bb56-008741f7537e",
+      "version_id": "fa2529f5-68e4-536a-860d-51b02247ae48",
+      "content_hash": "20c16682bc248456253d360883daa6740fcadc29522be256db120e0bc3d3fbb4",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "e3d5aee6-e833-5f2a-967f-82b0f9374017",
+      "reference": "9.3",
+      "question_id": "03eb1f9e-9804-5aac-a021-d22349203771",
+      "version_id": "940041d4-7a52-5897-b056-322cf39e8d84",
+      "content_hash": "c0eb626ebf5fbef01a2865926c46fe6af76b14aa68cab154f94e0c04ffa2c6c1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "e3d5aee6-e833-5f2a-967f-82b0f9374017",
+      "reference": "9.3",
+      "question_id": "8add98f7-ba7b-59ad-818e-a70f48a3a522",
+      "version_id": "54d258fe-7ae2-518b-8d08-a82ccf7464c2",
+      "content_hash": "810f0d32ed911ae02f31b1ccc9ca8350ff00f560946f41c68a3fe80918e45dee",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "24b4148b-b22c-5293-87f3-bbd44ef9b7e4",
+      "reference": "9.4",
+      "question_id": "f1d83a80-fc3f-5a28-b017-4975be809c3e",
+      "version_id": "8a93d70a-9ca9-55f4-a892-eed4498ae060",
+      "content_hash": "56ba59659c5cfed74c2cec84d95ed1049c4f54b24b461fe5432827da34cae53a",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "24b4148b-b22c-5293-87f3-bbd44ef9b7e4",
+      "reference": "9.4",
+      "question_id": "83e505b1-6241-5f0c-8859-c57d78726c44",
+      "version_id": "779ad560-b9e5-5de0-bc13-6d83754947b9",
+      "content_hash": "3e18a4c2d4d362bfa7dfc835476bbd404b5262dddd7ae42a62e548d2122d4514",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "24b4148b-b22c-5293-87f3-bbd44ef9b7e4",
+      "reference": "9.4",
+      "question_id": "c0aa4b65-59e7-5130-9db0-4f7789274672",
+      "version_id": "f3237a1b-7a2f-5367-8049-edfc77825b03",
+      "content_hash": "151060a9b56236858ed7356263d9019fc3817f96062181901428ce51c93df1d8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "24b4148b-b22c-5293-87f3-bbd44ef9b7e4",
+      "reference": "9.4",
+      "question_id": "d94dbe78-fbbe-5ab4-a827-773cc18e87db",
+      "version_id": "0a8d070d-2772-570e-8968-e4943a35875f",
+      "content_hash": "85d25e5ee72d3616cd0e753a88d8eaed11ff50d206292c05b5b2144a98906268",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "24b4148b-b22c-5293-87f3-bbd44ef9b7e4",
+      "reference": "9.4",
+      "question_id": "77e2cd86-9dde-5f72-a480-256ebaf94c05",
+      "version_id": "3b7cecd9-3fbf-5ec7-b273-45b04b6089c8",
+      "content_hash": "1088d68d2592c76b0b82cc4bb3e77d6d60037924d602a94b815c5e46db10147b",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "24b4148b-b22c-5293-87f3-bbd44ef9b7e4",
+      "reference": "9.4",
+      "question_id": "c71d1a06-1e07-50af-a457-3b3be370a9d8",
+      "version_id": "f8a823ed-2474-576c-a34f-c7312e49de9d",
+      "content_hash": "b02556fb4b974df31d4300df1d987b8dd62ad0a6462ac54ab1cca17a58fab63d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "a4bd4118-cd3c-58c6-9cb7-4ace7b771062",
+      "reference": "10.1",
+      "question_id": "d37cc85a-05c9-53c7-87da-f7183a8312aa",
+      "version_id": "03a2bae0-a5e7-5507-9c71-0fd5f3b4d43f",
+      "content_hash": "45b2fb121898b0d70c41ff81533df92a2128560fb8bacacf383a4d49341b5c43",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "a4bd4118-cd3c-58c6-9cb7-4ace7b771062",
+      "reference": "10.1",
+      "question_id": "1d0ea214-9293-5450-b8f7-b0e6a1a9f13a",
+      "version_id": "ca2b2a02-a673-5271-8861-f86f49f6e80c",
+      "content_hash": "6d2d2a44e851ce67e0fe69085aaab4696c85fa2149da06b0c2c25188bb0d6e50",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "a4bd4118-cd3c-58c6-9cb7-4ace7b771062",
+      "reference": "10.1",
+      "question_id": "201a0912-8878-58eb-9fc1-f584db940dee",
+      "version_id": "b16c6574-746b-5009-a5ee-7c0288d52dd5",
+      "content_hash": "450f15b8ffb8160a974678d8b6144779359711a634754f92ae1f488aee1e72d8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "a4bd4118-cd3c-58c6-9cb7-4ace7b771062",
+      "reference": "10.1",
+      "question_id": "fdc39e96-7e81-5138-9c8a-59c9a599a970",
+      "version_id": "e2a3704a-9f45-5e4c-877e-e63f1eeab32f",
+      "content_hash": "307da0e3bdf380e2cace2870a8497ac276d9e4868ebae575f6e2117d5a1d4c29",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "a4bd4118-cd3c-58c6-9cb7-4ace7b771062",
+      "reference": "10.1",
+      "question_id": "97af6bf5-a744-517d-b1db-5b5e869e1805",
+      "version_id": "62455d54-6079-5f2c-a8f9-8975daa6fe80",
+      "content_hash": "01751e08167f2dd0e1c8447798871e5e0a404946ecf290580a4feeea8e4a0125",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "a4bd4118-cd3c-58c6-9cb7-4ace7b771062",
+      "reference": "10.1",
+      "question_id": "207c075d-7630-56b1-b354-68397788f961",
+      "version_id": "9731b1b3-34e7-5ac5-886e-50abcd505371",
+      "content_hash": "4dfda81f6725d113faf010a4b96929b32e41f973aee34b5daf9acb4824b5a908",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1272b71b-e088-560d-b60e-a256ac7ea2a8",
+      "reference": "10.2",
+      "question_id": "1bdc336e-d539-5d75-8475-3be13fd803ef",
+      "version_id": "64f82bd1-b8f4-55e7-88e1-8df8a21c67e4",
+      "content_hash": "084908be0f0f203f57c391430b5fd3d9ba65899a34a71b0c20cdcbd448812c88",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1272b71b-e088-560d-b60e-a256ac7ea2a8",
+      "reference": "10.2",
+      "question_id": "37a38720-c5ab-526a-8c42-8d241c0547a3",
+      "version_id": "46356cc3-7e51-5688-a03a-cab25c208f73",
+      "content_hash": "3a9d9b1d14525bdb6927ebb2ddf64bebd5484c90baa3223606c6089e0ce26138",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1272b71b-e088-560d-b60e-a256ac7ea2a8",
+      "reference": "10.2",
+      "question_id": "9f47e2a5-ad8f-5a04-bd1e-10035947497a",
+      "version_id": "d2d1802d-0621-5301-9d44-0688ed51a682",
+      "content_hash": "75d9e2ff2b3963b113502643ea331832d45e4eac88d4304658a91571607d2653",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1272b71b-e088-560d-b60e-a256ac7ea2a8",
+      "reference": "10.2",
+      "question_id": "284b6c39-b6e3-5c1d-b2a5-c93e325bc257",
+      "version_id": "c8fc4d2e-589c-5b79-8d00-7ac13fde6e03",
+      "content_hash": "fb1093ff309e79d0266fc3f46a558bf932be0d5b8a445d6e87c15d34a5c32e4f",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1272b71b-e088-560d-b60e-a256ac7ea2a8",
+      "reference": "10.2",
+      "question_id": "735dd9c3-da8a-5e10-8555-e1357d01f84e",
+      "version_id": "ac116da7-b184-567c-b34d-c4bb4f695a8b",
+      "content_hash": "ec6d2be1615f9f9cbcee2642f0fe3ebad8716beef1346073658c6229e36f3293",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "1272b71b-e088-560d-b60e-a256ac7ea2a8",
+      "reference": "10.2",
+      "question_id": "48c3227d-af31-52f6-bbd0-2d848bef6617",
+      "version_id": "b316b578-c48f-538f-8fef-59bfeb898bf6",
+      "content_hash": "25ab4fbd7368b50cd342d55a6dad57bc0d1d92133eaa6616cf80d30749aff238",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "dbfc3522-35a2-5960-b095-7a6db2de2719",
+      "reference": "10.3",
+      "question_id": "978f8fae-bf03-5638-9372-a3a64ba74c78",
+      "version_id": "995a46fa-59fc-53bc-9c12-c2d0cfafdeac",
+      "content_hash": "162e0e792c6ce4860d84bd793b6323a1202074b3c3568548915a3daf7bc39e61",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "dbfc3522-35a2-5960-b095-7a6db2de2719",
+      "reference": "10.3",
+      "question_id": "992314b8-2a29-59b0-8e08-4950fc59d82a",
+      "version_id": "7b08cb92-ab9a-58f8-a81b-ff6db6ad7e77",
+      "content_hash": "d28f6ef89108b592c51915ee1f5e36cea279bd5a0efa0dd407da52671b0c6da7",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "dbfc3522-35a2-5960-b095-7a6db2de2719",
+      "reference": "10.3",
+      "question_id": "e04afcd6-54aa-51b0-b8a3-0f361f585f43",
+      "version_id": "7e0844e1-5cdf-5b27-a51b-8a6c495b76a6",
+      "content_hash": "d98dcc217431eaf0da58540170e2571e69f5a518ad0a74ff18747421d96a5147",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "dbfc3522-35a2-5960-b095-7a6db2de2719",
+      "reference": "10.3",
+      "question_id": "bd14c427-d782-50da-b736-849a62adb266",
+      "version_id": "0012f655-62a0-525c-b4f8-87f856d1854d",
+      "content_hash": "fccdc79a32f40e997903d397257c529b2be232e1aef38b43d88f431b20d8d7aa",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "dbfc3522-35a2-5960-b095-7a6db2de2719",
+      "reference": "10.3",
+      "question_id": "74e60061-4532-5056-864a-810253940d03",
+      "version_id": "447282b0-2f3a-52f9-9299-a13faa5e5cbf",
+      "content_hash": "d86ced89ceacdf82de8b32a098a39ffae547097d2f80bfad61c6cafcde228fd7",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "dbfc3522-35a2-5960-b095-7a6db2de2719",
+      "reference": "10.3",
+      "question_id": "bc1f1c7d-ea48-5ce0-8b87-f58ae3d9661e",
+      "version_id": "a521056b-5608-5d1b-8347-6c50f8d7884f",
+      "content_hash": "a7456ee4db43b5fdd027dc9e9cb56164c6f2d870f07ccf6a6ed04e8a88ec215e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "5542e979-d9d3-5d77-a599-cae818cb89db",
+      "reference": "10.4",
+      "question_id": "2ca073b6-9030-5a24-b07f-a38f33eeb7fc",
+      "version_id": "b1cdab02-af63-5542-b032-64925c1bfcaf",
+      "content_hash": "32fa4bd50f42d4952799cc46891558b5cd197ce40cd71b874c8a07601fe5be5d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "5542e979-d9d3-5d77-a599-cae818cb89db",
+      "reference": "10.4",
+      "question_id": "eda7be1c-4df3-5e5d-be4e-253e956123eb",
+      "version_id": "99a9ba25-db54-57a5-87a9-c0d14c7b18cb",
+      "content_hash": "24a20af753a41ddb78fb4bfc26301bb89dcc711fff4cf94e40de3593e5114bbe",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "5542e979-d9d3-5d77-a599-cae818cb89db",
+      "reference": "10.4",
+      "question_id": "2806b1a2-5be6-5151-b0df-d6fdbee5a816",
+      "version_id": "0d118ef2-4154-5a7a-9e92-c25e21cf1db6",
+      "content_hash": "5e092976f29e8911631776b036375473d94e3489cb0c49b7126bd1a6ff0cb9db",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "5542e979-d9d3-5d77-a599-cae818cb89db",
+      "reference": "10.4",
+      "question_id": "9b652fbf-d09a-55f5-a96a-9a256199b514",
+      "version_id": "98830eca-fc37-59df-b025-5416240fe082",
+      "content_hash": "d3b5e3dc33ec6353f66e37b312d2f1b3004dc52eeee41d629681f90901d78bc0",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "5542e979-d9d3-5d77-a599-cae818cb89db",
+      "reference": "10.4",
+      "question_id": "95f09041-bf31-52f6-b21d-6ba34d6dc365",
+      "version_id": "a9973122-f57c-5d65-acd3-68b6f9040e0f",
+      "content_hash": "a54d4378ac9248b0da750f77c9a77da97bd7e80efe42152b958cba36b7884099",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "5542e979-d9d3-5d77-a599-cae818cb89db",
+      "reference": "10.4",
+      "question_id": "11d415de-67b6-58d8-b9f7-3a3eceac081d",
+      "version_id": "0d0cd315-2c71-58cd-afb6-07ffb5dd4427",
+      "content_hash": "088309b6b661e2710d7ebc9593c610ea818e52c964770e3391eb10b779e3d293",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4ecdc376-3234-5930-9dad-726caa1daf94",
+      "reference": "10.5",
+      "question_id": "ec4fa6a7-3ed8-5809-aaeb-f45a8fde8c9d",
+      "version_id": "205eaff7-21dc-5df8-b148-45a81f2e13c1",
+      "content_hash": "35089862a72e6a1e553b3a599848f9944c9fc0410cacc2991930b352a88cbdd3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4ecdc376-3234-5930-9dad-726caa1daf94",
+      "reference": "10.5",
+      "question_id": "b795718b-4cbb-5566-88c7-72d09ae153fd",
+      "version_id": "fbeb0a9b-2a57-5b59-9345-dba193781d59",
+      "content_hash": "30f4889fbeeb97b3b65d84fcfbadfe93609977445d09f95136f7f165e7532f92",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4ecdc376-3234-5930-9dad-726caa1daf94",
+      "reference": "10.5",
+      "question_id": "59cf67eb-f70e-51bb-b8af-6449aa0418fc",
+      "version_id": "89ccc813-5258-51d0-990e-512868a610ed",
+      "content_hash": "be2c915941f77ea0e522a4a09f2e61bea7504f1a35cd5244b3a3aa14ed76851e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4ecdc376-3234-5930-9dad-726caa1daf94",
+      "reference": "10.5",
+      "question_id": "aebb1fd9-1b2b-571a-8366-7f7a79a3c554",
+      "version_id": "11048cf1-e4a3-5f65-b85d-2f095be986d7",
+      "content_hash": "24b2114b6472b9f365e271d12589e3c5f041a2cf6d2f658162d61a517b4efba8",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4ecdc376-3234-5930-9dad-726caa1daf94",
+      "reference": "10.5",
+      "question_id": "7256ce25-6dcd-59e3-927e-3cf582778bf0",
+      "version_id": "19675c34-2404-501d-a73e-e7e51404d8e0",
+      "content_hash": "ba154439641cd94d7e92a4438986c8f926c3728ff299d1cdc27a2a0a15c9d812",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "4ecdc376-3234-5930-9dad-726caa1daf94",
+      "reference": "10.5",
+      "question_id": "d03efa80-ad39-5c12-b986-328cb36917f3",
+      "version_id": "faeb0ae5-7612-5dbb-b15a-68368ff8bf49",
+      "content_hash": "a6de8d494f2379ad3d0a0a5b129c64d1f881341dca7eaa02158b2e0715828015",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "78a2ec46-0fcf-578e-b208-bf61314e1217",
+      "reference": "11.1",
+      "question_id": "0e46a797-4b74-5b97-81a6-6f530ca7decf",
+      "version_id": "eb68d5ba-d298-54d6-837d-47971f0902b5",
+      "content_hash": "f9ed13f2bdb9684b64ff71a86fcc3ec7735dde6732e3a25d387fca16ed532f70",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "78a2ec46-0fcf-578e-b208-bf61314e1217",
+      "reference": "11.1",
+      "question_id": "ff2a9357-2193-59e6-99e4-42db79778fed",
+      "version_id": "f1def2bf-beaf-54cd-84d0-24914cc8632e",
+      "content_hash": "1439960c2f8ed6c876070d053a4b4115183c356e1d4d1126e582c40144e7e089",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "78a2ec46-0fcf-578e-b208-bf61314e1217",
+      "reference": "11.1",
+      "question_id": "543bd727-ea51-5cc6-89ec-c50cd73316b7",
+      "version_id": "0901baea-ac1c-55fe-95ba-77a0039f95c2",
+      "content_hash": "969eaf153bcd5eb6171eac5ac0d40b92133fa0a2f8af3e58fc4e1fa701cab971",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "78a2ec46-0fcf-578e-b208-bf61314e1217",
+      "reference": "11.1",
+      "question_id": "fea8a612-ffe5-504c-ba84-7d2bd165d3c9",
+      "version_id": "d18221e3-e57d-5fa5-8849-6983a8a5ceb3",
+      "content_hash": "6f8ea9458c475a48461116cc13e810fe8055133e3836770e0c161af5885c14b1",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "78a2ec46-0fcf-578e-b208-bf61314e1217",
+      "reference": "11.1",
+      "question_id": "99af9ccd-0fa4-5753-b321-4785a87a3dfd",
+      "version_id": "7a51b8e5-b46f-5f46-82a5-6fd8568a508f",
+      "content_hash": "dd6016330cc320628f8c288b49127fef821d8feb703602e135ad2486923eb168",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "78a2ec46-0fcf-578e-b208-bf61314e1217",
+      "reference": "11.1",
+      "question_id": "c693923b-f50a-569d-a076-a43b7f55ac26",
+      "version_id": "22628185-0c52-542f-b0ea-dd7a00aa835e",
+      "content_hash": "d8daa09b5be61a1184d877620d8180269609efe92601ce3e00ac1a8826755e57",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6a1f9105-a7be-54bf-8498-2c28878c0919",
+      "reference": "11.2",
+      "question_id": "9c866dd7-9d00-50b6-9702-5a819fd43e1b",
+      "version_id": "8ec0a952-f1ad-5582-82d4-e61dfb5140d5",
+      "content_hash": "86c773fc797a83e43c80eb5c5958d52266ec70d471388aa15e1f16f4dcc8828e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6a1f9105-a7be-54bf-8498-2c28878c0919",
+      "reference": "11.2",
+      "question_id": "1ed06d90-19f1-520c-9b76-1323a3b50b78",
+      "version_id": "38a25644-12ea-5a24-9072-36d03fb12b8b",
+      "content_hash": "1e9d18aed254db7faca53aa03494dff208194749a0ef1e566b70a8dabc358e86",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6a1f9105-a7be-54bf-8498-2c28878c0919",
+      "reference": "11.2",
+      "question_id": "4ed6dc22-91a5-5cef-a0d8-6fbadf2e6b5c",
+      "version_id": "b6a46f59-2910-5da1-b602-05f78dc2c218",
+      "content_hash": "ae45f22aa9a0e2b4b8f562dd9873fb55ca047732ce55792347fdcdb0d9bcd726",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6a1f9105-a7be-54bf-8498-2c28878c0919",
+      "reference": "11.2",
+      "question_id": "007554c6-6415-50c3-aaea-8a97fe7d80ea",
+      "version_id": "18d28aa8-2b48-50ce-bc50-6be99d6ca376",
+      "content_hash": "82e550fdd674afebe979fb9c1a7126045fcf15af6238711e1a623c0f4447463d",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6a1f9105-a7be-54bf-8498-2c28878c0919",
+      "reference": "11.2",
+      "question_id": "15cab644-7aa3-5053-a1c4-936dc9d98899",
+      "version_id": "bfbe3544-418b-5370-b309-70679e243ea7",
+      "content_hash": "74038dd0e6f785e268c96748d72e7cd0be2139250f21843d3c9f186abdc2cc08",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "6a1f9105-a7be-54bf-8498-2c28878c0919",
+      "reference": "11.2",
+      "question_id": "41cd18de-23dc-58f3-8bea-ef62bff23e25",
+      "version_id": "e041d25b-d9ac-5262-9df6-4561eefbe520",
+      "content_hash": "3c036d365239f1922981730fb1832e3d366071706404586019c4c80bbd12958c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "01882b52-c6c2-55f5-af1e-8321fd225109",
+      "reference": "11.4",
+      "question_id": "bd1d5e8f-b14b-53d6-a64b-0c1bc918aab0",
+      "version_id": "29ceb133-7abf-5058-bc9d-12bdbf45aedb",
+      "content_hash": "e0fa542e33efda11a57f9b743d42be53e9026eb6c1115cd130818189463c69ab",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "01882b52-c6c2-55f5-af1e-8321fd225109",
+      "reference": "11.4",
+      "question_id": "5f28d586-761f-5459-abdf-d6e21333ad4b",
+      "version_id": "b9b9ec94-f894-54fb-b5ad-d9b92570eb5a",
+      "content_hash": "2d1d3b3838e4af4a39e39b1346b3d64887b9a683de57bec6583fee32c1aabb16",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "01882b52-c6c2-55f5-af1e-8321fd225109",
+      "reference": "11.4",
+      "question_id": "70582696-a6fe-50ec-9160-2e94b736890a",
+      "version_id": "ba535894-79f9-5de6-b343-1f3c8c73a053",
+      "content_hash": "d6b600255aaeee3c77968693adc448faccd51f539f01a3c48507cf34500334d6",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "01882b52-c6c2-55f5-af1e-8321fd225109",
+      "reference": "11.4",
+      "question_id": "a158c585-ec4f-5580-a468-03c3cc4504c3",
+      "version_id": "01fcacd3-7c5a-5908-82c3-7e014531a8a4",
+      "content_hash": "5a1045c95b22bbad479eb44cbef741cfe9fefbb7b2947651df881001d989d570",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "01882b52-c6c2-55f5-af1e-8321fd225109",
+      "reference": "11.4",
+      "question_id": "79e60e63-015f-5821-ab44-e60e4e8435c4",
+      "version_id": "5ca8adf2-64e4-53bd-940e-f771b5674c33",
+      "content_hash": "b6fe435e91b6a5ce93775d36afdfbeb474ed7723b77120d8fad4688a124fd975",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "01882b52-c6c2-55f5-af1e-8321fd225109",
+      "reference": "11.4",
+      "question_id": "75890f12-a125-53d4-9a82-74cc024a8713",
+      "version_id": "85a92aed-d60a-5374-b1d1-1129a99830fc",
+      "content_hash": "bd9519bc20ca8e12351c892f7fa9681e16f5516486db2940b4ce37704ce81428",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9b5c19fe-32fc-596e-b55f-c54646fbe2d1",
+      "reference": "11.5",
+      "question_id": "9893e11c-e579-583f-94ba-6c3d6ebc1422",
+      "version_id": "134eafd6-0ce8-5b6d-bd00-51cdb4c72612",
+      "content_hash": "8793c29c0e8976c974f022840afb8a7630ea5822faa19dcbbc91f093cc4c02d3",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9b5c19fe-32fc-596e-b55f-c54646fbe2d1",
+      "reference": "11.5",
+      "question_id": "445174ab-9603-541f-9b18-38dd36a8abbd",
+      "version_id": "150bf20e-8c0e-5ea3-a825-1ef185df57eb",
+      "content_hash": "4a7176ee05bc46e97dfc3ddc7f1b90a8b935da647c28302e0735baef7e6806ed",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9b5c19fe-32fc-596e-b55f-c54646fbe2d1",
+      "reference": "11.5",
+      "question_id": "5522f8d1-d9e1-52d0-a940-270c97d803eb",
+      "version_id": "de3c8d6a-9473-5935-a25c-1b2aa807e655",
+      "content_hash": "25e38d012a523ee2bae6fd53f23a5940c116c94f9dd40d0156e7929c5d3ae69e",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9b5c19fe-32fc-596e-b55f-c54646fbe2d1",
+      "reference": "11.5",
+      "question_id": "68176e10-cd42-5e78-b22c-d0b1f9e455fe",
+      "version_id": "25e86122-76f8-584b-9bf2-197bc27e5378",
+      "content_hash": "b227e36d5d2bac163f1bf3499a0eeb251f727483e76603a61b5e5ed226173398",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9b5c19fe-32fc-596e-b55f-c54646fbe2d1",
+      "reference": "11.5",
+      "question_id": "0eec67d6-9671-5f62-b5d7-ac4b10559fa9",
+      "version_id": "faa40a08-fc79-5b8e-9b99-e40c242e0dd3",
+      "content_hash": "3c95577b7370a9fdb2cdd515b39224ceaee354acfa7e5c1f18e01df22f709c54",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "9b5c19fe-32fc-596e-b55f-c54646fbe2d1",
+      "reference": "11.5",
+      "question_id": "de5fffa1-a29b-503e-9cd5-3ee5657aa0b5",
+      "version_id": "db6cc791-b515-52f6-bcef-b9c5badbb9fd",
+      "content_hash": "969ebb67ad1a8990f7e11091914ef841bf2fd9ee0b8711aeda1bdfe89cee6c2c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0e66959d-612a-5247-a525-a3440d70ed79",
+      "reference": "11.6",
+      "question_id": "f237be3a-f0ab-5f26-97a5-87e00468fd78",
+      "version_id": "04f8cb99-d405-5122-abb4-7dc173b1a77c",
+      "content_hash": "a730020073db985aa7f9c6441922b2a478bb702d6b289a80943c380e0a263212",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0e66959d-612a-5247-a525-a3440d70ed79",
+      "reference": "11.6",
+      "question_id": "c1f12c62-4bca-5149-b051-6b73738ed327",
+      "version_id": "ca3ee057-3949-5353-9deb-24d8fb1a21be",
+      "content_hash": "e256360105995897f413ca876da59cc12846f64de553730b93e26c099795e957",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0e66959d-612a-5247-a525-a3440d70ed79",
+      "reference": "11.6",
+      "question_id": "3a315907-15d5-55e2-bc65-41119e8248f2",
+      "version_id": "ddb2433e-d155-55bd-b90a-1bb594caab78",
+      "content_hash": "5d12ba81b1ebc5825a007ef4c88662df8fe8dc15f31414948b1b37f191c14021",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0e66959d-612a-5247-a525-a3440d70ed79",
+      "reference": "11.6",
+      "question_id": "7ce89a9a-9f52-570b-abe9-c90a17c1d983",
+      "version_id": "95d7254b-95cf-5b03-b44f-9519b136eca0",
+      "content_hash": "d5d6834be658c28e16d75e64bf2eaf63c1e180483abfdcf0c685dc32b0e5f617",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0e66959d-612a-5247-a525-a3440d70ed79",
+      "reference": "11.6",
+      "question_id": "881737e4-80f9-5ee8-bb7d-48109c20df2d",
+      "version_id": "b5e5087e-9692-5658-aadb-29545defa269",
+      "content_hash": "52102957c91f7276eddce11f53e4d05527580b7d6724b228f063a37cd92b4672",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "0e66959d-612a-5247-a525-a3440d70ed79",
+      "reference": "11.6",
+      "question_id": "9b29ba2a-afd8-5443-8cb1-2a2dadaf3891",
+      "version_id": "f5b306ab-b882-5d4f-ad4f-9bcb94af72a1",
+      "content_hash": "b4cc6dfaba5749077d93003cc51c822c9fcbfd7e709c9b05d7704e06934e2135",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "75ee2d40-0292-50c3-a5d5-b3aab8a5f19e",
+      "reference": "11.7",
+      "question_id": "cd1eb8dd-5c22-5c3e-80ab-7c88dc31bc2b",
+      "version_id": "86ad8e3b-03c9-5e5b-91d7-3f00ea581235",
+      "content_hash": "3afff0b52b06ce0222d1d7c1019edabac3f541273b793ceab4f7354e8da46b91",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "75ee2d40-0292-50c3-a5d5-b3aab8a5f19e",
+      "reference": "11.7",
+      "question_id": "8cedad8f-420e-5185-a34f-dbabba5c9f79",
+      "version_id": "f6c8b210-c4c5-5225-a57c-209ec23a0e4a",
+      "content_hash": "6de766a07abd41baa35c9ecac0fb3666d60261cdf9582e89b86f8e7684cacc17",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "75ee2d40-0292-50c3-a5d5-b3aab8a5f19e",
+      "reference": "11.7",
+      "question_id": "d2005e22-fe23-54dd-b745-8635f0f23f9b",
+      "version_id": "111f7d83-eace-5322-b547-5cdef34802eb",
+      "content_hash": "b0b30bd5d2cdd0830e834b6f7dd983333a183e79822cca6ea759030d957dae50",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "75ee2d40-0292-50c3-a5d5-b3aab8a5f19e",
+      "reference": "11.7",
+      "question_id": "6d5a852b-171a-521d-a23c-ca6e5783fdab",
+      "version_id": "e22c3caf-3107-5cba-8cee-f97a4b7973df",
+      "content_hash": "ce70d6f6b411d3288a66f6fd65fb83273e4cb8ebaeb930fbc0f36f583f87c60c",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "75ee2d40-0292-50c3-a5d5-b3aab8a5f19e",
+      "reference": "11.7",
+      "question_id": "cadf8c46-53b4-511b-9a7c-c0376ed65d72",
+      "version_id": "abe6c9b9-2502-5ce3-916b-839fdb0434c0",
+      "content_hash": "061b1b12a436c13183f1856f4ea70b1aed00991cfdfd94a3873708503c94ed13",
+      "educator_review": "pending"
+    },
+    {
+      "unit_id": "75ee2d40-0292-50c3-a5d5-b3aab8a5f19e",
+      "reference": "11.7",
+      "question_id": "34d1f32c-2498-530d-8766-f53399de9489",
+      "version_id": "3dbe028b-6d47-519f-a71e-030e3a58455b",
+      "content_hash": "2543e4fa094744211a9c1741d7ce7f226308cd37b3bf67b2a62cc5337bfbc625",
       "educator_review": "pending"
     }
   ]

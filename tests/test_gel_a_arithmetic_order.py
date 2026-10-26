@@ -45,7 +45,7 @@ class ArithmeticOrderStorageTests(DatabaseCase):
 
  def test_all_previous_banks_ids_versions_attempts_and_other_pointers_preserved(self):
   for p in sorted((ROOT/'content/questions').glob('*.v*.json')):
-   if not (p.name.startswith('gel-a-algebra.v') and int(p.stem.rsplit('v',1)[1])>=2):apply_release(self.db,json.loads(p.read_text(encoding='utf-8')))
+   if p.name.startswith(('gym-','gel-a-algebra.')) and not (p.name.startswith('gel-a-algebra.v') and int(p.stem.rsplit('v',1)[1])>=2):apply_release(self.db,json.loads(p.read_text(encoding='utf-8')))
   rows=validate_release(release());uid=rows[0][0]['id'];attempt=self.repo.start_attempt(uid,'easy')
   old=copy.deepcopy(attempt);ids=[tuple(x) for x in self.db.execute('SELECT * FROM questions')]
   versions=[tuple(x) for x in self.db.execute('SELECT * FROM question_versions')]

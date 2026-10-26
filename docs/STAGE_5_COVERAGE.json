@@ -1,10 +1,10 @@
 {
   "catalog_units": 325,
-  "units_with_quiz": 120,
-  "active_questions": 1104,
-  "with_learning_support": 774,
-  "first_pass_complete_units": 109,
-  "remaining_units": 216,
+  "units_with_quiz": 175,
+  "active_questions": 1434,
+  "with_learning_support": 1104,
+  "first_pass_complete_units": 164,
+  "remaining_units": 161,
   "educator_approved_units": 0,
   "units": [
     {
@@ -2215,11 +2215,18 @@
       "reference": "2.16",
       "title": "Απλές σχέσεις γωνιών",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "16c6d918-9ebc-5d2c-a26e-db930605023b",
+        "70311a8d-9cc6-5d84-b0c7-5ef5992da200"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2227,11 +2234,18 @@
       "reference": "3.1",
       "title": "Στοιχεία και είδη τριγώνων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "19c9a9cc-ec75-56cd-9e70-0935194526b1",
+        "67cc7ec9-f93e-5067-9804-6d3a1d28fbb1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2239,11 +2253,18 @@
       "reference": "3.2",
       "title": "1ο Κριτήριο ισότητας τριγώνων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2f64f139-2cf3-560d-8698-e7b6bb624a49",
+        "9aecf9b0-0b9c-562c-934c-31fd888f5e0c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2251,11 +2272,18 @@
       "reference": "3.3",
       "title": "2ο Κριτήριο ισότητας τριγώνων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "451907ad-4e3e-59a3-acc3-ef42e90c2bf2",
+        "4ada534c-3e98-57c9-b04a-26d8a164ddc9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2263,11 +2291,18 @@
       "reference": "3.4",
       "title": "3ο Κριτήριο ισότητας τριγώνων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5406a84b-c79e-549f-88f2-0b5e2dbaceaa",
+        "56d1e155-e493-5518-bc3f-8b550b7be6b7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2275,11 +2310,18 @@
       "reference": "3.5",
       "title": "Ύπαρξη και μοναδικότητα καθέτου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c6218ea1-dd57-57a9-ba9e-665a55d31787",
+        "d812864d-68f1-508f-b432-e986dec2dcbe"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2287,11 +2329,18 @@
       "reference": "3.6",
       "title": "Κριτήρια ισότητας ορθογώνιων τριγώνων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "06f1564c-7423-576a-8397-256a2aa6bd04",
+        "c9619f8c-713a-5e1c-af1f-7e596f9d4804"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2299,11 +2348,18 @@
       "reference": "3.7",
       "title": "Κύκλος - Μεσοκάθετος - Διχοτόμος",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "203b7adf-df28-595b-9781-d52c4be2d07f",
+        "6c59ae63-535f-5190-ab25-e9cd787e9fd4"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2311,11 +2367,18 @@
       "reference": "3.10",
       "title": "Σχέση εξωτερικής και απέναντι γωνίας",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7cb1fed6-9c75-5787-8f60-294b38f5091c",
+        "d1c66a69-b915-50b3-bdbd-639e57f5a33c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2323,11 +2386,18 @@
       "reference": "3.11",
       "title": "Ανισοτικές σχέσεις πλευρών και γωνιών",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "02f5ce48-0172-52d2-9bbb-dda3f94ddff3",
+        "4ab08bf6-db8b-5e7b-9a35-5776544d8710"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2335,11 +2405,18 @@
       "reference": "3.12",
       "title": "Tριγωνική ανισότητα",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "65c8df76-bba6-5577-880b-3499ffb0db15",
+        "c82e42f8-1449-5ef3-9011-03ba801e7da4"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2347,11 +2424,18 @@
       "reference": "3.14",
       "title": "Σχετικές θέσεις ευθείας και κύκλου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1ebf10aa-ef91-5802-a43c-a7d1de81b172",
+        "dac81467-6520-5ea0-b8bd-59201f55b12e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2359,11 +2443,18 @@
       "reference": "3.15",
       "title": "Εφαπτόμενα τμήματα",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "d473f0fb-6a9d-5221-bb7c-43b19d6a3116",
+        "fb717c08-6b7c-5d8e-9db0-0b039e6fc2e5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2371,11 +2462,18 @@
       "reference": "3.16",
       "title": "Σχετικές θέσεις δύο κύκλων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6840bc9a-7d5d-5251-a20a-a007ecc84b73",
+        "d829c030-9744-5847-aea9-dc881e0d1378"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2383,11 +2481,18 @@
       "reference": "3.17",
       "title": "Απλές γεωμετρικές κατασκευές",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2f7a3a07-bc19-5ddd-a7f6-44cdf3a99726",
+        "4bebb631-7463-5cb4-a5de-5b6b1d1b61a2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2395,11 +2500,18 @@
       "reference": "3.18",
       "title": "Βασικές κατασκευές τριγώνων",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "cbd2b0f7-1c89-51c7-bea6-225db07e0b54",
+        "e3883809-4247-57bf-bc6a-8deac6ad24f5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2407,11 +2519,18 @@
       "reference": "4.1",
       "title": "Εισαγωγή",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "43ef1b80-6e01-5c37-baab-a5c4e8d417aa",
+        "c7f909a4-79e0-5f46-beef-e9bd3702adbf"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2419,11 +2538,18 @@
       "reference": "4.2",
       "title": "Τέμνουσα δύο ευθειών - Ευκλείδειο αίτημα",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "af493461-2486-56d8-8a7d-828b7736dbaa",
+        "f756e552-7424-58e9-ab3d-33d68c2a8dba"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2431,11 +2557,18 @@
       "reference": "4.4",
       "title": "Γωνίες με πλευρές παράλληλες",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "00d17295-2c29-5ed7-ab61-e32583a9bc84",
+        "ea773a47-d696-5869-9ba3-628b59e3f068"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2443,11 +2576,18 @@
       "reference": "4.5",
       "title": "Αξιοσημείωτοι κύκλοι τριγώνου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "24c3bf9a-e1e4-53ea-898b-9f4331c261f8",
+        "a7c64713-02f4-5081-ad99-43ba0982a2c7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2455,11 +2595,18 @@
       "reference": "4.6",
       "title": "Άθροισμα γωνιών τριγώνου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4b5f4c4c-e503-5717-addf-91ff132ee1d0",
+        "b1ce5df6-2220-5e47-b1a9-79eacb51d6b7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2467,11 +2614,18 @@
       "reference": "4.8",
       "title": "Άθροισμα γωνιών κυρτού ν-γώνου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "f0ebb36b-e987-5d09-98a3-7188fafb91e1",
+        "fef14ab8-78ef-542e-8e93-e0348b6fafb8"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2479,11 +2633,18 @@
       "reference": "5.1",
       "title": "Εισαγωγή",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8f204987-8b82-5878-9396-6a7059047422",
+        "fc2b86a7-83b2-5c80-8fdb-6cbc577f5789"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2491,11 +2652,18 @@
       "reference": "5.2",
       "title": "Παραλληλόγραμμα",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c7615403-5b94-566c-9dc4-ec3d64cae4db",
+        "e2cdda71-db63-5abf-8dfb-6a061d53b261"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2503,11 +2671,18 @@
       "reference": "5.3",
       "title": "Ορθογώνιο",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "b39a04b3-5c13-5934-97e0-9e731d8438d9",
+        "c9254894-a055-5fcd-9fdb-83c4f9969382"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2515,11 +2690,18 @@
       "reference": "5.4",
       "title": "Ρόμβος",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6bd7efa1-e3de-563d-a81d-6b0dc3f41090",
+        "954d4891-3cdd-5d99-afc6-3327a927e010"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2527,11 +2709,18 @@
       "reference": "5.5",
       "title": "Τετράγωνο",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "66b46cbf-fe00-5969-bb22-01e64a43f63a",
+        "bf4c7f97-71d5-550e-9ab7-8c91506d0d37"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2539,11 +2728,18 @@
       "reference": "5.6",
       "title": "Εφαρμογές στα τρίγωνα",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5e2c86f7-8a8a-5a13-881b-57a3ef644793",
+        "93b1e504-708e-56f1-beff-a3008f1e5b80"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2551,11 +2747,18 @@
       "reference": "5.7",
       "title": "Βαρύκεντρο τριγώνου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "856412a3-8160-57da-be92-fc0e0183ccc7",
+        "d2cbbc69-30ea-51ff-9141-a299ea66ed22"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2563,11 +2766,18 @@
       "reference": "5.8",
       "title": "Το ορθόκεντρο τριγώνου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "99928630-34dd-5c3f-9e30-a31db324b2c3",
+        "a1827813-11cf-5320-825e-462a0b7d0e40"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2575,11 +2785,18 @@
       "reference": "5.9",
       "title": "Μια ιδιότητα του ορθογώνιου τριγώνου",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6ab4245b-2f49-58db-b1db-79c4ed4226c8",
+        "f80ecaae-5f8c-5c18-92d6-fb3f0f7b8898"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2587,11 +2804,18 @@
       "reference": "5.10",
       "title": "Τραπέζιο",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "87850d44-3d27-5216-835c-a27a881a4b95",
+        "fd3adf6e-ebbf-51eb-b0a4-f26cef865c5a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2599,11 +2823,18 @@
       "reference": "5.11",
       "title": "Ισοσκελές τραπέζιο",
       "course_key": "gel-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c7d5d9a0-e96f-5777-bdca-733ae3f2c13c",
+        "dabab983-8949-51f2-b3fb-b7646109b0f9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2791,11 +3022,18 @@
       "reference": "7.1",
       "title": "Εισαγωγή",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3472f0cb-6010-59bf-b0da-3a042e44faf1",
+        "ab7a3f34-069b-5bbe-936e-ba8c2879158c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2803,11 +3041,18 @@
       "reference": "7.4",
       "title": "Ανάλογα ευθύγραμμα τμήματα – Αναλογίες",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "023b1f39-fba9-5075-ba3b-73a6aae4aaac",
+        "2ca19fd4-9218-57e6-ba51-d84a7afd2906"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2815,11 +3060,18 @@
       "reference": "7.5",
       "title": "Μήκος ευθύγραμμου τμήματος",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2762e44e-22b8-5aba-bbf7-8127bb244663",
+        "6444a616-86a6-588d-8cf1-7af7c729d8be"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2827,11 +3079,18 @@
       "reference": "7.6",
       "title": "Διαίρεση τμημάτων εσωτερικά και εξωτερικά ως προς δοσμένο λόγο",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "05f4e62a-e7f2-5276-833d-138e84efa9d1",
+        "dc5b877c-206f-5c37-a7d2-619a470b15aa"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2839,11 +3098,18 @@
       "reference": "7.7",
       "title": "Θεώρημα του Θαλή",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4b2b0d18-591b-5a69-b7e8-a389f7bcbc49",
+        "52eedb2c-b9cf-541f-9d9a-a7ae45f3458b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2851,11 +3117,18 @@
       "reference": "8.1",
       "title": "Όμοια ευθύγραμμα σχήματα",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "23b7a921-2fe2-54cf-ab26-0ee6eecb6b2a",
+        "fb75207e-0b37-54de-a7db-70306c208b47"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2863,11 +3136,18 @@
       "reference": "8.2",
       "title": "Κριτήρια ομοιότητας",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "15bf44a2-e176-5be1-afca-b1dec3ec3b26",
+        "2b7dbd8c-bb16-5ecd-baad-2c599d2bf8b0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2875,11 +3155,18 @@
       "reference": "9.1",
       "title": "Ορθές προβολές",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "92b3e562-8489-5532-90c5-4a89df2ff03a",
+        "9aaec322-d8c3-5de4-86d7-f0bfb748032c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2887,11 +3174,18 @@
       "reference": "9.2",
       "title": "Το Πυθαγόρειο θεώρημα",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0302746e-bd7f-59b4-b9fb-3888a1abd7b7",
+        "29d3b2c5-edb7-5fe5-837d-d0941f8c9027"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2899,11 +3193,18 @@
       "reference": "9.3",
       "title": "Γεωμετρικές κατασκευές",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "183a02ad-49b4-54b4-be89-a01c09d54c7d",
+        "747af4e1-0250-5574-b982-e0f99eca84f5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2911,11 +3212,18 @@
       "reference": "9.4",
       "title": "Γενίκευση του Πυθαγόρειου θεωρήματος",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "923b0d03-dff2-526d-902f-4a0083891dc3",
+        "dc14c16b-ccd1-5aa1-9386-67a5baeefae1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2923,11 +3231,18 @@
       "reference": "10.1",
       "title": "Πολυγωνικά χωρία",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7bf8a90e-ea49-5769-b73a-fbe802636cdf",
+        "99d2162b-805a-5bdd-a549-2279530b65bc"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2935,11 +3250,18 @@
       "reference": "10.2",
       "title": "Εμβαδόν ευθύγραμμου σχήματος - Ισοδύναμα ευθύγραμμα σχήματα",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6298d9ad-18b9-5796-8d2b-9cdcc956f493",
+        "7dcbc8e9-e786-595f-b2e3-1ab0cd166416"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2947,11 +3269,18 @@
       "reference": "10.3",
       "title": "Εμβαδόν βασικών ευθύγραμμων σχημάτων",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "24d94890-9fbe-5088-9370-bd5a0d055324",
+        "cb2b748e-a260-5dba-92c8-180d642253bb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2959,11 +3288,18 @@
       "reference": "10.4",
       "title": "Άλλοι τύποι για το εμβαδόν τριγώνου",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5ebe409d-475e-5858-9497-435ab2c0188a",
+        "7127308a-9179-5895-8f1b-397108e331e0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2971,11 +3307,18 @@
       "reference": "10.5",
       "title": "Λόγος εμβαδών όμοιων τριγώνων – πολυγώνων",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1747f754-d4b9-5510-b088-ce882d33c194",
+        "6ad5e22e-180e-5d16-9604-153dfb0d88eb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2983,11 +3326,18 @@
       "reference": "11.1",
       "title": "Ορισμός κανονικού πολυγώνου",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3032368c-90fc-5ba2-80d7-298d404955d5",
+        "e3b2cbf4-7a08-524d-bf7a-d05749ef7435"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2995,11 +3345,18 @@
       "reference": "11.2",
       "title": "Ιδιότητες και στοιχεία κανονικών πολυγώνων",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1dd6d98d-44bc-590b-826b-edc363eb84cf",
+        "515114f7-73bf-5391-9a94-d6cbb00086dd"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3007,11 +3364,18 @@
       "reference": "11.4",
       "title": "Προσέγγιση του μήκους του κύκλου με κανονικά πολύγωνα",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "294f392a-e4d9-5d82-b9c3-ecd59be35267",
+        "3cedcc2b-d63f-5470-8847-f13d6d0ad7a9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3019,11 +3383,18 @@
       "reference": "11.5",
       "title": "Μήκος τόξου",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "66c703ae-84bd-573d-b4d6-e8d9311c2b99",
+        "d2680dc4-50cd-54f7-818a-b300360f24b2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3031,11 +3402,18 @@
       "reference": "11.6",
       "title": "Προσέγγιση του εμβαδού κύκλου με κανονικά πολύγωνα",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "08cddfd9-0f6d-531b-86c4-802d0707845e",
+        "8a8217e7-18bb-51a4-97fe-a7ab85f803cc"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3043,11 +3421,18 @@
       "reference": "11.7",
       "title": "Εμβαδόν κυκλικού τομέα και κυκλικού τμήματος",
       "course_key": "gel-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2e06245b-2ce4-59ae-a73a-9f60f8a51434",
+        "32a71c93-0d22-5254-b8ed-bcb41e36898c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
