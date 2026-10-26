@@ -1,4 +1,4 @@
-"""Read-only coverage: legacy questions are never counted as reviewed content."""
+"""Read-only coverage: only questions with explicit learning support are reviewed."""
 import json
 import argparse
 from pathlib import Path

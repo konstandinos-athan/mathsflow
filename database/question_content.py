@@ -22,6 +22,23 @@ def number(text):
     return Fraction(value)
 
 
+def finite_set(elements):
+    if (not isinstance(elements, list) or len(elements) > 100 or
+            any(type(x) is not int or abs(x) > 1000000 for x in elements) or
+            len(set(elements)) != len(elements)):
+        raise ValueError('Finite sets need distinct bounded integer elements')
+    return frozenset(elements)
+
+
+def finite_set_choice(text):
+    text = text.strip()
+    if text == '∅':
+        return frozenset()
+    if not re.fullmatch(r'\{\s*-?\d+(?:\s*,\s*-?\d+)*\s*\}', text):
+        raise ValueError('Finite set choices need explicit integer sets')
+    return finite_set([int(x.strip()) for x in text[1:-1].split(',')])
+
+
 def validate_release(release):
     if release.get('schema_version') != 1 or release.get('educator_review') != 'pending':
         raise ValueError('Invalid question release or review status')
@@ -36,7 +53,17 @@ def validate_release(release):
         slug = entry.get('key', '')
         if unit is None or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug):
             raise ValueError('Invalid unit or stable question key')
-        qid = stable('bank-question/' + unit['id'] + '/' + slug)
+        if 'legacy_index' in entry:
+            index = entry['legacy_index']
+            limit = unit.get('coverage', {}).get('question_count', 0)
+            if (not unit.get('legacy') or type(index) is not int or
+                    not 1 <= index <= limit or slug != f'legacy-{index:02}' or
+                    not isinstance(entry.get('expected_current'), str) or
+                    not re.fullmatch(r'[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}', entry['expected_current'])):
+                raise ValueError('Invalid legacy revision identity or baseline')
+            qid = stable('legacy-question/' + unit['id'] + '/' + str(index))
+        else:
+            qid = stable('bank-question/' + unit['id'] + '/' + slug)
         if qid in ids or 'expected_current' not in entry:
             raise ValueError('Duplicate ID or missing baseline')
         ids.add(qid)
@@ -97,6 +124,26 @@ def validate_release(release):
             roots = [v for v in values if v >= 0 and v*v == radicand]
             if roots != [number(payload['answer'])]:
                 raise ValueError('Answer is not the unique nonnegative square root')
+        elif verification.get('kind') == 'finite_set':
+            a = finite_set(verification.get('left'))
+            b = finite_set(verification.get('right'))
+            operation = verification.get('operation')
+            if operation == 'union':
+                result = a | b
+            elif operation == 'intersection':
+                result = a & b
+            elif operation == 'difference':
+                result = a - b
+            elif operation == 'symmetric_difference':
+                result = a ^ b
+            elif operation == 'union_difference':
+                result = (a | b) - finite_set(verification.get('exclude'))
+            else:
+                raise ValueError('Unsupported finite set operation')
+            values = [finite_set_choice(c) for c in payload['choices']]
+            if (len(set(values)) != 4 or values.count(result) != 1 or
+                    finite_set_choice(payload['answer']) != result):
+                raise ValueError('Answer does not match finite set calculation')
         elif verification.get('kind') == 'conceptual':
             # This checks the explicit review record, not the truth of Greek prose.
             reviews = verification.get('choice_reviews')
@@ -142,6 +189,8 @@ def apply_release(connection, release):
             existing = connection.execute('SELECT unit_id FROM questions WHERE id=?', (qid,)).fetchone()
             current = connection.execute('SELECT version_id FROM current_questions WHERE question_id=?', (qid,)).fetchone()
             current = current[0] if current else None
+            if 'legacy_index' in entry and existing is None:
+                raise ValueError('Legacy revision requires an existing question')
             if existing and existing[0] != unit['id']:
                 raise ValueError('Question moved to another unit')
             if current == desired:

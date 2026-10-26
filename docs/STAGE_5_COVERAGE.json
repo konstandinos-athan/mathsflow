@@ -2,9 +2,9 @@
   "catalog_units": 325,
   "units_with_quiz": 120,
   "active_questions": 1104,
-  "with_learning_support": 624,
-  "first_pass_complete_units": 104,
-  "remaining_units": 221,
+  "with_learning_support": 654,
+  "first_pass_complete_units": 105,
+  "remaining_units": 220,
   "educator_approved_units": 0,
   "units": [
     {
@@ -1989,10 +1989,17 @@
       "title": "Σύνολα",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "3d4cb5d2-f073-5140-ad49-e8718980f89f",
+        "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {

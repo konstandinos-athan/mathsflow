@@ -1,0 +1,1739 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-a-algebra-v1",
+  "course": "gel-a-algebra",
+  "authored_on": "2026-10-25",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "Ε.2",
+      "key": "legacy-01",
+      "legacy_index": 1,
+      "expected_current": "d4ace4b7-9191-5107-8a78-1b35d30203ae",
+      "payload": {
+        "question": "Το σύνολο Α={1,2,3} πόσα διαφορετικά στοιχεία έχει;",
+        "choices": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Μέτρησε κάθε διαφορετικό στοιχείο μία φορά.",
+        "solution": "Τα διαφορετικά στοιχεία είναι 1, 2 και 3. Άρα το πλήθος του Α είναι 3.",
+        "skill": "Πλήθος πεπερασμένου συνόλου",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-02",
+      "legacy_index": 2,
+      "expected_current": "a6af1813-b1ec-5a3b-8b16-74a591e2ec4d",
+      "payload": {
+        "question": "Αν 2∈Α, ποια φράση αποδίδει το σύμβολο συμμετοχής;",
+        "choices": [
+          "Το 2 ανήκει στο Α",
+          "Το 2 δεν ανήκει στο Α",
+          "Το 2 είναι υποσύνολο του Α",
+          "Το 2 είναι ίσο με το Α"
+        ],
+        "answer": "Το 2 ανήκει στο Α",
+        "difficulty": "easy",
+        "hint": "Το ∈ συνδέει ένα στοιχείο με ένα σύνολο.",
+        "solution": "Το 2∈Α δηλώνει ότι ο αριθμός 2 είναι στοιχείο του Α.",
+        "skill": "Συμμετοχή στοιχείου σε σύνολο",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το 2 ανήκει στο Α",
+              "correct": true,
+              "reason": "Το 2∈Α δηλώνει ότι ο αριθμός 2 είναι στοιχείο του Α."
+            },
+            {
+              "choice": "Το 2 δεν ανήκει στο Α",
+              "correct": false,
+              "reason": "Το ∈ δηλώνει συμμετοχή και όχι αποκλεισμό."
+            },
+            {
+              "choice": "Το 2 είναι υποσύνολο του Α",
+              "correct": false,
+              "reason": "Το σύμβολο υποσυνόλου συνδέει σύνολα και όχι τον αριθμό 2 με το Α."
+            },
+            {
+              "choice": "Το 2 είναι ίσο με το Α",
+              "correct": false,
+              "reason": "Το ∈ δεν είναι σύμβολο ισότητας."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-03",
+      "legacy_index": 3,
+      "expected_current": "b7813bce-e6e9-5132-9563-b53421e41c19",
+      "payload": {
+        "question": "Ποιο είναι το σύμβολο του κενού συνόλου;",
+        "choices": [
+          "∅",
+          "{0}",
+          "0",
+          "∞"
+        ],
+        "answer": "∅",
+        "difficulty": "easy",
+        "hint": "Το κενό σύνολο δεν περιέχει κανένα στοιχείο.",
+        "solution": "Το ∅ παριστάνει το σύνολο χωρίς στοιχεία. Διαφέρει από το {0}, που έχει ένα στοιχείο.",
+        "skill": "Κενό σύνολο και σωστός συμβολισμός",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "∅",
+              "correct": true,
+              "reason": "Το ∅ παριστάνει το σύνολο χωρίς στοιχεία. Διαφέρει από το {0}, που έχει ένα στοιχείο."
+            },
+            {
+              "choice": "{0}",
+              "correct": false,
+              "reason": "Το {0} έχει ένα στοιχείο, τον αριθμό 0."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Ο αριθμός 0 δεν είναι το σύνολο χωρίς στοιχεία."
+            },
+            {
+              "choice": "∞",
+              "correct": false,
+              "reason": "Το ∞ δεν συμβολίζει το κενό σύνολο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-04",
+      "legacy_index": 4,
+      "expected_current": "d2444983-1700-5120-81ba-09f20c828618",
+      "payload": {
+        "question": "Στο διάγραμμα Α={1,2} και Β={2,3}. Ποια είναι η τομή Α∩Β;",
+        "choices": [
+          "{2}",
+          "{1,2,3}",
+          "{1}",
+          "{3}"
+        ],
+        "answer": "{2}",
+        "difficulty": "easy",
+        "hint": "Η τομή περιέχει όσα ανήκουν και στα δύο σύνολα.",
+        "solution": "Το 2 είναι το μοναδικό κοινό στοιχείο, άρα Α∩Β={2}. Το 1 ανήκει μόνο στο Α και το 3 μόνο στο Β.",
+        "skill": "Τομή από καταγραφή και διάγραμμα",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "intersection",
+          "left": [
+            1,
+            2
+          ],
+          "right": [
+            2,
+            3
+          ]
+        },
+        "image": {
+          "filename": "images/questions/gel-a-set-intersection.svg",
+          "alt": "Διάγραμμα δύο συνόλων: στο Α μόνο βρίσκεται το 1, στην κοινή περιοχή των Α και Β το 2 και στο Β μόνο το 3."
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-05",
+      "legacy_index": 5,
+      "expected_current": "99c25910-ff0d-5c03-8f00-04b1f0aa83c1",
+      "payload": {
+        "question": "Αν Α={1,2} και Β={2,3}, ποια είναι η ένωση Α∪Β;",
+        "choices": [
+          "{1,2,3}",
+          "{2}",
+          "{1}",
+          "{3}"
+        ],
+        "answer": "{1,2,3}",
+        "difficulty": "easy",
+        "hint": "Στην ένωση το μαθηματικό «ή» επιτρέπει και κοινή συμμετοχή.",
+        "solution": "Η ένωση περιλαμβάνει 1, 2 και 3, με το κοινό στοιχείο 2 γραμμένο μία φορά.",
+        "skill": "Ένωση δύο πεπερασμένων συνόλων",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "union",
+          "left": [
+            1,
+            2
+          ],
+          "right": [
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-06",
+      "legacy_index": 6,
+      "expected_current": "62ce59eb-34cf-54d4-86ad-f8cfa1105e99",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={2,3}, ποια δήλωση ισχύει;",
+        "choices": [
+          "Β⊆Α",
+          "Β⊈Α",
+          "Β=Α",
+          "Α⊆Β"
+        ],
+        "answer": "Β⊆Α",
+        "difficulty": "easy",
+        "hint": "Έλεγξε αν κάθε στοιχείο του Β ανήκει στο Α.",
+        "solution": "Τα 2 και 3 ανήκουν στο Α, άρα Β⊆Α. Το 1 ανήκει μόνο στο Α, οπότε τα σύνολα δεν είναι ίσα.",
+        "skill": "Έλεγχος σχέσης υποσυνόλου",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Β⊆Α",
+              "correct": true,
+              "reason": "Τα 2 και 3 ανήκουν στο Α, άρα Β⊆Α. Το 1 ανήκει μόνο στο Α, οπότε τα σύνολα δεν είναι ίσα."
+            },
+            {
+              "choice": "Β⊈Α",
+              "correct": false,
+              "reason": "Κάθε στοιχείο του Β ανήκει στο Α, άρα ο αποκλεισμός είναι λανθασμένος."
+            },
+            {
+              "choice": "Β=Α",
+              "correct": false,
+              "reason": "Το Α έχει και το στοιχείο 1 που λείπει από το Β."
+            },
+            {
+              "choice": "Α⊆Β",
+              "correct": false,
+              "reason": "Το στοιχείο 1 του Α δεν ανήκει στο Β."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-07",
+      "legacy_index": 7,
+      "expected_current": "50e49754-8b2d-5bad-88e6-2e5f9b30c0b1",
+      "payload": {
+        "question": "Πώς σχετίζεται το {1} με το {1,2};",
+        "choices": [
+          "Είναι υποσύνολό του",
+          "Είναι στοιχείο του",
+          "Είναι ίσο με αυτό",
+          "Είναι κενό σύνολο"
+        ],
+        "answer": "Είναι υποσύνολό του",
+        "difficulty": "easy",
+        "hint": "Το {1} είναι σύνολο με μοναδικό στοιχείο τον αριθμό 1.",
+        "solution": "Το μόνο στοιχείο του {1} είναι το 1 και ανήκει στο {1,2}. Άρα {1}⊆{1,2}.",
+        "skill": "Στοιχείο έναντι μονομελούς υποσυνόλου",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι υποσύνολό του",
+              "correct": true,
+              "reason": "Το μόνο στοιχείο του {1} είναι το 1 και ανήκει στο {1,2}. Άρα {1}⊆{1,2}."
+            },
+            {
+              "choice": "Είναι στοιχείο του",
+              "correct": false,
+              "reason": "Τα στοιχεία του {1,2} είναι οι αριθμοί 1 και 2, όχι το σύνολο {1}."
+            },
+            {
+              "choice": "Είναι ίσο με αυτό",
+              "correct": false,
+              "reason": "Από το {1} λείπει το στοιχείο 2."
+            },
+            {
+              "choice": "Είναι κενό σύνολο",
+              "correct": false,
+              "reason": "Το {1} περιέχει τον αριθμό 1 και δεν είναι κενό."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-08",
+      "legacy_index": 8,
+      "expected_current": "ac050817-2900-5265-a9fd-d088cf4b7b2d",
+      "payload": {
+        "question": "Αν x∉Α, ποια φράση είναι σωστή;",
+        "choices": [
+          "Το x δεν ανήκει στο Α",
+          "Το x ανήκει στο Α",
+          "Το x είναι υποσύνολο του Α",
+          "Το x είναι το κενό σύνολο"
+        ],
+        "answer": "Το x δεν ανήκει στο Α",
+        "difficulty": "easy",
+        "hint": "Το ∉ αρνείται τη συμμετοχή ενός στοιχείου.",
+        "solution": "Το x∉Α δηλώνει ακριβώς ότι το x δεν είναι στοιχείο του Α.",
+        "skill": "Άρνηση συμμετοχής στοιχείου",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το x δεν ανήκει στο Α",
+              "correct": true,
+              "reason": "Το x∉Α δηλώνει ακριβώς ότι το x δεν είναι στοιχείο του Α."
+            },
+            {
+              "choice": "Το x ανήκει στο Α",
+              "correct": false,
+              "reason": "Η πρόταση αναιρεί άμεσα το δοσμένο ∉."
+            },
+            {
+              "choice": "Το x είναι υποσύνολο του Α",
+              "correct": false,
+              "reason": "Δεν δίνεται σχέση υποσυνόλου ούτε ότι το x είναι σύνολο."
+            },
+            {
+              "choice": "Το x είναι το κενό σύνολο",
+              "correct": false,
+              "reason": "Η μη συμμετοχή δεν καθορίζει ότι το x είναι το κενό σύνολο."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-09",
+      "legacy_index": 9,
+      "expected_current": "d5581dd0-d06b-5d25-a4dd-579ea2b7c0dd",
+      "payload": {
+        "question": "Αν Α=Β, τι γνωρίζουμε για τα δύο σύνολα;",
+        "choices": [
+          "Έχουν ακριβώς τα ίδια στοιχεία",
+          "Έχουν τουλάχιστον ένα κοινό στοιχείο και αυτό αρκεί για ισότητα",
+          "Έχουν μόνο ίδιο πλήθος στοιχείων",
+          "Έχουν μόνο ακέραια στοιχεία"
+        ],
+        "answer": "Έχουν ακριβώς τα ίδια στοιχεία",
+        "difficulty": "easy",
+        "hint": "Ισότητα συνόλων σημαίνει πλήρη σύμπτωση των στοιχείων τους.",
+        "solution": "Τα Α και Β είναι ίσα όταν έχουν ακριβώς τα ίδια στοιχεία. Η σειρά γραφής δεν έχει σημασία.",
+        "skill": "Ισότητα συνόλων και στοιχεία",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Έχουν ακριβώς τα ίδια στοιχεία",
+              "correct": true,
+              "reason": "Τα Α και Β είναι ίσα όταν έχουν ακριβώς τα ίδια στοιχεία. Η σειρά γραφής δεν έχει σημασία."
+            },
+            {
+              "choice": "Έχουν τουλάχιστον ένα κοινό στοιχείο και αυτό αρκεί για ισότητα",
+              "correct": false,
+              "reason": "Ένα κοινό στοιχείο δεν αρκεί για ισότητα και ίσα κενά σύνολα δεν έχουν κοινό στοιχείο."
+            },
+            {
+              "choice": "Έχουν μόνο ίδιο πλήθος στοιχείων",
+              "correct": false,
+              "reason": "Το ίδιο πλήθος από μόνο του δεν εξασφαλίζει ίδια στοιχεία."
+            },
+            {
+              "choice": "Έχουν μόνο ακέραια στοιχεία",
+              "correct": false,
+              "reason": "Ίσα σύνολα μπορούν να περιέχουν και αντικείμενα που δεν είναι ακέραιοι."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-10",
+      "legacy_index": 10,
+      "expected_current": "d23ddbe2-aab1-56c6-80ca-1ec787dd2d66",
+      "payload": {
+        "question": "Αν Α={1,2,3}, ποια δήλωση για τον αριθμό 4 είναι σωστή;",
+        "choices": [
+          "4∉Α",
+          "4∈Α",
+          "{4}⊆Α",
+          "{4}=Α"
+        ],
+        "answer": "4∉Α",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε τον αριθμό 4 στα καταγεγραμμένα στοιχεία.",
+        "solution": "Το 4 δεν εμφανίζεται στο Α, άρα 4∉Α.",
+        "skill": "Έλεγχος μη συμμετοχής από καταγραφή",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "4∉Α",
+              "correct": true,
+              "reason": "Το 4 δεν εμφανίζεται στο Α, άρα 4∉Α."
+            },
+            {
+              "choice": "4∈Α",
+              "correct": false,
+              "reason": "Το 4 δεν είναι ένα από τα 1,2,3."
+            },
+            {
+              "choice": "{4}⊆Α",
+              "correct": false,
+              "reason": "Το {4} έχει στοιχείο που δεν ανήκει στο Α."
+            },
+            {
+              "choice": "{4}=Α",
+              "correct": false,
+              "reason": "Τα σύνολα έχουν διαφορετικά στοιχεία και διαφορετικό πλήθος."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-11",
+      "legacy_index": 11,
+      "expected_current": "67034648-7010-5a3a-b609-e8eb08ab8257",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={2,3,4}, ποια είναι η διαφορά Α∖Β;",
+        "choices": [
+          "{1}",
+          "{4}",
+          "{2,3}",
+          "{1,4}"
+        ],
+        "answer": "{1}",
+        "difficulty": "medium",
+        "hint": "Κράτησε μόνο τα στοιχεία του πρώτου που δεν ανήκουν στο δεύτερο.",
+        "solution": "Το 1 είναι στο Α αλλά όχι στο Β, ενώ τα 2 και 3 είναι κοινά. Άρα Α∖Β={1}.",
+        "skill": "Διαφορά συνόλων με καθορισμένη σειρά",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "difference",
+          "left": [
+            1,
+            2,
+            3
+          ],
+          "right": [
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-12",
+      "legacy_index": 12,
+      "expected_current": "19bbaec4-c622-5e15-a205-acbbf69cfd17",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={2,3,4}, ποια είναι η διαφορά Β∖Α;",
+        "choices": [
+          "{4}",
+          "{1}",
+          "{2,3}",
+          "∅"
+        ],
+        "answer": "{4}",
+        "difficulty": "medium",
+        "hint": "Η αντιστροφή της σειράς αλλάζει ποια στοιχεία κρατάς.",
+        "solution": "Μόνο το 4 ανήκει στο Β χωρίς να ανήκει στο Α, άρα Β∖Α={4}.",
+        "skill": "Μη αντιμεταθετικότητα διαφοράς συνόλων",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "difference",
+          "left": [
+            2,
+            3,
+            4
+          ],
+          "right": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-13",
+      "legacy_index": 13,
+      "expected_current": "fef2d377-a364-5e76-aa62-3b57d62f7d22",
+      "payload": {
+        "question": "Αν Α={1,2} και Β={1,2,3}, ποια δήλωση ισχύει;",
+        "choices": [
+          "Α⊆Β",
+          "Α=Β",
+          "Β⊆Α",
+          "Α∩Β=∅"
+        ],
+        "answer": "Α⊆Β",
+        "difficulty": "medium",
+        "hint": "Κάθε στοιχείο του μικρότερου καταγεγραμμένου συνόλου ανήκει στο άλλο.",
+        "solution": "Τα 1 και 2 είναι στοιχεία του Β, άρα Α⊆Β. Το 3 ανήκει στο Β αλλά όχι στο Α.",
+        "skill": "Υποσύνολο με επιπλέον στοιχείο στο άλλο σύνολο",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Α⊆Β",
+              "correct": true,
+              "reason": "Τα 1 και 2 είναι στοιχεία του Β, άρα Α⊆Β. Το 3 ανήκει στο Β αλλά όχι στο Α."
+            },
+            {
+              "choice": "Α=Β",
+              "correct": false,
+              "reason": "Το στοιχείο 3 ανήκει μόνο στο Β."
+            },
+            {
+              "choice": "Β⊆Α",
+              "correct": false,
+              "reason": "Το 3 εμποδίζει το Β να είναι υποσύνολο του Α."
+            },
+            {
+              "choice": "Α∩Β=∅",
+              "correct": false,
+              "reason": "Τα 1 και 2 είναι κοινά στοιχεία, οπότε η τομή δεν είναι κενή."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-14",
+      "legacy_index": 14,
+      "expected_current": "812f9a4f-ebb6-57d7-ac6e-c6586e5fb166",
+      "payload": {
+        "question": "Πόσα υποσύνολα έχει το Α={1,2}, αν περιλαμβάνονται το ∅ και το ίδιο το Α;",
+        "choices": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": "4",
+        "difficulty": "medium",
+        "hint": "Κατάγραψε τις επιλογές χωρίς να ξεχάσεις το κενό και ολόκληρο το σύνολο.",
+        "solution": "Τα υποσύνολα είναι ∅, {1}, {2}, {1,2}: συνολικά 4.",
+        "skill": "Καταγραφή υποσυνόλων διμελούς συνόλου",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2"
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-15",
+      "legacy_index": 15,
+      "expected_current": "1eeb7eb5-c070-5f3e-bce8-ac6a6ae3ce05",
+      "payload": {
+        "question": "Τα α, β, γ είναι τρία διαφορετικά αντικείμενα και Α={α,β}. Ποιο από τα παρακάτω είναι υποσύνολο του Α;",
+        "choices": [
+          "{α}",
+          "{α,β,γ}",
+          "{γ}",
+          "{∅,α,β,γ}"
+        ],
+        "answer": "{α}",
+        "difficulty": "medium",
+        "hint": "Κάθε στοιχείο του υποσυνόλου πρέπει να υπάρχει στο Α.",
+        "solution": "Το {α} έχει μόνο το στοιχείο α, που ανήκει στο Α. Όλες οι άλλες επιλογές περιέχουν το ξένο στοιχείο γ.",
+        "skill": "Υποσύνολο με ρητή διάκριση αντικειμένων",
+        "objective_ids": [
+          "a73763ce-8ed5-5375-9aa2-2943dfee6c34"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{α}",
+              "correct": true,
+              "reason": "Το {α} έχει μόνο το στοιχείο α, που ανήκει στο Α. Όλες οι άλλες επιλογές περιέχουν το ξένο στοιχείο γ."
+            },
+            {
+              "choice": "{α,β,γ}",
+              "correct": false,
+              "reason": "Το γ δεν ανήκει στο Α."
+            },
+            {
+              "choice": "{γ}",
+              "correct": false,
+              "reason": "Το γ είναι διαφορετικό από τα α και β και δεν ανήκει στο Α."
+            },
+            {
+              "choice": "{∅,α,β,γ}",
+              "correct": false,
+              "reason": "Περιέχει τουλάχιστον το γ που δεν ανήκει στο Α."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-16",
+      "legacy_index": 16,
+      "expected_current": "e1ecdf4d-3f29-5e22-91c6-0ddd1570d1ed",
+      "payload": {
+        "question": "Ποια είναι η σημασία της σχέσης Α∩Β=∅;",
+        "choices": [
+          "Τα Α και Β δεν έχουν κοινά στοιχεία",
+          "Τα Α και Β είναι υποχρεωτικά ίσα",
+          "Το Α είναι υποχρεωτικά κενό",
+          "Το Β είναι υποχρεωτικά υποσύνολο του Α"
+        ],
+        "answer": "Τα Α και Β δεν έχουν κοινά στοιχεία",
+        "difficulty": "medium",
+        "hint": "Η τομή καταγράφει μόνο κοινά στοιχεία.",
+        "solution": "Η κενή τομή σημαίνει ότι κανένα στοιχείο δεν ανήκει ταυτόχρονα στα Α και Β. Τα ίδια τα σύνολα μπορεί να είναι μη κενά.",
+        "skill": "Κενή τομή χωρίς αυθαίρετα συμπεράσματα",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Τα Α και Β δεν έχουν κοινά στοιχεία",
+              "correct": true,
+              "reason": "Η κενή τομή σημαίνει ότι κανένα στοιχείο δεν ανήκει ταυτόχρονα στα Α και Β. Τα ίδια τα σύνολα μπορεί να είναι μη κενά."
+            },
+            {
+              "choice": "Τα Α και Β είναι υποχρεωτικά ίσα",
+              "correct": false,
+              "reason": "Για παράδειγμα {1} και {2} έχουν κενή τομή αλλά δεν είναι ίσα."
+            },
+            {
+              "choice": "Το Α είναι υποχρεωτικά κενό",
+              "correct": false,
+              "reason": "Το Α μπορεί να είναι μη κενό, όπως το {1} απέναντι στο {2}."
+            },
+            {
+              "choice": "Το Β είναι υποχρεωτικά υποσύνολο του Α",
+              "correct": false,
+              "reason": "Μη κενό Β με κενή τομή δεν είναι υποσύνολο του Α."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-17",
+      "legacy_index": 17,
+      "expected_current": "aa18f9d2-eb3b-5733-9f8b-6c289e81d5aa",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={3,2,1}, ποια δήλωση ισχύει;",
+        "choices": [
+          "Α=Β",
+          "Α≠Β",
+          "Το Α είναι γνήσιο υποσύνολο του Β",
+          "Α∩Β={1}"
+        ],
+        "answer": "Α=Β",
+        "difficulty": "medium",
+        "hint": "Η σειρά καταγραφής των στοιχείων δεν αλλάζει ένα σύνολο.",
+        "solution": "Και τα δύο σύνολα έχουν ακριβώς τα στοιχεία 1,2,3, άρα Α=Β.",
+        "skill": "Ανεξαρτησία συνόλου από σειρά γραφής",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Α=Β",
+              "correct": true,
+              "reason": "Και τα δύο σύνολα έχουν ακριβώς τα στοιχεία 1,2,3, άρα Α=Β."
+            },
+            {
+              "choice": "Α≠Β",
+              "correct": false,
+              "reason": "Η διαφορετική σειρά δεν αλλάζει τα στοιχεία."
+            },
+            {
+              "choice": "Το Α είναι γνήσιο υποσύνολο του Β",
+              "correct": false,
+              "reason": "Ίσα σύνολα δεν είναι γνήσια υποσύνολα το ένα του άλλου."
+            },
+            {
+              "choice": "Α∩Β={1}",
+              "correct": false,
+              "reason": "Η τομή περιέχει και τα τρία κοινά στοιχεία."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-18",
+      "legacy_index": 18,
+      "expected_current": "ea69883d-4081-56cb-8e81-6526ae257336",
+      "payload": {
+        "question": "Αν Α={1,2} και Β={2,3}, πόσα στοιχεία έχει η ένωση Α∪Β;",
+        "choices": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        "answer": "3",
+        "difficulty": "medium",
+        "hint": "Το κοινό στοιχείο μετριέται μία φορά.",
+        "solution": "Α∪Β={1,2,3}, άρα το πλήθος είναι 3. Δεν διπλομετράμε το 2.",
+        "skill": "Πλήθος ένωσης χωρίς διπλομέτρηση",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-19",
+      "legacy_index": 19,
+      "expected_current": "c3c0b99b-3354-5f95-93cc-de6675f02159",
+      "payload": {
+        "question": "Ποια πρόταση είναι σωστή, όπου το Α δηλώνει οποιοδήποτε σύνολο;",
+        "choices": [
+          "{1}⊆{1,2}",
+          "1⊆{1,2}",
+          "1∈{{1},2}",
+          "∅⊈Α"
+        ],
+        "answer": "{1}⊆{1,2}",
+        "difficulty": "medium",
+        "hint": "Ξεχώρισε τον αριθμό 1 από το σύνολο {1} και τη συμμετοχή από το υποσύνολο.",
+        "solution": "Το μόνο στοιχείο του {1} είναι το 1, που ανήκει στο {1,2}, άρα {1}⊆{1,2}. Οι άλλες τρεις επιλογές δεν είναι σωστές.",
+        "skill": "Μοναδική σωστή επιλογή για συμμετοχή και υποσύνολο",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{1}⊆{1,2}",
+              "correct": true,
+              "reason": "Το μόνο στοιχείο του {1} είναι το 1, που ανήκει στο {1,2}, άρα {1}⊆{1,2}. Οι άλλες τρεις επιλογές δεν είναι σωστές."
+            },
+            {
+              "choice": "1⊆{1,2}",
+              "correct": false,
+              "reason": "Το υποσύνολο είναι σχέση μεταξύ συνόλων και όχι του αριθμού 1 με ένα σύνολο."
+            },
+            {
+              "choice": "1∈{{1},2}",
+              "correct": false,
+              "reason": "Τα στοιχεία του {{1},2} είναι το σύνολο {1} και ο αριθμός 2, όχι ο αριθμός 1."
+            },
+            {
+              "choice": "∅⊈Α",
+              "correct": false,
+              "reason": "Το κενό σύνολο είναι υποσύνολο κάθε συνόλου, άρα το ⊈ είναι λάθος."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-20",
+      "legacy_index": 20,
+      "expected_current": "2e34b5e0-0296-5196-b8ac-f0841e3fd438",
+      "payload": {
+        "question": "Το κενό σύνολο είναι υποσύνολο ποιων συνόλων;",
+        "choices": [
+          "Κάθε συνόλου",
+          "Κανενός συνόλου",
+          "Μόνο του εαυτού του",
+          "Μόνο των άπειρων συνόλων"
+        ],
+        "answer": "Κάθε συνόλου",
+        "difficulty": "medium",
+        "hint": "Δεν υπάρχει στοιχείο του κενού συνόλου που να παραβιάζει τη συνθήκη υποσυνόλου.",
+        "solution": "Για κάθε σύνολο Α ισχύει ∅⊆Α, είτε το Α είναι κενό είτε μη κενό, πεπερασμένο ή άπειρο.",
+        "skill": "Κενό σύνολο ως καθολικό υποσύνολο",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Κάθε συνόλου",
+              "correct": true,
+              "reason": "Για κάθε σύνολο Α ισχύει ∅⊆Α, είτε το Α είναι κενό είτε μη κενό, πεπερασμένο ή άπειρο."
+            },
+            {
+              "choice": "Κανενός συνόλου",
+              "correct": false,
+              "reason": "Η σχέση ∅⊆Α ισχύει για κάθε Α."
+            },
+            {
+              "choice": "Μόνο του εαυτού του",
+              "correct": false,
+              "reason": "Ισχύει και για άλλα σύνολα, όχι μόνο για το ∅."
+            },
+            {
+              "choice": "Μόνο των άπειρων συνόλων",
+              "correct": false,
+              "reason": "Ισχύει και για πεπερασμένα σύνολα."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-21",
+      "legacy_index": 21,
+      "expected_current": "d14e88b9-f4a8-5e3b-9c0c-6f1375b48268",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={x∈ℕ: 1<x<4}, ποια δήλωση είναι σωστή;",
+        "choices": [
+          "Β={2,3}",
+          "Α=Β",
+          "Α∩Β=∅",
+          "Β={1,2,3}"
+        ],
+        "answer": "Β={2,3}",
+        "difficulty": "hard",
+        "hint": "Κατάγραψε τους φυσικούς που ικανοποιούν και τις δύο αυστηρές ανισότητες.",
+        "solution": "Οι μόνοι φυσικοί με 1<x<4 είναι 2 και 3, άρα Β={2,3}. Τα άκρα 1 και 4 αποκλείονται.",
+        "skill": "Από περιγραφή ιδιότητας σε καταγραφή",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Β={2,3}",
+              "correct": true,
+              "reason": "Οι μόνοι φυσικοί με 1<x<4 είναι 2 και 3, άρα Β={2,3}. Τα άκρα 1 και 4 αποκλείονται."
+            },
+            {
+              "choice": "Α=Β",
+              "correct": false,
+              "reason": "Το 1 ανήκει στο Α αλλά δεν ικανοποιεί τη συνθήκη του Β."
+            },
+            {
+              "choice": "Α∩Β=∅",
+              "correct": false,
+              "reason": "Τα 2 και 3 είναι κοινά στοιχεία."
+            },
+            {
+              "choice": "Β={1,2,3}",
+              "correct": false,
+              "reason": "Η αυστηρή ανισότητα αποκλείει το 1."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-22",
+      "legacy_index": 22,
+      "expected_current": "a431cfc4-947e-597c-aa85-91c434950bde",
+      "payload": {
+        "question": "Αν Α={1,2}, Β={2,3} και Γ={2}, ποιο είναι το (Α∪Β)∖Γ;",
+        "choices": [
+          "{1,3}",
+          "{2}",
+          "{1,2,3}",
+          "∅"
+        ],
+        "answer": "{1,3}",
+        "difficulty": "hard",
+        "hint": "Βρες πρώτα την ένωση και μετά αφαίρεσε τα στοιχεία του Γ.",
+        "solution": "Α∪Β={1,2,3}. Αφαιρώντας το 2 του Γ απομένει {1,3}.",
+        "skill": "Σύνθεση ένωσης και διαφοράς",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "union_difference",
+          "left": [
+            1,
+            2
+          ],
+          "right": [
+            2,
+            3
+          ],
+          "exclude": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-23",
+      "legacy_index": 23,
+      "expected_current": "0857080c-1611-5860-8082-e70dbf518f62",
+      "payload": {
+        "question": "Αν Α⊆Β και Β⊆Α, ποια σχέση ισχύει;",
+        "choices": [
+          "Α=Β",
+          "Α≠Β",
+          "Α∩Β=∅ υποχρεωτικά",
+          "Το Α είναι υποχρεωτικά κενό"
+        ],
+        "answer": "Α=Β",
+        "difficulty": "hard",
+        "hint": "Κάθε στοιχείο του ενός ανήκει και στο άλλο.",
+        "solution": "Οι δύο εγκλείσεις δίνουν ακριβώς τα ίδια στοιχεία στα Α και Β, άρα Α=Β.",
+        "skill": "Αντισυμμετρία εγκλεισμού συνόλων",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Α=Β",
+              "correct": true,
+              "reason": "Οι δύο εγκλείσεις δίνουν ακριβώς τα ίδια στοιχεία στα Α και Β, άρα Α=Β."
+            },
+            {
+              "choice": "Α≠Β",
+              "correct": false,
+              "reason": "Η διπλή έγκλειση αποδεικνύει ισότητα."
+            },
+            {
+              "choice": "Α∩Β=∅ υποχρεωτικά",
+              "correct": false,
+              "reason": "Αν είναι ίσα μη κενά, η τομή τους δεν είναι κενή."
+            },
+            {
+              "choice": "Το Α είναι υποχρεωτικά κενό",
+              "correct": false,
+              "reason": "Ίσα σύνολα μπορούν να έχουν οποιοδήποτε πλήθος στοιχείων."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-24",
+      "legacy_index": 24,
+      "expected_current": "cab10d7d-54d3-5997-b0f2-34badbf10420",
+      "payload": {
+        "question": "Αν Α={1,2,3,4} και Β={2,4}, ποια είναι η διαφορά Α∖Β;",
+        "choices": [
+          "{1,3}",
+          "{2,4}",
+          "{1,2,3,4}",
+          "{4}"
+        ],
+        "answer": "{1,3}",
+        "difficulty": "hard",
+        "hint": "Κράτησε τα στοιχεία του Α που απουσιάζουν από το Β.",
+        "solution": "Από το Α αφαιρούνται τα 2 και 4, άρα Α∖Β={1,3}.",
+        "skill": "Αφαίρεση συγκεκριμένων στοιχείων συνόλου",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "difference",
+          "left": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "right": [
+            2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-25",
+      "legacy_index": 25,
+      "expected_current": "1763e518-d68e-5911-a5e0-add2a1b18675",
+      "payload": {
+        "question": "Ποια πρόταση ισχύει για οποιαδήποτε σύνολα Α, Β και αντικείμενο x;",
+        "choices": [
+          "Αν x∈Α, τότε {x}⊆Α",
+          "Αν x∈Α, τότε {x}∈Α πάντα",
+          "Αν {x}⊆Α, τότε x∉Α",
+          "Αν Α⊆Β, κάθε στοιχείο του Β ανήκει στο Α"
+        ],
+        "answer": "Αν x∈Α, τότε {x}⊆Α",
+        "difficulty": "hard",
+        "hint": "Το μονομελές σύνολο {x} έχει μοναδικό στοιχείο το x.",
+        "solution": "Αν x∈Α, τότε κάθε στοιχείο του {x}, δηλαδή το x, ανήκει στο Α. Επομένως {x}⊆Α.",
+        "skill": "Σχέση συμμετοχής με μονομελές υποσύνολο",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Αν x∈Α, τότε {x}⊆Α",
+              "correct": true,
+              "reason": "Αν x∈Α, τότε κάθε στοιχείο του {x}, δηλαδή το x, ανήκει στο Α. Επομένως {x}⊆Α."
+            },
+            {
+              "choice": "Αν x∈Α, τότε {x}∈Α πάντα",
+              "correct": false,
+              "reason": "Το ότι ανήκει το x δεν εξασφαλίζει ότι ανήκει και το σύνολο {x}."
+            },
+            {
+              "choice": "Αν {x}⊆Α, τότε x∉Α",
+              "correct": false,
+              "reason": "Η υπόθεση {x}⊆Α συνεπάγεται x∈Α, όχι x∉Α."
+            },
+            {
+              "choice": "Αν Α⊆Β, κάθε στοιχείο του Β ανήκει στο Α",
+              "correct": false,
+              "reason": "Η έγκλειση Α⊆Β δίνει κατεύθυνση από στοιχεία του Α προς το Β."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-26",
+      "legacy_index": 26,
+      "expected_current": "56e40cac-fe21-5a84-8a97-22a2142da065",
+      "payload": {
+        "question": "Πόσα γνήσια υποσύνολα έχει το Α={1,2}, αν γνήσιο σημαίνει υποσύνολο διαφορετικό από το ίδιο το Α;",
+        "choices": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Περιέλαβε το ∅, αλλά απέκλεισε το ίδιο το Α.",
+        "solution": "Από τα 4 υποσύνολα αποκλείεται μόνο το {1,2}. Απομένουν ∅, {1}, {2}: συνολικά 3.",
+        "skill": "Γνήσια υποσύνολα με ρητή σύμβαση",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2-1"
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-27",
+      "legacy_index": 27,
+      "expected_current": "2d0dd305-048e-5046-a08c-ea94b196fa50",
+      "payload": {
+        "question": "Αν Α∩Β=Α, ποια σχέση ισχύει πάντοτε;",
+        "choices": [
+          "Α⊆Β",
+          "Β⊆Α",
+          "Α=Β",
+          "Α∪Β=Α"
+        ],
+        "answer": "Α⊆Β",
+        "difficulty": "hard",
+        "hint": "Κάθε στοιχείο του Α εμφανίζεται ήδη στην τομή.",
+        "solution": "Αφού κάθε στοιχείο του Α ανήκει και στην τομή, ανήκει στο Β. Άρα Α⊆Β.",
+        "skill": "Συμπέρασμα εγκλεισμού από ισότητα τομής",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Α⊆Β",
+              "correct": true,
+              "reason": "Αφού κάθε στοιχείο του Α ανήκει και στην τομή, ανήκει στο Β. Άρα Α⊆Β."
+            },
+            {
+              "choice": "Β⊆Α",
+              "correct": false,
+              "reason": "Το Β μπορεί να έχει επιπλέον στοιχεία εκτός του Α."
+            },
+            {
+              "choice": "Α=Β",
+              "correct": false,
+              "reason": "Δεν αποκλείονται επιπλέον στοιχεία του Β."
+            },
+            {
+              "choice": "Α∪Β=Α",
+              "correct": false,
+              "reason": "Η ένωση ισούται με το Β και μπορεί να είναι μεγαλύτερη από το Α."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-28",
+      "legacy_index": 28,
+      "expected_current": "2af59dc0-7aea-5c92-bb35-6f1f35443c58",
+      "payload": {
+        "question": "Αν Α∪Β=Β, ποια σχέση ισχύει πάντοτε;",
+        "choices": [
+          "Α⊆Β",
+          "Β⊆Α",
+          "Α=Β",
+          "Α∩Β=∅"
+        ],
+        "answer": "Α⊆Β",
+        "difficulty": "hard",
+        "hint": "Η ένωση δεν προσθέτει κανένα στοιχείο έξω από το Β.",
+        "solution": "Κάθε στοιχείο του Α βρίσκεται στην ένωση και συνεπώς στο Β, άρα Α⊆Β.",
+        "skill": "Συμπέρασμα εγκλεισμού από ισότητα ένωσης",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Α⊆Β",
+              "correct": true,
+              "reason": "Κάθε στοιχείο του Α βρίσκεται στην ένωση και συνεπώς στο Β, άρα Α⊆Β."
+            },
+            {
+              "choice": "Β⊆Α",
+              "correct": false,
+              "reason": "Το Β μπορεί να περιέχει περισσότερα στοιχεία από το Α."
+            },
+            {
+              "choice": "Α=Β",
+              "correct": false,
+              "reason": "Δεν απαιτείται ισότητα, μόνο η συγκεκριμένη έγκλειση."
+            },
+            {
+              "choice": "Α∩Β=∅",
+              "correct": false,
+              "reason": "Για μη κενό Α⊆Β, η τομή περιέχει ολόκληρο το Α."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-29",
+      "legacy_index": 29,
+      "expected_current": "abd32e33-14e2-5057-9fb7-c44d4adb04f3",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={2,3}, ποια σχέση έχει το σύνολο {2,3} με το Α;",
+        "choices": [
+          "Είναι υποσύνολο του Α",
+          "Είναι στοιχείο του Α",
+          "Δεν έχει κοινά στοιχεία με το Α",
+          "Είναι ίσο με το Α"
+        ],
+        "answer": "Είναι υποσύνολο του Α",
+        "difficulty": "hard",
+        "hint": "Σύγκρινε τα στοιχεία του {2,3} με τα στοιχεία του Α.",
+        "solution": "Και το 2 και το 3 ανήκουν στο Α, άρα {2,3}⊆Α. Το Α έχει επιπλέον το 1.",
+        "skill": "Σύνολο ως υποσύνολο, όχι ως στοιχείο",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι υποσύνολο του Α",
+              "correct": true,
+              "reason": "Και το 2 και το 3 ανήκουν στο Α, άρα {2,3}⊆Α. Το Α έχει επιπλέον το 1."
+            },
+            {
+              "choice": "Είναι στοιχείο του Α",
+              "correct": false,
+              "reason": "Τα στοιχεία του Α είναι αριθμοί, όχι το σύνολο {2,3}."
+            },
+            {
+              "choice": "Δεν έχει κοινά στοιχεία με το Α",
+              "correct": false,
+              "reason": "Τα 2 και 3 είναι κοινά στοιχεία."
+            },
+            {
+              "choice": "Είναι ίσο με το Α",
+              "correct": false,
+              "reason": "Το στοιχείο 1 ανήκει μόνο στο Α."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "reference": "Ε.2",
+      "key": "legacy-30",
+      "legacy_index": 30,
+      "expected_current": "3a85a3bd-c506-5c18-98b4-ee78054ec498",
+      "payload": {
+        "question": "Αν Α={1,2,3} και Β={3,4,5}, ποιο είναι το (Α∖Β)∪(Β∖Α);",
+        "choices": [
+          "{1,2,4,5}",
+          "{3}",
+          "{1,2,3,4,5}",
+          "∅"
+        ],
+        "answer": "{1,2,4,5}",
+        "difficulty": "hard",
+        "hint": "Βρες χωριστά τις δύο διαφορές και ένωσέ τες.",
+        "solution": "Α∖Β={1,2} και Β∖Α={4,5}. Η ένωσή τους είναι {1,2,4,5}, χωρίς το κοινό στοιχείο 3.",
+        "skill": "Σύνθεση διαφορών και ένωσης",
+        "objective_ids": [
+          "3d4cb5d2-f073-5140-ad49-e8718980f89f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "Ε.2"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§Ε.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "finite_set",
+          "operation": "symmetric_difference",
+          "left": [
+            1,
+            2,
+            3
+          ],
+          "right": [
+            3,
+            4,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}
