@@ -2,9 +2,9 @@
   "catalog_units": 325,
   "units_with_quiz": 120,
   "active_questions": 1104,
-  "with_learning_support": 714,
-  "first_pass_complete_units": 107,
-  "remaining_units": 218,
+  "with_learning_support": 744,
+  "first_pass_complete_units": 108,
+  "remaining_units": 217,
   "educator_approved_units": 0,
   "units": [
     {
@@ -2046,10 +2046,17 @@
       "title": "Απόλυτη Τιμή Πραγματικού Αριθμού",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "80a646c1-dc54-5cbe-ab4b-55d5ada94154",
+        "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4658,16 +4665,6 @@
     }
   ],
   "legacy_quality_issues": [
-    {
-      "unit_id": "ee6441c9-8085-587c-b098-324f89c8f9db",
-      "version_id": "8f73f293-81d1-522f-ab27-cdb7f599cc6f",
-      "issue": "duplicate_prompt"
-    },
-    {
-      "unit_id": "ee6441c9-8085-587c-b098-324f89c8f9db",
-      "version_id": "08aec0be-7c99-567c-8da2-fe01210f0e17",
-      "issue": "duplicate_prompt"
-    },
     {
       "unit_id": "6de2332b-dac1-5707-8872-7eab8f63b22d",
       "version_id": "f08f5da4-6a45-58b1-96fd-9dbbc964d8e5",

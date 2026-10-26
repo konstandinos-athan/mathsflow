@@ -1,0 +1,1782 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-a-algebra-v3",
+  "course": "gel-a-algebra",
+  "authored_on": "2026-10-26",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "2.3",
+      "key": "legacy-01",
+      "legacy_index": 1,
+      "expected_current": "2036b0f1-cb73-5c71-b927-20caf87e512e",
+      "payload": {
+        "question": "Πόσο είναι το ∣3∣;",
+        "choices": [
+          "3",
+          "−3",
+          "0",
+          "6"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Η απόλυτη τιμή είναι μη αρνητική απόσταση από το μηδέν.",
+        "solution": "Ο 3 απέχει 3 μονάδες από το 0, επομένως ∣3∣=3.",
+        "skill": "Απόλυτη τιμή θετικού αριθμού",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-02",
+      "legacy_index": 2,
+      "expected_current": "5a14ae94-a838-53bb-b5b8-28dffc2d86d4",
+      "payload": {
+        "question": "Πόσο είναι το ∣−5∣;",
+        "choices": [
+          "5",
+          "−5",
+          "0",
+          "10"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Η απόσταση δεν έχει αρνητικό πρόσημο.",
+        "solution": "Ο −5 απέχει 5 μονάδες από το 0, οπότε ∣−5∣=5.",
+        "skill": "Απόλυτη τιμή αρνητικού αριθμού",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-03",
+      "legacy_index": 3,
+      "expected_current": "9053e466-8eb9-5444-a7e6-ca7db547cbc1",
+      "payload": {
+        "question": "Τι εκφράζει γεωμετρικά το ∣x∣ στον άξονα;",
+        "choices": [
+          "Την απόσταση του x από το 0",
+          "Το πρόσημο του x",
+          "Τον αντίθετο του x για κάθε x",
+          "Τον αντίστροφο του x"
+        ],
+        "answer": "Την απόσταση του x από το 0",
+        "difficulty": "easy",
+        "hint": "Σκέψου το μήκος από το σημείο x μέχρι την αρχή του άξονα.",
+        "solution": "Η απόλυτη τιμή είναι η μη αρνητική απόσταση από το μηδέν.",
+        "skill": "Γεωμετρική ερμηνεία απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Την απόσταση του x από το 0",
+              "correct": true,
+              "reason": "Η απόλυτη τιμή είναι η μη αρνητική απόσταση από το μηδέν."
+            },
+            {
+              "choice": "Το πρόσημο του x",
+              "correct": false,
+              "reason": "Η απόσταση δεν δίνει το πρόσημο."
+            },
+            {
+              "choice": "Τον αντίθετο του x για κάθε x",
+              "correct": false,
+              "reason": "Για x=2 η απόλυτη τιμή είναι 2, όχι −2."
+            },
+            {
+              "choice": "Τον αντίστροφο του x",
+              "correct": false,
+              "reason": "Για x=2 ο αντίστροφος είναι 1/2, όχι 2."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-04",
+      "legacy_index": 4,
+      "expected_current": "797e4673-18cc-55ec-a4bc-c67168992a3d",
+      "payload": {
+        "question": "Ποια σχέση ισχύει για κάθε πραγματικό x;",
+        "choices": [
+          "∣x∣≥0",
+          "∣x∣<0",
+          "∣x∣=x για κάθε x",
+          "∣x∣=−x για κάθε x"
+        ],
+        "answer": "∣x∣≥0",
+        "difficulty": "easy",
+        "hint": "Χρησιμοποίησε τον ορισμό ως απόσταση.",
+        "solution": "Κάθε απόσταση είναι μη αρνητική, άρα ∣x∣≥0.",
+        "skill": "Μη αρνητικότητα απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "∣x∣≥0",
+              "correct": true,
+              "reason": "Κάθε απόσταση είναι μη αρνητική, άρα ∣x∣≥0."
+            },
+            {
+              "choice": "∣x∣<0",
+              "correct": false,
+              "reason": "Καμία απόλυτη τιμή δεν είναι αρνητική."
+            },
+            {
+              "choice": "∣x∣=x για κάθε x",
+              "correct": false,
+              "reason": "Για x=−1 έχουμε ∣x∣=1≠−1."
+            },
+            {
+              "choice": "∣x∣=−x για κάθε x",
+              "correct": false,
+              "reason": "Για x=1 έχουμε ∣x∣=1≠−1."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-05",
+      "legacy_index": 5,
+      "expected_current": "cf60aaff-d487-5cd5-87a1-7d5e6b2f5b85",
+      "payload": {
+        "question": "Ποιο είναι το πλήρες σύνολο λύσεων της ∣x∣=0;",
+        "choices": [
+          "{0}",
+          "{1}",
+          "{−1}",
+          "∅"
+        ],
+        "answer": "{0}",
+        "difficulty": "easy",
+        "hint": "Απόσταση μηδέν από το μηδέν έχει μόνο η αρχή του άξονα.",
+        "solution": "Η ισότητα ∣x∣=0 ισχύει αν και μόνο αν x=0.",
+        "skill": "Μηδενισμός απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{0}",
+              "correct": true,
+              "reason": "Η ισότητα ∣x∣=0 ισχύει αν και μόνο αν x=0."
+            },
+            {
+              "choice": "{1}",
+              "correct": false,
+              "reason": "Ο 1 έχει απόλυτη τιμή 1."
+            },
+            {
+              "choice": "{−1}",
+              "correct": false,
+              "reason": "Ο −1 έχει απόλυτη τιμή 1."
+            },
+            {
+              "choice": "∅",
+              "correct": false,
+              "reason": "Υπάρχει η λύση x=0."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-06",
+      "legacy_index": 6,
+      "expected_current": "8f73f293-81d1-522f-ab27-cdb7f599cc6f",
+      "payload": {
+        "question": "Ποια ταυτότητα ισχύει για κάθε πραγματικό x;",
+        "choices": [
+          "∣−x∣=∣x∣",
+          "∣−x∣=−∣x∣",
+          "∣−x∣=x",
+          "∣x∣=−x"
+        ],
+        "answer": "∣−x∣=∣x∣",
+        "difficulty": "easy",
+        "hint": "Αντίθετοι αριθμοί βρίσκονται συμμετρικά ως προς το μηδέν.",
+        "solution": "Οι x και −x έχουν την ίδια απόσταση από το μηδέν, άρα ∣−x∣=∣x∣.",
+        "skill": "Απόλυτες τιμές αντίθετων αριθμών",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "∣−x∣=∣x∣",
+              "correct": true,
+              "reason": "Οι x και −x έχουν την ίδια απόσταση από το μηδέν, άρα ∣−x∣=∣x∣."
+            },
+            {
+              "choice": "∣−x∣=−∣x∣",
+              "correct": false,
+              "reason": "Για x=1 θα έδινε 1=−1."
+            },
+            {
+              "choice": "∣−x∣=x",
+              "correct": false,
+              "reason": "Για x=−2 το αριστερό μέλος είναι 2 και το δεξί −2."
+            },
+            {
+              "choice": "∣x∣=−x",
+              "correct": false,
+              "reason": "Για x=2 το αριστερό μέλος είναι 2 και το δεξί −2."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-07",
+      "legacy_index": 7,
+      "expected_current": "b0704ff7-4558-555b-a3d8-d45f0d0ae9e2",
+      "payload": {
+        "question": "Υπολόγισε ∣2−5∣.",
+        "choices": [
+          "3",
+          "−3",
+          "7",
+          "2"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Υπολόγισε πρώτα τη διαφορά μέσα στην απόλυτη τιμή.",
+        "solution": "2−5=−3 και ∣−3∣=3.",
+        "skill": "Απόλυτη τιμή διαφοράς",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-08",
+      "legacy_index": 8,
+      "expected_current": "8ce631b4-6197-5687-8948-d021c7b3ff33",
+      "payload": {
+        "question": "Υπολόγισε ∣−7+2∣.",
+        "choices": [
+          "5",
+          "−5",
+          "9",
+          "7"
+        ],
+        "answer": "5",
+        "difficulty": "easy",
+        "hint": "Πρώτα κάνε την πρόσθεση μέσα στις γραμμές.",
+        "solution": "−7+2=−5, επομένως ∣−7+2∣=5.",
+        "skill": "Απόλυτη τιμή αθροίσματος",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-09",
+      "legacy_index": 9,
+      "expected_current": "c2131fc0-bccc-564e-b2ad-a281412ee4c7",
+      "payload": {
+        "question": "Ποιο είναι το πλήρες σύνολο λύσεων της ∣x∣=4;",
+        "choices": [
+          "{−4,4}",
+          "{4}",
+          "{−4}",
+          "∅"
+        ],
+        "answer": "{−4,4}",
+        "difficulty": "easy",
+        "hint": "Δύο συμμετρικά σημεία απέχουν 4 μονάδες από το μηδέν.",
+        "solution": "Οι λύσεις είναι x=4 και x=−4. Και οι δύο έχουν απόλυτη τιμή 4.",
+        "skill": "Δύο λύσεις θετικής απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{−4,4}",
+              "correct": true,
+              "reason": "Οι λύσεις είναι x=4 και x=−4. Και οι δύο έχουν απόλυτη τιμή 4."
+            },
+            {
+              "choice": "{4}",
+              "correct": false,
+              "reason": "Λείπει η λύση −4."
+            },
+            {
+              "choice": "{−4}",
+              "correct": false,
+              "reason": "Λείπει η λύση 4."
+            },
+            {
+              "choice": "∅",
+              "correct": false,
+              "reason": "Υπάρχουν δύο πραγματικές λύσεις."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-10",
+      "legacy_index": 10,
+      "expected_current": "d34dd429-f5ea-5aea-99c0-f4790fa9f8c7",
+      "payload": {
+        "question": "Ποια σχέση είναι ακριβώς ισοδύναμη με ∣x∣<3;",
+        "choices": [
+          "−3<x<3",
+          "−3≤x≤3",
+          "x>3",
+          "x<−3"
+        ],
+        "answer": "−3<x<3",
+        "difficulty": "easy",
+        "hint": "Ζητούνται αποστάσεις αυστηρά μικρότερες από 3.",
+        "solution": "Οι λύσεις βρίσκονται ανάμεσα στο −3 και στο 3, χωρίς τα άκρα.",
+        "skill": "Αυστηρή άνω φραγή απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−3<x<3",
+              "correct": true,
+              "reason": "Οι λύσεις βρίσκονται ανάμεσα στο −3 και στο 3, χωρίς τα άκρα."
+            },
+            {
+              "choice": "−3≤x≤3",
+              "correct": false,
+              "reason": "Περιλαμβάνει τα άκρα που έχουν απόλυτη τιμή 3."
+            },
+            {
+              "choice": "x>3",
+              "correct": false,
+              "reason": "Περιγράφει μόνο αριθμούς με απόλυτη τιμή μεγαλύτερη από 3."
+            },
+            {
+              "choice": "x<−3",
+              "correct": false,
+              "reason": "Περιγράφει μόνο αριθμούς με απόλυτη τιμή μεγαλύτερη από 3."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-11",
+      "legacy_index": 11,
+      "expected_current": "a4e132c6-5f8e-5003-907f-5cb843616fe5",
+      "payload": {
+        "question": "Ποια σχέση είναι ακριβώς ισοδύναμη με ∣x∣>2;",
+        "choices": [
+          "x<−2 ή x>2",
+          "−2<x<2",
+          "x≥2",
+          "x≤−2"
+        ],
+        "answer": "x<−2 ή x>2",
+        "difficulty": "medium",
+        "hint": "Αποστάσεις μεγαλύτερες από 2 εμφανίζονται και στις δύο πλευρές του μηδενός.",
+        "solution": "Οι λύσεις είναι έξω από το [−2,2], χωρίς τα άκρα: x<−2 ή x>2.",
+        "skill": "Εξωτερικά διαστήματα απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x<−2 ή x>2",
+              "correct": true,
+              "reason": "Οι λύσεις είναι έξω από το [−2,2], χωρίς τα άκρα: x<−2 ή x>2."
+            },
+            {
+              "choice": "−2<x<2",
+              "correct": false,
+              "reason": "Αυτό περιγράφει αποστάσεις μικρότερες από 2."
+            },
+            {
+              "choice": "x≥2",
+              "correct": false,
+              "reason": "Παραλείπει όλες τις αρνητικές λύσεις και περιλαμβάνει το 2."
+            },
+            {
+              "choice": "x≤−2",
+              "correct": false,
+              "reason": "Παραλείπει όλες τις θετικές λύσεις και περιλαμβάνει το −2."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-12",
+      "legacy_index": 12,
+      "expected_current": "ca0ca65c-86c5-52e0-bc88-5b370923149d",
+      "payload": {
+        "question": "Ποια σχέση είναι ακριβώς ισοδύναμη με ∣x∣≤5;",
+        "choices": [
+          "−5≤x≤5",
+          "−5<x<5",
+          "x≤−5 ή x≥5",
+          "x=−5 ή x=5"
+        ],
+        "answer": "−5≤x≤5",
+        "difficulty": "medium",
+        "hint": "Η ισότητα επιτρέπει και τα δύο άκρα.",
+        "solution": "Το πλήρες σύνολο λύσεων είναι το κλειστό διάστημα [−5,5].",
+        "skill": "Μη αυστηρή άνω φραγή απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−5≤x≤5",
+              "correct": true,
+              "reason": "Το πλήρες σύνολο λύσεων είναι το κλειστό διάστημα [−5,5]."
+            },
+            {
+              "choice": "−5<x<5",
+              "correct": false,
+              "reason": "Αποκλείει τα άκρα, ενώ επιτρέπονται."
+            },
+            {
+              "choice": "x≤−5 ή x≥5",
+              "correct": false,
+              "reason": "Περιγράφει τις αποστάσεις τουλάχιστον 5."
+            },
+            {
+              "choice": "x=−5 ή x=5",
+              "correct": false,
+              "reason": "Παραλείπει τα εσωτερικά σημεία, όπως το 0."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-13",
+      "legacy_index": 13,
+      "expected_current": "b1b51351-5d41-58dd-931d-a9348e07e35c",
+      "payload": {
+        "question": "Ποια σχέση είναι ακριβώς ισοδύναμη με ∣x∣≥4;",
+        "choices": [
+          "x≤−4 ή x≥4",
+          "−4≤x≤4",
+          "−4<x<4",
+          "x=4"
+        ],
+        "answer": "x≤−4 ή x≥4",
+        "difficulty": "medium",
+        "hint": "Οι αποστάσεις τουλάχιστον 4 εμφανίζονται δεξιά και αριστερά.",
+        "solution": "Οι λύσεις είναι x≤−4 ή x≥4· επιτρέπονται και τα άκρα.",
+        "skill": "Μη αυστηρή κάτω φραγή απόλυτης τιμής",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x≤−4 ή x≥4",
+              "correct": true,
+              "reason": "Οι λύσεις είναι x≤−4 ή x≥4· επιτρέπονται και τα άκρα."
+            },
+            {
+              "choice": "−4≤x≤4",
+              "correct": false,
+              "reason": "Το 0 ανήκει σε αυτό το διάστημα αλλά δεν είναι λύση."
+            },
+            {
+              "choice": "−4<x<4",
+              "correct": false,
+              "reason": "Το 0 δεν ικανοποιεί την αρχική ανίσωση."
+            },
+            {
+              "choice": "x=4",
+              "correct": false,
+              "reason": "Παραλείπει το −4 και άπειρες άλλες λύσεις."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-14",
+      "legacy_index": 14,
+      "expected_current": "0605d5c5-a774-5edc-b211-4a56af0d4380",
+      "payload": {
+        "question": "Πόσες πραγματικές λύσεις έχει η ∣x∣=−3;",
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "0",
+        "difficulty": "medium",
+        "hint": "Η αριστερή πλευρά είναι πάντοτε μη αρνητική.",
+        "solution": "Δεν υπάρχει πραγματικός αριθμός με αρνητική απόλυτη τιμή, άρα υπάρχουν 0 λύσεις.",
+        "skill": "Αδύνατη εξίσωση αρνητικής απόστασης",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-15",
+      "legacy_index": 15,
+      "expected_current": "eede1e3b-39c9-51f2-908d-c587da520a04",
+      "payload": {
+        "question": "Στον άξονα, τι εκφράζει το ∣x−2∣;",
+        "choices": [
+          "Την απόσταση του x από το 2",
+          "Την απόσταση του x από το 0",
+          "Την απόσταση του 2 από το 0",
+          "Το πρόσημο του x−2"
+        ],
+        "answer": "Την απόσταση του x από το 2",
+        "difficulty": "medium",
+        "hint": "Δες τη διαφορά ως μετατόπιση από το σημείο 2.",
+        "solution": "Το ∣x−2∣ είναι το μήκος μεταξύ των σημείων x και 2.",
+        "skill": "Συγκεκριμένη απόσταση δύο σημείων",
+        "objective_ids": [
+          "80a646c1-dc54-5cbe-ab4b-55d5ada94154"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Την απόσταση του x από το 2",
+              "correct": true,
+              "reason": "Το ∣x−2∣ είναι το μήκος μεταξύ των σημείων x και 2."
+            },
+            {
+              "choice": "Την απόσταση του x από το 0",
+              "correct": false,
+              "reason": "Η απόσταση από το 0 είναι ∣x∣."
+            },
+            {
+              "choice": "Την απόσταση του 2 από το 0",
+              "correct": false,
+              "reason": "Αυτή είναι σταθερά 2, ενώ το ∣x−2∣ μεταβάλλεται με το x."
+            },
+            {
+              "choice": "Το πρόσημο του x−2",
+              "correct": false,
+              "reason": "Η απόλυτη τιμή δίνει μήκος, όχι πρόσημο."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-16",
+      "legacy_index": 16,
+      "expected_current": "9701b651-f420-5f3d-b172-870319a8cf81",
+      "payload": {
+        "question": "Ποιο είναι το πλήρες σύνολο λύσεων της ∣x−1∣=3;",
+        "choices": [
+          "{−2,4}",
+          "{−3,3}",
+          "{1,3}",
+          "{−4,2}"
+        ],
+        "answer": "{−2,4}",
+        "difficulty": "medium",
+        "hint": "Λύσε x−1=3 και x−1=−3.",
+        "solution": "Οι δύο περιπτώσεις δίνουν x=4 και x=−2 αντίστοιχα.",
+        "skill": "Εξίσωση με συγκεκριμένη μετατόπιση",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{−2,4}",
+              "correct": true,
+              "reason": "Οι δύο περιπτώσεις δίνουν x=4 και x=−2 αντίστοιχα."
+            },
+            {
+              "choice": "{−3,3}",
+              "correct": false,
+              "reason": "Αυτοί οι αριθμοί λύνουν την ∣x∣=3."
+            },
+            {
+              "choice": "{1,3}",
+              "correct": false,
+              "reason": "Για x=1 το αριστερό μέλος είναι 0."
+            },
+            {
+              "choice": "{−4,2}",
+              "correct": false,
+              "reason": "Για x=−4 το αριστερό μέλος είναι 5, όχι 3."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-17",
+      "legacy_index": 17,
+      "expected_current": "6da5268f-28b1-59f7-b917-ce8c31c394c5",
+      "payload": {
+        "question": "Ποια είναι η ακριβής περιοχή λύσεων της ∣x+2∣<4;",
+        "choices": [
+          "−6<x<2",
+          "−6≤x≤2",
+          "x<−6 ή x>2",
+          "−2<x<4"
+        ],
+        "answer": "−6<x<2",
+        "difficulty": "medium",
+        "hint": "Γράψε −4<x+2<4 και αφαίρεσε 2 και από τα τρία μέλη.",
+        "solution": "Η αφαίρεση 2 δίνει −6<x<2. Τα άκρα αποκλείονται.",
+        "skill": "Ανίσωση με αριθμητική μετατόπιση",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−6<x<2",
+              "correct": true,
+              "reason": "Η αφαίρεση 2 δίνει −6<x<2. Τα άκρα αποκλείονται."
+            },
+            {
+              "choice": "−6≤x≤2",
+              "correct": false,
+              "reason": "Στα άκρα η απόλυτη τιμή είναι 4."
+            },
+            {
+              "choice": "x<−6 ή x>2",
+              "correct": false,
+              "reason": "Αυτές είναι εξωτερικές περιοχές και δεν λύνουν την ανίσωση."
+            },
+            {
+              "choice": "−2<x<4",
+              "correct": false,
+              "reason": "Δεν αφαιρέθηκε σωστά το 2 και από τα δύο άκρα."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-18",
+      "legacy_index": 18,
+      "expected_current": "720ab877-9b77-5f11-b9d9-517797bdd873",
+      "payload": {
+        "question": "Υπολόγισε ∣−3∣×∣2∣.",
+        "choices": [
+          "6",
+          "−6",
+          "5",
+          "1"
+        ],
+        "answer": "6",
+        "difficulty": "medium",
+        "hint": "Βρες κάθε απόλυτη τιμή πριν τον πολλαπλασιασμό.",
+        "solution": "∣−3∣=3 και ∣2∣=2, άρα το γινόμενο είναι 3×2=6.",
+        "skill": "Γινόμενο απολύτων τιμών",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-19",
+      "legacy_index": 19,
+      "expected_current": "08aec0be-7c99-567c-8da2-fe01210f0e17",
+      "payload": {
+        "question": "Ποια ιδιότητα ισχύει για κάθε ζεύγος πραγματικών x και y;",
+        "choices": [
+          "∣xy∣=∣x∣∣y∣",
+          "∣xy∣=∣x∣+∣y∣",
+          "∣x+y∣=∣x∣+∣y∣",
+          "∣x−y∣=∣x∣−∣y∣"
+        ],
+        "answer": "∣xy∣=∣x∣∣y∣",
+        "difficulty": "medium",
+        "hint": "Σκέψου το πρόσημο του γινομένου σε κάθε περίπτωση προσήμων.",
+        "solution": "Η απόλυτη τιμή γινομένου ισούται με το γινόμενο των απολύτων τιμών για όλα τα πρόσημα και για το μηδέν.",
+        "skill": "Ιδιότητα απόλυτης τιμής γινομένου",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "∣xy∣=∣x∣∣y∣",
+              "correct": true,
+              "reason": "Η απόλυτη τιμή γινομένου ισούται με το γινόμενο των απολύτων τιμών για όλα τα πρόσημα και για το μηδέν."
+            },
+            {
+              "choice": "∣xy∣=∣x∣+∣y∣",
+              "correct": false,
+              "reason": "Για x=2,y=3 θα έδινε 6=5."
+            },
+            {
+              "choice": "∣x+y∣=∣x∣+∣y∣",
+              "correct": false,
+              "reason": "Για x=1,y=−1 θα έδινε 0=2."
+            },
+            {
+              "choice": "∣x−y∣=∣x∣−∣y∣",
+              "correct": false,
+              "reason": "Για x=1,y=2 θα έδινε 1=−1."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-20",
+      "legacy_index": 20,
+      "expected_current": "53894a12-7106-5cfe-a04f-5d2399652395",
+      "payload": {
+        "question": "Αν x<0, με τι ισούται το ∣x∣;",
+        "choices": [
+          "−x",
+          "x",
+          "0",
+          "−∣x∣"
+        ],
+        "answer": "−x",
+        "difficulty": "medium",
+        "hint": "Ο αντίθετος ενός αρνητικού αριθμού είναι θετικός.",
+        "solution": "Από τον ορισμό, για x<0 ισχύει ∣x∣=−x. Το −x είναι εδώ θετικό.",
+        "skill": "Τυπικός ορισμός για αρνητικό αριθμό",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−x",
+              "correct": true,
+              "reason": "Από τον ορισμό, για x<0 ισχύει ∣x∣=−x. Το −x είναι εδώ θετικό."
+            },
+            {
+              "choice": "x",
+              "correct": false,
+              "reason": "Το x είναι αρνητικό και δεν μπορεί να είναι απόλυτη τιμή."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Μηδενίζεται μόνο όταν x=0, που αποκλείεται."
+            },
+            {
+              "choice": "−∣x∣",
+              "correct": false,
+              "reason": "Η ποσότητα −∣x∣ είναι αρνητική για x<0."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-21",
+      "legacy_index": 21,
+      "expected_current": "265dafea-411d-5886-9083-14252f97a5f8",
+      "payload": {
+        "question": "Ποιο είναι το πλήρες σύνολο λύσεων της ∣2x−1∣=5;",
+        "choices": [
+          "{−2,3}",
+          "{−2,2}",
+          "{−5/2,5/2}",
+          "{−1,1}"
+        ],
+        "answer": "{−2,3}",
+        "difficulty": "hard",
+        "hint": "Εξέτασε 2x−1=5 και 2x−1=−5.",
+        "solution": "Η πρώτη εξίσωση δίνει x=3 και η δεύτερη x=−2.",
+        "skill": "Δύο γραμμικές περιπτώσεις απόλυτης τιμής",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "{−2,3}",
+              "correct": true,
+              "reason": "Η πρώτη εξίσωση δίνει x=3 και η δεύτερη x=−2."
+            },
+            {
+              "choice": "{−2,2}",
+              "correct": false,
+              "reason": "Το 2 δεν επαληθεύει την εξίσωση."
+            },
+            {
+              "choice": "{−5/2,5/2}",
+              "correct": false,
+              "reason": "Δεν λαμβάνει υπόψη τη σταθερά −1."
+            },
+            {
+              "choice": "{−1,1}",
+              "correct": false,
+              "reason": "Ούτε το −1 ούτε το 1 έχουν απόλυτη τιμή παράστασης 5."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-22",
+      "legacy_index": 22,
+      "expected_current": "8a085f8b-88ec-5f6a-b5a9-f385558a09ee",
+      "payload": {
+        "question": "Ποια πρόταση αιτιολογεί την τριγωνική ανισότητα για πραγματικούς α και β;",
+        "choices": [
+          "Το ∣α∣∣β∣−αβ είναι μη αρνητικό",
+          "Το ∣α+β∣ ισούται πάντοτε με ∣α∣+∣β∣",
+          "Το αβ είναι πάντοτε μη αρνητικό",
+          "Οι α και β είναι πάντοτε ομόσημοι"
+        ],
+        "answer": "Το ∣α∣∣β∣−αβ είναι μη αρνητικό",
+        "difficulty": "hard",
+        "hint": "Σύγκρινε τα τετράγωνα των μη αρνητικών μελών ∣α+β∣ και ∣α∣+∣β∣.",
+        "solution": "Η διαφορά τετραγώνων είναι 2(∣α∣∣β∣−αβ)≥0. Επειδή και τα δύο μέλη είναι μη αρνητικά, προκύπτει ∣α+β∣≤∣α∣+∣β∣.",
+        "skill": "Αιτιολόγηση τριγωνικής ανισότητας",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Το ∣α∣∣β∣−αβ είναι μη αρνητικό",
+              "correct": true,
+              "reason": "Η διαφορά τετραγώνων είναι 2(∣α∣∣β∣−αβ)≥0. Επειδή και τα δύο μέλη είναι μη αρνητικά, προκύπτει ∣α+β∣≤∣α∣+∣β∣."
+            },
+            {
+              "choice": "Το ∣α+β∣ ισούται πάντοτε με ∣α∣+∣β∣",
+              "correct": false,
+              "reason": "Για α=1,β=−1 τα δύο μέλη είναι 0 και 2."
+            },
+            {
+              "choice": "Το αβ είναι πάντοτε μη αρνητικό",
+              "correct": false,
+              "reason": "Για α=1,β=−1 το γινόμενο είναι −1."
+            },
+            {
+              "choice": "Οι α και β είναι πάντοτε ομόσημοι",
+              "correct": false,
+              "reason": "Οι πραγματικοί μπορούν να έχουν αντίθετα πρόσημα."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-23",
+      "legacy_index": 23,
+      "expected_current": "804a62ac-4834-5f0f-96fa-1fe2e1d514a1",
+      "payload": {
+        "question": "Ποια είναι η ακριβής περιοχή λύσεων της ∣x−3∣<2;",
+        "choices": [
+          "1<x<5",
+          "1≤x≤5",
+          "x<1 ή x>5",
+          "x=1 ή x=5"
+        ],
+        "answer": "1<x<5",
+        "difficulty": "hard",
+        "hint": "Ζητούνται σημεία που απέχουν από το 3 λιγότερο από 2 μονάδες.",
+        "solution": "Από −2<x−3<2 προκύπτει 1<x<5, χωρίς τα άκρα.",
+        "skill": "Συγκεκριμένη γεωμετρική ερμηνεία ανίσωσης",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "1<x<5",
+              "correct": true,
+              "reason": "Από −2<x−3<2 προκύπτει 1<x<5, χωρίς τα άκρα."
+            },
+            {
+              "choice": "1≤x≤5",
+              "correct": false,
+              "reason": "Στα άκρα η απόσταση είναι ίση με 2."
+            },
+            {
+              "choice": "x<1 ή x>5",
+              "correct": false,
+              "reason": "Έξω από αυτά τα άκρα η απόσταση είναι μεγαλύτερη από 2."
+            },
+            {
+              "choice": "x=1 ή x=5",
+              "correct": false,
+              "reason": "Τα δύο άκρα δεν λύνουν την αυστηρή ανίσωση."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-24",
+      "legacy_index": 24,
+      "expected_current": "492f6b35-3939-5a23-be2a-00d40d98810c",
+      "payload": {
+        "question": "Ποια είναι η ακριβής περιοχή λύσεων της ∣x+1∣≥3;",
+        "choices": [
+          "x≤−4 ή x≥2",
+          "−4≤x≤2",
+          "−2≤x≤4",
+          "x<−4 ή x>2"
+        ],
+        "answer": "x≤−4 ή x≥2",
+        "difficulty": "hard",
+        "hint": "Εξέτασε x+1≤−3 ή x+1≥3.",
+        "solution": "Αφαιρώντας 1 προκύπτει x≤−4 ή x≥2. Η ισότητα επιτρέπει τα άκρα.",
+        "skill": "Δύο εξωτερικές περιοχές με επιτρεπτά άκρα",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x≤−4 ή x≥2",
+              "correct": true,
+              "reason": "Αφαιρώντας 1 προκύπτει x≤−4 ή x≥2. Η ισότητα επιτρέπει τα άκρα."
+            },
+            {
+              "choice": "−4≤x≤2",
+              "correct": false,
+              "reason": "Το −1 βρίσκεται στο διάστημα αλλά δίνει απόλυτη τιμή 0."
+            },
+            {
+              "choice": "−2≤x≤4",
+              "correct": false,
+              "reason": "Το 0 περιλαμβάνεται αλλά δεν είναι λύση."
+            },
+            {
+              "choice": "x<−4 ή x>2",
+              "correct": false,
+              "reason": "Αποκλείει τα επιτρεπτά άκρα −4 και 2."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-25",
+      "legacy_index": 25,
+      "expected_current": "b7295ab6-e7d8-5881-b8aa-9f87f351dfcb",
+      "payload": {
+        "question": "Αν ∣x−4∣+∣y+2∣=0, ποια είναι η μοναδική λύση (x,y);",
+        "choices": [
+          "(4,−2)",
+          "(−4,2)",
+          "(4,2)",
+          "(0,0)"
+        ],
+        "answer": "(4,−2)",
+        "difficulty": "hard",
+        "hint": "Άθροισμα μη αρνητικών όρων μηδενίζεται μόνο όταν μηδενίζεται κάθε όρος.",
+        "solution": "Πρέπει x−4=0 και y+2=0, άρα (x,y)=(4,−2).",
+        "skill": "Μηδενικό άθροισμα απολύτων τιμών",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(4,−2)",
+              "correct": true,
+              "reason": "Πρέπει x−4=0 και y+2=0, άρα (x,y)=(4,−2)."
+            },
+            {
+              "choice": "(−4,2)",
+              "correct": false,
+              "reason": "Κανένας όρος δεν μηδενίζεται σε αυτό το ζεύγος."
+            },
+            {
+              "choice": "(4,2)",
+              "correct": false,
+              "reason": "Ο δεύτερος όρος είναι 4."
+            },
+            {
+              "choice": "(0,0)",
+              "correct": false,
+              "reason": "Το άθροισμα είναι 4+2=6."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-26",
+      "legacy_index": 26,
+      "expected_current": "4f8fa968-1fac-5cd6-ad26-4b15911f10d2",
+      "payload": {
+        "question": "Ποια σχέση είναι ακριβώς ισοδύναμη με ∣x∣<1;",
+        "choices": [
+          "−1<x<1",
+          "−1≤x≤1",
+          "x<−1 ή x>1",
+          "x=−1 ή x=1"
+        ],
+        "answer": "−1<x<1",
+        "difficulty": "hard",
+        "hint": "Πρόσεξε τη διαφορά ανάμεσα στην ισοδυναμία και σε μια ασθενέστερη συνέπεια.",
+        "solution": "Το πλήρες σύνολο λύσεων είναι το ανοικτό διάστημα (−1,1). Η κλειστή περιοχή περιέχει επιπλέον τα μη επιτρεπτά άκρα.",
+        "skill": "Ακριβής ισοδυναμία και άκρα διαστήματος",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−1<x<1",
+              "correct": true,
+              "reason": "Το πλήρες σύνολο λύσεων είναι το ανοικτό διάστημα (−1,1). Η κλειστή περιοχή περιέχει επιπλέον τα μη επιτρεπτά άκρα."
+            },
+            {
+              "choice": "−1≤x≤1",
+              "correct": false,
+              "reason": "Είναι αναγκαία συνέπεια αλλά όχι ισοδύναμη σχέση: τα άκρα δεν λύνουν την αρχική ανίσωση."
+            },
+            {
+              "choice": "x<−1 ή x>1",
+              "correct": false,
+              "reason": "Περιγράφει αριθμούς με απόλυτη τιμή μεγαλύτερη από 1."
+            },
+            {
+              "choice": "x=−1 ή x=1",
+              "correct": false,
+              "reason": "Κανένα από τα δύο άκρα δεν είναι λύση."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-27",
+      "legacy_index": 27,
+      "expected_current": "f1cae26d-a95b-5179-b14a-4d609bb3f077",
+      "payload": {
+        "question": "Ποια είναι η μοναδική λύση της ∣x+3∣=∣x−1∣;",
+        "choices": [
+          "−1",
+          "1",
+          "−3",
+          "2"
+        ],
+        "answer": "−1",
+        "difficulty": "hard",
+        "hint": "Ίσα μη αρνητικά μέλη έχουν ίσα τετράγωνα.",
+        "solution": "(x+3)²=(x−1)² δίνει 8x=−8, άρα x=−1. Πράγματι ∣2∣=∣−2∣=2.",
+        "skill": "Εξίσωση δύο απολύτων τιμών",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1"
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-28",
+      "legacy_index": 28,
+      "expected_current": "7c5aefae-ce76-5df2-a43a-22808f0a3e3d",
+      "payload": {
+        "question": "Αν −2<x<3, με ποια παράσταση ισούται το ∣x+2∣+∣x−3∣;",
+        "choices": [
+          "5",
+          "2x−1",
+          "1",
+          "2x+5"
+        ],
+        "answer": "5",
+        "difficulty": "hard",
+        "hint": "Στο δοσμένο διάστημα το x+2 είναι θετικό και το x−3 αρνητικό.",
+        "solution": "∣x+2∣=x+2 και ∣x−3∣=3−x. Το άθροισμα είναι σταθερά 5.",
+        "skill": "Απαλοιφή απολύτων με δεδομένα πρόσημα",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "5",
+              "correct": true,
+              "reason": "∣x+2∣=x+2 και ∣x−3∣=3−x. Το άθροισμα είναι σταθερά 5."
+            },
+            {
+              "choice": "2x−1",
+              "correct": false,
+              "reason": "Χρησιμοποιεί λανθασμένα ∣x−3∣=x−3."
+            },
+            {
+              "choice": "1",
+              "correct": false,
+              "reason": "Για x=0 το άθροισμα είναι 2+3=5."
+            },
+            {
+              "choice": "2x+5",
+              "correct": false,
+              "reason": "Δεν απαλείφθηκαν σωστά οι δύο απόλυτες τιμές."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-29",
+      "legacy_index": 29,
+      "expected_current": "144c131e-6d5d-548d-a76b-82a7474f6e18",
+      "payload": {
+        "question": "Για ποια πραγματικά α και β ισχύει ∣α+β∣=∣α∣+∣β∣;",
+        "choices": [
+          "Ακριβώς όταν αβ≥0",
+          "Ακριβώς όταν αβ<0",
+          "Μόνο όταν α=β",
+          "Για όλα τα α και β"
+        ],
+        "answer": "Ακριβώς όταν αβ≥0",
+        "difficulty": "hard",
+        "hint": "Σύγκρινε τα τετράγωνα και δες πότε αβ=∣αβ∣.",
+        "solution": "Η ισότητα ισοδυναμεί με αβ=∣α∣∣β∣=∣αβ∣, δηλαδή αβ≥0. Περιλαμβάνει ομόσημους αριθμούς και την περίπτωση μηδενικού παράγοντα.",
+        "skill": "Συνθήκη ισότητας τριγωνικής ανισότητας",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ακριβώς όταν αβ≥0",
+              "correct": true,
+              "reason": "Η ισότητα ισοδυναμεί με αβ=∣α∣∣β∣=∣αβ∣, δηλαδή αβ≥0. Περιλαμβάνει ομόσημους αριθμούς και την περίπτωση μηδενικού παράγοντα."
+            },
+            {
+              "choice": "Ακριβώς όταν αβ<0",
+              "correct": false,
+              "reason": "Για αντίθετα μη μηδενικά πρόσημα η ανισότητα είναι αυστηρή."
+            },
+            {
+              "choice": "Μόνο όταν α=β",
+              "correct": false,
+              "reason": "Οι α=2,β=3 δίνουν ισότητα χωρίς να είναι ίσοι."
+            },
+            {
+              "choice": "Για όλα τα α και β",
+              "correct": false,
+              "reason": "Οι α=1,β=−1 δίνουν 0≠2."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "legacy-30",
+      "legacy_index": 30,
+      "expected_current": "b28982f9-e1e5-5e81-a8dd-b0cf03e9d3f6",
+      "payload": {
+        "question": "Ποια είναι η ακριβής περιοχή λύσεων της ∣2x∣<6;",
+        "choices": [
+          "−3<x<3",
+          "−6<x<6",
+          "x<−3 ή x>3",
+          "−2<x<2"
+        ],
+        "answer": "−3<x<3",
+        "difficulty": "hard",
+        "hint": "Χρησιμοποίησε ∣2x∣=2∣x∣ και διαίρεσε με 2.",
+        "solution": "2∣x∣<6 ισοδυναμεί με ∣x∣<3 και τελικά −3<x<3.",
+        "skill": "Ανίσωση απολύτου με θετικό συντελεστή",
+        "objective_ids": [
+          "f8f7c1b6-a209-554f-9856-0c0ca489cb9f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−3<x<3",
+              "correct": true,
+              "reason": "2∣x∣<6 ισοδυναμεί με ∣x∣<3 και τελικά −3<x<3."
+            },
+            {
+              "choice": "−6<x<6",
+              "correct": false,
+              "reason": "Δεν διαιρέθηκαν σωστά τα όρια με 2."
+            },
+            {
+              "choice": "x<−3 ή x>3",
+              "correct": false,
+              "reason": "Περιγράφει εξωτερικές περιοχές αντί για εσωτερική."
+            },
+            {
+              "choice": "−2<x<2",
+              "correct": false,
+              "reason": "Παραλείπει λύσεις όπως το x=5/2."
+            }
+          ]
+        },
+        "practice_note": "Μετατοπισμένες απόλυτες τιμές εξετάζονται με συγκεκριμένους αριθμούς, χωρίς γενικούς τύπους κέντρου και ακτίνας διαστήματος."
+      }
+    }
+  ]
+}
