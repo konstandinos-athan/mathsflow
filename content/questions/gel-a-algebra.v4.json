@@ -1,0 +1,1593 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-a-algebra-v4",
+  "course": "gel-a-algebra",
+  "authored_on": "2026-10-26",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "2.4",
+      "key": "legacy-01",
+      "legacy_index": 1,
+      "expected_current": "3dbd568d-b89a-5d14-9cc0-93e43582b78a",
+      "payload": {
+        "question": "Πόσο είναι το √9;",
+        "choices": [
+          "3",
+          "−3",
+          "9",
+          "6"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Η τετραγωνική ρίζα είναι ο μη αρνητικός αριθμός που έχει τετράγωνο 9.",
+        "solution": "Ο 3 είναι μη αρνητικός και 3²=9. Το √9 δεν σημαίνει δύο αριθμούς.",
+        "skill": "Μη αρνητική τετραγωνική ρίζα",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "9"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-02",
+      "legacy_index": 2,
+      "expected_current": "0a2f7b6e-b5eb-50ad-9b8f-b864edcaad7b",
+      "payload": {
+        "question": "Πόσο είναι το √16;",
+        "choices": [
+          "4",
+          "−4",
+          "8",
+          "16"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε μη αρνητικό αριθμό με τετράγωνο 16.",
+        "solution": "Επειδή 4²=16 και 4≥0, έχουμε √16=4.",
+        "skill": "Υπολογισμός τετραγωνικής ρίζας",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "16"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-03",
+      "legacy_index": 3,
+      "expected_current": "aa9594a4-93ab-5f29-b077-1b6b79bca850",
+      "payload": {
+        "question": "Πόσο είναι το √0;",
+        "choices": [
+          "0",
+          "1",
+          "−1",
+          "2"
+        ],
+        "answer": "0",
+        "difficulty": "easy",
+        "hint": "Ποιος μη αρνητικός αριθμός έχει τετράγωνο 0;",
+        "solution": "Το 0²=0, επομένως √0=0. Η ρίζα ορίζεται και στο μηδέν.",
+        "skill": "Ρίζα μηδενικής υπόρριζης ποσότητας",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "0"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-04",
+      "legacy_index": 4,
+      "expected_current": "47da59e7-5791-57fd-a1ef-51bd52aeabea",
+      "payload": {
+        "question": "Για ποια α ορίζεται η √α στους πραγματικούς;",
+        "choices": [
+          "Ακριβώς για α≥0",
+          "Ακριβώς για α>0",
+          "Ακριβώς για α<0",
+          "Ακριβώς για α≠0"
+        ],
+        "answer": "Ακριβώς για α≥0",
+        "difficulty": "easy",
+        "hint": "Το τετράγωνο πραγματικού είναι μη αρνητικό και το μηδέν επιτρέπεται.",
+        "solution": "Η ακριβής προϋπόθεση είναι α≥0. Το 0 επιτρέπεται και οι αρνητικοί αριθμοί αποκλείονται.",
+        "skill": "Πεδίο ορισμού τετραγωνικής ρίζας",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ακριβώς για α≥0",
+              "correct": true,
+              "reason": "Η ακριβής προϋπόθεση είναι α≥0. Το 0 επιτρέπεται και οι αρνητικοί αριθμοί αποκλείονται."
+            },
+            {
+              "choice": "Ακριβώς για α>0",
+              "correct": false,
+              "reason": "Αποκλείει λανθασμένα το 0."
+            },
+            {
+              "choice": "Ακριβώς για α<0",
+              "correct": false,
+              "reason": "Οι αρνητικοί αριθμοί δεν είναι τετράγωνα πραγματικών."
+            },
+            {
+              "choice": "Ακριβώς για α≠0",
+              "correct": false,
+              "reason": "Επιτρέπει αρνητικούς αριθμούς και αποκλείει το 0."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-05",
+      "legacy_index": 5,
+      "expected_current": "b272e082-26ea-58f1-9529-9d7ecc326ec3",
+      "payload": {
+        "question": "Ποια είναι η μη αρνητική τρίτη ρίζα του 8;",
+        "choices": [
+          "2",
+          "−2",
+          "4",
+          "8"
+        ],
+        "answer": "2",
+        "difficulty": "easy",
+        "hint": "Χρειάζεται ένας μη αρνητικός αριθμός με κύβο 8.",
+        "solution": "Επειδή 2³=8, η μη αρνητική τρίτη ρίζα του 8 είναι 2.",
+        "skill": "Ορισμός νιοστής ρίζας",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-06",
+      "legacy_index": 6,
+      "expected_current": "edf6799f-c727-5149-ae53-923c24536527",
+      "payload": {
+        "question": "Πόσο είναι το (√7)²;",
+        "choices": [
+          "7",
+          "14",
+          "49",
+          "0"
+        ],
+        "answer": "7",
+        "difficulty": "easy",
+        "hint": "Η ύψωση στο τετράγωνο επαναφέρει τη μη αρνητική υπόρριζη ποσότητα.",
+        "solution": "Από τον ορισμό της τετραγωνικής ρίζας έχουμε (√7)²=7.",
+        "skill": "Τετράγωνο τετραγωνικής ρίζας",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-07",
+      "legacy_index": 7,
+      "expected_current": "a26205e5-556f-5030-8dee-74e2513e15e5",
+      "payload": {
+        "question": "Πόσο είναι το √1;",
+        "choices": [
+          "1",
+          "−1",
+          "0",
+          "2"
+        ],
+        "answer": "1",
+        "difficulty": "easy",
+        "hint": "Η κύρια τετραγωνική ρίζα είναι μη αρνητική.",
+        "solution": "Ο 1 είναι μη αρνητικός και 1²=1, άρα √1=1.",
+        "skill": "Ρίζα της μονάδας",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "1"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-08",
+      "legacy_index": 8,
+      "expected_current": "351ed10e-cc84-5d8a-a979-cec8f2476aaa",
+      "payload": {
+        "question": "Ποια είναι η μη αρνητική τέταρτη ρίζα του 81;",
+        "choices": [
+          "3",
+          "−3",
+          "9",
+          "27"
+        ],
+        "answer": "3",
+        "difficulty": "easy",
+        "hint": "Αναζήτησε μη αρνητικό αριθμό με τέταρτη δύναμη 81.",
+        "solution": "3⁴=81 και 3≥0. Η μη αρνητική τέταρτη ρίζα είναι 3.",
+        "skill": "Τέταρτη ρίζα μη αρνητικού αριθμού",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-09",
+      "legacy_index": 9,
+      "expected_current": "f2ee8b3f-43dd-5264-b4a8-1ba53cb9aef2",
+      "payload": {
+        "question": "Με ποια παράσταση ισούται το √20;",
+        "choices": [
+          "2√5",
+          "4√5",
+          "20",
+          "3"
+        ],
+        "answer": "2√5",
+        "difficulty": "easy",
+        "hint": "Γράψε 20=4×5 και βγάλε τη ρίζα του τετραγώνου 4.",
+        "solution": "√20=√4×√5=2√5, αφού τα υπόρριζα είναι μη αρνητικά.",
+        "skill": "Απλοποίηση με τετράγωνο παράγοντα",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2√5",
+              "correct": true,
+              "reason": "√20=√4×√5=2√5, αφού τα υπόρριζα είναι μη αρνητικά."
+            },
+            {
+              "choice": "4√5",
+              "correct": false,
+              "reason": "Το τετράγωνο του 4√5 είναι 80."
+            },
+            {
+              "choice": "20",
+              "correct": false,
+              "reason": "Το 20 έχει τετράγωνο 400, όχι 20."
+            },
+            {
+              "choice": "3",
+              "correct": false,
+              "reason": "Το 3 έχει τετράγωνο 9, όχι 20."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-10",
+      "legacy_index": 10,
+      "expected_current": "d1b08652-b1ab-5755-adcc-4dd122f27437",
+      "payload": {
+        "question": "Πόσο είναι το 16^(1/2);",
+        "choices": [
+          "4",
+          "8",
+          "2",
+          "16"
+        ],
+        "answer": "4",
+        "difficulty": "easy",
+        "hint": "Ο εκθέτης 1/2 εκφράζει τετραγωνική ρίζα στη θετική βάση 16.",
+        "solution": "16^(1/2)=√16=4.",
+        "skill": "Δύναμη με εκθέτη ένα δεύτερο",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "16"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-11",
+      "legacy_index": 11,
+      "expected_current": "dad02dff-2e73-57bc-83db-197be732fce8",
+      "payload": {
+        "question": "Πότε η ταυτότητα √(αβ)=√α×√β έχει όλα τα μέλη ορισμένα στους πραγματικούς;",
+        "choices": [
+          "Ακριβώς όταν α≥0 και β≥0",
+          "Ακριβώς όταν αβ≥0",
+          "Για όλα τα πραγματικά α και β",
+          "Μόνο όταν α=β>0"
+        ],
+        "answer": "Ακριβώς όταν α≥0 και β≥0",
+        "difficulty": "medium",
+        "hint": "Πρέπει να ορίζονται χωριστά και οι √α και √β.",
+        "solution": "Χρειάζονται α≥0 και β≥0. Το αβ≥0 μόνο του δεν αρκεί: για α=β=−1 οι χωριστές ρίζες δεν ορίζονται.",
+        "skill": "Προϋποθέσεις ιδιότητας γινομένου ριζών",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ακριβώς όταν α≥0 και β≥0",
+              "correct": true,
+              "reason": "Χρειάζονται α≥0 και β≥0. Το αβ≥0 μόνο του δεν αρκεί: για α=β=−1 οι χωριστές ρίζες δεν ορίζονται."
+            },
+            {
+              "choice": "Ακριβώς όταν αβ≥0",
+              "correct": false,
+              "reason": "Επιτρέπει α=β=−1, όπου η δεξιά πλευρά δεν ορίζεται."
+            },
+            {
+              "choice": "Για όλα τα πραγματικά α και β",
+              "correct": false,
+              "reason": "Για αρνητικό α η √α δεν είναι πραγματική."
+            },
+            {
+              "choice": "Μόνο όταν α=β>0",
+              "correct": false,
+              "reason": "Δεν απαιτείται ισότητα, όπως δείχνουν α=1,β=4, ούτε αυστηρή θετικότητα."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-12",
+      "legacy_index": 12,
+      "expected_current": "13c3efe9-88a2-5e53-9061-d18edf02a339",
+      "payload": {
+        "question": "Ποια είναι η απλοποιημένη μορφή του √12;",
+        "choices": [
+          "2√3",
+          "3√2",
+          "√6",
+          "4√3"
+        ],
+        "answer": "2√3",
+        "difficulty": "medium",
+        "hint": "Χρησιμοποίησε το 12=4×3.",
+        "solution": "√12=√4×√3=2√3, με μη αρνητικούς παράγοντες 4 και 3.",
+        "skill": "Εξαγωγή τετραγωνικού παράγοντα",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2√3",
+              "correct": true,
+              "reason": "√12=√4×√3=2√3, με μη αρνητικούς παράγοντες 4 και 3."
+            },
+            {
+              "choice": "3√2",
+              "correct": false,
+              "reason": "Το τετράγωνο του 3√2 είναι 18."
+            },
+            {
+              "choice": "√6",
+              "correct": false,
+              "reason": "Το τετράγωνο του √6 είναι 6."
+            },
+            {
+              "choice": "4√3",
+              "correct": false,
+              "reason": "Το τετράγωνο του 4√3 είναι 48."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-13",
+      "legacy_index": 13,
+      "expected_current": "849a048e-301a-5289-ad26-57742ebddec4",
+      "payload": {
+        "question": "Πόσο είναι το 27^(2/3);",
+        "choices": [
+          "9",
+          "6",
+          "18",
+          "81"
+        ],
+        "answer": "9",
+        "difficulty": "medium",
+        "hint": "Πάρε πρώτα την τρίτη ρίζα του 27 και μετά ύψωσε στο τετράγωνο.",
+        "solution": "Η τρίτη ρίζα του 27 είναι 3, άρα 27^(2/3)=3²=9.",
+        "skill": "Θετικός ρητός εκθέτης",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-14",
+      "legacy_index": 14,
+      "expected_current": "7f27909f-3a60-5235-9ec5-d399eff236d8",
+      "payload": {
+        "question": "Ποια είναι η απλοποιημένη μορφή του √50;",
+        "choices": [
+          "5√2",
+          "2√5",
+          "10√5",
+          "25√2"
+        ],
+        "answer": "5√2",
+        "difficulty": "medium",
+        "hint": "Ο μεγαλύτερος τετράγωνος διαιρέτης του 50 είναι το 25.",
+        "solution": "√50=√25×√2=5√2.",
+        "skill": "Απλοποίηση μη τέλειου τετραγώνου",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "5√2",
+              "correct": true,
+              "reason": "√50=√25×√2=5√2."
+            },
+            {
+              "choice": "2√5",
+              "correct": false,
+              "reason": "Το τετράγωνο του 2√5 είναι 20."
+            },
+            {
+              "choice": "10√5",
+              "correct": false,
+              "reason": "Το τετράγωνο του 10√5 είναι 500."
+            },
+            {
+              "choice": "25√2",
+              "correct": false,
+              "reason": "Το τετράγωνο του 25√2 είναι 1250."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-15",
+      "legacy_index": 15,
+      "expected_current": "7ae3d23c-64d3-5dea-b555-382a491cfc71",
+      "payload": {
+        "question": "Για κάθε πραγματικό α, με τι ισούται η √(α²);",
+        "choices": [
+          "∣α∣",
+          "α",
+          "−α",
+          "α²"
+        ],
+        "answer": "∣α∣",
+        "difficulty": "medium",
+        "hint": "Το αποτέλεσμα της ρίζας πρέπει να είναι μη αρνητικό για κάθε πρόσημο του α.",
+        "solution": "Η √(α²)=∣α∣. Για α≥0 δίνει α, ενώ για α<0 δίνει −α.",
+        "skill": "Τετραγωνική ρίζα τετραγώνου",
+        "objective_ids": [
+          "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "∣α∣",
+              "correct": true,
+              "reason": "Η √(α²)=∣α∣. Για α≥0 δίνει α, ενώ για α<0 δίνει −α."
+            },
+            {
+              "choice": "α",
+              "correct": false,
+              "reason": "Για α=−2 η ρίζα είναι 2 και όχι −2."
+            },
+            {
+              "choice": "−α",
+              "correct": false,
+              "reason": "Για α=2 η ρίζα είναι 2 και όχι −2."
+            },
+            {
+              "choice": "α²",
+              "correct": false,
+              "reason": "Για α=2 το α² είναι 4, ενώ η ρίζα είναι 2."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-16",
+      "legacy_index": 16,
+      "expected_current": "1da3e42a-dbcf-5475-80c4-f61d47251743",
+      "payload": {
+        "question": "Πόσο είναι το √(9/4);",
+        "choices": [
+          "3/2",
+          "9/2",
+          "−3/2",
+          "3/4"
+        ],
+        "answer": "3/2",
+        "difficulty": "medium",
+        "hint": "Η ρίζα του πηλίκου είναι το πηλίκο των ριζών με θετικό παρονομαστή.",
+        "solution": "√(9/4)=√9/√4=3/2.",
+        "skill": "Ρίζα θετικού πηλίκου",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "9/4"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-17",
+      "legacy_index": 17,
+      "expected_current": "3aeff2c5-f7fc-5993-9869-9995017fa986",
+      "payload": {
+        "question": "Πόσο είναι το √2×√8;",
+        "choices": [
+          "4",
+          "8",
+          "2",
+          "16"
+        ],
+        "answer": "4",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε τα μη αρνητικά υπόρριζα.",
+        "solution": "√2×√8=√16=4.",
+        "skill": "Γινόμενο τετραγωνικών ριζών",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "16"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-18",
+      "legacy_index": 18,
+      "expected_current": "2c917cbf-2a1a-5272-a27c-b0b6658aad17",
+      "payload": {
+        "question": "Ποια μορφή ισούται με 1/√2 και έχει ρητό παρονομαστή;",
+        "choices": [
+          "√2/2",
+          "√2",
+          "2√2",
+          "1/2"
+        ],
+        "answer": "√2/2",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε αριθμητή και παρονομαστή με √2.",
+        "solution": "1/√2=√2/(√2×√2)=√2/2. Ο παρονομαστής 2 είναι ρητός.",
+        "skill": "Ρητοποίηση μονοωνυμικού παρονομαστή",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "√2/2",
+              "correct": true,
+              "reason": "1/√2=√2/(√2×√2)=√2/2. Ο παρονομαστής 2 είναι ρητός."
+            },
+            {
+              "choice": "√2",
+              "correct": false,
+              "reason": "Το √2 είναι διπλάσιο του 1/√2."
+            },
+            {
+              "choice": "2√2",
+              "correct": false,
+              "reason": "Το 2√2 είναι τετραπλάσιο του 1/√2 και δεν έχει την ίδια τιμή."
+            },
+            {
+              "choice": "1/2",
+              "correct": false,
+              "reason": "Το τετράγωνο του 1/2 είναι 1/4, ενώ του 1/√2 είναι 1/2."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-19",
+      "legacy_index": 19,
+      "expected_current": "7ecdbcd6-5580-5d02-a385-0c4917be8b44",
+      "payload": {
+        "question": "Ποια μορφή ισούται με 3/√5 και έχει ρητό παρονομαστή;",
+        "choices": [
+          "3√5/5",
+          "3√5/2",
+          "3√5",
+          "5/(3√5)"
+        ],
+        "answer": "3√5/5",
+        "difficulty": "medium",
+        "hint": "Πολλαπλασίασε αριθμητή και παρονομαστή με √5.",
+        "solution": "3/√5=(3√5)/(√5×√5)=3√5/5.",
+        "skill": "Ρητοποίηση με θετική υπόρριζη ποσότητα",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "3√5/5",
+              "correct": true,
+              "reason": "3/√5=(3√5)/(√5×√5)=3√5/5."
+            },
+            {
+              "choice": "3√5/2",
+              "correct": false,
+              "reason": "Ο νέος παρονομαστής είναι 5, όχι 2."
+            },
+            {
+              "choice": "3√5",
+              "correct": false,
+              "reason": "Λείπει ο παρονομαστής 5."
+            },
+            {
+              "choice": "5/(3√5)",
+              "correct": false,
+              "reason": "Αυτή είναι η αντίστροφη ποσότητα και διατηρεί άρρητο παρονομαστή."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-20",
+      "legacy_index": 20,
+      "expected_current": "466c2017-ad34-5d71-a140-b7d361d1c378",
+      "payload": {
+        "question": "Πόσο είναι το √0,25;",
+        "choices": [
+          "0,5",
+          "0,25",
+          "2,5",
+          "−0,5"
+        ],
+        "answer": "0,5",
+        "difficulty": "medium",
+        "hint": "Γράψε το υπόρριζο ως 1/4 και πάρε τη μη αρνητική ρίζα.",
+        "solution": "0,25=1/4 και √(1/4)=1/2=0,5.",
+        "skill": "Ρίζα δεκαδικού αριθμού",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "1/4"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-21",
+      "legacy_index": 21,
+      "expected_current": "9b2fef12-558f-5da3-9dbd-1931cab0ff0d",
+      "payload": {
+        "question": "Πόσο είναι το 16^(3/4);",
+        "choices": [
+          "8",
+          "12",
+          "4",
+          "64"
+        ],
+        "answer": "8",
+        "difficulty": "hard",
+        "hint": "Πάρε την τέταρτη ρίζα του 16 και μετά τον κύβο.",
+        "solution": "Η τέταρτη ρίζα του 16 είναι 2 και 2³=8.",
+        "skill": "Σύνθεση ρίζας και ακέραιας δύναμης",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**3"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-22",
+      "legacy_index": 22,
+      "expected_current": "fdccf482-e98f-5da3-8945-0a84c50b99c2",
+      "payload": {
+        "question": "Πόσο είναι το 27^(−2/3);",
+        "choices": [
+          "1/9",
+          "−9",
+          "9",
+          "1/6"
+        ],
+        "answer": "1/9",
+        "difficulty": "hard",
+        "hint": "Ο αρνητικός εκθέτης δίνει αντίστροφο, όχι αρνητικό πρόσημο.",
+        "solution": "27^(−2/3)=1/(27^(2/3))=1/(3²)=1/9.",
+        "skill": "Αρνητικός ρητός εκθέτης",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(3**2)"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-23",
+      "legacy_index": 23,
+      "expected_current": "ab248b96-e32e-57c8-86ae-389087abf925",
+      "payload": {
+        "question": "Ποια είναι η απλοποιημένη μορφή του √27+√12;",
+        "choices": [
+          "5√3",
+          "√39",
+          "6√3",
+          "5√6"
+        ],
+        "answer": "5√3",
+        "difficulty": "hard",
+        "hint": "Απλοποίησε κάθε ρίζα και πρόσθεσε ομοειδείς όρους.",
+        "solution": "√27+√12=3√3+2√3=5√3. Η ρίζα δεν κατανέμεται στο άθροισμα.",
+        "skill": "Άθροισμα ομοειδών ριζικών",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "5√3",
+              "correct": true,
+              "reason": "√27+√12=3√3+2√3=5√3. Η ρίζα δεν κατανέμεται στο άθροισμα."
+            },
+            {
+              "choice": "√39",
+              "correct": false,
+              "reason": "Οι ρίζες δεν ενώνονται ως ρίζα αθροίσματος."
+            },
+            {
+              "choice": "6√3",
+              "correct": false,
+              "reason": "Το άθροισμα των συντελεστών είναι 3+2=5."
+            },
+            {
+              "choice": "5√6",
+              "correct": false,
+              "reason": "Το υπόρριζο 3 παραμένει ίδιο."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-24",
+      "legacy_index": 24,
+      "expected_current": "03c77237-b13e-5984-b882-88874bf18136",
+      "payload": {
+        "question": "Ποια είναι η απλοποιημένη μορφή του √48−√12;",
+        "choices": [
+          "2√3",
+          "3√3",
+          "4√3",
+          "6"
+        ],
+        "answer": "2√3",
+        "difficulty": "hard",
+        "hint": "Απλοποίησε τα δύο ριζικά πριν αφαιρέσεις.",
+        "solution": "√48−√12=4√3−2√3=2√3.",
+        "skill": "Διαφορά ομοειδών ριζικών",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2√3",
+              "correct": true,
+              "reason": "√48−√12=4√3−2√3=2√3."
+            },
+            {
+              "choice": "3√3",
+              "correct": false,
+              "reason": "Οι συντελεστές δίνουν 4−2=2, όχι 3."
+            },
+            {
+              "choice": "4√3",
+              "correct": false,
+              "reason": "Παραλείπει την αφαίρεση του δεύτερου όρου."
+            },
+            {
+              "choice": "6",
+              "correct": false,
+              "reason": "Δεν επιτρέπεται √48−√12=√36."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-25",
+      "legacy_index": 25,
+      "expected_current": "2235db29-a2be-5d04-996f-e89a165e9bf0",
+      "payload": {
+        "question": "Για πραγματικό α και β≥0, ποια ταυτότητα ισχύει για όλα τα επιτρεπτά α,β;",
+        "choices": [
+          "√(α²β)=∣α∣√β",
+          "√(α²β)=α√β",
+          "√(α²β)=αβ",
+          "√(α²β)=α²√β"
+        ],
+        "answer": "√(α²β)=∣α∣√β",
+        "difficulty": "hard",
+        "hint": "Χώρισε το μη αρνητικό γινόμενο και χρησιμοποίησε √(α²)=∣α∣.",
+        "solution": "√(α²β)=√(α²)√β=∣α∣√β. Η απόλυτη τιμή καλύπτει και αρνητικό α.",
+        "skill": "Συμβολική απλοποίηση με προϋποθέσεις",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "√(α²β)=∣α∣√β",
+              "correct": true,
+              "reason": "√(α²β)=√(α²)√β=∣α∣√β. Η απόλυτη τιμή καλύπτει και αρνητικό α."
+            },
+            {
+              "choice": "√(α²β)=α√β",
+              "correct": false,
+              "reason": "Για α=−2,β=1 θα έδινε 2=−2."
+            },
+            {
+              "choice": "√(α²β)=αβ",
+              "correct": false,
+              "reason": "Για α=1,β=4 θα έδινε 2=4."
+            },
+            {
+              "choice": "√(α²β)=α²√β",
+              "correct": false,
+              "reason": "Για α=2,β=1 θα έδινε 2=4."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-26",
+      "legacy_index": 26,
+      "expected_current": "f25dca7e-cd81-5d9f-90c9-e93ead84a05f",
+      "payload": {
+        "question": "Αν x=√3, ποια είναι η αριθμητική τιμή του x²;",
+        "choices": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "3",
+        "difficulty": "hard",
+        "hint": "Η τετραγωνική ρίζα του 3 έχει τετράγωνο 3.",
+        "solution": "x²=(√3)²=3, από τον ορισμό της μη αρνητικής τετραγωνικής ρίζας.",
+        "skill": "Μοναδική αριθμητική τιμή τετραγώνου ρίζας",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-27",
+      "legacy_index": 27,
+      "expected_current": "34227a2c-eda5-59db-a82c-ee99604de8f4",
+      "payload": {
+        "question": "Ποια μορφή ισούται με 2/√3 και έχει ρητό παρονομαστή;",
+        "choices": [
+          "2√3/3",
+          "√3/2",
+          "2√3",
+          "3√3/2"
+        ],
+        "answer": "2√3/3",
+        "difficulty": "hard",
+        "hint": "Πολλαπλασίασε και τα δύο μέλη του κλάσματος με √3.",
+        "solution": "2/√3=2√3/(√3×√3)=2√3/3.",
+        "skill": "Ρητοποίηση και έλεγχος ισοδυναμίας",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "2√3/3",
+              "correct": true,
+              "reason": "2/√3=2√3/(√3×√3)=2√3/3."
+            },
+            {
+              "choice": "√3/2",
+              "correct": false,
+              "reason": "Τα τετράγωνα είναι 4/3 και 3/4, άρα δεν είναι ίσα."
+            },
+            {
+              "choice": "2√3",
+              "correct": false,
+              "reason": "Λείπει η διαίρεση με 3."
+            },
+            {
+              "choice": "3√3/2",
+              "correct": false,
+              "reason": "Ο συντελεστής της σωστής μορφής είναι 2/3, όχι ο αντίστροφός του 3/2."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-28",
+      "legacy_index": 28,
+      "expected_current": "0e6ea3c6-303b-549b-9151-d9e527efa880",
+      "payload": {
+        "question": "Πόσο είναι το 8^(2/3)×4^(−1/2);",
+        "choices": [
+          "2",
+          "4",
+          "8",
+          "1/2"
+        ],
+        "answer": "2",
+        "difficulty": "hard",
+        "hint": "Υπολόγισε κάθε δύναμη χωριστά με θετικές βάσεις.",
+        "solution": "8^(2/3)=2²=4 και 4^(−1/2)=1/2. Το γινόμενο είναι 2.",
+        "skill": "Πράξεις με ρητούς εκθέτες",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*(1/2)"
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-29",
+      "legacy_index": 29,
+      "expected_current": "0a9af599-3b11-5807-a2f7-701a92e96698",
+      "payload": {
+        "question": "Αν α<0, ποια παράσταση με χρήση του α χωρίς απόλυτη τιμή ισούται με √(α²);",
+        "choices": [
+          "−α",
+          "α",
+          "α²",
+          "−α²"
+        ],
+        "answer": "−α",
+        "difficulty": "hard",
+        "hint": "Για αρνητικό α, ο αντίθετός του είναι θετικός.",
+        "solution": "√(α²)=∣α∣=−α επειδή α<0. Για α=−3 προκύπτει √9=3=−α.",
+        "skill": "Πρόσημο σε ρίζα τετραγώνου",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−α",
+              "correct": true,
+              "reason": "√(α²)=∣α∣=−α επειδή α<0. Για α=−3 προκύπτει √9=3=−α."
+            },
+            {
+              "choice": "α",
+              "correct": false,
+              "reason": "Το α είναι αρνητικό και η ρίζα θετική."
+            },
+            {
+              "choice": "α²",
+              "correct": false,
+              "reason": "Για α=−2 η ρίζα είναι 2, όχι 4."
+            },
+            {
+              "choice": "−α²",
+              "correct": false,
+              "reason": "Το −α² είναι αρνητικό για α<0."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "legacy-30",
+      "legacy_index": 30,
+      "expected_current": "ea4ede42-0caa-5c52-b37e-083a4180d49a",
+      "payload": {
+        "question": "Ποια πράξη δεν ορίζεται στους πραγματικούς με τους κανόνες ρητών εκθετών της ενότητας;",
+        "choices": [
+          "0^(−1/2)",
+          "0^(1/2)",
+          "4^(−1/2)",
+          "1^(3/2)"
+        ],
+        "answer": "0^(−1/2)",
+        "difficulty": "hard",
+        "hint": "Αρνητικός εκθέτης απαιτεί αντίστροφο και επομένως μη μηδενική βάση.",
+        "solution": "Το 0^(−1/2) θα απαιτούσε διαίρεση με √0=0 και δεν ορίζεται. Η μηδενική βάση επιτρέπεται με θετικό εκθέτη.",
+        "skill": "Μηδενική βάση και αρνητικός εκθέτης",
+        "objective_ids": [
+          "3b264172-d51f-59a0-b3ae-26ad71136579"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 16,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s04-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "0^(−1/2)",
+              "correct": true,
+              "reason": "Το 0^(−1/2) θα απαιτούσε διαίρεση με √0=0 και δεν ορίζεται. Η μηδενική βάση επιτρέπεται με θετικό εκθέτη."
+            },
+            {
+              "choice": "0^(1/2)",
+              "correct": false,
+              "reason": "Το 0^(1/2)=√0=0 ορίζεται."
+            },
+            {
+              "choice": "4^(−1/2)",
+              "correct": false,
+              "reason": "Η θετική βάση 4 δίνει 1/2."
+            },
+            {
+              "choice": "1^(3/2)",
+              "correct": false,
+              "reason": "Η θετική βάση 1 δίνει 1."
+            }
+          ]
+        },
+        "practice_note": "Δεν ζητούνται οι εξαιρούμενες ιδιότητες 3 και 4 ριζών ως ξεχωριστοί τύποι· χρησιμοποιούνται επιτρεπτές ιδιότητες και ρητοί εκθέτες με τις κατάλληλες προϋποθέσεις."
+      }
+    }
+  ]
+}

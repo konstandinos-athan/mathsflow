@@ -29,7 +29,7 @@ class AbsoluteStorageTests(DatabaseCase):
   with patch('tests.test_gel_a_sets.release',return_value=release()):shared.LegacySetsStorageTests.test_all_scores_filters_repeated_posts_and_solutions(self)
  def test_preserve_prior_versions_ids_attempt_and_idempotence(self):
   for p in sorted((ROOT/'content/questions').glob('*.v*.json')):
-   if p.name!='gel-a-algebra.v3.json':apply_release(self.db,json.loads(p.read_text(encoding='utf-8')))
+   if not (p.name.startswith('gel-a-algebra.v') and int(p.stem.rsplit('v',1)[1])>=3):apply_release(self.db,json.loads(p.read_text(encoding='utf-8')))
   rows=validate_release(release());attempt=self.repo.start_attempt(rows[0][0]['id'],'easy');old=copy.deepcopy(attempt)
   ids=[tuple(x) for x in self.db.execute('SELECT * FROM questions')];versions=[tuple(x) for x in self.db.execute('SELECT * FROM question_versions')]
   self.assertEqual(apply_release(self.db,release()),30);self.assertEqual(apply_release(self.db,release()),0)

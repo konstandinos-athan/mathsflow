@@ -2,9 +2,9 @@
   "catalog_units": 325,
   "units_with_quiz": 120,
   "active_questions": 1104,
-  "with_learning_support": 744,
-  "first_pass_complete_units": 108,
-  "remaining_units": 217,
+  "with_learning_support": 774,
+  "first_pass_complete_units": 109,
+  "remaining_units": 216,
   "educator_approved_units": 0,
   "units": [
     {
@@ -2065,10 +2065,17 @@
       "title": "Ρίζες Πραγματικών Αριθμών",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "3b264172-d51f-59a0-b3ae-26ad71136579",
+        "43c9fb4f-f7ad-59d2-9701-3b8840cb968d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
