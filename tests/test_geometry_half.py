@@ -8,6 +8,15 @@ from database.geometry_checks import validate_geometry_cases
 from tests.support import DatabaseCase
 from tests import test_question_content as shared
 COURSES=['gel-a-geometry','gel-b-geometry']
+HISTORICAL_RELEASES=['gel-a-algebra.v1.json', 'gel-a-algebra.v2.json', 'gel-a-algebra.v3.json', 'gel-a-algebra.v4.json', 'gel-a-geometry.v1.json', 'gel-b-geometry.v1.json', 'gym-a-algebra.v1.json', 'gym-a-geometry.v1.json', 'gym-b-algebra.v1.json', 'gym-b-geometry.v1.json', 'gym-b-geometry.v2.json', 'gym-c-algebra.v1.json', 'gym-c-geometry.v1.json']
+def historical_deploy(db):
+ from pathlib import Path
+ original_glob=Path.glob
+ def historical_glob(path,pattern):
+  results=original_glob(path,pattern)
+  return (p for p in results if p.name in HISTORICAL_RELEASES) if path==ROOT/'content/questions' else results
+ with patch.object(Path,'glob',historical_glob):deploy_releases(db)
+
 def release(course):return json.loads((ROOT/'content/questions'/f'{course}.v1.json').read_text(encoding='utf-8'))
 class GeometryHalfValidationTests(unittest.TestCase):
  def test_fifty_five_units_six_questions_objectives_levels(self):
@@ -51,15 +60,15 @@ class GeometryHalfStorageTests(DatabaseCase):
   for course in COURSES:
    with patch('tests.test_question_content.release',return_value=release(course)):shared.QuestionReleaseTests.test_all_new_quizzes_filters_scores_hints_and_solutions(self)
  def test_full_deployment_reaches_half_idempotently(self):
-  deploy_releases(self.db);n=self.db.execute('SELECT COUNT(*) FROM question_versions').fetchone()[0]
-  deploy_releases(self.db);self.assertEqual(self.db.execute('SELECT COUNT(*) FROM question_versions').fetchone()[0],n)
+  historical_deploy(self.db);n=self.db.execute('SELECT COUNT(*) FROM question_versions').fetchone()[0]
+  historical_deploy(self.db);self.assertEqual(self.db.execute('SELECT COUNT(*) FROM question_versions').fetchone()[0],n)
   report=coverage(self.db)
   for k,v in {'active_questions':1434,'with_learning_support':1104,'first_pass_complete_units':164,'units_with_quiz':175,'remaining_units':161}.items():self.assertEqual(report[k],v)
   self.assertEqual(n,1585);self.assertGreaterEqual(report['first_pass_complete_units']/report['catalog_units'],0.5)
   self.assertEqual(report['educator_approved_units'],0)
  def test_prior_questions_pointers_versions_attempts_preserved(self):
   for p in sorted((ROOT/'content/questions').glob('*.v*.json')):
-   if p.name not in [f'{c}.v1.json' for c in COURSES]:apply_release(self.db,json.loads(p.read_text(encoding='utf-8')))
+   if p.name in HISTORICAL_RELEASES and p.name not in [f'{c}.v1.json' for c in COURSES]:apply_release(self.db,json.loads(p.read_text(encoding='utf-8')))
   versions=[tuple(x) for x in self.db.execute('SELECT * FROM question_versions')];ids=[tuple(x) for x in self.db.execute('SELECT * FROM questions')];pointers=[tuple(x) for x in self.db.execute('SELECT * FROM current_questions')]
   uid=ids[0][1];attempt=self.repo.start_attempt(uid,'easy');old=copy.deepcopy(attempt)
   for course,count in zip(COURSES,[198,132]):self.assertEqual(apply_release(self.db,release(course)),count)

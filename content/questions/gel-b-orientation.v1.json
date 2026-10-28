@@ -1,0 +1,3540 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-b-orientation-v1",
+  "course": "gel-b-orientation",
+  "authored_on": "2026-10-27",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "1.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Το διάνυσμα ΑΒ έχει μέτρο 4. Ποιο είναι το μέτρο του ΒΑ;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η αντιστροφή των άκρων αλλάζει φορά, όχι μήκος.",
+        "solution": "Τα αντίθετα διανύσματα έχουν ίσα μέτρα: 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "51827f7b-fe3c-5641-ae0d-257605d013eb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Το διάνυσμα ΑΒ έχει μέτρο 7. Ποιο είναι το μέτρο του ΒΑ;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Η αντιστροφή των άκρων αλλάζει φορά, όχι μήκος.",
+        "solution": "Τα αντίθετα διανύσματα έχουν ίσα μέτρα: 7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "51827f7b-fe3c-5641-ae0d-257605d013eb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο μη μηδενικά ομόρροπα διανύσματα μεταφέρονται με κοινή αρχή. Πόσες μοίρες είναι η μεταξύ τους γωνία;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Ομόρροπα σημαίνει ίδια διεύθυνση και ίδια φορά.",
+        "solution": "Η κοινή φορά δίνει γωνία 0°.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "e4f49732-ffe7-5d22-8ed0-f7770fe3900e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο μη μηδενικά αντίρροπα διανύσματα έχουν κοινή αρχή. Πόσες μοίρες είναι η μεταξύ τους γωνία;",
+        "choices": [
+          "180",
+          "181",
+          "179",
+          "-180"
+        ],
+        "answer": "180",
+        "hint": "Η αντίθετη φορά σχηματίζει ευθεία γωνία.",
+        "solution": "Η γωνία είναι 180°, ανεξάρτητα από τα μέτρα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "180"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "e4f49732-ffe7-5d22-8ed0-f7770fe3900e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν ΑΒ+ΒΑ είναι το μηδενικό διάνυσμα και |ΑΒ|=9, ποιο είναι το μέτρο του αθροίσματος ΑΒ+ΒΑ;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Το μέτρο του αθροίσματος δεν είναι το άθροισμα των μέτρων.",
+        "solution": "Τα αντίθετα διανύσματα αλληλοαναιρούνται, άρα το άθροισμα έχει μέτρο 0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "e4f49732-ffe7-5d22-8ed0-f7770fe3900e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αρκεί το ίδιο μέτρο για να είναι δύο μη μηδενικά διανύσματα ίσα;",
+        "choices": [
+          "Όχι, χρειάζονται και ίδια διεύθυνση και φορά",
+          "Ναι, το μήκος αρκεί",
+          "Ναι, αν έχουν αντίθετη φορά",
+          "Όχι, πρέπει υποχρεωτικά να έχουν ίδια αρχή"
+        ],
+        "answer": "Όχι, χρειάζονται και ίδια διεύθυνση και φορά",
+        "hint": "Σύγκρινε μέτρο, διεύθυνση και φορά.",
+        "solution": "Η ισότητα απαιτεί και τα τρία χαρακτηριστικά, χωρίς υποχρεωτικά κοινή αρχή.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, χρειάζονται και ίδια διεύθυνση και φορά",
+              "correct": true,
+              "reason": "Η ισότητα απαιτεί και τα τρία χαρακτηριστικά, χωρίς υποχρεωτικά κοινή αρχή."
+            },
+            {
+              "choice": "Ναι, το μήκος αρκεί",
+              "correct": false,
+              "reason": "Διανύσματα ίσου μέτρου μπορεί να είναι κάθετα."
+            },
+            {
+              "choice": "Ναι, αν έχουν αντίθετη φορά",
+              "correct": false,
+              "reason": "Αντίθετη φορά δίνει διαφορετικά μη μηδενικά διανύσματα."
+            },
+            {
+              "choice": "Όχι, πρέπει υποχρεωτικά να έχουν ίδια αρχή",
+              "correct": false,
+              "reason": "Η παράλληλη μεταφορά διατηρεί το διάνυσμα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "e4f49732-ffe7-5d22-8ed0-f7770fe3900e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Στην ίδια ευθεία με σειρά Α,Β,Γ έχουμε ΑΒ=3 και ΒΓ=2. Ποιο είναι το μέτρο του διανύσματος ΑΒ+ΒΓ;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Εφάρμοσε τον κανόνα του τριγώνου με τα σημεία στη δοσμένη σειρά.",
+        "solution": "ΑΒ+ΒΓ=ΑΓ και |ΑΓ|=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "4825b8d6-8155-506c-9b24-200c0643fe50"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Στην ίδια ευθεία με σειρά Α,Β,Γ έχουμε ΑΒ=6 και ΒΓ=2. Ποιο είναι το μέτρο του διανύσματος ΑΒ+ΒΓ;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Εφάρμοσε τον κανόνα του τριγώνου με τα σημεία στη δοσμένη σειρά.",
+        "solution": "ΑΒ+ΒΓ=ΑΓ και |ΑΓ|=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "4825b8d6-8155-506c-9b24-200c0643fe50"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο διανύσματα έχουν αντίθετες φορές στην ίδια ευθεία και μέτρα 4 και 2. Ποιο είναι το μέτρο του αθροίσματός τους;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Σε αντίθετες φορές αφαιρούμε τα μέτρα και κρατάμε μη αρνητικό αποτέλεσμα.",
+        "solution": "Το μεγαλύτερο μέτρο είναι 4, άρα το μέτρο του αθροίσματος είναι 2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4-2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "5fbacacd-467a-5ada-99bc-85fb907584b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο διανύσματα έχουν αντίθετες φορές στην ίδια ευθεία και μέτρα 8 και 2. Ποιο είναι το μέτρο του αθροίσματός τους;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Σε αντίθετες φορές αφαιρούμε τα μέτρα και κρατάμε μη αρνητικό αποτέλεσμα.",
+        "solution": "Το μεγαλύτερο μέτρο είναι 8, άρα το μέτρο του αθροίσματος είναι 6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8-2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "5fbacacd-467a-5ada-99bc-85fb907584b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στην ίδια ευθεία η σειρά είναι Ο,Α,Β με ΟΑ=3 και ΟΒ=8. Ποιο είναι το μέτρο του διανύσματος ΟΑ−ΟΒ;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "ΟΑ−ΟΒ=ΒΑ· πρόσεξε τη φορά αλλά κράτησε μη αρνητικό μέτρο.",
+        "solution": "Το αποτέλεσμα είναι ΒΑ και το μέτρο του είναι 8−3=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8-3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "5fbacacd-467a-5ada-99bc-85fb907584b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια ταυτότητα ισχύει για οποιαδήποτε σημεία Ο,Α,Β;",
+        "choices": [
+          "ΑΒ=ΟΒ−ΟΑ",
+          "ΑΒ=ΟΑ−ΟΒ",
+          "ΑΒ=ΟΑ+ΟΒ",
+          "ΑΒ=ΒΑ"
+        ],
+        "answer": "ΑΒ=ΟΒ−ΟΑ",
+        "hint": "Τα γράμματα δηλώνουν διανύσματα από το πρώτο στο δεύτερο σημείο.",
+        "solution": "ΟΑ+ΑΒ=ΟΒ, άρα ΑΒ=ΟΒ−ΟΑ.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "ΑΒ=ΟΒ−ΟΑ",
+              "correct": true,
+              "reason": "ΟΑ+ΑΒ=ΟΒ, άρα ΑΒ=ΟΒ−ΟΑ."
+            },
+            {
+              "choice": "ΑΒ=ΟΑ−ΟΒ",
+              "correct": false,
+              "reason": "Η αντίστροφη διαφορά δίνει ΒΑ."
+            },
+            {
+              "choice": "ΑΒ=ΟΑ+ΟΒ",
+              "correct": false,
+              "reason": "Το άθροισμα διανυσμάτων θέσης δεν δίνει γενικά ΑΒ."
+            },
+            {
+              "choice": "ΑΒ=ΒΑ",
+              "correct": false,
+              "reason": "Για διαφορετικά Α,Β τα δύο διανύσματα είναι αντίθετα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "5fbacacd-467a-5ada-99bc-85fb907584b0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν |α|=3, ποιο είναι το μέτρο του 2α;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Το μέτρο πολλαπλασιάζεται με την απόλυτη τιμή του συντελεστή.",
+        "solution": "|2α|=2|α|=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "57ecf43c-7fc4-5432-b361-2076fb231fea"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις Εφαρμογές 1 και 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν |α|=5, ποιο είναι το μέτρο του 2α;",
+        "choices": [
+          "10",
+          "11",
+          "9",
+          "-10"
+        ],
+        "answer": "10",
+        "hint": "Το μέτρο πολλαπλασιάζεται με την απόλυτη τιμή του συντελεστή.",
+        "solution": "|2α|=2|α|=10.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "57ecf43c-7fc4-5432-b361-2076fb231fea"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις Εφαρμογές 1 και 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν |α|=4, ποιο είναι το μέτρο του −3α;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Ο αρνητικός συντελεστής αντιστρέφει τη φορά, όχι το πρόσημο του μέτρου.",
+        "solution": "|−3α|=3|α|=12.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "973b1c93-dbef-5ab0-b5ab-ed80f7c7714f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις Εφαρμογές 1 και 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν |α|=7, ποιο είναι το μέτρο του −3α;",
+        "choices": [
+          "21",
+          "22",
+          "20",
+          "-21"
+        ],
+        "answer": "21",
+        "hint": "Ο αρνητικός συντελεστής αντιστρέφει τη φορά, όχι το πρόσημο του μέτρου.",
+        "solution": "|−3α|=3|α|=21.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*7"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "973b1c93-dbef-5ab0-b5ab-ed80f7c7714f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις Εφαρμογές 1 και 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για μη μηδενικό α με |α|=2 θέτουμε β=−3α και γ=2β. Ποιο είναι το μέτρο του γ;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Συνδύασε τους αριθμητικούς συντελεστές πριν πάρεις μέτρο.",
+        "solution": "γ=−6α και |γ|=6×2=12.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3*2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "973b1c93-dbef-5ab0-b5ab-ed80f7c7714f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις Εφαρμογές 1 και 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για α≠0 και λ<0, τι ισχύει για το λα;",
+        "choices": [
+          "Έχει αντίθετη φορά και μέτρο |λ||α|",
+          "Έχει αρνητικό μέτρο",
+          "Έχει πάντα ίδιο μέτρο με το α",
+          "Είναι πάντα μηδενικό"
+        ],
+        "answer": "Έχει αντίθετη φορά και μέτρο |λ||α|",
+        "hint": "Η απόλυτη τιμή αφορά το μέτρο, το πρόσημο τη φορά.",
+        "solution": "Ο ορισμός αρνητικού πολλαπλασιασμού αντιστρέφει φορά και κλιμακώνει το μέτρο με |λ|.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Έχει αντίθετη φορά και μέτρο |λ||α|",
+              "correct": true,
+              "reason": "Ο ορισμός αρνητικού πολλαπλασιασμού αντιστρέφει φορά και κλιμακώνει το μέτρο με |λ|."
+            },
+            {
+              "choice": "Έχει αρνητικό μέτρο",
+              "correct": false,
+              "reason": "Κανένα μέτρο διανύσματος δεν είναι αρνητικό."
+            },
+            {
+              "choice": "Έχει πάντα ίδιο μέτρο με το α",
+              "correct": false,
+              "reason": "Ίδιο μέτρο υπάρχει μόνο όταν λ=−1."
+            },
+            {
+              "choice": "Είναι πάντα μηδενικό",
+              "correct": false,
+              "reason": "Μη μηδενικό διάνυσμα με λ<0 δεν μηδενίζεται."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "973b1c93-dbef-5ab0-b5ab-ed80f7c7714f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις Εφαρμογές 1 και 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Α(2,1), Β(5,4). Ποια είναι η πρώτη συνιστώσα του ΑΒ;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Αφαίρεσε την τετμημένη της αρχής από εκείνη του πέρατος.",
+        "solution": "ΑΒ=(5−2,4−1), άρα η πρώτη συνιστώσα είναι 3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "bb0f9eb6-dffe-5d72-893e-3322818e573f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2 που ακολουθεί την παράγραφο «Μέτρο Διανύσματος». Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Α(2,1), Β(8,4). Ποια είναι η πρώτη συνιστώσα του ΑΒ;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Αφαίρεσε την τετμημένη της αρχής από εκείνη του πέρατος.",
+        "solution": "ΑΒ=(8−2,4−1), άρα η πρώτη συνιστώσα είναι 6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8-2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "bb0f9eb6-dffe-5d72-893e-3322818e573f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2 που ακολουθεί την παράγραφο «Μέτρο Διανύσματος». Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το μέτρο του διανύσματος (−3,4);",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Χρησιμοποίησε √(x²+y²).",
+        "solution": "Το μέτρο είναι √(9+16)=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "3**2+4**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "cc5d0af0-d5c1-5712-94a5-f4636a1b2168"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2 που ακολουθεί την παράγραφο «Μέτρο Διανύσματος». Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τεταγμένη του μέσου των Α(−2,3), Β(6,9);",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Πάρε τον μέσο όρο των τεταγμένων.",
+        "solution": "Η τεταγμένη του μέσου είναι (3+9)/2=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3+9)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "cc5d0af0-d5c1-5712-94a5-f4636a1b2168"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2 που ακολουθεί την παράγραφο «Μέτρο Διανύσματος». Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για α=(2,3), β=(4,t), ποια τιμή του t μηδενίζει την ορίζουσα det(α,β);",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Γράψε 2t−3×4=0.",
+        "solution": "2t=12, άρα t=6. Και τα δύο διανύσματα είναι μη μηδενικά και παράλληλα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*4/2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "cc5d0af0-d5c1-5712-94a5-f4636a1b2168"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2 που ακολουθεί την παράγραφο «Μέτρο Διανύσματος». Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια προϋπόθεση απαιτεί η κλίση y/x ενός διανύσματος (x,y);",
+        "choices": [
+          "x≠0",
+          "y≠0",
+          "x=y",
+          "x>0 και y>0"
+        ],
+        "answer": "x≠0",
+        "hint": "Ο παρονομαστής δεν μπορεί να είναι μηδέν.",
+        "solution": "Η κλίση y/x ορίζεται ακριβώς όταν x≠0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x≠0",
+              "correct": true,
+              "reason": "Η κλίση y/x ορίζεται ακριβώς όταν x≠0."
+            },
+            {
+              "choice": "y≠0",
+              "correct": false,
+              "reason": "Οριζόντιο διάνυσμα έχει y=0 και ορισμένη κλίση 0."
+            },
+            {
+              "choice": "x=y",
+              "correct": false,
+              "reason": "Οι συνιστώσες δεν χρειάζεται να είναι ίσες."
+            },
+            {
+              "choice": "x>0 και y>0",
+              "correct": false,
+              "reason": "Αρνητικές συνιστώσες επιτρέπονται εφόσον x≠0."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "cc5d0af0-d5c1-5712-94a5-f4636a1b2168"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2 που ακολουθεί την παράγραφο «Μέτρο Διανύσματος». Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για α=(2,1), β=(3,2), πόσο είναι το α·β;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Πολλαπλασίασε αντίστοιχες συνιστώσες και πρόσθεσε.",
+        "solution": "α·β=3×2+1×2=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "779c7ce6-72b9-5b27-b918-c54b68d57ed1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου της αναλυτικής έκφρασης Εσωτερικού Γινομένου και χωρίς την προβολή διανύσματος σε διάνυσμα. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για α=(5,1), β=(3,2), πόσο είναι το α·β;",
+        "choices": [
+          "17",
+          "18",
+          "16",
+          "-17"
+        ],
+        "answer": "17",
+        "hint": "Πολλαπλασίασε αντίστοιχες συνιστώσες και πρόσθεσε.",
+        "solution": "α·β=3×5+1×2=17.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5*3+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "779c7ce6-72b9-5b27-b918-c54b68d57ed1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου της αναλυτικής έκφρασης Εσωτερικού Γινομένου και χωρίς την προβολή διανύσματος σε διάνυσμα. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν α=(3,4), ποιο είναι το α·α;",
+        "choices": [
+          "25",
+          "26",
+          "24",
+          "-25"
+        ],
+        "answer": "25",
+        "hint": "Το εσωτερικό γινόμενο με τον εαυτό του είναι το τετράγωνο του μέτρου.",
+        "solution": "α·α=9+16=25.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2+4**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "18a8e790-df70-5dd9-ae37-7ef5a34b640e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου της αναλυτικής έκφρασης Εσωτερικού Γινομένου και χωρίς την προβολή διανύσματος σε διάνυσμα. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Τα μη μηδενικά α,β είναι κάθετα και έχουν μέτρα 4 και 7. Πόσο είναι το α·β;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Η γωνία είναι 90° και συν90°=0.",
+        "solution": "α·β=4×7×0=0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "18a8e790-df70-5dd9-ae37-7ef5a34b640e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου της αναλυτικής έκφρασης Εσωτερικού Γινομένου και χωρίς την προβολή διανύσματος σε διάνυσμα. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για |α|=3, |β|=4 και α·β=2, ποιο είναι το |α+β|²;",
+        "choices": [
+          "29",
+          "30",
+          "28",
+          "-29"
+        ],
+        "answer": "29",
+        "hint": "Ανάπτυξε το εσωτερικό γινόμενο (α+β)·(α+β).",
+        "solution": "|α+β|²=9+2×2+16=29.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2+2*2+4**2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "18a8e790-df70-5dd9-ae37-7ef5a34b640e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου της αναλυτικής έκφρασης Εσωτερικού Γινομένου και χωρίς την προβολή διανύσματος σε διάνυσμα. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Από α·β=α·γ με α≠0 προκύπτει υποχρεωτικά β=γ;",
+        "choices": [
+          "Όχι, δεν ισχύει γενικός νόμος διαγραφής",
+          "Ναι, όπως στους μη μηδενικούς αριθμούς",
+          "Ναι, επειδή το γινόμενο είναι διάνυσμα",
+          "Μόνο αν το κοινό γινόμενο είναι θετικό"
+        ],
+        "answer": "Όχι, δεν ισχύει γενικός νόμος διαγραφής",
+        "hint": "Δοκίμασε α=(1,0), β=(1,1), γ=(1,2).",
+        "solution": "Στο παράδειγμα τα δύο γινόμενα είναι 1 αλλά β≠γ, οπότε δεν επιτρέπεται διαγραφή.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, δεν ισχύει γενικός νόμος διαγραφής",
+              "correct": true,
+              "reason": "Στο παράδειγμα τα δύο γινόμενα είναι 1 αλλά β≠γ, οπότε δεν επιτρέπεται διαγραφή."
+            },
+            {
+              "choice": "Ναι, όπως στους μη μηδενικούς αριθμούς",
+              "correct": false,
+              "reason": "Η αριθμητική διαγραφή δεν μεταφέρεται στο εσωτερικό γινόμενο."
+            },
+            {
+              "choice": "Ναι, επειδή το γινόμενο είναι διάνυσμα",
+              "correct": false,
+              "reason": "Το εσωτερικό γινόμενο είναι πραγματικός αριθμός."
+            },
+            {
+              "choice": "Μόνο αν το κοινό γινόμενο είναι θετικό",
+              "correct": false,
+              "reason": "Το αντιπαράδειγμα έχει ήδη θετικό κοινό γινόμενο 1."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "18a8e790-df70-5dd9-ae37-7ef5a34b640e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου της αναλυτικής έκφρασης Εσωτερικού Γινομένου και χωρίς την προβολή διανύσματος σε διάνυσμα. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η κλίση της ευθείας y=3x−2;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Στη μορφή y=λx+β η κλίση είναι ο συντελεστής του x.",
+        "solution": "Ο συντελεστής του x είναι 3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "cc93fa18-89b7-5924-993a-2239e7383d45"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η κλίση της ευθείας y=5x−2;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Στη μορφή y=λx+β η κλίση είναι ο συντελεστής του x.",
+        "solution": "Ο συντελεστής του x είναι 5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "cc93fa18-89b7-5924-993a-2239e7383d45"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ευθεία περνά από (0,2) και (2,4). Ποια είναι η κλίση της;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Υπολόγισε μεταβολή y διά μεταβολή x.",
+        "solution": "λ=(4−2)/(2−0)=1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(4-2)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fe7fd951-8a6f-5cbf-8595-a6eb96688334"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ευθεία περνά από (0,2) και (2,8). Ποια είναι η κλίση της;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Υπολόγισε μεταβολή y διά μεταβολή x.",
+        "solution": "λ=(8−2)/(2−0)=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(8-2)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fe7fd951-8a6f-5cbf-8595-a6eb96688334"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ευθεία με κλίση 2 περνά από το (3,4). Ποια είναι η τεταγμένη του σημείου της με x=5;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Χρησιμοποίησε y−4=2(x−3).",
+        "solution": "Για x=5 έχουμε y=4+2×2=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4+2*(5-3)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fe7fd951-8a6f-5cbf-8595-a6eb96688334"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια ευθεία από το (2,3) δεν περιγράφεται από y−3=λ(x−2) για πραγματικό λ;",
+        "choices": [
+          "x=2",
+          "y=3",
+          "y=x+1",
+          "y=2x−1"
+        ],
+        "answer": "x=2",
+        "hint": "Η μορφή με πραγματική κλίση δεν καλύπτει κατακόρυφες ευθείες.",
+        "solution": "Η x=2 είναι κατακόρυφη και δεν έχει ορισμένη πραγματική κλίση.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "x=2",
+              "correct": true,
+              "reason": "Η x=2 είναι κατακόρυφη και δεν έχει ορισμένη πραγματική κλίση."
+            },
+            {
+              "choice": "y=3",
+              "correct": false,
+              "reason": "Η y=3 αντιστοιχεί σε λ=0."
+            },
+            {
+              "choice": "y=x+1",
+              "correct": false,
+              "reason": "Η y=x+1 αντιστοιχεί σε λ=1."
+            },
+            {
+              "choice": "y=2x−1",
+              "correct": false,
+              "reason": "Η y=2x−1 αντιστοιχεί σε λ=2."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fe7fd951-8a6f-5cbf-8595-a6eb96688334"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η κλίση της ευθείας 2x+2y−6=0;",
+        "choices": [
+          "-1",
+          "0",
+          "-2",
+          "1"
+        ],
+        "answer": "-1",
+        "hint": "Λύσε ως προς y ή χρησιμοποίησε −Α/Β.",
+        "solution": "Με Β=2≠0, η κλίση είναι −2/2=-1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "57dd1283-87f0-5252-aca4-52f10622bb7a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η κλίση της ευθείας 4x+2y−6=0;",
+        "choices": [
+          "-2",
+          "-1",
+          "-3",
+          "2"
+        ],
+        "answer": "-2",
+        "hint": "Λύσε ως προς y ή χρησιμοποίησε −Α/Β.",
+        "solution": "Με Β=2≠0, η κλίση είναι −4/2=-2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-4/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "57dd1283-87f0-5252-aca4-52f10622bb7a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τετμημένη της τομής των x+y=5 και x−y=1;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Πρόσθεσε τις εξισώσεις για να απαλειφθεί το y.",
+        "solution": "2x=6, άρα x=3 και y=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(5+1)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "b593ac65-f2c5-52c8-8788-c0b84d92953e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για τις εξισώσεις 2x+y=4 και x−y=2, ποια είναι η ορίζουσα των συντελεστών;",
+        "choices": [
+          "-3",
+          "-2",
+          "-4",
+          "3"
+        ],
+        "answer": "-3",
+        "hint": "Η ορίζουσα είναι Α₁Β₂−Α₂Β₁.",
+        "solution": "D=2×(−1)−1×1=-3· είναι μη μηδενική.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*(-1)-1*1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "b593ac65-f2c5-52c8-8788-c0b84d92953e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ευθεία 3x+4y−12=0 τέμνει τους άξονες στα Α και Β. Πόσο είναι το άθροισμα των θετικών τετμημένης του Α και τεταγμένης του Β;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Για την τομή με x άξονα θέσε y=0 και για την άλλη x=0.",
+        "solution": "Οι τομές είναι (4,0) και (0,3), άρα το ζητούμενο άθροισμα είναι 7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12/3+12/4"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "b593ac65-f2c5-52c8-8788-c0b84d92953e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πότε η Ax+By+C=0 ορίζει ευθεία;",
+        "choices": [
+          "Όταν (Α,Β)≠(0,0)",
+          "Μόνο όταν Α≠0 και Β≠0",
+          "Πάντα, ακόμη και αν Α=Β=0",
+          "Μόνο όταν C=0"
+        ],
+        "answer": "Όταν (Α,Β)≠(0,0)",
+        "hint": "Αρκεί ένας από τους δύο συντελεστές μεταβλητών να είναι μη μηδενικός.",
+        "solution": "Αν τουλάχιστον ένας από Α,Β δεν είναι μηδέν, η εξίσωση είναι ευθείας.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όταν (Α,Β)≠(0,0)",
+              "correct": true,
+              "reason": "Αν τουλάχιστον ένας από Α,Β δεν είναι μηδέν, η εξίσωση είναι ευθείας."
+            },
+            {
+              "choice": "Μόνο όταν Α≠0 και Β≠0",
+              "correct": false,
+              "reason": "Η x=2 έχει Β=0 και είναι ευθεία."
+            },
+            {
+              "choice": "Πάντα, ακόμη και αν Α=Β=0",
+              "correct": false,
+              "reason": "Με Α=Β=0 έχουμε όλο το επίπεδο ή κανένα σημείο."
+            },
+            {
+              "choice": "Μόνο όταν C=0",
+              "correct": false,
+              "reason": "Οι ευθείες δεν είναι υποχρεωτικό να περνούν από την αρχή."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "b593ac65-f2c5-52c8-8788-c0b84d92953e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την Εφαρμογή 2. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρίγωνο έχει κορυφές (0,0),(4,0),(0,3). Ποιο είναι το εμβαδόν του;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Οι άξονες σχηματίζουν ορθή γωνία· χρησιμοποίησε βάση και ύψος.",
+        "solution": "Ε=βάση×ύψος/2=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*3/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "4c5bd2f0-2409-565b-b26c-d0160b8f6085"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των τύπων της απόστασης σημείου από ευθεία και του εμβαδού τριγώνου και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρίγωνο έχει κορυφές (0,0),(6,0),(0,3). Ποιο είναι το εμβαδόν του;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Οι άξονες σχηματίζουν ορθή γωνία· χρησιμοποίησε βάση και ύψος.",
+        "solution": "Ε=βάση×ύψος/2=9.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*3/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "4c5bd2f0-2409-565b-b26c-d0160b8f6085"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των τύπων της απόστασης σημείου από ευθεία και του εμβαδού τριγώνου και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η απόσταση του (0,0) από την ευθεία 3x+4y−10=0;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Χρησιμοποίησε |Ax₀+By₀+C|/√(A²+B²).",
+        "solution": "d=|−10|/√25=10/5=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "10/5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "33836bab-fc83-5f66-94d7-ce85d3fc1e42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των τύπων της απόστασης σημείου από ευθεία και του εμβαδού τριγώνου και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το εμβαδόν τριγώνου με Α(1,1), Β(5,1), Γ(2,4);",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Αφαίρεσε τις συντεταγμένες του Α ή βρες οριζόντια βάση και ύψος.",
+        "solution": "ΑΒ=4 και η απόσταση του Γ από y=1 είναι 3, άρα Ε=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*3/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "33836bab-fc83-5f66-94d7-ce85d3fc1e42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των τύπων της απόστασης σημείου από ευθεία και του εμβαδού τριγώνου και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι Α(0,0), Β(4,0), Γ(2,t) με t>0 σχηματίζουν τρίγωνο εμβαδού 10. Ποια είναι η τιμή του t;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Το ύψος προς την οριζόντια βάση είναι |t| και δίνεται t>0.",
+        "solution": "10=4t/2, άρα t=5. Η θετικότητα επιλέγει τη μία από τις συμμετρικές θέσεις.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*10/4"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "33836bab-fc83-5f66-94d7-ce85d3fc1e42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των τύπων της απόστασης σημείου από ευθεία και του εμβαδού τριγώνου και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί στον τύπο Ε=|det(ΑΒ,ΑΓ)|/2 υπάρχει απόλυτη τιμή;",
+        "choices": [
+          "Η ορίζουσα αλλάζει πρόσημο όταν αλλάζει η σειρά κορυφών",
+          "Το εμβαδόν μπορεί να είναι αρνητικό",
+          "Πρέπει να διπλασιάζεται η ορίζουσα",
+          "Η απόλυτη τιμή κάνει κάθε εμβαδόν ίσο με 1"
+        ],
+        "answer": "Η ορίζουσα αλλάζει πρόσημο όταν αλλάζει η σειρά κορυφών",
+        "hint": "Το γεωμετρικό εμβαδόν δεν εξαρτάται από προσανατολισμό.",
+        "solution": "Η αλλαγή σειράς αντιστρέφει το πρόσημο, ενώ το εμβαδόν παραμένει μη αρνητικό.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η ορίζουσα αλλάζει πρόσημο όταν αλλάζει η σειρά κορυφών",
+              "correct": true,
+              "reason": "Η αλλαγή σειράς αντιστρέφει το πρόσημο, ενώ το εμβαδόν παραμένει μη αρνητικό."
+            },
+            {
+              "choice": "Το εμβαδόν μπορεί να είναι αρνητικό",
+              "correct": false,
+              "reason": "Το γεωμετρικό εμβαδόν είναι μη αρνητικό."
+            },
+            {
+              "choice": "Πρέπει να διπλασιάζεται η ορίζουσα",
+              "correct": false,
+              "reason": "Η διαίρεση με 2 παραμένει αναγκαία για το τρίγωνο."
+            },
+            {
+              "choice": "Η απόλυτη τιμή κάνει κάθε εμβαδόν ίσο με 1",
+              "correct": false,
+              "reason": "Η απόλυτη τιμή διατηρεί το μέτρο, όχι σταθερή τιμή 1."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "33836bab-fc83-5f66-94d7-ce85d3fc1e42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των τύπων της απόστασης σημείου από ευθεία και του εμβαδού τριγώνου και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ο κύκλος x²+y²=9 έχει κέντρο Ο. Ποιο είναι το τετράγωνο της ακτίνας του;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Στη μορφή x²+y²=R² το δεξί μέλος είναι R².",
+        "solution": "Το R² είναι 9, όχι κατ’ ανάγκη η ίδια η ακτίνα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "9"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "643ba3bf-5944-593e-b645-4206024e2caf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις του κύκλου. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ο κύκλος x²+y²=25 έχει κέντρο Ο. Ποιο είναι το τετράγωνο της ακτίνας του;",
+        "choices": [
+          "25",
+          "26",
+          "24",
+          "-25"
+        ],
+        "answer": "25",
+        "hint": "Στη μορφή x²+y²=R² το δεξί μέλος είναι R².",
+        "solution": "Το R² είναι 25, όχι κατ’ ανάγκη η ίδια η ακτίνα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "25"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "643ba3bf-5944-593e-b645-4206024e2caf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις του κύκλου. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ο κύκλος (x−2)²+(y+3)²=16 έχει κέντρο (h,k). Ποιο είναι το k;",
+        "choices": [
+          "-3",
+          "-2",
+          "-4",
+          "3"
+        ],
+        "answer": "-3",
+        "hint": "Γράψε y+3=y−(−3).",
+        "solution": "Το κέντρο είναι (2,−3), επομένως k=-3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "ca0b00e5-444d-5198-8ecf-922506637d02"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις του κύκλου. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η ακτίνα του κύκλου x²+y²−6x+4y−12=0;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Συμπλήρωσε τετράγωνα: (x−3)²+(y+2)²=25.",
+        "solution": "Με συμπλήρωση τετραγώνων R²=25 και R=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "9+4+12"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "ca0b00e5-444d-5198-8ecf-922506637d02"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις του κύκλου. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στον κύκλο x²+y²=25, η εφαπτομένη στο (3,4) έχει εξίσωση 3x+4y=25. Ποια είναι η τεταγμένη της τομής της με τον άξονα y;",
+        "choices": [
+          "25/4",
+          "29/4",
+          "21/4",
+          "-25/4"
+        ],
+        "answer": "25/4",
+        "hint": "Στον άξονα y ισχύει x=0.",
+        "solution": "4y=25, άρα y=25/4. Το (3,4) ανήκει στον κύκλο αφού 9+16=25.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "25/4"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "ca0b00e5-444d-5198-8ecf-922506637d02"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις του κύκλου. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Τι παριστάνει η x²+y²=0 στο πραγματικό επίπεδο;",
+        "choices": [
+          "Μόνο το σημείο (0,0)",
+          "Κύκλο θετικής ακτίνας",
+          "Κανένα σημείο",
+          "Δύο κάθετες ευθείες"
+        ],
+        "answer": "Μόνο το σημείο (0,0)",
+        "hint": "Άθροισμα δύο τετραγώνων μηδενίζεται μόνο όταν μηδενίζονται και τα δύο.",
+        "solution": "Απαιτούνται x=0 και y=0, άρα υπάρχει ένα σημείο, όχι κύκλος θετικής ακτίνας.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Μόνο το σημείο (0,0)",
+              "correct": true,
+              "reason": "Απαιτούνται x=0 και y=0, άρα υπάρχει ένα σημείο, όχι κύκλος θετικής ακτίνας."
+            },
+            {
+              "choice": "Κύκλο θετικής ακτίνας",
+              "correct": false,
+              "reason": "Η ακτίνα θα ήταν 0, όχι θετική."
+            },
+            {
+              "choice": "Κανένα σημείο",
+              "correct": false,
+              "reason": "Το (0,0) ικανοποιεί την εξίσωση."
+            },
+            {
+              "choice": "Δύο κάθετες ευθείες",
+              "correct": false,
+              "reason": "Η ένωση αξόνων περιέχει και σημεία με θετικό άθροισμα τετραγώνων."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "ca0b00e5-444d-5198-8ecf-922506637d02"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις του κύκλου. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η παραβολή y²=4x γράφεται y²=2px. Ποιο είναι το p;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Σύγκρινε τους συντελεστές του x.",
+        "solution": "2p=4, άρα p=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f5f0aa0f-48cc-54c0-a741-e3e786992b92"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις του τύπου της εφαπτομένης και της ανακλαστικής ιδιότητας και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Η παραβολή y²=8x γράφεται y²=2px. Ποιο είναι το p;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Σύγκρινε τους συντελεστές του x.",
+        "solution": "2p=8, άρα p=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f5f0aa0f-48cc-54c0-a741-e3e786992b92"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις του τύπου της εφαπτομένης και της ανακλαστικής ιδιότητας και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για την παραβολή y²=4x, ποια είναι η τετμημένη της εστίας;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Η εστία είναι (p/2,0) και ο συντελεστής είναι 2p.",
+        "solution": "p=4/2, συνεπώς η τετμημένη εστίας είναι 1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8c88cd7e-13a7-5831-8f05-4c4c98cbffdf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις του τύπου της εφαπτομένης και της ανακλαστικής ιδιότητας και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για την παραβολή y²=12x, ποια είναι η τετμημένη της εστίας;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Η εστία είναι (p/2,0) και ο συντελεστής είναι 2p.",
+        "solution": "p=12/2, συνεπώς η τετμημένη εστίας είναι 3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12/4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8c88cd7e-13a7-5831-8f05-4c4c98cbffdf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις του τύπου της εφαπτομένης και της ανακλαστικής ιδιότητας και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η παραβολή y²=4x έχει p=2. Στο σημείο (1,2), ο τύπος εφαπτομένης yy₁=p(x+x₁) δίνει ευθεία. Ποια είναι η τιμή του y πάνω της όταν x=3;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Αντικατάστησε x₁=1,y₁=2 και απλοποίησε.",
+        "solution": "2y=2(x+1), άρα y=x+1. Για x=3 προκύπτει y=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+1"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8c88cd7e-13a7-5831-8f05-4c4c98cbffdf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις του τύπου της εφαπτομένης και της ανακλαστικής ιδιότητας και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο γεωμετρικός ορισμός της παραβολής;",
+        "choices": [
+          "Σημεία που ισαπέχουν από εστία και διευθετούσα που δεν περνά από την εστία",
+          "Σημεία σταθερής απόστασης μόνο από ένα σημείο",
+          "Σημεία σταθερού αθροίσματος αποστάσεων από δύο εστίες",
+          "Σημεία σταθερής απόλυτης διαφοράς αποστάσεων από δύο εστίες"
+        ],
+        "answer": "Σημεία που ισαπέχουν από εστία και διευθετούσα που δεν περνά από την εστία",
+        "hint": "Στον ορισμό υπάρχει ένα σημείο και μία ευθεία.",
+        "solution": "Η ισαπόσταση από εστία και διευθετούσα ορίζει την παραβολή με τη δοσμένη προϋπόθεση.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Σημεία που ισαπέχουν από εστία και διευθετούσα που δεν περνά από την εστία",
+              "correct": true,
+              "reason": "Η ισαπόσταση από εστία και διευθετούσα ορίζει την παραβολή με τη δοσμένη προϋπόθεση."
+            },
+            {
+              "choice": "Σημεία σταθερής απόστασης μόνο από ένα σημείο",
+              "correct": false,
+              "reason": "Η σταθερή απόσταση από ένα σημείο ορίζει κύκλο."
+            },
+            {
+              "choice": "Σημεία σταθερού αθροίσματος αποστάσεων από δύο εστίες",
+              "correct": false,
+              "reason": "Το σταθερό άθροισμα εστιακών αποστάσεων αφορά έλλειψη."
+            },
+            {
+              "choice": "Σημεία σταθερής απόλυτης διαφοράς αποστάσεων από δύο εστίες",
+              "correct": false,
+              "reason": "Η σταθερή απόλυτη διαφορά αφορά υπερβολή."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8c88cd7e-13a7-5831-8f05-4c4c98cbffdf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.2"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις του τύπου της εφαπτομένης και της ανακλαστικής ιδιότητας και χωρίς την Εφαρμογή 1. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η έλλειψη x²/9+y²/4=1 έχει οριζόντιο μεγάλο άξονα. Ποιο είναι το a²;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Σύγκρινε με x²/a²+y²/b²=1.",
+        "solution": "Ο μεγαλύτερος παρονομαστής είναι a²=9.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "9"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "fd508e4c-81f2-5d4a-85ce-7b3a9daee483"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις της έλλειψης και τις Εφαρμογές. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Η έλλειψη x²/25+y²/4=1 έχει οριζόντιο μεγάλο άξονα. Ποιο είναι το a²;",
+        "choices": [
+          "25",
+          "26",
+          "24",
+          "-25"
+        ],
+        "answer": "25",
+        "hint": "Σύγκρινε με x²/a²+y²/b²=1.",
+        "solution": "Ο μεγαλύτερος παρονομαστής είναι a²=25.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "25"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "fd508e4c-81f2-5d4a-85ce-7b3a9daee483"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις της έλλειψης και τις Εφαρμογές. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για την έλλειψη x²/25+y²/9=1, ποια είναι η απόσταση c κάθε εστίας από το κέντρο;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Για έλλειψη c²=a²−b².",
+        "solution": "c²=25−9=16, άρα c=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "25-9"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "35467c0f-e6ca-5195-aea4-fed34e078524"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις της έλλειψης και τις Εφαρμογές. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Έλλειψη έχει a=5,c=3. Ποια είναι η εκκεντρότητά της;",
+        "choices": [
+          "3/5",
+          "8/5",
+          "-2/5",
+          "-3/5"
+        ],
+        "answer": "3/5",
+        "hint": "Η εκκεντρότητα είναι c/a.",
+        "solution": "e=3/5=3/5, αριθμός μεταξύ 0 και 1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "35467c0f-e6ca-5195-aea4-fed34e078524"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις της έλλειψης και τις Εφαρμογές. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στην έλλειψη x²/25+y²/16=1 ένα σημείο απέχει 3 από τη μία εστία. Πόσο απέχει από την άλλη;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Το άθροισμα των εστιακών αποστάσεων ισούται με 2a.",
+        "solution": "2a=10 και η δεύτερη απόσταση είναι 10−3=7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*5-3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "35467c0f-e6ca-5195-aea4-fed34e078524"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις της έλλειψης και τις Εφαρμογές. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε έλλειψη με δύο διαφορετικές εστίες ποια σχέση ισχύει;",
+        "choices": [
+          "0<c<a",
+          "c>a>0",
+          "c=a>0",
+          "c<0"
+        ],
+        "answer": "0<c<a",
+        "hint": "Το σταθερό άθροισμα 2a υπερβαίνει την απόσταση εστιών 2c.",
+        "solution": "Για μη εκφυλισμένη έλλειψη με διαφορετικές εστίες ισχύει 0<c<a.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "0<c<a",
+              "correct": true,
+              "reason": "Για μη εκφυλισμένη έλλειψη με διαφορετικές εστίες ισχύει 0<c<a."
+            },
+            {
+              "choice": "c>a>0",
+              "correct": false,
+              "reason": "Η σχέση c>a αντιστοιχεί στην υπερβολή."
+            },
+            {
+              "choice": "c=a>0",
+              "correct": false,
+              "reason": "Η ισότητα οδηγεί σε εκφυλισμό, όχι γνήσια έλλειψη."
+            },
+            {
+              "choice": "c<0",
+              "correct": false,
+              "reason": "Το c είναι θετική απόσταση από το κέντρο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "35467c0f-e6ca-5195-aea4-fed34e078524"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.3"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις παραμετρικές εξισώσεις της έλλειψης και τις Εφαρμογές. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η υπερβολή x²/4−y²/16=1 έχει οριζόντιο πραγματικό άξονα. Ποιο είναι το a²;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Το a² είναι ο παρονομαστής του θετικού όρου.",
+        "solution": "a²=4. Το πρόσημο διακρίνει την υπερβολή από την έλλειψη.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "260af9c5-4b8d-5f7e-b485-e875149c7828"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου των ασύμπτωτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Η υπερβολή x²/9−y²/16=1 έχει οριζόντιο πραγματικό άξονα. Ποιο είναι το a²;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Το a² είναι ο παρονομαστής του θετικού όρου.",
+        "solution": "a²=9. Το πρόσημο διακρίνει την υπερβολή από την έλλειψη.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "9"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "260af9c5-4b8d-5f7e-b485-e875149c7828"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου των ασύμπτωτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x²/9−y²/16=1, ποια είναι η απόσταση c της εστίας από το κέντρο;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Στην υπερβολή c²=a²+b².",
+        "solution": "c²=9+16=25, άρα c=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "9+16"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "bb2bd414-155a-52cf-8e8a-0969678adb26"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου των ασύμπτωτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x²/9−y²/16=1, ποια είναι η θετική κλίση μιας ασυμπτώτου;",
+        "choices": [
+          "4/3",
+          "7/3",
+          "1/3",
+          "-4/3"
+        ],
+        "answer": "4/3",
+        "hint": "Οι ασύμπτωτες έχουν κλίσεις ±b/a.",
+        "solution": "a=3,b=4, άρα η θετική κλίση είναι 4/3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "bb2bd414-155a-52cf-8e8a-0969678adb26"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου των ασύμπτωτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπερβολή έχει a=3,c=5. Σε σημείο της η μεγαλύτερη εστιακή απόσταση είναι 11. Ποια είναι η μικρότερη;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Η απόλυτη διαφορά εστιακών αποστάσεων είναι 2a.",
+        "solution": "11−d=6, συνεπώς d=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "11-2*3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "bb2bd414-155a-52cf-8e8a-0969678adb26"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου των ασύμπτωτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια αλλαγή χρειάζεται στις ασύμπτωτες για κατακόρυφη υπερβολή y²/a²−x²/b²=1;",
+        "choices": [
+          "Γίνονται y=±(a/b)x",
+          "Παραμένουν πάντοτε y=±(b/a)x",
+          "Γίνονται x=±a",
+          "Δεν υπάρχουν ασύμπτωτες"
+        ],
+        "answer": "Γίνονται y=±(a/b)x",
+        "hint": "Θέσε ίσους τους δύο τετραγωνικούς όρους.",
+        "solution": "Από y²/a²=x²/b² προκύπτουν οι διευθύνσεις y=±(a/b)x.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Γίνονται y=±(a/b)x",
+              "correct": true,
+              "reason": "Από y²/a²=x²/b² προκύπτουν οι διευθύνσεις y=±(a/b)x."
+            },
+            {
+              "choice": "Παραμένουν πάντοτε y=±(b/a)x",
+              "correct": false,
+              "reason": "Οι ρόλοι των αξόνων έχουν αλλάξει και ο λόγος αντιστρέφεται."
+            },
+            {
+              "choice": "Γίνονται x=±a",
+              "correct": false,
+              "reason": "Οι x=±a είναι κατακόρυφες, όχι οι ασύμπτωτες της δοσμένης μορφής."
+            },
+            {
+              "choice": "Δεν υπάρχουν ασύμπτωτες",
+              "correct": false,
+              "reason": "Η γνήσια υπερβολή έχει δύο ασύμπτωτες."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "bb2bd414-155a-52cf-8e8a-0969678adb26"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς την απόδειξη του τύπου των ασύμπτωτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα κοινά πραγματικά σημεία έχουν ο κύκλος x²+y²=9 και η ευθεία y=0;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Αντικατάστησε y=0 στην εξίσωση του κύκλου.",
+        "solution": "x²=9 δίνει x=±3, άρα υπάρχουν 2 διαφορετικά σημεία.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "ff8f835b-d857-5e44-959d-785f2faef829"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τη μεταφορά αξόνων; Στη διδασκαλία περιορίζεται στην υποπαράγραφο σχετικής θέσης ευθείας και κωνικής. Δεν ταυτίζεται με γενική διδασκαλία όλης της παραγράφου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα κοινά πραγματικά σημεία έχουν ο κύκλος x²+y²=9 και η ευθεία y=4;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Έλεγξε αν το x² μπορεί να είναι αρνητικό.",
+        "solution": "x²=9−16=−7 είναι αδύνατο στους πραγματικούς, άρα 0 τομές.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "ff8f835b-d857-5e44-959d-785f2faef829"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τη μεταφορά αξόνων; Στη διδασκαλία περιορίζεται στην υποπαράγραφο σχετικής θέσης ευθείας και κωνικής. Δεν ταυτίζεται με γενική διδασκαλία όλης της παραγράφου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα κοινά πραγματικά σημεία έχουν η παραβολή y²=4x και η ευθεία x=1;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Με x=1 λύσε ως προς y.",
+        "solution": "y²=4 δίνει y=±2, άρα 2 τομές.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "5fc02c86-0913-5da6-ad29-220d34819c42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τη μεταφορά αξόνων; Στη διδασκαλία περιορίζεται στην υποπαράγραφο σχετικής θέσης ευθείας και κωνικής. Δεν ταυτίζεται με γενική διδασκαλία όλης της παραγράφου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα κοινά πραγματικά σημεία έχουν ο κύκλος x²+y²=25 και η ευθεία y=5;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Με αντικατάσταση έλεγξε τη διπλή ρίζα.",
+        "solution": "x²=0 δίνει μόνο (0,5), άρα 1 κοινό σημείο και επαφή.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "5fc02c86-0913-5da6-ad29-220d34819c42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τη μεταφορά αξόνων; Στη διδασκαλία περιορίζεται στην υποπαράγραφο σχετικής θέσης ευθείας και κωνικής. Δεν ταυτίζεται με γενική διδασκαλία όλης της παραγράφου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα διαφορετικά κοινά σημεία έχουν η παραβολή y=x² και η ευθεία y=2x+3;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Λύσε x²−2x−3=0 και έλεγξε τις ρίζες.",
+        "solution": "(x−3)(x+1)=0, οπότε οι τομές είναι (3,9), (−1,1): 2 σημεία.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "5fc02c86-0913-5da6-ad29-220d34819c42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τη μεταφορά αξόνων; Στη διδασκαλία περιορίζεται στην υποπαράγραφο σχετικής θέσης ευθείας και κωνικής. Δεν ταυτίζεται με γενική διδασκαλία όλης της παραγράφου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ευθεία x=1 τέμνει την παραβολή y=x² μόνο στο (1,1). Είναι υποχρεωτικά εφαπτομένη;",
+        "choices": [
+          "Όχι, η αντικατάσταση δίνει γραμμική εξίσωση ως προς y",
+          "Ναι, ένα κοινό σημείο αρκεί για κάθε κωνική",
+          "Ναι, επειδή η διακρίνουσα είναι πάντα 0",
+          "Όχι, επειδή δεν έχουν κοινό σημείο"
+        ],
+        "answer": "Όχι, η αντικατάσταση δίνει γραμμική εξίσωση ως προς y",
+        "hint": "Έλεγξε τον βαθμό της εξίσωσης πριν χρησιμοποιήσεις κανόνα διακρίνουσας.",
+        "solution": "Με x=1 μένει y=1, γραμμική σχέση· η κατακόρυφη x=1 δεν είναι εφαπτομένη της y=x² στο (1,1).",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, η αντικατάσταση δίνει γραμμική εξίσωση ως προς y",
+              "correct": true,
+              "reason": "Με x=1 μένει y=1, γραμμική σχέση· η κατακόρυφη x=1 δεν είναι εφαπτομένη της y=x² στο (1,1)."
+            },
+            {
+              "choice": "Ναι, ένα κοινό σημείο αρκεί για κάθε κωνική",
+              "correct": false,
+              "reason": "Ένα κοινό σημείο δεν αρκεί χωρίς τις κατάλληλες προϋποθέσεις."
+            },
+            {
+              "choice": "Ναι, επειδή η διακρίνουσα είναι πάντα 0",
+              "correct": false,
+              "reason": "Δεν προκύπτει γνήσια δευτεροβάθμια εξίσωση στην εναπομένουσα μεταβλητή."
+            },
+            {
+              "choice": "Όχι, επειδή δεν έχουν κοινό σημείο",
+              "correct": false,
+              "reason": "Το (1,1) ικανοποιεί και τις δύο εξισώσεις."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "5fc02c86-0913-5da6-ad29-220d34819c42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 19,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s03-00",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τη μεταφορά αξόνων; Στη διδασκαλία περιορίζεται στην υποπαράγραφο σχετικής θέσης ευθείας και κωνικής. Δεν ταυτίζεται με γενική διδασκαλία όλης της παραγράφου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    }
+  ]
+}

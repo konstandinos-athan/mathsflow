@@ -1,10 +1,10 @@
 {
   "catalog_units": 325,
-  "units_with_quiz": 175,
-  "active_questions": 1434,
-  "with_learning_support": 1104,
-  "first_pass_complete_units": 164,
-  "remaining_units": 161,
+  "units_with_quiz": 325,
+  "active_questions": 2718,
+  "with_learning_support": 2718,
+  "first_pass_complete_units": 325,
+  "remaining_units": 0,
   "educator_approved_units": 0,
   "units": [
     {
@@ -2084,10 +2084,17 @@
       "title": "Εξισώσεις 1ου Βαθμού",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "5a7e5575-41da-58d3-b33b-b0d51b1936a0",
+        "f0a80240-c43e-593d-bfbf-7dedb8e06bc1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2096,10 +2103,17 @@
       "title": "Η εξίσωση x^ν = α",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "4e37715b-d692-5b66-ab1d-2b846901aa09",
+        "8d5932b0-ca49-5809-b155-449626384ffa"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2108,10 +2122,17 @@
       "title": "Εξισώσεις 2ου Βαθμού",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "4d04663d-c606-5e51-96f6-cd3f9190f10b",
+        "ad909386-8ef8-5533-ae0b-9d80d6d1b533"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2120,10 +2141,17 @@
       "title": "Ανισώσεις 1ου Βαθμού",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "630659c3-31b6-56be-a00d-86e0fa8cd6db",
+        "a5d9af61-c488-5aec-a8d6-83aa2cb38f32"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2132,10 +2160,17 @@
       "title": "Ανισώσεις 2ου Βαθμού",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "1f3567c7-cf52-5cc6-a63c-c47a8417e6b3",
+        "f6edb2aa-0382-53e8-92d7-4d34e20640a7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2144,10 +2179,17 @@
       "title": "Ακολουθίες",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "0a9bb831-4577-5a9b-96c5-fb3ef74ded8d",
+        "443c74f8-ee63-51ac-8b75-02f53dc692fa"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2156,10 +2198,17 @@
       "title": "Αριθμητική πρόοδος",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "2a72adea-0764-5b8e-b82b-21c4ca0fecb4",
+        "a900465e-40f8-5182-8abe-f494e193108a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2168,10 +2217,17 @@
       "title": "Γεωμετρική πρόοδος",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "64f544c0-47f7-5d41-b086-9b1ba53245e3",
+        "e87f9df2-a1c0-56b2-a37a-89d4f352dbcb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2180,10 +2236,17 @@
       "title": "Η Έννοια της Συνάρτησης",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "85dcf400-546d-596d-a245-e374bc5d9b6c",
+        "a24ef4db-c362-52f2-84db-a396b549d0a6"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2192,10 +2255,17 @@
       "title": "Γραφική Παράσταση Συνάρτησης",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "167611e6-7059-52e1-a2fe-cd6f1fee324b",
+        "f4f1b1fd-e4d1-53fe-8b88-dc224c704d7e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2204,10 +2274,17 @@
       "title": "Η Συνάρτηση f",
       "course_key": "gel-a-algebra",
       "questions": 30,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "90308d7e-1026-549c-ba30-12961ded2df9",
+        "dc2bec64-acb2-5898-976d-56067f9fd89f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2842,11 +2919,18 @@
       "reference": "1.1",
       "title": "Γραμμικά Συστήματα",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0be3369e-4a3f-5c4e-bdc9-c468883daadd",
+        "64fa6a8e-bcb4-55c8-b7f7-53b727d45b51"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2854,11 +2938,18 @@
       "reference": "2.1",
       "title": "Μονοτονία-Ακρότατα-Συμμετρίες Συνάρτησης",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1b3cec16-128f-5509-a678-8b2ee2863b4c",
+        "cac2a291-e531-59de-9b63-f6f63fe2d031"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2866,11 +2957,18 @@
       "reference": "2.2",
       "title": "Κατακόρυφη-Οριζόντια Μετατόπιση Καμπύλης",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "25b87b53-a116-52b9-908c-75160bd2273f",
+        "e98cc93a-e025-5e82-bf2e-9eb19704c016"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2878,11 +2976,18 @@
       "reference": "3.1",
       "title": "Τριγωνομετρικοί Αριθμοί Γωνίας",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "886b7fb5-6266-5cb2-91d3-186a205e8a74",
+        "a2dcbb68-c1e8-594c-9abe-904a182ab193"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2890,11 +2995,18 @@
       "reference": "3.2",
       "title": "Βασικές Τριγωνομετρικές Ταυτότητες",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3e5fecfe-8c88-54e7-b6ac-4936f4a0a3ec",
+        "cd5901b8-b0d0-5522-85e5-47826121d24f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2902,11 +3014,18 @@
       "reference": "3.3",
       "title": "Αναγωγή στο 1ο τεταρτημόριο",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "288556d7-d305-59ec-9109-25a2360ed967",
+        "fcb624bf-4804-502b-83b2-75c02308eb76"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2914,11 +3033,18 @@
       "reference": "3.4",
       "title": "Οι τριγωνομετρικές συναρτήσεις",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2c9a615b-9eba-5e78-8679-bf8a683f0d9f",
+        "c441b6a2-1a1a-5539-a952-9af1dabdeed5"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2926,11 +3052,18 @@
       "reference": "3.5",
       "title": "Βασικές τριγωνομετρικές εξισώσεις",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "9d8e570d-966b-552f-aa8e-fdab9d3db443",
+        "c81be989-4cae-5783-9ae6-ba63a4067004"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2938,11 +3071,18 @@
       "reference": "4.1",
       "title": "Πολυώνυμα",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4a994d72-f328-52b0-b6fc-2d1e7fce71a6",
+        "5903f831-23c8-553c-aced-805bb613c33c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2950,11 +3090,18 @@
       "reference": "4.2",
       "title": "Διαίρεση πολυωνύμων",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "265af710-ec65-5262-b540-b917a08cb747",
+        "57a9bf5f-2b76-5d6d-b4b5-357b887b7c5e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2962,11 +3109,18 @@
       "reference": "4.3",
       "title": "Πολυωνυμικές εξισώσεις και ανισώσεις",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0d048db1-9bb4-56b6-b037-61e1310458cd",
+        "47e79fee-c563-5e45-8c20-4527042f4388"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2974,11 +3128,18 @@
       "reference": "4.4",
       "title": "Εξισώσεις και ανισώσεις που ανάγονται σε πολυωνυμικές",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "00bc0a4a-9507-5754-93ba-e834bc3126e6",
+        "4c106af6-e10d-5cb4-8a40-cf6d63031edf"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2986,11 +3147,18 @@
       "reference": "5.1",
       "title": "Εκθετική συνάρτηση",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "16230dbf-f185-59a0-a74c-459d6ca4c907",
+        "1997aaea-1717-5a13-92c6-b09df1790f8f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -2998,11 +3166,18 @@
       "reference": "5.2",
       "title": "Λογάριθμοι",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1d285c06-4e55-5b5b-b0c3-e89150adf846",
+        "b3bbfbd4-d18f-5b4e-a503-d991b37fb356"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3010,11 +3185,18 @@
       "reference": "5.3",
       "title": "Λογαριθμική συνάρτηση",
       "course_key": "gel-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6225a841-9c32-5578-b1b6-5089a44838f0",
+        "a133291d-0d9c-559c-9768-5185d5549e4d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3440,11 +3622,18 @@
       "reference": "1.1",
       "title": "Η Έννοια του Διανύσματος",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "51827f7b-fe3c-5641-ae0d-257605d013eb",
+        "e4f49732-ffe7-5d22-8ed0-f7770fe3900e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3452,11 +3641,18 @@
       "reference": "1.2",
       "title": "Πρόσθεση και Αφαίρεση Διανυσμάτων",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4825b8d6-8155-506c-9b24-200c0643fe50",
+        "5fbacacd-467a-5ada-99bc-85fb907584b0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3464,11 +3660,18 @@
       "reference": "1.3",
       "title": "Πολλαπλασιασμός Αριθμού με Διάνυσμα",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "57ecf43c-7fc4-5432-b361-2076fb231fea",
+        "973b1c93-dbef-5ab0-b5ab-ed80f7c7714f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3476,11 +3679,18 @@
       "reference": "1.4",
       "title": "Συντεταγμένες στο Επίπεδο",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "bb0f9eb6-dffe-5d72-893e-3322818e573f",
+        "cc5d0af0-d5c1-5712-94a5-f4636a1b2168"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3488,11 +3698,18 @@
       "reference": "1.5",
       "title": "Εσωτερικό Γινόμενο Διανυσμάτων",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "18a8e790-df70-5dd9-ae37-7ef5a34b640e",
+        "779c7ce6-72b9-5b27-b918-c54b68d57ed1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3500,11 +3717,18 @@
       "reference": "2.1",
       "title": "Εξίσωση Ευθείας",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "cc93fa18-89b7-5924-993a-2239e7383d45",
+        "fe7fd951-8a6f-5cbf-8595-a6eb96688334"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3512,11 +3736,18 @@
       "reference": "2.2",
       "title": "Γενική Μορφή Εξίσωσης Ευθείας",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "57dd1283-87f0-5252-aca4-52f10622bb7a",
+        "b593ac65-f2c5-52c8-8788-c0b84d92953e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3524,11 +3755,18 @@
       "reference": "2.3",
       "title": "Εμβαδόν Τριγώνου",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "33836bab-fc83-5f66-94d7-ce85d3fc1e42",
+        "4c5bd2f0-2409-565b-b26c-d0160b8f6085"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3536,11 +3774,18 @@
       "reference": "3.1",
       "title": "Ο Κύκλος",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "643ba3bf-5944-593e-b645-4206024e2caf",
+        "ca0b00e5-444d-5198-8ecf-922506637d02"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3548,11 +3793,18 @@
       "reference": "3.2",
       "title": "Η Παραβολή",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8c88cd7e-13a7-5831-8f05-4c4c98cbffdf",
+        "f5f0aa0f-48cc-54c0-a741-e3e786992b92"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3560,11 +3812,18 @@
       "reference": "3.3",
       "title": "Η Έλλειψη",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "35467c0f-e6ca-5195-aea4-fed34e078524",
+        "fd508e4c-81f2-5d4a-85ce-7b3a9daee483"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3572,11 +3831,18 @@
       "reference": "3.4",
       "title": "Η Υπερβολή",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "260af9c5-4b8d-5f7e-b485-e875149c7828",
+        "bb2bd414-155a-52cf-8e8a-0969678adb26"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3584,11 +3850,18 @@
       "reference": "3.5",
       "title": "Η Εξίσωση Αx²+Βy²+Γx+Δy+Ε=0",
       "course_key": "gel-b-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5fc02c86-0913-5da6-ad29-220d34819c42",
+        "ff8f835b-d857-5e44-959d-785f2faef829"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3596,11 +3869,18 @@
       "reference": "1.1",
       "title": "Πειράματα τύχης, δειγματικός χώρος και ενδεχόμενα",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2f21fac4-1661-5572-9e3b-c9919ea6f3e2",
+        "ac8e5608-a45d-517a-be91-e3e90589ab12"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3608,11 +3888,18 @@
       "reference": "1.2",
       "title": "Πιθανότητες: Ορισμοί και εφαρμογές",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "52b7009a-d7be-5cd3-9ffc-fe01aff78bb1",
+        "70fce642-29b7-5409-8dce-032ca0185915"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3620,11 +3907,18 @@
       "reference": "1.3",
       "title": "Πιθανότητες και πράξεις με ενδεχόμενα",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a9e8d881-f094-5bb3-a023-41227eda6498",
+        "b5d74696-7936-5da7-8306-179407dd8781"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3632,11 +3926,18 @@
       "reference": "1.4",
       "title": "Συνδυαστική και πιθανότητες",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "98965fd3-9e7e-52c6-bfa7-34afab299bda",
+        "a2b8df23-f8cd-5fe9-bee3-ee3bcd076865"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3644,11 +3945,18 @@
       "reference": "2.1",
       "title": "Πληθυσμός - Δείγμα – Μεταβλητές",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1683a524-8780-56fb-9ed7-55b8b80c145a",
+        "45241296-6758-5a05-9bb6-feaf73e84824"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3656,11 +3964,18 @@
       "reference": "2.2",
       "title": "Παρουσίαση στατιστικών δεδομένων",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "23d474b5-a257-53c8-b35b-8eb2365ae0ea",
+        "cc48e68a-806a-567c-80cc-5cec248eec33"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3668,11 +3983,18 @@
       "reference": "2.3",
       "title": "Μέτρα θέσης και μεταβλητότητας, θηκόγραμμα, συντελεστής μεταβλητότητας",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "597680db-e9e0-5238-b376-fef8c43bc806",
+        "c1f3f1e5-f80b-52fa-a9fb-7bd175fc5bfb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3680,11 +4002,18 @@
       "reference": "2.4",
       "title": "Κανονική κατανομή και εφαρμογές",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2fdf0b85-7c98-598a-9db9-980923bbd504",
+        "31626284-d8ad-5130-a54b-f881b69a50fe"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3692,11 +4021,18 @@
       "reference": "2.5",
       "title": "Πίνακες Συνάφειας και Ραβδογράμματα",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2bda0be4-58f8-5f46-a056-871938b61309",
+        "3298f762-a876-5924-a189-6db718c9255c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3704,11 +4040,18 @@
       "reference": "2.6",
       "title": "Σύγκριση ποσοτικών χαρακτηριστικών στις κατηγορίες ενός ποιοτικού χαρακτηριστικού",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8a28a64f-2654-5696-bc43-7501ad89901f",
+        "ab331caf-d8d8-5c45-829c-ec5f3c037b3e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3716,11 +4059,18 @@
       "reference": "2.7",
       "title": "Γραμμική συσχέτιση ποσοτικών μεταβλητών και διαγράμματα διασποράς",
       "course_key": "gel-c-general",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0cd94be9-098b-524b-bbf1-2c96a34dd672",
+        "77e00309-04b4-54f7-9ecf-7684f174dc31"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3728,11 +4078,18 @@
       "reference": "1.1",
       "title": "Πραγματικοί αριθμοί",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0eb8e404-1cc3-5661-985c-2ceda470606f",
+        "3e234932-38ef-524c-9de5-381d247b59cc"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3740,11 +4097,18 @@
       "reference": "1.2",
       "title": "Συναρτήσεις",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0e47c054-d3f6-5d47-8e61-2881364ada3a",
+        "347b685d-08c0-58aa-946c-fd8e6c57b880"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3752,11 +4116,18 @@
       "reference": "1.3",
       "title": "Μονότονες συναρτήσεις - Αντίστροφη συνάρτηση",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7416db5d-6feb-5b45-9006-2b53d7f184d0",
+        "9fd86fa4-dfc2-5511-bd8d-477f62e47055"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3764,11 +4135,18 @@
       "reference": "1.4",
       "title": "Όριο συνάρτησης σε πραγματικό σημείο",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "305c99d9-e3e9-500c-bd62-c4876fa8371d",
+        "fe6856cc-a07f-5c38-b673-09244cc00609"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3776,11 +4154,18 @@
       "reference": "1.5",
       "title": "Ιδιότητες των ορίων",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0d7a683a-72d0-5200-a8e6-1ccbdfc9d258",
+        "de7f79ec-6c6b-5285-a943-4b4d0aab49f7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3788,11 +4173,18 @@
       "reference": "1.6",
       "title": "Μη πεπερασμένο όριο σε πραγματικό σημείο",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8a453654-5719-5c5d-bc39-3a1bedd230c9",
+        "e9003b28-e2fd-5508-95a8-360383873642"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3800,11 +4192,18 @@
       "reference": "1.7",
       "title": "Όριο συνάρτησης στο άπειρο",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "109a3f8d-ec6d-5953-a2c0-d57da15ec95a",
+        "b42615f4-80c5-5377-8bc9-53d935428491"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3812,11 +4211,18 @@
       "reference": "1.8",
       "title": "Συνέχεια συνάρτησης",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "13c4fa01-faba-55c2-a838-520a6f4f72a4",
+        "24fa62b4-3c14-5231-a523-7109db3c3819"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3824,11 +4230,18 @@
       "reference": "2.1",
       "title": "Η έννοια της παραγώγου",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3082e967-bcef-52cd-8ea4-7f1cf9efa139",
+        "aa4192bc-ed2e-5c99-adee-51eca9ef7777"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3836,11 +4249,18 @@
       "reference": "2.2",
       "title": "Παραγωγίσιμες συναρτήσεις - Παράγωγος συνάρτηση",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "63e9b290-3204-5661-b018-8878bf706ca1",
+        "7b22c244-3f1d-5596-8f64-849d564d2379"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3848,11 +4268,18 @@
       "reference": "2.3",
       "title": "Κανόνες παραγώγισης",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "192d7a66-da18-5ae7-a5cd-c4867fcacf1c",
+        "fcf590ad-9b44-5f63-89cb-328b4a814455"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3860,11 +4287,18 @@
       "reference": "2.4",
       "title": "Ρυθμός μεταβολής",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3e37782b-3be5-5d9c-b303-65b248185e64",
+        "4dc14b38-f002-503b-96ad-79e15cb39473"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3872,11 +4306,18 @@
       "reference": "2.5",
       "title": "Θεώρημα Μέσης Τιμής Διαφορικού Λογισμού",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "94d41348-842e-5adc-b729-6f1728ceabfe",
+        "ecdde3ca-73da-5b31-a40e-99f16726b2a3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3884,11 +4325,18 @@
       "reference": "2.6",
       "title": "Συνέπειες του Θεωρήματος Μέσης Τιμής",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3e938847-5e20-5d21-9c8e-02a98046d626",
+        "3f24e7e2-3e19-557a-819a-499f9a0dd388"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3896,11 +4344,18 @@
       "reference": "2.7",
       "title": "Τοπικά ακρότατα συνάρτησης",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "22aba94e-794a-5b0b-a7b4-a3da7be21ded",
+        "294d0414-c2e7-5097-86aa-1904267f47a3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3908,11 +4363,18 @@
       "reference": "2.8",
       "title": "Κυρτότητα - Σημεία καμπής συνάρτησης",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4d1e9b27-81cd-5eba-a5af-f240ede85d7b",
+        "7bbafdbe-d367-59dc-b149-3fe1a3b74554"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3920,11 +4382,18 @@
       "reference": "2.9",
       "title": "Ασύμπτωτες - Κανόνες De L’Hospital",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "41fdc9df-ec02-575c-92a7-3e72b51664a0",
+        "a2a8574c-beb7-5eae-98e0-f3fd7f4a2f51"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3932,11 +4401,18 @@
       "reference": "2.10",
       "title": "Μελέτη και χάραξη γραφικής παράστασης συνάρτησης",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "28f9b8bb-de43-5da6-989e-2b81848a6c61",
+        "f291745e-9d4d-5566-b025-2c5b34c4c5b6"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3944,11 +4420,18 @@
       "reference": "3.1",
       "title": "Αρχική συνάρτηση (παράγουσα)",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8a9cb259-c8a4-58ea-bcb7-4736bdf8dc85",
+        "f6eabd6e-7b41-513d-98f8-b5b5a90c1f6c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3956,11 +4439,18 @@
       "reference": "3.4",
       "title": "Ορισμένο ολοκλήρωμα",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "253a7104-36bb-5ac5-902e-3dff9265522e",
+        "d3889066-fee3-5a1b-adf8-01f6c9fcb80d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3968,11 +4458,18 @@
       "reference": "3.5",
       "title": "Η συνάρτηση F(x)=∫αˣ f(t)dt",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "612e8890-1fdb-5106-9dec-a2e313887f8d",
+        "8a0978a8-c20f-5aee-9599-171e03f471ff"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3980,11 +4477,18 @@
       "reference": "3.7",
       "title": "Εμβαδόν επίπεδου χωρίου",
       "course_key": "gel-c-orientation",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "9fdce33d-2732-5f3d-bf89-4d03db1464bf",
+        "c52cc3bd-b44f-50fc-9d2a-dda350afedb0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -3992,11 +4496,18 @@
       "reference": "Ε.2",
       "title": "Σύνολα",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "8a475081-0996-5bdf-b137-3d1730336cae",
+        "d1d7cc18-1282-5f22-bf08-b997c84274c0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4004,11 +4515,18 @@
       "reference": "2.1",
       "title": "Οι Πράξεις και οι Ιδιότητές τους",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "0c6b5aea-96e8-5f9c-bcdb-0cfe9416cc25",
+        "2cb902bc-8754-5a29-93a1-025401fa2b9e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4016,11 +4534,18 @@
       "reference": "2.2",
       "title": "Διάταξη Πραγματικών Αριθμών",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "10010c39-c02b-5691-a20e-2209af6741f1",
+        "ff3bfdfe-bc7b-517a-b29e-4f06076b04a1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4028,11 +4553,18 @@
       "reference": "2.3",
       "title": "Απόλυτη Τιμή Πραγματικού Αριθμού",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "0f474aaf-a9a1-51f3-8a0d-690146317d63",
+        "41640714-ee3c-5aa4-8213-3d7366d3940c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4040,11 +4572,18 @@
       "reference": "2.4",
       "title": "Ρίζες Πραγματικών Αριθμών",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "5db8d5d9-63cb-5116-9605-5be9d40770a9",
+        "dab0a006-8914-5d20-aa93-3af0974a3da9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4052,11 +4591,18 @@
       "reference": "3.1",
       "title": "Εξισώσεις 1ου Βαθμού",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "808629df-af23-568f-bcd2-9333a0eb0b72",
+        "c6b2770a-c5ff-5283-a01d-56df86c32ad0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4064,11 +4610,18 @@
       "reference": "3.2",
       "title": "Η εξίσωση x^ν = α",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "111aa132-bb2b-521b-855e-0a5aef8af635",
+        "977acd8d-5d8b-5980-b34b-35e9bd129be0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4076,11 +4629,18 @@
       "reference": "3.3",
       "title": "Εξισώσεις 2ου Βαθμού",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "0e26ade7-6bf9-52e4-bb59-7b8ae9aaedfe",
+        "3deb81b3-7829-51e8-81b5-85592323dbb8"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4088,11 +4648,18 @@
       "reference": "4.1",
       "title": "Ανισώσεις 1ου Βαθμού",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "67290b09-8200-5578-9f73-82f03f849da9",
+        "9e61f84a-f7c8-5f2d-a43c-746d3d84002d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4100,11 +4667,18 @@
       "reference": "4.2",
       "title": "Ανισώσεις 2ου Βαθμού",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "f2daaa65-b8cf-5385-8a6a-5860faab05e3",
+        "f43ad77b-53d7-5f0a-90de-f2ccca00a62d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4112,11 +4686,18 @@
       "reference": "5.1",
       "title": "Ακολουθίες",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "90ae748f-53e4-5a1b-bde8-12f14b7515a5",
+        "f3524a6f-63b4-5bd5-828a-329c86570d67"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4124,11 +4705,18 @@
       "reference": "5.2",
       "title": "Αριθμητική πρόοδος",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "01e3b34c-c969-55d4-9111-50470daf3bb7",
+        "b773a986-a7f5-5831-ba8f-9c48f5fc4510"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4136,11 +4724,18 @@
       "reference": "5.3",
       "title": "Γεωμετρική πρόοδος",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "1ab47128-e71e-5890-b846-25b6c0fe5d7e",
+        "ae35371c-bbd5-5bb0-b052-f620f85da9d4"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4148,11 +4743,18 @@
       "reference": "6.1",
       "title": "Η Έννοια της Συνάρτησης",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "93a4ee75-6bca-5280-a38d-920c57947264",
+        "ccf03ce5-8142-5bbd-9baa-c126ab0239ec"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4160,11 +4762,18 @@
       "reference": "6.2",
       "title": "Γραφική Παράσταση Συνάρτησης",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "27c4c2de-0582-5391-adf1-dacdd728d4d1",
+        "561701b2-7291-508a-9245-9bfbb8e0c8a8"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4172,11 +4781,18 @@
       "reference": "6.3",
       "title": "Η Συνάρτηση f",
       "course_key": "epal-a-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 30,
+      "with_learning_support": 30,
+      "difficulties": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "objective_ids_covered": [
+        "0f3a1893-18e1-577c-b7b9-d90ad66407a0",
+        "42b7aa47-8bd5-509b-b492-fe18bd968f8e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4184,11 +4800,18 @@
       "reference": "2.16",
       "title": "Απλές σχέσεις γωνιών",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2394571d-4e82-574c-93ac-e2e92e9c89da",
+        "293915ed-b1cb-5e4e-8210-fd0f42d458de"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4196,11 +4819,18 @@
       "reference": "3.1",
       "title": "Είδη και στοιχεία τριγώνων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "e5c27993-5d0c-570d-8397-56f09317c31a",
+        "eb45fcc3-0960-5d16-abf2-f1109b04bc37"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4208,11 +4838,18 @@
       "reference": "3.2",
       "title": "1ο Κριτήριο ισότητας τριγώνων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "22d31c12-e5a5-526b-8b52-b1700a17de6c",
+        "f031a7ea-0ec7-5bf3-9407-03a13cfda6ab"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4220,11 +4857,18 @@
       "reference": "3.3",
       "title": "2ο Κριτήριο ισότητας τριγώνων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "db6a1ae3-99c6-5a03-9627-da122246d857",
+        "f4b6296b-0057-5fef-b1d7-009d46360675"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4232,11 +4876,18 @@
       "reference": "3.4",
       "title": "3ο Κριτήριο ισότητας τριγώνων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "306dc0c8-df78-53a5-8777-42c17f0fad15",
+        "ae426000-f705-591d-8e3e-6fbfb3677f2a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4244,11 +4895,18 @@
       "reference": "3.5",
       "title": "Ύπαρξη και μοναδικότητα καθέτου",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "b0c97199-e877-5300-a7ab-21f5f0cd77a5",
+        "fa61ddd6-7a1d-57fe-bc27-d587594a195d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4256,11 +4914,18 @@
       "reference": "3.6",
       "title": "Κριτήρια ισότητας ορθογώνιων τριγώνων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "31b45ba2-6e0e-503f-b00d-95d55108b496",
+        "334d01cb-41c2-5458-8f64-65c0660a6f05"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4268,11 +4933,18 @@
       "reference": "3.7",
       "title": "Κύκλος - Μεσοκάθετος - Διχοτόμος",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5f65b69c-7f2a-518d-bcef-32693f5751ea",
+        "8d6b31d2-d20c-5d08-a28b-4e340aefac26"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4280,11 +4952,18 @@
       "reference": "3.10",
       "title": "Σχέση εξωτερικής και απέναντι γωνίας",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c36f8458-4e17-5ee6-b9c4-d034d7520e3f",
+        "d5ac8858-f8db-5d93-ac38-6300c97f816b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4292,11 +4971,18 @@
       "reference": "3.11",
       "title": "Ανισοτικές σχέσεις πλευρών και γωνιών",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "85346178-9b5c-5210-8738-66d1bb4c00cf",
+        "a5d4c7c4-5bb7-5cdd-8dcb-8dab9bfbd57d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4304,11 +4990,18 @@
       "reference": "3.12",
       "title": "Tριγωνική ανισότητα",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0f33e276-53f4-5edc-95c7-a079dbb15e5b",
+        "7c9fe7ec-9de3-592f-9243-af08df6b3e09"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4316,11 +5009,18 @@
       "reference": "3.14",
       "title": "Σχετικές θέσεις ευθείας και κύκλου",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5a4b7f2a-6e43-5122-83a2-77cfd4d23b6e",
+        "db08583c-e4d7-5a3c-b13c-ee38d1e50b78"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4328,11 +5028,18 @@
       "reference": "3.15",
       "title": "Εφαπτόμενα τμήματα",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a740b1e2-29a4-5805-80bf-4c91eab788b7",
+        "e298b70e-9352-558a-94c4-2cb7f45a6865"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4340,11 +5047,18 @@
       "reference": "3.16",
       "title": "Σχετικές θέσεις δύο κύκλων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "037b8bc1-6c86-56e7-8008-85875e9c1c0b",
+        "c064c8be-b431-5e68-8605-1014bbe013de"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4352,11 +5066,18 @@
       "reference": "3.17",
       "title": "Απλές γεωμετρικές κατασκευές",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "867f6b1e-4384-56ea-9b18-1286ffc164a8",
+        "cf133b2e-36ff-537e-8a27-925767935e43"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4364,11 +5085,18 @@
       "reference": "3.18",
       "title": "Βασικές κατασκευές τριγώνων",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "8cc14cb5-592c-50f5-bc4b-b3aab7cb20da",
+        "f19ae623-d84b-5f6e-89a0-9b6c5510dea1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4376,11 +5104,18 @@
       "reference": "4.1",
       "title": "Εισαγωγή",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "341d7429-34cf-52d9-9e59-06bc3e6816d7",
+        "d986c8cd-0e56-54b8-9713-e31430e258be"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4388,11 +5123,18 @@
       "reference": "4.2",
       "title": "Τέμνουσα δύο ευθειών - Ευκλείδειο αίτημα",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "468225fe-67c9-5bb5-ba38-6c852ea8b273",
+        "87e3d90a-df1e-5d4f-beeb-087c29715198"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4400,11 +5142,18 @@
       "reference": "4.4",
       "title": "Γωνίες με πλευρές παράλληλες",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0cae07c5-255a-5d31-b07e-8c58d9eaebee",
+        "ea666075-d7ad-510c-8fdf-74f9a5d347e0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4412,11 +5161,18 @@
       "reference": "4.5",
       "title": "Αξιοσημείωτοι κύκλοι τριγώνου",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "09453761-8fbd-5557-bb6c-6047101c2ee6",
+        "2cbf0f9e-e107-5050-876c-21e112427a7e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4424,11 +5180,18 @@
       "reference": "4.6",
       "title": "Άθροισμα γωνιών τριγώνου",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "548d86fa-d7a1-543e-b589-f0d8dc7b3fd8",
+        "6422fc9b-4999-5d00-8d8c-2325bb18a5fd"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4436,11 +5199,18 @@
       "reference": "4.8",
       "title": "Άθροισμα γωνιών κυρτού ν-γώνου",
       "course_key": "epal-a-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "657610f2-0883-5b0f-b17a-aadfae3ad14d",
+        "bc2f12ef-35fd-5204-9afa-6b1b3757bc28"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4448,11 +5218,18 @@
       "reference": "1.1",
       "title": "Γραμμικά Συστήματα",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "382f608c-047b-57c0-ba82-426381c4c5b9",
+        "76c3a562-664c-5b3b-83c4-033a9a01a93b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4460,11 +5237,18 @@
       "reference": "2.1",
       "title": "Μονοτονία – Ακρότατα – Συμμετρίες Συνάρτησης",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "cdfc7d44-516e-599f-9090-ca6031d954cd",
+        "e268f7ca-ee35-54fd-9cab-31db620200e7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4472,11 +5256,18 @@
       "reference": "2.2",
       "title": "Κατακόρυφη – Οριζόντια Μετατόπιση Καμπύλης",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2b9dd68c-b1ef-5116-afc8-d770ea0fa929",
+        "4d46528d-99b5-56e2-a2b4-bbc6c3a1985c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4484,11 +5275,18 @@
       "reference": "3.1",
       "title": "Τριγωνομετρικοί Αριθμοί Γωνίας",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "213ef762-6312-54d6-a5ac-79c12bb10a7d",
+        "9f79240c-4124-5fed-b001-c12b45a3ead1"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4496,11 +5294,18 @@
       "reference": "3.4",
       "title": "Οι τριγωνομετρικές συναρτήσεις",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3c07c470-9206-5ef4-9303-5e6360f08638",
+        "eba2414a-b727-5e81-b5b4-d0d21b4b8c27"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4508,11 +5313,18 @@
       "reference": "4.1",
       "title": "Πολυώνυμα",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5476f6fe-f2f2-5e3b-9da2-4771d1e349af",
+        "79ffc2a0-3556-5306-a028-4a00d1f22dfe"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4520,11 +5332,18 @@
       "reference": "4.2",
       "title": "Διαίρεση πολυωνύμων",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "38ca7a14-cc86-5368-8a80-eb1a8ff3cdae",
+        "8bfe3795-ed3d-5341-8b3a-3591f5a2234f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4532,11 +5351,18 @@
       "reference": "4.3",
       "title": "Πολυωνυμικές εξισώσεις και ανισώσεις",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4f4aad82-581b-51ce-b222-947b51239390",
+        "76be23f4-b639-5fdc-a9b1-62a46213adf3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4544,11 +5370,18 @@
       "reference": "5.1",
       "title": "Εκθετική συνάρτηση",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1587cc82-1503-5b09-8a02-8c9afde87217",
+        "99facc09-9709-5326-a555-b57c6d42cce2"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4556,11 +5389,18 @@
       "reference": "5.2",
       "title": "Λογάριθμοι",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "be5d0e3f-f9b6-59b2-b4a3-214500a7e693",
+        "c6c40dcb-24a0-51c6-9cf5-3d6481ca662f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4568,11 +5408,18 @@
       "reference": "5.3",
       "title": "Λογαριθμική συνάρτηση",
       "course_key": "epal-b-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5504e1f9-029c-5c7b-bfa4-4b5d01b07b0c",
+        "879109e5-4ddc-5ddc-a96b-d0c590dfc0f6"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4580,11 +5427,18 @@
       "reference": "5.1",
       "title": "Εισαγωγή",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6ce5dd69-b7a2-5f78-8bc6-5f36e2e98e92",
+        "f49dc25e-ffee-5716-ad81-f0a5c654fb84"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4592,11 +5446,18 @@
       "reference": "5.2",
       "title": "Παραλληλόγραμμα",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a1507f7d-362b-5d3a-912b-77ff6bae67f3",
+        "f23f37f8-d29d-5040-ad28-857aadea231f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4604,11 +5465,18 @@
       "reference": "5.3",
       "title": "Ορθογώνιο",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c999300b-2da6-5cdc-bc72-eb0ff3056b21",
+        "d1ecf83a-8cda-5f1c-a8fe-cf99942a3afe"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4616,11 +5484,18 @@
       "reference": "5.4",
       "title": "Ρόμβος",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "6829de3a-1627-5a10-b062-72c5bd42640c",
+        "93d5f812-524b-5501-a477-e37ae49af95b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4628,11 +5503,18 @@
       "reference": "5.5",
       "title": "Τετράγωνο",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "508f2935-de0b-5fbb-9f16-bd3340cbf140",
+        "6ed89cd7-49fd-58f1-908f-4574231ef2f0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4640,11 +5522,18 @@
       "reference": "5.6",
       "title": "Εφαρμογές στα τρίγωνα",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5a7248d6-0c51-5ec9-8114-6b8cabd674df",
+        "c6d8c349-224d-5c85-a4cd-38e452b39352"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4652,11 +5541,18 @@
       "reference": "5.7",
       "title": "Βαρύκεντρο τριγώνου",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5c312560-f0f9-5bf3-81ae-838f429080bb",
+        "bb4a5565-9533-5428-bcc8-e3a16655d85c"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4664,11 +5560,18 @@
       "reference": "5.8",
       "title": "Το ορθόκεντρο τριγώνου",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "10a372ab-031a-58d6-97c2-5b2aaea01959",
+        "cd488c53-e5ea-5ebd-a93b-09f6eeba0a86"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4676,11 +5579,18 @@
       "reference": "5.9",
       "title": "Μια ιδιότητα του ορθογώνιου τριγώνου",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "17a13349-8505-50d9-a390-ac86bc72adda",
+        "a87adb0f-d246-5a6c-bb48-f6676499b55a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4688,11 +5598,18 @@
       "reference": "5.10",
       "title": "Τραπέζιο",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7415bed3-19ab-5517-823c-1f1c418d3fac",
+        "8f551590-e531-5245-be70-00c10379d085"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4700,11 +5617,18 @@
       "reference": "5.11",
       "title": "Ισοσκελές τραπέζιο",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7ad62618-76da-5583-b729-ac477f7774e4",
+        "a3c2cd75-9465-5bdd-ab32-6de6e3cf52b0"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4712,11 +5636,18 @@
       "reference": "7.1",
       "title": "Εισαγωγή",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "06677529-1df7-5ee0-a10d-726205e8df83",
+        "dd421c61-91c1-5864-b821-c28932677861"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4724,11 +5655,18 @@
       "reference": "7.4",
       "title": "Ανάλογα ευθύγραμμα τμήματα – Αναλογίες",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4ba92153-49b9-54a1-82ba-7b8000ac80e1",
+        "56b6059f-979d-55ef-b893-657132ceb410"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4736,11 +5674,18 @@
       "reference": "7.5",
       "title": "Μήκος ευθύγραμμου τμήματος",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1cf33da2-3163-58e6-9271-dae64aa84a7e",
+        "904e73ce-2114-58f0-ad8b-aa32d6ff1e40"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4748,11 +5693,18 @@
       "reference": "7.6",
       "title": "Διαίρεση τμημάτων εσωτερικά και εξωτερικά ως προς δοσμένο λόγο",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "121b7f35-bf46-5cf2-bf1e-9ec89f032243",
+        "6fecb43d-e6d8-57dd-b1d6-eb0e9b0bd2c8"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4760,11 +5712,18 @@
       "reference": "7.7",
       "title": "Θεώρημα του Θαλή",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0d5ae86f-2ec1-553a-bb45-1f982ba2aa9a",
+        "e6a29c79-a5cf-5d00-a9a9-ac418a1abaa3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4772,11 +5731,18 @@
       "reference": "8.1",
       "title": "Όμοια ευθύγραμμα σχήματα",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "3588f91f-6e7f-588d-934f-ec3bc8890545",
+        "eba6f314-f210-5025-b252-852ba2aa247f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4784,11 +5750,18 @@
       "reference": "8.2",
       "title": "Κριτήρια ομοιότητας",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0b8cb59e-589d-58bc-bad4-71c9858fdb3d",
+        "e60a5a23-bc76-5701-8213-4784fa277761"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4796,11 +5769,18 @@
       "reference": "9.1",
       "title": "Ορθές προβολές",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "45aba358-a75e-5bd7-aff6-7009378883e6",
+        "a8db026f-5b9d-5606-bea9-4526d8751881"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4808,11 +5788,18 @@
       "reference": "9.2",
       "title": "Το Πυθαγόρειο θεώρημα",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2021a088-0b56-56e9-9030-c1d12c53fba6",
+        "a5d38b6c-8bbc-5f27-bead-471b84cae353"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4820,11 +5807,18 @@
       "reference": "9.3",
       "title": "Γεωμετρικές κατασκευές",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0ddc7145-b982-5a8f-9a64-4c78a2708200",
+        "ca960c7a-e8ae-5d97-b08b-df4356ca01a7"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4832,11 +5826,18 @@
       "reference": "9.4",
       "title": "Γενίκευση του Πυθαγόρειου θεωρήματος",
       "course_key": "epal-b-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "437cefe6-27c7-5b13-ac01-50409b7a1215",
+        "828bf7b8-f756-5f7e-9c55-c926bb86b464"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4844,11 +5845,18 @@
       "reference": "1.1",
       "title": "Συναρτήσεις",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "05c6d67a-53fb-5d15-91b9-f6c0d0a8f86f",
+        "e902584d-40df-5335-bbcc-953acef13e19"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4856,11 +5864,18 @@
       "reference": "1.2",
       "title": "Η έννοια της παραγώγου",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "790c6caa-3b66-5b78-b15e-521aec693b9b",
+        "a5826083-0cb8-564e-be58-4d91968bf0fc"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4868,11 +5883,18 @@
       "reference": "1.3",
       "title": "Παράγωγος συνάρτησης",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "4c14e4b6-7868-5281-8e60-8e4ce16cbe08",
+        "61406279-5b19-5587-be82-738a833766a3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4880,11 +5902,18 @@
       "reference": "1.4",
       "title": "Εφαρμογές των παραγώγων",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "210f83b3-afd5-58cf-a066-92a5c0060a35",
+        "f1aed925-11fb-5fae-ad27-af42d2abf371"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4892,11 +5921,18 @@
       "reference": "2.1",
       "title": "Βασικές έννοιες Στατιστικής",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "13fc64aa-b8c4-5318-9cd8-78266991f9a6",
+        "e6a644a5-dcb5-55b7-9dee-461eda97464a"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4904,11 +5940,18 @@
       "reference": "2.2",
       "title": "Παρουσίαση στατιστικών δεδομένων",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "68189edd-b143-57f9-84e1-9927d32e9ae4",
+        "782ac117-f391-5312-90a0-1e81c892293b"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4916,11 +5959,18 @@
       "reference": "2.3",
       "title": "Μέτρα θέσης και διασποράς",
       "course_key": "epal-c-algebra",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "b15e48d4-f912-58e3-8948-0ca012b4b84e",
+        "fc7562f9-1773-5c66-9ea8-c1e459ab2112"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4928,11 +5978,18 @@
       "reference": "10.1",
       "title": "Πολυγωνικά χωρία",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "5f7e1d9a-1032-5cd5-9c95-6a6ab820e6fd",
+        "9b3b564c-2636-54f3-9476-73b30dda781f"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4940,11 +5997,18 @@
       "reference": "10.2",
       "title": "Εμβαδόν ευθύγραμμου σχήματος – Ισοδύναμα ευθύγραμμα σχήματα",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "a9079adc-ce9d-5cde-99ef-a62759047245",
+        "ffcafbb5-5c09-5f27-adc2-70e68579e324"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4952,11 +6016,18 @@
       "reference": "10.3",
       "title": "Εμβαδόν βασικών ευθύγραμμων σχημάτων",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "758dcd96-6967-540e-bc5d-61c752a9213a",
+        "fd5f2aa5-af34-5c76-b3ed-55a02a4ecd44"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4964,11 +6035,18 @@
       "reference": "10.4",
       "title": "Άλλοι τύποι για το εμβαδόν τριγώνου",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "1b6357db-c811-51bb-9f2e-2b165fd39484",
+        "b064163a-5588-5fca-bb44-3b35a86e9bdb"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4976,11 +6054,18 @@
       "reference": "10.5",
       "title": "Λόγος εμβαδών όμοιων τριγώνων – πολυγώνων",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "c2604ec2-d9d3-5c60-b579-9ece4cd8007e",
+        "c87e3f13-9a54-5cc9-9b57-78a6e0550268"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -4988,11 +6073,18 @@
       "reference": "11.1",
       "title": "Ορισμός κανονικού πολυγώνου",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "9384c660-0a20-598c-be8e-8931b5087a42",
+        "d146cadc-cab9-58c5-8405-00822e71de6d"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -5000,11 +6092,18 @@
       "reference": "11.2",
       "title": "Ιδιότητες και στοιχεία κανονικών πολυγώνων",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "0ef39c01-7dfe-5787-ab61-6749d0fc7f0b",
+        "cd7db2ed-d6e0-5130-98d2-e2d31eee6cb3"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -5012,11 +6111,18 @@
       "reference": "11.4",
       "title": "Προσέγγιση του μήκους του κύκλου με κανονικά πολύγωνα",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "887b48a0-82fa-5827-a208-494485217f07",
+        "f11e89cc-3cb3-51ee-a1ec-3fe312b206e9"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -5024,11 +6130,18 @@
       "reference": "11.5",
       "title": "Μήκος τόξου",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "7c31b523-68c2-58b0-8bc1-db17e822ef2a",
+        "905d1231-d6a0-58e9-911d-e9cce00d2a61"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -5036,11 +6149,18 @@
       "reference": "11.6",
       "title": "Προσέγγιση του εμβαδού κύκλου με κανονικά πολύγωνα",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "2c35d3e1-c99d-5a94-90b9-a91ef036905b",
+        "8c82d060-bbdb-5952-adad-811c6b4de4be"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     },
     {
@@ -5048,169 +6168,20 @@
       "reference": "11.7",
       "title": "Εμβαδόν κυκλικού τομέα και κυκλικού τμήματος",
       "course_key": "epal-c-geometry",
-      "questions": 0,
-      "with_learning_support": 0,
-      "difficulties": {},
-      "objective_ids_covered": [],
-      "first_pass_complete": false,
+      "questions": 6,
+      "with_learning_support": 6,
+      "difficulties": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 2
+      },
+      "objective_ids_covered": [
+        "51ef28ec-0cd9-5614-a84c-8275004a5b0b",
+        "6b8dd8f0-00f9-5c8e-aac9-6d95fe29f70e"
+      ],
+      "first_pass_complete": true,
       "educator_review": "pending"
     }
   ],
-  "legacy_quality_issues": [
-    {
-      "unit_id": "6de2332b-dac1-5707-8872-7eab8f63b22d",
-      "version_id": "f08f5da4-6a45-58b1-96fd-9dbbc964d8e5",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "40cd489e-defe-5f6f-92b9-f7c753deae3d",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "7dab0cc8-0d94-5b77-bd4c-adc5e23f7cf0",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "9252054f-ed2f-523b-a309-7d51568c5ce4",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "7632a7f6-47e8-5186-9bf3-ce03a5ceafd3",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "9fc38903-4375-56a6-8275-d36fdff1a83c",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "2730a9eb-ed89-5f21-b368-a56b2e2a76d8",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "70f075de-fb32-5663-8c9d-ca4f8c30ab31",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "73d2826f-a0d4-5145-94b7-ba755c0f57c2",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "64d0a2db-a337-54d9-bb54-fc3b022112e8",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "b8a8c6e7-f6c3-5fde-846b-77b0b3317781",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "bf032adc-6b45-53b6-b9b9-625d2af427f0",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "59991103-fce9-56c1-9d5a-f0a43cac238e",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "be3f7f10-936f-52c3-bb1f-cfbe22605828",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "68457880-362a-55da-a082-539f1c5dab79",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "4a87d1b6-a802-5167-a301-f07281db4cd9",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "34979012-7e69-5d22-8e37-7b10a086bc63",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "19527130-eae5-540c-8bdf-6c8ed89d2c2c",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "0576024d-b7f4-5882-aced-22279ca498bc",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "68b9410b-d3ff-5b3e-9083-61c7bcddbe99",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "8d40e502-088d-549e-8003-ec477d8696e4",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "8b1ea713-747d-5dcc-9f93-019cf10aad78",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "68b42ca3-850b-5a94-b3ee-8c045ac09b72",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "58ec6e6e-e7fb-5643-a7ad-e0671de9e8d2",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "980a0e97-ef26-548f-ae71-508482e21625",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "fb13af0e-340c-50dc-a392-bc12d9622045",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "e6b46988-c63f-51ae-96eb-603528235c38",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "9ca1e127-5841-5f35-8599-a99fba92a148",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "f1494d77-63f2-59c4-9fb4-1e2d7b10a2ba",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "c43974a0-9f16-5ebf-90bd-f91b06b565b5",
-      "issue": "doubled_math_delimiter"
-    },
-    {
-      "unit_id": "023854e8-e3d7-5718-95ed-4a3b2497b78c",
-      "version_id": "9ebde932-77b4-57ed-9ec1-6a4be064ad58",
-      "issue": "doubled_math_delimiter"
-    }
-  ]
+  "legacy_quality_issues": []
 }

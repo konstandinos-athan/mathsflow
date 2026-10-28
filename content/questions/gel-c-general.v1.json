@@ -1,0 +1,2952 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-c-general-v1",
+  "course": "gel-c-general",
+  "authored_on": "2026-10-27",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "1.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα δυνατά αποτελέσματα έχει μία ρίψη συνηθισμένου εξάεδρου ζαριού;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Ο δειγματικός χώρος περιλαμβάνει τις ενδείξεις 1 έως 6.",
+        "solution": "Ω={1,2,3,4,5,6}, άρα έχει 6 στοιχεία.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "2f21fac4-1661-5572-9e3b-c9919ea6f3e2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα δυνατά αποτελέσματα έχει μία ρίψη νομίσματος με ενδείξεις κορώνα και γράμματα;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Κατάγραψε τις δύο ενδείξεις.",
+        "solution": "Ω={Κ,Γ}, οπότε υπάρχουν 2 αποτελέσματα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "2f21fac4-1661-5572-9e3b-c9919ea6f3e2"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δύο διαδοχικές ρίψεις νομίσματος, πόσα διατεταγμένα αποτελέσματα υπάρχουν;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η σειρά των δύο ρίψεων καταγράφεται.",
+        "solution": "ΚΚ,ΚΓ,ΓΚ,ΓΓ: συνολικά 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "ac8e5608-a45d-517a-be91-e3e90589ab12"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε μία ρίψη ζαριού, πόσα στοιχεία έχει το ενδεχόμενο «άρτια ένδειξη»;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Κατάγραψε μόνο τις άρτιες ενδείξεις.",
+        "solution": "Το ενδεχόμενο είναι {2,4,6}, με 3 στοιχεία.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "ac8e5608-a45d-517a-be91-e3e90589ab12"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ρίχνουμε νόμισμα και ζάρι και καταγράφουμε και τις δύο ενδείξεις. Πόσα αποτελέσματα έχει το ενδεχόμενο «γράμματα και ένδειξη μεγαλύτερη του 4»;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Σταθεροποίησε την ένδειξη νομίσματος και εξέτασε το ζάρι.",
+        "solution": "Τα αποτελέσματα είναι (Γ,5),(Γ,6), δηλαδή 2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "ac8e5608-a45d-517a-be91-e3e90589ab12"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ο δειγματικός χώρος περιέχει μόνο τα αποτελέσματα που εμφανίστηκαν σε λίγες δοκιμές;",
+        "choices": [
+          "Όχι, περιέχει όλα τα δυνατά αποτελέσματα του περιγραφόμενου πειράματος",
+          "Ναι, μόνο τα παρατηρημένα",
+          "Ναι, μόνο το συχνότερο",
+          "Όχι, περιέχει μόνο τα αδύνατα"
+        ],
+        "answer": "Όχι, περιέχει όλα τα δυνατά αποτελέσματα του περιγραφόμενου πειράματος",
+        "hint": "Ξεχώρισε δυνατότητα από παρατηρημένη συχνότητα.",
+        "solution": "Ο δειγματικός χώρος ορίζεται από το πείραμα και περιέχει όλες τις δυνατές εκβάσεις.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, περιέχει όλα τα δυνατά αποτελέσματα του περιγραφόμενου πειράματος",
+              "correct": true,
+              "reason": "Ο δειγματικός χώρος ορίζεται από το πείραμα και περιέχει όλες τις δυνατές εκβάσεις."
+            },
+            {
+              "choice": "Ναι, μόνο τα παρατηρημένα",
+              "correct": false,
+              "reason": "Μια δυνατή έκβαση μπορεί να μην εμφανιστεί σε λίγες δοκιμές."
+            },
+            {
+              "choice": "Ναι, μόνο το συχνότερο",
+              "correct": false,
+              "reason": "Το συχνότερο αποτέλεσμα δεν εξαντλεί τον χώρο."
+            },
+            {
+              "choice": "Όχι, περιέχει μόνο τα αδύνατα",
+              "correct": false,
+              "reason": "Αδύνατες εκβάσεις δεν ανήκουν στον δειγματικό χώρο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "ac8e5608-a45d-517a-be91-e3e90589ab12"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δίκαιο ζάρι, ένα ενδεχόμενο περιέχει 2 διαφορετικές ενδείξεις. Ποια είναι η πιθανότητά του;",
+        "choices": [
+          "1/3",
+          "4/3",
+          "-2/3",
+          "-1/3"
+        ],
+        "answer": "1/3",
+        "hint": "Οι έξι ενδείξεις είναι ισοπίθανες.",
+        "solution": "P(A)=πλήθος ευνοϊκών/6=1/3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "52b7009a-d7be-5cd3-9ffc-fe01aff78bb1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δίκαιο ζάρι, ένα ενδεχόμενο περιέχει 3 διαφορετικές ενδείξεις. Ποια είναι η πιθανότητά του;",
+        "choices": [
+          "1/2",
+          "3/2",
+          "-1/2",
+          "1"
+        ],
+        "answer": "1/2",
+        "hint": "Οι έξι ενδείξεις είναι ισοπίθανες.",
+        "solution": "P(A)=πλήθος ευνοϊκών/6=1/2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "52b7009a-d7be-5cd3-9ffc-fe01aff78bb1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σακούλα περιέχει 3 κόκκινες και 7 μπλε ίδιες κατά τα άλλα μπάλες. Επιλέγουμε τυχαία μία. Ποια είναι η πιθανότητα κόκκινης;",
+        "choices": [
+          "3/10",
+          "13/10",
+          "-7/10",
+          "-3/10"
+        ],
+        "answer": "3/10",
+        "hint": "Κάθε μπάλα είναι εξίσου πιθανή· ο παρονομαστής είναι το σύνολο.",
+        "solution": "P(κόκκινη)=3/10=3/10.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/(3+7)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "70fce642-29b7-5409-8dce-032ca0185915"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίκαιο νόμισμα ρίχνεται δύο ανεξάρτητες φορές. Ποια είναι η πιθανότητα ακριβώς μίας κορώνας;",
+        "choices": [
+          "1/2",
+          "3/2",
+          "-1/2",
+          "1"
+        ],
+        "answer": "1/2",
+        "hint": "Κατάγραψε τα τέσσερα ισοπίθανα διατεταγμένα αποτελέσματα.",
+        "solution": "Ευνοϊκά ΚΓ και ΓΚ από τέσσερα, άρα 1/2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2/4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "70fce642-29b7-5409-8dce-032ca0185915"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε 200 επαναλήψεις ενός πειράματος εμφανίστηκε το Α 70 φορές. Ποια είναι η σχετική συχνότητα του Α;",
+        "choices": [
+          "7/20",
+          "27/20",
+          "-13/20",
+          "-7/20"
+        ],
+        "answer": "7/20",
+        "hint": "Η παρατηρημένη σχετική συχνότητα είναι πλήθος εμφανίσεων διά πλήθος δοκιμών.",
+        "solution": "fA=70/200=7/20. Πρόκειται για παρατηρημένη συχνότητα, όχι υποχρεωτικά την ακριβή θεωρητική πιθανότητα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "70/200"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "70fce642-29b7-5409-8dce-032ca0185915"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πότε επιτρέπεται P(A)=|A|/|Ω| σε πεπερασμένο δειγματικό χώρο;",
+        "choices": [
+          "Όταν τα απλά αποτελέσματα είναι ισοπίθανα",
+          "Σε κάθε πείραμα ανεξάρτητα από πιθανότητες",
+          "Μόνο όταν το Α έχει ένα στοιχείο",
+          "Μόνο μετά από 100 δοκιμές"
+        ],
+        "answer": "Όταν τα απλά αποτελέσματα είναι ισοπίθανα",
+        "hint": "Η καταμέτρηση χρειάζεται ισοπιθανότητα.",
+        "solution": "Με ισοπίθανα απλά αποτελέσματα κάθε στοιχείο έχει πιθανότητα 1/|Ω|.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όταν τα απλά αποτελέσματα είναι ισοπίθανα",
+              "correct": true,
+              "reason": "Με ισοπίθανα απλά αποτελέσματα κάθε στοιχείο έχει πιθανότητα 1/|Ω|."
+            },
+            {
+              "choice": "Σε κάθε πείραμα ανεξάρτητα από πιθανότητες",
+              "correct": false,
+              "reason": "Με άνισες πιθανότητες πρέπει να προστεθούν οι επιμέρους πιθανότητες."
+            },
+            {
+              "choice": "Μόνο όταν το Α έχει ένα στοιχείο",
+              "correct": false,
+              "reason": "Το Α μπορεί να έχει οποιοδήποτε πλήθος στοιχείων."
+            },
+            {
+              "choice": "Μόνο μετά από 100 δοκιμές",
+              "correct": false,
+              "reason": "Η ισοπιθανότητα δεν δημιουργείται από συγκεκριμένο πλήθος δοκιμών."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "70fce642-29b7-5409-8dce-032ca0185915"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν P(A)=2/5, ποια είναι η πιθανότητα του συμπληρώματος A′;",
+        "choices": [
+          "3/5",
+          "8/5",
+          "-2/5",
+          "-3/5"
+        ],
+        "answer": "3/5",
+        "hint": "Το Α και το συμπλήρωμά του καλύπτουν όλο τον χώρο χωρίς κοινά στοιχεία.",
+        "solution": "P(A′)=1−P(A)=3/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1-2/5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "a9e8d881-f094-5bb3-a023-41227eda6498"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν P(A)=3/5, ποια είναι η πιθανότητα του συμπληρώματος A′;",
+        "choices": [
+          "2/5",
+          "7/5",
+          "-3/5",
+          "-2/5"
+        ],
+        "answer": "2/5",
+        "hint": "Το Α και το συμπλήρωμά του καλύπτουν όλο τον χώρο χωρίς κοινά στοιχεία.",
+        "solution": "P(A′)=1−P(A)=2/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1-3/5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "a9e8d881-f094-5bb3-a023-41227eda6498"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνονται P(A)=1/2, P(B)=1/3 και P(A∩B)=1/6. Ποια είναι η P(A∪B);",
+        "choices": [
+          "2/3",
+          "5/3",
+          "-1/3",
+          "-2/3"
+        ],
+        "answer": "2/3",
+        "hint": "Αφαίρεσε μία φορά την τομή που μετρήθηκε διπλά.",
+        "solution": "P(A∪B)=1/2+1/3−1/6=2/3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/2+1/3-1/6"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "b5d74696-7936-5da7-8306-179407dd8781"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν Α,Β είναι ασυμβίβαστα με πιθανότητες 1/4 και 1/2, ποια είναι η P(A∪B);",
+        "choices": [
+          "3/4",
+          "7/4",
+          "-1/4",
+          "-3/4"
+        ],
+        "answer": "3/4",
+        "hint": "Ασυμβίβαστα σημαίνει κενή τομή.",
+        "solution": "P(A∩B)=0, οπότε η ένωση έχει πιθανότητα 3/4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/4+1/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "b5d74696-7936-5da7-8306-179407dd8781"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνονται P(A)=3/5 και P(A∩B)=1/5. Ποια είναι η πιθανότητα να συμβεί Α αλλά όχι Β;",
+        "choices": [
+          "2/5",
+          "7/5",
+          "-3/5",
+          "-2/5"
+        ],
+        "answer": "2/5",
+        "hint": "Αφαίρεσε από το Α το κοινό μέρος με το Β.",
+        "solution": "P(A∖B)=P(A)−P(A∩B)=2/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/5-1/5"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "b5d74696-7936-5da7-8306-179407dd8781"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Το «Α ή Β» στη μαθηματική ένωση περιλαμβάνει την ταυτόχρονη εμφάνιση;",
+        "choices": [
+          "Ναι, περιλαμβάνει και την τομή",
+          "Όχι, πάντα αποκλείει την τομή",
+          "Μόνο αν Α και Β είναι ασυμβίβαστα",
+          "Περιλαμβάνει μόνο την τομή"
+        ],
+        "answer": "Ναι, περιλαμβάνει και την τομή",
+        "hint": "Το μαθηματικό «ή» είναι μη αποκλειστικό.",
+        "solution": "Η ένωση περιέχει αποτελέσματα του Α, του Β και των δύο μαζί.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ναι, περιλαμβάνει και την τομή",
+              "correct": true,
+              "reason": "Η ένωση περιέχει αποτελέσματα του Α, του Β και των δύο μαζί."
+            },
+            {
+              "choice": "Όχι, πάντα αποκλείει την τομή",
+              "correct": false,
+              "reason": "Ο αποκλεισμός της τομής θα όριζε διαφορετικό ενδεχόμενο."
+            },
+            {
+              "choice": "Μόνο αν Α και Β είναι ασυμβίβαστα",
+              "correct": false,
+              "reason": "Στα ασυμβίβαστα δεν υπάρχει ταυτόχρονη εμφάνιση."
+            },
+            {
+              "choice": "Περιλαμβάνει μόνο την τομή",
+              "correct": false,
+              "reason": "Μόνο η τομή αντιστοιχεί στο «και», όχι στο «ή»."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "b5d74696-7936-5da7-8306-179407dd8781"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπάρχουν 3 μπλούζες και 2 παντελόνια. Πόσοι συνδυασμοί μίας μπλούζας και ενός παντελονιού υπάρχουν;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Για κάθε μπλούζα υπάρχουν δύο επιλογές παντελονιού.",
+        "solution": "Με τον κανόνα γινομένου υπάρχουν 6 συνδυασμοί.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "98965fd3-9e7e-52c6-bfa7-34afab299bda"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπάρχουν 4 μπλούζες και 2 παντελόνια. Πόσοι συνδυασμοί μίας μπλούζας και ενός παντελονιού υπάρχουν;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Για κάθε μπλούζα υπάρχουν δύο επιλογές παντελονιού.",
+        "solution": "Με τον κανόνα γινομένου υπάρχουν 8 συνδυασμοί.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "98965fd3-9e7e-52c6-bfa7-34afab299bda"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσες διατάξεις έχουν τρία διαφορετικά βιβλία σε μία σειρά;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Οι διαδοχικές θέσεις έχουν 3,2,1 διαθέσιμες επιλογές.",
+        "solution": "3!=3×2×1=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2*1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a2b8df23-f8cd-5fe9-bee3-ee3bcd076865"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Από 5 άτομα επιλέγουμε επιτροπή 2 χωρίς ρόλους. Πόσες διαφορετικές επιτροπές υπάρχουν;",
+        "choices": [
+          "10",
+          "11",
+          "9",
+          "-10"
+        ],
+        "answer": "10",
+        "hint": "Η σειρά επιλογής δεν ξεχωρίζει επιτροπές.",
+        "solution": "Οι 5×4 διατεταγμένες επιλογές μετρώνται ανά δύο, άρα 10.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5*4/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a2b8df23-f8cd-5fe9-bee3-ee3bcd076865"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Από 5 άτομα επιλέγονται τυχαία πρόεδρος και διαφορετικός γραμματέας. Ποια είναι η πιθανότητα ένα συγκεκριμένο άτομο να γίνει πρόεδρος;",
+        "choices": [
+          "1/5",
+          "6/5",
+          "-4/5",
+          "-1/5"
+        ],
+        "answer": "1/5",
+        "hint": "Οι ρόλοι ξεχωρίζουν· μέτρησε 20 ισοπίθανες διατεταγμένες επιλογές.",
+        "solution": "Υπάρχουν 4 επιλογές γραμματέα με τον συγκεκριμένο πρόεδρο, άρα 4/20=1/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/(5*4)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a2b8df23-f8cd-5fe9-bee3-ee3bcd076865"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πότε οι επιλογές (Α,Β) και (Β,Α) θεωρούνται διαφορετικές;",
+        "choices": [
+          "Όταν η σειρά ή οι ρόλοι έχουν σημασία",
+          "Πάντα, ακόμη και για επιτροπή χωρίς ρόλους",
+          "Ποτέ",
+          "Μόνο όταν τα ονόματα έχουν ίδιο μήκος"
+        ],
+        "answer": "Όταν η σειρά ή οι ρόλοι έχουν σημασία",
+        "hint": "Το μοντέλο καταμέτρησης καθορίζεται από την εκφώνηση.",
+        "solution": "Πρόεδρος Α και γραμματέας Β διαφέρει από πρόεδρος Β και γραμματέας Α.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όταν η σειρά ή οι ρόλοι έχουν σημασία",
+              "correct": true,
+              "reason": "Πρόεδρος Α και γραμματέας Β διαφέρει από πρόεδρος Β και γραμματέας Α."
+            },
+            {
+              "choice": "Πάντα, ακόμη και για επιτροπή χωρίς ρόλους",
+              "correct": false,
+              "reason": "Μια επιτροπή χωρίς ρόλους δεν αλλάζει από τη σειρά καταγραφής."
+            },
+            {
+              "choice": "Ποτέ",
+              "correct": false,
+              "reason": "Σε διατάξεις η σειρά πράγματι ξεχωρίζει αποτελέσματα."
+            },
+            {
+              "choice": "Μόνο όταν τα ονόματα έχουν ίδιο μήκος",
+              "correct": false,
+              "reason": "Το μήκος των ονομάτων δεν σχετίζεται με το πείραμα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a2b8df23-f8cd-5fe9-bee3-ee3bcd076865"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Από πληθυσμό 200 μαθητών επιλέγονται 20 για έρευνα. Πόσα άτομα έχει το δείγμα;",
+        "choices": [
+          "20",
+          "21",
+          "19",
+          "-20"
+        ],
+        "answer": "20",
+        "hint": "Το δείγμα είναι το υποσύνολο που εξετάστηκε.",
+        "solution": "Εξετάστηκαν 20 μαθητές· ο πληθυσμός παραμένει 200.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "20"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "1683a524-8780-56fb-9ed7-55b8b80c145a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Από πληθυσμό 200 μαθητών επιλέγονται 40 για έρευνα. Πόσα άτομα έχει το δείγμα;",
+        "choices": [
+          "40",
+          "41",
+          "39",
+          "-40"
+        ],
+        "answer": "40",
+        "hint": "Το δείγμα είναι το υποσύνολο που εξετάστηκε.",
+        "solution": "Εξετάστηκαν 40 μαθητές· ο πληθυσμός παραμένει 200.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "40"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "1683a524-8780-56fb-9ed7-55b8b80c145a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πληθυσμό 200 μαθητών μετρήσαμε 20. Ποιο ποσοστό του πληθυσμού εξετάστηκε;",
+        "choices": [
+          "10",
+          "11",
+          "9",
+          "-10"
+        ],
+        "answer": "10",
+        "hint": "Διαίρεσε μέγεθος δείγματος με μέγεθος πληθυσμού και πολλαπλασίασε επί 100.",
+        "solution": "Το ποσοστό είναι 100×20/200=10%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*20/200"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "45241296-6758-5a05-9bb6-feaf73e84824"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πληθυσμό 200 μαθητών μετρήσαμε 50. Ποιο ποσοστό του πληθυσμού εξετάστηκε;",
+        "choices": [
+          "25",
+          "26",
+          "24",
+          "-25"
+        ],
+        "answer": "25",
+        "hint": "Διαίρεσε μέγεθος δείγματος με μέγεθος πληθυσμού και πολλαπλασίασε επί 100.",
+        "solution": "Το ποσοστό είναι 100×50/200=25%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*50/200"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "45241296-6758-5a05-9bb6-feaf73e84824"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ερευνώνται όλοι οι 120 μαθητές τριών τμημάτων ενός σχολείου 600 μαθητών. Ποιο είναι το μέγεθος του δείγματος ως προς όλο το σχολείο;",
+        "choices": [
+          "120",
+          "121",
+          "119",
+          "-120"
+        ],
+        "answer": "120",
+        "hint": "Η απογραφή μέσα στα επιλεγμένα τμήματα δεν είναι απογραφή όλου του σχολείου.",
+        "solution": "Με πληθυσμό όλο το σχολείο, εξετάστηκαν 120 από 600 μαθητές.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "120"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "45241296-6758-5a05-9bb6-feaf73e84824"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια μεταβλητή είναι ποιοτική;",
+        "choices": [
+          "Χρώμα ματιών",
+          "Ύψος σε cm",
+          "Αριθμός αδελφών",
+          "Χρόνος διαδρομής σε λεπτά"
+        ],
+        "answer": "Χρώμα ματιών",
+        "hint": "Η ποιοτική μεταβλητή δηλώνει κατηγορία, όχι αριθμητικό μέγεθος.",
+        "solution": "Το χρώμα ματιών είναι κατηγορία χωρίς αριθμητική μέτρηση.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Χρώμα ματιών",
+              "correct": true,
+              "reason": "Το χρώμα ματιών είναι κατηγορία χωρίς αριθμητική μέτρηση."
+            },
+            {
+              "choice": "Ύψος σε cm",
+              "correct": false,
+              "reason": "Το ύψος είναι συνεχής ποσοτική μεταβλητή."
+            },
+            {
+              "choice": "Αριθμός αδελφών",
+              "correct": false,
+              "reason": "Ο αριθμός αδελφών είναι διακριτή ποσοτική μεταβλητή."
+            },
+            {
+              "choice": "Χρόνος διαδρομής σε λεπτά",
+              "correct": false,
+              "reason": "Ο χρόνος είναι ποσοτική μέτρηση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "45241296-6758-5a05-9bb6-feaf73e84824"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δείγμα 20 ατόμων μία κατηγορία έχει συχνότητα 4. Ποια είναι η σχετική της συχνότητα;",
+        "choices": [
+          "1/5",
+          "6/5",
+          "-4/5",
+          "-1/5"
+        ],
+        "answer": "1/5",
+        "hint": "Η σχετική συχνότητα είναι συχνότητα διά συνολικό πλήθος.",
+        "solution": "f=4/20=1/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/20"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "23d474b5-a257-53c8-b35b-8eb2365ae0ea"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δείγμα 20 ατόμων μία κατηγορία έχει συχνότητα 8. Ποια είναι η σχετική της συχνότητα;",
+        "choices": [
+          "2/5",
+          "7/5",
+          "-3/5",
+          "-2/5"
+        ],
+        "answer": "2/5",
+        "hint": "Η σχετική συχνότητα είναι συχνότητα διά συνολικό πλήθος.",
+        "solution": "f=8/20=2/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8/20"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "23d474b5-a257-53c8-b35b-8eb2365ae0ea"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κυκλικό διάγραμμα κατηγορία έχει σχετική συχνότητα 1/4. Πόσες μοίρες είναι η γωνία της;",
+        "choices": [
+          "90",
+          "91",
+          "89",
+          "-90"
+        ],
+        "answer": "90",
+        "hint": "Ο πλήρης κύκλος έχει 360°.",
+        "solution": "Η γωνία είναι 360×1/4=90°.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "cc48e68a-806a-567c-80cc-5cec248eec33"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Διαδοχικές κλάσεις ίσου πλάτους έχουν συχνότητες 3,5,2. Ποια είναι η αθροιστική συχνότητα μέχρι τη δεύτερη κλάση;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Πρόσθεσε τις συχνότητες μέχρι και τη ζητούμενη κλάση.",
+        "solution": "Αθροίζουμε την πρώτη και δεύτερη συχνότητα: Ν₂=3+5=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "cc48e68a-806a-567c-80cc-5cec248eec33"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δείγμα 40 τιμών, δύο κατηγορίες έχουν συχνότητες 10 και 14. Οι υπόλοιπες ανήκουν σε τρίτη κατηγορία. Ποιο ποσοστό έχει η τρίτη;",
+        "choices": [
+          "40",
+          "41",
+          "39",
+          "-40"
+        ],
+        "answer": "40",
+        "hint": "Βρες πρώτα τη συχνότητα που λείπει και μετά το ποσοστό.",
+        "solution": "Η τρίτη συχνότητα είναι 16, άρα 100×16/40=40%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*(40-10-14)/40"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "cc48e68a-806a-567c-80cc-5cec248eec33"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο διάγραμμα είναι κατάλληλο για συχνότητες κατηγοριών χρώματος;",
+        "choices": [
+          "Ραβδόγραμμα με διακριτές κατηγορίες",
+          "Ιστόγραμμα συνεχών κλάσεων ως μοναδική επιλογή",
+          "Γράφημα που ενώνει τα χρώματα σαν αριθμητική χρονοσειρά",
+          "Κανένα διάγραμμα"
+        ],
+        "answer": "Ραβδόγραμμα με διακριτές κατηγορίες",
+        "hint": "Η μεταβλητή είναι ποιοτική.",
+        "solution": "Οι ξεχωριστές ράβδοι αποδίδουν τις συχνότητες των ποιοτικών κατηγοριών.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ραβδόγραμμα με διακριτές κατηγορίες",
+              "correct": true,
+              "reason": "Οι ξεχωριστές ράβδοι αποδίδουν τις συχνότητες των ποιοτικών κατηγοριών."
+            },
+            {
+              "choice": "Ιστόγραμμα συνεχών κλάσεων ως μοναδική επιλογή",
+              "correct": false,
+              "reason": "Ιστόγραμμα χρησιμοποιείται για ομαδοποιημένα ποσοτικά δεδομένα, όχι αυθαίρετη απόσταση χρωμάτων."
+            },
+            {
+              "choice": "Γράφημα που ενώνει τα χρώματα σαν αριθμητική χρονοσειρά",
+              "correct": false,
+              "reason": "Η σύνδεση υπονοεί αριθμητική συνέχεια που δεν έχουν οι κατηγορίες."
+            },
+            {
+              "choice": "Κανένα διάγραμμα",
+              "correct": false,
+              "reason": "Τα ποιοτικά δεδομένα παρουσιάζονται με ραβδόγραμμα ή κυκλικό διάγραμμα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "cc48e68a-806a-567c-80cc-5cec248eec33"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η μέση τιμή των 2,4,6;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Πρόσθεσε τις τιμές και διαίρεσε με το πλήθος.",
+        "solution": "Μέσος=12/3=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+4+6)/3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "597680db-e9e0-5238-b376-fef8c43bc806"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διάμεσος των ταξινομημένων 1,3,8;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Με περιττό πλήθος η διάμεσος είναι η μεσαία παρατήρηση.",
+        "solution": "Η δεύτερη από τις τρεις παρατηρήσεις είναι 3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "597680db-e9e0-5238-b376-fef8c43bc806"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διάμεσος των ταξινομημένων 1,3,7,9;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Με άρτιο πλήθος πάρε τον μέσο των δύο κεντρικών τιμών.",
+        "solution": "Διάμεσος=(3+7)/2=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3+7)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "c1f3f1e5-f80b-52fa-a9fb-7bd175fc5bfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για δεδομένα 2,4, ο πληθυσμιακός τύπος διακύμανσης είναι s²=Σ(xᵢ−μέσος)²/n. Πόσο είναι το s²;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Ο μέσος είναι 3· χρησιμοποίησε τον δοσμένο παρονομαστή n.",
+        "solution": "s²=(1+1)/2=1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((2-3)**2+(4-3)**2)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "c1f3f1e5-f80b-52fa-a9fb-7bd175fc5bfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δεδομένα έχουν θετικό μέσο 20 και τυπική απόκλιση 3. Πόσο είναι το CV ως ποσοστό;",
+        "choices": [
+          "15",
+          "16",
+          "14",
+          "-15"
+        ],
+        "answer": "15",
+        "hint": "CV=τυπική απόκλιση διά θετικό μέσο επί 100.",
+        "solution": "CV=100×3/20=15%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*3/20"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "c1f3f1e5-f80b-52fa-a9fb-7bd175fc5bfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν προστεθεί 5 σε κάθε τιμή ενός συνόλου δεδομένων, τι γίνεται με την τυπική απόκλιση;",
+        "choices": [
+          "Παραμένει ίδια",
+          "Αυξάνεται κατά 5",
+          "Πολλαπλασιάζεται με 5",
+          "Γίνεται πάντα 0"
+        ],
+        "answer": "Παραμένει ίδια",
+        "hint": "Ο μέσος αυξάνεται επίσης κατά 5, άρα οι αποκλίσεις από αυτόν δεν αλλάζουν.",
+        "solution": "Κάθε νέα απόκλιση είναι (xᵢ+5)−(μέσος+5)=xᵢ−μέσος, οπότε η διασπορά διατηρείται.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Παραμένει ίδια",
+              "correct": true,
+              "reason": "Κάθε νέα απόκλιση είναι (xᵢ+5)−(μέσος+5)=xᵢ−μέσος, οπότε η διασπορά διατηρείται."
+            },
+            {
+              "choice": "Αυξάνεται κατά 5",
+              "correct": false,
+              "reason": "Πρόσθεση σταθεράς αλλάζει το κέντρο, όχι τη διασπορά."
+            },
+            {
+              "choice": "Πολλαπλασιάζεται με 5",
+              "correct": false,
+              "reason": "Κλιμάκωση επί 5 είναι διαφορετικός μετασχηματισμός από πρόσθεση."
+            },
+            {
+              "choice": "Γίνεται πάντα 0",
+              "correct": false,
+              "reason": "Οι διαφορετικές τιμές δεν εξισώνονται με κοινή μετατόπιση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "c1f3f1e5-f80b-52fa-a9fb-7bd175fc5bfb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό μοντέλο έχει μέσο μ=50. Ποια τιμή είναι ο άξονας συμμετρίας της πυκνότητας;",
+        "choices": [
+          "50",
+          "51",
+          "49",
+          "-50"
+        ],
+        "answer": "50",
+        "hint": "Η κανονική κατανομή είναι συμμετρική γύρω από τον μέσο.",
+        "solution": "Ο άξονας συμμετρίας είναι x=μ=50.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "50"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "31626284-d8ad-5130-a54b-f881b69a50fe"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό μοντέλο έχει μέσο μ=100. Ποια τιμή είναι ο άξονας συμμετρίας της πυκνότητας;",
+        "choices": [
+          "100",
+          "101",
+          "99",
+          "-100"
+        ],
+        "answer": "100",
+        "hint": "Η κανονική κατανομή είναι συμμετρική γύρω από τον μέσο.",
+        "solution": "Ο άξονας συμμετρίας είναι x=μ=100.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "31626284-d8ad-5130-a54b-f881b69a50fe"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κανονικό μοντέλο μ=50, σ=5, ποια είναι η τυποποιημένη τιμή z για x=60;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Χρησιμοποίησε z=(x−μ)/σ.",
+        "solution": "z=(60−50)/5=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(60-50)/5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "2fdf0b85-7c98-598a-9db9-980923bbd504"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνεται ότι περίπου 68% κανονικού πληθυσμού ανήκει στο [μ−σ,μ+σ]. Ποιο ποσοστό είναι έξω από το διάστημα;",
+        "choices": [
+          "32",
+          "33",
+          "31",
+          "-32"
+        ],
+        "answer": "32",
+        "hint": "Πάρε το συμπλήρωμα του δοσμένου ποσοστού.",
+        "solution": "Εκτός βρίσκεται περίπου 100−68=32%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100-68"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "2fdf0b85-7c98-598a-9db9-980923bbd504"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνεται ότι περίπου 95% κανονικού πληθυσμού βρίσκεται εντός δύο τυπικών αποκλίσεων από τον μέσο. Λόγω συμμετρίας, ποιο ποσοστό βρίσκεται πάνω από μ+2σ;",
+        "choices": [
+          "5/2",
+          "7/2",
+          "3/2",
+          "-5/2"
+        ],
+        "answer": "5/2",
+        "hint": "Το συνολικό εξωτερικό ποσοστό μοιράζεται στις δύο ουρές.",
+        "solution": "5% είναι εκτός και οι ουρές είναι ίσες, άρα περίπου 5/2% δεξιά.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(100-95)/2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "2fdf0b85-7c98-598a-9db9-980923bbd504"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Τα ποσοστά 68% και 95% ισχύουν αυτόματα για κάθε σύνολο δεδομένων;",
+        "choices": [
+          "Όχι, απαιτείται κατάλληλο κανονικό μοντέλο και είναι προσεγγίσεις",
+          "Ναι, ανεξάρτητα από το σχήμα",
+          "Ναι, αρκεί τα δεδομένα να είναι θετικά",
+          "Όχι, ισχύουν μόνο όταν ο μέσος είναι 0"
+        ],
+        "answer": "Όχι, απαιτείται κατάλληλο κανονικό μοντέλο και είναι προσεγγίσεις",
+        "hint": "Ο εμπειρικός κανόνας συνδέεται με συγκεκριμένο μοντέλο κατανομής.",
+        "solution": "Χρειάζεται περίπου κανονική κατανομή· δεν πρόκειται για καθολική ταυτότητα.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, απαιτείται κατάλληλο κανονικό μοντέλο και είναι προσεγγίσεις",
+              "correct": true,
+              "reason": "Χρειάζεται περίπου κανονική κατανομή· δεν πρόκειται για καθολική ταυτότητα."
+            },
+            {
+              "choice": "Ναι, ανεξάρτητα από το σχήμα",
+              "correct": false,
+              "reason": "Ασύμμετρες ή άλλες κατανομές μπορεί να έχουν διαφορετικά ποσοστά."
+            },
+            {
+              "choice": "Ναι, αρκεί τα δεδομένα να είναι θετικά",
+              "correct": false,
+              "reason": "Η θετικότητα δεν εξασφαλίζει κανονικότητα."
+            },
+            {
+              "choice": "Όχι, ισχύουν μόνο όταν ο μέσος είναι 0",
+              "correct": false,
+              "reason": "Η κανονική κατανομή μπορεί να έχει οποιονδήποτε μέσο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "2fdf0b85-7c98-598a-9db9-980923bbd504"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πίνακα συνάφειας ένα κελί έχει 12 άτομα και η ίδια γραμμή συνολικά 30. Ποιο είναι το ποσοστό κελιού μέσα στη γραμμή;",
+        "choices": [
+          "40",
+          "41",
+          "39",
+          "-40"
+        ],
+        "answer": "40",
+        "hint": "Για ποσοστό γραμμής διαιρείς με το σύνολο της γραμμής.",
+        "solution": "100×12/30=40%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*12/30"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "2bda0be4-58f8-5f46-a056-871938b61309"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πίνακα συνάφειας ένα κελί έχει 18 άτομα και η ίδια γραμμή συνολικά 30. Ποιο είναι το ποσοστό κελιού μέσα στη γραμμή;",
+        "choices": [
+          "60",
+          "61",
+          "59",
+          "-60"
+        ],
+        "answer": "60",
+        "hint": "Για ποσοστό γραμμής διαιρείς με το σύνολο της γραμμής.",
+        "solution": "100×18/30=60%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*18/30"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "2bda0be4-58f8-5f46-a056-871938b61309"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πίνακα 100 ατόμων, ένα κελί έχει 12 άτομα και η στήλη του 40. Ποιο είναι το ποσοστό του κελιού μέσα στη στήλη;",
+        "choices": [
+          "30",
+          "31",
+          "29",
+          "-30"
+        ],
+        "answer": "30",
+        "hint": "Το ζητούμενο αναφέρεται στη στήλη, όχι στο συνολικό δείγμα.",
+        "solution": "12/40×100=30%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*12/40"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "3298f762-a876-5924-a189-6db718c9255c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Μία γραμμή πίνακα έχει δύο κελιά με 8 και 12 άτομα. Ποιο είναι το οριακό άθροισμα της γραμμής;",
+        "choices": [
+          "20",
+          "21",
+          "19",
+          "-20"
+        ],
+        "answer": "20",
+        "hint": "Οριακό άθροισμα σημαίνει σύνολο της γραμμής.",
+        "solution": "8+12=20 άτομα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8+12"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "3298f762-a876-5924-a189-6db718c9255c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Στην ομάδα Α επιλέγουν μία δραστηριότητα 12 από 20 άτομα, στην Β 15 από 50. Πόσες ποσοστιαίες μονάδες μεγαλύτερο είναι το ποσοστό της Α;",
+        "choices": [
+          "30",
+          "31",
+          "29",
+          "-30"
+        ],
+        "answer": "30",
+        "hint": "Σύγκρινε ποσοστά με τους αντίστοιχους παρονομαστές.",
+        "solution": "Α:60%, Β:30%. Διαφορά 30 ποσοστιαίων μονάδων, παρότι η Β έχει περισσότερα άτομα σε απόλυτο πλήθος.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*12/20-100*15/50"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "3298f762-a876-5924-a189-6db718c9255c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για σύγκριση προτιμήσεων δύο ομάδων διαφορετικού μεγέθους, τι βοηθά περισσότερο;",
+        "choices": [
+          "Τα ποσοστά μέσα σε κάθε ομάδα",
+          "Μόνο τα απόλυτα πλήθη",
+          "Να διαιρέσουμε και τις δύο ομάδες με το μέγεθος της μικρότερης",
+          "Να αγνοήσουμε τα μεγέθη των ομάδων"
+        ],
+        "answer": "Τα ποσοστά μέσα σε κάθε ομάδα",
+        "hint": "Κάθε ομάδα χρειάζεται τον δικό της παρονομαστή.",
+        "solution": "Τα ενδοομαδικά ποσοστά επιτρέπουν δίκαιη σύγκριση διαφορετικών μεγεθών.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Τα ποσοστά μέσα σε κάθε ομάδα",
+              "correct": true,
+              "reason": "Τα ενδοομαδικά ποσοστά επιτρέπουν δίκαιη σύγκριση διαφορετικών μεγεθών."
+            },
+            {
+              "choice": "Μόνο τα απόλυτα πλήθη",
+              "correct": false,
+              "reason": "Μεγαλύτερη ομάδα μπορεί να έχει μεγαλύτερο πλήθος αλλά μικρότερο ποσοστό."
+            },
+            {
+              "choice": "Να διαιρέσουμε και τις δύο ομάδες με το μέγεθος της μικρότερης",
+              "correct": false,
+              "reason": "Λάθος κοινός παρονομαστής αλλοιώνει τις αναλογίες."
+            },
+            {
+              "choice": "Να αγνοήσουμε τα μεγέθη των ομάδων",
+              "correct": false,
+              "reason": "Το μέγεθος είναι απαραίτητο για τον υπολογισμό ποσοστών."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "3298f762-a876-5924-a189-6db718c9255c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ομάδα Α έχει τιμές 2,4,8. Ποια είναι η μέση τιμή της;",
+        "choices": [
+          "14/3",
+          "17/3",
+          "11/3",
+          "-14/3"
+        ],
+        "answer": "14/3",
+        "hint": "Υπολόγισε το κέντρο κάθε ομάδας χωριστά.",
+        "solution": "Ο μέσος της Α είναι (2+4+8)/3=14/3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+4+8)/3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "ab331caf-d8d8-5c45-829c-ec5f3c037b3e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ομάδα Α έχει τιμές 2,6,8. Ποια είναι η μέση τιμή της;",
+        "choices": [
+          "16/3",
+          "19/3",
+          "13/3",
+          "-16/3"
+        ],
+        "answer": "16/3",
+        "hint": "Υπολόγισε το κέντρο κάθε ομάδας χωριστά.",
+        "solution": "Ο μέσος της Α είναι (2+6+8)/3=16/3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+6+8)/3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "ab331caf-d8d8-5c45-829c-ec5f3c037b3e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ομάδα Α έχει μέσο 12 και η Β μέσο 9. Πόσο μεγαλύτερος είναι ο μέσος της Α;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Η διαφορά μέσων μετριέται στην ίδια μονάδα των δεδομένων.",
+        "solution": "12−9=3. Αυτή η διαφορά μόνη της δεν περιγράφει τη διασπορά.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12-9"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a28a64f-2654-5696-bc43-7501ad89901f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ομάδα Α: 4,6. Ομάδα Β: 1,9. Ποιο είναι το εύρος της ομάδας Β;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Εύρος είναι μέγιστη μείον ελάχιστη τιμή.",
+        "solution": "Το εύρος της Β είναι 9−1=8, ενώ της Α είναι 2, παρότι έχουν ίδιο μέσο 5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "9-1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a28a64f-2654-5696-bc43-7501ad89901f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Μία ομάδα 10 ατόμων έχει μέσο 8 και άλλη 30 ατόμων μέσο 12. Ποιος είναι ο μέσος όλων των 40;",
+        "choices": [
+          "11",
+          "12",
+          "10",
+          "-11"
+        ],
+        "answer": "11",
+        "hint": "Στάθμισε κάθε μέσο με το μέγεθος της ομάδας.",
+        "solution": "Το συνολικό άθροισμα είναι 80+360=440. Ο κοινός μέσος είναι 440/40=11.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(10*8+30*12)/40"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a28a64f-2654-5696-bc43-7501ad89901f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Δύο ομάδες έχουν τον ίδιο μέσο. Συμπεραίνουμε ότι οι κατανομές τους είναι ίδιες;",
+        "choices": [
+          "Όχι, μπορεί να διαφέρουν διασπορά, σχήμα και ακραίες τιμές",
+          "Ναι, ο μέσος καθορίζει όλα τα δεδομένα",
+          "Ναι, αν τα μεγέθη τους είναι ίσα",
+          "Όχι, επειδή δεν μπορούν να έχουν ίδιο μέσο"
+        ],
+        "answer": "Όχι, μπορεί να διαφέρουν διασπορά, σχήμα και ακραίες τιμές",
+        "hint": "Σύγκρινε τις ομάδες {4,6} και {1,9}.",
+        "solution": "Και οι δύο έχουν μέσο 5 αλλά διαφορετικό εύρος και διασπορά.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, μπορεί να διαφέρουν διασπορά, σχήμα και ακραίες τιμές",
+              "correct": true,
+              "reason": "Και οι δύο έχουν μέσο 5 αλλά διαφορετικό εύρος και διασπορά."
+            },
+            {
+              "choice": "Ναι, ο μέσος καθορίζει όλα τα δεδομένα",
+              "correct": false,
+              "reason": "Ένας αριθμός δεν προσδιορίζει όλες τις παρατηρήσεις."
+            },
+            {
+              "choice": "Ναι, αν τα μεγέθη τους είναι ίσα",
+              "correct": false,
+              "reason": "Το αντιπαράδειγμα έχει ήδη ίδιο μέγεθος δύο παρατηρήσεων."
+            },
+            {
+              "choice": "Όχι, επειδή δεν μπορούν να έχουν ίδιο μέσο",
+              "correct": false,
+              "reason": "Ίδιος μέσος είναι απολύτως δυνατός."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a28a64f-2654-5696-bc43-7501ad89901f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η μέγιστη δυνατή τιμή του συντελεστή γραμμικής συσχέτισης r;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Ο συντελεστής βρίσκεται στο [−1,1] όταν ορίζεται.",
+        "solution": "Η μέγιστη τιμή είναι 1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "77e00309-04b4-54f7-9ecf-7684f174dc31"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Η ευθεία προσαρμογής κατασκευάζεται εποπτικά, χωρίς πιο σύνθετα μοντέλα. Συσχέτιση δεν συνεπάγεται αιτιότητα.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η ελάχιστη δυνατή τιμή του συντελεστή γραμμικής συσχέτισης r;",
+        "choices": [
+          "-1",
+          "0",
+          "-2",
+          "1"
+        ],
+        "answer": "-1",
+        "hint": "Το κάτω άκρο αντιστοιχεί σε τέλεια αρνητική γραμμική συσχέτιση.",
+        "solution": "Η ελάχιστη τιμή είναι -1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "77e00309-04b4-54f7-9ecf-7684f174dc31"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Η ευθεία προσαρμογής κατασκευάζεται εποπτικά, χωρίς πιο σύνθετα μοντέλα. Συσχέτιση δεν συνεπάγεται αιτιότητα.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνεται εποπτική ευθεία προσαρμογής y=2x+1. Ποια τιμή y προβλέπει για x=3 εντός της περιοχής δεδομένων;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Αντικατάστησε στην ήδη δοσμένη ευθεία· δεν ζητείται μέθοδος προσαρμογής.",
+        "solution": "Η εκτίμηση είναι y=7=7, όχι εγγύηση για κάθε παρατήρηση.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3+1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "0cd94be9-098b-524b-bbf1-2c96a34dd672"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Η ευθεία προσαρμογής κατασκευάζεται εποπτικά, χωρίς πιο σύνθετα μοντέλα. Συσχέτιση δεν συνεπάγεται αιτιότητα.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνεται εποπτική ευθεία y=10−2x. Ποια είναι η μεταβολή της προβλεπόμενης y όταν το x αυξάνεται από 1 σε 3;",
+        "choices": [
+          "-4",
+          "-3",
+          "-5",
+          "4"
+        ],
+        "answer": "-4",
+        "hint": "Υπολόγισε τελική μείον αρχική εκτίμηση.",
+        "solution": "Από 8 γίνεται 4, άρα μεταβολή -4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(10-2*3)-(10-2*1)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "0cd94be9-098b-524b-bbf1-2c96a34dd672"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Η ευθεία προσαρμογής κατασκευάζεται εποπτικά, χωρίς πιο σύνθετα μοντέλα. Συσχέτιση δεν συνεπάγεται αιτιότητα.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνονται r₁=−0,8 και r₂=0,3. Πόσο είναι το |r₁|−|r₂|;",
+        "choices": [
+          "1/2",
+          "3/2",
+          "-1/2",
+          "1"
+        ],
+        "answer": "1/2",
+        "hint": "Η ένταση γραμμικής σχέσης συγκρίνεται με απόλυτες τιμές.",
+        "solution": "|r₁|=0,8 και |r₂|=0,3, άρα διαφορά 1/2. Η πρώτη σχέση είναι ισχυρότερη, με αντίθετη κατεύθυνση.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8/10-3/10"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "0cd94be9-098b-524b-bbf1-2c96a34dd672"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Η ευθεία προσαρμογής κατασκευάζεται εποπτικά, χωρίς πιο σύνθετα μοντέλα. Συσχέτιση δεν συνεπάγεται αιτιότητα.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ισχυρή συσχέτιση δύο μεταβλητών αποδεικνύει ότι η μία προκαλεί την άλλη;",
+        "choices": [
+          "Όχι, μπορεί να υπάρχουν συγχυτικοί παράγοντες ή άλλη εξήγηση",
+          "Ναι, αν το r είναι θετικό",
+          "Ναι, αν το δείγμα είναι μεγάλο",
+          "Ναι, οποιαδήποτε συσχέτιση αποδεικνύει αιτιότητα"
+        ],
+        "answer": "Όχι, μπορεί να υπάρχουν συγχυτικοί παράγοντες ή άλλη εξήγηση",
+        "hint": "Σχέση στις παρατηρήσεις και αιτιώδης μηχανισμός είναι διαφορετικά συμπεράσματα.",
+        "solution": "Η συσχέτιση περιγράφει συνδιακύμανση και από μόνη της δεν θεμελιώνει αιτιότητα.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, μπορεί να υπάρχουν συγχυτικοί παράγοντες ή άλλη εξήγηση",
+              "correct": true,
+              "reason": "Η συσχέτιση περιγράφει συνδιακύμανση και από μόνη της δεν θεμελιώνει αιτιότητα."
+            },
+            {
+              "choice": "Ναι, αν το r είναι θετικό",
+              "correct": false,
+              "reason": "Το πρόσημο δείχνει κατεύθυνση σχέσης, όχι αιτιότητα."
+            },
+            {
+              "choice": "Ναι, αν το δείγμα είναι μεγάλο",
+              "correct": false,
+              "reason": "Το μεγάλο δείγμα δεν εξαλείφει από μόνο του συγχυτικούς παράγοντες."
+            },
+            {
+              "choice": "Ναι, οποιαδήποτε συσχέτιση αποδεικνύει αιτιότητα",
+              "correct": false,
+              "reason": "Η αιτιότητα απαιτεί πρόσθετο σχεδιασμό και τεκμηρίωση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "0cd94be9-098b-524b-bbf1-2c96a34dd672"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s11",
+            "pdf_page": 20,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-00",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Η ευθεία προσαρμογής κατασκευάζεται εποπτικά, χωρίς πιο σύνθετα μοντέλα. Συσχέτιση δεν συνεπάγεται αιτιότητα.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    }
+  ]
+}

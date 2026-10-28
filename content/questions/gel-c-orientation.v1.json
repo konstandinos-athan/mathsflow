@@ -1,0 +1,6042 @@
+{
+  "schema_version": 1,
+  "release": "stage5-gel-c-orientation-v1",
+  "course": "gel-c-orientation",
+  "authored_on": "2026-10-27",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "1.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το |−3|;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Η απόλυτη τιμή είναι απόσταση από το 0.",
+        "solution": "Η απόσταση του −3 από το 0 είναι 3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "0eb8e404-1cc3-5661-985c-2ceda470606f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το |−7|;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Η απόλυτη τιμή είναι απόσταση από το 0.",
+        "solution": "Η απόσταση του −7 από το 0 είναι 7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "0eb8e404-1cc3-5661-985c-2ceda470606f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσοι ακέραιοι ανήκουν στο διάστημα (−2,3];",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Το −2 αποκλείεται και το 3 περιλαμβάνεται.",
+        "solution": "Οι ακέραιοι είναι −1,0,1,2,3, συνολικά 5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "3e234932-38ef-524c-9de5-381d247b59cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η απόσταση των −3 και 5 στον πραγματικό άξονα;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Η απόσταση είναι η απόλυτη τιμή της διαφοράς.",
+        "solution": "|5−(−3)|=8=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-(-3)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "3e234932-38ef-524c-9de5-381d247b59cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσοι ακέραιοι ικανοποιούν |x−1|<2;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Μετέτρεψε σε διπλή ανίσωση.",
+        "solution": "−2<x−1<2, άρα −1<x<3. Οι 0,1,2 είναι 3 ακέραιοι.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "3e234932-38ef-524c-9de5-381d247b59cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπάρχει αμέσως επόμενος πραγματικός αριθμός μετά από ένα πραγματικό a;",
+        "choices": [
+          "Όχι, μεταξύ δύο διαφορετικών πραγματικών υπάρχει ο μέσος τους",
+          "Ναι, είναι a+1",
+          "Ναι, είναι a+0,1",
+          "Ναι, είναι πάντα 0"
+        ],
+        "answer": "Όχι, μεταξύ δύο διαφορετικών πραγματικών υπάρχει ο μέσος τους",
+        "hint": "Χρησιμοποίησε ότι αν a<b τότε a<(a+b)/2<b.",
+        "solution": "Ο μέσος δύο διαφορετικών πραγματικών παρεμβάλλεται αυστηρά, άρα δεν υπάρχει επόμενος.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, μεταξύ δύο διαφορετικών πραγματικών υπάρχει ο μέσος τους",
+              "correct": true,
+              "reason": "Ο μέσος δύο διαφορετικών πραγματικών παρεμβάλλεται αυστηρά, άρα δεν υπάρχει επόμενος."
+            },
+            {
+              "choice": "Ναι, είναι a+1",
+              "correct": false,
+              "reason": "Μεταξύ a και a+1 υπάρχει a+1/2."
+            },
+            {
+              "choice": "Ναι, είναι a+0,1",
+              "correct": false,
+              "reason": "Μεταξύ a και a+0,1 υπάρχει a+0,05."
+            },
+            {
+              "choice": "Ναι, είναι πάντα 0",
+              "correct": false,
+              "reason": "Το 0 δεν είναι γενικά μεγαλύτερο του a ούτε αμέσως επόμενο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "3e234932-38ef-524c-9de5-381d247b59cc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x²+1, ποιο είναι το f(2);",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Αντικατάστησε στο x²+1.",
+        "solution": "f(2)=2²+1=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2+1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "347b685d-08c0-58aa-946c-fd8e6c57b880"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x²+1, ποιο είναι το f(4);",
+        "choices": [
+          "17",
+          "18",
+          "16",
+          "-17"
+        ],
+        "answer": "17",
+        "hint": "Αντικατάστησε στο x²+1.",
+        "solution": "f(4)=4²+1=17.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2+1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "347b685d-08c0-58aa-946c-fd8e6c57b880"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1 και g(x)=x², πόσο είναι το (f∘g)(3);",
+        "choices": [
+          "19",
+          "20",
+          "18",
+          "-19"
+        ],
+        "answer": "19",
+        "hint": "Πρώτα υπολόγισε g(3) και μετά εφάρμοσε την f.",
+        "solution": "g(3)=9 και f(9)=19=19.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3**2+1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "0e47c054-d3f6-5d47-8e61-2881364ada3a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1 και g(x)=x², πόσο είναι το (g∘f)(3);",
+        "choices": [
+          "49",
+          "50",
+          "48",
+          "-49"
+        ],
+        "answer": "49",
+        "hint": "Η αντίστροφη σειρά σύνθεσης αλλάζει το αποτέλεσμα.",
+        "solution": "f(3)=7 και g(7)=49=49.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2*3+1)**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "0e47c054-d3f6-5d47-8e61-2881364ada3a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f(x)=√(x−2) ορίζεται για x≥2. Ποια είναι η μικρότερη επιτρεπτή τιμή x για την g(x)=f(3x−1);",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Απαίτησε 3x−1≥2.",
+        "solution": "3x≥3, άρα x≥1. Το αριστερό άκρο είναι 1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+1)/3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "0e47c054-d3f6-5d47-8e61-2881364ada3a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι f(x)=x/x στο ℝ∖{0} και g(x)=1 στο ℝ είναι ίσες συναρτήσεις;",
+        "choices": [
+          "Όχι, έχουν διαφορετικά πεδία ορισμού",
+          "Ναι, επειδή απλοποιείται το x",
+          "Ναι, επειδή συμφωνούν στο 1",
+          "Όχι, επειδή f(1)=0"
+        ],
+        "answer": "Όχι, έχουν διαφορετικά πεδία ορισμού",
+        "hint": "Ισότητα συναρτήσεων απαιτεί ίδιο πεδίο και ίδιες τιμές.",
+        "solution": "Οι τύποι συμφωνούν όπου ορίζεται η f, αλλά η g ορίζεται επιπλέον στο 0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, έχουν διαφορετικά πεδία ορισμού",
+              "correct": true,
+              "reason": "Οι τύποι συμφωνούν όπου ορίζεται η f, αλλά η g ορίζεται επιπλέον στο 0."
+            },
+            {
+              "choice": "Ναι, επειδή απλοποιείται το x",
+              "correct": false,
+              "reason": "Η απλοποίηση δεν επαναφέρει το αποκλεισμένο 0."
+            },
+            {
+              "choice": "Ναι, επειδή συμφωνούν στο 1",
+              "correct": false,
+              "reason": "Συμφωνία σε ένα σημείο δεν αρκεί για ισότητα συναρτήσεων."
+            },
+            {
+              "choice": "Όχι, επειδή f(1)=0",
+              "correct": false,
+              "reason": "Η f(1)=1, όχι 0."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "0e47c054-d3f6-5d47-8e61-2881364ada3a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1 στο ℝ, ποιο είναι το f⁻¹(5);",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Λύσε y=2x+1 ως προς x.",
+        "solution": "f⁻¹(y)=(y−1)/2, άρα η ζητούμενη τιμή είναι 2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(5-1)/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "7416db5d-6feb-5b45-9006-2b53d7f184d0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1 στο ℝ, ποιο είναι το f⁻¹(9);",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Λύσε y=2x+1 ως προς x.",
+        "solution": "f⁻¹(y)=(y−1)/2, άρα η ζητούμενη τιμή είναι 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(9-1)/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "7416db5d-6feb-5b45-9006-2b53d7f184d0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f:[0,+∞)→[0,+∞), f(x)=x² έχει αντίστροφη. Ποιο είναι το f⁻¹(16);",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Στο μη αρνητικό πεδίο διαλέγουμε τη μη αρνητική ρίζα.",
+        "solution": "Η αντίστροφη είναι √x και √16=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "9fd86fa4-dfc2-5511-bd8d-477f62e47055"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν η αντιστρέψιμη f ικανοποιεί f(3)=7, ποια είναι η τιμή f⁻¹(7);",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Η αντίστροφη ανταλλάσσει είσοδο και έξοδο.",
+        "solution": "Από f(3)=7 παίρνουμε f⁻¹(7)=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "9fd86fa4-dfc2-5511-bd8d-477f62e47055"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x−2, ποια είναι η τιμή f⁻¹(f(5));",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Η σύνθεση της αντίστροφης με τη συνάρτηση επιστρέφει το αρχικό στοιχείο.",
+        "solution": "f(5)=13 και f⁻¹(13)=(13+2)/3=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "9fd86fa4-dfc2-5511-bd8d-477f62e47055"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί η x² στο ℝ δεν έχει αντίστροφη συνάρτηση πάνω σε όλο το πεδίο της;",
+        "choices": [
+          "Δεν είναι ένα προς ένα: f(1)=f(−1)",
+          "Επειδή είναι πάντα μη αρνητική",
+          "Επειδή δεν είναι συνεχής",
+          "Επειδή δεν ορίζεται στο 0"
+        ],
+        "answer": "Δεν είναι ένα προς ένα: f(1)=f(−1)",
+        "hint": "Αναζήτησε δύο διαφορετικές εισόδους με ίδια έξοδο.",
+        "solution": "Οι διαφορετικοί αριθμοί 1 και −1 έχουν ίδια εικόνα, άρα αποτυγχάνει το ένα προς ένα.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν είναι ένα προς ένα: f(1)=f(−1)",
+              "correct": true,
+              "reason": "Οι διαφορετικοί αριθμοί 1 και −1 έχουν ίδια εικόνα, άρα αποτυγχάνει το ένα προς ένα."
+            },
+            {
+              "choice": "Επειδή είναι πάντα μη αρνητική",
+              "correct": false,
+              "reason": "Η μη αρνητικότητα δεν αποκλείει αντίστροφη, όπως στο πεδίο [0,+∞)."
+            },
+            {
+              "choice": "Επειδή δεν είναι συνεχής",
+              "correct": false,
+              "reason": "Η x² είναι συνεχής σε όλο το ℝ."
+            },
+            {
+              "choice": "Επειδή δεν ορίζεται στο 0",
+              "correct": false,
+              "reason": "Στο 0 ορίζεται και δίνει 0."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "9fd86fa4-dfc2-5511-bd8d-477f62e47055"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το όριο της f(x)=3x+1 καθώς x→2;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Για γραμμική συνάρτηση οι κοντινές τιμές πλησιάζουν την τιμή του τύπου.",
+        "solution": "Το όριο είναι 3×2+1=7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2+1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "fe6856cc-a07f-5c38-b673-09244cc00609"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το όριο της f(x)=3x+1 καθώς x→5;",
+        "choices": [
+          "16",
+          "17",
+          "15",
+          "-16"
+        ],
+        "answer": "16",
+        "hint": "Για γραμμική συνάρτηση οι κοντινές τιμές πλησιάζουν την τιμή του τύπου.",
+        "solution": "Το όριο είναι 3×5+1=16.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*5+1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "fe6856cc-a07f-5c38-b673-09244cc00609"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠1 δίνεται f(x)=x+2, ενώ f(1)=8. Ποιο είναι το όριο όταν x→1;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Το όριο εξετάζει γειτονικές τιμές, όχι την μεμονωμένη τιμή στο 1.",
+        "solution": "Για x≠1 οι τιμές πλησιάζουν 1+2=3. Η f(1)=8 δεν αλλάζει το όριο.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "305c99d9-e3e9-500c-bd62-c4876fa8371d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν αριστερό και δεξιό όριο στο 2 είναι και τα δύο 5, ποιο είναι το κοινό όριο;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Τα δύο πλευρικά όρια συμφωνούν.",
+        "solution": "Το κοινό όριο είναι 5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "305c99d9-e3e9-500c-bd62-c4876fa8371d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠2, f(x)=(x²−4)/(x−2). Ποιο είναι το όριο στο 2;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Παραγοντοποίησε και απλοποίησε μόνο για x≠2.",
+        "solution": "f(x)=x+2 στη διάτρητη γειτονιά, άρα το όριο είναι 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2+2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "305c99d9-e3e9-500c-bd62-c4876fa8371d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν αριστερό όριο είναι 1 και δεξιό 3 στο ίδιο σημείο, ποιο συμπέρασμα ισχύει;",
+        "choices": [
+          "Δεν υπάρχει κοινό όριο",
+          "Το κοινό όριο είναι 2",
+          "Το κοινό όριο είναι 3",
+          "Το κοινό όριο ισούται πάντα με την τιμή της συνάρτησης"
+        ],
+        "answer": "Δεν υπάρχει κοινό όριο",
+        "hint": "Κοινό όριο απαιτεί συμφωνία των πλευρικών.",
+        "solution": "Τα διαφορετικά πλευρικά όρια αποκλείουν κοινό όριο.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν υπάρχει κοινό όριο",
+              "correct": true,
+              "reason": "Τα διαφορετικά πλευρικά όρια αποκλείουν κοινό όριο."
+            },
+            {
+              "choice": "Το κοινό όριο είναι 2",
+              "correct": false,
+              "reason": "Δεν παίρνουμε μέσο όρο διαφορετικών πλευρικών ορίων."
+            },
+            {
+              "choice": "Το κοινό όριο είναι 3",
+              "correct": false,
+              "reason": "Το δεξιό μόνο του δεν καθορίζει κοινό όριο."
+            },
+            {
+              "choice": "Το κοινό όριο ισούται πάντα με την τιμή της συνάρτησης",
+              "correct": false,
+              "reason": "Η τιμή στο σημείο δεν διορθώνει τη διαφωνία των πλευρικών."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "305c99d9-e3e9-500c-bd62-c4876fa8371d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→2)(x²+2x);",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Χρησιμοποίησε τις ιδιότητες αθροίσματος και γινομένου πεπερασμένων ορίων.",
+        "solution": "Το όριο είναι 2²+2×2=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2+2*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "0d7a683a-72d0-5200-a8e6-1ccbdfc9d258"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Δεν εξετάζονται οι αποδείξεις της υποπαραγράφου τριγωνομετρικών ορίων.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→3)(x²+2x);",
+        "choices": [
+          "15",
+          "16",
+          "14",
+          "-15"
+        ],
+        "answer": "15",
+        "hint": "Χρησιμοποίησε τις ιδιότητες αθροίσματος και γινομένου πεπερασμένων ορίων.",
+        "solution": "Το όριο είναι 3²+2×3=15.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2+2*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "0d7a683a-72d0-5200-a8e6-1ccbdfc9d258"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Δεν εξετάζονται οι αποδείξεις της υποπαραγράφου τριγωνομετρικών ορίων.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→1)(x²+1)/(x+1);",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Ο παρονομαστής έχει μη μηδενικό όριο.",
+        "solution": "Το όριο είναι 2/2=1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(1+1)/(1+1)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "de7f79ec-6c6b-5285-a943-4b4d0aab49f7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Δεν εξετάζονται οι αποδείξεις της υποπαραγράφου τριγωνομετρικών ορίων.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→3)(x²−9)/(x−3);",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Η μορφή 0/0 απαιτεί απλοποίηση, όχι διαίρεση με 0.",
+        "solution": "Για x≠3 το κλάσμα είναι x+3, άρα το όριο είναι 6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "de7f79ec-6c6b-5285-a943-4b4d0aab49f7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Δεν εξετάζονται οι αποδείξεις της υποπαραγράφου τριγωνομετρικών ορίων.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→0) ημ(2x)/x, με x σε ακτίνια;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Γράψε 2×ημ(2x)/(2x) και χρησιμοποίησε το γνωστό όριο ημu/u=1.",
+        "solution": "Ο δεύτερος παράγοντας τείνει στο 1, άρα το όριο είναι 2. Δεν ζητείται απόδειξη του τριγωνομετρικού ορίου.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "de7f79ec-6c6b-5285-a943-4b4d0aab49f7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Δεν εξετάζονται οι αποδείξεις της υποπαραγράφου τριγωνομετρικών ορίων.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πότε εφαρμόζεται απευθείας ο κανόνας πηλίκου πεπερασμένων ορίων;",
+        "choices": [
+          "Όταν το όριο του παρονομαστή είναι μη μηδενικό",
+          "Ακόμη και όταν και τα δύο όρια είναι 0",
+          "Μόνο όταν ο αριθμητής τείνει στο 0",
+          "Όταν η συνάρτηση δεν έχει πεδίο"
+        ],
+        "answer": "Όταν το όριο του παρονομαστή είναι μη μηδενικό",
+        "hint": "Η διαίρεση των ορίων χρειάζεται μη μηδενικό διαιρέτη.",
+        "solution": "Μη μηδενικό πεπερασμένο όριο παρονομαστή επιτρέπει τον κανόνα πηλίκου.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όταν το όριο του παρονομαστή είναι μη μηδενικό",
+              "correct": true,
+              "reason": "Μη μηδενικό πεπερασμένο όριο παρονομαστή επιτρέπει τον κανόνα πηλίκου."
+            },
+            {
+              "choice": "Ακόμη και όταν και τα δύο όρια είναι 0",
+              "correct": false,
+              "reason": "Η μορφή 0/0 είναι απροσδιόριστη και απαιτεί περαιτέρω χειρισμό."
+            },
+            {
+              "choice": "Μόνο όταν ο αριθμητής τείνει στο 0",
+              "correct": false,
+              "reason": "Ο αριθμητής μπορεί να έχει οποιοδήποτε πεπερασμένο όριο."
+            },
+            {
+              "choice": "Όταν η συνάρτηση δεν έχει πεδίο",
+              "correct": false,
+              "reason": "Χρειάζεται συνάρτηση ορισμένη σε κατάλληλη γειτονιά."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "de7f79ec-6c6b-5285-a943-4b4d0aab49f7"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Δεν εξετάζονται οι αποδείξεις της υποπαραγράφου τριγωνομετρικών ορίων.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→0⁺) 1/x;",
+        "choices": [
+          "+∞",
+          "−∞",
+          "0",
+          "1"
+        ],
+        "answer": "+∞",
+        "hint": "Μικρός θετικός παρονομαστής δίνει μεγάλο θετικό πηλίκο.",
+        "solution": "Οι τιμές αυξάνονται απεριόριστα θετικά καθώς x→0⁺.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "+∞",
+              "correct": true,
+              "reason": "Οι τιμές αυξάνονται απεριόριστα θετικά καθώς x→0⁺."
+            },
+            {
+              "choice": "−∞",
+              "correct": false,
+              "reason": "Από δεξιά ο παρονομαστής είναι θετικός."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Οι τιμές δεν μικραίνουν προς το 0."
+            },
+            {
+              "choice": "1",
+              "correct": false,
+              "reason": "Οι τιμές δεν πλησιάζουν πεπερασμένο αριθμό."
+            }
+          ]
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "e9003b28-e2fd-5508-95a8-360383873642"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→0⁻) 1/x;",
+        "choices": [
+          "−∞",
+          "+∞",
+          "0",
+          "−1"
+        ],
+        "answer": "−∞",
+        "hint": "Μικρός αρνητικός παρονομαστής δίνει αρνητικές τιμές μεγάλου μέτρου.",
+        "solution": "Οι τιμές γίνονται απεριόριστα αρνητικές καθώς x→0⁻.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−∞",
+              "correct": true,
+              "reason": "Οι τιμές γίνονται απεριόριστα αρνητικές καθώς x→0⁻."
+            },
+            {
+              "choice": "+∞",
+              "correct": false,
+              "reason": "Από αριστερά ο παρονομαστής είναι αρνητικός."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Το μέτρο μεγαλώνει, δεν τείνει στο 0."
+            },
+            {
+              "choice": "−1",
+              "correct": false,
+              "reason": "Δεν υπάρχει πεπερασμένο όριο −1."
+            }
+          ]
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "e9003b28-e2fd-5508-95a8-360383873642"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→2) 1/(x−2)²;",
+        "choices": [
+          "+∞",
+          "−∞",
+          "0",
+          "Δεν συμφωνούν τα πλευρικά όρια"
+        ],
+        "answer": "+∞",
+        "hint": "Το τετράγωνο είναι θετικό και τείνει στο 0 και από τις δύο πλευρές.",
+        "solution": "Και από τις δύο πλευρές έχουμε θετικές απεριόριστες τιμές.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "+∞",
+              "correct": true,
+              "reason": "Και από τις δύο πλευρές έχουμε θετικές απεριόριστες τιμές."
+            },
+            {
+              "choice": "−∞",
+              "correct": false,
+              "reason": "Το κλάσμα είναι θετικό στη διάτρητη γειτονιά."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Ο παρονομαστής τείνει στο 0, όχι στο άπειρο."
+            },
+            {
+              "choice": "Δεν συμφωνούν τα πλευρικά όρια",
+              "correct": false,
+              "reason": "Τα πλευρικά όρια συμφωνούν στο +∞."
+            }
+          ]
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a453654-5719-5c5d-bc39-3a1bedd230c9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→1) −2/(x−1)²;",
+        "choices": [
+          "−∞",
+          "+∞",
+          "0",
+          "−2"
+        ],
+        "answer": "−∞",
+        "hint": "Ο αριθμητής είναι αρνητικός και ο παρονομαστής μικρός θετικός.",
+        "solution": "Το πηλίκο είναι αρνητικό με απεριόριστο μέτρο και από τις δύο πλευρές.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−∞",
+              "correct": true,
+              "reason": "Το πηλίκο είναι αρνητικό με απεριόριστο μέτρο και από τις δύο πλευρές."
+            },
+            {
+              "choice": "+∞",
+              "correct": false,
+              "reason": "Το αρνητικό πρόσημο δεν εξαφανίζεται."
+            },
+            {
+              "choice": "0",
+              "correct": false,
+              "reason": "Το μέτρο αυξάνεται, δεν μικραίνει."
+            },
+            {
+              "choice": "−2",
+              "correct": false,
+              "reason": "Δεν επιτρέπεται αντικατάσταση μηδενικού παρονομαστή με 1."
+            }
+          ]
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a453654-5719-5c5d-bc39-3a1bedd230c9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→0) (x+1)/x²;",
+        "choices": [
+          "+∞",
+          "−∞",
+          "1",
+          "Δεν υπάρχει επειδή η τιμή στο 0 δεν ορίζεται"
+        ],
+        "answer": "+∞",
+        "hint": "Κοντά στο 0 ο αριθμητής είναι θετικός και κοντά στο 1.",
+        "solution": "Θετικός αριθμητής κοντά στο 1 διαιρείται με θετικό αριθμό που τείνει στο 0, άρα +∞.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "+∞",
+              "correct": true,
+              "reason": "Θετικός αριθμητής κοντά στο 1 διαιρείται με θετικό αριθμό που τείνει στο 0, άρα +∞."
+            },
+            {
+              "choice": "−∞",
+              "correct": false,
+              "reason": "Δεν υπάρχει αρνητικό πρόσημο σε αρκετά μικρή γειτονιά."
+            },
+            {
+              "choice": "1",
+              "correct": false,
+              "reason": "Το όριο του αριθμητή δεν είναι το όριο όλου του κλάσματος."
+            },
+            {
+              "choice": "Δεν υπάρχει επειδή η τιμή στο 0 δεν ορίζεται",
+              "correct": false,
+              "reason": "Το όριο μπορεί να υπάρχει χωρίς ορισμό στο ίδιο το σημείο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a453654-5719-5c5d-bc39-3a1bedd230c9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.6",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η γραφή lim f(x)=+∞ σημαίνει ότι το άπειρο είναι πραγματική τιμή της f στο σημείο;",
+        "choices": [
+          "Όχι, περιγράφει απεριόριστη αύξηση γειτονικών τιμών",
+          "Ναι, +∞ είναι πραγματικός αριθμός",
+          "Ναι, η f πρέπει να ορίζεται στο σημείο με τιμή +∞",
+          "Σημαίνει ότι όλες οι τιμές είναι ίσες"
+        ],
+        "answer": "Όχι, περιγράφει απεριόριστη αύξηση γειτονικών τιμών",
+        "hint": "Διάκρινε μη πεπερασμένο όριο από τιμή συνάρτησης.",
+        "solution": "Το +∞ συμβολίζει απεριόριστη συμπεριφορά και δεν είναι πραγματικός αριθμός.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, περιγράφει απεριόριστη αύξηση γειτονικών τιμών",
+              "correct": true,
+              "reason": "Το +∞ συμβολίζει απεριόριστη συμπεριφορά και δεν είναι πραγματικός αριθμός."
+            },
+            {
+              "choice": "Ναι, +∞ είναι πραγματικός αριθμός",
+              "correct": false,
+              "reason": "Το +∞ δεν ανήκει στους πραγματικούς."
+            },
+            {
+              "choice": "Ναι, η f πρέπει να ορίζεται στο σημείο με τιμή +∞",
+              "correct": false,
+              "reason": "Δεν απαιτείται η f να ορίζεται στο σημείο του ορίου."
+            },
+            {
+              "choice": "Σημαίνει ότι όλες οι τιμές είναι ίσες",
+              "correct": false,
+              "reason": "Οι τιμές υπερβαίνουν κάθε φράγμα, δεν είναι σταθερές."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a453654-5719-5c5d-bc39-3a1bedd230c9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.7",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→+∞) (2+1/x);",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Ο όρος 1/x τείνει στο 0.",
+        "solution": "Το όριο είναι 2+0=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "b42615f4-80c5-5377-8bc9-53d935428491"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.7",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→+∞) (5+1/x);",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Ο όρος 1/x τείνει στο 0.",
+        "solution": "Το όριο είναι 5+0=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "b42615f4-80c5-5377-8bc9-53d935428491"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.7",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→+∞)(3x²+1)/(2x²−5);",
+        "choices": [
+          "3/2",
+          "5/2",
+          "1/2",
+          "-3/2"
+        ],
+        "answer": "3/2",
+        "hint": "Διαίρεσε αριθμητή και παρονομαστή με x².",
+        "solution": "Το όριο γίνεται (3+0)/(2−0)=3/2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "109a3f8d-ec6d-5953-a2c0-d57da15ec95a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.7",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→−∞)(2x+1)/x²;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Ο βαθμός του παρονομαστή είναι μεγαλύτερος.",
+        "solution": "2/x+1/x²→0, άρα όριο 0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "109a3f8d-ec6d-5953-a2c0-d57da15ec95a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.7",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το lim(x→+∞)(√(x²+x)−x);",
+        "choices": [
+          "1/2",
+          "3/2",
+          "-1/2",
+          "1"
+        ],
+        "answer": "1/2",
+        "hint": "Πολλαπλασίασε με τη συζυγή και χρησιμοποίησε x>0 για μεγάλα x.",
+        "solution": "Η παράσταση ισούται με x/(√(x²+x)+x)=1/(√(1+1/x)+1)→1/2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "109a3f8d-ec6d-5953-a2c0-d57da15ec95a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.7",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x→−∞, με τι ισούται η √(x²) για τις αρνητικές τιμές x;",
+        "choices": [
+          "−x",
+          "x",
+          "x²",
+          "−x²"
+        ],
+        "answer": "−x",
+        "hint": "Η τετραγωνική ρίζα είναι μη αρνητική.",
+        "solution": "√(x²)=|x|=−x όταν x<0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−x",
+              "correct": true,
+              "reason": "√(x²)=|x|=−x όταν x<0."
+            },
+            {
+              "choice": "x",
+              "correct": false,
+              "reason": "Το x είναι αρνητικό ενώ η ρίζα μη αρνητική."
+            },
+            {
+              "choice": "x²",
+              "correct": false,
+              "reason": "Το τετράγωνο και η ρίζα του είναι διαφορετικές συναρτήσεις."
+            },
+            {
+              "choice": "−x²",
+              "correct": false,
+              "reason": "Το −x² είναι αρνητικό για x≠0."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "109a3f8d-ec6d-5953-a2c0-d57da15ec95a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για συνεχή f(x)=x²−1, ποιο είναι το lim(x→2)f(x);",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Συνέχεια σημαίνει ότι το όριο ισούται με την τιμή.",
+        "solution": "Το όριο είναι f(2)=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2-1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "13c4fa01-faba-55c2-a838-520a6f4f72a4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για συνεχή f(x)=x²−1, ποιο είναι το lim(x→4)f(x);",
+        "choices": [
+          "15",
+          "16",
+          "14",
+          "-15"
+        ],
+        "answer": "15",
+        "hint": "Συνέχεια σημαίνει ότι το όριο ισούται με την τιμή.",
+        "solution": "Το όριο είναι f(4)=15.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2-1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "13c4fa01-faba-55c2-a838-520a6f4f72a4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για x≠1 ορίζεται f(x)=(x²−1)/(x−1). Ποια τιμή πρέπει να τεθεί στο f(1) για συνέχεια;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Απλοποίησε στη διάτρητη γειτονιά και εξίσωσε τιμή με όριο.",
+        "solution": "Για x≠1 έχουμε f(x)=x+1 με όριο 2, άρα f(1)=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "24fa62b4-3c14-5231-a523-7109db3c3819"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f είναι συνεχής στο [0,2], f(0)=−1, f(2)=3. Ποιο ελάχιστο πλήθος ριζών στο (0,2) εγγυάται το Bolzano;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Το θεώρημα εγγυάται ύπαρξη, όχι μοναδικότητα.",
+        "solution": "Το γινόμενο τιμών άκρων είναι αρνητικό, άρα τουλάχιστον 1 ρίζα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "24fa62b4-3c14-5231-a523-7109db3c3819"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f(x)=x³−2 είναι συνεχής και γνησίως αύξουσα. Πόσες ρίζες έχει στο (1,2);",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Συνδύασε Bolzano με γνήσια μονοτονία.",
+        "solution": "f(1)=−1 και f(2)=6 δίνουν ύπαρξη. Η γνήσια αύξηση δίνει μοναδικότητα, άρα 1 ρίζα.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "24fa62b4-3c14-5231-a523-7109db3c3819"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.8",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Μπορούμε να εφαρμόσουμε Bolzano στην f(x)=1/x στο [−1,1] επειδή οι τιμές άκρων έχουν αντίθετα πρόσημα;",
+        "choices": [
+          "Όχι, δεν είναι συνεχής σε όλο το [−1,1]",
+          "Ναι, τα πρόσημα αρκούν",
+          "Ναι, έχει ρίζα στο 0",
+          "Ναι, επειδή είναι φθίνουσα σε καθένα από τα δύο τμήματα"
+        ],
+        "answer": "Όχι, δεν είναι συνεχής σε όλο το [−1,1]",
+        "hint": "Έλεγξε την υπόθεση συνέχειας σε ολόκληρο το κλειστό διάστημα.",
+        "solution": "Η f δεν ορίζεται στο 0 και δεν ικανοποιεί τη συνέχεια που απαιτεί το θεώρημα.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, δεν είναι συνεχής σε όλο το [−1,1]",
+              "correct": true,
+              "reason": "Η f δεν ορίζεται στο 0 και δεν ικανοποιεί τη συνέχεια που απαιτεί το θεώρημα."
+            },
+            {
+              "choice": "Ναι, τα πρόσημα αρκούν",
+              "correct": false,
+              "reason": "Απαιτούνται και συνέχεια και αντίθετα πρόσημα."
+            },
+            {
+              "choice": "Ναι, έχει ρίζα στο 0",
+              "correct": false,
+              "reason": "Στο 0 δεν ορίζεται, άρα δεν έχει εκεί ρίζα."
+            },
+            {
+              "choice": "Ναι, επειδή είναι φθίνουσα σε καθένα από τα δύο τμήματα",
+              "correct": false,
+              "reason": "Η χωριστή μονοτονία δεν αντικαθιστά τη συνέχεια στο διάστημα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "24fa62b4-3c14-5231-a523-7109db3c3819"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "1.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§1.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x², ποια είναι η κλίση εφαπτομένης στο x=2;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η παράγωγος της x² στο α είναι 2α.",
+        "solution": "f′(2)=2×2=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "3082e967-bcef-52cd-8ea4-7f1cf9efa139"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η κατακόρυφη εφαπτομένη.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x², ποια είναι η κλίση εφαπτομένης στο x=4;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Η παράγωγος της x² στο α είναι 2α.",
+        "solution": "f′(4)=2×4=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "3082e967-bcef-52cd-8ea4-7f1cf9efa139"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η κατακόρυφη εφαπτομένη.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x+2, ποια είναι η τιμή του λόγου (f(1+h)−f(1))/h για h≠0;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Ανάπτυξε τον αριθμητή πριν διαιρέσεις.",
+        "solution": "Ο αριθμητής είναι 3h, άρα το πηλίκο είναι 3 και αυτό είναι και το όριό του.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "aa4192bc-ed2e-5c99-adee-51eca9ef7777"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η κατακόρυφη εφαπτομένη.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x², η εφαπτομένη στο (1,1) είναι y−1=2(x−1). Ποιο είναι το y της στο x=3;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Χρησιμοποίησε την εξίσωση της εφαπτομένης, όχι την αρχική παραβολή.",
+        "solution": "y=1+2×2=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1+2*(3-1)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "aa4192bc-ed2e-5c99-adee-51eca9ef7777"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η κατακόρυφη εφαπτομένη.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Θέση σώματος s(t)=t²+3t σε μέτρα, χρόνος σε δευτερόλεπτα. Ποια είναι η στιγμιαία ταχύτητα στο t=2;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Η στιγμιαία ταχύτητα είναι η παράγωγος της θέσης.",
+        "solution": "s′(t)=2t+3, άρα s′(2)=7 m/s.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2+3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "aa4192bc-ed2e-5c99-adee-51eca9ef7777"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η κατακόρυφη εφαπτομένη.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ύπαρξη παραγώγου σε σημείο συνεπάγεται συνέχεια εκεί;",
+        "choices": [
+          "Ναι, αλλά το αντίστροφο δεν ισχύει γενικά",
+          "Όχι, δεν σχετίζονται",
+          "Ναι και κάθε συνεχής είναι παραγωγίσιμη",
+          "Μόνο αν η παράγωγος είναι θετική"
+        ],
+        "answer": "Ναι, αλλά το αντίστροφο δεν ισχύει γενικά",
+        "hint": "Η |x| στο 0 είναι αντιπαράδειγμα για την αντίστροφη πρόταση.",
+        "solution": "Παραγωγισιμότητα συνεπάγεται συνέχεια, ενώ η συνεχής |x| δεν έχει παράγωγο στο 0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ναι, αλλά το αντίστροφο δεν ισχύει γενικά",
+              "correct": true,
+              "reason": "Παραγωγισιμότητα συνεπάγεται συνέχεια, ενώ η συνεχής |x| δεν έχει παράγωγο στο 0."
+            },
+            {
+              "choice": "Όχι, δεν σχετίζονται",
+              "correct": false,
+              "reason": "Υπάρχει το θεώρημα παραγωγισιμότητας που συνεπάγεται συνέχεια."
+            },
+            {
+              "choice": "Ναι και κάθε συνεχής είναι παραγωγίσιμη",
+              "correct": false,
+              "reason": "Η |x| στο 0 διαψεύδει το δεύτερο μέρος."
+            },
+            {
+              "choice": "Μόνο αν η παράγωγος είναι θετική",
+              "correct": false,
+              "reason": "Το συμπέρασμα ισχύει για οποιαδήποτε πεπερασμένη παράγωγο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "aa4192bc-ed2e-5c99-adee-51eca9ef7777"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η κατακόρυφη εφαπτομένη.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³, ποια είναι η τιμή f′(2);",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Χρησιμοποίησε (x³)′=3x².",
+        "solution": "f′(2)=3×2²=12.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "63e9b290-3204-5661-b018-8878bf706ca1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται οι αποδείξεις των παραγώγων ημιτόνου και συνημιτόνου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³, ποια είναι η τιμή f′(3);",
+        "choices": [
+          "27",
+          "28",
+          "26",
+          "-27"
+        ],
+        "answer": "27",
+        "hint": "Χρησιμοποίησε (x³)′=3x².",
+        "solution": "f′(3)=3×3²=27.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*3**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "63e9b290-3204-5661-b018-8878bf706ca1"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται οι αποδείξεις των παραγώγων ημιτόνου και συνημιτόνου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=1/x στο x≠0, ποιο είναι το f′(2);",
+        "choices": [
+          "-1/4",
+          "3/4",
+          "-5/4",
+          "1/4"
+        ],
+        "answer": "-1/4",
+        "hint": "Η παράγωγος είναι −1/x².",
+        "solution": "f′(2)=−1/4=-1/4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-1/2**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "7b22c244-3f1d-5596-8f64-849d564d2379"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται οι αποδείξεις των παραγώγων ημιτόνου και συνημιτόνου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=lnx στο x>0, ποια είναι η τιμή f′(4);",
+        "choices": [
+          "1/4",
+          "5/4",
+          "-3/4",
+          "-1/4"
+        ],
+        "answer": "1/4",
+        "hint": "Η παράγωγος της ln είναι 1/x.",
+        "solution": "f′(4)=1/4=1/4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "7b22c244-3f1d-5596-8f64-849d564d2379"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται οι αποδείξεις των παραγώγων ημιτόνου και συνημιτόνου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=√x στο x>0, ποια είναι η τιμή f′(9);",
+        "choices": [
+          "1/6",
+          "7/6",
+          "-5/6",
+          "-1/6"
+        ],
+        "answer": "1/6",
+        "hint": "Η παράγωγος είναι 1/(2√x) για x>0.",
+        "solution": "Στο 9 έχουμε √9=3, οπότε f′(9)=1/6. Δεν εφαρμόζουμε τον τύπο στο 0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/(2*3)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "7b22c244-3f1d-5596-8f64-849d564d2379"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται οι αποδείξεις των παραγώγων ημιτόνου και συνημιτόνου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η παράγωγος της συνx όταν το x μετριέται σε ακτίνια;",
+        "choices": [
+          "−ημx",
+          "ημx",
+          "συνx",
+          "−συνx"
+        ],
+        "answer": "−ημx",
+        "hint": "Θυμήσου τον βασικό τύπο με το αρνητικό πρόσημο.",
+        "solution": "Ο βασικός τύπος είναι (συνx)′=−ημx για ακτίνια.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "−ημx",
+              "correct": true,
+              "reason": "Ο βασικός τύπος είναι (συνx)′=−ημx για ακτίνια."
+            },
+            {
+              "choice": "ημx",
+              "correct": false,
+              "reason": "Λείπει το αρνητικό πρόσημο."
+            },
+            {
+              "choice": "συνx",
+              "correct": false,
+              "reason": "Η παράγωγος δεν διατηρεί την ίδια τριγωνομετρική συνάρτηση."
+            },
+            {
+              "choice": "−συνx",
+              "correct": false,
+              "reason": "Το −συνx είναι παράγωγος του −ημx."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "7b22c244-3f1d-5596-8f64-849d564d2379"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.2"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.2",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται οι αποδείξεις των παραγώγων ημιτόνου και συνημιτόνου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x²+2x, ποιο είναι το f′(1);",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Παραγώγισε κάθε όρο του αθροίσματος.",
+        "solution": "f′(x)=6x+2, άρα f′(1)=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*1+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "192d7a66-da18-5ae7-a5cd-c4867fcacf1c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η απόδειξη της παραγώγου γινομένου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x²+2x, ποιο είναι το f′(2);",
+        "choices": [
+          "14",
+          "15",
+          "13",
+          "-14"
+        ],
+        "answer": "14",
+        "hint": "Παραγώγισε κάθε όρο του αθροίσματος.",
+        "solution": "f′(x)=6x+2, άρα f′(2)=14.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*2+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "192d7a66-da18-5ae7-a5cd-c4867fcacf1c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η απόδειξη της παραγώγου γινομένου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(2x+1)³, ποια είναι η τιμή f′(1);",
+        "choices": [
+          "54",
+          "55",
+          "53",
+          "-54"
+        ],
+        "answer": "54",
+        "hint": "Εφάρμοσε κανόνα σύνθεσης και κράτησε τον παράγοντα 2.",
+        "solution": "f′(x)=6(2x+1)², άρα f′(1)=54.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*(2+1)**2*2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fcf590ad-9b44-5f63-89cb-328b4a814455"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η απόδειξη της παραγώγου γινομένου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x·e^x, ποια είναι η τιμή f′(0);",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Εφάρμοσε (uv)′=u′v+uv′.",
+        "solution": "f′(x)=e^x+xe^x, άρα f′(0)=1=1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1+0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fcf590ad-9b44-5f63-89cb-328b4a814455"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η απόδειξη της παραγώγου γινομένου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(x+1)/(x−1), x≠1, ποια είναι η τιμή f′(3);",
+        "choices": [
+          "-1/2",
+          "1/2",
+          "-3/2",
+          "-1"
+        ],
+        "answer": "-1/2",
+        "hint": "Χρησιμοποίησε τον κανόνα πηλίκου με τετράγωνο παρονομαστή.",
+        "solution": "f′(x)=((x−1)−(x+1))/(x−1)²=−2/(x−1)². Στο 3 δίνει -1/2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2/(3-1)**2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fcf590ad-9b44-5f63-89cb-328b4a814455"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η απόδειξη της παραγώγου γινομένου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο σωστός κανόνας παραγώγισης γινομένου;",
+        "choices": [
+          "(fg)′=f′g+fg′",
+          "(fg)′=f′g′",
+          "(fg)′=f′+g′",
+          "(fg)′=fg"
+        ],
+        "answer": "(fg)′=f′g+fg′",
+        "hint": "Παραγωγίζεται εναλλάξ κάθε παράγοντας και αθροίζονται δύο όροι.",
+        "solution": "Ο κανόνας γινομένου δίνει f′g+fg′.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(fg)′=f′g+fg′",
+              "correct": true,
+              "reason": "Ο κανόνας γινομένου δίνει f′g+fg′."
+            },
+            {
+              "choice": "(fg)′=f′g′",
+              "correct": false,
+              "reason": "Το γινόμενο των παραγώγων δεν είναι ο κανόνας· για f=g=x θα έδινε 1 αντί 2x."
+            },
+            {
+              "choice": "(fg)′=f′+g′",
+              "correct": false,
+              "reason": "Αυτός είναι κανόνας αθροίσματος, όχι γινομένου."
+            },
+            {
+              "choice": "(fg)′=fg",
+              "correct": false,
+              "reason": "Το γινόμενο δεν μένει γενικά αμετάβλητο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fcf590ad-9b44-5f63-89cb-328b4a814455"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.3"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.3",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η απόδειξη της παραγώγου γινομένου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για θέση s(t)=4t² μέτρα, ποια είναι η ταχύτητα στο t=2 s;",
+        "choices": [
+          "16",
+          "17",
+          "15",
+          "-16"
+        ],
+        "answer": "16",
+        "hint": "Η ταχύτητα είναι s′(t).",
+        "solution": "s′(t)=8t και s′(2)=16 m/s.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "3e37782b-3be5-5d9c-b303-65b248185e64"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για θέση s(t)=4t² μέτρα, ποια είναι η ταχύτητα στο t=3 s;",
+        "choices": [
+          "24",
+          "25",
+          "23",
+          "-24"
+        ],
+        "answer": "24",
+        "hint": "Η ταχύτητα είναι s′(t).",
+        "solution": "s′(t)=8t και s′(3)=24 m/s.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "3e37782b-3be5-5d9c-b303-65b248185e64"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Τετράγωνο έχει πλευρά a(t) με a=3 cm και a′=2 cm/s σε μια στιγμή. Ποιος είναι ο ρυθμός μεταβολής του εμβαδού;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Παραγώγισε E=a² ως προς χρόνο.",
+        "solution": "E′=2aa′=2×3×2=12 cm²/s.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3*2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "4dc14b38-f002-503b-96ad-79e15cb39473"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Κύβος έχει ακμή a=2 cm που αυξάνεται με a′=3 cm/s. Ποιος είναι ο ρυθμός μεταβολής του όγκου;",
+        "choices": [
+          "36",
+          "37",
+          "35",
+          "-36"
+        ],
+        "answer": "36",
+        "hint": "V=a³, άρα V′=3a²a′.",
+        "solution": "V′=3×4×3=36 cm³/s.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2**2*3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "4dc14b38-f002-503b-96ad-79e15cb39473"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνιο έχει x=3 cm,y=4 cm με x′=2 cm/s και y′=−1 cm/s. Ποιος είναι ο ρυθμός μεταβολής του εμβαδού;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Παραγώγισε το γινόμενο x(t)y(t).",
+        "solution": "E′=x′y+xy′=8−3=5 cm²/s, άρα το εμβαδόν αυξάνεται.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*4+3*(-1)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "4dc14b38-f002-503b-96ad-79e15cb39473"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Τι μονάδα έχει η παράγωγος εμβαδού ως προς χρόνο;",
+        "choices": [
+          "Μονάδα εμβαδού ανά μονάδα χρόνου",
+          "Μονάδα μήκους",
+          "Μονάδα χρόνου ανά μονάδα εμβαδού",
+          "Χωρίς μονάδες πάντα"
+        ],
+        "answer": "Μονάδα εμβαδού ανά μονάδα χρόνου",
+        "hint": "Η παράγωγος είναι όριο λόγων μεταβολής.",
+        "solution": "Ο λόγος ΔΕ/Δt μετριέται π.χ. σε cm²/s.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Μονάδα εμβαδού ανά μονάδα χρόνου",
+              "correct": true,
+              "reason": "Ο λόγος ΔΕ/Δt μετριέται π.χ. σε cm²/s."
+            },
+            {
+              "choice": "Μονάδα μήκους",
+              "correct": false,
+              "reason": "Η παράγωγος εμβαδού δεν είναι απλώς μήκος."
+            },
+            {
+              "choice": "Μονάδα χρόνου ανά μονάδα εμβαδού",
+              "correct": false,
+              "reason": "Αυτό είναι η αντίστροφη διάσταση του ζητούμενου ρυθμού."
+            },
+            {
+              "choice": "Χωρίς μονάδες πάντα",
+              "correct": false,
+              "reason": "Οι φυσικές μονάδες διατηρούνται στον ρυθμό μεταβολής."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "4dc14b38-f002-503b-96ad-79e15cb39473"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x² στο [0,2], ποια είναι η μέση κλίση (f(2)−f(0))/2;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Υπολόγισε την κλίση της τέμνουσας στα άκρα.",
+        "solution": "Η μέση κλίση είναι 2²/2=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "94d41348-842e-5adc-b729-6f1728ceabfe"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x² στο [0,4], ποια είναι η μέση κλίση (f(4)−f(0))/4;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Υπολόγισε την κλίση της τέμνουσας στα άκρα.",
+        "solution": "Η μέση κλίση είναι 4²/4=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2/4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "94d41348-842e-5adc-b729-6f1728ceabfe"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x² στο [1,3], το ΘΜΤ δίνει ξ με f′(ξ)=4. Ποιο είναι το ξ;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Η παράγωγος είναι 2x.",
+        "solution": "2ξ=4, άρα ξ=2, πράγματι στο (1,3).",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "ecdde3ca-73da-5b31-a40e-99f16726b2a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x²−4x στο [0,4], ποιο εσωτερικό σημείο δίνει το Rolle;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Τα άκρα έχουν ίσες τιμές και f′(x)=2x−4.",
+        "solution": "f(0)=f(4)=0 και 2ξ−4=0 δίνει ξ=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "ecdde3ca-73da-5b31-a40e-99f16726b2a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f είναι συνεχής στο [1,5], παραγωγίσιμη στο (1,5), με f(1)=2,f(5)=14. Ποια τιμή της παραγώγου εγγυάται το ΘΜΤ κάπου στο εσωτερικό;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Το ΘΜΤ συνδέει μία στιγμιαία κλίση με τη μέση κλίση των άκρων.",
+        "solution": "Υπάρχει ξ∈(1,5) με f′(ξ)=(14−2)/(5−1)=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(14-2)/(5-1)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "ecdde3ca-73da-5b31-a40e-99f16726b2a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί δεν εφαρμόζεται Rolle στην f(x)=|x| στο [−1,1];",
+        "choices": [
+          "Δεν είναι παραγωγίσιμη στο εσωτερικό σημείο 0",
+          "Δεν είναι συνεχής στα άκρα",
+          "Δεν έχει ίσες τιμές άκρων",
+          "Επειδή το διάστημα περιέχει αρνητικούς"
+        ],
+        "answer": "Δεν είναι παραγωγίσιμη στο εσωτερικό σημείο 0",
+        "hint": "Έλεγξε χωριστά συνέχεια, παραγωγισιμότητα και τιμές άκρων.",
+        "solution": "Οι πλευρικές παράγωγοι στο 0 είναι −1 και 1, άρα δεν υπάρχει παράγωγος εκεί.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν είναι παραγωγίσιμη στο εσωτερικό σημείο 0",
+              "correct": true,
+              "reason": "Οι πλευρικές παράγωγοι στο 0 είναι −1 και 1, άρα δεν υπάρχει παράγωγος εκεί."
+            },
+            {
+              "choice": "Δεν είναι συνεχής στα άκρα",
+              "correct": false,
+              "reason": "Η |x| είναι συνεχής σε όλο το κλειστό διάστημα."
+            },
+            {
+              "choice": "Δεν έχει ίσες τιμές άκρων",
+              "correct": false,
+              "reason": "Οι τιμές στα −1 και 1 είναι και οι δύο 1."
+            },
+            {
+              "choice": "Επειδή το διάστημα περιέχει αρνητικούς",
+              "correct": false,
+              "reason": "Το Rolle επιτρέπεται σε διαστήματα με αρνητικούς αριθμούς."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "ecdde3ca-73da-5b31-a40e-99f16726b2a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1, ποια είναι η παράγωγος σε κάθε x;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Η σταθερή θετική κλίση δίνει γνήσια αύξηση.",
+        "solution": "f′(x)=2>0, άρα η f είναι γνησίως αύξουσα στο ℝ.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "3e938847-5e20-5d21-9c8e-02a98046d626"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=5x+1, ποια είναι η παράγωγος σε κάθε x;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Η σταθερή θετική κλίση δίνει γνήσια αύξηση.",
+        "solution": "f′(x)=5>0, άρα η f είναι γνησίως αύξουσα στο ℝ.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "3e938847-5e20-5d21-9c8e-02a98046d626"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε διάστημα, f′=g′ και f(1)−g(1)=4. Πόσο είναι το f(3)−g(3), αν 1 και 3 ανήκουν στο ίδιο διάστημα;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η διαφορά έχει παράγωγο 0 σε διάστημα.",
+        "solution": "Η f−g είναι σταθερή στο διάστημα, άρα η τιμή της στο 3 είναι 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "3f24e7e2-3e19-557a-819a-499f9a0dd388"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f′(x)=0 σε όλο το (0,5) και η f είναι συνεχής στο [0,5] με f(0)=7. Ποιο είναι το f(5);",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Μηδενική παράγωγος σε διάστημα δίνει σταθερή συνάρτηση.",
+        "solution": "Η f είναι σταθερή στο [0,5] μέσω συνέχειας στα άκρα, άρα f(5)=7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "3f24e7e2-3e19-557a-819a-499f9a0dd388"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f′(x)=2 σε όλο το ℝ και f(1)=3. Ποιο είναι το f(4);",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Η f(x)−2x έχει παράγωγο 0.",
+        "solution": "f(x)=2x+c, από f(1)=3 βρίσκουμε c=1. Άρα f(4)=9.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+2*(4-1)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "3f24e7e2-3e19-557a-819a-499f9a0dd388"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.6",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν f′(x)>0 σε διάστημα, τι συμπεραίνουμε για την f εκεί;",
+        "choices": [
+          "Είναι γνησίως αύξουσα",
+          "Οι τιμές f(x) είναι όλες θετικές",
+          "Είναι σταθερή",
+          "Είναι γνησίως φθίνουσα"
+        ],
+        "answer": "Είναι γνησίως αύξουσα",
+        "hint": "Το πρόσημο της παραγώγου αφορά τη μεταβολή, όχι το πρόσημο της συνάρτησης.",
+        "solution": "Με το ΘΜΤ η διαφορά τιμών για x₂>x₁ είναι θετική.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Είναι γνησίως αύξουσα",
+              "correct": true,
+              "reason": "Με το ΘΜΤ η διαφορά τιμών για x₂>x₁ είναι θετική."
+            },
+            {
+              "choice": "Οι τιμές f(x) είναι όλες θετικές",
+              "correct": false,
+              "reason": "Η f(x)=x−100 έχει θετική παράγωγο αλλά αρνητικές τιμές για x<100."
+            },
+            {
+              "choice": "Είναι σταθερή",
+              "correct": false,
+              "reason": "Σταθερή συνάρτηση έχει μηδενική παράγωγο."
+            },
+            {
+              "choice": "Είναι γνησίως φθίνουσα",
+              "correct": false,
+              "reason": "Αρνητική παράγωγος θα έδινε γνήσια μείωση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "3f24e7e2-3e19-557a-819a-499f9a0dd388"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.6"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.6",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(x−2)², σε ποια τετμημένη βρίσκεται το ελάχιστο;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Η πρώτη παράγωγος αλλάζει από αρνητική σε θετική όταν x περνά το κέντρο.",
+        "solution": "f′(x)=2(x−2), άρα ελάχιστο στο x=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "294d0414-c2e7-5097-86aa-1904267f47a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το τελευταίο θεώρημα, το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(x−3)², σε ποια τετμημένη βρίσκεται το ελάχιστο;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Η πρώτη παράγωγος αλλάζει από αρνητική σε θετική όταν x περνά το κέντρο.",
+        "solution": "f′(x)=2(x−3), άρα ελάχιστο στο x=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "294d0414-c2e7-5097-86aa-1904267f47a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το τελευταίο θεώρημα, το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, η πρώτη παράγωγος είναι 3(x−1)(x+1). Ποια είναι η τιμή του τοπικού μέγιστου στο x=−1;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Πριν από −1 η παράγωγος είναι θετική και μετά αρνητική· υπολόγισε f(−1).",
+        "solution": "f(−1)=−1+3=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-1)**3-3*(-1)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "22aba94e-794a-5b0b-a7b4-a3da7be21ded"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το τελευταίο θεώρημα, το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, ποια είναι η τιμή του τοπικού ελάχιστου στο x=1;",
+        "choices": [
+          "-2",
+          "-1",
+          "-3",
+          "2"
+        ],
+        "answer": "-2",
+        "hint": "Η παράγωγος αλλάζει από αρνητική σε θετική στο 1.",
+        "solution": "f(1)=1−3=-2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1-3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "22aba94e-794a-5b0b-a7b4-a3da7be21ded"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το τελευταίο θεώρημα, το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η μέγιστη τιμή της f(x)=x² στο κλειστό διάστημα [−1,2];",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Έλεγξε εσωτερικό κρίσιμο σημείο και τα δύο άκρα.",
+        "solution": "Οι υποψήφιες τιμές είναι f(0)=0, f(−1)=1, f(2)=4. Η μέγιστη είναι 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "22aba94e-794a-5b0b-a7b4-a3da7be21ded"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το τελευταίο θεώρημα, το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.7",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αρκεί η f′(x₀)=0 για τοπικό ακρότατο;",
+        "choices": [
+          "Όχι, η x³ έχει παράγωγο 0 στο 0 αλλά δεν έχει ακρότατο",
+          "Ναι, πάντα",
+          "Ναι, μόνο αν f(x₀)=0",
+          "Όχι, γιατί σε ακρότατο η παράγωγος ποτέ δεν μηδενίζεται"
+        ],
+        "answer": "Όχι, η x³ έχει παράγωγο 0 στο 0 αλλά δεν έχει ακρότατο",
+        "hint": "Έλεγξε την αλλαγή προσήμου της πρώτης παραγώγου.",
+        "solution": "Η x³ αυξάνει και στις δύο πλευρές του 0, παρότι f′(0)=0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, η x³ έχει παράγωγο 0 στο 0 αλλά δεν έχει ακρότατο",
+              "correct": true,
+              "reason": "Η x³ αυξάνει και στις δύο πλευρές του 0, παρότι f′(0)=0."
+            },
+            {
+              "choice": "Ναι, πάντα",
+              "correct": false,
+              "reason": "Μηδενική παράγωγος είναι υποψήφιο σημείο, όχι επαρκής συνθήκη."
+            },
+            {
+              "choice": "Ναι, μόνο αν f(x₀)=0",
+              "correct": false,
+              "reason": "Το αντιπαράδειγμα έχει ήδη f(0)=0."
+            },
+            {
+              "choice": "Όχι, γιατί σε ακρότατο η παράγωγος ποτέ δεν μηδενίζεται",
+              "correct": false,
+              "reason": "Σε εσωτερικό παραγωγίσιμο ακρότατο ισχύει το θεώρημα Fermat."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "22aba94e-794a-5b0b-a7b4-a3da7be21ded"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το τελευταίο θεώρημα, το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.8",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³, ποια είναι η δεύτερη παράγωγος στο x=2;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Παραγώγισε δύο φορές: f′=3x², f″=6x.",
+        "solution": "f″(2)=6×2=12>0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "7bbafdbe-d367-59dc-b149-3fe1a3b74554"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μελετώνται συναρτήσεις τουλάχιστον δύο φορές παραγωγίσιμες στο εσωτερικό του πεδίου ορισμού.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.8",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³, ποια είναι η δεύτερη παράγωγος στο x=4;",
+        "choices": [
+          "24",
+          "25",
+          "23",
+          "-24"
+        ],
+        "answer": "24",
+        "hint": "Παραγώγισε δύο φορές: f′=3x², f″=6x.",
+        "solution": "f″(4)=6×4=24>0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "7bbafdbe-d367-59dc-b149-3fe1a3b74554"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μελετώνται συναρτήσεις τουλάχιστον δύο φορές παραγωγίσιμες στο εσωτερικό του πεδίου ορισμού.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.8",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³, ποια είναι η τετμημένη όπου αλλάζει πρόσημο η f″(x)=6x;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Το πρόσημο του 6x αλλάζει όταν το x περνά από το 0.",
+        "solution": "Η αλλαγή κυρτότητας συμβαίνει στο x=0, με σημείο καμπής (0,0).",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "4d1e9b27-81cd-5eba-a5af-f240ede85d7b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μελετώνται συναρτήσεις τουλάχιστον δύο φορές παραγωγίσιμες στο εσωτερικό του πεδίου ορισμού.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.8",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x⁴, πόσο είναι το f″(−1);",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Η δεύτερη παράγωγος είναι 12x².",
+        "solution": "f″(−1)=12=12>0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12*(-1)**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "4d1e9b27-81cd-5eba-a5af-f240ede85d7b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μελετώνται συναρτήσεις τουλάχιστον δύο φορές παραγωγίσιμες στο εσωτερικό του πεδίου ορισμού.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.8",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x², ποια είναι η τετμημένη σημείου καμπής;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Η f″=6x−6 αλλάζει πρόσημο στη ρίζα της.",
+        "solution": "6x−6=0 δίνει x=1. Η f″ είναι αρνητική πριν και θετική μετά, άρα υπάρχει αλλαγή κυρτότητας.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6/6"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "4d1e9b27-81cd-5eba-a5af-f240ede85d7b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μελετώνται συναρτήσεις τουλάχιστον δύο φορές παραγωγίσιμες στο εσωτερικό του πεδίου ορισμού.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.8",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f″(0)=0 της f(x)=x⁴ αποδεικνύει ότι το (0,0) είναι σημείο καμπής;",
+        "choices": [
+          "Όχι, η f″=12x² δεν αλλάζει πρόσημο",
+          "Ναι, κάθε μηδενισμός αρκεί",
+          "Ναι, επειδή και η f′(0)=0",
+          "Ναι, επειδή η f είναι συνεχής"
+        ],
+        "answer": "Όχι, η f″=12x² δεν αλλάζει πρόσημο",
+        "hint": "Απαιτείται αλλαγή κυρτότητας, όχι μόνο μηδενισμός.",
+        "solution": "Η δεύτερη παράγωγος είναι θετική και στις δύο πλευρές, άρα δεν υπάρχει αλλαγή κυρτότητας.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, η f″=12x² δεν αλλάζει πρόσημο",
+              "correct": true,
+              "reason": "Η δεύτερη παράγωγος είναι θετική και στις δύο πλευρές, άρα δεν υπάρχει αλλαγή κυρτότητας."
+            },
+            {
+              "choice": "Ναι, κάθε μηδενισμός αρκεί",
+              "correct": false,
+              "reason": "Ο μηδενισμός δίνει μόνο υποψήφιο σημείο."
+            },
+            {
+              "choice": "Ναι, επειδή και η f′(0)=0",
+              "correct": false,
+              "reason": "Η μηδενική πρώτη παράγωγος δεν αποδεικνύει καμπή."
+            },
+            {
+              "choice": "Ναι, επειδή η f είναι συνεχής",
+              "correct": false,
+              "reason": "Η συνέχεια μόνη της δεν επιβάλλει αλλαγή κυρτότητας."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "4d1e9b27-81cd-5eba-a5af-f240ede85d7b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.8"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.8",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μελετώνται συναρτήσεις τουλάχιστον δύο φορές παραγωγίσιμες στο εσωτερικό του πεδίου ορισμού.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.9",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f(x)=2+1/x έχει οριζόντια ασύμπτωτη y=L στο +∞. Ποιο είναι το L;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Βρες το πεπερασμένο όριο καθώς x→+∞.",
+        "solution": "1/x→0, άρα L=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "41fdc9df-ec02-575c-92a7-3e72b51664a0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.9"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.9",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.9",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f(x)=5+1/x έχει οριζόντια ασύμπτωτη y=L στο +∞. Ποιο είναι το L;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Βρες το πεπερασμένο όριο καθώς x→+∞.",
+        "solution": "1/x→0, άρα L=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "41fdc9df-ec02-575c-92a7-3e72b51664a0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.9"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.9",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.9",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η τετμημένη της κατακόρυφης ασυμπτώτου της f(x)=1/(x−3);",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Βρες πού ο παρονομαστής τείνει στο 0 με μη μηδενικό αριθμητή.",
+        "solution": "Στο x=3 υπάρχουν μη πεπερασμένα πλευρικά όρια, άρα ασύμπτωτη x=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a2a8574c-beb7-5eae-98e0-f3fd7f4a2f51"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.9"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.9",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.9",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Με De L’Hospital, ποιο είναι το lim(x→0)(e^x−1)/x;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Η μορφή είναι 0/0 και ο λόγος παραγώγων είναι e^x.",
+        "solution": "Το όριο του e^x στο 0 είναι 1. Οι προϋποθέσεις πληρούνται στη γειτονιά.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a2a8574c-beb7-5eae-98e0-f3fd7f4a2f51"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.9"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.9",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.9",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f(x)=(2x²+3x+1)/x έχει πλάγια ασύμπτωτη y=2x+b στο +∞. Ποιο είναι το b;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Διαίρεσε τον αριθμητή με x και έλεγξε τη διαφορά από την ευθεία.",
+        "solution": "f(x)=2x+3+1/x, άρα η διαφορά από 2x+3 τείνει στο 0 και b=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a2a8574c-beb7-5eae-98e0-f3fd7f4a2f51"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.9"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.9",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.9",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Εφαρμόζουμε De L’Hospital απευθείας σε κάθε λόγο που έχει όριο;",
+        "choices": [
+          "Όχι, απαιτούνται κατάλληλη απροσδιόριστη μορφή και οι υποθέσεις του κανόνα",
+          "Ναι, πάντα παραγωγίζουμε πάνω και κάτω",
+          "Ναι, αρκεί να υπάρχει κλάσμα",
+          "Μόνο όταν ο παρονομαστής είναι σταθερός"
+        ],
+        "answer": "Όχι, απαιτούνται κατάλληλη απροσδιόριστη μορφή και οι υποθέσεις του κανόνα",
+        "hint": "Οι μορφές 0/0 ή ∞/∞ είναι αφετηρία, με επιπλέον υποθέσεις.",
+        "solution": "Ο κανόνας δεν είναι γενικός κανόνας ορίων πηλίκου και απαιτεί έλεγχο προϋποθέσεων.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, απαιτούνται κατάλληλη απροσδιόριστη μορφή και οι υποθέσεις του κανόνα",
+              "correct": true,
+              "reason": "Ο κανόνας δεν είναι γενικός κανόνας ορίων πηλίκου και απαιτεί έλεγχο προϋποθέσεων."
+            },
+            {
+              "choice": "Ναι, πάντα παραγωγίζουμε πάνω και κάτω",
+              "correct": false,
+              "reason": "Η αδιάκριτη παραγώγιση μπορεί να αλλάξει το όριο."
+            },
+            {
+              "choice": "Ναι, αρκεί να υπάρχει κλάσμα",
+              "correct": false,
+              "reason": "Η μορφή κλάσματος δεν αρκεί."
+            },
+            {
+              "choice": "Μόνο όταν ο παρονομαστής είναι σταθερός",
+              "correct": false,
+              "reason": "Σταθερός μη μηδενικός παρονομαστής δεν δίνει τις απαιτούμενες μορφές."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a2a8574c-beb7-5eae-98e0-f3fd7f4a2f51"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.9"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.9",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.10",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, ποια είναι η τιμή f(2);",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Πριν τη χάραξη ελέγχουμε βασικά σημεία του γραφήματος.",
+        "solution": "f(2)=2³−3×2=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**3-3*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f291745e-9d4d-5566-b025-2c5b34c4c5b6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.10"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.10",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.10",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, ποια είναι η τιμή f(3);",
+        "choices": [
+          "18",
+          "19",
+          "17",
+          "-18"
+        ],
+        "answer": "18",
+        "hint": "Πριν τη χάραξη ελέγχουμε βασικά σημεία του γραφήματος.",
+        "solution": "f(3)=3³−3×3=18.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**3-3*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f291745e-9d4d-5566-b025-2c5b34c4c5b6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.10"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.10",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.10",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, πόσα κρίσιμα σημεία δίνει η f′=3x²−3=0;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Λύσε x²=1.",
+        "solution": "Τα κρίσιμα σημεία έχουν τετμημένες −1 και 1, άρα 2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "28f9b8bb-de43-5da6-989e-2b81848a6c61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.10"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.10",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.10",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, ποια είναι η τεταγμένη του σημείου καμπής στο x=0;",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": "0",
+        "hint": "Η f″=6x αλλάζει πρόσημο στο 0· υπολόγισε f(0).",
+        "solution": "Το σημείο καμπής είναι (0,0), άρα τεταγμένη 0.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "28f9b8bb-de43-5da6-989e-2b81848a6c61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.10"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.10",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.10",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, ποια είναι η διαφορά της τιμής τοπικού μέγιστου από την τιμή τοπικού ελάχιστου;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η πρώτη παράγωγος αλλάζει πρόσημο στα −1 και 1.",
+        "solution": "Τοπικό μέγιστο f(−1)=2 και τοπικό ελάχιστο f(1)=−2. Διαφορά 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2-(-2)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "28f9b8bb-de43-5da6-989e-2b81848a6c61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.10"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.10",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.10",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια σειρά ελέγχων βοηθά σε συνεπή μελέτη συνάρτησης;",
+        "choices": [
+          "Πεδίο, τομές/συμμετρίες, όρια, παράγωγοι και τελικό σκαρίφημα",
+          "Πρώτα αυθαίρετο σχήμα και μετά αλλαγή του πεδίου για να ταιριάξει",
+          "Μόνο οι μηδενισμοί της πρώτης παραγώγου",
+          "Μόνο μία αριθμητική τιμή"
+        ],
+        "answer": "Πεδίο, τομές/συμμετρίες, όρια, παράγωγοι και τελικό σκαρίφημα",
+        "hint": "Το τελικό σχήμα πρέπει να συμφωνεί με όλα τα δεδομένα.",
+        "solution": "Η συνδυασμένη μελέτη επιβάλλει συνεπές πεδίο, συμπεριφορά άκρων και μονοτονία/κυρτότητα.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Πεδίο, τομές/συμμετρίες, όρια, παράγωγοι και τελικό σκαρίφημα",
+              "correct": true,
+              "reason": "Η συνδυασμένη μελέτη επιβάλλει συνεπές πεδίο, συμπεριφορά άκρων και μονοτονία/κυρτότητα."
+            },
+            {
+              "choice": "Πρώτα αυθαίρετο σχήμα και μετά αλλαγή του πεδίου για να ταιριάξει",
+              "correct": false,
+              "reason": "Το πεδίο καθορίζεται από τον τύπο, όχι από το επιθυμητό σχήμα."
+            },
+            {
+              "choice": "Μόνο οι μηδενισμοί της πρώτης παραγώγου",
+              "correct": false,
+              "reason": "Χρειάζονται και πρόσημα, όρια, πεδίο και άλλες πληροφορίες."
+            },
+            {
+              "choice": "Μόνο μία αριθμητική τιμή",
+              "correct": false,
+              "reason": "Ένα σημείο δεν καθορίζει το συνολικό γράφημα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "28f9b8bb-de43-5da6-989e-2b81848a6c61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 15,
+            "paragraph": "2.10"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§2.10",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Η F(x)=x² είναι παράγουσα της f(x)=2x. Ποια είναι η τιμή F(2);",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η παράγουσα ελέγχεται με παραγώγιση, η τιμή με αντικατάσταση.",
+        "solution": "F′(x)=2x και F(2)=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f6eabd6e-7b41-513d-98f8-b5b5a90c1f6c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μόνο η αρχική συνάρτηση. Ο συμβολισμός και ο γενικός λογισμός αόριστου ολοκληρώματος παραλείπονται. Χρησιμοποιείται πίνακας παραγουσών.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Η F(x)=x² είναι παράγουσα της f(x)=2x. Ποια είναι η τιμή F(4);",
+        "choices": [
+          "16",
+          "17",
+          "15",
+          "-16"
+        ],
+        "answer": "16",
+        "hint": "Η παράγουσα ελέγχεται με παραγώγιση, η τιμή με αντικατάσταση.",
+        "solution": "F′(x)=2x και F(4)=16.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f6eabd6e-7b41-513d-98f8-b5b5a90c1f6c"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μόνο η αρχική συνάρτηση. Ο συμβολισμός και ο γενικός λογισμός αόριστου ολοκληρώματος παραλείπονται. Χρησιμοποιείται πίνακας παραγουσών.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Η F(x)=x²+c είναι παράγουσα της 2x και F(1)=5. Ποιο είναι το c;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Χρησιμοποίησε την αρχική τιμή.",
+        "solution": "1+c=5, άρα c=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a9cb259-c8a4-58ea-bcb7-4736bdf8dc85"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μόνο η αρχική συνάρτηση. Ο συμβολισμός και ο γενικός λογισμός αόριστου ολοκληρώματος παραλείπονται. Χρησιμοποιείται πίνακας παραγουσών.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Η F(x)=x³/3+c είναι παράγουσα της x². Αν F(0)=2, ποιο είναι το F(3);",
+        "choices": [
+          "11",
+          "12",
+          "10",
+          "-11"
+        ],
+        "answer": "11",
+        "hint": "Πρώτα προσδιόρισε τη σταθερά.",
+        "solution": "c=2 και F(3)=27/3+2=11.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**3/3+2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a9cb259-c8a4-58ea-bcb7-4736bdf8dc85"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μόνο η αρχική συνάρτηση. Ο συμβολισμός και ο γενικός λογισμός αόριστου ολοκληρώματος παραλείπονται. Χρησιμοποιείται πίνακας παραγουσών.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι F,G είναι παράγουσες της ίδιας συνεχούς f σε διάστημα. Αν F(1)−G(1)=7, ποιο είναι το F(4)−G(4), με 1,4 στο διάστημα;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Η διαφορά των παραγουσών έχει παράγωγο 0 σε διάστημα.",
+        "solution": "Η F−G είναι σταθερή, άρα η διαφορά στο 4 είναι 7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a9cb259-c8a4-58ea-bcb7-4736bdf8dc85"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μόνο η αρχική συνάρτηση. Ο συμβολισμός και ο γενικός λογισμός αόριστου ολοκληρώματος παραλείπονται. Χρησιμοποιείται πίνακας παραγουσών.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πώς ελέγχουμε ότι η G είναι παράγουσα της f σε διάστημα;",
+        "choices": [
+          "Ελέγχουμε G′(x)=f(x) σε όλο το διάστημα",
+          "Ελέγχουμε G(x)=f(x) σε ένα σημείο",
+          "Ελέγχουμε μόνο ότι G είναι συνεχής",
+          "Ελέγχουμε f′(x)=G(x)"
+        ],
+        "answer": "Ελέγχουμε G′(x)=f(x) σε όλο το διάστημα",
+        "hint": "Η παράγουσα ορίζεται από την παράγωγό της.",
+        "solution": "Ακριβώς η ισότητα G′=f σε όλο το διάστημα είναι ο ορισμός.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ελέγχουμε G′(x)=f(x) σε όλο το διάστημα",
+              "correct": true,
+              "reason": "Ακριβώς η ισότητα G′=f σε όλο το διάστημα είναι ο ορισμός."
+            },
+            {
+              "choice": "Ελέγχουμε G(x)=f(x) σε ένα σημείο",
+              "correct": false,
+              "reason": "Μία κοινή τιμή δεν καθορίζει σχέση παραγώγισης."
+            },
+            {
+              "choice": "Ελέγχουμε μόνο ότι G είναι συνεχής",
+              "correct": false,
+              "reason": "Η συνέχεια είναι ανεπαρκής για την απαιτούμενη παράγωγο."
+            },
+            {
+              "choice": "Ελέγχουμε f′(x)=G(x)",
+              "correct": false,
+              "reason": "Η σχέση έχει αντιστραφεί."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a9cb259-c8a4-58ea-bcb7-4736bdf8dc85"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.1"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.1",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Μόνο η αρχική συνάρτηση. Ο συμβολισμός και ο γενικός λογισμός αόριστου ολοκληρώματος παραλείπονται. Χρησιμοποιείται πίνακας παραγουσών.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το ορισμένο ολοκλήρωμα της σταθερής 3 από 0 έως 2;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Το ορθογώνιο έχει ύψος 3 και πλάτος το μήκος του διαστήματος.",
+        "solution": "Το ολοκλήρωμα είναι 3×2=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "253a7104-36bb-5ac5-902e-3dff9265522e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσο είναι το ορισμένο ολοκλήρωμα της σταθερής 3 από 0 έως 4;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Το ορθογώνιο έχει ύψος 3 και πλάτος το μήκος του διαστήματος.",
+        "solution": "Το ολοκλήρωμα είναι 3×4=12.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "253a7104-36bb-5ac5-902e-3dff9265522e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν το ολοκλήρωμα της f από 1 έως 4 είναι 6, ποιο είναι το ολοκλήρωμα από 4 έως 1;",
+        "choices": [
+          "-6",
+          "-5",
+          "-7",
+          "6"
+        ],
+        "answer": "-6",
+        "hint": "Η αντιστροφή άκρων αλλάζει το πρόσημο.",
+        "solution": "Το ζητούμενο είναι το αντίθετο του 6, δηλαδή -6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-6"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "d3889066-fee3-5a1b-adf8-01f6c9fcb80d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν ∫₀¹f=2 και ∫₁³f=5, ποιο είναι το ∫₀³f;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Χρησιμοποίησε προσθετικότητα ως προς διαδοχικά διαστήματα.",
+        "solution": "∫₀³f=∫₀¹f+∫₁³f=2+5=7.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2+5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "d3889066-fee3-5a1b-adf8-01f6c9fcb80d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δίνονται ∫₀²f=3 και ∫₀²g=−1. Πόσο είναι το ∫₀²(2f−3g);",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Εφάρμοσε τη γραμμικότητα του ορισμένου ολοκληρώματος.",
+        "solution": "2∫f−3∫g=6+3=9.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3-3*(-1)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "d3889066-fee3-5a1b-adf8-01f6c9fcb80d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Το ορισμένο ολοκλήρωμα μιας συνάρτησης είναι πάντα μη αρνητικό εμβαδόν;",
+        "choices": [
+          "Όχι, υπολογίζει προσημασμένη συνεισφορά",
+          "Ναι, ανεξάρτητα από το πρόσημο",
+          "Ναι, ακόμη και με ανεστραμμένα άκρα",
+          "Είναι πάντα μηδέν"
+        ],
+        "answer": "Όχι, υπολογίζει προσημασμένη συνεισφορά",
+        "hint": "Κάτω από τον άξονα η συνεισφορά είναι αρνητική.",
+        "solution": "Για σταθερή −1 στο [0,1] το ολοκλήρωμα είναι −1, ενώ το γεωμετρικό εμβαδόν είναι 1.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, υπολογίζει προσημασμένη συνεισφορά",
+              "correct": true,
+              "reason": "Για σταθερή −1 στο [0,1] το ολοκλήρωμα είναι −1, ενώ το γεωμετρικό εμβαδόν είναι 1."
+            },
+            {
+              "choice": "Ναι, ανεξάρτητα από το πρόσημο",
+              "correct": false,
+              "reason": "Αρνητικές τιμές μπορούν να δώσουν αρνητικό ολοκλήρωμα."
+            },
+            {
+              "choice": "Ναι, ακόμη και με ανεστραμμένα άκρα",
+              "correct": false,
+              "reason": "Η αντιστροφή άκρων αλλάζει το πρόσημο."
+            },
+            {
+              "choice": "Είναι πάντα μηδέν",
+              "correct": false,
+              "reason": "Η σταθερή 1 στο [0,1] έχει ολοκλήρωμα 1."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "d3889066-fee3-5a1b-adf8-01f6c9fcb80d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.4"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.4",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Με παράγουσα G(x)=x², ποιο είναι το ∫₀^22x dx;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Το Θεμελιώδες Θεώρημα δίνει G(άνω)−G(κάτω) για σταθερά άκρα.",
+        "solution": "G(2)−G(0)=2²−0=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "612e8890-1fdb-5106-9dec-a2e313887f8d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Χρησιμοποιείται για το Θεμελιώδες Θεώρημα· δεν διδάσκονται ασκήσεις και εφαρμογές στη συνάρτηση ολοκληρώματος με μεταβλητό άνω όριο, ούτε σε σύνθεση αυτού με g(x).. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Με παράγουσα G(x)=x², ποιο είναι το ∫₀^32x dx;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "-9"
+        ],
+        "answer": "9",
+        "hint": "Το Θεμελιώδες Θεώρημα δίνει G(άνω)−G(κάτω) για σταθερά άκρα.",
+        "solution": "G(3)−G(0)=3²−0=9.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "612e8890-1fdb-5106-9dec-a2e313887f8d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Χρησιμοποιείται για το Θεμελιώδες Θεώρημα· δεν διδάσκονται ασκήσεις και εφαρμογές στη συνάρτηση ολοκληρώματος με μεταβλητό άνω όριο, ούτε σε σύνθεση αυτού με g(x).. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Με G(x)=x³/3, ποιο είναι το ∫₁²x² dx;",
+        "choices": [
+          "7/3",
+          "10/3",
+          "4/3",
+          "-7/3"
+        ],
+        "answer": "7/3",
+        "hint": "Εφάρμοσε την παράγουσα και στα δύο σταθερά άκρα.",
+        "solution": "G(2)−G(1)=8/3−1/3=7/3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2**3-1)/3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a0978a8-c20f-5aee-9599-171e03f471ff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Χρησιμοποιείται για το Θεμελιώδες Θεώρημα· δεν διδάσκονται ασκήσεις και εφαρμογές στη συνάρτηση ολοκληρώματος με μεταβλητό άνω όριο, ούτε σε σύνθεση αυτού με g(x).. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Με G(x)=x²+x, ποιο είναι το ∫₀²(2x+1)dx;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Επαλήθευσε G′=2x+1 πριν αφαιρέσεις τις τιμές άκρων.",
+        "solution": "G(2)−G(0)=6−0=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2+2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "8a0978a8-c20f-5aee-9599-171e03f471ff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Χρησιμοποιείται για το Θεμελιώδες Θεώρημα· δεν διδάσκονται ασκήσεις και εφαρμογές στη συνάρτηση ολοκληρώματος με μεταβλητό άνω όριο, ούτε σε σύνθεση αυτού με g(x).. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Χρησιμοποιώντας G(x)=x²+7, ποιο είναι το ∫₁³2x dx;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Η σταθερά παραγουσας απαλείφεται στη διαφορά.",
+        "solution": "G(3)−G(1)=16−8=8, όπως και με παράγουσα x².",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3**2+7)-(1+7)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a0978a8-c20f-5aee-9599-171e03f471ff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Χρησιμοποιείται για το Θεμελιώδες Θεώρημα· δεν διδάσκονται ασκήσεις και εφαρμογές στη συνάρτηση ολοκληρώματος με μεταβλητό άνω όριο, ούτε σε σύνθεση αυτού με g(x).. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Επιτρέπεται να εφαρμόσουμε τον τύπο παραγουσας στην 1/x από −1 έως 1 διασχίζοντας το 0;",
+        "choices": [
+          "Όχι, η συνάρτηση δεν ορίζεται και δεν είναι συνεχής σε όλο το διάστημα",
+          "Ναι, επειδή ln|1|−ln|−1|=0",
+          "Ναι, επειδή τα άκρα είναι συμμετρικά",
+          "Ναι, κάθε τυπική παράγουσα αρκεί"
+        ],
+        "answer": "Όχι, η συνάρτηση δεν ορίζεται και δεν είναι συνεχής σε όλο το διάστημα",
+        "hint": "Ο τύπος απαιτεί τις υποθέσεις στο διάστημα, όχι μόνο τιμές στα άκρα.",
+        "solution": "Το 0 είναι πόλος μέσα στο διάστημα και η σχολική εφαρμογή του Θεμελιώδους Θεωρήματος δεν επιτρέπεται.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, η συνάρτηση δεν ορίζεται και δεν είναι συνεχής σε όλο το διάστημα",
+              "correct": true,
+              "reason": "Το 0 είναι πόλος μέσα στο διάστημα και η σχολική εφαρμογή του Θεμελιώδους Θεωρήματος δεν επιτρέπεται."
+            },
+            {
+              "choice": "Ναι, επειδή ln|1|−ln|−1|=0",
+              "correct": false,
+              "reason": "Η τυπική αφαίρεση άκρων δεν θεραπεύει την ασυνέχεια στο εσωτερικό."
+            },
+            {
+              "choice": "Ναι, επειδή τα άκρα είναι συμμετρικά",
+              "correct": false,
+              "reason": "Η συμμετρία δεν εξασφαλίζει ορισμό και συνέχεια."
+            },
+            {
+              "choice": "Ναι, κάθε τυπική παράγουσα αρκεί",
+              "correct": false,
+              "reason": "Η παράγουσα πρέπει να χρησιμοποιείται σε κατάλληλο ενιαίο διάστημα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "8a0978a8-c20f-5aee-9599-171e03f471ff"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.5"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.5",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Χρησιμοποιείται για το Θεμελιώδες Θεώρημα· δεν διδάσκονται ασκήσεις και εφαρμογές στη συνάρτηση ολοκληρώματος με μεταβλητό άνω όριο, ούτε σε σύνθεση αυτού με g(x).. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.7",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το εμβαδόν μεταξύ y=2, του άξονα x και των x=0,x=2;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η περιοχή είναι ορθογώνιο πάνω από τον άξονα.",
+        "solution": "Ε=2×2=4 τετραγωνικές μονάδες.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "9fdce33d-2732-5f3d-bf89-4d03db1464bf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η εφαρμογή 3.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.7",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το εμβαδόν μεταξύ y=2, του άξονα x και των x=0,x=3;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Η περιοχή είναι ορθογώνιο πάνω από τον άξονα.",
+        "solution": "Ε=2×3=6 τετραγωνικές μονάδες.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "9fdce33d-2732-5f3d-bf89-4d03db1464bf"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η εφαρμογή 3.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.7",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το εμβαδόν μεταξύ y=−2 και του άξονα x στο [0,3];",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Το γεωμετρικό εμβαδόν είναι θετικό, αντίθετο του αρνητικού ολοκληρώματος.",
+        "solution": "Το ύψος είναι 2 και πλάτος 3, άρα Ε=6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "c52cc3bd-b44f-50fc-9d2a-dda350afedb0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η εφαρμογή 3.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.7",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το εμβαδόν ανάμεσα στις y=x και y=x² στο [0,1];",
+        "choices": [
+          "1/6",
+          "7/6",
+          "-5/6",
+          "-1/6"
+        ],
+        "answer": "1/6",
+        "hint": "Στο [0,1] ισχύει x≥x²· ολοκλήρωσε πάνω μείον κάτω.",
+        "solution": "Ε=∫₀¹(x−x²)dx=1/2−1/3=1/6.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/2-1/3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "c52cc3bd-b44f-50fc-9d2a-dda350afedb0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η εφαρμογή 3.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.7",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο είναι το εμβαδόν μεταξύ y=x και του άξονα x στο [−1,1];",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Χώρισε στο 0 όπου αλλάζει πρόσημο.",
+        "solution": "Οι δύο τριγωνικές περιοχές έχουν από 1/2 εμβαδόν, άρα σύνολο 1. Το προσημασμένο ολοκλήρωμα είναι 0, διαφορετικό μέγεθος.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1/2+1/2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "c52cc3bd-b44f-50fc-9d2a-dda350afedb0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η εφαρμογή 3.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "3.7",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Όταν δύο καμπύλες αλλάζουν μεταξύ τους θέση μέσα στο διάστημα, πώς βρίσκουμε εμβαδόν;",
+        "choices": [
+          "Χωρίζουμε στα σημεία τομής και ολοκληρώνουμε πάνω μείον κάτω σε κάθε τμήμα",
+          "Ολοκληρώνουμε πάντα f−g χωρίς έλεγχο",
+          "Παίρνουμε πάντα την απόλυτη τιμή ενός ενιαίου ολοκληρώματος",
+          "Αγνοούμε τις τομές"
+        ],
+        "answer": "Χωρίζουμε στα σημεία τομής και ολοκληρώνουμε πάνω μείον κάτω σε κάθε τμήμα",
+        "hint": "Οι αρνητικές συνεισφορές δεν πρέπει να ακυρώνουν θετικά εμβαδά.",
+        "solution": "Ο διαχωρισμός κρατά μη αρνητική διαφορά σε κάθε τμήμα και τα εμβαδά αθροίζονται.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Χωρίζουμε στα σημεία τομής και ολοκληρώνουμε πάνω μείον κάτω σε κάθε τμήμα",
+              "correct": true,
+              "reason": "Ο διαχωρισμός κρατά μη αρνητική διαφορά σε κάθε τμήμα και τα εμβαδά αθροίζονται."
+            },
+            {
+              "choice": "Ολοκληρώνουμε πάντα f−g χωρίς έλεγχο",
+              "correct": false,
+              "reason": "Η διαφορά μπορεί να αλλάζει πρόσημο και να δίνει ακυρώσεις."
+            },
+            {
+              "choice": "Παίρνουμε πάντα την απόλυτη τιμή ενός ενιαίου ολοκληρώματος",
+              "correct": false,
+              "reason": "Η απόλυτη τιμή στο τέλος δεν ανακτά ακυρωμένες περιοχές."
+            },
+            {
+              "choice": "Αγνοούμε τις τομές",
+              "correct": false,
+              "reason": "Οι τομές καθορίζουν πότε αλλάζει η πάνω καμπύλη."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "c52cc3bd-b44f-50fc-9d2a-dda350afedb0"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s02-01",
+            "pdf_page": 16,
+            "paragraph": "3.7"
+          },
+          {
+            "source_id": "s05-01",
+            "paragraph": "§3.7",
+            "scope": "teaching_guidance"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται η εφαρμογή 3.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    }
+  ]
+}

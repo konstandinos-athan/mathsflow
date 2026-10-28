@@ -1,0 +1,1686 @@
+{
+  "schema_version": 1,
+  "release": "stage5-epal-c-algebra-v1",
+  "course": "epal-c-algebra",
+  "authored_on": "2026-10-27",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "2.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Από πληθυσμό 200 μαθητών επιλέγονται 20 για έρευνα. Πόσα άτομα έχει το δείγμα;",
+        "choices": [
+          "20",
+          "21",
+          "19",
+          "-20"
+        ],
+        "answer": "20",
+        "hint": "Το δείγμα είναι το υποσύνολο που εξετάστηκε.",
+        "solution": "Εξετάστηκαν 20 μαθητές· ο πληθυσμός παραμένει 200.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "20"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "e6a644a5-dcb5-55b7-9dee-461eda97464a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Από πληθυσμό 200 μαθητών επιλέγονται 40 για έρευνα. Πόσα άτομα έχει το δείγμα;",
+        "choices": [
+          "40",
+          "41",
+          "39",
+          "-40"
+        ],
+        "answer": "40",
+        "hint": "Το δείγμα είναι το υποσύνολο που εξετάστηκε.",
+        "solution": "Εξετάστηκαν 40 μαθητές· ο πληθυσμός παραμένει 200.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "40"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "e6a644a5-dcb5-55b7-9dee-461eda97464a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πληθυσμό 200 μαθητών μετρήσαμε 20. Ποιο ποσοστό του πληθυσμού εξετάστηκε;",
+        "choices": [
+          "10",
+          "11",
+          "9",
+          "-10"
+        ],
+        "answer": "10",
+        "hint": "Διαίρεσε μέγεθος δείγματος με μέγεθος πληθυσμού και πολλαπλασίασε επί 100.",
+        "solution": "Το ποσοστό είναι 100×20/200=10%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*20/200"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "13fc64aa-b8c4-5318-9cd8-78266991f9a6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε πληθυσμό 200 μαθητών μετρήσαμε 50. Ποιο ποσοστό του πληθυσμού εξετάστηκε;",
+        "choices": [
+          "25",
+          "26",
+          "24",
+          "-25"
+        ],
+        "answer": "25",
+        "hint": "Διαίρεσε μέγεθος δείγματος με μέγεθος πληθυσμού και πολλαπλασίασε επί 100.",
+        "solution": "Το ποσοστό είναι 100×50/200=25%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*50/200"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "13fc64aa-b8c4-5318-9cd8-78266991f9a6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ερευνώνται όλοι οι 120 μαθητές τριών τμημάτων ενός σχολείου 600 μαθητών. Ποιο είναι το μέγεθος του δείγματος ως προς όλο το σχολείο;",
+        "choices": [
+          "120",
+          "121",
+          "119",
+          "-120"
+        ],
+        "answer": "120",
+        "hint": "Η απογραφή μέσα στα επιλεγμένα τμήματα δεν είναι απογραφή όλου του σχολείου.",
+        "solution": "Με πληθυσμό όλο το σχολείο, εξετάστηκαν 120 από 600 μαθητές.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "120"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "13fc64aa-b8c4-5318-9cd8-78266991f9a6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια μεταβλητή είναι ποιοτική;",
+        "choices": [
+          "Χρώμα ματιών",
+          "Ύψος σε cm",
+          "Αριθμός αδελφών",
+          "Χρόνος διαδρομής σε λεπτά"
+        ],
+        "answer": "Χρώμα ματιών",
+        "hint": "Η ποιοτική μεταβλητή δηλώνει κατηγορία, όχι αριθμητικό μέγεθος.",
+        "solution": "Το χρώμα ματιών είναι κατηγορία χωρίς αριθμητική μέτρηση.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Χρώμα ματιών",
+              "correct": true,
+              "reason": "Το χρώμα ματιών είναι κατηγορία χωρίς αριθμητική μέτρηση."
+            },
+            {
+              "choice": "Ύψος σε cm",
+              "correct": false,
+              "reason": "Το ύψος είναι συνεχής ποσοτική μεταβλητή."
+            },
+            {
+              "choice": "Αριθμός αδελφών",
+              "correct": false,
+              "reason": "Ο αριθμός αδελφών είναι διακριτή ποσοτική μεταβλητή."
+            },
+            {
+              "choice": "Χρόνος διαδρομής σε λεπτά",
+              "correct": false,
+              "reason": "Ο χρόνος είναι ποσοτική μέτρηση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "13fc64aa-b8c4-5318-9cd8-78266991f9a6"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δείγμα 20 ατόμων μία κατηγορία έχει συχνότητα 4. Ποια είναι η σχετική της συχνότητα;",
+        "choices": [
+          "1/5",
+          "6/5",
+          "-4/5",
+          "-1/5"
+        ],
+        "answer": "1/5",
+        "hint": "Η σχετική συχνότητα είναι συχνότητα διά συνολικό πλήθος.",
+        "solution": "f=4/20=1/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/20"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "782ac117-f391-5312-90a0-1e81c892293b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται κλάσεις άνισου πλάτους.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δείγμα 20 ατόμων μία κατηγορία έχει συχνότητα 8. Ποια είναι η σχετική της συχνότητα;",
+        "choices": [
+          "2/5",
+          "7/5",
+          "-3/5",
+          "-2/5"
+        ],
+        "answer": "2/5",
+        "hint": "Η σχετική συχνότητα είναι συχνότητα διά συνολικό πλήθος.",
+        "solution": "f=8/20=2/5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8/20"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "782ac117-f391-5312-90a0-1e81c892293b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται κλάσεις άνισου πλάτους.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κυκλικό διάγραμμα κατηγορία έχει σχετική συχνότητα 1/4. Πόσες μοίρες είναι η γωνία της;",
+        "choices": [
+          "90",
+          "91",
+          "89",
+          "-90"
+        ],
+        "answer": "90",
+        "hint": "Ο πλήρης κύκλος έχει 360°.",
+        "solution": "Η γωνία είναι 360×1/4=90°.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "68189edd-b143-57f9-84e1-9927d32e9ae4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται κλάσεις άνισου πλάτους.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Διαδοχικές κλάσεις ίσου πλάτους έχουν συχνότητες 3,5,2. Ποια είναι η αθροιστική συχνότητα μέχρι τη δεύτερη κλάση;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Πρόσθεσε τις συχνότητες μέχρι και τη ζητούμενη κλάση.",
+        "solution": "Αθροίζουμε την πρώτη και δεύτερη συχνότητα: Ν₂=3+5=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3+5"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "68189edd-b143-57f9-84e1-9927d32e9ae4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται κλάσεις άνισου πλάτους.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε δείγμα 40 τιμών, δύο κατηγορίες έχουν συχνότητες 10 και 14. Οι υπόλοιπες ανήκουν σε τρίτη κατηγορία. Ποιο ποσοστό έχει η τρίτη;",
+        "choices": [
+          "40",
+          "41",
+          "39",
+          "-40"
+        ],
+        "answer": "40",
+        "hint": "Βρες πρώτα τη συχνότητα που λείπει και μετά το ποσοστό.",
+        "solution": "Η τρίτη συχνότητα είναι 16, άρα 100×16/40=40%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*(40-10-14)/40"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "68189edd-b143-57f9-84e1-9927d32e9ae4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται κλάσεις άνισου πλάτους.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιο διάγραμμα είναι κατάλληλο για συχνότητες κατηγοριών χρώματος;",
+        "choices": [
+          "Ραβδόγραμμα με διακριτές κατηγορίες",
+          "Ιστόγραμμα συνεχών κλάσεων ως μοναδική επιλογή",
+          "Γράφημα που ενώνει τα χρώματα σαν αριθμητική χρονοσειρά",
+          "Κανένα διάγραμμα"
+        ],
+        "answer": "Ραβδόγραμμα με διακριτές κατηγορίες",
+        "hint": "Η μεταβλητή είναι ποιοτική.",
+        "solution": "Οι ξεχωριστές ράβδοι αποδίδουν τις συχνότητες των ποιοτικών κατηγοριών.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ραβδόγραμμα με διακριτές κατηγορίες",
+              "correct": true,
+              "reason": "Οι ξεχωριστές ράβδοι αποδίδουν τις συχνότητες των ποιοτικών κατηγοριών."
+            },
+            {
+              "choice": "Ιστόγραμμα συνεχών κλάσεων ως μοναδική επιλογή",
+              "correct": false,
+              "reason": "Ιστόγραμμα χρησιμοποιείται για ομαδοποιημένα ποσοτικά δεδομένα, όχι αυθαίρετη απόσταση χρωμάτων."
+            },
+            {
+              "choice": "Γράφημα που ενώνει τα χρώματα σαν αριθμητική χρονοσειρά",
+              "correct": false,
+              "reason": "Η σύνδεση υπονοεί αριθμητική συνέχεια που δεν έχουν οι κατηγορίες."
+            },
+            {
+              "choice": "Κανένα διάγραμμα",
+              "correct": false,
+              "reason": "Τα ποιοτικά δεδομένα παρουσιάζονται με ραβδόγραμμα ή κυκλικό διάγραμμα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "68189edd-b143-57f9-84e1-9927d32e9ae4"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται κλάσεις άνισου πλάτους.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η μέση τιμή των 2,4,6;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Πρόσθεσε τις τιμές και διαίρεσε με το πλήθος.",
+        "solution": "Μέσος=12/3=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+4+6)/3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "b15e48d4-f912-58e3-8948-0ca012b4b84e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται εκατοστημόρια, επικρατούσα τιμή και ενδοτεταρτημοριακό εύρος. Οι τύποι 2 και 4 της διακύμανσης στις σελίδες 93–94 παρέχονται.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διάμεσος των ταξινομημένων 1,3,8;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Με περιττό πλήθος η διάμεσος είναι η μεσαία παρατήρηση.",
+        "solution": "Η δεύτερη από τις τρεις παρατηρήσεις είναι 3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "b15e48d4-f912-58e3-8948-0ca012b4b84e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται εκατοστημόρια, επικρατούσα τιμή και ενδοτεταρτημοριακό εύρος. Οι τύποι 2 και 4 της διακύμανσης στις σελίδες 93–94 παρέχονται.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η διάμεσος των ταξινομημένων 1,3,7,9;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Με άρτιο πλήθος πάρε τον μέσο των δύο κεντρικών τιμών.",
+        "solution": "Διάμεσος=(3+7)/2=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3+7)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fc7562f9-1773-5c66-9ea8-c1e459ab2112"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται εκατοστημόρια, επικρατούσα τιμή και ενδοτεταρτημοριακό εύρος. Οι τύποι 2 και 4 της διακύμανσης στις σελίδες 93–94 παρέχονται.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για δεδομένα 2,4, ο πληθυσμιακός τύπος διακύμανσης είναι s²=Σ(xᵢ−μέσος)²/n. Πόσο είναι το s²;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Ο μέσος είναι 3· χρησιμοποίησε τον δοσμένο παρονομαστή n.",
+        "solution": "s²=(1+1)/2=1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "((2-3)**2+(4-3)**2)/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fc7562f9-1773-5c66-9ea8-c1e459ab2112"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται εκατοστημόρια, επικρατούσα τιμή και ενδοτεταρτημοριακό εύρος. Οι τύποι 2 και 4 της διακύμανσης στις σελίδες 93–94 παρέχονται.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Δεδομένα έχουν θετικό μέσο 20 και τυπική απόκλιση 3. Πόσο είναι το CV ως ποσοστό;",
+        "choices": [
+          "15",
+          "16",
+          "14",
+          "-15"
+        ],
+        "answer": "15",
+        "hint": "CV=τυπική απόκλιση διά θετικό μέσο επί 100.",
+        "solution": "CV=100×3/20=15%.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "100*3/20"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fc7562f9-1773-5c66-9ea8-c1e459ab2112"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται εκατοστημόρια, επικρατούσα τιμή και ενδοτεταρτημοριακό εύρος. Οι τύποι 2 και 4 της διακύμανσης στις σελίδες 93–94 παρέχονται.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "2.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν προστεθεί 5 σε κάθε τιμή ενός συνόλου δεδομένων, τι γίνεται με την τυπική απόκλιση;",
+        "choices": [
+          "Παραμένει ίδια",
+          "Αυξάνεται κατά 5",
+          "Πολλαπλασιάζεται με 5",
+          "Γίνεται πάντα 0"
+        ],
+        "answer": "Παραμένει ίδια",
+        "hint": "Ο μέσος αυξάνεται επίσης κατά 5, άρα οι αποκλίσεις από αυτόν δεν αλλάζουν.",
+        "solution": "Κάθε νέα απόκλιση είναι (xᵢ+5)−(μέσος+5)=xᵢ−μέσος, οπότε η διασπορά διατηρείται.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Παραμένει ίδια",
+              "correct": true,
+              "reason": "Κάθε νέα απόκλιση είναι (xᵢ+5)−(μέσος+5)=xᵢ−μέσος, οπότε η διασπορά διατηρείται."
+            },
+            {
+              "choice": "Αυξάνεται κατά 5",
+              "correct": false,
+              "reason": "Πρόσθεση σταθεράς αλλάζει το κέντρο, όχι τη διασπορά."
+            },
+            {
+              "choice": "Πολλαπλασιάζεται με 5",
+              "correct": false,
+              "reason": "Κλιμάκωση επί 5 είναι διαφορετικός μετασχηματισμός από πρόσθεση."
+            },
+            {
+              "choice": "Γίνεται πάντα 0",
+              "correct": false,
+              "reason": "Οι διαφορετικές τιμές δεν εξισώνονται με κοινή μετατόπιση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fc7562f9-1773-5c66-9ea8-c1e459ab2112"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "2.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρούνται εκατοστημόρια, επικρατούσα τιμή και ενδοτεταρτημοριακό εύρος. Οι τύποι 2 και 4 της διακύμανσης στις σελίδες 93–94 παρέχονται.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x²+1, ποιο είναι το f(2);",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Αντικατάστησε στο x²+1.",
+        "solution": "f(2)=2²+1=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2+1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "05c6d67a-53fb-5d15-91b9-f6c0d0a8f86f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x²+1, ποιο είναι το f(4);",
+        "choices": [
+          "17",
+          "18",
+          "16",
+          "-17"
+        ],
+        "answer": "17",
+        "hint": "Αντικατάστησε στο x²+1.",
+        "solution": "f(4)=4²+1=17.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2+1"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "05c6d67a-53fb-5d15-91b9-f6c0d0a8f86f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1 και g(x)=x², πόσο είναι το (f∘g)(3);",
+        "choices": [
+          "19",
+          "20",
+          "18",
+          "-19"
+        ],
+        "answer": "19",
+        "hint": "Πρώτα υπολόγισε g(3) και μετά εφάρμοσε την f.",
+        "solution": "g(3)=9 και f(9)=19=19.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3**2+1"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "e902584d-40df-5335-bbcc-953acef13e19"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=2x+1 και g(x)=x², πόσο είναι το (g∘f)(3);",
+        "choices": [
+          "49",
+          "50",
+          "48",
+          "-49"
+        ],
+        "answer": "49",
+        "hint": "Η αντίστροφη σειρά σύνθεσης αλλάζει το αποτέλεσμα.",
+        "solution": "f(3)=7 και g(7)=49=49.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2*3+1)**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "e902584d-40df-5335-bbcc-953acef13e19"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Η f(x)=√(x−2) ορίζεται για x≥2. Ποια είναι η μικρότερη επιτρεπτή τιμή x για την g(x)=f(3x−1);",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Απαίτησε 3x−1≥2.",
+        "solution": "3x≥3, άρα x≥1. Το αριστερό άκρο είναι 1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(2+1)/3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "e902584d-40df-5335-bbcc-953acef13e19"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Οι f(x)=x/x στο ℝ∖{0} και g(x)=1 στο ℝ είναι ίσες συναρτήσεις;",
+        "choices": [
+          "Όχι, έχουν διαφορετικά πεδία ορισμού",
+          "Ναι, επειδή απλοποιείται το x",
+          "Ναι, επειδή συμφωνούν στο 1",
+          "Όχι, επειδή f(1)=0"
+        ],
+        "answer": "Όχι, έχουν διαφορετικά πεδία ορισμού",
+        "hint": "Ισότητα συναρτήσεων απαιτεί ίδιο πεδίο και ίδιες τιμές.",
+        "solution": "Οι τύποι συμφωνούν όπου ορίζεται η f, αλλά η g ορίζεται επιπλέον στο 0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, έχουν διαφορετικά πεδία ορισμού",
+              "correct": true,
+              "reason": "Οι τύποι συμφωνούν όπου ορίζεται η f, αλλά η g ορίζεται επιπλέον στο 0."
+            },
+            {
+              "choice": "Ναι, επειδή απλοποιείται το x",
+              "correct": false,
+              "reason": "Η απλοποίηση δεν επαναφέρει το αποκλεισμένο 0."
+            },
+            {
+              "choice": "Ναι, επειδή συμφωνούν στο 1",
+              "correct": false,
+              "reason": "Συμφωνία σε ένα σημείο δεν αρκεί για ισότητα συναρτήσεων."
+            },
+            {
+              "choice": "Όχι, επειδή f(1)=0",
+              "correct": false,
+              "reason": "Η f(1)=1, όχι 0."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "e902584d-40df-5335-bbcc-953acef13e19"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x², ποια είναι η κλίση εφαπτομένης στο x=2;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Η παράγωγος της x² στο α είναι 2α.",
+        "solution": "f′(2)=2×2=4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "790c6caa-3b66-5b78-b15e-521aec693b9b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x², ποια είναι η κλίση εφαπτομένης στο x=4;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Η παράγωγος της x² στο α είναι 2α.",
+        "solution": "f′(4)=2×4=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "790c6caa-3b66-5b78-b15e-521aec693b9b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x+2, ποια είναι η τιμή του λόγου (f(1+h)−f(1))/h για h≠0;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Ανάπτυξε τον αριθμητή πριν διαιρέσεις.",
+        "solution": "Ο αριθμητής είναι 3h, άρα το πηλίκο είναι 3 και αυτό είναι και το όριό του.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a5826083-0cb8-564e-be58-4d91968bf0fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x², η εφαπτομένη στο (1,1) είναι y−1=2(x−1). Ποιο είναι το y της στο x=3;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "-5"
+        ],
+        "answer": "5",
+        "hint": "Χρησιμοποίησε την εξίσωση της εφαπτομένης, όχι την αρχική παραβολή.",
+        "solution": "y=1+2×2=5.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1+2*(3-1)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a5826083-0cb8-564e-be58-4d91968bf0fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Θέση σώματος s(t)=t²+3t σε μέτρα, χρόνος σε δευτερόλεπτα. Ποια είναι η στιγμιαία ταχύτητα στο t=2;",
+        "choices": [
+          "7",
+          "8",
+          "6",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Η στιγμιαία ταχύτητα είναι η παράγωγος της θέσης.",
+        "solution": "s′(t)=2t+3, άρα s′(2)=7 m/s.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*2+3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a5826083-0cb8-564e-be58-4d91968bf0fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Η ύπαρξη παραγώγου σε σημείο συνεπάγεται συνέχεια εκεί;",
+        "choices": [
+          "Ναι, αλλά το αντίστροφο δεν ισχύει γενικά",
+          "Όχι, δεν σχετίζονται",
+          "Ναι και κάθε συνεχής είναι παραγωγίσιμη",
+          "Μόνο αν η παράγωγος είναι θετική"
+        ],
+        "answer": "Ναι, αλλά το αντίστροφο δεν ισχύει γενικά",
+        "hint": "Η |x| στο 0 είναι αντιπαράδειγμα για την αντίστροφη πρόταση.",
+        "solution": "Παραγωγισιμότητα συνεπάγεται συνέχεια, ενώ η συνεχής |x| δεν έχει παράγωγο στο 0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Ναι, αλλά το αντίστροφο δεν ισχύει γενικά",
+              "correct": true,
+              "reason": "Παραγωγισιμότητα συνεπάγεται συνέχεια, ενώ η συνεχής |x| δεν έχει παράγωγο στο 0."
+            },
+            {
+              "choice": "Όχι, δεν σχετίζονται",
+              "correct": false,
+              "reason": "Υπάρχει το θεώρημα παραγωγισιμότητας που συνεπάγεται συνέχεια."
+            },
+            {
+              "choice": "Ναι και κάθε συνεχής είναι παραγωγίσιμη",
+              "correct": false,
+              "reason": "Η |x| στο 0 διαψεύδει το δεύτερο μέρος."
+            },
+            {
+              "choice": "Μόνο αν η παράγωγος είναι θετική",
+              "correct": false,
+              "reason": "Το συμπέρασμα ισχύει για οποιαδήποτε πεπερασμένη παράγωγο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a5826083-0cb8-564e-be58-4d91968bf0fc"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x²+2x, ποιο είναι το f′(1);",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Παραγώγισε κάθε όρο του αθροίσματος.",
+        "solution": "f′(x)=6x+2, άρα f′(1)=8.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*1+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "4c14e4b6-7868-5281-8e60-8e4ce16cbe08"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=3x²+2x, ποιο είναι το f′(2);",
+        "choices": [
+          "14",
+          "15",
+          "13",
+          "-14"
+        ],
+        "answer": "14",
+        "hint": "Παραγώγισε κάθε όρο του αθροίσματος.",
+        "solution": "f′(x)=6x+2, άρα f′(2)=14.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*2+2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "4c14e4b6-7868-5281-8e60-8e4ce16cbe08"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(2x+1)³, ποια είναι η τιμή f′(1);",
+        "choices": [
+          "54",
+          "55",
+          "53",
+          "-54"
+        ],
+        "answer": "54",
+        "hint": "Εφάρμοσε κανόνα σύνθεσης και κράτησε τον παράγοντα 2.",
+        "solution": "f′(x)=6(2x+1)², άρα f′(1)=54.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*(2+1)**2*2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "61406279-5b19-5587-be82-738a833766a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x·e^x, ποια είναι η τιμή f′(0);",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "1",
+        "hint": "Εφάρμοσε (uv)′=u′v+uv′.",
+        "solution": "f′(x)=e^x+xe^x, άρα f′(0)=1=1.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1+0"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "61406279-5b19-5587-be82-738a833766a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(x+1)/(x−1), x≠1, ποια είναι η τιμή f′(3);",
+        "choices": [
+          "-1/2",
+          "1/2",
+          "-3/2",
+          "-1"
+        ],
+        "answer": "-1/2",
+        "hint": "Χρησιμοποίησε τον κανόνα πηλίκου με τετράγωνο παρονομαστή.",
+        "solution": "f′(x)=((x−1)−(x+1))/(x−1)²=−2/(x−1)². Στο 3 δίνει -1/2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "-2/(3-1)**2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "61406279-5b19-5587-be82-738a833766a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποιος είναι ο σωστός κανόνας παραγώγισης γινομένου;",
+        "choices": [
+          "(fg)′=f′g+fg′",
+          "(fg)′=f′g′",
+          "(fg)′=f′+g′",
+          "(fg)′=fg"
+        ],
+        "answer": "(fg)′=f′g+fg′",
+        "hint": "Παραγωγίζεται εναλλάξ κάθε παράγοντας και αθροίζονται δύο όροι.",
+        "solution": "Ο κανόνας γινομένου δίνει f′g+fg′.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "(fg)′=f′g+fg′",
+              "correct": true,
+              "reason": "Ο κανόνας γινομένου δίνει f′g+fg′."
+            },
+            {
+              "choice": "(fg)′=f′g′",
+              "correct": false,
+              "reason": "Το γινόμενο των παραγώγων δεν είναι ο κανόνας· για f=g=x θα έδινε 1 αντί 2x."
+            },
+            {
+              "choice": "(fg)′=f′+g′",
+              "correct": false,
+              "reason": "Αυτός είναι κανόνας αθροίσματος, όχι γινομένου."
+            },
+            {
+              "choice": "(fg)′=fg",
+              "correct": false,
+              "reason": "Το γινόμενο δεν μένει γενικά αμετάβλητο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "61406279-5b19-5587-be82-738a833766a3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.3"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(x−2)², σε ποια τετμημένη βρίσκεται το ελάχιστο;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Η πρώτη παράγωγος αλλάζει από αρνητική σε θετική όταν x περνά το κέντρο.",
+        "solution": "f′(x)=2(x−2), άρα ελάχιστο στο x=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f1aed925-11fb-5fae-ad27-af42d2abf371"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=(x−3)², σε ποια τετμημένη βρίσκεται το ελάχιστο;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "Η πρώτη παράγωγος αλλάζει από αρνητική σε θετική όταν x περνά το κέντρο.",
+        "solution": "f′(x)=2(x−3), άρα ελάχιστο στο x=3.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "f1aed925-11fb-5fae-ad27-af42d2abf371"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, η πρώτη παράγωγος είναι 3(x−1)(x+1). Ποια είναι η τιμή του τοπικού μέγιστου στο x=−1;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Πριν από −1 η παράγωγος είναι θετική και μετά αρνητική· υπολόγισε f(−1).",
+        "solution": "f(−1)=−1+3=2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(-1)**3-3*(-1)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "210f83b3-afd5-58cf-a066-92a5c0060a35"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Για f(x)=x³−3x, ποια είναι η τιμή του τοπικού ελάχιστου στο x=1;",
+        "choices": [
+          "-2",
+          "-1",
+          "-3",
+          "2"
+        ],
+        "answer": "-2",
+        "hint": "Η παράγωγος αλλάζει από αρνητική σε θετική στο 1.",
+        "solution": "f(1)=1−3=-2.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1-3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "210f83b3-afd5-58cf-a066-92a5c0060a35"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια είναι η μέγιστη τιμή της f(x)=x² στο κλειστό διάστημα [−1,2];",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Έλεγξε εσωτερικό κρίσιμο σημείο και τα δύο άκρα.",
+        "solution": "Οι υποψήφιες τιμές είναι f(0)=0, f(−1)=1, f(2)=4. Η μέγιστη είναι 4.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "210f83b3-afd5-58cf-a066-92a5c0060a35"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "1.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αρκεί η f′(x₀)=0 για τοπικό ακρότατο;",
+        "choices": [
+          "Όχι, η x³ έχει παράγωγο 0 στο 0 αλλά δεν έχει ακρότατο",
+          "Ναι, πάντα",
+          "Ναι, μόνο αν f(x₀)=0",
+          "Όχι, γιατί σε ακρότατο η παράγωγος ποτέ δεν μηδενίζεται"
+        ],
+        "answer": "Όχι, η x³ έχει παράγωγο 0 στο 0 αλλά δεν έχει ακρότατο",
+        "hint": "Έλεγξε την αλλαγή προσήμου της πρώτης παραγώγου.",
+        "solution": "Η x³ αυξάνει και στις δύο πλευρές του 0, παρότι f′(0)=0.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Όχι, η x³ έχει παράγωγο 0 στο 0 αλλά δεν έχει ακρότατο",
+              "correct": true,
+              "reason": "Η x³ αυξάνει και στις δύο πλευρές του 0, παρότι f′(0)=0."
+            },
+            {
+              "choice": "Ναι, πάντα",
+              "correct": false,
+              "reason": "Μηδενική παράγωγος είναι υποψήφιο σημείο, όχι επαρκής συνθήκη."
+            },
+            {
+              "choice": "Ναι, μόνο αν f(x₀)=0",
+              "correct": false,
+              "reason": "Το αντιπαράδειγμα έχει ήδη f(0)=0."
+            },
+            {
+              "choice": "Όχι, γιατί σε ακρότατο η παράγωγος ποτέ δεν μηδενίζεται",
+              "correct": false,
+              "reason": "Σε εσωτερικό παραγωγίσιμο ακρότατο ισχύει το θεώρημα Fermat."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "210f83b3-afd5-58cf-a066-92a5c0060a35"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s07-01",
+            "pdf_page": 5,
+            "paragraph": "1.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "national_and_school",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: Εξαιρείται το κριτήριο δεύτερης παραγώγου.. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    }
+  ]
+}

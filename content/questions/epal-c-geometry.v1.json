@@ -1,0 +1,2687 @@
+{
+  "schema_version": 1,
+  "release": "stage5-epal-c-geometry-v1",
+  "course": "epal-c-geometry",
+  "authored_on": "2026-10-27",
+  "educator_review": "pending",
+  "entries": [
+    {
+      "reference": "10.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κυρτό 5-γωνο διαμερίζεται με όλες τις διαγωνίους από μία κορυφή. Πόσα τρίγωνα σχηματίζονται;",
+        "choices": [
+          "3",
+          "4",
+          "2",
+          "6"
+        ],
+        "answer": "3",
+        "hint": "Από μία κορυφή προκύπτουν ν−2 τρίγωνα χωρίς κοινά εσωτερικά σημεία.",
+        "solution": "Σχηματίζονται ν−2=3 τρίγωνα.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5-2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "5f7e1d9a-1032-5cd5-9c95-6a6ab820e6fd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κυρτό 7-γωνο διαμερίζεται με όλες τις διαγωνίους από μία κορυφή. Πόσα τρίγωνα σχηματίζονται;",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "10"
+        ],
+        "answer": "5",
+        "hint": "Από μία κορυφή προκύπτουν ν−2 τρίγωνα χωρίς κοινά εσωτερικά σημεία.",
+        "solution": "Σχηματίζονται ν−2=5 τρίγωνα.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "7-2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "5f7e1d9a-1032-5cd5-9c95-6a6ab820e6fd"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Χωρίο σχήματος Γ προκύπτει από ορθογώνιο 8×6 με αφαίρεση ορθογωνίου 2×2 από μία γωνία. Πόσο είναι το εμβαδόν του σε τετραγωνικές μονάδες;",
+        "choices": [
+          "44",
+          "45",
+          "43",
+          "88"
+        ],
+        "answer": "44",
+        "hint": "Αφαίρεσε το εμβαδόν του κομματιού από του μεγάλου ορθογωνίου.",
+        "solution": "Ε=48−εμβαδόν κομματιού=44 τετραγωνικές μονάδες.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*6-2*2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "9b3b564c-2636-54f3-9476-73b30dda781f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Χωρίο σχήματος Γ προκύπτει από ορθογώνιο 8×6 με αφαίρεση ορθογωνίου 3×2 από μία γωνία. Πόσο είναι το εμβαδόν του σε τετραγωνικές μονάδες;",
+        "choices": [
+          "42",
+          "43",
+          "41",
+          "84"
+        ],
+        "answer": "42",
+        "hint": "Αφαίρεσε το εμβαδόν του κομματιού από του μεγάλου ορθογωνίου.",
+        "solution": "Ε=48−εμβαδόν κομματιού=42 τετραγωνικές μονάδες.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*6-3*2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "9b3b564c-2636-54f3-9476-73b30dda781f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Πολυγωνικό χωρίο αποτελείται από δύο τρίγωνα εμβαδών 12 και 15 cm² που έχουν κοινή μόνο μία πλευρά. Πόσο είναι το εμβαδόν του χωρίου;",
+        "choices": [
+          "27",
+          "28",
+          "26",
+          "54"
+        ],
+        "answer": "27",
+        "hint": "Η κοινή πλευρά έχει μηδενικό εμβαδόν και τα εσωτερικά δεν επικαλύπτονται.",
+        "solution": "Προσθέτουμε τα δύο εμβαδά: 12+15=27 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12+15"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "9b3b564c-2636-54f3-9476-73b30dda781f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια προϋπόθεση επιτρέπει να υπολογίσουμε εμβαδόν χωρίου ως άθροισμα των εμβαδών των κομματιών του;",
+        "choices": [
+          "Τα κομμάτια καλύπτουν το χωρίο χωρίς επικάλυψη εσωτερικών",
+          "Αρκεί να έχουν ίδιο σχήμα",
+          "Μπορούν να επικαλύπτονται χωρίς διόρθωση",
+          "Αρκεί να έχουν ίσες περιμέτρους"
+        ],
+        "answer": "Τα κομμάτια καλύπτουν το χωρίο χωρίς επικάλυψη εσωτερικών",
+        "hint": "Μια εσωτερική περιοχή πρέπει να μετρηθεί ακριβώς μία φορά.",
+        "solution": "Η πλήρης κάλυψη χωρίς εσωτερικές επικαλύψεις επιτρέπει προσθετικότητα του εμβαδού.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Τα κομμάτια καλύπτουν το χωρίο χωρίς επικάλυψη εσωτερικών",
+              "correct": true,
+              "reason": "Η πλήρης κάλυψη χωρίς εσωτερικές επικαλύψεις επιτρέπει προσθετικότητα του εμβαδού."
+            },
+            {
+              "choice": "Αρκεί να έχουν ίδιο σχήμα",
+              "correct": false,
+              "reason": "Η ισότητα σχημάτων δεν εξασφαλίζει κάλυψη ούτε αποφυγή επικαλύψεων."
+            },
+            {
+              "choice": "Μπορούν να επικαλύπτονται χωρίς διόρθωση",
+              "correct": false,
+              "reason": "Στην επικάλυψη το κοινό εμβαδόν μετριέται δύο φορές."
+            },
+            {
+              "choice": "Αρκεί να έχουν ίσες περιμέτρους",
+              "correct": false,
+              "reason": "Η περίμετρος δεν ελέγχει τις εσωτερικές περιοχές."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "9b3b564c-2636-54f3-9476-73b30dda781f"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνιο πλευρών 3 και 6 cm έχει πόσα cm² εμβαδόν;",
+        "choices": [
+          "18",
+          "19",
+          "17",
+          "36"
+        ],
+        "answer": "18",
+        "hint": "Το εμβαδόν ορθογωνίου είναι γινόμενο των διαστάσεων.",
+        "solution": "Ε=πλευρά×πλευρά=18 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "ffcafbb5-5c09-5f27-adc2-70e68579e324"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνιο πλευρών 4 και 6 cm έχει πόσα cm² εμβαδόν;",
+        "choices": [
+          "24",
+          "25",
+          "23",
+          "48"
+        ],
+        "answer": "24",
+        "hint": "Το εμβαδόν ορθογωνίου είναι γινόμενο των διαστάσεων.",
+        "solution": "Ε=πλευρά×πλευρά=24 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4*6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "ffcafbb5-5c09-5f27-adc2-70e68579e324"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα cm² είναι 1 m²;",
+        "choices": [
+          "10000",
+          "10001",
+          "9999",
+          "20000"
+        ],
+        "answer": "10000",
+        "hint": "Η μετατροπή μήκους κατά 100 υψώνεται στο τετράγωνο.",
+        "solution": "1 m²=100² cm², οπότε η μετατροπή δίνει 10000 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "1*100**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a9079adc-ce9d-5cde-99ef-a62759047245"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσα cm² είναι 3 m²;",
+        "choices": [
+          "30000",
+          "30001",
+          "29999",
+          "60000"
+        ],
+        "answer": "30000",
+        "hint": "Η μετατροπή μήκους κατά 100 υψώνεται στο τετράγωνο.",
+        "solution": "1 m²=100² cm², οπότε η μετατροπή δίνει 30000 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3*100**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "a9079adc-ce9d-5cde-99ef-a62759047245"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ορθογώνια 3×8 και 4×6 cm είναι ισοδύναμα. Πόσα cm είναι η διαφορά των περιμέτρων τους, μεγαλύτερη μείον μικρότερη;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Ίσο εμβαδόν δεν επιβάλλει ίδια περίμετρο.",
+        "solution": "Και τα δύο έχουν εμβαδόν 24 cm², αλλά περίμετρο 22 και 20 cm. Η διαφορά είναι 2 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*(3+8)-2*(4+6)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a9079adc-ce9d-5cde-99ef-a62759047245"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια σχέση ισχύει ανάμεσα σε ίσα και ισοδύναμα σχήματα;",
+        "choices": [
+          "Τα ίσα είναι ισοδύναμα, αλλά τα ισοδύναμα δεν είναι πάντα ίσα",
+          "Κάθε δύο ισοδύναμα έχουν ίσες πλευρές",
+          "Ίσα σχήματα μπορούν να έχουν διαφορετικά εμβαδά",
+          "Ίση περίμετρος ισοδυναμεί με ίσο εμβαδόν"
+        ],
+        "answer": "Τα ίσα είναι ισοδύναμα, αλλά τα ισοδύναμα δεν είναι πάντα ίσα",
+        "hint": "Χρησιμοποίησε ορθογώνια 3×8 και 4×6 ως αντιπαράδειγμα.",
+        "solution": "Ίσα σχήματα διατηρούν εμβαδόν, ενώ διαφορετικά σχήματα μπορούν να έχουν ίδιο εμβαδόν.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Τα ίσα είναι ισοδύναμα, αλλά τα ισοδύναμα δεν είναι πάντα ίσα",
+              "correct": true,
+              "reason": "Ίσα σχήματα διατηρούν εμβαδόν, ενώ διαφορετικά σχήματα μπορούν να έχουν ίδιο εμβαδόν."
+            },
+            {
+              "choice": "Κάθε δύο ισοδύναμα έχουν ίσες πλευρές",
+              "correct": false,
+              "reason": "Τα συγκεκριμένα ορθογώνια έχουν ίσο εμβαδόν αλλά διαφορετικές πλευρές."
+            },
+            {
+              "choice": "Ίσα σχήματα μπορούν να έχουν διαφορετικά εμβαδά",
+              "correct": false,
+              "reason": "Η ισότητα σχημάτων διατηρεί και το εμβαδόν."
+            },
+            {
+              "choice": "Ίση περίμετρος ισοδυναμεί με ίσο εμβαδόν",
+              "correct": false,
+              "reason": "Ίσες περίμετροι δεν εξασφαλίζουν ίσα εμβαδά."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "a9079adc-ce9d-5cde-99ef-a62759047245"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.2"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "10.3",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρίγωνο έχει βάση 8 cm και αντίστοιχο ύψος 5 cm. Πόσα cm² είναι το εμβαδόν του;",
+        "choices": [
+          "20",
+          "21",
+          "19",
+          "40"
+        ],
+        "answer": "20",
+        "hint": "Χρησιμοποίησε το μισό γινομένου βάσης και αντίστοιχου ύψους.",
+        "solution": "Ε=βh/2=20 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*5/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "758dcd96-6967-540e-bc5d-61c752a9213a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.3",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρίγωνο έχει βάση 12 cm και αντίστοιχο ύψος 5 cm. Πόσα cm² είναι το εμβαδόν του;",
+        "choices": [
+          "30",
+          "31",
+          "29",
+          "60"
+        ],
+        "answer": "30",
+        "hint": "Χρησιμοποίησε το μισό γινομένου βάσης και αντίστοιχου ύψους.",
+        "solution": "Ε=βh/2=30 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12*5/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "758dcd96-6967-540e-bc5d-61c752a9213a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.3",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Τραπέζιο έχει βάσεις 8 και 14 cm και ύψος 5 cm. Πόσα cm² είναι το εμβαδόν του;",
+        "choices": [
+          "55",
+          "56",
+          "54",
+          "110"
+        ],
+        "answer": "55",
+        "hint": "Το ύψος πολλαπλασιάζει το ημιάθροισμα των βάσεων.",
+        "solution": "Ε=(Β+β)h/2=55 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(8+14)*5/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fd5f2aa5-af34-5c76-b3ed-55a02a4ecd44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.3",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Τραπέζιο έχει βάσεις 10 και 14 cm και ύψος 5 cm. Πόσα cm² είναι το εμβαδόν του;",
+        "choices": [
+          "60",
+          "61",
+          "59",
+          "120"
+        ],
+        "answer": "60",
+        "hint": "Το ύψος πολλαπλασιάζει το ημιάθροισμα των βάσεων.",
+        "solution": "Ε=(Β+β)h/2=60 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(10+14)*5/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "fd5f2aa5-af34-5c76-b3ed-55a02a4ecd44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.3",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Ρόμβος έχει διαγωνίους 6 και 8 cm. Ένα τρίγωνο με ίδιο εμβαδόν έχει βάση 12 cm. Πόσα cm είναι το αντίστοιχο ύψος του;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "8"
+        ],
+        "answer": "4",
+        "hint": "Βρες πρώτα το εμβαδόν ρόμβου και μετά το ύψος του τριγώνου.",
+        "solution": "Ερόμβου=6×8/2=24 cm². Από 12h/2=24 παίρνουμε h=4 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(6*8/2)*2/12"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fd5f2aa5-af34-5c76-b3ed-55a02a4ecd44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.3",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί στον τύπο εμβαδού παραλληλογράμμου δεν χρησιμοποιούμε γενικά την πλάγια πλευρά αντί του ύψους;",
+        "choices": [
+          "Χρειάζεται η κάθετη απόσταση των παράλληλων βάσεων",
+          "Κάθε πλευρά είναι πάντα ίση με το ύψος",
+          "Το εμβαδόν εξαρτάται μόνο από την περίμετρο",
+          "Το ύψος μπορεί να αντικατασταθεί από οποιαδήποτε διαγώνιο"
+        ],
+        "answer": "Χρειάζεται η κάθετη απόσταση των παράλληλων βάσεων",
+        "hint": "Ο τύπος Ε=βh χρησιμοποιεί αντίστοιχο κάθετο ύψος.",
+        "solution": "Το ύψος είναι κάθετη απόσταση· η πλάγια πλευρά μπορεί να έχει μεγαλύτερο μήκος και να δίνει λανθασμένο γινόμενο.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Χρειάζεται η κάθετη απόσταση των παράλληλων βάσεων",
+              "correct": true,
+              "reason": "Το ύψος είναι κάθετη απόσταση· η πλάγια πλευρά μπορεί να έχει μεγαλύτερο μήκος και να δίνει λανθασμένο γινόμενο."
+            },
+            {
+              "choice": "Κάθε πλευρά είναι πάντα ίση με το ύψος",
+              "correct": false,
+              "reason": "Πλευρά και ύψος συμπίπτουν ως μήκη μόνο σε ειδικές διατάξεις."
+            },
+            {
+              "choice": "Το εμβαδόν εξαρτάται μόνο από την περίμετρο",
+              "correct": false,
+              "reason": "Η ίδια περίμετρος μπορεί να δίνει διαφορετικά εμβαδά."
+            },
+            {
+              "choice": "Το ύψος μπορεί να αντικατασταθεί από οποιαδήποτε διαγώνιο",
+              "correct": false,
+              "reason": "Μια διαγώνιος δεν παριστάνει γενικά την κάθετη απόσταση."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "fd5f2aa5-af34-5c76-b3ed-55a02a4ecd44"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.3"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Για τρίγωνο με πλευρές 3,4,5 cm, ποια είναι η ημιπερίμετρος s στον τύπο του Ήρωνα;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "-6"
+        ],
+        "answer": "6",
+        "hint": "Η ημιπερίμετρος είναι το μισό του αθροίσματος των πλευρών.",
+        "solution": "s=(a+b+c)/2=6 cm.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(3+4+5)/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "1b6357db-c811-51bb-9f2e-2b165fd39484"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: να διδαχθεί μόνο ο τύπος του Ήρωνα χωρίς την απόδειξή του. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Για τρίγωνο με πλευρές 5,5,6 cm, ποια είναι η ημιπερίμετρος s στον τύπο του Ήρωνα;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "Η ημιπερίμετρος είναι το μισό του αθροίσματος των πλευρών.",
+        "solution": "s=(a+b+c)/2=8 cm.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(5+5+6)/2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "1b6357db-c811-51bb-9f2e-2b165fd39484"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: να διδαχθεί μόνο ο τύπος του Ήρωνα χωρίς την απόδειξή του. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε με τον τύπο του Ήρωνα το εμβαδόν τριγώνου με πλευρές 5,5,6 cm, σε cm².",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Βρες την ημιπερίμετρο και πάρε τη θετική ρίζα του s(s−a)(s−b)(s−c).",
+        "solution": "s=8 cm και E=√(8×3×3×2)=12 cm².",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "8*(8-5)*(8-5)*(8-6)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "b064163a-5588-5fca-bb44-3b35a86e9bdb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: να διδαχθεί μόνο ο τύπος του Ήρωνα χωρίς την απόδειξή του. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Υπολόγισε με τον τύπο του Ήρωνα το εμβαδόν τριγώνου με πλευρές 13,14,15 cm, σε cm².",
+        "choices": [
+          "84",
+          "85",
+          "83",
+          "-84"
+        ],
+        "answer": "84",
+        "hint": "Βρες την ημιπερίμετρο και πάρε τη θετική ρίζα του s(s−a)(s−b)(s−c).",
+        "solution": "s=21 cm και E=√(21×8×7×6)=84 cm².",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "square_root",
+          "radicand": "21*(21-13)*(21-14)*(21-15)"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "b064163a-5588-5fca-bb44-3b35a86e9bdb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: να διδαχθεί μόνο ο τύπος του Ήρωνα χωρίς την απόδειξή του. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Τρίγωνο έχει πλευρές 13,14,15 cm. Ο τύπος του Ήρωνα δίνει Ε=84 cm². Πόσα cm είναι το ύψος προς την πλευρά 14;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "-12"
+        ],
+        "answer": "12",
+        "hint": "Σύνδεσε το εμβαδόν του Ήρωνα με Ε=βάση×ύψος/2.",
+        "solution": "s=21 και Ε=√(21×8×7×6)=84. Από 84=14h/2 προκύπτει h=12 cm.",
+        "skill": "Υπολογισμός και έλεγχος αποτελέσματος",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*84/14"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "b064163a-5588-5fca-bb44-3b35a86e9bdb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: να διδαχθεί μόνο ο τύπος του Ήρωνα χωρίς την απόδειξή του. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Για μήκη 2,3,5 cm το γινόμενο στον Ήρωνα μηδενίζεται. Ποιο είναι το σωστό συμπέρασμα;",
+        "choices": [
+          "Δεν σχηματίζεται γνήσιο τρίγωνο",
+          "Υπάρχει κανονικό τρίγωνο εμβαδού 0",
+          "Αρκεί να πάρουμε αρνητική ρίζα",
+          "Χρησιμοποιούμε την περίμετρο αντί της ημιπεριμέτρου"
+        ],
+        "answer": "Δεν σχηματίζεται γνήσιο τρίγωνο",
+        "hint": "Έλεγξε την αυστηρή τριγωνική ανισότητα πριν από τον τύπο.",
+        "solution": "2+3=5, οπότε τα μήκη δεν σχηματίζουν γνήσιο τρίγωνο· ο μηδενικός παράγοντας εκφράζει εκφυλισμό.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Δεν σχηματίζεται γνήσιο τρίγωνο",
+              "correct": true,
+              "reason": "2+3=5, οπότε τα μήκη δεν σχηματίζουν γνήσιο τρίγωνο· ο μηδενικός παράγοντας εκφράζει εκφυλισμό."
+            },
+            {
+              "choice": "Υπάρχει κανονικό τρίγωνο εμβαδού 0",
+              "correct": false,
+              "reason": "Γνήσιο τρίγωνο έχει θετικό εμβαδόν και αυστηρή τριγωνική ανισότητα."
+            },
+            {
+              "choice": "Αρκεί να πάρουμε αρνητική ρίζα",
+              "correct": false,
+              "reason": "Αρνητική ρίζα δεν δίνει γεωμετρικό εμβαδόν ούτε διορθώνει τα μήκη."
+            },
+            {
+              "choice": "Χρησιμοποιούμε την περίμετρο αντί της ημιπεριμέτρου",
+              "correct": false,
+              "reason": "Ο Ήρωνας απαιτεί ημιπερίμετρο και υπαρκτό τρίγωνο."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "b064163a-5588-5fca-bb44-3b35a86e9bdb"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.4"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: να διδαχθεί μόνο ο τύπος του Ήρωνα χωρίς την απόδειξή του. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια τρίγωνα έχουν λόγο δεύτερου προς πρώτο 2. Ποιος είναι ο λόγος των εμβαδών τους με την ίδια σειρά;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "8"
+        ],
+        "answer": "4",
+        "hint": "Ο λόγος εμβαδών είναι το τετράγωνο του λόγου ομοιότητας.",
+        "solution": "Ε₂/Ε₁=k²=4.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "c2604ec2-d9d3-5c60-b579-9ece4cd8007e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των Θεωρημάτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια τρίγωνα έχουν λόγο δεύτερου προς πρώτο 3. Ποιος είναι ο λόγος των εμβαδών τους με την ίδια σειρά;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "18"
+        ],
+        "answer": "9",
+        "hint": "Ο λόγος εμβαδών είναι το τετράγωνο του λόγου ομοιότητας.",
+        "solution": "Ε₂/Ε₁=k²=9.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "c2604ec2-d9d3-5c60-b579-9ece4cd8007e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των Θεωρημάτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια πολύγωνα έχουν λόγο μεγάλου προς μικρό 3/2. Το μικρό έχει εμβαδόν 12 cm². Πόσα cm² έχει το μεγάλο;",
+        "choices": [
+          "27",
+          "28",
+          "26",
+          "54"
+        ],
+        "answer": "27",
+        "hint": "Πολλαπλασίασε το μικρό εμβαδόν με 9/4, όχι με 3/2.",
+        "solution": "Εμεγάλο=(9/4)Εμικρό=27 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "12*(3/2)**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "c87e3f13-9a54-5cc9-9b57-78a6e0550268"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των Θεωρημάτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια πολύγωνα έχουν λόγο μεγάλου προς μικρό 3/2. Το μικρό έχει εμβαδόν 20 cm². Πόσα cm² έχει το μεγάλο;",
+        "choices": [
+          "45",
+          "46",
+          "44",
+          "90"
+        ],
+        "answer": "45",
+        "hint": "Πολλαπλασίασε το μικρό εμβαδόν με 9/4, όχι με 3/2.",
+        "solution": "Εμεγάλο=(9/4)Εμικρό=45 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "20*(3/2)**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "c87e3f13-9a54-5cc9-9b57-78a6e0550268"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των Θεωρημάτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Όμοια τρίγωνα έχουν εμβαδά 25 και 9 cm². Αν η περίμετρος του μικρού είναι 18 cm, πόσα cm είναι η περίμετρος του μεγάλου;",
+        "choices": [
+          "30",
+          "31",
+          "29",
+          "60"
+        ],
+        "answer": "30",
+        "hint": "Η θετική ρίζα του λόγου εμβαδών δίνει τον λόγο πλευρών και περιμέτρων.",
+        "solution": "k=√(25/9)=5/3. Η μεγάλη περίμετρος είναι 18×5/3=30 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "18*5/3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "c87e3f13-9a54-5cc9-9b57-78a6e0550268"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των Θεωρημάτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "10.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί σε όμοια τρίγωνα ο λόγος εμβαδών είναι k² και όχι k;",
+        "choices": [
+          "Τόσο η βάση όσο και το αντίστοιχο ύψος πολλαπλασιάζονται με k",
+          "Μόνο η βάση αλλάζει κατά k",
+          "Το ύψος παραμένει πάντα σταθερό",
+          "Ο λόγος περιμέτρων είναι k²"
+        ],
+        "answer": "Τόσο η βάση όσο και το αντίστοιχο ύψος πολλαπλασιάζονται με k",
+        "hint": "Εφάρμοσε Ε=βh/2 στα δύο τρίγωνα.",
+        "solution": "Ε₂=(kβ)(kh)/2=k²Ε₁, επειδή βάση και ύψος έχουν τον ίδιο λόγο ομοιότητας.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Τόσο η βάση όσο και το αντίστοιχο ύψος πολλαπλασιάζονται με k",
+              "correct": true,
+              "reason": "Ε₂=(kβ)(kh)/2=k²Ε₁, επειδή βάση και ύψος έχουν τον ίδιο λόγο ομοιότητας."
+            },
+            {
+              "choice": "Μόνο η βάση αλλάζει κατά k",
+              "correct": false,
+              "reason": "Αλλάζει και το αντίστοιχο ύψος, οπότε χρειάζεται δεύτερος παράγοντας k."
+            },
+            {
+              "choice": "Το ύψος παραμένει πάντα σταθερό",
+              "correct": false,
+              "reason": "Σε όμοια τρίγωνα το ύψος μεταβάλλεται επίσης κατά k."
+            },
+            {
+              "choice": "Ο λόγος περιμέτρων είναι k²",
+              "correct": false,
+              "reason": "Οι περίμετροι είναι γραμμικά μεγέθη και έχουν λόγο k."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "c87e3f13-9a54-5cc9-9b57-78a6e0550268"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "10.5"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των Θεωρημάτων. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.1",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό 5-γωνο έχει κάθε πλευρά 3 cm. Πόσα cm είναι η περίμετρός του;",
+        "choices": [
+          "15",
+          "16",
+          "14",
+          "30"
+        ],
+        "answer": "15",
+        "hint": "Όλες οι πλευρές είναι ίσες.",
+        "solution": "Π=ν×πλευρά=15 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "d146cadc-cab9-58c5-8405-00822e71de6d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.1",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό 8-γωνο έχει κάθε πλευρά 3 cm. Πόσα cm είναι η περίμετρός του;",
+        "choices": [
+          "24",
+          "25",
+          "23",
+          "48"
+        ],
+        "answer": "24",
+        "hint": "Όλες οι πλευρές είναι ίσες.",
+        "solution": "Π=ν×πλευρά=24 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "d146cadc-cab9-58c5-8405-00822e71de6d"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.1",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσες μοίρες είναι κάθε εξωτερική γωνία κανονικού 6-γώνου;",
+        "choices": [
+          "60",
+          "61",
+          "59",
+          "120"
+        ],
+        "answer": "60",
+        "hint": "Οι ίσες εξωτερικές γωνίες έχουν συνολικό άθροισμα 360°.",
+        "solution": "Κάθε εξωτερική είναι 360°/ν=60°.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/6"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "9384c660-0a20-598c-be8e-8931b5087a42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.1",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Πόσες μοίρες είναι κάθε εξωτερική γωνία κανονικού 10-γώνου;",
+        "choices": [
+          "36",
+          "37",
+          "35",
+          "72"
+        ],
+        "answer": "36",
+        "hint": "Οι ίσες εξωτερικές γωνίες έχουν συνολικό άθροισμα 360°.",
+        "solution": "Κάθε εξωτερική είναι 360°/ν=36°.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/10"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "9384c660-0a20-598c-be8e-8931b5087a42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.1",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό πολύγωνο έχει εσωτερική γωνία 150°. Πόσες πλευρές έχει;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "24"
+        ],
+        "answer": "12",
+        "hint": "Η εξωτερική είναι 180°−150° και ισούται με 360°/ν.",
+        "solution": "Η εξωτερική είναι 30°, άρα ν=360/30=12.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/(180-150)"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "9384c660-0a20-598c-be8e-8931b5087a42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.1",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί ένας ρόμβος με γωνία 60° δεν είναι κανονικό τετράπλευρο;",
+        "choices": [
+          "Έχει ίσες πλευρές αλλά όχι όλες τις γωνίες ίσες",
+          "Κάθε ρόμβος είναι κανονικό πολύγωνο",
+          "Για κανονικό πολύγωνο αρκούν οι ίσες πλευρές",
+          "Επειδή οι πλευρές του δεν είναι παράλληλες ανά δύο"
+        ],
+        "answer": "Έχει ίσες πλευρές αλλά όχι όλες τις γωνίες ίσες",
+        "hint": "Ο ορισμός απαιτεί ισοπλευρία και ισογωνία μαζί.",
+        "solution": "Οι γωνίες του είναι 60°,120°,60°,120°, οπότε δεν είναι όλες ίσες.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Έχει ίσες πλευρές αλλά όχι όλες τις γωνίες ίσες",
+              "correct": true,
+              "reason": "Οι γωνίες του είναι 60°,120°,60°,120°, οπότε δεν είναι όλες ίσες."
+            },
+            {
+              "choice": "Κάθε ρόμβος είναι κανονικό πολύγωνο",
+              "correct": false,
+              "reason": "Μόνο ο τετράγωνος ρόμβος είναι κανονικό τετράπλευρο."
+            },
+            {
+              "choice": "Για κανονικό πολύγωνο αρκούν οι ίσες πλευρές",
+              "correct": false,
+              "reason": "Οι ίσες πλευρές δεν αρκούν χωρίς ίσες γωνίες."
+            },
+            {
+              "choice": "Επειδή οι πλευρές του δεν είναι παράλληλες ανά δύο",
+              "correct": false,
+              "reason": "Ο ρόμβος είναι παραλληλόγραμμο, αλλά αυτό δεν εξασφαλίζει κανονικότητα."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "9384c660-0a20-598c-be8e-8931b5087a42"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.1"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.2",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό 6-γωνο έχει κέντρο Ο. Πόσες μοίρες είναι η επίκεντρη γωνία δύο διαδοχικών κορυφών;",
+        "choices": [
+          "60",
+          "61",
+          "59",
+          "120"
+        ],
+        "answer": "60",
+        "hint": "Οι ίσες κεντρικές γωνίες καλύπτουν μία πλήρη γωνία.",
+        "solution": "Η κεντρική γωνία είναι 360°/ν=60°.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "0ef39c01-7dfe-5787-ab61-6749d0fc7f0b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των θεωρημάτων και του Πορίσματος. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.2",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό 8-γωνο έχει κέντρο Ο. Πόσες μοίρες είναι η επίκεντρη γωνία δύο διαδοχικών κορυφών;",
+        "choices": [
+          "45",
+          "46",
+          "44",
+          "90"
+        ],
+        "answer": "45",
+        "hint": "Οι ίσες κεντρικές γωνίες καλύπτουν μία πλήρη γωνία.",
+        "solution": "Η κεντρική γωνία είναι 360°/ν=45°.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "360/8"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "0ef39c01-7dfe-5787-ab61-6749d0fc7f0b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των θεωρημάτων και του Πορίσματος. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.2",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό εξάγωνο είναι εγγεγραμμένο σε κύκλο ακτίνας 4 cm. Πόσα cm είναι η περίμετρός του;",
+        "choices": [
+          "24",
+          "25",
+          "23",
+          "48"
+        ],
+        "answer": "24",
+        "hint": "Τα κεντρικά τρίγωνα έχουν γωνία 60° και είναι ισόπλευρα.",
+        "solution": "Η πλευρά ισούται με την ακτίνα, άρα Π=6R=24 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "cd7db2ed-d6e0-5130-98d2-e2d31eee6cb3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-regular-hexagon.svg",
+          "alt": "Ακτίνα και απόστημα κανονικού εξαγώνου με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        },
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των θεωρημάτων και του Πορίσματος. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.2",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό εξάγωνο είναι εγγεγραμμένο σε κύκλο ακτίνας 6 cm. Πόσα cm είναι η περίμετρός του;",
+        "choices": [
+          "36",
+          "37",
+          "35",
+          "72"
+        ],
+        "answer": "36",
+        "hint": "Τα κεντρικά τρίγωνα έχουν γωνία 60° και είναι ισόπλευρα.",
+        "solution": "Η πλευρά ισούται με την ακτίνα, άρα Π=6R=36 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*6"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "cd7db2ed-d6e0-5130-98d2-e2d31eee6cb3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-regular-hexagon.svg",
+          "alt": "Ακτίνα και απόστημα κανονικού εξαγώνου με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        },
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των θεωρημάτων και του Πορίσματος. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.2",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό εξάγωνο είναι εγγεγραμμένο σε κύκλο ακτίνας 4 cm. Ποιο είναι το τετράγωνο του αποστήματός του σε cm²;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "24"
+        ],
+        "answer": "12",
+        "hint": "Η κάθετη προς πλευρά διχοτομεί τη βάση του ισόπλευρου κεντρικού τριγώνου.",
+        "solution": "Η μισή πλευρά είναι 2 cm. Από Πυθαγόρειο r²=4²−2²=12 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2-(4/2)**2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "cd7db2ed-d6e0-5130-98d2-e2d31eee6cb3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-regular-hexagon.svg",
+          "alt": "Ακτίνα και απόστημα κανονικού εξαγώνου με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        },
+        "checks": [
+          [
+            "4**2-(4/2)**2",
+            "=",
+            "12"
+          ]
+        ],
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των θεωρημάτων και του Πορίσματος. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.2",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια διαφορά ακτίνας και αποστήματος κανονικού πολυγώνου είναι σωστή;",
+        "choices": [
+          "Η ακτίνα φτάνει σε κορυφή και το απόστημα είναι κάθετη απόσταση από πλευρά",
+          "Και τα δύο φτάνουν πάντα στην ίδια κορυφή",
+          "Το απόστημα είναι πάντοτε μεγαλύτερο από την ακτίνα",
+          "Η ακτίνα είναι μισή πλευρά για κάθε κανονικό πολύγωνο"
+        ],
+        "answer": "Η ακτίνα φτάνει σε κορυφή και το απόστημα είναι κάθετη απόσταση από πλευρά",
+        "hint": "Χρησιμοποίησε το ορθογώνιο τρίγωνο κέντρου, μέσου πλευράς και κορυφής.",
+        "solution": "Η ακτίνα είναι υποτείνουσα και το απόστημα η κάθετη προς την πλευρά, άρα είναι διαφορετικά στοιχεία.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η ακτίνα φτάνει σε κορυφή και το απόστημα είναι κάθετη απόσταση από πλευρά",
+              "correct": true,
+              "reason": "Η ακτίνα είναι υποτείνουσα και το απόστημα η κάθετη προς την πλευρά, άρα είναι διαφορετικά στοιχεία."
+            },
+            {
+              "choice": "Και τα δύο φτάνουν πάντα στην ίδια κορυφή",
+              "correct": false,
+              "reason": "Το απόστημα καταλήγει στο μέσο πλευράς, όχι στην κορυφή."
+            },
+            {
+              "choice": "Το απόστημα είναι πάντοτε μεγαλύτερο από την ακτίνα",
+              "correct": false,
+              "reason": "Η κάθετη πλευρά του βοηθητικού ορθογωνίου είναι μικρότερη από την υποτείνουσα."
+            },
+            {
+              "choice": "Η ακτίνα είναι μισή πλευρά για κάθε κανονικό πολύγωνο",
+              "correct": false,
+              "reason": "Δεν ισχύει τέτοιος γενικός λόγος ακτίνας προς πλευρά."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "cd7db2ed-d6e0-5130-98d2-e2d31eee6cb3"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.2"
+          }
+        ],
+        "teaching_scope": "modified",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-regular-hexagon.svg",
+          "alt": "Ακτίνα και απόστημα κανονικού εξαγώνου με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        },
+        "practice_note": "Όρια ύλης: χωρίς τις αποδείξεις των θεωρημάτων και του Πορίσματος. Οι ερωτήσεις περιορίζονται στο επιτρεπτό περιεχόμενο."
+      }
+    },
+    {
+      "reference": "11.4",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κύκλος ακτίνας 3 cm έχει μήκος cπ cm. Ποιο είναι το c;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "12"
+        ],
+        "answer": "6",
+        "hint": "Το μήκος κύκλου είναι 2πR.",
+        "solution": "Στον τύπο 2πR ο συντελεστής του π είναι 2R=6.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "887b48a0-82fa-5827-a208-494485217f07"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.4",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κύκλος ακτίνας 5 cm έχει μήκος cπ cm. Ποιο είναι το c;",
+        "choices": [
+          "10",
+          "11",
+          "9",
+          "20"
+        ],
+        "answer": "10",
+        "hint": "Το μήκος κύκλου είναι 2πR.",
+        "solution": "Στον τύπο 2πR ο συντελεστής του π είναι 2R=10.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*5"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "887b48a0-82fa-5827-a208-494485217f07"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.4",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 3 cm εγγράφεται κανονικό εξάγωνο. Πόσα cm είναι η περίμετρός του, ως κάτω προσέγγιση του μήκους του κύκλου;",
+        "choices": [
+          "18",
+          "19",
+          "17",
+          "36"
+        ],
+        "answer": "18",
+        "hint": "Η πλευρά του εγγεγραμμένου κανονικού εξαγώνου ισούται με R.",
+        "solution": "Η εγγεγραμμένη περίμετρος είναι 6R=18 cm και είναι μικρότερη από το μήκος κύκλου.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*3"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "f11e89cc-3cb3-51ee-a1ec-3fe312b206e9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.4",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 4 cm εγγράφεται κανονικό εξάγωνο. Πόσα cm είναι η περίμετρός του, ως κάτω προσέγγιση του μήκους του κύκλου;",
+        "choices": [
+          "24",
+          "25",
+          "23",
+          "48"
+        ],
+        "answer": "24",
+        "hint": "Η πλευρά του εγγεγραμμένου κανονικού εξαγώνου ισούται με R.",
+        "solution": "Η εγγεγραμμένη περίμετρος είναι 6R=24 cm και είναι μικρότερη από το μήκος κύκλου.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6*4"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "f11e89cc-3cb3-51ee-a1ec-3fe312b206e9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.4",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 3 cm εγγράφεται κανονικό εξάγωνο και περιγράφεται τετράγωνο. Πόσα cm είναι η διαφορά των δύο περιμέτρων, άνω μείον κάτω;",
+        "choices": [
+          "6",
+          "7",
+          "5",
+          "12"
+        ],
+        "answer": "6",
+        "hint": "Το εξάγωνο έχει πλευρά R και το περιγεγραμμένο τετράγωνο πλευρά 2R.",
+        "solution": "Οι περίμετροι είναι 18 και 24 cm. Η διαφορά είναι 6 cm και το μήκος κύκλου βρίσκεται ανάμεσά τους.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8*3-6*3"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "f11e89cc-3cb3-51ee-a1ec-3fe312b206e9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.4",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Ποια ανισότητα περιγράφει σωστά την πολυγωνική προσέγγιση μήκους κύκλου;",
+        "choices": [
+          "Περίμετρος εγγεγραμμένου < μήκος κύκλου < περίμετρος περιγεγραμμένου",
+          "Και οι δύο περίμετροι είναι πάντα μεγαλύτερες από το μήκος κύκλου",
+          "Και οι δύο είναι πάντα μικρότερες",
+          "Το 3,14 ισούται ακριβώς με το π"
+        ],
+        "answer": "Περίμετρος εγγεγραμμένου < μήκος κύκλου < περίμετρος περιγεγραμμένου",
+        "hint": "Ξεχώρισε τη χορδή μέσα στον κύκλο από τα εξωτερικά εφαπτόμενα τμήματα.",
+        "solution": "Η εγγεγραμμένη περίμετρος προσεγγίζει από κάτω και η περιγεγραμμένη από πάνω, με κοινό όριο το μήκος του κύκλου.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Περίμετρος εγγεγραμμένου < μήκος κύκλου < περίμετρος περιγεγραμμένου",
+              "correct": true,
+              "reason": "Η εγγεγραμμένη περίμετρος προσεγγίζει από κάτω και η περιγεγραμμένη από πάνω, με κοινό όριο το μήκος του κύκλου."
+            },
+            {
+              "choice": "Και οι δύο περίμετροι είναι πάντα μεγαλύτερες από το μήκος κύκλου",
+              "correct": false,
+              "reason": "Η εγγεγραμμένη περίμετρος είναι μικρότερη."
+            },
+            {
+              "choice": "Και οι δύο είναι πάντα μικρότερες",
+              "correct": false,
+              "reason": "Η περιγεγραμμένη περίμετρος είναι μεγαλύτερη."
+            },
+            {
+              "choice": "Το 3,14 ισούται ακριβώς με το π",
+              "correct": false,
+              "reason": "Το 3,14 είναι δεκαδική προσέγγιση του άρρητου π."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "f11e89cc-3cb3-51ee-a1ec-3fe312b206e9"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.4"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.5",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 3 cm, τόξο 60° έχει μήκος cπ cm. Ποιο είναι το c;",
+        "choices": [
+          "1",
+          "2",
+          "0",
+          "1/2"
+        ],
+        "answer": "1",
+        "hint": "Το τόξο είναι το 1/6 της περιφέρειας.",
+        "solution": "l=(60/360)2πR, οπότε c=1.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(60/360)*2*3"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "7c31b523-68c2-58b0-8bc1-db17e822ef2a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.5",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 6 cm, τόξο 60° έχει μήκος cπ cm. Ποιο είναι το c;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Το τόξο είναι το 1/6 της περιφέρειας.",
+        "solution": "l=(60/360)2πR, οπότε c=2.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "(60/360)*2*6"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "7c31b523-68c2-58b0-8bc1-db17e822ef2a"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.5",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 4 cm, τόξο 90° έχει μήκος cπ cm. Ποιο είναι το c;",
+        "choices": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Το τόξο είναι το 1/4 της περιφέρειας.",
+        "solution": "l=(90/360)2πR=(R/2)π, οπότε c=2.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "905d1231-d6a0-58e9-911d-e9cce00d2a61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.5",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Σε κύκλο ακτίνας 8 cm, τόξο 90° έχει μήκος cπ cm. Ποιο είναι το c;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "8"
+        ],
+        "answer": "4",
+        "hint": "Το τόξο είναι το 1/4 της περιφέρειας.",
+        "solution": "l=(90/360)2πR=(R/2)π, οπότε c=4.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "905d1231-d6a0-58e9-911d-e9cce00d2a61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.5",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Κυκλικός τομέας ακτίνας 6 cm και γωνίας 60° έχει περίμετρο 2π+d cm. Ποιο είναι το d;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "24"
+        ],
+        "answer": "12",
+        "hint": "Στην περίμετρο περιλαμβάνονται το τόξο και δύο ακτίνες.",
+        "solution": "Το τόξο είναι 2π cm και οι δύο ακτίνες έχουν άθροισμα 12 cm.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "2*6"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "905d1231-d6a0-58e9-911d-e9cce00d2a61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.5",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Γιατί το μήκος χορδής δεν ισούται γενικά με το μήκος του αντίστοιχου μικρού τόξου;",
+        "choices": [
+          "Η χορδή είναι ευθύγραμμη ενώ το τόξο ακολουθεί την περιφέρεια",
+          "Επειδή κάθε χορδή είναι διάμετρος",
+          "Επειδή τα τόξα δεν έχουν μήκος",
+          "Επειδή κάθε τόξο είναι δύο φορές η ακτίνα"
+        ],
+        "answer": "Η χορδή είναι ευθύγραμμη ενώ το τόξο ακολουθεί την περιφέρεια",
+        "hint": "Σκέψου διαφορετικές διαδρομές ανάμεσα στα ίδια άκρα.",
+        "solution": "Η χορδή είναι η ευθεία σύνδεση των άκρων· το μη μηδενικό τόξο είναι μεγαλύτερη καμπύλη διαδρομή.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Η χορδή είναι ευθύγραμμη ενώ το τόξο ακολουθεί την περιφέρεια",
+              "correct": true,
+              "reason": "Η χορδή είναι η ευθεία σύνδεση των άκρων· το μη μηδενικό τόξο είναι μεγαλύτερη καμπύλη διαδρομή."
+            },
+            {
+              "choice": "Επειδή κάθε χορδή είναι διάμετρος",
+              "correct": false,
+              "reason": "Μόνο χορδή που περνά από το κέντρο είναι διάμετρος."
+            },
+            {
+              "choice": "Επειδή τα τόξα δεν έχουν μήκος",
+              "correct": false,
+              "reason": "Το μήκος τόξου ορίζεται και υπολογίζεται από ακτίνα και γωνία."
+            },
+            {
+              "choice": "Επειδή κάθε τόξο είναι δύο φορές η ακτίνα",
+              "correct": false,
+              "reason": "Το μήκος εξαρτάται και από τη γωνία, όχι μόνο από R."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "905d1231-d6a0-58e9-911d-e9cce00d2a61"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.5"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.6",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κύκλος ακτίνας 3 cm έχει εμβαδόν cπ cm². Ποιο είναι το c;",
+        "choices": [
+          "9",
+          "10",
+          "8",
+          "18"
+        ],
+        "answer": "9",
+        "hint": "Το εμβαδόν κύκλου είναι πR².",
+        "solution": "Ο συντελεστής του π είναι R²=9.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "3**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "8c82d060-bbdb-5952-adad-811c6b4de4be"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.6",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κύκλος ακτίνας 5 cm έχει εμβαδόν cπ cm². Ποιο είναι το c;",
+        "choices": [
+          "25",
+          "26",
+          "24",
+          "50"
+        ],
+        "answer": "25",
+        "hint": "Το εμβαδόν κύκλου είναι πR².",
+        "solution": "Ο συντελεστής του π είναι R²=25.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "5**2"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "8c82d060-bbdb-5952-adad-811c6b4de4be"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.6",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Δακτύλιος μεταξύ ομόκεντρων κύκλων ακτίνων 4 και 2 cm έχει εμβαδόν cπ cm². Ποιο είναι το c;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "24"
+        ],
+        "answer": "12",
+        "hint": "Αφαίρεσε τα εμβαδά των δύο δίσκων.",
+        "solution": "Ε=π(R²−r²), οπότε c=12.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2-2**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "2c35d3e1-c99d-5a94-90b9-a91ef036905b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.6",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Δακτύλιος μεταξύ ομόκεντρων κύκλων ακτίνων 6 και 2 cm έχει εμβαδόν cπ cm². Ποιο είναι το c;",
+        "choices": [
+          "32",
+          "33",
+          "31",
+          "64"
+        ],
+        "answer": "32",
+        "hint": "Αφαίρεσε τα εμβαδά των δύο δίσκων.",
+        "solution": "Ε=π(R²−r²), οπότε c=32.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6**2-2**2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "2c35d3e1-c99d-5a94-90b9-a91ef036905b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.6",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Κανονικό πολύγωνο έχει περίμετρο 24 cm και απόστημα 3 cm. Πόσα cm² είναι το εμβαδόν του;",
+        "choices": [
+          "36",
+          "37",
+          "35",
+          "72"
+        ],
+        "answer": "36",
+        "hint": "Χώρισέ το σε κεντρικά τρίγωνα με κοινό ύψος το απόστημα.",
+        "solution": "Το άθροισμα βάσεων είναι η περίμετρος, άρα Ε=Pr/2=36 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "24*3/2"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "2c35d3e1-c99d-5a94-90b9-a91ef036905b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.6",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Αν διπλασιάσουμε την ακτίνα κύκλου, τι γίνεται στο εμβαδόν;",
+        "choices": [
+          "Τετραπλασιάζεται",
+          "Διπλασιάζεται",
+          "Μένει ίδιο",
+          "Προστίθενται πάντα 2π cm²"
+        ],
+        "answer": "Τετραπλασιάζεται",
+        "hint": "Η ακτίνα στον τύπο εμβαδού υψώνεται στο τετράγωνο.",
+        "solution": "π(2R)²=4πR², επομένως το εμβαδόν γίνεται τετραπλάσιο.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Τετραπλασιάζεται",
+              "correct": true,
+              "reason": "π(2R)²=4πR², επομένως το εμβαδόν γίνεται τετραπλάσιο."
+            },
+            {
+              "choice": "Διπλασιάζεται",
+              "correct": false,
+              "reason": "Διπλάσιο γίνεται το μήκος κύκλου, όχι το εμβαδόν."
+            },
+            {
+              "choice": "Μένει ίδιο",
+              "correct": false,
+              "reason": "Το εμβαδόν εξαρτάται από το R² και μεταβάλλεται."
+            },
+            {
+              "choice": "Προστίθενται πάντα 2π cm²",
+              "correct": false,
+              "reason": "Η μεταβολή δεν είναι σταθερό πρόσθετο ποσό για κάθε R."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "2c35d3e1-c99d-5a94-90b9-a91ef036905b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.6"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending"
+      }
+    },
+    {
+      "reference": "11.7",
+      "key": "first-pass-01",
+      "expected_current": null,
+      "payload": {
+        "question": "Κυκλικός τομέας 90° και ακτίνας 4 cm έχει εμβαδόν cπ cm². Ποιο είναι το c;",
+        "choices": [
+          "4",
+          "5",
+          "3",
+          "8"
+        ],
+        "answer": "4",
+        "hint": "Ο τομέας καταλαμβάνει το ένα τέταρτο του δίσκου.",
+        "solution": "Ε=(90/360)πR², άρα c=4.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2/4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "6b8dd8f0-00f9-5c8e-aac9-6d95fe29f70e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.7"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-sector-segment.svg",
+          "alt": "Κυκλικός τομέας και μικρό κυκλικό τμήμα με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        }
+      }
+    },
+    {
+      "reference": "11.7",
+      "key": "first-pass-02",
+      "expected_current": null,
+      "payload": {
+        "question": "Κυκλικός τομέας 90° και ακτίνας 8 cm έχει εμβαδόν cπ cm². Ποιο είναι το c;",
+        "choices": [
+          "16",
+          "17",
+          "15",
+          "32"
+        ],
+        "answer": "16",
+        "hint": "Ο τομέας καταλαμβάνει το ένα τέταρτο του δίσκου.",
+        "solution": "Ε=(90/360)πR², άρα c=16.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "8**2/4"
+        },
+        "difficulty": "easy",
+        "objective_ids": [
+          "6b8dd8f0-00f9-5c8e-aac9-6d95fe29f70e"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.7"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-sector-segment.svg",
+          "alt": "Κυκλικός τομέας και μικρό κυκλικό τμήμα με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        }
+      }
+    },
+    {
+      "reference": "11.7",
+      "key": "first-pass-03",
+      "expected_current": null,
+      "payload": {
+        "question": "Μικρό κυκλικό τμήμα αντιστοιχεί σε επίκεντρη γωνία 90° κύκλου ακτίνας 4 cm. Το εμβαδόν του είναι (R²/4)π−d cm². Ποιο είναι το d;",
+        "choices": [
+          "8",
+          "9",
+          "7",
+          "16"
+        ],
+        "answer": "8",
+        "hint": "Αφαίρεσε το ορθογώνιο τρίγωνο των δύο ακτίνων από τον τομέα.",
+        "solution": "Το τρίγωνο έχει κάθετες R,R και εμβαδόν R²/2=8 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "51ef28ec-0cd9-5614-a84c-8275004a5b0b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.7"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-sector-segment.svg",
+          "alt": "Κυκλικός τομέας και μικρό κυκλικό τμήμα με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        }
+      }
+    },
+    {
+      "reference": "11.7",
+      "key": "first-pass-04",
+      "expected_current": null,
+      "payload": {
+        "question": "Μικρό κυκλικό τμήμα αντιστοιχεί σε επίκεντρη γωνία 90° κύκλου ακτίνας 6 cm. Το εμβαδόν του είναι (R²/4)π−d cm². Ποιο είναι το d;",
+        "choices": [
+          "18",
+          "19",
+          "17",
+          "36"
+        ],
+        "answer": "18",
+        "hint": "Αφαίρεσε το ορθογώνιο τρίγωνο των δύο ακτίνων από τον τομέα.",
+        "solution": "Το τρίγωνο έχει κάθετες R,R και εμβαδόν R²/2=18 cm².",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "6**2/2"
+        },
+        "difficulty": "medium",
+        "objective_ids": [
+          "51ef28ec-0cd9-5614-a84c-8275004a5b0b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.7"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-sector-segment.svg",
+          "alt": "Κυκλικός τομέας και μικρό κυκλικό τμήμα με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        }
+      }
+    },
+    {
+      "reference": "11.7",
+      "key": "first-pass-05",
+      "expected_current": null,
+      "payload": {
+        "question": "Κύκλος ακτίνας 4 cm χωρίζεται από χορδή που αντιστοιχεί σε μικρό τόξο 90°. Το μεγάλο κυκλικό τμήμα έχει εμβαδόν cπ+8 cm². Ποιο είναι το c;",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "24"
+        ],
+        "answer": "12",
+        "hint": "Αφαίρεσε το μικρό τμήμα 4π−8 από ολόκληρο τον δίσκο.",
+        "solution": "16π−(4π−8)=12π+8, άρα c=12.",
+        "skill": "Εφαρμογή γεωμετρικής ιδιότητας",
+        "verification": {
+          "kind": "numeric",
+          "expression": "4**2-4**2/4"
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "51ef28ec-0cd9-5614-a84c-8275004a5b0b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.7"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-sector-segment.svg",
+          "alt": "Κυκλικός τομέας και μικρό κυκλικό τμήμα με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        }
+      }
+    },
+    {
+      "reference": "11.7",
+      "key": "first-pass-06",
+      "expected_current": null,
+      "payload": {
+        "question": "Πώς βρίσκουμε εμβαδόν μικρού κυκλικού τμήματος για επίκεντρη γωνία μικρότερη από 180°;",
+        "choices": [
+          "Αφαιρούμε το τρίγωνο των δύο ακτίνων από τον αντίστοιχο τομέα",
+          "Χρησιμοποιούμε μόνο τον τύπο τομέα",
+          "Προσθέτουμε πάντα δύο ακτίνες στο εμβαδόν",
+          "Ταυτίζουμε χορδή και τόξο"
+        ],
+        "answer": "Αφαιρούμε το τρίγωνο των δύο ακτίνων από τον αντίστοιχο τομέα",
+        "hint": "Τομέας και κυκλικό τμήμα έχουν διαφορετικό σύνορο.",
+        "solution": "Ο τομέας περιέχει το τρίγωνο και το μικρό τμήμα χωρίς εσωτερική επικάλυψη, άρα Ετμήματος=Ετομέα−Ετριγώνου.",
+        "skill": "Αιτιολόγηση και έλεγχος προϋποθέσεων",
+        "verification": {
+          "kind": "conceptual",
+          "choice_reviews": [
+            {
+              "choice": "Αφαιρούμε το τρίγωνο των δύο ακτίνων από τον αντίστοιχο τομέα",
+              "correct": true,
+              "reason": "Ο τομέας περιέχει το τρίγωνο και το μικρό τμήμα χωρίς εσωτερική επικάλυψη, άρα Ετμήματος=Ετομέα−Ετριγώνου."
+            },
+            {
+              "choice": "Χρησιμοποιούμε μόνο τον τύπο τομέα",
+              "correct": false,
+              "reason": "Ο τομέας περιλαμβάνει επιπλέον το τρίγωνο."
+            },
+            {
+              "choice": "Προσθέτουμε πάντα δύο ακτίνες στο εμβαδόν",
+              "correct": false,
+              "reason": "Οι ακτίνες είναι μήκη και δεν προστίθενται σε εμβαδά."
+            },
+            {
+              "choice": "Ταυτίζουμε χορδή και τόξο",
+              "correct": false,
+              "reason": "Χορδή και τόξο είναι διαφορετικές γεωμετρικές γραμμές."
+            }
+          ]
+        },
+        "difficulty": "hard",
+        "objective_ids": [
+          "51ef28ec-0cd9-5614-a84c-8275004a5b0b"
+        ],
+        "source_refs": [
+          {
+            "source_id": "s06",
+            "pdf_page": 137,
+            "paragraph": "11.7"
+          }
+        ],
+        "teaching_scope": "required",
+        "exam_scope": "not_written_exam_under_current_list",
+        "educator_review": "pending",
+        "image": {
+          "filename": "images/questions/gel-sector-segment.svg",
+          "alt": "Κυκλικός τομέας και μικρό κυκλικό τμήμα με επισημασμένα σημεία και γεωμετρικές σχέσεις. Σχηματική απεικόνιση· τα αριθμητικά δεδομένα δίνονται στην εκφώνηση."
+        }
+      }
+    }
+  ]
+}
