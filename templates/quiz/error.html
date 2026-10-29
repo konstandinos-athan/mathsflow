@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Έλεγχος υποβολής — MathsFlow{% endblock %}
+{% block content %}
+<main class="container quiz-page">
+    <h1>Δεν ολοκληρώθηκε η υποβολή</h1>
+    <p>{{ message }}</p>
+    <p>Αν έχεις ήδη υποβάλει, το αποθηκευμένο αποτέλεσμα παραμένει το ίδιο.</p>
+    <a href="{{ url_for('home') }}">Επιστροφή στην αρχική</a>
+</main>
+{% endblock %}

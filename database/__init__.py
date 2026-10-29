@@ -69,26 +69,30 @@ def migrate(connection, directory=None):
         raise
 
 
-def check(connection):
+def check(connection, *, allow_pending=False):
     integrity = connection.execute('PRAGMA integrity_check').fetchone()[0]
     if integrity != 'ok' or list(connection.execute('PRAGMA foreign_key_check')):
         raise ValueError('Database integrity check failed')
     applied = dict(connection.execute('SELECT name, checksum FROM schema_migrations'))
     expected = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT / 'migrations').glob('[0-9][0-9][0-9]_*.sql')}
-    if applied != expected:
+    # A pre-upgrade backup may contain a valid prefix of the current migrations.
+    # Unknown, reordered or modified migration histories are always rejected.
+    valid_checksums = all(expected.get(name) == checksum for name, checksum in applied.items())
+    valid_prefix = sorted(applied) == sorted(expected)[:len(applied)]
+    if not valid_checksums or not valid_prefix or (not allow_pending and applied != expected):
         raise ValueError('Database migrations do not match the application')
     return {table: connection.execute(f'SELECT COUNT(*) FROM {table}').fetchone()[0]
             for table in ('courses', 'units', 'theory_versions', 'questions', 'question_versions', 'quiz_attempts', 'responses')}
 
 
-def copy_database(source_path, destination_path):
+def copy_database(source_path, destination_path, *, allow_pending=False):
     """Online consistent backup or restore to a NEW file; never overwrite data."""
     source_path, destination_path = Path(source_path).resolve(), Path(destination_path).resolve()
     if source_path == destination_path:
         raise ValueError('Source and destination must differ')
     source = connect(source_path)
     try:
-        check(source)
+        check(source, allow_pending=allow_pending)
         destination_path.parent.mkdir(parents=True, exist_ok=True)
         # Reserve exclusively, preventing accidental replacement of an existing DB.
         with destination_path.open('xb'):
@@ -96,7 +100,7 @@ def copy_database(source_path, destination_path):
         destination = connect(destination_path)
         try:
             source.backup(destination)
-            result = check(destination)
+            result = check(destination, allow_pending=allow_pending)
         finally:
             destination.close()
         return result

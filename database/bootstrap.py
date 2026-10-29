@@ -12,7 +12,7 @@ from .question_content import deploy_releases
 def bootstrap(path):
     path = Path(path)
     if path.exists():
-        copy_database(path, path.parent / 'backups' / ('before-start-' + uuid.uuid4().hex + '.sqlite3'))
+        copy_database(path, path.parent / 'backups' / ('before-start-' + uuid.uuid4().hex + '.sqlite3'), allow_pending=True)
     db = connect(path, create=True)
     try:
         migrate(db)

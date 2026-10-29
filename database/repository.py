@@ -49,7 +49,9 @@ class Repository:
             WHERE q.unit_id=? AND (?='all' OR v.difficulty=?) ORDER BY q.display_order,q.id''', (unit_id, difficulty, difficulty))
         return [{**json.loads(r['payload']), 'version_id': r['version_id']} for r in rows]
 
-    def start_attempt(self, unit_id, difficulty):
+    def start_attempt(self, unit_id, difficulty, mode='practice'):
+        if mode not in ('practice', 'exam') or difficulty not in ('all', 'easy', 'medium', 'hard'):
+            raise ValueError('Invalid attempt settings')
         self.db.execute('BEGIN IMMEDIATE')
         try:
             questions = self.questions(unit_id, difficulty)
@@ -58,7 +60,7 @@ class Repository:
                 return None
             random.shuffle(questions)
             attempt_id = str(uuid.uuid4())
-            self.db.execute('INSERT INTO quiz_attempts(id,unit_id,difficulty,started_at,total) VALUES (?,?,?,?,?)', (attempt_id, unit_id, difficulty, time.time(), len(questions)))
+            self.db.execute('INSERT INTO quiz_attempts(id,unit_id,difficulty,started_at,total,mode) VALUES (?,?,?,?,?,?)', (attempt_id, unit_id, difficulty, time.time(), len(questions), mode))
             for i, question in enumerate(questions):
                 choices = question['choices'][:]
                 random.shuffle(choices)
@@ -79,20 +81,33 @@ class Repository:
             JOIN question_versions v ON v.id=a.version_id WHERE a.attempt_id=? ORDER BY a.position''', (attempt_id,)):
             result['questions'].append({**json.loads(question['payload']), 'choices': json.loads(question['choices']), 'version_id': question['version_id']})
         result['user_answers'] = {str(r['position']): r['selected'] for r in self.db.execute('SELECT position,selected FROM responses WHERE attempt_id=?', (attempt_id,))}
+        if result['score'] is not None:
+            answered = sum(value is not None for value in result['user_answers'].values())
+            result['grading'] = {
+                'correct': result['score'], 'wrong': answered - result['score'],
+                'unanswered': result['total'] - answered,
+                'percent': round(100 * result['score'] / result['total'], 1),
+                'out_of_twenty': round(20 * result['score'] / result['total'], 1),
+            }
         return result
 
-    def submit_attempt(self, attempt_id, unit_id, difficulty, answers):
+    def submit_attempt(self, attempt_id, unit_id, difficulty, answers, mode='practice'):
         self.db.execute('BEGIN IMMEDIATE')
         try:
             attempt = self.attempt(attempt_id)
-            if not attempt or attempt['unit_id'] != unit_id or attempt['difficulty'] != difficulty:
+            if not attempt or attempt['unit_id'] != unit_id or attempt['difficulty'] != difficulty or attempt['mode'] != mode:
                 raise ValueError('Invalid quiz attempt')
-            if time.time() - attempt['started_at'] > 7200:
-                raise ValueError('Quiz attempt expired')
             # A duplicate request returns the original result, never replaces it.
             if attempt['submitted_at'] is not None:
                 self.db.rollback()
                 return attempt
+            if time.time() - attempt['started_at'] > 7200:
+                raise ValueError('Quiz attempt expired')
+            allowed = {'attempt_token', 'difficulty', 'mode'} | {f'question_{i}' for i in range(attempt['total'])}
+            if any(key not in allowed for key in answers):
+                raise ValueError('Unexpected answer field')
+            if hasattr(answers, 'getlist') and any(len(answers.getlist(key)) != 1 for key in answers):
+                raise ValueError('Repeated answer field')
             score = 0
             for i, question in enumerate(attempt['questions']):
                 selected = answers.get(f'question_{i}')

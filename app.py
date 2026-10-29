@@ -2,7 +2,7 @@
 import os
 import json
 import secrets
-from flask import Flask, abort, g, render_template, request, send_from_directory
+from flask import Flask, abort, g, render_template, request, send_from_directory, url_for
 from itsdangerous import BadSignature, URLSafeTimedSerializer
 from database import DEFAULT_PATH, connect
 from database.repository import Repository
@@ -13,7 +13,8 @@ def create_app(config=None):
     if os.environ.get('MATHSFLOW_ENV') == 'production' and not os.environ.get('SECRET_KEY'):
         raise RuntimeError('SECRET_KEY is required in production')
     application.config.update(SECRET_KEY=os.environ.get('SECRET_KEY') or secrets.token_hex(32),
-                              DATABASE=os.environ.get('MATHSFLOW_DATABASE', str(DEFAULT_PATH)))
+                              DATABASE=os.environ.get('MATHSFLOW_DATABASE', str(DEFAULT_PATH)),
+                              MAX_CONTENT_LENGTH=65536)
     if config:
         application.config.update(config)
     signer = URLSafeTimedSerializer(application.secret_key, salt='quiz-attempt-v2')
@@ -94,30 +95,76 @@ def create_app(config=None):
         return show_study(require_unit(repository().unit(str(unit_id))))
 
     def show_quiz(unit):
-        difficulty = (request.form if request.method == 'POST' else request.args).get('difficulty', 'all')
+        values = request.form if request.method == 'POST' else request.args
+        if any(len(values.getlist(key)) != 1 for key in values):
+            abort(400)
+        mode = values.get('mode', 'practice')
+        if mode not in ('practice', 'exam'):
+            abort(400)
+        difficulty = values.get('difficulty', 'all')
         if difficulty not in ('all', 'easy', 'medium', 'hard'):
             abort(400)
         repo = repository()
         if request.method == 'GET':
-            attempt = repo.start_attempt(unit['id'], difficulty)
-            token = signer.dumps({'attempt_id': attempt['id'], 'unit_id': unit['id'], 'difficulty': difficulty}) if attempt else ''
+            attempt = repo.start_attempt(unit['id'], difficulty, mode)
+            token = signer.dumps({'attempt_id': attempt['id'], 'unit_id': unit['id'], 'difficulty': difficulty, 'mode': mode}) if attempt else ''
         else:
             token = request.form.get('attempt_token', '')
             try:
                 payload = signer.loads(token, max_age=7200)
             except BadSignature:
                 abort(400, description='Το κουίζ έληξε ή δεν είναι έγκυρο. Ανοίξτε το ξανά.')
-            if not isinstance(payload, dict) or payload.get('unit_id') != unit['id'] or payload.get('difficulty') != difficulty or not isinstance(payload.get('attempt_id'), str):
+            if not isinstance(payload, dict) or payload.get('unit_id') != unit['id'] or payload.get('difficulty') != difficulty or payload.get('mode', 'practice') != mode or not isinstance(payload.get('attempt_id'), str):
                 abort(400)
             try:
-                attempt = repo.submit_attempt(payload['attempt_id'], unit['id'], difficulty, request.form)
+                attempt = repo.submit_attempt(payload['attempt_id'], unit['id'], difficulty, request.form, mode)
             except ValueError:
                 abort(400, description='Η προσπάθεια δεν είναι έγκυρη ή έχει λήξει. Ανοίξτε το κουίζ ξανά.')
+        return render_attempt(unit, attempt, token, difficulty, mode)
+
+    def render_attempt(unit, attempt, token, difficulty, mode):
         return render_template('quiz/quiz.html', **context(unit), difficulty=difficulty,
+                               quiz_url=url_for('quiz_unit', unit_id=unit['id']), mode=mode, grading=attempt.get('grading') if attempt else None,
+                               new_attempt_url=url_for('quiz_unit', unit_id=unit['id'], difficulty=difficulty, mode=mode),
+                               result_url=url_for('quiz_result', token=token) if attempt and attempt['score'] is not None else None,
                                teaching_scope=json.loads(unit['payload']).get('teaching_scope'),
                                questions=attempt['questions'] if attempt else [], score=attempt['score'] if attempt else None,
                                total=attempt['total'] if attempt else 0, user_answers=attempt['user_answers'] if attempt else {},
                                attempt_token=token)
+
+    @application.errorhandler(400)
+    @application.errorhandler(413)
+    def quiz_input_error(error):
+        if not request.path.startswith('/quiz/'):
+            return error
+        message = ('Η υποβολή είναι υπερβολικά μεγάλη.' if error.code == 413 else
+                   'Η υποβολή δεν είναι έγκυρη ή η προσπάθεια έχει λήξει. Η βαθμολογία δεν άλλαξε.')
+        return render_template('quiz/error.html', message=message), error.code
+
+    @application.after_request
+    def quiz_privacy(response):
+        if request.path.startswith('/quiz/'):
+            response.headers['Cache-Control'] = 'no-store'
+            response.headers['Referrer-Policy'] = 'no-referrer'
+        return response
+
+    @application.route('/quiz/result/<token>')
+    def quiz_result(token):
+        try:
+            payload = signer.loads(token)
+        except BadSignature:
+            abort(404)
+        if not isinstance(payload, dict) or not isinstance(payload.get('attempt_id'), str):
+            abort(404)
+        attempt = repository().attempt(payload['attempt_id'])
+        if not attempt or attempt['score'] is None or any((
+            payload.get('unit_id') != attempt['unit_id'],
+            payload.get('difficulty') != attempt['difficulty'],
+            payload.get('mode', 'practice') != attempt['mode'],
+        )):
+            abort(404)
+        unit = require_unit(repository().unit(attempt['unit_id']))
+        return render_attempt(unit, attempt, token, attempt['difficulty'], attempt['mode'])
 
     @application.route('/quiz/<school_key>/<class_key>/<subject_key>/<int:lesson_id>', methods=['GET', 'POST'])
     def quiz(school_key, class_key, subject_key, lesson_id):

@@ -13,7 +13,10 @@
     <h1>{{ enotita }}</h1>
 
     <div class="quiz-box">
-        <div class="quiz-title">Κουίζ</div>
+        <div class="quiz-title">{{ 'Εξέταση ενότητας' if mode == 'exam' else 'Κουίζ εξάσκησης' }}</div>
+        <p class="quiz-scope-note">Κάθε σωστή απάντηση δίνει 1 μονάδα. Λάθος και αναπάντητες δίνουν 0, χωρίς αφαίρεση μονάδων.
+        {% if score is none %}Η υποβολή είναι οριστική και διαθέσιμη για 2 ώρες από την έναρξη.
+        {% if mode == 'exam' %}Στην εξέταση δεν εμφανίζονται υποδείξεις. Οι λύσεις εμφανίζονται μετά την υποβολή.{% endif %}{% endif %}</p>
         {% if teaching_scope == 'optional' %}
             <p class="quiz-scope-note">Προαιρετική ενότητα · εξάσκηση και επανάληψη</p>
         {% elif teaching_scope == 'bridge' %}
@@ -27,14 +30,20 @@
         {# ============================================
            DIFFICULTY FILTER
            ============================================ #}
-        <form method="get" style="margin-bottom: 20px;">
+        <form method="get" action="{{ quiz_url }}" class="quiz-settings">
+            <label for="mode"><strong>Τρόπος:</strong></label>
+            <select name="mode" id="mode">
+                <option value="practice" {% if mode == 'practice' %}selected{% endif %}>Εξάσκηση με υποδείξεις</option>
+                <option value="exam" {% if mode == 'exam' %}selected{% endif %}>Εξέταση χωρίς υποδείξεις</option>
+            </select>
             <label for="difficulty"><strong>Επίπεδο:</strong></label>
-            <select name="difficulty" id="difficulty" onchange="this.form.submit()">
+            <select name="difficulty" id="difficulty">
                 <option value="all" {% if difficulty == "all" %}selected{% endif %}>Όλα</option>
                 <option value="easy" {% if difficulty == "easy" %}selected{% endif %}>Βασικό</option>
                 <option value="medium" {% if difficulty == "medium" %}selected{% endif %}>Μέτριο</option>
                 <option value="hard" {% if difficulty == "hard" %}selected{% endif %}>Απαιτητικό</option>
             </select>
+            <button type="submit" class="quiz-btn">Έναρξη νέας προσπάθειας</button>
         </form>
 
         {# ============================================
@@ -43,6 +52,10 @@
         {% if score is not none %}
             <div class="quiz-score-box">
                 <strong>Βαθμολογία:</strong> {{ score }} / {{ total }}
+                <p class="quiz-grade">{{ grading.out_of_twenty }} / 20 · {{ grading.percent }}%</p>
+                <p>Σωστές: {{ grading.correct }} · Λάθος: {{ grading.wrong }} · Αναπάντητες: {{ grading.unanswered }}</p>
+                <a href="{{ result_url }}">Αποθηκευμένο αποτέλεσμα</a>
+                <p>Ο σύνδεσμος δίνει πρόσβαση σε αυτή την προσπάθεια. Κράτησέ τον ιδιωτικό. Τα αποτελέσματα μπορεί να χαθούν σε επανεκκίνηση της υπηρεσίας· κράτησε και δικό σου αντίγραφο.</p>
             </div>
         {% endif %}
 
@@ -52,6 +65,7 @@
         {% if questions %}
             <form method="post">
                 <input type="hidden" name="attempt_token" value="{{ attempt_token }}">
+                <input type="hidden" name="mode" value="{{ mode }}">
                 <input type="hidden" name="difficulty" value="{{ difficulty }}">
 
                 {% for question in questions %}
@@ -73,7 +87,7 @@
                             <p class="quiz-scope-note">Προαιρετική σύνθετη εξάσκηση</p>
                         {% endif %}
 
-                        {% if score is none and question.hint %}
+                        {% if score is none and mode != 'exam' and question.hint %}
                             <details class="quiz-hint">
                                 <summary>Χρειάζεσαι μια υπόδειξη;</summary>
                                 <p class="mathjax-content">{{ question.hint }}</p>
@@ -86,6 +100,7 @@
                                     type="radio"
                                     name="question_{{ q_index }}"
                                     value="{{ choice }}"
+                                    {% if score is not none %}disabled{% endif %}
                                     {% if user_answers.get(q_index|string) == choice %}checked{% endif %}
                                 >
                                 <span class="mathjax-content">{{ choice }}</span>
@@ -94,6 +109,7 @@
 
                         {% if score is not none %}
                             <div class="quiz-result mathjax-content">
+                                <p><strong>{{ 'Αναπάντητη' if user_answers.get(q_index|string) is none else ('Σωστή' if user_answers.get(q_index|string) == question.answer else 'Λανθασμένη') }}</strong></p>
                                 <strong>Σωστή απάντηση:</strong> {{ question.answer }}
                                 {% if question.solution %}
                                     <p><strong>Πώς προκύπτει:</strong> {{ question.solution }}</p>
@@ -113,7 +129,7 @@
                 {% if score is none %}
                     <button type="submit" class="quiz-btn">Υποβολή</button>
                 {% else %}
-                    <a href="{{ request.path }}?difficulty={{ difficulty }}">Νέα προσπάθεια</a>
+                    <a href="{{ new_attempt_url }}">Νέα προσπάθεια</a>
                 {% endif %}
             </form>
         {% else %}
