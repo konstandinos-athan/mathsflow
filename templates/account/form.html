@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Λογαριασμός — MathsFlow{% endblock %}
+{% block content %}
+<main class="container account-page">
+{% set titles={'register':'Δημιουργία λογαριασμού','login':'Σύνδεση','recover':'Ανάκτηση λογαριασμού','profile':'Ο λογαριασμός σου','password':'Αλλαγή κωδικού','delete':'Διαγραφή λογαριασμού','deleted':'Ο λογαριασμός διαγράφηκε','recovery_code':'Φύλαξε τον κωδικό ανάκτησης'} %}
+<h1>{{ titles[page] }}</h1>
+{% if error %}<p class="account-error" role="alert">{{ error }}</p>{% endif %}
+{% if page == 'profile' %}
+<p>Συνδέθηκες ως <strong>{{ current_user.username }}</strong>.</p>
+<p><a href="{{ url_for('account_progress') }}">Η πρόοδός σου και το ιστορικό προσπαθειών</a></p>
+<p><a href="{{ url_for('change_password') }}">Αλλαγή κωδικού</a></p>
+<p><a href="{{ url_for('export_account') }}">Λήψη των δεδομένων μου</a> · <a href="{{ url_for('data_rights') }}">Δικαιώματα δεδομένων</a></p>
+<p><a href="{{ url_for('delete_account') }}">Διαγραφή λογαριασμού και προσπαθειών</a></p>
+<form method="post" action="{{ url_for('logout') }}"><input type="hidden" name="csrf" value="{{ csrf_token() }}"><button type="submit">Αποσύνδεση</button></form>
+{% elif page == 'recovery_code' %}
+<p>Αυτός ο προσωπικός κωδικός εμφανίζεται μόνο τώρα. Αποθήκευσέ τον σε ασφαλές μέρος, χωριστά από τον κωδικό σύνδεσης. Ο προηγούμενος κωδικός ανάκτησης, αν υπήρχε, δεν ισχύει πλέον.</p>
+<code class="recovery-code">{{ recovery }}</code>
+<p>Χωρίς τον κωδικό σύνδεσης και χωρίς αυτόν τον κωδικό ανάκτησης, δεν υποστηρίζεται επαναφορά μέσω email.</p>
+<p><a href="{{ url_for('account') if current_user else url_for('login') }}">{{ 'Συνέχεια στον λογαριασμό' if current_user else 'Σύνδεση με τον νέο κωδικό' }}</a></p>
+{% elif page == 'deleted' %}
+<p>Ο λογαριασμός και οι συνδεδεμένες προσπάθειες αφαιρέθηκαν από την ενεργή βάση. Οι ενεργές συνδέσεις ακυρώθηκαν.</p>
+<a href="{{ url_for('home') }}">Συνέχεια χωρίς λογαριασμό</a>
+{% else %}
+{% if page == 'register' %}
+<p>Διάλεξε ψευδώνυμο αντί για πραγματικό όνομα. Δεν ζητάμε email ή ημερομηνία γέννησης.</p>
+<p>Αν είσαι κάτω των 15 ετών, χρησιμοποίησε τα μαθήματα χωρίς λογαριασμό. Η διαδικασία εγγραφής με γονέα δεν είναι ακόμη διαθέσιμη.</p>
+{% elif page == 'recover' %}<p>Χρησιμοποίησε τον προσωπικό κωδικό ανάκτησης που αποθήκευσες. Με την ανάκτηση ακυρώνονται όλες οι προηγούμενες συνδέσεις.</p>
+{% elif page == 'delete' %}<p>Θα διαγραφούν ο λογαριασμός, οι προσπάθειες, οι απαντήσεις και τα δεδομένα προόδου σου. Η ενέργεια δεν αναιρείται.</p>{% endif %}
+<form method="post" class="account-form">
+<input type="hidden" name="csrf" value="{{ csrf_token() }}">
+{% if page in ['register','login','recover'] %}
+<label for="username">Όνομα χρήστη</label><input id="username" name="username" autocomplete="username" minlength="3" maxlength="32" pattern="[A-Za-z0-9_]{3,32}" required>
+{% endif %}
+{% if page == 'recover' %}
+<label for="recovery">Προσωπικός κωδικός ανάκτησης</label><input type="password" id="recovery" name="recovery" autocomplete="off" maxlength="128" required>
+{% endif %}
+{% if page in ['password','delete'] %}
+<label for="current_password">Τρέχων κωδικός</label><input type="password" id="current_password" name="current_password" autocomplete="current-password" maxlength="128" required>
+{% endif %}
+{% if page != 'delete' %}
+<label for="password">{{ 'Κωδικός' if page == 'login' else 'Νέος κωδικός — 15 έως 128 χαρακτήρες' }}</label>
+<input type="password" id="password" name="password" autocomplete="{{ 'current-password' if page == 'login' else 'new-password' }}" {% if page != 'login' %}minlength="15"{% endif %} maxlength="128" required>
+{% if page != 'login' %}<label for="confirm">Επιβεβαίωση κωδικού</label><input type="password" id="confirm" name="confirm" autocomplete="new-password" minlength="15" maxlength="128" required>{% endif %}
+{% else %}<label for="confirmation">Γράψε ΔΙΑΓΡΑΦΗ</label><input id="confirmation" name="confirmation" autocomplete="off" required>{% endif %}
+{% if page == 'register' %}
+<label class="account-check"><input type="checkbox" name="age_15" value="yes" required> Έχω συμπληρώσει τα 15 έτη.</label>
+<label class="account-check"><input type="checkbox" name="privacy" value="yes" required> Διάβασα την <a href="{{ url_for('account_privacy') }}">ενημέρωση απορρήτου</a> και συναινώ στην προαιρετική αποθήκευση του λογαριασμού και των προσπαθειών μου.</label>
+{% endif %}
+<button type="submit">{{ {'register':'Δημιουργία λογαριασμού','login':'Σύνδεση','recover':'Επαναφορά κωδικού','password':'Αλλαγή κωδικού','delete':'Οριστική διαγραφή'}[page] }}</button>
+</form>
+{% if page == 'login' %}<p><a href="{{ url_for('register') }}">Δημιουργία λογαριασμού</a> · <a href="{{ url_for('recover') }}">Ξέχασα τον κωδικό</a></p>{% endif %}
+{% endif %}
+<p><a href="{{ url_for('home') }}">Αρχική</a> · <a href="{{ url_for('account_privacy') }}">Απόρρητο λογαριασμού</a></p>
+</main>
+{% endblock %}

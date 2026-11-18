@@ -7,7 +7,7 @@
 
 
 {% block content %}
-<div class="container">
+<main class="container">
 
     {# ============================================
        ΤΙΤΛΟΣ ΜΑΘΗΜΑΤΟΣ
@@ -42,15 +42,11 @@
 
                 {# STUDY ROUTE #}
                 <!-- πάει στη θεωρία της ενότητας -->
-                <a href="{{ url_for('study_unit', unit_id=lesson.id) }}">
-                    <button type="button" class="study-btn">Διάβασμα</button>
-                </a>
+                <a href="{{ url_for('study_unit', unit_id=lesson.id) }}" class="study-btn">Διάβασμα</a>
 
                 {# QUIZ ROUTE #}
                 <!-- πάει στο quiz της ενότητας -->
-                <a href="{{ url_for('quiz_unit', unit_id=lesson.id) }}">
-                    <button type="button" class="quiz-btn">Κουίζ</button>
-                </a>
+                <a href="{{ url_for('quiz_unit', unit_id=lesson.id) }}" class="quiz-btn">Κουίζ</a>
 
             </div>
         </li>
@@ -67,5 +63,5 @@
         ⬅ Πίσω στα μαθήματα
     </button>
 
-</div>
+</main>
 {% endblock %}

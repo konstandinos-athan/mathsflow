@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Λήψη δεδομένων — MathsFlow{% endblock %}
+{% block content %}<main class="container account-page">
+<h1>Λήψη των δεδομένων σου</h1>
+<p>Το αρχείο JSON περιλαμβάνει τα στοιχεία του λογαριασμού, την καταγραφή αποδοχής ενημέρωσης, τις προσπάθειες, τις απαντήσεις και τις επιβραβεύσεις σου. Δεν περιέχει κωδικούς ή μυστικά σύνδεσης. Τα logs παρόχων και τα αντίγραφα ασφαλείας δεν περιλαμβάνονται.</p>
+<p>Η εξαγωγή δεν διαγράφει στοιχεία. Φύλαξε το αρχείο σε ασφαλές μέρος, ειδικά αν χρησιμοποιείς κοινόχρηστη συσκευή.</p>
+{% if error %}<p role="alert" class="account-error">{{ error }}</p>{% endif %}
+<form method="post" class="account-form">
+<input type="hidden" name="csrf" value="{{ csrf_token() }}">
+<label for="current_password">Επιβεβαίωσε τον κωδικό σου</label>
+<input id="current_password" name="current_password" type="password" autocomplete="current-password" maxlength="128" required>
+<button type="submit">Λήψη JSON</button>
+</form><p><a href="{{ url_for('account') }}">Επιστροφή στον λογαριασμό</a></p>
+</main>{% endblock %}

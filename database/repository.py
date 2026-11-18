@@ -49,7 +49,7 @@ class Repository:
             WHERE q.unit_id=? AND (?='all' OR v.difficulty=?) ORDER BY q.display_order,q.id''', (unit_id, difficulty, difficulty))
         return [{**json.loads(r['payload']), 'version_id': r['version_id']} for r in rows]
 
-    def start_attempt(self, unit_id, difficulty, mode='practice'):
+    def start_attempt(self, unit_id, difficulty, mode='practice', user_id=None):
         if mode not in ('practice', 'exam') or difficulty not in ('all', 'easy', 'medium', 'hard'):
             raise ValueError('Invalid attempt settings')
         self.db.execute('BEGIN IMMEDIATE')
@@ -60,7 +60,7 @@ class Repository:
                 return None
             random.shuffle(questions)
             attempt_id = str(uuid.uuid4())
-            self.db.execute('INSERT INTO quiz_attempts(id,unit_id,difficulty,started_at,total,mode) VALUES (?,?,?,?,?,?)', (attempt_id, unit_id, difficulty, time.time(), len(questions), mode))
+            self.db.execute('INSERT INTO quiz_attempts(id,unit_id,difficulty,started_at,total,mode,user_id) VALUES (?,?,?,?,?,?,?)', (attempt_id, unit_id, difficulty, time.time(), len(questions), mode, user_id))
             for i, question in enumerate(questions):
                 choices = question['choices'][:]
                 random.shuffle(choices)
@@ -117,6 +117,8 @@ class Repository:
                 score += int(correct)
                 self.db.execute('INSERT INTO responses VALUES (?,?,?,?)', (attempt_id, i, selected, int(correct)))
             self.db.execute('UPDATE quiz_attempts SET submitted_at=?,score=? WHERE id=?', (time.time(), score, attempt_id))
+            from .rewards import award_attempt
+            award_attempt(self.db, attempt_id)
             self.db.commit()
             return self.attempt(attempt_id)
         except Exception:

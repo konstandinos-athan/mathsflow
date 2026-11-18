@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Η πρόοδός σου — MathsFlow{% endblock %}
+{% block content %}
+<main class="container progress-page">
+<p><a href="{{ url_for('account') }}">Ο λογαριασμός σου</a></p>
+<h1>Η πρόοδός σου</h1>
+<p>Μικρά βήματα, πιο σταθερές γνώσεις.</p>
+<section class="progress-card reward-panel" aria-labelledby="level-title">
+<h2 id="level-title">Επίπεδο {{ rewards.level }}</h2>
+<p><strong>{{ rewards.xp }} XP</strong> συνολικά · {{ rewards.next_xp }} XP μέχρι το επόμενο επίπεδο</p>
+<label for="level-progress">Πρόοδος επιπέδου: {{ rewards.level_xp }}/{{ rewards.level_size }} XP</label>
+<progress id="level-progress" value="{{ rewards.level_xp }}" max="{{ rewards.level_size }}">{{ rewards.level_xp }}/{{ rewards.level_size }}</progress>
+<h3>Τα σήματά σου</h3>
+<ul class="reward-badges">{% for badge in rewards.badges %}<li class="reward-badge{% if badge.earned %} earned{% endif %}"><strong>{{ badge.title }}</strong><span>{{ 'Κερδήθηκε' if badge.earned else 'Επόμενος στόχος' }} · {{ badge.threshold }} {{ 'σωστή ερώτηση' if badge.threshold == 1 else 'διαφορετικές σωστές ερωτήσεις' }}</span></li>{% endfor %}</ul>
+<details><summary>Πώς κερδίζω XP;</summary><p>Κερδίζεις 10 XP την πρώτη σωστή απάντηση σε κάθε διαφορετική ερώτηση, σε εξάσκηση ή διαγώνισμα. Η επανάληψη, η αλλαγή δυσκολίας ή μια νέα έκδοση της ίδιας ερώτησης δεν δίνει δεύτερη επιβράβευση. Οι λάθος και κενές απαντήσεις δεν προσθέτουν ούτε αφαιρούν XP.</p><p>Ξεκινάς από το επίπεδο 1 και ανεβαίνεις κάθε 100 XP. Τα σήματα δείχνουν πόσες διαφορετικές ερωτήσεις έχουν επιβραβευτεί. Τα XP παραμένουν ακόμη κι αν αργότερα απαντήσεις λάθος· για την πρόσφατη επίδοσή σου δες τους μαθησιακούς στόχους παρακάτω.</p><p>Μετρούν μόνο νέες υποβολές ενώ είσαι συνδεδεμένος, από την ενεργοποίηση των επιβραβεύσεων. Οι παλιές προσπάθειες δεν παίρνουν αναδρομικά XP. Τα επίπεδα δεν αποτελούν βαθμό ή πιστοποίηση γνώσης.</p></details>
+</section>
+<div class="progress-summary"><p><strong>{{ count }}</strong> ολοκληρωμένες προσπάθειες</p><p><strong>{{ covered }}</strong> στόχοι με στοιχεία</p></div>
+{% if not count %}
+<section class="progress-card"><h2>Η αρχή γίνεται με ένα κουίζ</h2><p>Διάλεξε την τάξη και το μάθημά σου. Όταν υποβάλεις ένα κουίζ ενώ είσαι συνδεδεμένος, εδώ θα βρεις την προσπάθεια και την πρόοδό σου.</p><a href="{{ url_for('home') }}">Διάλεξε μάθημα</a></section>
+{% else %}
+<section aria-labelledby="review-title"><h2 id="review-title">Τι να επαναλάβεις</h2>
+{% for item in recommendations %}
+<article class="progress-card"><h3>{{ item.text }}</h3><p>{{ item.grade }} · {{ item.course }} · {{ item.title }}</p><p>Στις {{ item.samples }} πρόσφατες διαφορετικές ερωτήσεις: {{ item.wrong }} λάθος και {{ item.unanswered }} χωρίς απάντηση.</p><p><a href="{{ url_for('study_unit',unit_id=item.unit_id) }}">Διάβασε τη θεωρία</a> · <a href="{{ url_for('quiz_unit',unit_id=item.unit_id) }}">Εξάσκηση στην ενότητα</a></p></article>
+{% else %}<p>Δεν προκύπτουν λάθη ή κενές απαντήσεις από τα διαθέσιμα στοιχεία. Συνέχισε σε νέες ερωτήσεις και στόχους.</p>{% endfor %}
+</section>
+<section aria-labelledby="targets-title"><h2 id="targets-title">Ανά μαθησιακό στόχο</h2>
+<details class="progress-card"><summary>Πώς υπολογίζεται η πρόοδος;</summary><p>Μετρά η τελευταία απάντηση σε καθεμία από έως 5 διαφορετικές ερωτήσεις ανά στόχο, από εξάσκηση και διαγωνίσματα μαζί. Η ίδια ερώτηση δεν προσθέτει νέο στοιχείο όταν επαναλαμβάνεται. Οι κενές απαντήσεις μετρούν ως μη σωστές.</p><p>Με λιγότερες από 3 ερωτήσεις τα στοιχεία είναι λίγα. Από 3 και πάνω, τουλάχιστον 80% σωστές σημαίνει καλή πρόσφατη επίδοση. Αυτό δεν πιστοποιεί κατάκτηση της ύλης. Οι προτάσεις προηγούνται κατά μεγαλύτερο ποσοστό μη σωστών απαντήσεων, έπειτα κατά παλαιότερη εξάσκηση. Μία ερώτηση μπορεί να αφορά περισσότερους στόχους. Παλαιότερες ερωτήσεις χωρίς σύνδεση σε στόχο εμφανίζονται μόνο στο ιστορικό.</p></details>
+<div class="progress-grid">{% for item in objectives %}<article class="progress-card"><p>{{ item.grade }} · {{ item.course }} · {{ item.title }}</p><h3>{{ item.text }}</h3><strong>{{ item.status }}</strong><p>{% if item.samples %}{{ item.correct }}/{{ item.samples }} σωστές · {{ item.percent }}%{% else %}Δεν έχει καταγραφεί απάντηση σε ερώτηση αυτού του στόχου.{% endif %}</p><a href="{{ url_for('quiz_unit',unit_id=item.unit_id) }}">Εξάσκηση στην ενότητα</a></article>{% endfor %}</div>
+</section>
+<section aria-labelledby="history-title"><h2 id="history-title">Ιστορικό προσπαθειών</h2>
+<ol class="progress-history">{% for item in history %}<li class="progress-card"><h3><a href="{{ url_for('account_attempt',attempt_id=item.id) }}">{{ item.title }}</a></h3><p>{{ item.grade }} · {{ item.course }}</p><p>{{ 'Διαγώνισμα' if item.mode=='exam' else 'Εξάσκηση' }} · {{ {'all':'Όλες οι δυσκολίες','easy':'Εύκολο','medium':'Μέτριο','hard':'Δύσκολο'}[item.difficulty] }}</p><p><strong>{{ item.out_of_twenty }}/20</strong> · {{ item.score }}/{{ item.total }} σωστές</p><time>{{ item.date }}</time></li>{% endfor %}</ol>
+<nav aria-label="Σελίδες ιστορικού">{% if page>1 %}<a href="{{ url_for('account_progress',page=page-1) }}#history-title">Προηγούμενη</a> · {% endif %}Σελίδα {{ page }} από {{ pages }}{% if page<pages %} · <a href="{{ url_for('account_progress',page=page+1) }}#history-title">Επόμενη</a>{% endif %}</nav>
+</section>
+{% endif %}
+</main>
+{% endblock %}

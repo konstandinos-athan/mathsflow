@@ -7,6 +7,7 @@
 <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <!-- σύνδεση με το κεντρικό css -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/design.css') }}">
 
     <!-- βασικά meta tags -->
     <meta charset="UTF-8">
@@ -24,6 +25,7 @@
          ============================================ -->
     <!-- ορίζει πώς θα γράφονται τα μαθηματικά -->
 
+{% if needs_mathjax|default(false) %}
    <script>
 window.MathJax = {
     tex: {
@@ -33,6 +35,7 @@ window.MathJax = {
 };
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+{% endif %}
 </head>
 
 
@@ -41,6 +44,7 @@ window.MathJax = {
      ============================================ -->
 <!-- ξεκινά με dark mode και normal font αν δεν έχει φορτωθεί ακόμα localStorage -->
 <body class="dark font-normal {% block body_class %}{% endblock %}">
+<a class="skip-link" href="#page-content">Μετάβαση στο περιεχόμενο</a>
 
 
 <!-- ============================================
@@ -48,27 +52,27 @@ window.MathJax = {
      ============================================ -->
 <!-- το γραναζάκι και το dropdown για theme / text size -->
 <div class="settings">
-    <div class="gear" onclick="toggleMenu()">⚙</div>
+    <button type="button" class="gear" id="settings-toggle" aria-label="Ρυθμίσεις εμφάνισης" aria-controls="menu" aria-expanded="false" onclick="toggleMenu()">⚙</button>
 
-    <div class="settings-menu" id="menu">
+    <div class="settings-menu" id="menu" hidden>
 
         <!-- επιλογές theme -->
         <div class="settings-section">
-            <div class="settings-label">Theme</div>
+            <div class="settings-label">Εμφάνιση</div>
             <div class="segmented">
-                <button id="theme-dark-btn" onclick="setMode('dark')">Dark</button>
-                <button id="theme-light-btn" onclick="setMode('light')">Light</button>
-                <button id="theme-auto-btn" onclick="setMode('auto')">Auto</button>
+                <button id="theme-dark-btn" onclick="setMode('dark')" aria-pressed="false">Σκούρα</button>
+                <button id="theme-light-btn" onclick="setMode('light')" aria-pressed="false">Φωτεινή</button>
+                <button id="theme-auto-btn" onclick="setMode('auto')" aria-pressed="false">Αυτόματη</button>
             </div>
         </div>
 
         <!-- επιλογές μεγέθους γραμμάτων -->
         <div class="settings-section">
-            <div class="settings-label">Text size</div>
+            <div class="settings-label">Μέγεθος κειμένου</div>
             <div class="segmented">
-                <button id="font-small-btn" onclick="setFont('small')">Small</button>
-                <button id="font-normal-btn" onclick="setFont('normal')">Medium</button>
-                <button id="font-large-btn" onclick="setFont('large')">Large</button>
+                <button id="font-small-btn" onclick="setFont('small')" aria-pressed="false">Μικρό</button>
+                <button id="font-normal-btn" onclick="setFont('normal')" aria-pressed="false">Μεσαίο</button>
+                <button id="font-large-btn" onclick="setFont('large')" aria-pressed="false">Μεγάλο</button>
             </div>
         </div>
     </div>
@@ -78,9 +82,10 @@ window.MathJax = {
 <!-- ============================================
      TOP BAR / LOGO
      ============================================ -->
-<div class="topbar">
+<header class="topbar">
     <a href="/" class="logo">MathsFlow</a>
-</div>
+    {% if accounts_enabled %}<nav class="account-nav" aria-label="Λογαριασμός">{% if current_user %}<a href="{{ url_for('account_progress') }}">Η πρόοδός μου</a>{% endif %}<a href="{{ url_for('account') if current_user else url_for('login') }}">{{ current_user.username if current_user else 'Σύνδεση' }}</a></nav>{% endif %}
+</header>
 
 
 <!-- ============================================
@@ -88,7 +93,7 @@ window.MathJax = {
      ============================================ -->
 <!-- δείχνει το path: Αρχική > Σχολείο > Τάξη > Μάθημα > Ενότητα -->
 {% block breadcrumbs %}
-<div class="breadcrumbs">
+<nav class="breadcrumbs" aria-label="Διαδρομή σελίδας">
     <a href="/">Αρχική</a>
 
     {% if school_name %}
@@ -110,7 +115,7 @@ window.MathJax = {
         <span>></span>
         <span>{{ enotita }}</span>
     {% endif %}
-</div>
+</nav>
 
 
 {% endblock %}
@@ -119,7 +124,17 @@ window.MathJax = {
      PAGE CONTENT BLOCK
      ============================================ -->
 <!-- εδώ μπαίνει το περιεχόμενο κάθε σελίδας που κάνει extend το base.html -->
-{% block content %}{% endblock %}
+<div id="page-content" tabindex="-1">{% block content %}{% endblock %}</div>
+<footer class="legal-footer" aria-label="Πληροφορίες ιστοτόπου">
+    <a href="{{ url_for('privacy_policy') }}">Απόρρητο</a>
+    <a href="{{ url_for('cookie_policy') }}">Cookies και τοπική αποθήκευση</a>
+    <a href="{{ url_for('terms_of_use') }}">Όροι χρήσης</a>
+    <a href="{{ url_for('ai_policy') }}">AI και εκπαιδευτικό υλικό</a>
+    <a href="{{ url_for('data_rights') }}">Δικαιώματα δεδομένων</a>
+    <a href="{{ url_for('contact_page') }}">Επικοινωνία</a>
+    <a href="{{ url_for('accessibility_page') }}">Προσβασιμότητα</a>
+    <a href="{{ url_for('cookie_policy') }}#choices">Ρυθμίσεις cookies</a>
+</footer>
 
 
 <!-- ============================================

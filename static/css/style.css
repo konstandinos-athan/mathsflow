@@ -587,3 +587,36 @@ body.light .quiz-figure a { color: #1d4ed8; }
 .quiz-score-box p { margin: 12px 0; line-height: 1.5; }
 .quiz-score-box a { color: inherit; text-decoration: underline; }
 .quiz-choice:has(input:disabled) { cursor: default; }
+
+.account-nav { margin: 12px 0; }
+.progress-page { max-width: 1100px; line-height: 1.65; overflow-wrap: anywhere; }
+.progress-page a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.progress-page h2 { margin-top: 36px; }
+.progress-page h3 { font-size: 1.05em; margin: 0 0 12px; }
+.progress-summary, .progress-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.progress-summary strong { display: block; font-size: 2em; }
+.progress-card { padding: 22px; margin: 16px 0; border: 1px solid #8591aa; border-radius: 14px; min-width: 0; }
+.progress-card p { margin: 10px 0; }
+.progress-card summary { cursor: pointer; font-weight: 700; }
+.progress-history { list-style: none; padding: 0; }
+.reward-panel h2 { margin-top: 0; }
+.reward-panel progress { display: block; width: 100%; height: 18px; margin: 12px 0 24px; accent-color: #10b981; }
+.reward-panel summary { cursor: pointer; }
+.reward-badges { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; padding: 0; list-style: none; }
+.reward-badge { border: 1px solid #8591aa; border-radius: 10px; padding: 14px; }
+.reward-badge span { display: block; font-size: .9em; margin-top: 6px; }
+.reward-badge.earned { border: 2px solid #10b981; }
+@media (max-width: 600px) { .reward-badges { grid-template-columns: 1fr; } }
+.progress-page a:focus-visible, .progress-page summary:focus-visible { outline: 3px solid #60a5fa; outline-offset: 4px; }
+@media (max-width: 600px) { .progress-grid { grid-template-columns: 1fr; } .progress-page { padding: 20px 16px; } .progress-card { padding: 16px; } }
+.account-nav a, .account-page a { color: inherit; text-decoration: underline; }
+.account-page { max-width: 760px; line-height: 1.6; overflow-wrap: anywhere; }
+.account-form { display: grid; gap: 12px; max-width: 500px; }
+.account-form input:not([type=checkbox]) { box-sizing: border-box; width: 100%; padding: 12px; font: inherit; border: 1px solid #8591aa; border-radius: 8px; }
+.account-check { display: block; }
+.account-check input { width: 20px; height: 20px; vertical-align: middle; }
+.account-error { border: 2px solid #d35d59; padding: 12px; }
+.recovery-code { display: block; padding: 20px; border: 2px solid #8591aa; overflow-wrap: anywhere; font-size: 1.2em; }
+
+.account-page button { padding: 12px 20px; border: 0; border-radius: 9px; background: #10b981; color: #07172b; font: inherit; font-weight: 700; cursor: pointer; }
+.account-page button:focus-visible, .account-page input:focus-visible { outline: 3px solid #60a5fa; outline-offset: 3px; }

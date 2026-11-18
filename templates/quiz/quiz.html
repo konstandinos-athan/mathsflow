@@ -6,11 +6,12 @@
 {% block title %}{{ enotita }} - Κουίζ{% endblock %}
 
 {% block content %}
-<div class="container quiz-page">
+<main class="container quiz-page">
     {# ============================================
        UNIT TITLE
        ============================================ #}
     <h1>{{ enotita }}</h1>
+    {% if current_user and score is not none %}<p><a href="{{ url_for('account_progress') }}">Η πρόοδός σου και το ιστορικό προσπαθειών</a></p>{% endif %}
 
     <div class="quiz-box">
         <div class="quiz-title">{{ 'Εξέταση ενότητας' if mode == 'exam' else 'Κουίζ εξάσκησης' }}</div>
@@ -55,7 +56,7 @@
                 <p class="quiz-grade">{{ grading.out_of_twenty }} / 20 · {{ grading.percent }}%</p>
                 <p>Σωστές: {{ grading.correct }} · Λάθος: {{ grading.wrong }} · Αναπάντητες: {{ grading.unanswered }}</p>
                 <a href="{{ result_url }}">Αποθηκευμένο αποτέλεσμα</a>
-                <p>Ο σύνδεσμος δίνει πρόσβαση σε αυτή την προσπάθεια. Κράτησέ τον ιδιωτικό. Τα αποτελέσματα μπορεί να χαθούν σε επανεκκίνηση της υπηρεσίας· κράτησε και δικό σου αντίγραφο.</p>
+                <p>{% if current_user %}Το αποτέλεσμα είναι διαθέσιμο μόνο στον λογαριασμό σου.{% else %}Ο σύνδεσμος δίνει πρόσβαση σε αυτή την προσπάθεια. Κράτησέ τον ιδιωτικό.{% endif %} Τα αποτελέσματα μπορεί να χαθούν σε επανεκκίνηση της υπηρεσίας· κράτησε και δικό σου αντίγραφο.</p>
             </div>
         {% endif %}
 
@@ -71,10 +72,10 @@
                 {% for question in questions %}
                     {% set q_index = loop.index0 %}
 
-                    <div class="quiz-question">
-                        <div class="quiz-question-title quiz-highlight mathjax-content">
+                    <fieldset class="quiz-question">
+                        <legend class="quiz-question-title mathjax-content">
                             {{ loop.index }}. {{ question.question }}
-                        </div>
+                        </legend>
 
                         {% if question.image %}
                             <figure class="quiz-figure">
@@ -123,7 +124,7 @@
                                 {% endif %}
                             </div>
                         {% endif %}
-                    </div>
+                    </fieldset>
                 {% endfor %}
 
                 {% if score is none %}
@@ -141,7 +142,7 @@
         onclick="window.location.href='/school/{{ school_key }}/{{ class_key }}/{{ subject_key }}'">
         ⬅ Πίσω στις ενότητες
     </button>
-</div>
+</main>
 
 {# ============================================
    MATHJAX RERENDER

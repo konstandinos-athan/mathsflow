@@ -1,0 +1,70 @@
+/* Shared visual language. Loaded after the legacy component stylesheet. */
+body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; }
+body.dark { --page: #101b2d; --surface: #17263b; --raised: #20334b; --ink: #f1f5fb; --muted: #b7c6d9; --line: #526780; --accent: #9ccaff; --focus: #f7cf73; --success: #65dbb2; }
+body.light { --page: #f4f6fa; --surface: #ffffff; --raised: #eef3f9; --ink: #192b42; --muted: #4d6078; --line: #77889e; --accent: #194f9b; --focus: #9c4b00; --success: #00684c; }
+body.dark, body.light { background: var(--page); color: var(--ink); }
+a { color: var(--accent); text-underline-offset: .2em; }
+button, input, select { font: inherit; }
+button, select, .study-btn, .quiz-btn, .back-btn { min-height: 44px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 3px solid var(--focus) !important; outline-offset: 4px; }
+[hidden] { display: none !important; }
+.skip-link { position: fixed; top: 8px; left: 12px; padding: 12px 18px; background: var(--surface); z-index: 10001; transform: translateY(-180%); }
+.skip-link:focus { transform: none; }
+body:is(.dark, .light) .topbar, body.home-page .topbar { display: flex; align-items: center; gap: 24px; max-width: 1160px; margin: auto; padding: 22px 88px 22px 28px; border-bottom: 1px solid var(--line); }
+body:is(.dark, .light) .logo, body.home-page .logo { color: var(--ink); font-size: 1.5em; letter-spacing: -.04em; text-shadow: none; }
+.account-nav { display: flex; flex-wrap: wrap; gap: 18px; margin: 0 0 0 auto; font-size: .9em; }
+.account-nav a { text-decoration: none; }
+body:is(.dark, .light) .settings, body.home-page .settings { top: 16px; right: max(16px, calc((100vw - 1130px)/2)); }
+.gear { border: 1px solid var(--line); width: 44px; height: 44px; font-size: 22px; padding: 0; }
+.settings-menu { max-width: calc(100vw - 32px); top: 70px; right: max(16px, calc((100vw - 1130px)/2)); }
+.breadcrumbs { max-width: 1100px; padding: 22px 24px 0; color: var(--muted); overflow-wrap: anywhere; }
+.breadcrumbs a { color: var(--accent); text-decoration: underline; }
+body:is(.dark, .light) .container { max-width: 1040px; margin: 24px auto 56px; padding: 36px; border-radius: 20px; background: var(--surface); border: 1px solid var(--line); }
+body:is(.dark, .light) .account-page { max-width: 760px; }
+h1 { color: var(--ink); font-size: clamp(1.7em, 3.3vw, 2.5em); line-height: 1.2; letter-spacing: -.035em; overflow-wrap: anywhere; margin-bottom: 24px; }
+h2 { line-height: 1.35; font-size: 1.35em; letter-spacing: -.02em; }
+h3 { line-height: 1.5; }
+.lesson-title { font-size: 1.12em; font-weight: 650; margin-bottom: 16px; }
+body:is(.dark, .light) .container > ul > li, body:is(.dark, .light) .theory-box, body:is(.dark, .light) .quiz-question, body:is(.dark, .light) .progress-card { background: var(--raised); border: 1px solid var(--line); padding: 24px; border-radius: 14px; }
+.buttons { flex-wrap: wrap; }
+.study-btn, .quiz-btn, .back-btn { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; font-weight: 650; padding: 10px 18px; border-radius: 9px; }
+body:is(.dark, .light) .study-btn, body:is(.dark, .light) .back-btn, body:is(.dark, .light) .home-start { background: #2459b5; color: #fff; }
+body:is(.dark, .light) .quiz-btn, body:is(.dark, .light) .account-page button { background: #087455; color: #fff; }
+body:is(.dark, .light) .quiz-question-title { display: block; background: transparent; color: var(--ink); padding: 0; font-size: 1.05em; }
+.quiz-choice { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; min-height: 46px; }
+.quiz-choice:has(input:checked) { border-color: var(--accent); background: var(--surface); box-shadow: inset 3px 0 var(--accent); }
+.quiz-choice input { width: 18px; height: 18px; vertical-align: middle; margin-right: 8px; accent-color: #2459b5; }
+.quiz-result { font-size: 1em; }
+body select, .account-form input:not([type=checkbox]) { color: var(--ink); background: var(--surface); border: 1px solid var(--line); }
+.theory-title { color: var(--accent); font-size: 1.15em; }
+.theory-text { max-width: 76ch; }
+.theory-text img { max-width: 100%; height: auto; }
+.theory-text table { display: block; max-width: 100%; overflow-x: auto; }
+.progress-summary { border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+.progress-summary strong { color: var(--accent); }
+body:is(.dark, .light) .reward-badge { background: var(--surface); }
+.reward-badge.earned { border-color: var(--success); }
+.reward-panel progress { accent-color: var(--success); }
+body:is(.dark, .light) .home-page, .home-page { --home-muted: var(--muted); --home-line: var(--line); --home-panel: var(--surface); --home-accent: var(--accent); }
+body.home-page.dark, body.home-page.light { --home-muted: var(--muted); --home-line: var(--line); --home-panel: var(--surface); --home-accent: var(--accent); }
+.home-hero { padding: 64px 0 56px; }
+.home-route { border-radius: 16px; }
+.home-secondary { display: inline-block; margin: 16px 0 0 18px; font-weight: 600; }
+.school-card { border-radius: 16px; }
+.school-symbol { font-family: Georgia, serif; }
+button:active:not(:disabled), .study-btn:active, .quiz-btn:active, .back-btn:active, .school-card:active { transform: none; }
+@media (max-width: 650px) {
+    body:is(.dark, .light) .topbar, body.home-page .topbar { padding: 18px 76px 18px 18px; gap: 12px; flex-wrap: wrap; }
+    .account-nav { margin-left: 0; width: 100%; gap: 16px; }
+    body:is(.dark, .light) .container { margin: 18px 12px 36px; padding: 22px 16px; border-radius: 14px; }
+    .breadcrumbs { padding: 18px 18px 0; }
+    body:is(.dark, .light) .container > ul > li, body:is(.dark, .light) .theory-box, body:is(.dark, .light) .quiz-question, body:is(.dark, .light) .progress-card { padding: 18px 14px; }
+    .home-hero { padding: 36px 0; }
+    .home-secondary { margin-left: 0; display: block; }
+    .progress-summary { gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+fieldset.quiz-question { min-width: 0; margin-inline: 0; }
+.legal-footer { display: flex; flex-wrap: wrap; gap: 16px 28px; max-width: 1100px; margin: 32px auto; padding: 20px 24px; border-top: 1px solid var(--line); font-size: .9em; }
+.quiz-question legend { max-width: 100%; padding-inline: 8px; }

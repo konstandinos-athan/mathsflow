@@ -9,6 +9,7 @@
             <h1 id="home-title">Τα μαθηματικά,<br><span>βήμα βήμα.</span></h1>
             <p class="home-lead">Από την πρώτη απορία μέχρι τη λύση. Βρες την τάξη σου και ξεκίνα με την ενότητα που χρειάζεσαι.</p>
             <a class="home-start" href="#schools">Βρες την τάξη σου <span aria-hidden="true">↓</span></a>
+            {% if current_user %}<a class="home-secondary" href="{{ url_for('account_progress') }}">Συνέχεια στην πρόοδό μου →</a>{% endif %}
         </div>
         <aside class="home-route" aria-label="Πώς ξεκινάς">
             <p class="home-route-label">Η διαδρομή σου</p>

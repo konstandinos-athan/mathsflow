@@ -1,154 +1,69 @@
-// ============================================
-// SETTINGS MENU
-// ============================================
-
-// ανοίγει / κλείνει το menu του settings
+// Settings stay usable when browser storage is unavailable.
+const preferences = {mode: 'auto', font: 'normal'};
+try {
+    const mode = localStorage.getItem('mode');
+    const font = localStorage.getItem('font');
+    if (['auto','dark','light'].includes(mode)) preferences.mode = mode;
+    if (['small','normal','large'].includes(font)) preferences.font = font;
+} catch (_) { /* Private or restricted storage: keep in-memory preferences. */ }
+function savePreference(key, value) {
+    preferences[key] = value;
+    try { localStorage.setItem(key, value); } catch (_) {}
+}
+function closeSettings(returnFocus = false) {
+    const menu = document.getElementById('menu');
+    menu.hidden = true;
+    menu.classList.remove('open');
+    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'false');
+    if (returnFocus) document.getElementById('settings-toggle').focus();
+}
 function toggleMenu() {
-    const menu = document.getElementById("menu");
-    if (!menu) return;
-
-    menu.classList.toggle("open");
+    const menu = document.getElementById('menu');
+    if (!menu.hidden) { closeSettings(); return; }
+    menu.hidden = false;
+    menu.classList.add('open');
+    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'true');
 }
-
-
-// ============================================
-// THEME LOGIC
-// ============================================
-
-// αν το mode είναι auto, κοιτάζει το system theme
-function getEffectiveTheme(mode) {
-    if (mode === "auto") {
-        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-    }
-    return mode;
-}
-
-
-// εφαρμόζει το theme στο body
 function applyTheme(mode) {
-    const effectiveTheme = getEffectiveTheme(mode);
-    document.body.classList.remove("dark", "light");
-    document.body.classList.add(effectiveTheme);
+    const effective = mode === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : mode;
+    document.body.classList.remove('dark','light');
+    document.body.classList.add(effective);
 }
-
-
-// αλλάζει theme και το αποθηκεύει
+function updateActiveButtons() {
+    for (const [group, value] of [['theme', preferences.mode], ['font', preferences.font]]) {
+        document.querySelectorAll(`[id^="${group}-"][id$="-btn"]`).forEach(button => {
+            const active = button.id === `${group}-${value}-btn`;
+            button.classList.toggle('active', active);
+            button.setAttribute('aria-pressed', String(active));
+        });
+    }
+}
 function setMode(mode) {
-    localStorage.setItem("mode", mode);
+    if (!['auto','dark','light'].includes(mode)) return;
+    savePreference('mode',mode);
     applyTheme(mode);
     updateActiveButtons();
 }
-
-
-// ============================================
-// FONT SIZE LOGIC
-// ============================================
-
-// αλλάζει μέγεθος γραμματοσειράς και το αποθηκεύει
-function setFont(size) {
-    document.body.classList.remove("font-small", "font-normal", "font-large");
-    document.body.classList.add("font-" + size);
-    localStorage.setItem("font", size);
+function setFont(size, persist = true) {
+    if (!['small','normal','large'].includes(size)) return;
+    if (persist) savePreference('font',size);
+    document.body.classList.remove('font-small','font-normal','font-large');
+    document.body.classList.add('font-'+size);
     updateActiveButtons();
 }
-
-
-// ============================================
-// ACTIVE BUTTONS
-// ============================================
-
-// ενημερώνει ποια buttons είναι active
-function updateActiveButtons() {
-    const savedMode = localStorage.getItem("mode") || "auto";
-    const savedFont = localStorage.getItem("font") || "normal";
-
-    const themeDarkBtn = document.getElementById("theme-dark-btn");
-    const themeLightBtn = document.getElementById("theme-light-btn");
-    const themeAutoBtn = document.getElementById("theme-auto-btn");
-
-    const fontSmallBtn = document.getElementById("font-small-btn");
-    const fontNormalBtn = document.getElementById("font-normal-btn");
-    const fontLargeBtn = document.getElementById("font-large-btn");
-
-    if (!themeDarkBtn || !themeLightBtn || !themeAutoBtn || !fontSmallBtn || !fontNormalBtn || !fontLargeBtn) {
-        return;
-    }
-
-    themeDarkBtn.classList.remove("active");
-    themeLightBtn.classList.remove("active");
-    themeAutoBtn.classList.remove("active");
-
-    fontSmallBtn.classList.remove("active");
-    fontNormalBtn.classList.remove("active");
-    fontLargeBtn.classList.remove("active");
-
-    if (savedMode === "dark") {
-        themeDarkBtn.classList.add("active");
-    } else if (savedMode === "light") {
-        themeLightBtn.classList.add("active");
-    } else {
-        themeAutoBtn.classList.add("active");
-    }
-
-    if (savedFont === "small") {
-        fontSmallBtn.classList.add("active");
-    } else if (savedFont === "large") {
-        fontLargeBtn.classList.add("active");
-    } else {
-        fontNormalBtn.classList.add("active");
-    }
-}
-
-
-// ============================================
-// PAGE LOAD
-// ============================================
-
-// τρέχει όταν φορτώνει η σελίδα
-// διαβάζει mode / font από localStorage και τα εφαρμόζει
-window.onload = () => {
-    const savedMode = localStorage.getItem("mode") || "auto";
-    const savedFont = localStorage.getItem("font") || "normal";
-
-    document.body.classList.remove("dark", "light", "font-small", "font-normal", "font-large");
-
-    applyTheme(savedMode);
-    document.body.classList.add("font-" + savedFont);
-
-    updateActiveButtons();
-};
-
-
-// ============================================
-// SYSTEM THEME CHANGE
-// ============================================
-
-// αν ο χρήστης έχει auto mode και αλλάξει το system theme,
-// ενημερώνεται αυτόματα και το site
-window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
-    const savedMode = localStorage.getItem("mode") || "auto";
-    if (savedMode === "auto") {
-        applyTheme("auto");
-        updateActiveButtons();
-    }
+applyTheme(preferences.mode);
+setFont(preferences.font, false);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (preferences.mode === 'auto') applyTheme('auto');
 });
-
-
-// ============================================
-// CLOSE MENU ON OUTSIDE CLICK
-// ============================================
-
-// κλείνει το menu αν γίνει click έξω από αυτό
-// αλλά ΜΟΝΟ αν το click δεν είναι ούτε πάνω στο menu ούτε πάνω στο γρανάζι
-document.addEventListener("click", function (e) {
-    const menu = document.getElementById("menu");
-    const gear = document.querySelector(".gear");
-
-    if (!menu || !gear) return;
-
-    if (!menu.contains(e.target) && !gear.contains(e.target)) {
-        menu.classList.remove("open");
-    }
+document.addEventListener('click', event => {
+    if (!event.target.closest('.settings')) closeSettings();
+});
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !document.getElementById('menu').hidden) closeSettings(true);
+});
+document.addEventListener('focusin', event => {
+    if (!event.target.closest('.settings')) closeSettings();
 });
 // Small previews remain readable by opening their original local SVG.
 function addTheoryDiagramLinks() {
