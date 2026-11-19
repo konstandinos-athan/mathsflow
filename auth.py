@@ -113,7 +113,7 @@ def install_auth(app, repository):
                     conn.rollback()
                     abort(429, description='Πολλές προσπάθειες. Δοκίμασε αργότερα.')
                 conn.execute('''INSERT INTO auth_limits(key,hits,expires_at) VALUES (?,1,?)
-                    ON CONFLICT(key) DO UPDATE SET hits=hits+1''',(key,now+window))
+                    ON CONFLICT(key) DO UPDATE SET hits=auth_limits.hits+1''',(key,now+window))
             conn.commit()
         except Exception:
             conn.rollback()
@@ -275,6 +275,7 @@ def install_auth(app, repository):
 
             payload = {
                 'format_version': 1,
+                'contact_requests': rows('SELECT id,category,message,reply,created_at,replied_at FROM contact_requests WHERE user_id=? ORDER BY created_at,id'),
                 'exported_at_unix': time.time(),
                 'account': rows('SELECT id,username,role,created_at FROM users WHERE id=?')[0],
                 'privacy_acknowledgement': rows('SELECT privacy_version,accepted_at FROM account_security WHERE user_id=?'),
@@ -318,6 +319,53 @@ def install_auth(app, repository):
         except Exception:
             conn.rollback();raise
         return form('deleted')
+
+    @app.route('/account/contact', methods=['GET', 'POST'])
+    def contact_requests():
+        user = require_user()
+        if request.method == 'POST':
+            throttle('contact', user['username'], maximum=3, window=3600)
+            category = request.form.get('category', '')
+            message = request.form.get('message', '').strip()
+            if category not in ('general', 'privacy', 'content', 'accessibility', 'security') or not 10 <= len(message) <= 3000:
+                abort(400)
+            conn = db()
+            conn.execute('BEGIN IMMEDIATE')
+            try:
+                conn.execute('INSERT INTO contact_requests(id,user_id,category,message,created_at) VALUES (?,?,?,?,?)',
+                             (str(uuid.uuid4()), user['id'], category, message, time.time()))
+                conn.commit()
+            except Exception:
+                conn.rollback()
+                raise
+            return redirect(url_for('contact_requests'))
+        rows = db().execute('SELECT id,category,message,reply FROM contact_requests WHERE user_id=? ORDER BY created_at DESC LIMIT 50', (user['id'],)).fetchall()
+        return render_template('account/contact.html', requests=rows, admin=False)
+
+    @app.route('/account/admin/contact', methods=['GET', 'POST'])
+    def admin_contact():
+        user = require_user()
+        if user['role'] != 'admin':
+            abort(403)
+        if request.method == 'POST':
+            throttle('contact_reply', user['username'], maximum=30)
+            reply = request.form.get('reply', '').strip()
+            if not 1 <= len(reply) <= 3000:
+                abort(400)
+            conn = db()
+            conn.execute('BEGIN IMMEDIATE')
+            try:
+                if not conn.execute('SELECT id FROM contact_requests WHERE id=?', (request.form.get('id', ''),)).fetchone():
+                    abort(404)
+                conn.execute('UPDATE contact_requests SET reply=?,replied_at=? WHERE id=?',
+                             (reply, time.time(), request.form['id']))
+                conn.commit()
+            except Exception:
+                conn.rollback()
+                raise
+            return redirect(url_for('admin_contact'))
+        rows = db().execute('SELECT id,category,message,reply FROM contact_requests ORDER BY created_at DESC LIMIT 100').fetchall()
+        return render_template('account/contact.html', requests=rows, admin=True)
 
     @app.route('/account/privacy')
     def account_privacy():

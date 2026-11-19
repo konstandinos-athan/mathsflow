@@ -28,7 +28,7 @@ def add_question_version(connection, question_id, payload):
     validate_question(payload)
     content_hash = digest(payload)
     version_id = stable('question-version/' + question_id + '/' + content_hash)
-    connection.execute('INSERT OR IGNORE INTO question_versions VALUES (?,?,?,?,?,?)',
+    connection.execute('INSERT INTO question_versions VALUES (?,?,?,?,?,?) ON CONFLICT DO NOTHING',
                        (version_id, question_id, content_hash, encode(payload), payload['difficulty'], time.time()))
     connection.execute('INSERT INTO current_questions VALUES (?,?) ON CONFLICT(question_id) DO UPDATE SET version_id=excluded.version_id', (question_id, version_id))
     return version_id
@@ -39,7 +39,7 @@ def add_theory_version(connection, unit_id, blocks):
         raise ValueError('Theory must contain text blocks')
     content_hash = digest(blocks)
     version_id = stable('theory-version/' + unit_id + '/' + content_hash)
-    connection.execute('INSERT OR IGNORE INTO theory_versions VALUES (?,?,?,?,?)',
+    connection.execute('INSERT INTO theory_versions VALUES (?,?,?,?,?) ON CONFLICT DO NOTHING',
                        (version_id, unit_id, content_hash, encode(blocks), time.time()))
     connection.execute('INSERT INTO current_theory VALUES (?,?) ON CONFLICT(unit_id) DO UPDATE SET version_id=excluded.version_id', (unit_id, version_id))
     return version_id

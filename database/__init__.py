@@ -11,6 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PATH = ROOT / 'instance' / 'mathsflow.sqlite3'
 
 
+def is_postgres(value):
+    return str(value).startswith(('postgres://', 'postgresql://'))
+
+
 def encode(value):
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
 
@@ -20,6 +24,9 @@ def digest(value):
 
 
 def connect(path, *, create=False):
+    if is_postgres(path):
+        from .postgres import Connection
+        return Connection(str(path))
     path = Path(path).resolve()
     if create:
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -44,6 +51,11 @@ def statements(sql):
 
 
 def migrate(connection, directory=None):
+    if getattr(connection, 'dialect', '') == 'postgres':
+        from .postgres import migrate as pg_migrate
+        if directory is not None:
+            raise ValueError('Custom SQLite migrations cannot run on PostgreSQL')
+        return pg_migrate(connection)
     directory = Path(directory or ROOT / 'migrations')
     files = sorted(directory.glob('[0-9][0-9][0-9]_*.sql'))
     if not files:
@@ -70,6 +82,9 @@ def migrate(connection, directory=None):
 
 
 def check(connection, *, allow_pending=False):
+    if getattr(connection, 'dialect', '') == 'postgres':
+        from .postgres import check as pg_check
+        return pg_check(connection)
     integrity = connection.execute('PRAGMA integrity_check').fetchone()[0]
     if integrity != 'ok' or list(connection.execute('PRAGMA foreign_key_check')):
         raise ValueError('Database integrity check failed')
@@ -87,6 +102,8 @@ def check(connection, *, allow_pending=False):
 
 def copy_database(source_path, destination_path, *, allow_pending=False):
     """Online consistent backup or restore to a NEW file; never overwrite data."""
+    if is_postgres(source_path) or is_postgres(destination_path):
+        raise ValueError('Use pg_dump/pg_restore for PostgreSQL; file backup is SQLite-only')
     source_path, destination_path = Path(source_path).resolve(), Path(destination_path).resolve()
     if source_path == destination_path:
         raise ValueError('Source and destination must differ')

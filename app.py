@@ -6,6 +6,7 @@ from flask import Flask, abort, g, render_template, request, send_from_directory
 from itsdangerous import BadSignature, URLSafeTimedSerializer
 from database import DEFAULT_PATH, connect
 from database.repository import Repository
+from account_config import account_environment
 
 
 def create_app(config=None):
@@ -13,8 +14,9 @@ def create_app(config=None):
     if os.environ.get('MATHSFLOW_ENV') == 'production' and not os.environ.get('SECRET_KEY'):
         raise RuntimeError('SECRET_KEY is required in production')
     application.config.update(SECRET_KEY=os.environ.get('SECRET_KEY') or secrets.token_hex(32),
-                              DATABASE=os.environ.get('MATHSFLOW_DATABASE', str(DEFAULT_PATH)),
+                              DATABASE=os.environ.get('DATABASE_URL') or os.environ.get('MATHSFLOW_DATABASE', str(DEFAULT_PATH)),
                               MAX_CONTENT_LENGTH=65536)
+    application.config.update(account_environment())
     if config:
         application.config.update(config)
     application.config.setdefault('PRODUCTION', os.environ.get('MATHSFLOW_ENV') == 'production')

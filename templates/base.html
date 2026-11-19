@@ -84,7 +84,7 @@ window.MathJax = {
      ============================================ -->
 <header class="topbar">
     <a href="/" class="logo">MathsFlow</a>
-    {% if accounts_enabled %}<nav class="account-nav" aria-label="Λογαριασμός">{% if current_user %}<a href="{{ url_for('account_progress') }}">Η πρόοδός μου</a>{% endif %}<a href="{{ url_for('account') if current_user else url_for('login') }}">{{ current_user.username if current_user else 'Σύνδεση' }}</a></nav>{% endif %}
+    {% if accounts_enabled %}<nav class="account-nav" aria-label="Λογαριασμός">{% if current_user %}<a href="{{ url_for('account_progress') }}">Η πρόοδός μου</a><a href="{{ url_for('account') }}">{{ current_user.username }}</a>{% else %}<a href="{{ url_for('login') }}">Σύνδεση</a><a href="{{ url_for('register') }}">Δημιουργία προφίλ</a>{% endif %}</nav>{% endif %}
 </header>
 
 

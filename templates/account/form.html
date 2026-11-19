@@ -7,6 +7,7 @@
 {% if error %}<p class="account-error" role="alert">{{ error }}</p>{% endif %}
 {% if page == 'profile' %}
 <p>Συνδέθηκες ως <strong>{{ current_user.username }}</strong>.</p>
+<p><a href="{{ url_for('contact_requests') }}">Επικοινωνία και απαντήσεις</a>{% if current_user.role == 'admin' %} · <a href="{{ url_for('admin_contact') }}">Διαχείριση αιτημάτων</a>{% endif %}</p>
 <p><a href="{{ url_for('account_progress') }}">Η πρόοδός σου και το ιστορικό προσπαθειών</a></p>
 <p><a href="{{ url_for('change_password') }}">Αλλαγή κωδικού</a></p>
 <p><a href="{{ url_for('export_account') }}">Λήψη των δεδομένων μου</a> · <a href="{{ url_for('data_rights') }}">Δικαιώματα δεδομένων</a></p>

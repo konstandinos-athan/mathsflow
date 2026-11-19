@@ -36,7 +36,7 @@ def student_progress(db, user_id, page=1):
         WHERE l.latest=1 AND EXISTS (
             SELECT 1 FROM json_each(l.payload,'$.objective_ids') j WHERE j.value=o.id)
     ) SELECT objective_id,COUNT(*) AS samples,SUM(correct) AS correct,
-        SUM(selected IS NULL) AS unanswered,MAX(submitted_at) AS updated_at
+        SUM(CASE WHEN selected IS NULL THEN 1 ELSE 0 END) AS unanswered,MAX(submitted_at) AS updated_at
         FROM ranked WHERE recent<=5 GROUP BY objective_id''', (user_id,)).fetchall()
     by_id = {row['objective_id']: dict(row) for row in evidence}
     objectives = []

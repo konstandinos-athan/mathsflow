@@ -11,6 +11,8 @@ class DataExportTests(DatabaseCase):
         return re.search(rb'name="csrf" value="([^"]+)"', page.data)[1].decode()
 
     def register(self, client, name):
+        home = client.get('/')
+        self.assertIn('Δημιουργία προφίλ'.encode(), home.data)
         response = client.post('/account/register', data=dict(
             csrf=self.token(client, '/account/register'), username=name,
             password=self.password, confirm=self.password, age_15='yes', privacy='yes'))

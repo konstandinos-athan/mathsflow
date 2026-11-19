@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}<main class="container account-page">
+<h1>{{ 'Διαχείριση αιτημάτων' if admin else 'Επικοινωνία και απαντήσεις' }}</h1>
+<p>Μη γράφεις κωδικούς, κωδικό ανάκτησης ή στοιχεία άλλων μαθητών. Οι απαντήσεις εμφανίζονται εδώ, χωρίς email. Εμφανίζονται τα πιο πρόσφατα {{ 100 if admin else 50 }} αιτήματα.</p>
+{% if not admin %}<form method="post" class="account-form">
+<input type="hidden" name="csrf" value="{{ csrf_token() }}">
+<label for="category">Θέμα</label><select id="category" name="category"><option value="general">Γενικό</option><option value="privacy">Δικαιώματα δεδομένων</option><option value="content">Λάθος σε άσκηση</option><option value="accessibility">Προσβασιμότητα</option><option value="security">Ασφάλεια</option></select>
+<label for="message">Μήνυμα</label><textarea id="message" name="message" minlength="10" maxlength="3000" required></textarea><button type="submit">Αποστολή αιτήματος</button></form>{% endif %}
+{% for item in requests %}<article><h2>Αίτημα {{ item.id[:8] }}</h2><p>{{ item.category }}</p><p style="white-space:pre-wrap">{{ item.message }}</p>
+{% if item.reply %}<h3>Απάντηση</h3><p style="white-space:pre-wrap">{{ item.reply }}</p>{% else %}<p>Αναμένεται απάντηση.</p>{% endif %}
+{% if admin %}<form method="post" class="account-form"><input type="hidden" name="csrf" value="{{ csrf_token() }}"><input type="hidden" name="id" value="{{ item.id }}"><label for="reply-{{ item.id }}">Απάντηση</label><textarea id="reply-{{ item.id }}" name="reply" maxlength="3000" required>{{ item.reply }}</textarea><button type="submit">Αποθήκευση απάντησης</button></form>{% endif %}</article>{% else %}<p>Δεν υπάρχουν αιτήματα.</p>{% endfor %}
+</main>{% endblock %}

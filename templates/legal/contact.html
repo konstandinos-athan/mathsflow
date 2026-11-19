@@ -2,6 +2,7 @@
 {% block title %}Επικοινωνία — MathsFlow{% endblock %}
 {% block content %}<main class="container account-page">
 <h1>Επικοινωνία</h1><p role="status">Προσχέδιο — 18/11/2026.</p>
+{% if accounts_enabled %}<p><a href="{{ url_for('contact_requests') if current_user else url_for('login') }}">Επικοινωνία μέσα από τον λογαριασμό σου</a>. Οι απαντήσεις εμφανίζονται στον ίδιο χώρο, χωρίς email.</p>{% endif %}
 {% if controller and contact %}
 <p>Υπεύθυνος: {{ controller }}</p><p>Επικοινωνία: {{ contact }}</p>
 <p>Για θέμα απορρήτου, προσβασιμότητας, λάθος σε άσκηση ή πρόβλημα ασφάλειας, περιέγραψε μόνο όσα είναι απαραίτητα. Μη στείλεις κωδικό πρόσβασης, κωδικό ανάκτησης ή στοιχεία άλλου μαθητή.</p>

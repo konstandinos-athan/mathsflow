@@ -3,15 +3,17 @@ import json
 import re
 import uuid
 from pathlib import Path
-from . import ROOT, check, connect, copy_database, digest, migrate
+from . import ROOT, check, connect, copy_database, digest, migrate, is_postgres
 from .importer import import_data, stable
 from .theory_content import apply_release, validate_release
 from .question_content import deploy_releases
 
 
 def bootstrap(path):
-    path = Path(path)
-    if path.exists():
+    postgres = is_postgres(path)
+    if not postgres:
+        path = Path(path)
+    if not postgres and path.exists():
         copy_database(path, path.parent / 'backups' / ('before-start-' + uuid.uuid4().hex + '.sqlite3'), allow_pending=True)
     db = connect(path, create=True)
     try:

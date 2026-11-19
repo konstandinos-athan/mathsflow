@@ -8,8 +8,9 @@ BADGES = ((1, 'Πρώτο βήμα'), (10, 'Δέκα σωστές'),
 
 def award_attempt(db, attempt_id):
     """Caller owns BEGIN IMMEDIATE; never commit independently of the grade."""
-    db.execute('''INSERT INTO reward_ledger(id,user_id,event_id,reward_type,xp,created_at)
-        SELECT lower(hex(randomblob(16))),a.user_id,v.question_id,?,?,a.submitted_at
+    identifier = 'gen_random_uuid()::text' if getattr(db, 'dialect', '') == 'postgres' else 'lower(hex(randomblob(16)))'
+    db.execute(f'''INSERT INTO reward_ledger(id,user_id,event_id,reward_type,xp,created_at)
+        SELECT {identifier},a.user_id,v.question_id,?,?,a.submitted_at
         FROM quiz_attempts a JOIN responses r ON r.attempt_id=a.id
         JOIN attempt_questions aq ON aq.attempt_id=r.attempt_id AND aq.position=r.position
         JOIN question_versions v ON v.id=aq.version_id
